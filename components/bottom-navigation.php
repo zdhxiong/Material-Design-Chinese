@@ -92,7 +92,7 @@ include $public_files['header'];
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>底部导航提供应用的不同视图之间的快速导航。它主要为移动端设计。</p>
+                    <p>底部导航可以快速切换应用的不同视图。它主要为移动端设计。</p>
                     <p>在较大的显示器上，例如桌面显示器，可以通过侧边栏导航实现类似的效果。例如，在侧边栏使用简洁的“轨道”来排列导航图标。</p>
                   </div>
                   <div class="figure">
@@ -199,7 +199,7 @@ include $public_files['header'];
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>避免在底部导航中使用超过 5 个导航项，那样会使得它们的间距过小。</p>
+                        <p>底部导航的导航项数量不要超过 5 个，否则它们之间的间距会过小。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -229,7 +229,7 @@ include $public_files['header'];
           <div class="article-content">
             <div>
               <h1>图标和文本</h1>
-              <p>底部导航项中的图标应该和它对应的内容相符。</p>
+              <p>底部导航项中的图标应该和它的目标视图的内容相符。</p>
               <p>根据下面的条件来为每个导航项设置样式：</p>
               <ul class="lst-kix_83pple6dg7i4-0 start">
                 <li>导航项<strong>激活</strong>时，显示导航项的图标和文本</li>
@@ -297,7 +297,7 @@ include $public_files['header'];
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>文本标签</h1>
-                    <p>文本标签为导航项图标提供简短的说明。不要使用长文本，因为这些文本不会被截断或换行。</p>
+                    <p>文本标签是对导航项图标的简短说明。这些文本不会被截断或换行，所以应避免使用长文本。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -331,7 +331,7 @@ include $public_files['header'];
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>避免截断文本，因为这样会导致不易理解。</p>
+                        <p>避免截断文本，因为这样会导致理解困难。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -423,7 +423,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p>The bottom navigation bar can disappear and reappear to allow immersive content views.</p>
+                        <p>底部导航栏可以自动隐藏和显示，以带给用户沉浸式的浏览体验。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -461,7 +461,7 @@ include $public_files['header'];
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Transition between active and inactive views using a cross-fade animation.</p>
+                        <p>在不同视图中切换时使用淡入淡出的过渡效果。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -478,7 +478,7 @@ include $public_files['header'];
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid using lateral motion to transition between views.</p>
+                        <p>避免使用横向滑动来切换视图。</p>
                       </figcaption>
                     </figure>
                   </div>
