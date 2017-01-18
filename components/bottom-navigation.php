@@ -439,14 +439,14 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p>The bottom navigation bar remains in view when navigating through the app’s hierarchy.</p>
+                        <p>在应用的层次级页面之间切换时，底部导航栏应保持可见。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Using swipe gestures on the content area does not navigate between views. </p>
+                    <p>在内容区域使用滑动手势无法进行视图的切换。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -490,7 +490,7 @@ include $public_files['header'];
 
         <div id="bottom-navigation-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -501,12 +501,12 @@ include $public_files['header'];
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Fixed bottom navigation bar</h1>
-                    <p>To calculate the width of each bottom navigation action, divide the width of the view by the number of actions:</p>
-                    <p>Width of action = Width of entire view / Number of actions </p>
-                    <p>For example, if a view is 360dp wide, and there are three actions, each action should be 120dp wide.</p>
-                    <p>Desktop and larger views<br>
-                      Alternatively, make all bottom navigation actions the width of the largest action.</p>
+                  <div class="module"><h1>固定状态的底部导航栏</h1>
+                    <p>用底部导航栏的宽度除以导航项的个数，就是每个导航项的宽度：</p>
+                    <p>导航项的宽度 = 导航栏宽度 / 导航项数量</p>
+                    <p>例如：导航栏宽度是 360dp，有 3 个导航项，那么每个导航项宽度是 120dp。</p>
+                    <p>桌面设备以及更大的显示设备上<br>
+                      每个导航项的宽度不要超过最大宽度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -514,7 +514,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed1.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed bottom navigation bar on mobile</p>
+                        <p>移动设备上，固定状态的底部导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -530,31 +530,31 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p>Fixed bottom navigation bar on mobile</p>
+                        <p>移动设备上，固定状态的底部导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Width minimum and maximum (these values include padding):</p>
+                    <p>最小宽度和最大宽度（这个值已经包含了内边距）：</p>
                     <ul class="lst-kix_lnsg4foawz0b-0 start">
-                      <li>Maximum: 168dp</li>
-                      <li>Minimum: 80dp</li>
+                      <li>最大宽度：168dp</li>
+                      <li>最小宽度：80dp</li>
                     </ul>
-                    <p>Height:<br>56dp</p>
-                    <p>Icon: <br>24 x 24dp</p>
-                    <p>Content alignment: <br>Text and icon are centered horizontally within the view.</p>
-                    <p>Padding: </p>
+                    <p>高度：<br>56dp</p>
+                    <p>图标大小：<br>24 x 24dp</p>
+                    <p>内容对齐方式：<br>文本和图标需水平居中。</p>
+                    <p>内边距：</p>
                     <ul class="lst-kix_ddajmnwq7ifo-0 start">
-                      <li>6dp above icon (active view), 8dp above icon (inactive view)</li>
-                      <li>10dp under text</li>
-                      <li>12dp left and right of text</li>
+                      <li>图标上方 6dp（激活状态），8dp（不激活状态）</li>
+                      <li>文本下方 10dp</li>
+                      <li>文本的左右两侧 12dp</li>
                     </ul>
-                    <p>Text label:</p>
+                    <p>文本标签：</p>
                     <ul class="lst-kix_avhrhhhlfjyj-0 start">
-                      <li>Roboto Regular 14sp (active view)</li>
-                      <li>Roboto Regular 12sp (inactive view)</li>
+                      <li>Roboto Regular 14sp（激活状态）</li>
+                      <li>Roboto Regular 12sp（不激活状态）</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -563,7 +563,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed2.png"/>
                       </div>
                       <figcaption>
-                        <p>80dp min width<br>12dp padding</p>
+                        <p>最小宽度 80dp<br>内边距 12dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -571,9 +571,9 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed4.png"/>
                       </div>
                       <figcaption>
-                        <p>56dp height<br>
-                          12dp left and right of text<br>
-                          10dp under text</p>
+                        <p>高度 56dp<br>
+                          文本的左右两侧 12dp<br>
+                          文本下方 10dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -583,8 +583,8 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed3.png"/>
                       </div>
                       <figcaption>
-                        <p>168dp max width<br>
-                          12dp padding</p>
+                        <p>最大宽度 168dp<br>
+                          内边距 12dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -592,7 +592,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed5.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of bottom navigation bar</p>
+                        <p>底部导航栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -607,12 +607,12 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed6.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed bottom navigation bar on landscape mobile</p>
-                        <p>56dp height<br>
-                          24 x 24dp icon<br>
-                          6dp above icon (active view)<br>
-                          8dp above icon (inactive view)<br>
-                          10dp under text</p>
+                        <p>大屏幕移动设备上，固定状态的底部导航栏。</p>
+                        <p>高度 56dp<br>
+                          图标大小 24 x 24dp<br>
+                          图标上方 6dp（激活状态）<br>
+                          图标上方 8dp（不激活状态）<br>
+                          文本下方 10dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -625,12 +625,12 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed7.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed bottom navigation bar on tablet<br>
-                          56dp height<br>
-                          24 x 24dp icon<br>
-                          6dp above icon (active view)<br>
-                          8dp above icon (inactive view)<br>
-                          10dp under text</p>
+                        <p>平板设备上，固定状态的底部导航栏<br>
+                          高度 56dp<br>
+                          图标大小 24 x 24dp<br>
+                          图标上方 6dp（激活状态）<br>
+                          图标上方 8dp（不激活状态）<br>
+                          文本下方 10dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -639,31 +639,31 @@ include $public_files['header'];
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Shifting bottom navigation bar</h1>
-                    <p>Width minimum and maximum (this includes padding):</p>
-                    <p>Active view</p>
+                    <h1>可切换的底部导航栏</h1>
+                    <p>最小宽度和最大宽度（包含内边距）：</p>
+                    <p>激活状态</p>
                     <ul class="lst-kix_6aosjsseydlw-0 start">
-                      <li>Maximum: 168dp</li>
-                      <li>Minimum: 96dp</li>
+                      <li>最大宽度：168dp</li>
+                      <li>最小宽度：96dp</li>
                     </ul>
-                    <p>Inactive view</p>
+                    <p>不激活状态</p>
                     <ul class="lst-kix_so6a7v5i0dzg-0 start">
-                      <li>Maximum: 96dp</li>
-                      <li>Minimum: 56dp</li>
+                      <li>最大宽度：96dp</li>
+                      <li>最小宽度：56dp</li>
                     </ul>
-                    <p>Height:<br>
+                    <p>高度：<br>
                       56dp</p>
-                    <p>Icon: <br>
+                    <p>图标大小：<br>
                       24 x 24dp</p>
-                    <p>Content alignment: <br>
-                      Text and icon are centered horizontally within view.</p>
-                    <p>Padding: </p>
+                    <p>内容对齐方式：<br>
+                      文本和图标需水平居中。</p>
+                    <p>内边距: </p>
                     <ul class="lst-kix_cnaab17jk5is-0 start">
-                      <li>6dp above icon (active view), 16dp above and below icon (inactive view)</li>
-                      <li>10dp under text</li>
+                      <li>图标上方 6dp（激活状态），图标上下两册 16dp（不激活状态）</li>
+                      <li>图标下方 10dp</li>
                     </ul>
-                    <p>Text label:<br>
-                      Roboto Regular 14sp (active view)</p>
+                    <p>文本标签：<br>
+                      Roboto Regular 14sp（激活状态）</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -671,13 +671,13 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting1.png"/>
                       </div>
                       <figcaption>
-                        <p>Shifting bottom navigation bar on mobile<br>
-                          56dp height<br>
-                          24 x 24dp icon<br>
-                          6dp above icon (active view)<br>
-                          10dp under text<br>
-                          6dp below icon<br>
-                          16dp below icon with no title </p>
+                        <p>移动设备上，可切换的底部导航栏<br>
+                          高度 56dp<br>
+                          图标大小 24 x 24dp<br>
+                          图标上方 6dp（激活状态）<br>
+                          文本下方 10dp<br>
+                          图标下方 6dp<br>
+                          没有文本时，图标下方 16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -693,7 +693,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p>Shifting bottom navigation bar on mobile</p>
+                        <p>移动设备上，可切换的底部导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -706,7 +706,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting2.png"/>
                       </div>
                       <figcaption>
-                        <p>Active view: 96dp min width</p>
+                        <p>激活状态：最小宽度 96dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -714,7 +714,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting4.png"/>
                       </div>
                       <figcaption>
-                        <p>Inactive view: 56dp min width</p>
+                        <p>不激活状态：最小宽度 56dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -722,7 +722,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting6-.png"/>
                       </div>
                       <figcaption>
-                        <p>Text labels may use the maximum width on the active view.</p>
+                        <p>激活的导航项上的文本标签可以使用最大宽度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -732,7 +732,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting3.png"/>
                       </div>
                       <figcaption>
-                        <p>Active view: 168dp max width</p>
+                        <p>激活状态：最大宽度 168dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -740,7 +740,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting5.png"/>
                       </div>
                       <figcaption>
-                        <p>Inactive view: 96dp max width </p>
+                        <p>不激活状态：最大宽度 96dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -748,7 +748,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting7.png"/>
                       </div>
                       <figcaption>
-                        <p>Text labels may use the maximum width on the active view.</p>
+                        <p>激活的导航项上的文本标签可以使用最大宽度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -763,13 +763,13 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting8.png"/>
                       </div>
                       <figcaption>
-                        <p>Shifting bottom navigation bar on landscape mobile<br>
-                          56dp height<br>
-                          24 x 24dp icon<br>
-                          6dp above icon (active view)<br>
-                          10dp under text<br>
-                          6dp below icon<br>
-                          16dp below icon with no title </p>
+                        <p>大屏移动设备上的可切换底部导航栏<br>
+                          高度 56dp<br>
+                          图标大小 24 x 24dp<br>
+                          图标上方 6dp（激活状态）<br>
+                          文本下方 10dp<br>
+                          图标下方 6dp<br>
+                          没有文本时，图标下方 16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -782,13 +782,13 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting9.png"/>
                       </div>
                       <figcaption>
-                        <p>Shifting bottom navigation bar on tablet<br>
-                          56dp height<br>
-                          24 x 24dp icon<br>
-                          6dp above icon (active view)<br>
-                          10dp under text<br>
-                          6dp below icon<br>
-                          16dp below icon with no title </p>
+                        <p>在平板上的可切换底部导航栏<br>
+                          高度 56dp<br>
+                          图标大小 24 x 24dp<br>
+                          图标上方 6dp（激活状态）<br>
+                          文本下方 10dp<br>
+                          图标下方 6dp<br>
+                          没有文本时，图标下方 16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -797,9 +797,9 @@ include $public_files['header'];
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Elevation</h1>
-                    <p>Because snackbars have a lower (6dp) elevation, they appear behind the bottom navigation bar (8dp elevation). </p>
-                    <p>Bottom sheets, navigation drawers, and keyboards appear in front of the bottom navigation bar, temporarily covering it. </p>
+                    <h1>层级</h1>
+                    <p>因为 Snackbar 的层级高度为 6dp，而底部导航栏的层级高度为 8dp，所以 Snackbar 会显示在底部导航栏的后面。</p>
+                    <p>而 Bottom sheets, navigation drawers, 和 keyboards 都显示在底部导航栏的前面，完全覆盖住底部导航栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -807,7 +807,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation1.png"/>
                       </div>
                       <figcaption>
-                        <p>Snackbars appear behind the bottom navigation bar.</p>
+                        <p>Snackbar 在底部导航栏后面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -823,7 +823,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p>Bottom sheets and keyboards appear in front of the bottom nav bar, temporarily covering it.</p>
+                        <p>Bottom sheets 和 keyboards 在底部导航栏前面，完全覆盖住底部导航栏。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -838,7 +838,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation3-.png"/>
                       </div>
                       <figcaption>
-                        <p>Orthographic view of app structure</p>
+                        <p>应用结构的正交视图。</p>
                       </figcaption>
                     </figure>
                   </div>
