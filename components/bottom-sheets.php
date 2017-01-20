@@ -21,23 +21,23 @@ include $public_files['header'];
     <div class="chapter-content">
       <div class="article-content chapter-intro">
         <div>
-          <p>Bottom sheets slide up from the bottom of the screen to reveal more content.</p>
+          <p>底部卡片是从屏幕底部边缘向上滑出的一个面板，它用于向用户展示额外的内容。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p><strong>Modal bottom sheets</strong> are primarily for mobile and can also present deep-linked content from other apps.</p>
-                <p><strong>Persistent bottom sheets</strong> integrate with the app to display supporting content. </p>
+                <p><strong>模态化的底部卡片</strong> 主要用于手机端，也可以用于显示来自其他应用的深层链接。</p>
+                <p><strong>固定显示的底部卡片</strong> 和应用是一个整体，用于显示支持的内容。</p>
               </div>
               <div class="module">
-                <h3><strong>Interaction</strong></h3>
-                <p>Bottom sheets are displayed only as a result of a user-initiated action. </p>
-                <h3><strong>Elevation</strong></h3>
-                <p>Modal bottom sheets: Higher than the app<br>
-                  Persistent bottom sheets: Same elevation as the app</p>
-                <h3><strong>Alternatives </strong></h3>
+                <h3><strong>交互</strong></h3>
+                <p>底部卡片必须由用户主动操作来触发显示。</p>
+                <h3><strong>高度</strong></h3>
+                <p>模态化底部卡片：在应用上方<br>
+                  固定显示的底部卡片：与应用高度相同</p>
+                <h3><strong>备选方案</strong></h3>
                 <p>
-                  <a href="dialogs.html#dialogs-simple-menus">Simple dialogs</a> <br>
-                  <a href="menus.html">Menus</a>
+                  <a href="dialogs.html#dialogs-simple-menus">简单对话框</a> <br>
+                  <a href="menus.html">菜单</a>
                 </p>
               </div>
               <div class="figure">
@@ -53,7 +53,7 @@ include $public_files['header'];
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
 
         <ul>
           <li>

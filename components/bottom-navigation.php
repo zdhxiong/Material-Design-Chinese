@@ -123,10 +123,10 @@ include $public_files['header'];
                     <h1>使用场景</h1>
                     <p>底部导航用于：</p>
                     <ul class="lst-kix_l6klgupop2r4-0 start">
-                      <li>有 3 - 5 个同等重要的顶级视图 （替代方法: 可从应用的任何地方进行访问的<a href="../patterns/navigation-drawer.html">抽屉栏导航</a>）</li>
+                      <li>有 3 - 5 个同等重要的顶级视图 （备选方案: 可从应用的任何地方进行访问的<a href="../patterns/navigation-drawer.html">抽屉栏导航</a>）</li>
                     </ul>
                     <ul class="lst-kix_qgzy8a46jwsx-0 start">
-                      <li>目标视图需要从应用的任何地方直接进行访问 （替代方法: 仅在一个或两个视图中使用的<a href="tabs.html">标签</a>（</li>
+                      <li>目标视图需要从应用的任何地方直接进行访问 （备选方案: 仅在一个或两个视图中使用的<a href="tabs.html">标签</a>（</li>
                     </ul>
                   </div>
                   <div class="figure">
