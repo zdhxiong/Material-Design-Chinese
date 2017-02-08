@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Snackbars 与 toasts',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '滑块',
-  'prev_path' => 'components/sliders',
-  'next_title' => '步进器',
-  'next_path' => 'components/steppers'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Snackbars &amp; toasts</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -96,7 +83,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,7 +93,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -123,7 +110,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -133,7 +120,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -149,7 +136,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -159,7 +146,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/snackbars-toasts/components_toasts_usage6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -181,7 +168,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -197,7 +184,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -455,6 +442,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

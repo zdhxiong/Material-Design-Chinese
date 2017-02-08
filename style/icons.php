@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Icons',
-  'category' => '样式',
-  'theme_color' => '#00897B',
-  'color_name' => 'teal',
-  'prev_title' => 'Color',
-  'prev_path' => 'style/color',
-  'next_title' => 'Imagery',
-  'next_path' => 'style/imagery'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Icons</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -2268,6 +2255,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

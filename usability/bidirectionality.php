@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Bidirectionality',
-  'category' => '可用性',
-  'theme_color' => '#AD1457',
-  'color_name' => 'pink',
-  'prev_title' => 'Accessibility',
-  'prev_path' => 'usability/accessibility',
-  'next_title' => 'Platform adaptation',
-  'next_path' => 'platforms/platform-adaptation'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Bidirectionality</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -756,6 +743,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

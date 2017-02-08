@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '工具栏',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '文本框',
-  'prev_path' => 'components/text-fields',
-  'next_title' => '工具提示',
-  'next_path' => 'components/tooltips'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Toolbars</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -128,7 +115,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Constrain width to less than the full length of its material.</p>
                       </figcaption>
                     </figure>
@@ -139,7 +126,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Never allow a sheet of material to be split by another persistent sheet of material.</p>
                       </figcaption>
                     </figure>
@@ -174,6 +161,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

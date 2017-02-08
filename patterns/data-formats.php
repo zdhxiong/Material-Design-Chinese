@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Data formats',
-  'category' => '模式',
-  'theme_color' => '#FB8C00',
-  'color_name' => 'orange',
-  'prev_title' => 'Confirmation &amp; acknowledgement',
-  'prev_path' => 'patterns/confirmation-acknowledgement',
-  'next_title' => 'Empty states',
-  'next_path' => 'patterns/empty-states'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Data formats</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -368,6 +355,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

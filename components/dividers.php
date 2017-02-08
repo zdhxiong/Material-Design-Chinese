@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '分割线',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '提示框',
-  'prev_path' => 'components/dialogs',
-  'next_title' => '可扩展面板',
-  'next_path' => 'components/expansion-panels'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Dividers</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -148,7 +135,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/dividers/components_dividers_usage6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Judicious use of inset dividers demarcates major sections of content.</p>
                       </figcaption>
                     </figure>
@@ -159,7 +146,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/dividers/components_dividers_type1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Use inset dividers in conjunction with anchoring elements such as avatars. </p>
                       </figcaption>
                     </figure>
@@ -173,7 +160,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/dividers/components_dividers_usage4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Overuse of full-bleed dividers creates visual noise and ultimately diminishes the meaning of the dividers.</p>
                       </figcaption>
                     </figure>
@@ -184,7 +171,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/dividers/components_dividers_usage5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Inset dividers help cut down on visual noise and should be used with anchor elements, but overuse reduces their meaning.</p>
                       </figcaption>
                     </figure>
@@ -334,6 +321,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

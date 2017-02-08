@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Bottom sheets',
-  'category' => 'Components',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => 'Bottom navigation',
-  'prev_path' => 'components/bottom-navigation',
-  'next_title' => 'Buttons',
-  'next_path' => 'components/buttons'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Bottom sheets</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
       <div class="article-content chapter-intro">
@@ -57,19 +44,19 @@ include $public_files['header'];
 
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-persistent-bottom-sheets" data-qp-ui-data-id="qp:2">Persistent Bottom Sheets</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-persistent-bottom-sheets" data-qp-ui-data-id="qp:2">固定显示的底部卡片</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-modal-bottom-sheets" data-qp-ui-data-id="qp:3">Modal bottom sheets</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-modal-bottom-sheets" data-qp-ui-data-id="qp:3">模态化的底部卡片</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-behavior" data-qp-ui-data-id="qp:4">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-behavior" data-qp-ui-data-id="qp:4">操作</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-specs" data-qp-ui-data-id="qp:5">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bottom-sheets.html#bottom-sheets-specs" data-qp-ui-data-id="qp:5">规格</a>
           </li>
         </ul>
       </nav>
@@ -78,7 +65,7 @@ include $public_files['header'];
 
         <div id="bottom-sheets-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -89,17 +76,17 @@ include $public_files['header'];
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>There are two major types of bottom sheets:</p>
+                  <div class="module"><p>底部卡片有两种主要类型：</p>
                     <ul class="lst-kix_fbig61rmmdfl-0 start">
                       <li>
-                        <strong>Modal bottom sheets</strong> are alternatives to menus or simple dialogs. They can also present deep-linked content from other apps. They are primarily for mobile.
+                        <strong>模态化底部卡片</strong> 可以被菜单或简单的对话框替代。它也可以用于显示来自其他应用的深层链接。它主要用于手机端。
                       </li>
                       <li>
-                        <strong>Persistent bottom sheets</strong> present in-app content.
+                        <strong>固定显示的底部卡片</strong> 和应用是一个整体，用于显示支持的内容。
                       </li>
                     </ul>
-                    <p>Elevation distinguishes modal from persistent bottom sheets. Modal bottom sheets rest at a higher elevation than the app’s content; whereas persistent bottom sheets rest at the same elevation as the app and integrate with its content.</p>
-                    <p>On larger screens, where space is less constrained, using alternative surfaces and components such as <a href="dialogs.html#dialogs-simple-dialogs">simple dialogs</a> and <a href="menus.html">menus</a> may be more appropriate than bottom sheets.</p>
+                    <p>用高度来区分模态化和固定显示的底部卡片。模态化的底部卡片的高度比应用内容高；而固定显示的底部卡片和应用内容一样高，并且和应用内容是一个整体。</p>
+                    <p>在大屏设备中，有足够空间的情况下，使用其他组件，如<a href="dialogs.html#dialogs-simple-dialogs">简单对话框</a>或<a href="menus.html">菜单</a>代替底部卡片会更合适。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -107,7 +94,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>Modal bottom sheets slide in over an app’s content.</p>
+                        <p>模态化的底部卡片从应用内容的上方滑入。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -117,7 +104,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p>Persistent bottom sheets are an integral part of an app’s layout.</p>
+                        <p>固定显示的底部卡片是应用布局的组成部分。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -129,7 +116,7 @@ include $public_files['header'];
 
         <div id="bottom-sheets-persistent-bottom-sheets" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Persistent Bottom Sheets
+            固定显示的底部卡片
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -142,7 +129,7 @@ include $public_files['header'];
                 <section class="module-figure-module col-3">
                   <div class="module">
                     <p>Persistent bottom sheets display in-app content that supplements the main view. It remains visible even when not actively in use, resting at the same elevation as an app and integrating with its content.</p>
-                    <h2><strong><strong>Usage</strong></strong></h2>
+                    <h2><strong><strong>用法</strong></strong></h2>
                     <ol class="lst-kix_mzdetq3s4nzc-0 start" start="1">
                       <li>To introduce new content on a unique surface</li>
                       <li>To display content equal in value to the primary content</li>
@@ -346,7 +333,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Fully-expanded modal bottom sheets provide an X in the app bar.</p>
                       </figcaption>
                     </figure>
@@ -357,7 +344,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>When navigating downwards into the content hierarchy, it would be appropriate to show an Up arrow.</p>
                       </figcaption>
                     </figure>
@@ -374,7 +361,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal9.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>For modal bottom sheets, don’t initially overlap the app bar. Allow the user to tap/swipe to dismiss.</p>
                       </figcaption>
                     </figure>
@@ -383,7 +370,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>When displaying a long list, modal bottom sheets can scroll internally and expand past the 16:9 keyline. </p>
                       </figcaption>
                     </figure>
@@ -394,7 +381,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>The height of the bottom sheet should be dictated by the amount of content it contains.</p>
                       </figcaption>
                     </figure>
@@ -403,7 +390,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>For modal bottom sheets, don’t initially overlap the app bar. Retain an area for the user to tap outside the bottom sheet to dismiss it. </p>
                       </figcaption>
                     </figure>
@@ -747,6 +734,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

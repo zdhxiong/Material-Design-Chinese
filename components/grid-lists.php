@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '网格列表',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '可扩展面板',
-  'prev_path' => 'components/expansion-panels',
-  'next_title' => '列表',
-  'next_path' => 'components/lists'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Grid lists</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -227,7 +214,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/grid-lists/components_grids_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Indicate content overflow by cutting off grid tiles.</p>
                       </figcaption>
                     </figure>
@@ -238,7 +225,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/grid-lists/components_grids_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Avoid aligning grid tiles along a view edge in the view’s initial scroll position. This positioning doesn’t effectively communicate that there is more content available.</p>
                       </figcaption>
                     </figure>
@@ -563,6 +550,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

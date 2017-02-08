@@ -7,38 +7,97 @@
  */
 
 // 源文件目录相对于当前文件的路径
-$src_path = realpath('./');
+define('SRC_PATH', realpath('./'));
 
 // 构建后的文件存放路径
-$build_path = __DIR__. DIRECTORY_SEPARATOR .'build';
-
-// 公共文件
-$public_files = array(
-  'header'  =>  $src_path.'/public/header.php',
-  'sidenav' =>  $src_path.'/public/sideNav.php',
-  'footer'  =>  $src_path.'/public/footer.php'
-);
+define('BUILD_PATH', __DIR__.'/build');
 
 // 公共翻译
-$translate = array(
-  'do'           =>  '正确示例',
-  'dont'         =>  '错误示例'
-);
+define('TRANSLATE', array(
+  'do'          =>  '正确示例',
+  'dont'        =>  '错误示例'
+));
 
 // 文件夹目录
-$file_folders = array(
-  'components', 'growth-communications', 'layout',
-  'material-design', 'motion', 'patterns', 'platforms',
-  'resources', 'style', 'usability'
-);
+define('FILE_FOLDERS', array(
+  'components',
+  'growth-communications',
+  'layout',
+  'material-design',
+  'motion',
+  'patterns',
+  'platforms',
+  'resources',
+  'style',
+  'usability'
+));
 
-// 所有文件路径数组
-$files = array(
-  array(
-    'folder'  =>  '',
-    'file'    =>  'index'
-  )
-);
+/**
+ * 抽屉栏导航的数据
+ * Class Nav
+ */
+class Nav {
+  private $nav = array();
+  private $original = array();
+
+  public function __construct() {
+    $this->original = include SRC_PATH . '/public/sidenav_data.php';
+
+    $nav_tmp = $nav_tmp2 = array();
+
+    // 首页
+    $nav_tmp[] = array(
+      'folder'      =>  '',
+      'category'    =>  'Material design',
+      'theme_color' =>  '#00bcd4',
+      'color_name'  =>  'cyan',
+      'file'        =>  'index',
+      'title'       =>  'Introduction'
+    );
+
+    foreach($this->original as $key => $val) {
+      foreach($val['children'] as $subkey => $subval) {
+        $nav_tmp[] = array(
+          'folder'      =>  $key,
+          'category'    =>  $val['title'],
+          'theme_color' =>  $val['theme_color'],
+          'color_name'  =>  $val['color_name'],
+          'file'        =>  $subkey,
+          'title'       =>  $subval
+        );
+      }
+    }
+
+    foreach($nav_tmp as $key => $val) {
+      $nav_tmp2[$key] = $nav_tmp[$key];
+      $nav_tmp2[$key]['prev'] = $key > 0 ? $nav_tmp[$key-1] : array();
+      $nav_tmp2[$key]['next'] = $key < count($nav_tmp) - 1 ? $nav_tmp[$key+1] : array();
+    }
+
+    foreach($nav_tmp2 as $key => $val) {
+      $this->nav[$val['folder'].'/'.$val['file']] = $val;
+    }
+
+    unset($nav_tmp, $nav_tmp2);
+  }
+
+  public function getCurrent($file) {
+    return $this->nav[$file['folder'].'/'.$file['file']];
+  }
+
+  public function getPrev($file) {
+    return $this->getCurrent($file)['prev'];
+  }
+
+  public function getNext($file) {
+    return $this->getCurrent($file)['next'];
+  }
+
+  public function getOriginal() {
+    return $this->original;
+  }
+}
+
 
 /**
  * 把文件地址转为相对路径
@@ -50,7 +109,7 @@ function get_url($url) {
   $last_backtrace = array_pop($backtrace);
   $path = dirname($last_backtrace['args'][0]);
 
-  $relative = str_replace($GLOBALS['src_path'], '', $path);
+  $relative = str_replace(SRC_PATH, '', $path);
   $folder = str_replace(DIRECTORY_SEPARATOR, '', $relative);
 
   // index.php
@@ -78,23 +137,6 @@ function url($url) {
 }
 
 /**
- * 输出 drawer 中分类的 HMTL
- * @param $category
- */
-function category_html($category) {
-  echo '<dt class="qp-ui" data-qp-ui="{ \'SideNavZippy\': ' . ($category == $GLOBALS['vars']['category'] ? 'true' : 'false') . ' }">' . $category . '</dt>';
-}
-
-/**
- * 输出 drawer 中标题的 HTML
- * @param $title
- * @param $url
- */
-function title_html($title, $url) {
-  echo '<a ' . ($GLOBALS['vars']['title'] == $title ? 'class="nav_selected"' : '') . ' href="' . get_url($url) . '">' . $title . '</a>';
-}
-
-/**
  * 删除文件夹
  * @param $folder
  * @return bool
@@ -108,7 +150,7 @@ function delete_folder($folder) {
   $dh = opendir($folder);
   while (false !== ($file = readdir($dh))) {
     if ($file != '.' && $file != '..') {
-      $path = $folder . DIRECTORY_SEPARATOR . $file;
+      $path = $folder.'/'.$file;
       if (!is_dir($path)) {
         unlink($path);
       } else {
@@ -131,7 +173,7 @@ function delete_folder($folder) {
  * @param $folder string 文件夹名
  * @return array
  */
-function get_files($folder) {
+function get_folder_files($folder) {
   if (!file_exists($folder)) {
     return array();
   }
@@ -148,46 +190,74 @@ function get_files($folder) {
   return $files;
 }
 
-// 合并所有文件到同一个数组
-foreach($file_folders as $folder) {
-  $folder_path = $src_path . DIRECTORY_SEPARATOR . $folder;
-  $folder_files = get_files($folder_path);
+/**
+ * 获取所有文件列表
+ * @return array
+ */
+function get_all_files() {
+  $files = array();
+  // 合并所有文件到同一个数组
+  foreach(FILE_FOLDERS as $folder) {
+    $folder_path = SRC_PATH.'/'.$folder;
+    $folder_files = get_folder_files($folder_path);
 
-  foreach($folder_files as $file) {
-    $files[] = array(
-      'folder'  =>  $folder,
-      'file'    =>  $file
-    );
+    foreach($folder_files as $file) {
+      $files[] = array(
+        'folder'  =>  $folder,
+        'file'    =>  $file
+      );
+    }
   }
+
+  $files[] = array(
+    'folder'  =>  '',
+    'file'    =>  'index'
+  );
+
+  return $files;
 }
+
+// 所有文件列表
+$files = get_all_files();
+
+$nav = new Nav();
 
 // 删除旧文件
-$index_file = $build_path . DIRECTORY_SEPARATOR . 'index.html';
-if (file_exists($index_file)) {
-  unlink($index_file);
+if (file_exists(BUILD_PATH.'/index.html')) {
+  unlink(BUILD_PATH.'/index.html');
 }
-foreach($file_folders as $folder) {
-  delete_folder($build_path . DIRECTORY_SEPARATOR . $folder);
+foreach(FILE_FOLDERS as $folder) {
+  delete_folder(BUILD_PATH.'/'.$folder);
 }
 
 // 生成文件
 foreach($files as $file) {
   // 生成文件夹
-  $folder_path = $build_path. DIRECTORY_SEPARATOR .$file['folder'];
+  $folder_path = BUILD_PATH.'/'.$file['folder'];
   if(!file_exists($folder_path)) {
     mkdir($folder_path);
   }
 
-  $src_file_path = $src_path. DIRECTORY_SEPARATOR .$file['folder']. DIRECTORY_SEPARATOR .$file['file'].'.php';
-  $build_file_path = $build_path. DIRECTORY_SEPARATOR .$file['folder']. DIRECTORY_SEPARATOR .$file['file'].'.html';
+  $current = $nav->getCurrent($file);
+  $prev = $nav->getPrev($file);
+  $next = $nav->getNext($file);
 
+  // 文件中的参数
+  $vars = array(
+    'title'       =>  $current['title'],
+    'category'    =>  $current['category'],
+    'theme_color' =>  $current['theme_color'],
+    'color_name'  =>  $current['color_name'],
+    'prev_title'  =>  $prev ? $prev['title'] : '',
+    'prev_path'   =>  $prev ? $prev['folder'].'/'.$prev['file'] : '',
+    'next_title'  =>  $next ? $next['title'] : '',
+    'next_path'   =>  $next ? $next['folder'].'/'.$next['file'] : ''
+  );
+
+  // 写入文件
   ob_start();
-
-  include $src_file_path;
+  include SRC_PATH.'/'.$file['folder'].'/'.$file['file'].'.php';
   $file_content = ob_get_contents();
-  file_put_contents($build_file_path, $file_content);
-
+  file_put_contents(BUILD_PATH.'/'.$file['folder'].'/'.$file['file'].'.html', $file_content);
   ob_end_clean();
 }
-
-

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '步进器',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => 'Snackbars 和 toasts',
-  'prev_path' => 'components/snackbars-toasts',
-  'next_title' => '副标题',
-  'next_path' => 'components/subheaders'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Steppers</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -149,7 +136,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/steppers/components_acux_stepper_avoid.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t embed steppers within steppers or use multiple steppers on one page.</p>
                       </figcaption>
                     </figure>
@@ -666,6 +653,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

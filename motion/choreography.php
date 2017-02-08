@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Choreography',
-  'category' => '动效',
-  'theme_color' => '#8E24AA',
-  'color_name' => 'purple',
-  'prev_title' => 'Transforming material',
-  'prev_path' => 'motion/transforming-material',
-  'next_title' => 'Creative customization',
-  'next_path' => 'motion/creative-customization'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Choreography</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -498,6 +485,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '菜单',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '列表控制器',
-  'prev_path' => 'components/lists-controls',
-  'next_title' => '选择器',
-  'next_path' => 'components/pickers'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Menus</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -129,7 +116,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_menus_usage3do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The title “View” accurately describes the unifying characteristic of the menu items it contains.</p>
                       </figcaption>
                     </figure>
@@ -143,7 +130,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_menus_usage3dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>The title “Stuff” is not descriptive and does not help users predict what menu items they will find in the Stuff menu.</p>
                       </figcaption>
                     </figure>
@@ -369,7 +356,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_menus_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The currently selected menu item appears over the emitting element.</p>
                       </figcaption>
                     </figure>
@@ -385,7 +372,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_menus_behavior3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Do not display a duplicate of the selected menu item.</p>
                       </figcaption>
                     </figure>
@@ -401,7 +388,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_menus_behavior4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Menus are positioned over their emitting element.</p>
                       </figcaption>
                     </figure>
@@ -466,7 +453,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The currently selected menu item aligns vertically over the list item.</p>
                       </figcaption>
                     </figure>
@@ -480,7 +467,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The currently selected menu item aligns vertically over the list item.</p>
                       </figcaption>
                     </figure>
@@ -496,7 +483,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>The first menu item is arbitrarily positioned over the list item, regardless of the currently selected menu item.</p>
                       </figcaption>
                     </figure>
@@ -512,7 +499,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The currently selected menu item normally would be positioned over the list item, but because doing so in this case would cause part of the menu to appear off-screen, the entire menu is repositioned vertically.</p>
                       </figcaption>
                     </figure>
@@ -528,7 +515,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Simple menus appear over their emitting element.</p>
                       </figcaption>
                     </figure>
@@ -542,7 +529,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Simple menus do not appear below their emitting element.</p>
                       </figcaption>
                     </figure>
@@ -590,7 +577,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Use a simple dialog if any text in a simple menu wraps to a second line.</p>
                       </figcaption>
                     </figure>
@@ -601,7 +588,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t truncate text in a simple menu. Use a simple dialog instead.</p>
                       </figcaption>
                     </figure>
@@ -618,7 +605,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Display a scroll bar by default for scrollable content.</p>
                       </figcaption>
                     </figure>
@@ -629,7 +616,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus13.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Without a scroll bar, it’s unclear if there are additional menu items available.</p>
                       </figcaption>
                     </figure>
@@ -645,7 +632,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus14.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Each menu item appears only once.</p>
                       </figcaption>
                     </figure>
@@ -656,7 +643,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus15.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t display a duplicate of the selected element.</p>
                       </figcaption>
                     </figure>
@@ -674,7 +661,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus16.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Simple menus are left-aligned regardless of touch location.</p>
                       </figcaption>
                     </figure>
@@ -688,7 +675,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus17.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Simple menus do not reposition based on the touch location.</p>
                       </figcaption>
                     </figure>
@@ -790,6 +777,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

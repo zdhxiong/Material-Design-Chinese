@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Layout templates',
-  'category' => '资源',
-  'theme_color' => '#039BE5',
-  'color_name' => 'light-blue',
-  'prev_title' => 'Devices',
-  'prev_path' => 'resources/devices',
-  'next_title' => 'Roboto &amp; Noto fonts',
-  'next_path' => 'resources/roboto-noto-fonts'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Layout templates</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     
     <div class="chapter-content">
 
@@ -172,6 +159,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

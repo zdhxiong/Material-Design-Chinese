@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Android',
-  'category' => '平台',
-  'theme_color' => '#039BE5',
-  'color_name' => 'default',
-  'prev_title' => 'Platform adaptation',
-  'prev_path' => 'platforms/platform-adaptation',
-  'next_title' => 'Color palettes',
-  'next_path' => 'resources/color-palettes'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Android</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     
     <div class="chapter-content">
 
@@ -36,6 +23,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '窗口小部件',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '工具提示',
-  'prev_path' => 'components/tooltips',
-  'next_title' => '确认和确知',
-  'next_path' => 'patterns/confirmation-acknowledgement'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Widgets</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     
     <div class="chapter-content">
 
@@ -251,6 +238,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

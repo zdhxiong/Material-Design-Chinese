@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Gestures',
-  'category' => '模式',
-  'theme_color' => '#FB8C00',
-  'color_name' => 'orange',
-  'prev_title' => 'Fingerprint',
-  'prev_path' => 'patterns/fingerprint',
-  'next_title' => 'Help &amp; feedback',
-  'next_path' => 'patterns/help-feedback'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Gestures</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -639,6 +626,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '数据表格',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '纸片',
-  'prev_path' => 'components/chips',
-  'next_title' => '提示框',
-  'next_path' => 'components/dialogs'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Data tables</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -553,6 +540,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

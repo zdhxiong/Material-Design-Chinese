@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '按钮',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '底部操作表',
-  'prev_path' => 'components/bottom-sheets',
-  'next_title' => '按钮: 浮动操作按钮',
-  'next_path' => 'components/buttons-floating-action-button'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Buttons</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
       <div class="article-content chapter-intro">
@@ -327,7 +314,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_radius.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Buttons should have a 2dp corner radius </p>
                       </figcaption>
                     </figure>
@@ -468,7 +455,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_main11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Correct use of flat buttons.</p>
                       </figcaption>
                     </figure>
@@ -479,7 +466,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_main12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>These raised buttons appear too prominently.</p>
                       </figcaption>
                     </figure>
@@ -653,7 +640,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_main7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Raised buttons stand out more than flat buttons.</p>
                       </figcaption>
                     </figure>
@@ -664,7 +651,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_main8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t use flat buttons in UIs where they would be difficult to see.</p>
                       </figcaption>
                     </figure>
@@ -813,7 +800,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons/components_buttons_keyline3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1085,6 +1072,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

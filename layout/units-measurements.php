@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Units &amp; measurements',
-  'category' => '布局',
-  'theme_color' => '#AD1457',
-  'color_name' => 'pink',
-  'prev_title' => 'Principles',
-  'prev_path' => 'layout/principles',
-  'next_title' => 'Metrics &amp; keylines',
-  'next_path' => 'layout/metrics-keylines'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Units &amp; measurements</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -288,6 +275,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '平台适配',
-  'category' => '平台',
-  'theme_color' => '#039BE5',
-  'color_name' => 'default',
-  'prev_title' => 'Bidirectionality',
-  'prev_path' => 'usability/bidirectionality',
-  'next_title' => 'Android',
-  'next_path' => 'platforms/android'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Platform adaptation</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -359,6 +346,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

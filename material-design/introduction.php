@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '概述',
-  'category' => 'Material design',
-  'theme_color' => '#00bcd4',
-  'color_name' => 'cyan',
-  'prev_title' => '',
-  'prev_path' => '',
-  'next_title' => 'Environment',
-  'next_path' => 'material-design/environment'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">概述</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -151,6 +138,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

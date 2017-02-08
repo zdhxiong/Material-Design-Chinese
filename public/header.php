@@ -68,5 +68,5 @@
 </form>
 
 <?php
-include $public_files['sidenav'];
+include SRC_PATH.'/public/sideNav.php';
 ?>

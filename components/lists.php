@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '列表',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '网格列表',
-  'prev_path' => 'components/grid-lists',
-  'next_title' => '列表控制器',
-  'next_path' => 'components/lists-controls'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Lists</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -172,7 +159,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/lists/components_lists_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Alphabetical sorting makes information easier to find.</p>
                       </figcaption>
                     </figure>
@@ -183,7 +170,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/lists/components_lists_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t display information in random order; if the UI doesn’t allow the user to sort a list, your app should use a logical sort order.</p>
                       </figcaption>
                     </figure>
@@ -1211,6 +1198,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

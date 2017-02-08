@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => 'Buttons: Floating Action Button',
-  'category' => '组件',
-  'theme_color' => '#3949AB',
-  'color_name' => 'indigo',
-  'prev_title' => '按钮',
-  'prev_path' => 'components/buttons',
-  'next_title' => '卡片',
-  'next_path' => 'components/cards'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Buttons: Floating Action Button</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -194,7 +181,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The primary action is to touch images in a gallery, so no button is needed.</p>
                       </figcaption>
                     </figure>
@@ -205,7 +192,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>The primary action is to add files.</p>
                       </figcaption>
                     </figure>
@@ -222,7 +209,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -232,7 +219,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -250,7 +237,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -273,7 +260,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -290,7 +277,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -300,7 +287,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -315,7 +302,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -325,7 +312,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -402,7 +389,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -418,7 +405,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -444,7 +431,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -460,7 +447,7 @@ include $public_files['header'];
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -609,7 +596,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>In this example, the button lets the user select the media type to add.</p>
                       </figcaption>
                     </figure>
@@ -620,7 +607,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Don’t include unrelated or confusing actions.</p>
                       </figcaption>
                     </figure>
@@ -712,7 +699,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>A floating action button should fling out at least three options.</p>
                       </figcaption>
                     </figure>
@@ -723,7 +710,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>A floating action button should fling out no more than six options.</p>
                       </figcaption>
                     </figure>
@@ -739,7 +726,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Options should be specific destinations.</p>
                       </figcaption>
                     </figure>
@@ -750,7 +737,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Options should not include an overflow menu.</p>
                       </figcaption>
                     </figure>
@@ -766,7 +753,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Overflow menus belong in toolbars.</p>
                       </figcaption>
                     </figure>
@@ -777,7 +764,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>Overflow menus belong in toolbars.</p>
                       </figcaption>
                     </figure>
@@ -791,7 +778,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Floating action button are not overflow menus.</p>
                       </figcaption>
                     </figure>
@@ -802,7 +789,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>Floating action buttons are not overflow menus.</p>
                       </figcaption>
                     </figure>
@@ -818,7 +805,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>A floating action button can transform into related actions.</p>
                       </figcaption>
                     </figure>
@@ -829,7 +816,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>A floating action button should not transform into unrelated actions.</p>
                       </figcaption>
                     </figure>
@@ -845,7 +832,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions14.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                         <p>A floating action button can transform into a list of contacts.</p>
                       </figcaption>
                     </figure>
@@ -856,7 +843,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions16.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                         <p>A floating action button should not transform into unrelated actions.</p>
                       </figcaption>
                     </figure>
@@ -968,7 +955,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -983,7 +970,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -997,7 +984,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement9.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1011,7 +998,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1026,7 +1013,7 @@ include $public_files['header'];
                         <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1046,6 +1033,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>

@@ -1,22 +1,9 @@
-<?php
-$vars = array(
-  'title' => '手势指导',
-  'category' => '增长与用户教育',
-  'theme_color' => '#00bcd4',
-  'color_name' => 'cyan',
-  'prev_title' => 'Feature discovery',
-  'prev_path' => 'growth-communications/feature-discovery',
-  'next_title' => 'Accessibility',
-  'next_path' => 'usability/accessibility'
-);
-
-include $public_files['header'];
-?>
+<?php include SRC_PATH.'/public/header.php'; ?>
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title">Gesture education</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
 
@@ -254,6 +241,4 @@ include $public_files['header'];
   </section>
 </div>
 
-<?php
-include $public_files['footer'];
-?>
+<?php include SRC_PATH.'/public/footer.php'; ?>
