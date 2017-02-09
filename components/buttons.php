@@ -8,30 +8,30 @@
     <div class="chapter-content">
       <div class="article-content chapter-intro">
         <div>
-          <p>按钮传递用户触摸时会发生的操作。</p>
+          <p>按钮用于传递用户触摸时会触发的操作。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
                 <p>Material 按钮在点击时会有水波纹效果。按钮可以显示文本、图像。扁平按钮和浮动按钮是最常用的两种按钮类型。</p>
                 <p>其他的按钮类型包括：</p>
                 <ul class="lst-kix_cps83lvbp1jm-0 start">
-                  <li><strong>底部固定按钮</strong>为扁平按钮，大多用于页面底部或对话框底部。</li>
-                  <li><strong>下拉按钮</strong>显示多个下拉选项。</li>
-                  <li><strong>可切换按钮</strong>将相关选项组合起来。图标切换时允许用户选择或取消选择单个选项。</li>
+                  <li><strong>底部固定按钮</strong> 为扁平按钮，大多用于页面底部或对话框底部。</li>
+                  <li><strong>下拉按钮</strong> 可以显示多个下拉选项。</li>
+                  <li><strong>可切换按钮</strong> 将相关选项组合起来。图标切换时允许用户选择或取消选择单个选项。</li>
                 </ul>
               </div>
               <div class="module">
                 <h3>扁平按钮</h3>
                 <p>扁平按钮只包含文本。<br>
                   它们可用于对话框、工具栏或内嵌在其他组件中。<br>
-                  它们不会改变高度，但会在点击时改变颜色。</p>
+                  它们不会改变 Z 轴高度，但会在点击时改变颜色。</p>
 
                 <h3>浮动按钮</h3>
                 <p>浮动按钮为矩形按钮。<br>
                   它们可以内嵌在其他组件中。<br>
-                  它们在点击时会改变高度和触发水波纹效果。</p>
+                  它们在点击时会改变 Z 轴高度和触发水波纹效果。</p>
 
-                <h3>高度</h3>
+                <h3>Z 轴高度</h3>
                 <p>扁平按钮：0dp<br>
                   浮动按钮：2dp</p>
               </div>
@@ -92,9 +92,9 @@
             <div>
               <p>有三种标准类型的按钮：</p>
               <ul class="lst-kix_4tql5k8r9fvj-0 start">
-                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变高度和触发水波纹效果。</li>
-                <li>浮动按钮：典型的方形纸片按钮，点击后改变高度和触发水波纹效果。</li>
-                <li>扁平按钮：点击时会有水波纹效果，但不会改变高度。</li>
+                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变Z 轴高度和触发水波纹效果。</li>
+                <li>浮动按钮：典型的方形纸片按钮，点击后改变Z 轴高度和触发水波纹效果。</li>
+                <li>扁平按钮：点击时会有水波纹效果，但不会改变Z 轴高度。</li>
               </ul>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
@@ -169,7 +169,7 @@
                   <div class="module">
                     <h1>按钮类型的选择</h1>
                     <p>按钮类型应该根据按钮的优先级、屏幕上容器的数量、以及整体布局来进行选择。</p>
-                    <p><strong>功能：</strong>如果它非常重要、并且会被经常使用到，可以使用浮动操作按钮</p>
+                    <p><strong>功能：</strong>如果它非常重要、并且会被经常用到，可以使用浮动操作按钮</p>
                     <p><strong>尺寸：</strong>根据它所在的容器以及屏幕上 Z 轴方向的层次堆叠数量来决定使用浮动按钮还是扁平按钮。应该避免过多的层叠。</p>
                     <p><strong>布局：</strong>一个容器中应该只使用一种类型的按钮，只在比较特殊的情况下（比如需要强调一个重要的功能）时才可以混合使用多种类型的按钮。</p>
                   </div>
@@ -212,7 +212,7 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>对话框</p></td>
-                        <td colspan="1" rowspan="1"><p>使用 <a href="buttons.html#buttons-flat-buttons">浮动按钮</a></p></td>
+                        <td colspan="1" rowspan="1"><p>使用 <a href="buttons.html#buttons-flat-buttons">扁平按钮</a></p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>内联按钮</p></td>
@@ -250,15 +250,15 @@
                 <section class="module-module-module col-3">
                   <div class="module">
                     <p><strong>卡片</strong></p>
-                    <p>按钮最好放在卡片的左侧，以增加其可见度。然而，由于卡片的布局非常灵活，按钮也可以放在适合于内容和上下文的位置。</p>
+                    <p>按钮最好放在卡片的左侧，以增加其可见度。然而，由于卡片的布局非常灵活，按钮也可以放在适合于内容和上下文的其他位置。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>不标准的对话框和模态化窗口</strong></p>
-                    <p>在不标准的对话框和模态化窗口中，按钮的位置取决于它们包含的内容的复杂性。</p>
+                    <p><strong>非标准的对话框和模态化窗口</strong></p>
+                    <p>在非标准的对话框和模态化窗口中，按钮的位置取决于它们包含的内容的复杂性。</p>
                     <p>如果对话框中的内容相对简单，推荐把按钮放在对话框右侧，并且确定按钮在取消按钮的右侧。</p>
                     <p>对于复杂的表单，建议把按钮放在表单左侧，并且确定按钮在取消按钮的左侧。</p>
                   </div>
@@ -287,7 +287,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>无障碍</h1>
-                    <p>为了确保残障人士可用性，按钮高度为 36dp，可触摸目标的最小高度为 48dp。</p>
+                    <p>为了确保残障人士的可用性，按钮高度为 36dp，可触摸目标的最小高度为 48dp。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -417,12 +417,12 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>用法</h1>
-                    <p>扁平按钮没有高度，但在点击时会填充颜色。</p>
+                    <p>扁平按钮没有 Z 轴高度，但在点击时会填充颜色。</p>
                     <p>在下边的场景中使用扁平按钮：</p>
                     <ul class="lst-kix_sx4zu9flaq2f-0 start">
                       <li>工具栏</li>
                       <li>对话框中，将按钮操作和对话框的内容统一起来</li>
-                      <li>包含内边距的内联按钮，这样用户能够轻易地找到它们</li>
+                      <li>包含内边距的内联按钮，这样可以更容易被用户看到</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -606,7 +606,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>用法</h1>
-                    <p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide spaces.</p>
+                    <p>浮动按钮在平面布局上添加了 Z 轴维度，这对按钮的功能起到了强调作用。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -614,7 +614,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main5.png"/>
                       </div>
                       <figcaption>
-                        <p>Use raised buttons to give more prominence to actions in layouts with a lot of varying content.</p>
+                        <p>使用浮动按钮，可以使按钮在有较多内容的布局中更加显眼。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -624,7 +624,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main6.png"/>
                       </div>
                       <figcaption>
-                        <p>Raised buttons can help delineate sections of content on a page.</p>
+                        <p>浮动按钮可以分隔不同的内容项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -639,7 +639,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Raised buttons stand out more than flat buttons.</p>
+                        <p>浮动按钮比扁平按钮更加显眼。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -650,7 +650,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use flat buttons in UIs where they would be difficult to see.</p>
+                        <p>在很难看到扁平按钮的界面上，不要使用扁平按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -659,7 +659,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Raised buttons behave like a piece of material resting on another sheet – they lift and fill with color on press. </p>
+                    <p>浮动按钮看起来就像一块放在纸上的材料 - 在点击时会改变 Z 轴高度并填充颜色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -667,13 +667,13 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main15.png"/>
                       </div>
                       <figcaption>
-                        <p>Raised Light/Light theme</p>
-                        <p>Minimum width: 88dp <br>
-                          Height: 36dp <br>
-                          Corner radius: 2dp<br>
-                          Disabled text: 26% #000000<br>
-                          Disabled button: 12% #000000</p>
-                        <p>Focused:12% #000000 shade over the color</p>
+                        <p>浮动按钮亮色主题</p>
+                        <p>最小宽度：88dp <br>
+                          高度：36dp <br>
+                          圆角半径2dp<br>
+                          禁用状态文本：26% #000000<br>
+                          禁用状态按钮：12% #000000</p>
+                        <p>聚焦状态：12% #000000 在颜色上有遮罩</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -683,15 +683,15 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main16.png"/>
                       </div>
                       <figcaption>
-                        <p>Raised Dark/Dark theme</p>
-                        <p>Minimum width: 88dp <br>
-                          Height: 36dp <br>
-                          Corner radius: 2dp<br>
-                          Normal color: 500 <br>
-                          Pressed color: 700 <br>
-                          Disabled text: 30% #FFFFFF <br>
-                          Disabled button: 12% #FFFFFF</p>
-                        <p>Focused:12% #000000 shade over the color</p>
+                        <p>浮动按钮暗色主题</p>
+                        <p>最小宽度：88dp <br>
+                          高度：36dp <br>
+                          圆角半径2dp<br>
+                          颜色：500 <br>
+                          按钮按下时的颜色：700 <br>
+                          禁用状态文本：30% #FFFFFF <br>
+                          禁用状态按钮：12% #FFFFFF</p>
+                        <p>聚焦状态：12% #000000 在颜色上有遮罩</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -700,9 +700,9 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>Button Elevation</strong></h2>
-                    <p>Raised buttons have a default elevation of 2dp.</p>
-                    <p>On desktop, raised buttons can gain this elevation on hover.</p>
+                    <h2><strong>按钮 Z 轴高度</strong></h2>
+                    <p>浮动按钮的默认 Z 轴高度为 2dp。</p>
+                    <p>在桌面端，浮动按钮在鼠标移入时才有 Z 轴高度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -710,12 +710,12 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main17.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dark/Light</strong> <strong>theme</strong></p>
-                        <p>Minimum width: 88dp <br>
-                          Height: 36dp <br>
-                          Elevation: 0dp<br>
-                          Disabled text: 30% #FFFFFF<br>
-                          Disabled button: 12% #FFFFFF</p>
+                        <p><strong>暗色/亮色</strong> <strong>主题</strong></p>
+                        <p>最小宽度：88dp <br>
+                          高度：36dp <br>
+                          Z 轴高度：0dp<br>
+                          禁用状态的文本：30% #FFFFFF<br>
+                          禁用状态的按钮：12% #FFFFFF</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -725,7 +725,7 @@
               <div class="col-list">
                 <section class="module-module-figure col-3">
                   <div class="module">
-                    <h1>Behavior</h1></div>
+                    <h1>行为</h1></div>
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -739,7 +739,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Raised buttons</p>
+                        <p>浮动按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -751,7 +751,7 @@
 
         <div id="buttons-persistent-footer-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Persistent footer buttons
+            底部固定按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -763,7 +763,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or persistent footer buttons.</p>
+                    <p>如果需要提供持续有效的按钮给用户，可以使用浮动操作按钮或底部固定按钮。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -771,7 +771,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_keyline2.png"/>
                       </div>
                       <figcaption>
-                        <p>Persistent footer buttons are 48dp tall. </p>
+                        <p>底部固定按钮的高度为 48dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -781,7 +781,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons4.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of persistent footer buttons</p>
+                        <p>底部固定按钮示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -790,7 +790,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Do not use raised buttons within persistent button areas.</p>
+                    <p>不要在底部固定按钮中使用浮动按钮。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -809,7 +809,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A persistent footer button may be used for scrollable dialogs when a divider is added.</p>
+                    <p>用于可滚动的对话框时，可以为底部固定按钮添加一个分隔线。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -817,7 +817,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons5.png"/>
                       </div>
                       <figcaption>
-                        <p>Persistent footer button in dialog</p>
+                        <p>对话框中的底部固定按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -827,7 +827,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons6.png"/>
                       </div>
                       <figcaption>
-                        <p>Persistent footer button in scrollable dialog</p>
+                        <p>可滚动对话框中的底部固定按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -839,7 +839,7 @@
 
         <div id="buttons-dropdown-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            Dropdown buttons
+            下拉按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -851,11 +851,11 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Mobile dropdown buttons</h1>
-                    <h2><strong>Dropdown button</strong></h2>
-                    <p>A dropdown button selects between multiple selections. The button displays the current state and a down arrow. Available states may be shown as a list of strings, a palette, or icons, for example.</p>
-                    <p>When a user interacts with the button, a menu covers the button and displays the possible states. Pressing a state dismisses the menu and updates the button to display this new state. </p>
-                    <p>Scrolling within the dropdown behaves the same way a menu scrolls.</p>
+                    <h1>移动端的下拉按钮</h1>
+                    <h2><strong>下拉按钮</strong></h2>
+                    <p>下拉按钮可以让用户在多个选项之间进行选择。按钮显示当前选项和向下箭头。其他可用选项通过一个列表进行显示。</p>
+                    <p>当用户与按钮交互时，一个菜单会覆盖在按钮上，并显示所有可用的选项。点击其中一个选项时，菜单会关闭，并在按钮上显示新的选项的值。</p>
+                    <p>下拉列表中的滚动操作与菜单的滚动操作相同。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -863,7 +863,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_dropdown1.png"/>
                       </div>
                       <figcaption>
-                        <p>Closed dropdown button, open dropdown menu, and selected dropdown menu</p>
+                        <p>关闭状态的下拉按钮、打开状态的下拉菜单、选中状态的下拉菜单</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -878,7 +878,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_mobile2.png"/>
                       </div>
                       <figcaption>
-                        <p>Generic dropdown button with a list menu</p>
+                        <p>带有列表菜单的下拉按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -888,12 +888,12 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong>Generic overflow dropdown button</strong></h2>
-                    <p>The generic overflow dropdown button displays an arrow or menu button by default. When the button is pressed, the menu appears. Pressing an option on the menu navigates to further settings for that option. </p>
-                    <h2><strong>Segmented dropdown button</strong></h2>
-                    <p>A segmented dropdown has two sections: the current state and the dropdown arrow icon. Pressing the current state will cause that state’s action to fire within the screen. Pressing the dropdown arrow will display all the state options. Selecting one will change the displayed state. </p>
-                    <h2><strong>Editable segmented dropdown button</strong></h2>
-                    <p>This button has a segmented dropdown, where the displayed state is text editable, such as a font size picker. Pressing the current state causes both that state’s action to fire and makes the displayed state editable. Pressing the arrow displays all the state options. </p>
+                    <h2><strong>通用下拉按钮</strong></h2>
+                    <p>默认情况下，通用下拉按钮会显示一个箭头或菜单按钮。当按下按钮时，显示菜单。按下菜单上的选项可以导航到该选项对应的内容。</p>
+                    <h2><strong>分段式下拉按钮</strong></h2>
+                    <p>分段式下拉按钮包含两部分：当前状态和下拉箭头图标。按下当前状态会触发该状态对应的操作。按下下拉箭头会显示所有的状态选项。选择其中一个后将更改显示的状态。</p>
+                    <h2><strong>可编辑分段式下拉按钮</strong></h2>
+                    <p>此按钮包含分段式下拉按钮，但是显示的文本是可以编辑的，例如字体大小选择器。按下当前状态将触发当前状态对应的操作，并使显示的状态可编辑。按下下拉箭头会显示所有的状态选项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -901,7 +901,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_dropdown2.png"/>
                       </div>
                       <figcaption>
-                        <p>Generic, segmented, and editable overflow dropdown buttons in normal, hover, focus, pressed, and selecting states </p>
+                        <p>通用、分段、可编辑下拉按钮，在正常、鼠标悬浮、聚焦、按下和选择状态时的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -922,7 +922,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of dropdown button</p>
+                        <p>下拉按钮的动画</p>
                         <p><a href="https://www.google.com/url?q=https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481817981708000&amp;usg=AFQjCNEWD7fWvP4qJ7clYrALLSScllR3Ow" target="_blank"> </a></p>
                       </figcaption>
                     </figure>
@@ -933,8 +933,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Desktop dropdowns</h1>
-                    <p>Desktop app bar specs<br>
+                    <h1>桌面端下拉按钮</h1>
+                    <p>桌面端应用栏规范<br>
                     </p>
                   </div>
                   <div class="figure">
@@ -943,11 +943,11 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_dropdown3.png"/>
                       </div>
                       <figcaption>
-                        <p>Desktop dropdown</p>
-                        <p>Top and bottom padding: 16dp<br>
-                          Left padding: 24dp<br>
-                          Right margin: 16dp<br>
-                          Horizontal space between font styles: 24dp</p>
+                        <p>桌面端下拉列表</p>
+                        <p>上下内边距：16dp<br>
+                          左侧内边距：24dp<br>
+                          右侧外边距：16dp<br>
+                          字体样式之间的水平距离：24dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -963,7 +963,7 @@
 
         <div id="buttons-toggle-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
-            Toggle buttons
+            可切换按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -975,18 +975,18 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Toggle buttons may be used to group related options. Arrange layout and spacing to convey that certain toggle buttons are part of a group.</p>
-                    <p>Focus and pressed states may reinforce that toggles are part of a group. For example, when one button segment is focused, focus may be displayed simultaneously on the rest of the segment.</p>
-                    <p>Toggle button requirements:</p>
+                    <p>可切换按钮可用于对相关选项进行分组。通过整理布局和间距，来区分哪些按钮属于同一个分组。</p>
+                    <p>聚焦和按下状态可以更加明确的显示某些按钮属于同一个分组。例如，当聚焦到一个按钮分组上时，焦点会同时显示在该分组的其余部分上。</p>
+                    <p>可切换按钮的要求：</p>
                     <ul class="lst-kix_7vmhian9fzi5-0 start">
-                      <li>Have at least three toggle buttons in a group</li>
-                      <li>Label buttons with text, an icon, or both</li>
+                      <li>一个分组中至少包含三个可切换按钮</li>
+                      <li>按钮需要包含文本、或图标、或同时包含文本和图标</li>
                     </ul>
-                    <p>The following combinations are recommended:</p>
+                    <p>建议使用以下组合：</p>
                     <ul class="lst-kix_7vmhian9fzi5-0">
-                      <li>Multiple and unselected</li>
-                      <li>Exclusive and unselected</li>
-                      <li>Exclusive only</li>
+                      <li>支持多选且未选中</li>
+                      <li>仅支持同时选中一个，且未选中</li>
+                      <li>仅支持同时选中一个</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -995,8 +995,8 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons1.png"/>
                       </div>
                       <figcaption>
-                        <p>Exclusive selection</p>
-                        <p>Text justification toggle buttons present options for left, right, center, full, and justified text with only one item available for selection at a time. Selecting one option deselects any other.</p>
+                        <p>同时只能有一个选项被选中</p>
+                        <p>文本对齐按钮组提供左对齐、右对齐、居中对齐、左右对齐等选项，同时只能有一个选项被选中。选中一个选项时会取消其他选项的选中状态。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1004,7 +1004,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons3.png"/>
                       </div>
                       <figcaption>
-                        <p>No options are selected</p>
+                        <p>没有选项被选中</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1014,8 +1014,8 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons2.png"/>
                       </div>
                       <figcaption>
-                        <p>Multiple selection</p>
-                        <p>Logically-grouped options, like Bold, Italic, and Underline, allow multiple options to be selected.</p>
+                        <p>多选</p>
+                        <p>按逻辑分组的选项，如加粗、斜体、添加下划线等，允许同时选中多个选项。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1023,7 +1023,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons4.png"/>
                       </div>
                       <figcaption>
-                        <p>One option is selected</p>
+                        <p>一个选项被选中</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1037,10 +1037,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Icon toggles </h1>
-                    <p>Icons are appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.</p>
-                    <p>They are best located in app bars, toolbars, action buttons or toggles.</p>
-                    <p>Icon toggles may display bounded or unbounded ink <a href="../motion/choreography.html#choreography-radial-reaction">surface reaction</a> ripples beyond their touch-target bounds.</p>
+                    <h1>图标切换</h1>
+                    <p>图标适用于仅允许选中或取消选中单个选项的可切换按钮，例如添加或删除星标。</p>
+                    <p>它们最适合位于应用栏、工具栏、操作按钮或切换开关中。</p>
+                    <p>图标切换可以显示超出其触摸目标范围的有界或无界的<a href="../motion/choreography.html#choreography-radial-reaction">表面反应</a>波纹。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1048,7 +1048,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_other1.png"/>
                       </div>
                       <figcaption>
-                        <p>Icon toggles in normal, hover, focused, pressed, and inactive states </p>
+                        <p>图标切换的正常、鼠标悬浮、聚焦、按下、和禁用状态</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1056,7 +1056,7 @@
                         <img alt="" src="../static/media/components/buttons/inline-components_buttons_toggleicons.png"/>
                       </div>
                       <figcaption>
-                        <p>The icon toggle focus indicator color and opacity are related to the color of the icon. </p>
+                        <p>图标切换获取焦点时的颜色和不透明度和图标的颜色相关。</p>
                       </figcaption>
                     </figure>
                   </div>
