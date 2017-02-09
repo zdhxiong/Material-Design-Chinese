@@ -269,7 +269,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The tabs switch between equally important facets of store content.</p>
                       </figcaption>
                     </figure>
@@ -280,7 +280,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The tabs switch between destinations of varied importance within the store.</p>
                       </figcaption>
                     </figure>
@@ -307,7 +307,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Tabs are presented as a single row.</p>
                       </figcaption>
                     </figure>
@@ -318,7 +318,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Tabs are not presented as a single column.</p>
                       </figcaption>
                     </figure>
@@ -332,7 +332,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use a content hierarchy such that tabs relate to the currently displayed content.</p>
                       </figcaption>
                     </figure>
@@ -343,7 +343,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_example4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Tabs should not be nested.</p>
                       </figcaption>
                     </figure>
@@ -379,7 +379,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_content1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>A long label exceeding the maximum width of a tab may wrap to a second line before being truncated.</p>
                       </figcaption>
                     </figure>
@@ -388,7 +388,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_content3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don't resize single-line labels. If labels are too long, wrap text across two lines or use scrollable tabs</p>
                       </figcaption>
                     </figure>
@@ -399,7 +399,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_content2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Wrap labels before truncating them. Truncating labels too early can impede comprehension.</p>
                       </figcaption>
                     </figure>
@@ -408,7 +408,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_content4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Do not combine text labels with icons. Use either all text labels or all icon labels.</p>
                       </figcaption>
                     </figure>

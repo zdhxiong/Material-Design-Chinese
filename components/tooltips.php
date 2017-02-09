@@ -78,7 +78,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -88,7 +88,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -105,7 +105,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -115,7 +115,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_usage4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>

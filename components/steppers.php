@@ -136,7 +136,7 @@
                         <img alt="" src="../static/media/components/steppers/components_acux_stepper_avoid.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t embed steppers within steppers or use multiple steppers on one page.</p>
                       </figcaption>
                     </figure>

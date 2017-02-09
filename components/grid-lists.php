@@ -214,7 +214,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Indicate content overflow by cutting off grid tiles.</p>
                       </figcaption>
                     </figure>
@@ -225,7 +225,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid aligning grid tiles along a view edge in the view’s initial scroll position. This positioning doesn’t effectively communicate that there is more content available.</p>
                       </figcaption>
                     </figure>

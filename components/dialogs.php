@@ -179,7 +179,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_alerts_1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The affirmative action text “Discard” clearly indicates the outcome of the decision.</p>
                       </figcaption>
                     </figure>
@@ -190,7 +190,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_alerts_2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The dismissive action text “No” answers the question, but does not suggest what will happen afterwards. A better action pair would be an explicit “Cancel” and “Delete.”</p>
                       </figcaption>
                     </figure>
@@ -212,7 +212,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This dialog poses a specific question, concisely elaborates on its impact, and provides clear actions.</p>
                       </figcaption>
                     </figure>
@@ -223,7 +223,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_alerts4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This dialog poses an ambiguous question and its scope of impact is unclear.</p>
                       </figcaption>
                     </figure>
@@ -332,7 +332,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This simple dialog has an explicit “Cancel” button.</p>
                       </figcaption>
                     </figure>
@@ -343,7 +343,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This simple dialog has an explicit “Cancel” button.</p>
                       </figcaption>
                     </figure>
@@ -369,7 +369,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This simple dialog has varying row heights.</p>
                       </figcaption>
                     </figure>
@@ -457,7 +457,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Provide explicit confirmation and cancel buttons.</p>
                       </figcaption>
                     </figure>
@@ -468,7 +468,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>A single dialog button makes the system Back action ambiguous: does Back cancel or confirm?</p>
                       </figcaption>
                     </figure>
@@ -546,7 +546,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use vague terms like “Close” for confirmation actions.</p>
                       </figcaption>
                     </figure>
@@ -557,7 +557,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Prompt users to confirm the discard action if they have made any changes.</p>
                       </figcaption>
                     </figure>
@@ -603,7 +603,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid using titles of variable length in the app bar.</p>
                       </figcaption>
                     </figure>
@@ -614,7 +614,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Place long titles in the content area of the full-screen dialog.</p>
                       </figcaption>
                     </figure>
@@ -672,7 +672,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_swapped_actions_16.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Dismissive actions are always placed directly to the left of affirmative actions.</p>
                       </figcaption>
                     </figure>
@@ -688,7 +688,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_swapped_actions_17.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid presenting users with ambiguous or unclear choices. In this example, “Cancel” doesn't make sense in relation to the title because there's no clear action being proposed.</p>
                       </figcaption>
                     </figure>
@@ -708,7 +708,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_usage5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The “Learn more” action navigates away from this dialog, leaving it in an indeterminate state.</p>
                       </figcaption>
                     </figure>

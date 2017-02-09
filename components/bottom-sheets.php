@@ -333,7 +333,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当模态化底部卡片完全展开时，应该在应用栏上显示关闭按钮</p>
                       </figcaption>
                     </figure>
@@ -344,7 +344,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>当导航到应用的下一级内容时，应该显示一个返回箭头</p>
                       </figcaption>
                     </figure>
@@ -361,7 +361,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal9.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>模态化的底部卡片，初始状态不能和应用栏重叠。允许使用点击/滑动的方式进行关闭。</p>
                       </figcaption>
                     </figure>
@@ -370,7 +370,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当显示长列表时，模态化的底部卡片可以在内部进行滚动，并且展开到超过 16:9 的关键点。</p>
                       </figcaption>
                     </figure>
@@ -381,7 +381,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>底部卡片的高度应由其包含的内容的数量决定。</p>
                       </figcaption>
                     </figure>
@@ -390,7 +390,7 @@
                         <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>模态化的底部卡片，初始状态不能和应用栏重叠。保留一定的空间，让用户可以点击底部卡片外面的区域来关闭它。</p>
                       </figcaption>
                     </figure>

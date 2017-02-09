@@ -122,7 +122,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>底部导航栏显示 3 - 5 个导航项。</p>
                       </figcaption>
                     </figure>
@@ -133,7 +133,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>如果只有 3 个以下的视图需要切换，考虑使用标签进行代替。</p>
                       </figcaption>
                     </figure>
@@ -149,7 +149,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>视图固定在底部导航栏中。</p>
                       </figcaption>
                     </figure>
@@ -160,7 +160,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在底部导航栏中出现滚动条。</p>
                       </figcaption>
                     </figure>
@@ -174,7 +174,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在底部导航中有 5 个导航项。</p>
                       </figcaption>
                     </figure>
@@ -185,7 +185,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>底部导航的导航项数量不要超过 5 个，否则它们之间的间距会过小。</p>
                       </figcaption>
                     </figure>
@@ -235,7 +235,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用主色来表明激活状态。</p>
                       </figcaption>
                     </figure>
@@ -246,7 +246,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用不同颜色的图标和文字。</p>
                       </figcaption>
                     </figure>
@@ -262,7 +262,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>如果底部导航栏已有背景色，使用黑色或白色的图标和文本。</p>
                       </figcaption>
                     </figure>
@@ -273,7 +273,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在有背景色的底部导航栏上使用其他颜色的图标和文本。</p>
                       </figcaption>
                     </figure>
@@ -292,7 +292,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用短文本</p>
                       </figcaption>
                     </figure>
@@ -303,7 +303,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用多行文本</p>
                       </figcaption>
                     </figure>
@@ -317,7 +317,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免截断文本，因为这样会导致理解困难。</p>
                       </figcaption>
                     </figure>
@@ -328,7 +328,7 @@
                         <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免为了使文本在单行显示而缩小文本。</p>
                       </figcaption>
                     </figure>
@@ -447,7 +447,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在不同视图中切换时使用淡入淡出的过渡效果。</p>
                       </figcaption>
                     </figure>
@@ -464,7 +464,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用横向滑动来切换视图。</p>
                       </figcaption>
                     </figure>

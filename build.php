@@ -13,13 +13,13 @@ define('SRC_PATH', realpath('./'));
 define('BUILD_PATH', __DIR__.'/build');
 
 // 公共翻译
-define('TRANSLATE', array(
+$translate = array(
   'do'          =>  '正确示例',
   'dont'        =>  '错误示例'
-));
+);
 
 // 文件夹目录
-define('FILE_FOLDERS', array(
+$file_folders = array(
   'components',
   'growth-communications',
   'layout',
@@ -30,7 +30,7 @@ define('FILE_FOLDERS', array(
   'resources',
   'style',
   'usability'
-));
+);
 
 /**
  * 抽屉栏导航的数据
@@ -197,7 +197,7 @@ function get_folder_files($folder) {
 function get_all_files() {
   $files = array();
   // 合并所有文件到同一个数组
-  foreach(FILE_FOLDERS as $folder) {
+  foreach($GLOBALS['file_folders'] as $folder) {
     $folder_path = SRC_PATH.'/'.$folder;
     $folder_files = get_folder_files($folder_path);
 
@@ -226,7 +226,7 @@ $nav = new Nav();
 if (file_exists(BUILD_PATH.'/index.html')) {
   unlink(BUILD_PATH.'/index.html');
 }
-foreach(FILE_FOLDERS as $folder) {
+foreach($file_folders as $folder) {
   delete_folder(BUILD_PATH.'/'.$folder);
 }
 

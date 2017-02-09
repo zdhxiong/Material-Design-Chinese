@@ -314,7 +314,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_radius.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Buttons should have a 2dp corner radius </p>
                       </figcaption>
                     </figure>
@@ -455,7 +455,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Correct use of flat buttons.</p>
                       </figcaption>
                     </figure>
@@ -466,7 +466,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main12.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>These raised buttons appear too prominently.</p>
                       </figcaption>
                     </figure>
@@ -640,7 +640,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Raised buttons stand out more than flat buttons.</p>
                       </figcaption>
                     </figure>
@@ -651,7 +651,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use flat buttons in UIs where they would be difficult to see.</p>
                       </figcaption>
                     </figure>
@@ -800,7 +800,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_keyline3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>

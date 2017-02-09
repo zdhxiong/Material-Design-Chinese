@@ -159,7 +159,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Alphabetical sorting makes information easier to find.</p>
                       </figcaption>
                     </figure>
@@ -170,7 +170,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t display information in random order; if the UI doesn’t allow the user to sort a list, your app should use a logical sort order.</p>
                       </figcaption>
                     </figure>

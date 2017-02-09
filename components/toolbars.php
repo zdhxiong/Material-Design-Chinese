@@ -115,7 +115,7 @@
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Constrain width to less than the full length of its material.</p>
                       </figcaption>
                     </figure>
@@ -126,7 +126,7 @@
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Never allow a sheet of material to be split by another persistent sheet of material.</p>
                       </figcaption>
                     </figure>

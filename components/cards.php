@@ -142,7 +142,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>1. Cards have rounded corners.<br>
                           2. Cards can have multiple actions.<br>
                           3. Cards can be dismissible and rearranged.</p>
@@ -155,7 +155,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This is a tile, not a card.<br>
                           1. Tiles have square corners.<br>
                           2. Tiles have no more than two actions.</p>
@@ -173,7 +173,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>A quickly scannable list, instead of cards, is an appropriate way to represent homogeneous content that doesn't have many actions.</p>
                       </figcaption>
                     </figure>
@@ -184,7 +184,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards9.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The use of cards here distracts the user from being able to quickly scan. These list items are also not dismissable, so having them on separate cards is confusing. </p>
                       </figcaption>
                     </figure>
@@ -198,7 +198,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards10.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Grid tiles are a clean and lightweight way to present a gallery of images.</p>
                       </figcaption>
                     </figure>
@@ -209,7 +209,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards11.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Cards are unnecessary in a gallery of images (homogeneous content). </p>
                       </figcaption>
                     </figure>
@@ -350,7 +350,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Cards may be expanded to reveal more content, without using scrolling.</p>
                       </figcaption>
                     </figure>
@@ -361,7 +361,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>On mobile, avoid placing scrollable space within a card, as it could cause two sets of scroll bars to be displayed, if one is already present.</p>
                       </figcaption>
                     </figure>
@@ -534,7 +534,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_action2-do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do"><?php echo TRANSLATE['do']; ?></p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use cards as an entry point to more detailed information. </p>
                       </figcaption>
                     </figure>
@@ -545,7 +545,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_action3-dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont"><?php echo TRANSLATE['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions. Inline links within text content are strongly discouraged.</p>
                       </figcaption>
                     </figure>
