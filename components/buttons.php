@@ -8,32 +8,32 @@
     <div class="chapter-content">
       <div class="article-content chapter-intro">
         <div>
-          <p>Buttons communicate the action that will occur when the user touches them.</p>
+          <p>按钮传递用户触摸时会发生的操作。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Material buttons trigger an ink reaction on press. They may display text, imagery, or both. Flat buttons and raised buttons are the most commonly used types. </p>
-                <p>Additional button types include:</p>
+                <p>Material 按钮在点击时会有水波纹效果。按钮可以显示文本、图像。扁平按钮和浮动按钮是最常用的两种按钮类型。</p>
+                <p>其他的按钮类型包括：</p>
                 <ul class="lst-kix_cps83lvbp1jm-0 start">
-                  <li><strong>Persistent footer</strong> buttons are flat buttons that may be used in screen footers or dialogs.</li>
-                  <li><strong>Dropdown buttons</strong> display multiple selections.</li>
-                  <li><strong>Toggle buttons</strong> group related options. Icon toggles allow a single choice to be selected or deselected.</li>
+                  <li><strong>底部固定按钮</strong>为扁平按钮，大多用于页面底部或对话框底部。</li>
+                  <li><strong>下拉按钮</strong>显示多个下拉选项。</li>
+                  <li><strong>可切换按钮</strong>将相关选项组合起来。图标切换时允许用户选择或取消选择单个选项。</li>
                 </ul>
               </div>
               <div class="module">
-                <h3>Flat buttons</h3>
-                <p>Flat buttons are text-only buttons. <br>
-                  They may be used in dialogs, toolbars, or inline.<br>
-                  They do not lift, but fill with color on press. </p>
+                <h3>扁平按钮</h3>
+                <p>扁平按钮只包含文本。<br>
+                  它们可用于对话框、工具栏或内嵌在其他组件中。<br>
+                  它们不会改变高度，但会在点击时改变颜色。</p>
 
-                <h3>Raised buttons</h3>
-                <p>Raised buttons are rectangular-shaped buttons.<br>
-                  They may be used inline. <br>
-                  They lift and display ink reactions on press.</p>
+                <h3>浮动按钮</h3>
+                <p>浮动按钮为矩形按钮。<br>
+                  它们可以内嵌在其他组件中。<br>
+                  它们在点击时会改变高度和触发水波纹效果。</p>
 
-                <h3>Elevation </h3>
-                <p>Flat buttons: 0dp<br>
-                  Raised buttons: 2dp</p>
+                <h3>高度</h3>
+                <p>扁平按钮：0dp<br>
+                  浮动按钮：2dp</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -48,31 +48,31 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-button-types" data-qp-ui-data-id="qp:1">Button types</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-button-types" data-qp-ui-data-id="qp:1">按钮类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-usage" data-qp-ui-data-id="qp:2">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-usage" data-qp-ui-data-id="qp:2">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-style" data-qp-ui-data-id="qp:3">Style</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-style" data-qp-ui-data-id="qp:3">样式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-flat-buttons" data-qp-ui-data-id="qp:4">Flat buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-flat-buttons" data-qp-ui-data-id="qp:4">扁平按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-raised-buttons" data-qp-ui-data-id="qp:5">Raised buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-raised-buttons" data-qp-ui-data-id="qp:5">浮动按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-persistent-footer-buttons" data-qp-ui-data-id="qp:6">Persistent footer buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-persistent-footer-buttons" data-qp-ui-data-id="qp:6">底部固定按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-dropdown-buttons" data-qp-ui-data-id="qp:7">Dropdown buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-dropdown-buttons" data-qp-ui-data-id="qp:7">下拉按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-toggle-buttons" data-qp-ui-data-id="qp:8">Toggle buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="buttons.html#buttons-toggle-buttons" data-qp-ui-data-id="qp:8">可切换按钮</a>
           </li>
         </ul>
       </nav>
@@ -81,7 +81,7 @@
 
         <div id="buttons-button-types" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Button types
+            按钮类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -90,11 +90,11 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>There are three standard types of buttons: </p>
+              <p>有三种标准类型的按钮：</p>
               <ul class="lst-kix_4tql5k8r9fvj-0 start">
-                <li><a href="buttons-floating-action-button.html">Floating action button</a>: A circular material button that lifts and displays an ink reaction on press.</li>
-                <li>Raised button: A typically rectangular material button that lifts and displays ink reactions on press.</li>
-                <li>Flat button: A button made of ink that displays ink reactions on press but does not lift.</li>
+                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变高度和触发水波纹效果。</li>
+                <li>浮动按钮：典型的方形纸片按钮，点击后改变高度和触发水波纹效果。</li>
+                <li>扁平按钮：点击时会有水波纹效果，但不会改变高度。</li>
               </ul>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
@@ -104,7 +104,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p>Floating action button</p>
+                        <p>浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -114,7 +114,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>Raised button</p>
+                        <p>浮动按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -124,7 +124,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat button</p>
+                        <p>扁平按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -138,7 +138,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage4.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a floating action button</p>
+                        <p>浮动操作按钮的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -148,7 +148,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage5.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a raised button </p>
+                        <p>浮动按钮的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -158,7 +158,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a flat button</p>
+                        <p>扁平按钮的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -167,11 +167,11 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Choosing button style</h1>
-                    <p>Choosing a button style depends on the primacy of the button, the number of containers on screen, and the screen layout. </p>
-                    <p><strong>Function:</strong> Is it important and ubiquitous enough to be a floating action button?</p>
-                    <p><strong>Dimension:</strong> Choose raised or flat depending on the container it will be in and how many z-space layers you have on screen. There should not be many layers of objects on the screen.</p>
-                    <p><strong>Layout:</strong> Use primarily one type of button per container. Only mix button types when you have a good reason to, such as emphasizing an important function.</p>
+                    <h1>按钮类型的选择</h1>
+                    <p>按钮类型应该根据按钮的优先级、屏幕上容器的数量、以及整体布局来进行选择。</p>
+                    <p><strong>功能：</strong>如果它非常重要、并且会被经常使用到，可以使用浮动操作按钮</p>
+                    <p><strong>尺寸：</strong>根据它所在的容器以及屏幕上 Z 轴方向的层次堆叠数量来决定使用浮动按钮还是扁平按钮。应该避免过多的层叠。</p>
+                    <p><strong>布局：</strong>一个容器中应该只使用一种类型的按钮，只在比较特殊的情况下（比如需要强调一个重要的功能）时才可以混合使用多种类型的按钮。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -188,7 +188,7 @@
 
         <div id="buttons-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -200,27 +200,27 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Button types</h1>
-                    <p>The type of button used should be suited to the context in which it appears.</p>
+                    <h1>按钮类型</h1>
+                    <p>所使用的按钮类型应该和它所处的上下文相符。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Context </p></td>
-                        <td colspan="1" rowspan="1"><p>Button type</p></td>
+                        <td colspan="1" rowspan="1"><p>内容 </p></td>
+                        <td colspan="1" rowspan="1"><p>按钮类型</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dialogs</p></td>
-                        <td colspan="1" rowspan="1"><p>Use <a href="buttons.html#buttons-flat-buttons">flat buttons</a> in dialogs.</p></td>
+                        <td colspan="1" rowspan="1"><p>对话框</p></td>
+                        <td colspan="1" rowspan="1"><p>使用 <a href="buttons.html#buttons-flat-buttons">浮动按钮</a></p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Inline</p></td>
-                        <td colspan="1" rowspan="1"><p>Depending on your layout, use <a href="buttons.html#buttons-raised-buttons">raised buttons</a> or <a href="buttons.html#buttons-flat-buttons">flat buttons</a> for inline buttons.</p></td>
+                        <td colspan="1" rowspan="1"><p>内联按钮</p></td>
+                        <td colspan="1" rowspan="1"><p>根据你的布局来选择使用<a href="buttons.html#buttons-raised-buttons">浮动按钮</a>还是<a href="buttons.html#buttons-flat-buttons">扁平按钮</a>。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Persistent availability</p></td>
-                        <td colspan="1" rowspan="1"><p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button or <a href="buttons.html#buttons-persistent-footer-buttons">persistent footer buttons</a>.</p></td>
+                        <td colspan="1" rowspan="1"><p>底部固定按钮</p></td>
+                        <td colspan="1" rowspan="1"><p>如果需要一个对用户持续可见的功能按钮，可以考虑使用浮动操作按钮，或<a href="buttons.html#buttons-persistent-footer-buttons">底部固定按钮</a>。</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -230,37 +230,37 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Recommended button placement</h1>
-                    <p><strong>Standard dialogs </strong></p>
-                    <p>Button alignment on screen: right </p>
-                    <p>Place the affirmative button on the right, the dismissive button on the left.</p>
+                    <h1>推荐的按钮位置</h1>
+                    <p><strong>标准对话框</strong></p>
+                    <p>按钮对齐方式：右对齐</p>
+                    <p>将确定按钮放在右边，取消按钮放在左边。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Forms</strong></p>
-                    <p>Button alignment on screen: Left</p>
-                    <p>Place the affirmative button on the left, the dismissive button on the right.</p>
+                    <p><strong>表单</strong></p>
+                    <p>按钮对齐方式：左对齐</p>
+                    <p>确定按钮在左边，取消按钮在右边。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Cards</strong></p>
-                    <p>Buttons are best placed on the left side of a card to increase their visibility. However, as cards have flexible layouts, buttons may be placed in a location suited to the content and context, while maintaining consistency within the product.</p>
+                    <p><strong>卡片</strong></p>
+                    <p>按钮最好放在卡片的左侧，以增加其可见度。然而，由于卡片的布局非常灵活，按钮也可以放在适合于内容和上下文的位置。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Non-standard dialogs and modal windows</strong></p>
-                    <p>Button placement in non-standard dialogs and modal windows depends on the complexity of the content they contain. </p>
-                    <p>For dialogs with relatively simple content, it is recommended to place buttons on the right side of a dialog, with the affirmative button to the right of the dismissive button.</p>
-                    <p>For lengthy or complex forms, it is recommended to place buttons on the left of the form, with the affirmative button to the left of the dismissive button.</p>
+                    <p><strong>不标准的对话框和模态化窗口</strong></p>
+                    <p>在不标准的对话框和模态化窗口中，按钮的位置取决于它们包含的内容的复杂性。</p>
+                    <p>如果对话框中的内容相对简单，推荐把按钮放在对话框右侧，并且确定按钮在取消按钮的右侧。</p>
+                    <p>对于复杂的表单，建议把按钮放在表单左侧，并且确定按钮在取消按钮的左侧。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
@@ -272,7 +272,7 @@
 
         <div id="buttons-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Style
+            样式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -281,13 +281,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>Typography</h1>
-              <p>Button text should be capitalized in languages that have capitalization. For other languages, colored text on flat buttons distinguishes them from normal text.</p>
+              <h1>文本</h1>
+              <p>按钮文本应使用大写字母。对于其他语言，扁平按钮上的文本颜色应与正文不一样。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Accessibility</h1>
-                    <p>To ensure usability for people with disabilities, give buttons a height of 36dp and give touchable targets a minimum height of 48dp.</p>
+                    <h1>无障碍</h1>
+                    <p>为了确保残障人士可用性，按钮高度为 36dp，可触摸目标的最小高度为 48dp。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -295,8 +295,8 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_keyline4.png"/>
                       </div>
                       <figcaption>
-                        <p>Button height: 36dp<br>
-                        Touchable target height: 48dp</p>
+                        <p>按钮高度：36dp<br>
+                        可触摸目标高度：48dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -305,8 +305,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Corner radius</h1>
-                    <p>Buttons should have a 2dp corner radius.</p>
+                    <h1>圆角半径</h1>
+                    <p>按钮有 2dp 的圆角半径。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -315,7 +315,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Buttons should have a 2dp corner radius </p>
+                        <p>按钮有 2dp 的圆角半径。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -326,8 +326,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Density</h1>
-                    <p>When mouse and keyboard are the primary input methods, button measurements can be slightly reduced to accommodate dense UIs. </p>
+                    <h1>密集型</h1>
+                    <p>当鼠标和键盘为主要输入方式时，按钮尺寸可以略微减小以适应密集的 UI。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -335,7 +335,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main18.png"/>
                       </div>
                       <figcaption>
-                        <p> Default Button</p>
+                        <p>默认按钮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -343,10 +343,10 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main20.png"/>
                       </div>
                       <figcaption>
-                        <p>Button text: 14pt Roboto medium<br>
-                        Button height: 36dp<br>
-                        Button text left and right padding: 16dp<br>
-                        Corner radius: 2dp</p>
+                        <p>按钮文本：14pt Roboto medium<br>
+                        按钮高度：36dp<br>
+                        按钮左右内边距：16dp<br>
+                        圆角半径：2dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -356,7 +356,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main19.png"/>
                       </div>
                       <figcaption>
-                        <p> Dense Button</p>
+                        <p>密集型按钮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -364,10 +364,10 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main21.png"/>
                       </div>
                       <figcaption>
-                        <p>Button text: 13pt Roboto medium<br>
-                        Button height: 32dp<br>
-                        Button text left and right padding: 16dp<br>
-                        Corner radius: 2dp</p>
+                        <p>按钮文本：13pt Roboto medium<br>
+                        按钮高度：32dp<br>
+                        按钮左右内边距：16dp<br>
+                        圆角半径：2dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -376,7 +376,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Size and padding</h1>
+                    <h1>尺寸和边距</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -384,14 +384,14 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_keyline1.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of flat buttons in dialogs </p>
-                        <p><strong>Flat Button</strong><br>
-                          Height: 36dp<br>
-                          Minimum width: 88dp<br>
-                          Touch target height: 48dp<br>
-                          Corner radius: 2dp<br>
-                          Horizontal margin: 8dp<br>
-                          Horizontal padding: 8dp </p>
+                        <p>对话框中的扁平按钮示例</p>
+                        <p><strong>扁平按钮</strong><br>
+                          高度：36dp<br>
+                          最小宽度：88dp<br>
+                          可触摸目标高度：48dp<br>
+                          圆角半径：2dp<br>
+                          水平外边距：8dp<br>
+                          水平内边距：8dp </p>
                       </figcaption>
                     </figure>
                   </div>
@@ -404,7 +404,7 @@
 
         <div id="buttons-flat-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Flat buttons
+            扁平按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -416,13 +416,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Usage</h1>
-                    <p>Flat buttons are printed on material. They do not lift, but fill with color on press.</p>
-                    <p>Use flat buttons in the following locations:</p>
+                    <h1>用法</h1>
+                    <p>扁平按钮没有高度，但在点击时会填充颜色。</p>
+                    <p>在下边的场景中使用扁平按钮：</p>
                     <ul class="lst-kix_sx4zu9flaq2f-0 start">
-                      <li>On toolbars</li>
-                      <li>In dialogs, to unify the button action with the dialog content</li>
-                      <li>Inline, with padding, so the user can easily find them</li>
+                      <li>工具栏</li>
+                      <li>对话框中，将按钮操作和对话框的内容统一起来</li>
+                      <li>包含内边距的内联按钮，这样用户能够轻易地找到它们</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -431,7 +431,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main9.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat buttons are appropriate in dialogs.</p>
+                        <p>对话框适合使用扁平按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -441,7 +441,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main10.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat buttons minimize distraction from content.</p>
+                        <p>扁平按钮能最大限度的把用户焦点聚焦在内容上</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -456,7 +456,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Correct use of flat buttons.</p>
+                        <p>扁平按钮的正确使用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -467,7 +467,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>These raised buttons appear too prominently.</p>
+                        <p>这些浮动按钮显得太过显眼。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -476,19 +476,19 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Specs</h1></div>
+                    <h1>规格</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/buttons/components_buttons_main13.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat Light/Light theme</p>
-                        <p>Minimum width: 88dp<br>
-                          Height: 36dp<br>
-                          Corner radius: 2dp<br>
-                          Pressed: 40% #999999<br>
-                          Disabled text: 26% #000000</p>
+                        <p>扁平按钮亮色主题</p>
+                        <p>最小宽度：88dp<br>
+                          高度：36dp<br>
+                          圆角半径：2dp<br>
+                          按下时：40% #999999<br>
+                          禁用状态文本：26% #000000</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -498,12 +498,12 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_main14.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat Dark/Dark theme</p>
-                        <p>Minimum width: 88dp<br>
-                          Height: 36dp<br>
-                          Corner radius: 2dp<br>
-                          Pressed: 25% #CCCCCC<br>
-                          Disabled text: 30% #FFFFFF</p>
+                        <p>扁平按钮暗色主题</p>
+                        <p>最小宽度：88dp<br>
+                          高度：36dp<br>
+                          圆角半径：2dp<br>
+                          按下时：25% #CCCCCC<br>
+                          禁用状态的文本：30% #FFFFFF</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -519,10 +519,9 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage_dialogs1.png"/>
                       </div>
                       <figcaption>
-                        <p>Dialog text padding: 24dp <br>
-                        Dialog button container height: 52dp<br>
-                        Dialog buttons: 8dp padding from container edges, aligned to the right of container (for LTR
-                        scripts)</p>
+                        <p>对话框文本内边距：24dp <br>
+                        对话框按钮容器高度：52dp<br>
+                        对话框按钮：距离容器边缘 8dp 的内边距，右对齐（LTR 语言）</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -536,13 +535,13 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_usage_dialogs2.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat buttons in dialogs </p>
-                        <p><strong>Dialog buttons</strong><br>
-                          Button height: 36dp<br>
-                          Button top margin: 24dp<br>
-                          Button padding: 8dp<br>
-                          Button alignment: Right edge for LTR scripts<br>
-                          Button width: Varies based on button text length</p>
+                        <p>对话框中的扁平按钮</p>
+                        <p><strong>对话框按钮</strong><br>
+                          按钮高度：36dp<br>
+                          按钮顶部外边距：24dp<br>
+                          按钮内边距：8dp<br>
+                          按钮对齐方式：右对齐（LTR 语言）<br>
+                          按钮宽度：根据按钮文本的长度变化</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -558,7 +557,7 @@
                         <img alt="" src="../static/media/components/buttons/components_buttons_focus_flat.png"/>
                       </div>
                       <figcaption>
-                        <p>Flat buttons with 12% opacity on focus </p>
+                        <p>扁平按钮在聚焦时有 12% 的不透明度</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -567,7 +566,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Behavior</h1>
+                    <h1>行为</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -581,7 +580,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Flat buttons</p>
+                        <p>扁平按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -594,7 +593,7 @@
 
         <div id="buttons-raised-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Raised buttons
+            浮动按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -606,9 +605,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Usage</h1>
-                    <p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide
-                      spaces.</p>
+                    <h1>用法</h1>
+                    <p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide spaces.</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
