@@ -9,28 +9,28 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>A card is a sheet of material that serves as an entry point to more detailed information. </p>
+          <p>卡片通常是通往详细信息的入口。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length.</p>
-                <p>A card collection is a layout of cards on the same plane.</p>
+                <p>卡片可以包含一个主题的照片、文字和链接。它们可以显示包含不同尺寸的元素的内容，例如有可变长度标题的照片。</p>
+                <p>卡片集是多个卡片在同一平面上的布局结构。</p>
               </div>
               <div class="module">
-                <h3><strong>Usage</strong></h3>
-                <p>Cards display content composed of different elements whose size or supported actions vary.</p>
+                <h3><strong>用法</strong></h3>
+                <p>卡片显示由不同元素组成的内容，其大小和支持的操作不同。</p>
 
-                <h3><strong>Supported gestures</strong></h3>
-                <p>Swipe<br>
-                  Pick-up-and-move</p>
+                <h3><strong>支持的手势</strong></h3>
+                <p>滑动<br>
+                  拾起并移动</p>
 
-                <h3><strong>Related components </strong></h3>
-                <p><a href="grid-lists.html">Grid lists</a></p>
+                <h3><strong>相关组件</strong></h3>
+                <p><a href="grid-lists.html">网格列表</a></p>
 
-                <h3><strong>For developers</strong></h3>
+                <h3><strong>给开发人员</strong></h3>
                 <p>
-                  <a href="https://www.google.com/url?q=http://developer.android.com/index.html&amp;sa=D&amp;ust=1481817970288000&amp;usg=AFQjCNGDCjHsLwZxRyFZiza53UXMMl_Prg" target="_blank">Android cards</a><br>
-                  <a href="https://www.google.com/url?q=https://www.polymer-project.org/1.0/&amp;sa=D&amp;ust=1481817970289000&amp;usg=AFQjCNGE4vO4lDdu1AKO1gSMoZknFYWhxQ" target="_blank">Polymer cards</a>
+                  <a href="https://www.google.com/url?q=http://developer.android.com/index.html&amp;sa=D&amp;ust=1481817970288000&amp;usg=AFQjCNGDCjHsLwZxRyFZiza53UXMMl_Prg" target="_blank">Android 卡片</a><br>
+                  <a href="https://www.google.com/url?q=https://www.polymer-project.org/1.0/&amp;sa=D&amp;ust=1481817970289000&amp;usg=AFQjCNGE4vO4lDdu1AKO1gSMoZknFYWhxQ" target="_blank">Polymer 卡片</a>
                 </p>
               </div>
               <div class="figure">
@@ -46,22 +46,22 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-content" data-qp-ui-data-id="qp:2">Content</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-content" data-qp-ui-data-id="qp:2">内容</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-actions" data-qp-ui-data-id="qp:4">Actions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-actions" data-qp-ui-data-id="qp:4">操作</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-content-blocks" data-qp-ui-data-id="qp:5">Content blocks</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="cards.html#cards-content-blocks" data-qp-ui-data-id="qp:5">内容块</a>
           </li>
         </ul>
       </nav>
@@ -70,7 +70,7 @@
 
         <div id="cards-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -82,7 +82,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length.</p>
+                    <p>卡片是用来显示由不同元素组成的内容的便捷方式。它们也适合用来展示拥有不同尺寸和操作的元素，例如有可变长度标题的照片。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -90,7 +90,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a card</p>
+                        <p>卡片的例子</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -99,7 +99,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A card collection is coplanar, or a layout of cards on the same plane.</p>
+                    <p>卡片集是在同一平面上的卡片的布局。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -107,7 +107,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a card collection</p>
+                        <p>卡片集的例子</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -117,7 +117,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a card collection</p>
+                        <p>卡片集的例子</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -126,14 +126,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>When to use</strong></p>
-                    <p>Use a card layout when displaying content that:</p>
+                    <p><strong>何时使用</strong></p>
+                    <p>显示这些内容时可以使用卡片布局：</p>
                     <ul class="lst-kix_rnw5ydwfz5t2-0 start">
-                      <li>As a collection, comprises multiple data types, such as images, movies, and text</li>
-                      <li>Does not require direct comparison (a user is not directly comparing images or text)</li>
-                      <li>Supports content of highly variable length, such as comments</li>
-                      <li>Contains interactive content, such as +1 buttons or comments</li>
-                      <li>Would otherwise be in a grid list but needs to display more content to supplement the image</li>
+                      <li>由不同数据类型组成的集合，例如图片、视频、文本</li>
+                      <li>不需要直接进行对比（用户不会直接与图片或文本进行比较）</li>
+                      <li>包含可变长度的内容，例如评论</li>
+                      <li>包含交互性的内容，例如 +1按钮或评论</li>
+                      <li>需要显示更多的内容来对图片进行补充说明，否则应该使用网格列表</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -143,9 +143,9 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>1. Cards have rounded corners.<br>
-                          2. Cards can have multiple actions.<br>
-                          3. Cards can be dismissible and rearranged.</p>
+                        <p>1. 卡片带圆角。<br>
+                          2. 卡片可以带有多种操作。<br>
+                          3. 卡片可以被移除和重新排列。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -156,9 +156,9 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>This is a tile, not a card.<br>
-                          1. Tiles have square corners.<br>
-                          2. Tiles have no more than two actions.</p>
+                        <p>这是瓷砖，不是卡片<br>
+                          1. 瓷砖带直角<br>
+                          2. 瓷砖的操作少于两个</p>
                       </figcaption>
                     </figure>
                   </div>
