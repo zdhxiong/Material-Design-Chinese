@@ -174,7 +174,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>A quickly scannable list, instead of cards, is an appropriate way to represent homogeneous content that doesn't have many actions.</p>
+                        <p>列表可以进行快速浏览，用列表代替卡片，来展示操作不多的同类内容，是一个更合适的方法。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -185,7 +185,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The use of cards here distracts the user from being able to quickly scan. These list items are also not dismissable, so having them on separate cards is confusing. </p>
+                        <p>这里卡片的使用分散了用户的注意力，使用户不能快速地浏览。这些列表项也不能被取消，所以把它们放在不同的卡片上是不合适的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -199,7 +199,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Grid tiles are a clean and lightweight way to present a gallery of images.</p>
+                        <p>用网格瓷砖来展示相册，是一种干净又轻巧的方式。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -210,7 +210,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Cards are unnecessary in a gallery of images (homogeneous content). </p>
+                        <p>在相册（同类内容）中不需要用到卡片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -222,7 +222,7 @@
 
         <div id="cards-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Content
+            内容
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -233,13 +233,13 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>Cards provide context and an entry point to more robust information and views, and their content and quantity can vary greatly. Cards within a card collection can each contain a unique data set, such as a checklist with an action, a note with an action, and a note with a photo.</p>
-                    <p>Don't overload cards with extraneous information or actions.</p>
-                    <h2><strong><strong>Content hierarchy</strong></strong></h2>
-                    <p>Use hierarchy within the card to direct users’ attention to the most important information. For example, place primary content at the top of the card, or use typography to emphasize primary content.</p>
-                    <p>Images can reinforce other content in a card. However, their size and placement within the card depends on whether images are the primary content or are being used to supplement other content on the card.</p>
-                    <p><strong>Background images</strong></p>
-                    <p>Text is most legible when placed on a solid color background with a sufficient contrast ratio to the text. Text placed on image backgrounds should preserve text legibility.</p>
+                  <div class="module"><p>卡片提供上下文、及通往更详细信息和视图的入口，并且卡片的内容和数量可以有很大的差异。卡片集中的每一个卡片都可以包含独特的数据集，例如含操作的选项列表、含操作的笔记、含图片的笔记。</p>
+                    <p>不要滥用带有无用信息或操作的卡片。</p>
+                    <h2><strong><strong>内容层次结构</strong></strong></h2>
+                    <p>使用卡片的层次结构来把用户的注意力引导到最重要的信息上。例如，把重要内容放在卡片的顶部，或使用排版来强调重要内容。</p>
+                    <p>图片可以进一步加深卡片中的其他内容。然而，它们在卡片中的尺寸和位置取决于图片是主要内容还是用于补充卡片中的其他内容。</p>
+                    <p><strong>背景图</strong></p>
+                    <p>在与文本具有足够对比度的纯色背景上，文本最清晰。把文本放在背景图片上时，应保持文本的可读性。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -247,7 +247,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_content1.png"/>
                       </div>
                       <figcaption>
-                        <p>This card collection contains cards with varied layouts.</p>
+                        <p>该卡片集包含拥有不同布局的卡片。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -255,7 +255,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_content2.png"/>
                       </div>
                       <figcaption>
-                        <p>This card collection contains cards with varied content types and layouts.</p>
+                        <p>该卡片集包含拥有不同类型和布局的卡片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -265,7 +265,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_content3.png"/>
                       </div>
                       <figcaption>
-                        <p>Typography can emphasize primary content.</p>
+                        <p>排版可以强调主要内容。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -273,7 +273,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_content4.png"/>
                       </div>
                       <figcaption>
-                        <p>This card collection contains cards with varied layouts and content hierarchy. </p>
+                        <p>该卡片集包含拥有不同布局和内容层次结构的卡片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -285,7 +285,7 @@
 
         <div id="cards-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -294,23 +294,23 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field). </p>
-              <p>Cards do not flip over to reveal information on the back.</p>
-              <h1>Supported gestures</h1>
-              <p>Card gestures should be consistently implemented within a card collection.</p>
-              <p>Supported gestures include:</p>
+              <p>卡片具有恒定的宽度和可变的高度。最大高度限制为平台上可用空间的高度，但是可以临时展开（例如，显示注释字段）。</p>
+              <p>卡片不会翻转来显示背面的信息。</p>
+              <h1>支持的手势</h1>
+              <p>卡片的手势在卡片集中同样适用。</p>
+              <p>支持的手势包括：</p>
               <ul class="lst-kix_s5w344fogft3-0 start">
-                <li>The <strong>swipe gesture</strong> may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</li>
-                <li>The <strong>pick-up-and-move gesture</strong> may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</li>
+                <li><strong>滑动手势</strong> 可以用在每张卡片上。卡片内部的元素不应使用滑动手势，以避免它们相互重叠。例如，可滑动的卡片内部不应包含可滑动的图像轮播组件，以确保在滑动时只会触发单个动作。</li>
+                <li><strong>拾取并移动手势</strong> 可以在需要对卡片集中的卡片进行排序时使用。但是，也应该考虑是否使用过滤或排序功能可以更好地组织内容。</li>
               </ul>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Card collection filtering and sorting</h1>
-                    <p>Card collections can be programmatically sorted or filtered by date, file size, alphabetical  order, or other parameters. </p>
+                    <h1>卡片集的过滤和排序</h1>
+                    <p>卡片集可以按日期、文件大小、字母顺序或其他参数以编程方式排序或过滤。</p>
                     <ul class="lst-kix_k88e5oocs0bw-0 start">
-                      <li>The first item in the collection is positioned at the top left.</li>
-                      <li>The order proceeds left to right and top to bottom.</li>
+                      <li>卡片集中的第一张卡片位于左上角。</li>
+                      <li>卡片以从左到右、从上到下的顺序排列。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -319,16 +319,16 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p>Card sorting from left to right, top to bottom. </p>
+                        <p>卡片以从左到右、从上到下的顺序排列。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Scrolling</h1>
-                    <p>Card collections only scroll vertically. </p>
-                    <p>Card content that exceeds the maximum card height is truncated and does not scroll, but the card can be expanded. Once expanded, the card may exceed the maximum height of the view. In this case, the card will scroll with the card collection.</p>
+                    <h1>滚动</h1>
+                    <p>卡片集只能垂直滚动。</p>
+                    <p>超过卡片最大高度的卡片内容会被截断，不会滚动，但是卡片可以展开。展开后，卡片可能会超出视图的最大高度。在这种情况下，卡片将于卡片集一起滚动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -336,7 +336,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior2.png"/>
                       </div>
                       <figcaption>
-                        <p>Card content that exceeds the maximum card height is truncated and does not scroll</p>
+                        <p>超过卡片最大高度的卡片内容会被截断，不会滚动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -351,7 +351,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Cards may be expanded to reveal more content, without using scrolling.</p>
+                        <p>卡片可以展开以显示更多内容，无需使用滚动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -362,7 +362,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>On mobile, avoid placing scrollable space within a card, as it could cause two sets of scroll bars to be displayed, if one is already present.</p>
+                        <p>在移动设备上，避免在卡片内部出现滚动条，因为这可能导致视图内同时显示两个滚动条。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -375,16 +375,16 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior3.png"/>
                       </div>
                       <figcaption>
-                        <p>On desktop, card content can expand and scroll internally </p>
+                        <p>在桌面端，卡片内容可以展开和滚动。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Card focus</h1>
-                    <p>When traversing through focus points on a card, all focusable elements are visited before moving to the next card.</p>
-                    <p>For interfaces that depend on focus traversal for navigation (D-pad and keyboard), cards should have either a primary action or open a new view containing primary and supplemental actions.</p>
+                    <h1>卡片焦点</h1>
+                    <p>当在卡片上遍历焦点时，在焦点切换到下一张卡片之前，应该能够遍历到所有卡片内能获得焦点的元素。</p>
+                    <p>对于依赖焦点遍历进行导航的设备（D-pad 和键盘），卡片应该拥有主操作，或者打开一个包含主操作和补充操作的新视图。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -392,7 +392,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_behavior6.png"/>
                       </div>
                       <figcaption>
-                        <p>Action selected during focus traversal </p>
+                        <p>遍历焦点时选中一个操作</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
