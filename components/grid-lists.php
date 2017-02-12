@@ -8,24 +8,24 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><p>Grid lists are an alternative to standard list views.</p>
+        <div><p>网格列表是一个标准列表的替代方案。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>A grid list consists of a repeated pattern of cells arrayed in a vertical and horizontal layout.</p>
-                <p>Grid lists are best used on similar data types. They help improve the visual comprehension of the content they contain.</p>
+                <p>网格列表是由一组重复样式的单元格以垂直和水平方式进行排列组成的。</p>
+                <p>网格列表最适合用于相似的数据类型。这有助于增强对它所包含的内容的视觉理解。</p>
               </div>
               <div class="module">
-                <h3><strong>Types</strong></h3>
-                <p>Image-only<br>
-                  Single-line text (or with icon)<br>
-                  Two-line text (or with icon)</p>
-                <h3><strong>Actions</strong></h3>
-                <p>Vertical scrolling<br>
-                  Filtering</p>
-                <h3><strong>Alternatives</strong></h3>
-                <p><a href="lists.html">Lists</a><br>
-                  <a href="cards.html">Cards</a></p>
+                <h3><strong>类型</strong></h3>
+                <p>只含图片<br>
+                  单行文本（或含图标）<br>
+                  两行文本（或含图标）</p>
+                <h3><strong>操作</strong></h3>
+                <p>垂直滚动<br>
+                  过滤</p>
+                <h3><strong>替代方案</strong></h3>
+                <p><a href="lists.html">列表</a><br>
+                  <a href="cards.html">卡片</a></p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,19 +40,19 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-content" data-qp-ui-data-id="qp:2">Content</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-content" data-qp-ui-data-id="qp:2">内容</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-specs" data-qp-ui-data-id="qp:4">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="grid-lists.html#grid-lists-specs" data-qp-ui-data-id="qp:4">规格</a>
           </li>
         </ul>
       </nav>
@@ -61,7 +61,7 @@
 
         <div id="grid-lists-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -73,7 +73,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>A grid list is best suited to presenting <strong>homogenous data,</strong> typically images, and is optimized for <strong>visual comprehension</strong> and differentiating between similar data types.</p>
+                    <p>网格列表最适合用于呈现<strong>同类数据</strong>，通常是图片，并且被优化用于增强<strong>视觉理解</strong>，以及区分相似的数据类型。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -81,7 +81,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of grid list </p>
+                        <p>网格列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -91,8 +91,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A <strong>grid list</strong> consists of a repeated pattern of <strong>cells</strong> arrayed vertically and horizontally within the grid list.</p>
-                    <p><strong>Tiles</strong> hold content and can span one or more cells vertically or horizontally. </p>
+                    <p><strong>网格列表</strong>是由一组重复样式的<strong>单元格</strong>以垂直和水平方式进行排列组成的。</p>
+                    <p><strong>瓦片</strong>包含内容，并可以横向或纵向跨越一个或多个单元格。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -100,7 +100,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of grid list</p>
+                        <p>网格列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -110,22 +110,22 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a cell and tile </p>
+                        <p>单元格和瓦片示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>If the text in tiles needs to be prominent enough to distinguish between primary content pieces, consider using a different container, like a list or cards, optimized for displaying text and facilitating reading comprehension.</p>
-              <p><strong>Lists: </strong>Optimized for reading comprehension, particularly when comparing a set of data containing multiple data types.</p>
-              <p><strong>Cards:</strong> Used for content with inconsistent formatting, such as photos with captions of variable length, or data sets with heterogeneous content, such as a mixed collection of photos and videos and books.</p>
+              <p>如果瓦片中的内容需要突出显示，以便区分主要内容部分，请考虑使用其他为显示文本和便于阅读理解做过优化的容器，例如列表或卡片。</p>
+              <p><strong>列表：</strong> 为阅读理解做了优化，特别是用于比较一组包含多种数据类型的数据时。</p>
+              <p><strong>卡片：</strong> 用于格式不一致的内容，例如具有可变长度标题的图片，或由各种不同内容组成的数据集，例如由照片、视频和书籍组成的混合数据集。</p>
             </div>
           </div>
         </div>
 
         <div id="grid-lists-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Content
+            内容
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -137,9 +137,9 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Content in tiles</h1>
-                    <p>Tile content consists of primary content and secondary content. Primary content is the main differentiating element, typically an image. Secondary content can be an action or text.</p>
-                    <p>Provide a default image for tiles that lack an image for primary content.</p>
+                    <h1>瓦片中的内容</h1>
+                    <p>瓦片的内容由主内容和副内容组成。主内容是最容易分辨的元素，通常是图片。副内容可以是操作或文本。</p>
+                    <p>为缺少主内容图片的瓦片提供一张默认图片。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -147,7 +147,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_content1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of tile content with primary and secondary actions</p>
+                        <p>包含主内容和副操作的瓦片内容示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -157,19 +157,19 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Actions in tiles</h1>
-                    <p>Actions on both primary and secondary content – such as play, zoom in, delete, or select – are immediate and typically do not result in a submenu of options (action overflow) within the grid list.</p>
-                    <p>Actions can open a subsequent view, such as a card.</p>
-                    <h2><strong>Primary actions</strong></h2>
+                    <h1>瓦片中的操作</h1>
+                    <p>主内容和副内容中的操作（例如播放、放大、删除或选择）都是即时生效的，并且通常不会在网格列表中弹出子菜单。</p>
+                    <p>操作可以打开一个后续视图，例如卡片。</p>
+                    <h2><strong>主操作</strong></h2>
                     <ul class="lst-kix_xefhha8lrhq7-0 start">
-                      <li>Fill the entire tile and therefore are not represented via icons or text.</li>
-                      <li>Are consistent throughout tiles in a specific grid list. For example, the primary action for all tiles in a single grid list could be to view details for an image.</li>
+                      <li>充满整个瓦片，因此不通过图标或文本来表现。</li>
+                      <li>在特定网格列表的所有瓦片中都保持一致。例如一个网格列表中的所有瓦片的主要操作都是查看图片的详细信息。</li>
                     </ul>
-                    <h2><strong>Secondary actions or content</strong></h2>
+                    <h2><strong>副操作或内容</strong></h2>
                     <ul class="lst-kix_xzaw6cp8x2bi-0 start">
-                      <li>Are represented in tiles with icons or text.</li>
-                      <li>Are consistent throughout tiles in a specific grid list.</li>
-                      <li>Are placed in a consistent location within the tiles of a specific grid list, but that consistent location may vary between grid lists (at corners or edges). For example, all titles in one grid list could be located at the bottom left corner, while all tiles in another grid list might place titles in the top left corner.</li>
+                      <li>在瓦片中以图标或文本的形式展现。</li>
+                      <li>在特定网格列表的所有瓦片中都保持一致。</li>
+                      <li>在特定网格列表的所有瓦片中的位置都保持一致，但是该位置可以在不同的网格列表之间变化（在角落或边缘）。例如，一个网格列表中的所有瓦片的标题在左下角，而另一个网格列表中所有瓦片的标题可以放在左上角。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -178,7 +178,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_content2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of secondary action with action and text positions</p>
+                        <p>副操作的操作和文本的位置示例</p>
                       </figcaption>
                     </figure>
                   </div>

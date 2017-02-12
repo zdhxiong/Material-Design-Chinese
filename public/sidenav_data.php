@@ -65,7 +65,7 @@ return array(
       'data-tables'                     =>  '数据表格',
       'dialogs'                         =>  '对话框',
       'dividers'                        =>  '分隔线',
-      'expansion-panels'                =>  '可展开面板',
+      'expansion-panels'                =>  '扩展面板',
       'grid-lists'                      =>  '网格列表',
       'lists'                           =>  '列表',
       'lists-controls'                  =>  '列表控件',
