@@ -243,7 +243,7 @@
                       <figcaption>
                         <p><strong>不可删除的纸片</strong></p>
                         <p>高度：32dp<br>
-                          标签左右内边距12dp</p>
+                          标签左右内边距：12dp</p>
                         <p><strong>联系人纸片</strong></p>
                         <p>高度：32dp<br>
                           标签左侧内边距：8dp<br>

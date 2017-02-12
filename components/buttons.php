@@ -521,7 +521,7 @@
                       <figcaption>
                         <p>对话框文本内边距：24dp <br>
                         对话框按钮容器高度：52dp<br>
-                        对话框按钮：距离容器边缘 8dp 的内边距，右对齐（LTR 语言）</p>
+                        对话框按钮：距离容器边缘 8dp 的边距，右对齐（LTR 语言）</p>
                       </figcaption>
                     </figure>
                   </div>

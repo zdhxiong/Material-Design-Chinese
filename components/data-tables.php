@@ -474,9 +474,9 @@
                 <section class="module col-1">
                   <div class="module">
                     <ol class="lst-kix_h0iwu6gtyrxk-0 start" start="1">
-                      <li>64dp 卡片头部高度</li>
-                      <li>56dp 最后一行高度</li>
-                      <li>48dp 数据行高度</li>
+                      <li>卡片头部高度：64dp</li>
+                      <li>最后一行高度：56dp</li>
+                      <li>数据行高度：48dp</li>
                     </ol>
                   </div>
                 </section>
@@ -499,8 +499,8 @@
                   <div class="module">
                     <ol class="lst-kix_lexjqvir3ko0-0 start" start="1">
                       <li>表格卡片的四周有 24dp 的内边距</li>
-                      <li>底部的控件之间有 32dp 的内边距</li>
-                      <li>底部行数和它的标签之间有 40dp 的内边距</li>
+                      <li>底部的控件之间有 32dp 的间距</li>
+                      <li>底部行数和它的标签之间有 40dp 的间距</li>
                     </ol>
                   </div>
                 </section>
@@ -522,7 +522,7 @@
                 <section class="module col-1">
                   <div class="module">
                     <ol class="lst-kix_tgpxcjd2l7jl-0 start" start="1">
-                      <li>列之间最小内边距为 56dp。列中最宽的条目（包含数据和列名称）划定列的边框。</li>
+                      <li>列之间最小间距为 56dp。列中最宽的条目（包含数据和列名称）划定列的边框。</li>
                       <li>复选框在 24dp 的图标容器中，拥有 18dp 的宽度和高度。</li>
                     </ol>
                   </div>

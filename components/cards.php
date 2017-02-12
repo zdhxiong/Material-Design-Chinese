@@ -604,7 +604,7 @@
                     <p><strong>富媒体</strong></p>
                     <p>16:9 或 1:1 长宽比（推荐）</p>
                     <p><strong>操作</strong></p>
-                    <p>内边距：8dp</p>
+                    <p>间距：8dp</p>
                     <p><strong>主标题/文本</strong></p>
                     <p>标题：24sp or 14sp<br>
                       副标题：14sp<br>
