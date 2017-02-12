@@ -8,24 +8,24 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Expansion panels contain creation flows and allow lightweight editing of an element.</p>
+          <p>扩展面板的功能包括创建流程、进行简单的编辑。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
-              <div class="module"><p>An expansion panel is a lightweight container that may either stand alone or be connected to a larger surface, such as a card.</p>
-                <p>They may be used for a variety of tasks, such as:</p>
+              <div class="module"><p>扩展面板是一个轻量级的容器，可以单独存在，也可以连接到一个更大的平面上，比如卡片。</p>
+                <p>它可以用于不同的任务，例如：</p>
                 <ul class="lst-kix_nmfkwyszolh9-0 start">
-                  <li>To edit a setting</li>
-                  <li>To create a tool for ad campaigns</li>
+                  <li>编辑设置项</li>
+                  <li>创建广告系列的工具</li>
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>Usage</strong></h3>
-                <p>Editing<br>
-                  Creating flows</p>
-                <h3><strong>Behavior</strong></h3>
-                <p>Expand<br>
-                  Collapse<br>
-                  Focus</p>
+                <h3><strong>用法</strong></h3>
+                <p>编辑<br>
+                  创建流程</p>
+                <h3><strong>行为</strong></h3>
+                <p>展开<br>
+                  折叠<br>
+                  聚焦</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,16 +40,16 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-behavior" data-qp-ui-data-id="qp:2">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-behavior" data-qp-ui-data-id="qp:2">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-specs" data-qp-ui-data-id="qp:3">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="expansion-panels.html#expansion-panels-specs" data-qp-ui-data-id="qp:3">规格</a>
           </li>
         </ul>
       </nav>
@@ -58,7 +58,7 @@
 
         <div id="expansion-panels-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -70,13 +70,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>An expansion panel is a lightweight container that may either stand alone or be connected to a larger surface, such as a card. </p>
-                    <p><strong>Editing</strong></p>
-                    <p>Expansion panels are best used for lightweight editing of an element, such as selecting a value for a setting. </p>
-                    <p>For example, an app that contains tables may use expansion panels to adjust settings on table elements.</p>
-                    <p><strong>Creation flows</strong></p>
-                    <p>Expansion panels may be displayed in a sequence to form creation flows. </p>
-                    <p>For example, a tool for creating ad campaigns may display a series of expansion panels to collect campaign details.</p>
+                    <p>扩展面板是一个轻量级的容器，可以单独存在，也可以连接到一个更大的平面上，比如卡片。</p>
+                    <p><strong>编辑</strong></p>
+                    <p>扩展面板最适合用于进行简单的编辑，例如选择设置项的值。</p>
+                    <p>例如，包含表格的应用可以使用扩展面板来调整表格元素的设置。</p>
+                    <p><strong>创建流程</strong></p>
+                    <p>扩展面板可以按顺序显示以形成创建流程。</p>
+                    <p>例如，一个用于创建广告系列的工具，可以显示一系列的扩展面板以收集广告系列的详细信息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -84,21 +84,21 @@
                         <img alt="" src="../static/media/components/expansion-panels/components_expansionpanels_usage.png"/>
                       </div>
                       <figcaption>
-                        <p>Various expansion panels</p>
+                        <p>各种扩展面板</p>
                         <table class="s-tag-table">
                           <tbody>
                           <tr>
-                            <td colspan="1" rowspan="1"><p><strong>List content</strong></p>
+                            <td colspan="1" rowspan="1"><p><strong>列表内容</strong></p>
                               <p>15sp Roboto Regular<br>
                                 87% black</p>
-                              <p><strong>Secondary content</strong></p>
+                              <p><strong>副内容</strong></p>
                               <p>12sp Roboto Regular<br>
                                 54% black</p></td>
                             <td colspan="1" rowspan="1">
-                              <p><strong>Divider</strong></p>
+                              <p><strong>分隔线</strong></p>
                               <p>1dp border<br>
                                 12% black</p>
-                              <p><strong>Expand icon</strong></p>
+                              <p><strong>扩展图标</strong></p>
                               <p>24dp x 24dp<br>
                                 38% black</p>
                             </td>
@@ -116,7 +116,7 @@
 
         <div id="expansion-panels-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -128,8 +128,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Collapsed panel</h1>
-                    <p>A collapsed panel displays summary information. Upon selecting the collapsed panel, it expands to display the full expansion panel.</p>
+                    <h1>折叠的面板</h1>
+                    <p>折叠的面板只显示摘要信息。选择一个折叠的面板后，它会展开以显示完整的扩展面板。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -137,7 +137,7 @@
                         <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a collapsed panel</p>
+                        <p>折叠的面板示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -146,9 +146,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Expanded panel</h1>
-                    <p>Upon selection, a collapsed panel expands, allowing users to add or edit information. </p>
-                    <p>Helper text may be added to the panel to assist the user.</p>
+                    <h1>展开的面板</h1>
+                    <p>折叠的面板被选择后会展开，允许用户添加或编辑信息。</p>
+                    <p>可能会添加一些帮助文本到面板上，来协助用户。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -156,7 +156,7 @@
                         <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_expand.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of an extended panel</p>
+                        <p>展开的面板示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -165,9 +165,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Focus state</h1>
-                    <p>An expansion panel may use a focus state (by using a grey background on the list item) to provide focus to individual list items. </p>
-                    <p>On a keyboard, users may traverse through list items by using the Tab key.</p>
+                    <h1>聚焦状态</h1>
+                    <p>扩展面板可以使用聚焦状态（在列表项上添加灰色背景）来为单个列表项提供焦点。</p>
+                    <p>在键盘上，用户可以使用 Tab 键来遍历列表项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -175,9 +175,9 @@
                         <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_state.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Background</strong></p>
+                        <p><strong>背景色</strong></p>
                         <p>Grey 200</p>
-                        <p><strong>Expand icon on hover and pressed</strong></p>
+                        <p><strong>鼠标悬浮和按下时的扩展图标</strong></p>
                         <p>24dp x 24dp<br>
                           54% black</p>
                       </figcaption>
@@ -191,7 +191,7 @@
 
         <div id="expansion-panels-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -203,14 +203,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Label</strong></p>
+                    <p><strong>标签</strong></p>
                     <ul class="lst-kix_c7v5kcmoplqk-0 start">
-                      <li>Font: Roboto Regular 15sp</li>
+                      <li>字体：Roboto Regular 15sp</li>
                     </ul>
-                    <p><strong>Padding</strong></p>
+                    <p><strong>边距</strong></p>
                     <ul class="lst-kix_c7v5kcmoplqk-0">
-                      <li>Top and bottom padding: 16dp</li>
-                      <li>Left and right padding: 24dp</li>
+                      <li>上下边距：16dp</li>
+                      <li>左右边距：24dp</li>
                     </ul>
                   </div>
                   <div class="figure">
