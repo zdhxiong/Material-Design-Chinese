@@ -9,23 +9,23 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Dialogs inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks.</p>
+          <p>对话框用于提示用户做一些决定，或者提供完成某个任务时需要的一些其他额外信息。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Dialogs contain text and UI controls. They retain focus until dismissed or a required action has been taken. Use dialogs sparingly because they are interruptive.</p>
-                <p>Some dialog types include:</p>
+                <p>对话框包含文本和 UI 控件。对话框始终保持聚焦状态，直到被关闭或触发了必要的操作。谨慎使用对话框，因为它们会分散用户的注意力。</p>
+                <p>对话框的类型包括：</p>
                 <ul class="lst-kix_boxvm9ygju2f-0 start">
-                  <li><strong>Alerts </strong>are urgent interruptions that inform about a situation and require acknowledgement.</li>
-                  <li><strong>Simple menus</strong> display options for list items, whereas <strong>simple dialogs</strong> can provide details or actions about a list item.</li>
-                  <li><strong>Confirmation dialogs</strong> require users to explicitly confirm a choice.</li>
+                  <li><strong>警告</strong> 是需要提醒用户，并需要用户确认的重要操作的提示框。</li>
+                  <li><strong>简单菜单</strong> 提供列表选项给用户，而<strong>简单对话框</strong>可以提供一个列表项的详细信息或操作。</li>
+                  <li><strong>确认对话框</strong> 是需要用户明确的确认一个选择的对话框。</li>
                 </ul>
               </div>
               <div class="module">
-                <h3>Behavior</h3>
-                <p>Dialogs should never be obscured, either by other elements or the screen edge. Dialogs always retain focus until dismissed or a required action has been taken. </p>
-                <h3>Full-screen dialogs (Mobile only)</h3>
-                <p>Full-screen dialogs are best suited to complex tasks, or require an input method editor, as they group a series of tasks together before they can be saved.</p>
+                <h3>行为</h3>
+                <p>对话框不能被其他元素或屏幕边缘遮挡。对话框始终保持聚焦状态，直到被关闭或触发了必要的操作。</p>
+                <h3>全屏对话框（仅移动端）</h3>
+                <p>全屏对话框最适合用于复杂的任务、或需要一个输入法编辑器的任务，因为它们在保存之前会将一系列的任务分组在一起。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,28 +40,28 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-behavior" data-qp-ui-data-id="qp:1">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-behavior" data-qp-ui-data-id="qp:1">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-alerts" data-qp-ui-data-id="qp:2">Alerts</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-alerts" data-qp-ui-data-id="qp:2">警告框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-simple-menus" data-qp-ui-data-id="qp:3">Simple menus</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-simple-menus" data-qp-ui-data-id="qp:3">简单菜单</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-simple-dialogs" data-qp-ui-data-id="qp:4">Simple dialogs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-simple-dialogs" data-qp-ui-data-id="qp:4">简单对话框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-confirmation-dialogs" data-qp-ui-data-id="qp:5">Confirmation dialogs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-confirmation-dialogs" data-qp-ui-data-id="qp:5">确认框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-full-screen-dialogs" data-qp-ui-data-id="qp:6">Full-screen dialogs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-full-screen-dialogs" data-qp-ui-data-id="qp:6">全屏对话框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-specs" data-qp-ui-data-id="qp:7">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="dialogs.html#dialogs-specs" data-qp-ui-data-id="qp:7">规格</a>
           </li>
         </ul>
       </nav>
@@ -70,7 +70,7 @@
 
         <div id="dialogs-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -79,22 +79,22 @@
           </h2>
           <div class="article-content">
             <div>
-              <h2><strong>Beyond standard dialogs </strong></h2>
-              <p>Dialogs are a sub-type of modal windows, and the examples covered here are for standard material system dialogs. (Other modal window constructions aren’t covered here because they have too much variation, such as branded buttons for purchasing flows, non-standard UI form elements, or unique layouts.)</p>
+              <h2><strong>标准对话框进阶 </strong></h2>
+              <p>对话框是模态窗口的子类型，这里所涉及的例子是标准的 Material 系统对话框。（其他模态窗口结构在这里没有涉及到，因为它们有太多的变化，例如购买流程的品牌按钮、非标准的 UI 表单元素或独特的布局。）</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Reduce interruption</strong></strong></h2>
-                    <p>Use dialogs sparingly because they are interruptive. Their sudden appearance forces users to stop their current task and focus on the dialog content. Not every choice, setting, or detail warrants interruption. Alternatives to dialogs include menus or inline expansion, both of which maintain the current context.</p>
-                    <h2><strong><strong>Dialog prominence</strong></strong></h2>
-                    <p>Dialogs should never be obscured by other elements or appear partially on screen. Dialogs always retain focus until dismissed or a required action has been taken, such as choosing a setting.</p>
-                    <p>Dialogs should avoid:</p>
+                    <h2><strong><strong>减少对用户的打断</strong></strong></h2>
+                    <p>谨慎使用对话框，因为它们会打断用户的操作。它们的突然出现会迫使用户停止他们当前的任务，并聚焦于对话框内容。不是所有选择、设置或细节都需要打断用户。对话框的替代方案包括菜单或行内展开，这两者都不会影响用户的浏览。</p>
+                    <h2><strong><strong>对话框应突出于其他元素</strong></strong></h2>
+                    <p>对话框绝不能被其他元素遮挡。对话框应始终拥有焦点，直到被关闭或触发了必要的操作（例如选择了一个设置项）。</p>
+                    <p>对话框应避免</p>
                     <ul class="lst-kix_ipehavy5ca5n-0 start">
-                      <li>Opening dialogs from within a dialog</li>
-                      <li>Containing scrolling content</li>
+                      <li>从对话框中打开对话框</li>
+                      <li>包含可滚动的内容</li>
                     </ul>
-                    <h2><strong><strong>Full-screen dialog exception</strong></strong></h2>
-                    <p>Full-screen dialogs may open additional dialogs, such as pickers, because their design accommodates additional layers of material without significantly increasing the app’s perceived z-depth or visual noise.</p>
+                    <h2><strong><strong>全屏对话框是一个例外</strong></strong></h2>
+                    <p>全屏对话框可以打开其他对话框，例如拾取器，因为它们的设计可容纳额外的材料层，而不会明显地增加应用视觉上的 Z 轴深度，或造成视觉干扰。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -102,7 +102,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_content1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of dialog content</p>
+                        <p>对话框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -112,7 +112,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a full-screen dialog</p>
+                        <p>全屏对话框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -121,17 +121,17 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Scrollable content exception</strong></strong></h2>
-                    <p>Some dialog content requires scrolling, such as lists of ringtones. </p>
+                    <h2><strong><strong>可滚动的内容是一个例外</strong></strong></h2>
+                    <p>一些对话框内容需要滚动，例如铃声列表。</p>
                     <ul class="lst-kix_8cibju6089a7-0 start">
-                      <li>For scrollable lists of options, the dialog title remains pinned to the top. This ensures that a selected item remains visible with the title, regardless of the item’s position in the list.</li>
-                      <li>Otherwise, the title scrolls off with the content. Actions always remain in place when content scrolls.</li>
+                      <li>对于可滚动的选项列表，对话框标题应固定在顶部。这确保了选中的条目和标题可以同时可见，而不用管条目在列表中的位置。</li>
+                      <li>否则，标题会随着内容的滚动而消失。操作按钮则应始终保持固定。</li>
                     </ul>
-                    <p>Dialogs are separate from the underlying parent material and do not scroll with it.</p>
-                    <h2><strong><strong>Displaying additional content</strong></strong></h2>
-                    <p>To disclose additional content in a dialog, do so using inline expansion within the content area. Or consider alternative components that are optimized for large amounts of content.</p>
-                    <h2><strong><strong>Dismissing dialogs</strong></strong></h2>
-                    <p>Dialogs can be dismissed by touching/clicking outside of a dialog or by using the system back button (Android). Alternatively, dialog behavior can be overridden so that users must explicitly choose one of the actions.</p>
+                    <p>对话框与底层的元素保持分离，不与其一起滚动。</p>
+                    <h2><strong><strong>显示更多内容</strong></strong></h2>
+                    <p>要在对话框中显示更多内容，请在内容区域使用可展开的组件，或考虑使用其他能容纳更多内容的组件来代替。</p>
+                    <h2><strong><strong>关闭对话框</strong></strong></h2>
+                    <p>可以通过触摸/点击对话框外面的区域、或者使用系统返回按钮（Android）来关闭对话框。另外，可以覆盖对话框的默认行为，使用户必须选择其中一项操作后才能关闭对话框。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -139,7 +139,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_1.png"/>
                       </div>
                       <figcaption>
-                        <p>Make the dialog title fixed when viewing a scrollable list of options ensures that both the title and the selected item are simultaneously visible.</p>
+                        <p>将对话框中的可滚动列表的标题固定，以确保标题和被选中的条目可以同时可见。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -151,7 +151,7 @@
 
         <div id="dialogs-alerts" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Alerts
+            警告框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -160,17 +160,17 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation. </p>
-              <p><strong>Disambiguation from Snackbars:</strong> Snackbars present optional information after an action, such as confirming the discarding of a draft. They often allow a user to undo an action just taken.</p>
+              <p>警告框会紧急打断用户正在进行的操作，用于需要提示用户有关信息，并需要确认的情况。</p>
+              <p><strong>和 Snackbars 的区别：</strong>Snackbars 在操作之后提供可选信息，例如用于确认草稿的丢弃状态。它们通常允许用户撤销刚刚采取的操作。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Alerts without title bars</strong></strong></h2>
-                    <p>Most alerts don't need titles. </p>
-                    <p>They summarize a decision in a sentence or two by either:</p>
+                    <h2><strong><strong>不含标题栏的警告框</strong></strong></h2>
+                    <p>大部分警告框不需要标题</p>
+                    <p>它们只用一句话或两句话来说明：</p>
                     <ul class="lst-kix_cwqflibcg89h-0 start">
-                      <li>Asking a question (e.g. "Delete this conversation?")</li>
-                      <li>Making a statement related to the action buttons</li>
+                      <li>提出问题（例如“删除此会话？”）</li>
+                      <li>对操作按钮进行说明</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -180,7 +180,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The affirmative action text “Discard” clearly indicates the outcome of the decision.</p>
+                        <p>肯定按钮的文本“Discard”清楚地表明了操作的后果。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -191,19 +191,19 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The dismissive action text “No” answers the question, but does not suggest what will happen afterwards. A better action pair would be an explicit “Cancel” and “Delete.”</p>
+                        <p>取消按钮的文本“No”回答了提问，但没有明确表明之后会发生什么。更好的按钮文本应该是更易理解的“Cancel”和“Delete”。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Alerts with title bars</strong></strong></h2>
-                    <p>Use title bar alerts only for high-risk situations, such as the potential loss of connectivity. Users should be able to understand the choices based on the title and button text alone.</p>
-                    <p>If a title is required:</p>
+                    <h2><strong><strong>有标题栏的警告框</strong></strong></h2>
+                    <p>仅在高风险情况下使用有标题栏的警告框，例如网络连接断开了。用户应该要仅凭标题和按钮文本就能明白警告框的含义。</p>
+                    <p>如果需要标题：</p>
                     <ul class="lst-kix_mxsc3tn7ox57-0 start">
-                      <li>Use a clear question or statement with an explanation in the content area, such as "Erase USB storage?".</li>
-                      <li>Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you sure?”</li>
+                      <li>在内容区域使用清楚的问题或说明进行解释，例如“移除 USB 存储设备？”。</li>
+                      <li>避免使用表示歉意、存在歧义、或表示疑问的语句，例如“警告！”或“你确定吗？”。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -213,7 +213,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>This dialog poses a specific question, concisely elaborates on its impact, and provides clear actions.</p>
+                        <p>此对话框提出了一个具体的问题，简要阐述了其影响，并提供了明确的操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -224,7 +224,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>This dialog poses an ambiguous question and its scope of impact is unclear.</p>
+                        <p>此对话框提出了一个模糊的问题，无法根据标题知道它的作用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -236,7 +236,7 @@
 
         <div id="dialogs-simple-menus" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Simple menus
+            简单菜单
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -245,12 +245,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <h2><strong>Mobile and tablet only</strong></h2>
+              <h2><strong>仅适用手机端和平板端</strong></h2>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Simple menus display options for list items, and they immediately commit choices upon selection. See <a href="menus.html#menus-simple-menus">Simple Menus</a> for more details.</p>
-                    <p><strong>Disambiguation:</strong> <a href="dialogs.html#dialogs-simple-dialogs">Simple dialogs</a> display detailed options for list items or provide related actions. Simple dialogs can display the same content as simple menus. However, simple menus are preferred because they are less disruptive to the user’s current context.</p>
+                    <p>简单菜单显示列表的选项，并且会在用户选择后立即提交选择。详见<a href="menus.html#menus-simple-menus">简单菜单</a>。</p>
+                    <p><strong>消除歧义：</strong> <a href="dialogs.html#dialogs-simple-dialogs">简单对话框</a>显示列表的详细选项，并提供相关操作。简单对话框可以显示和简单菜单相同的内容。但是，优先使用简单菜单，因为它们对用户当前上下文的破坏较小。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -258,7 +258,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simplemenu1.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of a simple menu</p>
+                        <p>简单菜单示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -277,7 +277,7 @@
 
         <div id="dialogs-simple-dialogs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Simple dialogs
+            简单对话框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -289,14 +289,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Simple dialogs can provide additional details or actions about a list item. For example, they can display avatars, icons, clarifying subtext, or orthogonal actions (such as adding an account).</p>
-                    <p>Touch mechanics:</p>
+                    <p>简单对话框可以提供有关列表项的详细信息或操作。例如，它们可以显示头像、图标、子文本或正交操作（例如添加账号）。</p>
+                    <p>手势操作：</p>
                     <ul class="lst-kix_iq5usj221ubg-0 start">
-                      <li>Choosing an option immediately commits the option and closes the menu</li>
-                      <li>Touching outside of the dialog, or pressing Back, cancels the action and closes the dialog</li>
+                      <li>选择一个选项后将立即提交该选项并关闭菜单</li>
+                      <li>触摸对话框外边的区域、或按下后退键，会取消操作并关闭对话框</li>
                     </ul>
-                    <h2><strong><strong>Reduce interruption</strong></strong></h2>
-                    <p>Simple dialogs are more interruptive than simple menus and should be used sparingly.</p>
+                    <h2><strong><strong>减少对用户的打断</strong></strong></h2>
+                    <p>简单对话框会比简单菜单更容易打断用户的操作，所以在使用时需要更为谨慎。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -304,7 +304,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a simple dialog </p>
+                        <p>简单对话框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -314,17 +314,17 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple2.png"/>
                       </div>
                       <figcaption>
-                        <p>The width of a dialog on mobile is defined as a multiple of a unit.</p>
-                        <p>Each unit is 56dp wide<br>
-                          Minimum width on mobile = 56dp * 5 = 280dp</p>
+                        <p>移动设备上对话框的宽度为单位的倍数。</p>
+                        <p>每个单位是 56dp 的宽度<br>
+                          手机上最小宽度为 56dp * 5 = 280dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>No explicit cancel button</strong></strong></h2>
-                    <p>Simple dialogs do not have explicit buttons that accept or cancel an operation.</p>
+                    <h2><strong><strong>没有明确的取消按钮</strong></strong></h2>
+                    <p>简单对话框没有明确的按钮来确认或取消操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -333,7 +333,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>This simple dialog has an explicit “Cancel” button.</p>
+                        <p>这个简单对话框有一个明确的“Cancel”按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -344,7 +344,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>This simple dialog has an explicit “Cancel” button.</p>
+                        <p>这个简单对话框有一个明确的“Cancel”按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -353,15 +353,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Specifications</strong></strong></h2>
+                    <h2><strong><strong>规格</strong></strong></h2>
                     <ul class="lst-kix_inaa37kmuppi-0 start">
-                      <li>Row heights can vary in simple dialogs.</li>
-                      <li>Simple dialogs are displayed centered vertically and horizontally on the screen.</li>
-                      <li>The dialog's distance from the screen edge is at least 40dp on the left and right, and at least 24dp on the top and bottom.</li>
-                      <li>The dialog's content is 24dp from the dialog edge.</li>
+                      <li>简单对话框中的行高可以不同。</li>
+                      <li>简单对话框在屏幕中垂直水平居中对齐。</li>
+                      <li>对话框距离屏幕边缘左右至少 40dp，上下至少 24dp。</li>
+                      <li>对话框的内容距离对话框边缘 24dp。</li>
                     </ul>
-                    <h2><strong><strong>Avoid text wrapping</strong></strong></h2>
-                    <p>If any text in a <a href="menus.html#menus-simple-menus">simple menu</a> wraps to another line, use a simple dialog instead.</p>
+                    <h2><strong><strong>避免文本换行</strong></strong></h2>
+                    <p>如果<a href="menus.html#menus-simple-menus">简单菜单</a>中的文本需要换行，应使用简单对话框代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -370,7 +370,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>This simple dialog has varying row heights.</p>
+                        <p>这个简单对话框有不同的行高。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -382,7 +382,7 @@
 
         <div id="dialogs-confirmation-dialogs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Confirmation dialogs
+            确认对话框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -394,10 +394,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Confirmation dialogs require users to explicitly confirm their choice before an option is committed. For example, users can listen to multiple ringtones but only make a final selection upon touching “OK.”<br></p>
-                    <p>Tapping “Cancel” in a confirmation dialog, or pressing “Back,” cancels the action, discards any changes, and closes the dialog.</p>
-                    <h2>Avoid dialogs launching dialogs</h2>
-                    <p>Confirmation dialogs should avoid launching additional simple dialogs or simple menus, as they add complexity and appear to increase an app’s elevation. If they are needed to complete a task, consider using a <a href="dialogs.html#dialogs-full-screen-dialogs">full-screen dialog</a> instead.</p>
+                    <p>确认对话框要求用户在提交选项之前先确认它们的选择。例如，用户可以收听多个铃声，但只有在触摸“确认”按钮时才会提交最终的选择。<br></p>
+                    <p>触摸确认对话框中的“Cancel”或按下后退键，会取消操作，放弃所有更改，然后关闭对话框。</p>
+                    <h2>避免从对话框中启动其他对话框</h2>
+                    <p>避免从确认对话框中启动其他简单对话框或简单菜单，因为它们会增加复杂性，并增加了应用的 Z 轴高度。如果需要从对话框中启动对话框来完成一项任务，请考虑使用<a href="dialogs.html#dialogs-full-screen-dialogs">全屏对话框</a>代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -405,7 +405,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation1.png"/>
                       </div>
                       <figcaption>
-                        <p>The ringtone choice in the following confirmation dialog will not be set until the user taps “OK.”</p>
+                        <p>在用户按下“OK”按钮前，不会提交对话框中的铃声选择。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -415,15 +415,15 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a confirmation dialog with controls positioned on the left side of text.</p>
+                        <p>文本左侧有控件的确认对话框示例。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Confirm a single value</h2>
-                    <p>Confirmation dialogs can use layouts other than lists, such as a <a href="pickers.html">date picker</a>, but remain focused on specifying a single value (picking the date, but not picking the time and date).</p>
+                    <h2>确认信息单一性</h2>
+                    <p>确认对话框可以使用除列表之外的其他布局，例如<a href="pickers.html">日期选择器</a>，但仍然应专注于指定单个值（选择日期，但不同时选择日期和时间）。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -431,7 +431,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation3.png"/>
                       </div>
                       <figcaption>
-                        <p>The date choice is set by the user tapping a date and the “OK” button. </p>
+                        <p>用户通过选择一个日期，并按下“OK”按钮来设置日期。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -441,15 +441,15 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation4.png"/>
                       </div>
                       <figcaption>
-                        <p>The user selects the hour by moving the clock hand and tapping “OK.” </p>
+                        <p>用户用过移动时钟指针，并按下“OK”按钮来设置时间。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Cancel and confirmation buttons</h2>
-                    <p>Confirmation dialogs provide both an explicit confirmation button and explicit cancel button. Tapping the cancel button, Back button, or leaving the confirmation dialog will discard changes.</p>
+                    <h2>取消和确认按钮</h2>
+                    <p>确认对话框同时提供明确的确认按钮和取消按钮。点击取消按钮、返回键或离开确认对话框将丢弃更改。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -458,7 +458,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Provide explicit confirmation and cancel buttons.</p>
+                        <p>提供明确的确认和取消按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,7 +469,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>A single dialog button makes the system Back action ambiguous: does Back cancel or confirm?</p>
+                        <p>只有单个对话框按钮使系统的返回操作变得模糊：返回时是取消还是确认？</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -481,7 +481,7 @@
 
         <div id="dialogs-full-screen-dialogs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Full-screen dialogs
+            全屏对话框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -490,19 +490,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p><strong>Mobile only</strong>: Due to limited space, full-screen dialogs may be more appropriate for mobile devices than dialogs used on devices with larger screens.</p>
+              <p><strong>仅限移动设备</strong>：由于空间有限，全屏对话框可能更适合用于移动设备，而不适合用在拥有更大屏幕的设备上。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Usage</strong></strong></h2>
-                    <p>Full-screen dialogs group a series of tasks (such as creating a calendar entry) before they may be committed or discarded. No selections are saved until “Save” is touched. Touching the “X” discards all changes and exits the dialog.</p>
-                    <p>Full-screen dialogs enable complex layouts, minimize the appearance of stacked sheets of material (dialogs above dialogs), and temporarily reset the app’s perceived elevation to a higher baseline. They allow tasks to launch simple menus or simple dialogs as part of a complex operation.</p>
-                    <p>Full-screen dialogs may be used for content or tasks that meet any of these criteria:</p>
+                    <h2><strong><strong>用法</strong></strong></h2>
+                    <p>全屏对话框将一系列任务（例如创建日历）分组，然后用户可以选择提交或丢弃这些任务。在触摸“保存”按钮之前，不会保存任何数据。触摸“X”会丢弃所有更改并退出对话框。</p>
+                    <p>全屏对话框启用复杂布局，最小化堆叠材料（对话框上方的对话框）的外观，并临时把应用的视觉高度重置为比较高的基线。它们允许使用简单菜单或简单对话框作为复杂操作的一部分。</p>
+                    <p>全屏对话框可用于符合以下任何条件的内容或任务：</p>
                     <ul class="lst-kix_t7jhlbmuw669-0 start">
-                      <li>The dialog includes components (like pickers or form fields) that require an input method editor (IME), such as a keyboard.</li>
-                      <li>When changes are not saved in real time</li>
-                      <li>When there is no draft capability in the app</li>
-                      <li>When performing batch operations or queuing changes prior to submitting them</li>
+                      <li>该对话框包含需要如键盘之类的输入法编辑器（IME）的组件（如拾取器或表单字段）。</li>
+                      <li>当更改不会实时保存时</li>
+                      <li>当应用没有草稿功能时</li>
+                      <li>在提交批处理操作或队列更改之前</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -511,7 +511,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen1.png"/>
                       </div>
                       <figcaption>
-                        <p>The full-screen dialog supports a simple dialog used to pick dates.</p>
+                        <p>全屏对话框支持使用简单对话框来选择日期。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -521,23 +521,23 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen2.png"/>
                       </div>
                       <figcaption>
-                        <p>Date picker opened from full-screen dialog</p>
+                        <p>从全屏对话框中打开日期选择器</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Actions</strong></strong></h2>
-                    <p>Place confirmation and dismissive actions for full-screen dialogs at the top of the screen.</p>
-                    <h2><strong><strong>Confirmation</strong></strong></h2>
-                    <p>The confirmation action in the top right of the screen uses descriptive verbs, such as: save, send, share, update or create. Don’t use vague actions for confirming action, such as: done, ok or close.</p>
-                    <p>The confirmation action is disabled until all mandatory fields in the dialog are met.</p>
-                    <h2><strong><strong>Discard</strong></strong></h2>
-                    <p>Both the discard action (the “X” at the top left of the screen) and the Back button close the full-screen dialog and discard changes. </p>
+                    <h2><strong><strong>操作</strong></strong></h2>
+                    <p>在全屏对话框的顶部放置确认和取消按钮。</p>
+                    <h2><strong><strong>确认</strong></strong></h2>
+                    <p>确认按钮在屏幕的右上角，并使用叙述性的动词，例如：保存、发送、共享、更新或创建。不要使用模糊的动词，例如：完成、好、关闭。</p>
+                    <p>在对话框中所有字段都通过验证之前，确认操作将被禁用。</p>
+                    <h2><strong><strong>取消</strong></strong></h2>
+                    <p>取消操作（屏幕左上角的“X”）和返回按钮都会关闭全屏对话框并放弃更改。</p>
                     <ul class="lst-kix_w0srevl2gebd-0 start">
-                      <li>If no changes have been made, the dialog closes and no discard confirmation is required.</li>
-                      <li>If the user has made any changes, they are prompted to confirm the discard action.</li>
+                      <li>如果未进行更改，对话框会直接关闭，不需要进行丢弃确认。</li>
+                      <li>如果用户进行了更改，系统将提示用户对丢弃操作进行确认。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -547,7 +547,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use vague terms like “Close” for confirmation actions.</p>
+                        <p>不要使用模糊的术语，如“Close”来确认操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -558,15 +558,15 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Prompt users to confirm the discard action if they have made any changes.</p>
+                        <p>如果用户进行了更改，则提示用户对丢弃操作进行确认。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Navigation</strong></strong></h2>
-                    <p>The “X” used in a full-screen dialog differs from an up arrow, which indicates the view’s state is constantly being saved. For example, an up arrow used in Settings indicates all changes are committed immediately without explicit confirmation or cancel actions.</p>
+                    <h2><strong><strong>导航</strong></strong></h2>
+                    <p>在全屏对话框中使用的“X”不同于返回箭头，使用返回箭头表示视图的状态会被实时保存。例如，“设置”中使用返回箭头表示立即提交所有更改，而不需要进行确认或取消操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -574,7 +574,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen4.png"/>
                       </div>
                       <figcaption>
-                        <p>The up arrow in this Settings example indicates that any changes will be immediately saved upon selection.</p>
+                        <p>此设置示例中的返回箭头表示任何更改都将在选择后立即保存。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -584,7 +584,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen5.png"/>
                       </div>
                       <figcaption>
-                        <p>Touching the “X” in this Settings example will discard all changes. Changes will be saved only upon touching Save.</p>
+                        <p>点击此设置示例中的“X”将放弃所有更改，更改只有在点击保存按钮后才会保存。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -593,10 +593,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Titles</strong></strong></h2>
-                    <p>Full-screen dialog titles don’t use dynamic type.</p>
-                    <p>Titles should be succinct. They can wrap to a second line if necessary, and should then be truncated.</p>
-                    <p>If the full-screen dialog uses titles of variable length or anticipates long titles (for example, because certain words are longer in different languages), place title text in the content area of the dialog instead of the app bar.</p></div>
+                    <h2><strong><strong>标题</strong></strong></h2>
+                    <p>不要使用动态的文本作为全屏对话框的标题。</p>
+                    <p>标题应该简洁。如果需要，它们可以换行到第二行，然后将多余的截断。</p>
+                    <p>如果全屏对话框使用可变长度的标题或长标题（例如，同一个词翻译成不同语言后会变得很长），请将标题文本放在对话框的内容区域，不要放在应用栏中。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -604,7 +604,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid using titles of variable length in the app bar.</p>
+                        <p>避免在应用栏中使用可变长度的标题。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -615,7 +615,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Place long titles in the content area of the full-screen dialog.</p>
+                        <p>在全屏对话框的内容区域放置长标题。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -627,7 +627,7 @@
 
         <div id="dialogs-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -639,11 +639,11 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Dialogs contain content, actions, and an optional title.</p>
-                    <h2><strong><strong>Optional title</strong></strong></h2>
-                    <p>The title briefly describes the type of choice being made. Titles should always be displayed in their entirety and only used when necessary. For example, a title may indicate to which part of a task the dialog relates, or identify what will be affected by the decision.</p>
-                    <h2><strong><strong>Content</strong></strong></h2>
-                    <p>Dialog content typically consists of text and/or UI control elements. It is focused on a specific task, such as confirming item deletion or choosing a setting.</p>
+                    <p>对话框包含内容、操作和可选的标题。</p>
+                    <h2><strong><strong>可选的标题</strong></strong></h2>
+                    <p>标题简要描述了正在进行的选择的类型，标题应始终以整体显示，且仅在必要时使用。例如，标题可以指示对话框与任务的哪个部分相关，或确认该决定会影响到的内容。</p>
+                    <h2><strong><strong>内容</strong></strong></h2>
+                    <p>对话框内容通常由文本和 UI 控件组成。它专注于特定的任务，例如对删除操作做二次确认，或用于选择一项设置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -651,19 +651,19 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>This dialog contains a title, content, and actions. </p>
+                        <p>此对话框包含标题、内容和操作。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Actions</strong></strong></h2>
-                    <p>Dialogs present a focused and limited set of actions, which are generally affirmative or dismissive.</p>
+                    <h2><strong><strong>操作</strong></strong></h2>
+                    <p>对话框包含的操作要有明确目的和数量，通常是肯定操作或忽略操作。</p>
                     <ul class="lst-kix_6ymsfsu4bdxd-0 start">
-                      <li><strong>Affirmative actions</strong> are placed on the right side and continue the process. Affirmative actions may be destructive, like “Delete” or “Remove.”</li>
-                      <li><strong>Dismissive actions</strong> are placed directly to the left of affirmative actions and return the user to the originating screen or step in the process.</li>
-                      <li><strong>Dismissive and affirmative action text</strong> can be “Cancel”/”OK” or specific active verbs or verb phrases that indicate the outcome of the decision.</li>
+                      <li><strong>肯定操作</strong>放在右侧，并在点击后继续进行下一步操作。肯定操作可能具有破坏性，例如“删除”或“移除”。</li>
+                      <li><strong>忽略操作</strong>直接放在肯定操作的左侧，并在点击后返回到原始界面，或者跳过这一步。</li>
+                      <li><strong>忽略和肯定操作的文本</strong>可以是“Cancel”/“OK”或其他能表明操作结果的动词或动词短语。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -673,14 +673,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Dismissive actions are always placed directly to the left of affirmative actions.</p>
+                        <p>取消操作总是放在肯定操作的左侧。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Dialog actions should present a clear choice directly related to the dialog’s title and content.</p>
+                    <p>对话框操作应该提供与对话框标题和内容直接相关的明确的选择。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -689,18 +689,18 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid presenting users with ambiguous or unclear choices. In this example, “Cancel” doesn't make sense in relation to the title because there's no clear action being proposed.</p>
+                        <p>避免向用户提供模糊不清的选择。在此示例中，“Cancel”与标题无关，因为没有指出明确的操作。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Acknowledgement actions</strong></strong></h2>
-                    <p>In situations where users are required to acknowledge the dialog’s content to proceed, an alert may contain only one action. Use this type of alert sparingly as it is interruptive. Consider other methods of communicating the information to users, such as in-line with a view’s content.</p>
-                    <h2><strong><strong>Number of actions</strong></strong></h2>
-                    <p>Dialogs should not include more than two actions. A third action, such as “Learn more,” navigates away from the dialog, potentially leaving the task unfinished.</p>
-                    <p>Avoid using a “Learn more” action to access help documentation; in-line expansion within the dialog should be used instead. If more extensive information is needed, provide it prior to entering the dialog.</p>
+                    <h2><strong><strong>确认操作</strong></strong></h2>
+                    <p>在需要用户确认对话框内容的情况下，警告框可以仅包含一个操作。谨慎使用此类警告框，因为它会打断用户的操作。可以考虑通过其他方法把信息传递给用户，例如把信息显示在视图的内容中。</p>
+                    <h2><strong><strong>操作的数量</strong></strong></h2>
+                    <p>对话框不能包含两个以上的操作。第三个操作，例如“了解更多”会离开对话框，可能会留下未完成的任务。</p>
+                    <p>避免使用“了解更多”操作来访问帮助文档；应该使用对话框内的可展开内容代替。如果需要提供更多详细信息，请在进入对话框之前提供。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -709,22 +709,22 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The “Learn more” action navigates away from this dialog, leaving it in an indeterminate state.</p>
+                        <p>“了解更多”操作会离开此对话框，使其处于不确定的状态。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Color</h1>
-                    <p>Dialog actions use system colors by default, but they should reflect your product's <a href="../style/color.html">color palette</a>. Use a contrasting color, such as the palette’s accent color, to distinguish dialog actions from dialog content.</p>
+                    <h1>颜色</h1>
+                    <p>对话框操作默认使用系统颜色，但它应该反映你的产品的<a href="../style/color.html">色调</a>。使用高对比度的颜色，例如调色版中的强调色，将对话框操作和对话框内容区分开来。</p>
                   </div>
                   <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Languages without capitalization </strong></strong></h2>
-                    <p>For languages without capitalization (such as Chinese, Japanese or Korean), it is important to maintain consistent placement, spacing, and colors for actions to distinguish them from regular text.</p>
+                    <h2><strong><strong>没有大写字母的语言</strong></strong></h2>
+                    <p>对于没有大写字母的语言（例如中文、日文和韩文），需要保持一致的位置、间距和颜色，以使它们和普通文本区分开来。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -732,7 +732,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement1.png"/>
                       </div>
                       <figcaption>
-                        <p>The consistent placement of actions and text color helps distinguish actions from regular text even when the affirmative action is disabled.</p>
+                        <p>一致的操作按钮位置、文本颜色有利于把操作和普通文本区分开来，即使操作处于禁用状态。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -740,7 +740,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement2.png"/>
                       </div>
                       <figcaption>
-                        <p>Affirmative actions are more likely to be disabled until a choice is made. Dismissive actions are never disabled.</p>
+                        <p>在做出选择之前，肯定按钮更有可能处于禁用状态。而取消按钮不会被禁用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -749,13 +749,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Content guidelines</strong></strong></h2>
-                    <p>Padding around content area: 24dp<br>
-                      Padding between title and body text: 20dp<br>
-                      Padding around buttons: 8dp<br>
-                      Button height: 36dp<br>
-                      Action area height: 52dp<br>
-                      Dialog elevation: 24dp</p>
+                    <h2><strong><strong>内容指南</strong></strong></h2>
+                    <p>内容四周边距：24dp<br>
+                      标题和正文之间的间距：20dp<br>
+                      按钮之间的间距：8dp<br>
+                      按钮高度：36dp<br>
+                      操作区域高度：52dp<br>
+                      对话框 Z 轴高度：24dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -763,7 +763,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates1.png"/>
                       </div>
                       <figcaption>
-                        <p>Content padding</p>
+                        <p>内容的间距</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -771,10 +771,10 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_actions.png"/>
                       </div>
                       <figcaption>
-                        <p>Within the content area, the 24dp of padding below the content helps separate it from the actions.</p>
-                        <p>Dialog content bottom padding: 24dp<br>
-                          Button height: 36dp<br>
-                          Button margin: 8dp</p>
+                        <p>在内容区域中，内容下方的 24dp 的边距有助于将其与操作分隔开。</p>
+                        <p>提示框内容底部边距：24dp<br>
+                          按钮高度：36dp<br>
+                          按钮外边距：8dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -782,18 +782,18 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates8.png"/>
                       </div>
                       <figcaption>
-                        <p>Content padding for a dialog in a scrolled state</p>
+                        <p>滚动状态的内容的内边距</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Button width and padding</strong></strong></h2>
-                    <p>Button height: 36dp<br>
-                      Minimum button width: 64dp<br>
-                      Internal button padding: 8dp<br>
-                      Padding between buttons: 8dp</p>
+                    <h2><strong><strong>按钮的宽度和内边距</strong></strong></h2>
+                    <p>按钮高度：36dp<br>
+                      最小按钮宽度：64dp<br>
+                      按钮内边距：8dp<br>
+                      按钮之间的间距：8dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -801,18 +801,18 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates2.png"/>
                       </div>
                       <figcaption>
-                        <p>Detail of button widths and padding</p>
+                        <p>按钮的宽度和边距的详细信息</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Button height: 36dp<br>
-                    Button area height: 52dp<br>
-                    Left button padding: 24dp<br>
-                    Right button padding: 8dp<br>
-                    Padding between buttons: 8dp</p>
+                    <p>按钮高度：36dp<br>
+                    按钮区域高度：52dp<br>
+                    左侧按钮边距：24dp<br>
+                    右侧按钮边距：8dp<br>
+                    按钮之间的间距：8dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -820,7 +820,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates3.png"/>
                       </div>
                       <figcaption>
-                        <p>Detail of button area</p>
+                        <p>按钮区域的细节</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -828,7 +828,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement3.png"/>
                       </div>
                       <figcaption>
-                        <p>In a scrolled state, a stroke delineates the dialog’s content area from actions.</p>
+                        <p>滚动状态下，对话框的内容和操作之间的描边。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -837,13 +837,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Side-by-side buttons</strong></strong></h2>
-                    <p>Side-by-side buttons are recommended when the text of each label does not exceed the maximum button width, such as the commonly used OK/Cancel buttons. </p>
-                    <p>Use the following formula to calculate maximum button width for a given dialog:</p>
-                    <p>The maximum width for buttons in a dialog = </p>
-                    <p>(Dialog width - 8dp - 8dp - 8dp)/2</p>
-                    <p>For example:</p>
-                    <p>The maximum width for buttons in a 280dp wide dialog = </p>
+                    <h2><strong><strong>并排按钮</strong></strong></h2>
+                    <p>当每个按钮的文本不超过最大按钮宽度时，建议使用并排按钮，例如常用的确认/取消按钮。</p>
+                    <p>使用以下公式计算给定对话框的最大按钮宽度：</p>
+                    <p>对话框中的按钮的最大宽度 = </p>
+                    <p>(对话框宽度 - 8dp - 8dp - 8dp)/2</p>
+                    <p>例如</p>
+                    <p>280dp 宽度的对话框中的最大按钮宽度 = </p>
                     <p>(280dp - 8dp - 8dp - 8dp)/2 = 128dp</p>
                   </div>
                   <div class="figure">
@@ -852,17 +852,17 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_sidebyside.png"/>
                       </div>
                       <figcaption>
-                        <p>Button height: 36dp<br>
-                        Padding between text and action area: 24dp<br>
-                        Padding around buttons is: 8dp</p>
+                        <p>按钮高度：36dp<br>
+                        正文和按钮区域之间的间距：24dp<br>
+                        按钮四周的边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Stacked full-width buttons</strong></strong></h2>
-                    <p>When text labels exceed the maximum button width, use stacked buttons to accommodate the text. Affirmative actions are stacked above dismissive actions.</p>
+                    <h2><strong><strong>竖排全宽按钮</strong></strong></h2>
+                    <p>当文本长度超过按钮的最大宽度时，请使用竖排按钮来放置文本。肯定操作在取消操作上方。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -870,18 +870,18 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_stacked.png"/>
                       </div>
                       <figcaption>
-                        <p>Touchable target height for each button: 48dp<br>
-                        Padding between text and touch target: 24dp<br>
-                        Padding below touch target to dialog edge: 8dp<br>
-                        Padding between button text right edge and dialog edge: 16dp</p>
+                        <p>每个按钮的可触摸高度：48dp<br>
+                        正文和触摸目标之间的间距：24dp<br>
+                        触摸目标下方和对话框边缘的间距：8dp<br>
+                        按钮文本右侧和对话框边缘的间距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Simple dialog keylines</strong></strong></h2>
-                    <p>Vertical keyline at 24dp from the left and right edges. Content associated with an icon or avatar aligns 80dp from the left edge.</p>
+                    <h2><strong><strong>简单对话框的参考线</strong></strong></h2>
+                    <p>垂直参考线在对话框边缘左右 24dp 处。与图标或头像相关联的内容在距离对话框左侧 80dp 处。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -889,26 +889,26 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates5.png"/>
                       </div>
                       <figcaption>
-                        <p>Keylines for a simple dialog</p>
+                        <p>简单对话框的参考线</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Simple dialog content guidelines</strong></strong></h2>
-                    <p>It is recommended that simple dialogs have titles, but titles can be omitted based on your product’s needs. </p>
-                    <p><strong>Title</strong></p>
+                    <h2><strong><strong>简单对话框的内容指南</strong></strong></h2>
+                    <p>建议简单对话框要有标题，但标题可以根据产品需要进行省略。</p>
+                    <p><strong>标题</strong></p>
                     <ul class="lst-kix_dtf5p7kyo90b-0 start">
-                      <li>Top padding: 24dp</li>
-                      <li>Bottom padding: 20dp</li>
-                      <li>Text size: Roboto Medium 20sp</li>
-                      <li>Text line height: 28dp</li>
+                      <li>顶部边距：24dp</li>
+                      <li>底部边距：20dp</li>
+                      <li>文本尺寸：Roboto Medium 20sp</li>
+                      <li>文本行高：28dp</li>
                     </ul>
-                    <p><strong>Content</strong></p>
+                    <p><strong>内容</strong></p>
                     <ul class="lst-kix_6ttbpq5z9hc5-0 start">
-                      <li>Row height of single-line list with avatars: 56dp</li>
-                      <li>Bottom edge padding: 8dp</li>
+                      <li>含头像的单行文本行高：56dp</li>
+                      <li>底部边距：8dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -917,24 +917,24 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_simple-redlines.png"/>
                       </div>
                       <figcaption>
-                        <p>redlines for a simple dialog</p>
+                        <p>简单对话框的标注</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Full-screen dialog titles</strong></strong></h2>
-                    <p>Full-screen dialog titles can wrap to a second line if necessary, and then should be truncated. Titles should be succinct, but in some situations, such as when words are longer in different languages, titles may need to wrap.</p>
+                    <h2><strong><strong>全屏对话框的标题</strong></strong></h2>
+                    <p>如果有需要，全屏对话框的标题可以换行到第二行，然后将多余部分截断。标题应该简洁，但是在某些情况下，例如标题翻译成其他语言会变得更长时，标题可能需要换行。</p>
                     <p><br>
-                      App bar height with a single line of text: 56dp<br>
-                      App bar height with two lines of text: 80dp<br>
-                      Title text keyline: 72dp<br>
-                      Title text: 20sp<br>
-                      Title text top and bottom padding: 20dp<br>
-                      Dismissive action padding from left edge: 16dp<br>
-                      Affirmative action text: 14sp<br>
-                      Affirmative action text padding on the left and right: 16dp</p>
+                      含单行文本的应用栏高度：56dp<br>
+                      含两行文本的应用栏高度：80dp<br>
+                      标题文本距离屏幕左侧间距：72dp<br>
+                      标题文本：20sp<br>
+                      标题文本上下边距：20dp<br>
+                      取消操作距离左侧边缘的间距：16dp<br>
+                      肯定操作的文本：14sp<br>
+                      肯定操作的文本的左右内边距：16dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -942,7 +942,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates10.png"/>
                       </div>
                       <figcaption>
-                        <p>Detail of a full-screen dialog app bar</p>
+                        <p>全屏对话框应用栏的详细信息</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -957,7 +957,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates11.png"/>
                       </div>
                       <figcaption>
-                        <p>Full-screen dialog with an app bar containing a single line of text.</p>
+                        <p>含单行文本应用栏的全屏对话框。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -967,7 +967,7 @@
                         <img alt="" src="../static/media/components/dialogs/components_dialogs_updates12.png"/>
                       </div>
                       <figcaption>
-                        <p>Note that this image is for illustration purposes only. Long titles should be placed in the content area of the full-screen dialog.</p>
+                        <p>请注意，此图片仅供参考。长标题应该放置在全屏对话框的内容区域。</p>
                       </figcaption>
                     </figure>
                   </div>
