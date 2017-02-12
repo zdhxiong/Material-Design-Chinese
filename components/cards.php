@@ -1114,7 +1114,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards33.png"/>
                       </div>
                       <figcaption>
-                        <p>此示例使用无边框分隔线。和可展开列表类似，此卡片使用全宽度的分隔线表示扩展。</p>
+                        <p>此示例使用全出血分隔线。和可展开列表类似，此卡片使用全宽度的分隔线表示扩展。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1129,7 +1129,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_action6.png"/>
                       </div>
                       <figcaption>
-                        <p>此示例使用无边框分隔线，来分隔滑块和列表。</p>
+                        <p>此示例使用全出血分隔线，来分隔滑块和列表。</p>
                       </figcaption>
                     </figure>
                   </div>
