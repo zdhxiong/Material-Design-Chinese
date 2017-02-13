@@ -162,7 +162,7 @@
                     <p>操作可以打开一个后续视图，例如卡片。</p>
                     <h2><strong>主操作</strong></h2>
                     <ul class="lst-kix_xefhha8lrhq7-0 start">
-                      <li>充满整个瓦片，因此不通过图标或文本来表现。</li>
+                      <li>充满整个瓦片，因此不通过图标或文本来展现。</li>
                       <li>在特定网格列表的所有瓦片中都保持一致。例如一个网格列表中的所有瓦片的主要操作都是查看图片的详细信息。</li>
                     </ul>
                     <h2><strong>副操作或内容</strong></h2>
@@ -191,7 +191,7 @@
 
         <div id="grid-lists-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -203,10 +203,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Scrolling</h1>
-                    <p>Grid lists typically scroll only vertically.</p>
-                    <p>Horizontally scrolling grid lists are discouraged because the scrolling interferes with typical reading patterns, affecting comprehension. One notable exception is a horizontally-scrolling, single-line grid list of images, such as a gallery, which is compatible with typical reading patterns.</p>
-                    <p>Cut off grid tiles in the view’s initial scroll position to communicate the scroll direction for content overflow.</p>
+                    <h1>滚动</h1>
+                    <p>网格列表通常只能垂直滚动。</p>
+                    <p>不建议进行水平滚动，因为水平滚动和传统的阅读方式冲突，影响理解。有一个例外：网格列表只含单行图片时，可以水平滚动，例如相册，这是和传统的阅读方式兼容的。</p>
+                    <p>在视图的初始滚动位置切断网格瓦片，来表明该网格列表的内容超出了视图，是可以滚动的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -215,7 +215,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Indicate content overflow by cutting off grid tiles.</p>
+                        <p>通过切断网格瓦片来表明网格列表的内容超出了视图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -226,31 +226,31 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid aligning grid tiles along a view edge in the view’s initial scroll position. This positioning doesn’t effectively communicate that there is more content available.</p>
+                        <p>避免在视图的初始滚动位置把网格瓦片和视图边缘对齐。这种情况不能有效的表达列表中还有更多的内容。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Gestures</h1>
-              <p>Per-tile swipe actions are not permitted. Pick-up-and-move actions are discouraged.</p>
-              <h1>Tile filtering and sorting</h1>
-              <p>Content in a grid list can be programmatically filtered or sorted by date, file size, alphabetical order, or other parameters.</p>
-              <p>The first item in the grid list is positioned at the top left of the grid list, and the order proceeds left to right and top to bottom.</p>
-              <h1>Dimensions and resizing</h1>
-              <p>Resizing a grid list causes the tiles to re-sort as horizontal space becomes available. Full-bleed grid list tiles resize to fit the screen width.</p>
-              <p>A grid list does not transform into a list when horizontal space contracts. Grid lists and lists are separate structures for emphasizing different data types. Grid lists prioritize images over text and lists prioritize text over images.</p>
-              <p>To maintain a consistent rhythm throughout the grid list, truncate text content that is too long for the tile’s width. Alternatively, increase the grid size so that the tiles can accommodate the longer titles.</p>
-              <h1>Responsive design</h1>
-              <p>Full-screen grid lists should use fluid image ratios with minimum and maximum widths, derived using the <a href="https://www.google.com/url?q=http://www.google.com/design/spec/layout/metrics-keylines.html%23metrics-keylines-ratio-keylines&amp;sa=D&amp;ust=1481818011211000&amp;usg=AFQjCNEkNkPhCHA4jvTkp918lKXgzvkrvw" target="_blank">Ratio keylines</a>. They should retain fixed heights, margins, and padding.</p>
-              <p>Centered grid lists have fluid margins with a minimum width. They maintain fixed image widths, heights, and padding. </p>
+              <h1>手势</h1>
+              <p>不允许为每个瓦片都添加滑动操作。不鼓励使用选取并移动操作。</p>
+              <h1>瓦片的过滤和排序</h1>
+              <p>网格列表中的内容可以按照日期、文件大小、字母顺序或其他参数进行过滤和排序。</p>
+              <p>网格列表中的第一个元素位于左上角，并且顺序为从左到右、从上到下。</p>
+              <h1>尺寸和大小调整</h1>
+              <p>调整网格列表的大小会导致水平空间的大小发生变化，从而导致瓦片进行重新排序。全出血网格列表瓦片会自动调整大小来适应屏幕的宽度。</p>
+              <p>当水平空间缩小时，网格列表不会转换为列表。网格列表和列表的结构不同，用于强调不同的数据类型。网格列表中图片比文本重要，列表中文本比图片重要。</p>
+              <p>为了保持整个网格列表的节奏一致，把过长的文本内容截断。或者，增加网格的大小，以使瓦片能够包含更长的标题。</p>
+              <h1>响应式设计</h1>
+              <p>全屏网格列表应该使用具有最小和最大宽度的流式图像比率，比率根据<a href="layout/metrics-keylines.html#metrics-keylines-ratio-keylines" target="_blank">比率关键线</a>获得。它们应该保持固定的高度、外边距和内边距。</p>
+              <p>居中的网格列表有最小宽度和流式外边距。它们保持固定的图片宽度、高度和内边距。</p>
             </div>
           </div>
         </div>
 
         <div id="grid-lists-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -262,16 +262,16 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Grid list header/footers</h1>
-                    <h2><strong>Single-line header/footer </strong></h2>
-                    <p>Height: 48dp<br>
-                      Text padding: 16dp<br>
-                      Default font size: 16sp<br>
-                      Secondary action is flush right to the footer.</p>
-                    <h2><strong>Two-line header/footer</strong></h2>
-                    <p>Height: 68dp<br>
-                      Text padding: 16dp<br>
-                      Default font size for each line: 16sp/12sp or 14sp/14sp</p>
+                    <h1>网格列表头部/底部</h1>
+                    <h2><strong>单行头部/底部</strong></h2>
+                    <p>高度：48dp<br>
+                      文本内边距：16dp<br>
+                      默认字体大小：16sp<br>
+                      副操作与页脚右对齐。</p>
+                    <h2><strong>两行头部/底部</strong></h2>
+                    <p>高度：68dp<br>
+                      文本内边距：16dp<br>
+                      每行的默认字体大小：16sp/12sp 或 14sp/14sp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -279,10 +279,10 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs1.png"/>
                       </div>
                       <figcaption><br>
-                        <p>Type 14/14 <br>
-                          Two-line bar (with icon) height: 68dp<br>
-                          Two-line bar height: 68dp<br>
-                          Single-line bar height: 48dp</p>
+                        <p>字体大小 14/14 <br>
+                          两行文本（含图标）高度：68dp<br>
+                          两行文本高度：68dp<br>
+                          单行文本高度：48dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -290,10 +290,10 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs2.png"/>
                       </div>
                       <figcaption><br>
-                        <p>Type 16/12 <br>
-                          Two-line bar (with icon) height: 68dp<br>
-                          Two-line bar height: 68dp<br>
-                          Single-line bar height: 48dp</p>
+                        <p>字体大小 16/12 <br>
+                          两行文本（含图标）高度：68dp<br>
+                          两行文本高度：68dp<br>
+                          单行文本高度：48dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -301,7 +301,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs22.png"/>
                       </div>
                       <figcaption>
-                        <p>Text truncation in header/footers.</p>
+                        <p>头部/底部中的文本截断。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -310,11 +310,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Image-only grid list</h1>
-                    <p>Grid list padding: 4dp or 1dp</p>
-                    <p>Tiles in grid lists can span multiple columns.</p>
-                    <p>Carefully consider whether secondary text is needed in grid lists that use multi-column tiles, as
-                      larger tiles can develop significant empty space.</p>
+                    <h1>仅含图片的网格列表</h1>
+                    <p>网格列表的间距：4dp 或 1dp</p>
+                    <p>网格中的瓦片可以跨越多列。</p>
+                    <p>仔细考虑在使用多列瓦片的网格列表中是否需要副文本，因为较大的瓦片可能会产生较大的空白。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -322,7 +321,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs3.png"/>
                       </div>
                       <figcaption>
-                        <p>Image-only grid list </p>
+                        <p>仅含图片的网格列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -332,7 +331,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs4.png"/>
                       </div>
                       <figcaption>
-                        <p>Image-only grid list photo album</p>
+                        <p>仅含图片的网格列表相册</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -341,12 +340,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Single-line grid list</h1>
-                    <h2><strong>Text only</strong></h2>
-                    <p>Height: 48dp<br>
-                      Text padding: 16dp<br>
-                      Default font size: 16sp<br>
-                      Grid list padding: 4dp or 1dp</p>
+                    <h1>单行网格列表</h1>
+                    <h2><strong>仅文本</strong></h2>
+                    <p>高度：48dp<br>
+                      文本内边距：16dp<br>
+                      默认字体大小：16sp<br>
+                      网格列表间距：4dp 或 1dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -354,7 +353,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs5.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list footer with 16dp padding</p>
+                        <p>单行网格列表底部含 16dp 的内边距</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -362,7 +361,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs7.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list header with 16dp padding</p>
+                        <p>单行网格列表头部含 16dp 的内边距</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -372,7 +371,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs6.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list photo album</p>
+                        <p>单行网格列表相册</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -381,12 +380,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Text with icon</strong></h2>
-                    <p>Height: 48dp<br>
-                      Text padding: 16dp<br>
-                      Default font size: 16sp<br>
-                      Grid list padding: 4dp or 1dp</p>
-                    <p>The secondary action can be flush right or flush left within the footer or header.</p>
+                    <h2><strong>含图标的文本</strong></h2>
+                    <p>高度：48dp<br>
+                      文本内边距：16dp<br>
+                      默认字体大小：16sp<br>
+                      网格列表间距：4dp 或 1dp</p>
+                    <p>副操作可以在头部或底部中左对齐或右对齐</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -394,7 +393,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs8.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list footer with 16dp padding and icon</p>
+                        <p>底部含 16dp 的内边距和图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -402,7 +401,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs10.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list header with 16dp padding and icon</p>
+                        <p>头部含 16dp 的内边距和图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -410,7 +409,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs12.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list footer with icon in photo album</p>
+                        <p>底部含图标单行网格列表相册</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -420,7 +419,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs9.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list footer with icon</p>
+                        <p>底部含图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -428,7 +427,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs11.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line grid list header with icon</p>
+                        <p>头部含图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -437,12 +436,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Two-line grid list</h1>
-                    <h2><strong>Text only</strong></h2>
-                    <p>Height: 68dp<br>
-                      Text padding: 16dp<br>
-                      Default font size for each line: 16sp/12sp or 14sp/14sp<br>
-                      Grid list padding: 4dp or 1dp</p>
+                    <h1>两行网格列表</h1>
+                    <h2><strong>仅文本</strong></h2>
+                    <p>高度：68dp<br>
+                      文本内边距：16dp<br>
+                      每一行的默认字体大小：16sp/12sp 或 14sp/14sp<br>
+                      网格列表间距：4dp 或 1dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -450,7 +449,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs13.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line grid list footer with 16dp of padding</p>
+                        <p>底部含 16dp 内边距的两行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -458,7 +457,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs15.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line grid list, 4dp example</p>
+                        <p>两行网格列表，4dp 间距示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -468,7 +467,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs14.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line grid list header with 16dp of padding</p>
+                        <p>头部含 16dp 内边距的两行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -476,7 +475,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs16.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line grid list, 1dp example</p>
+                        <p>两行网格列表，1dp 间距示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -485,12 +484,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Text with icon</strong></h2>
-                    <p>Height: 68dp<br>
-                      Text padding: 16dp<br>
-                      Default font size for each line: 16sp/12sp or 14sp/14sp</p>
-                    <p>The secondary action can be flush right or flush left within the footer or header.</p>
-                    <p>Grid list padding: 4dp or 1dp</p>
+                    <h2><strong>含图标的文本</strong></h2>
+                    <p>高度：68dp<br>
+                      文本内边距：16dp<br>
+                      每一行的默认字体大小：16sp/12sp 或 14sp/14sp</p>
+                    <p>副操作可以在头部或底部左对齐或右对齐。</p>
+                    <p>网格列表间距：4dp 或 1dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -498,8 +497,8 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs17.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line text with icon footer</p>
-                        <p>Text padding: 16dp</p>
+                        <p>底部含两行文本和图标</p>
+                        <p>文本内边距：16dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -507,8 +506,8 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs19.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line text with icon header</p>
-                        <p>Text padding: 16dp</p>
+                        <p>头部含两行文本和图标</p>
+                        <p>文本内边距：16dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -516,7 +515,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs21.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of text with icon</p>
+                        <p>含图标的文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -526,7 +525,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs18.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line text with icon</p>
+                        <p>含图标的两行文本示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -534,7 +533,7 @@
                         <img alt="" src="../static/media/components/grid-lists/components_grids_specs20.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line text with icon</p>
+                        <p>含图标的两行文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
