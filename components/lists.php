@@ -9,25 +9,25 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Lists present multiple line items vertically as a single continuous element.</p>
+          <p>列表将多行项目垂直显示成一个连续的元素。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Lists are made up of a continuous column of rows. Each row contains a tile. Primary actions fill the tile, and supplemental actions are represented by icons and text.<br></p>
-                <p>Lists are best suited for similar data types.</p>
+                <p>列表用一个连续的列来显示多行元素。每一行都包含一个瓦片。主操作填满整个瓦片，副操作通过图标和文本展现。<br></p>
+                <p>列表最适合用于相似的数据类型。</p>
               </div>
               <div class="module">
-                <h3>Actions</h3>
-                <p>Vertical scrolling<br>
-                  Filtering and sorting</p>
+                <h3>操作</h3>
+                <p>垂直滚动<br>
+                  过滤和排序</p>
 
-                <h3>Gestures</h3>
-                <p>Swipe<br>
-                  Drag and drop </p>
+                <h3>手势</h3>
+                <p>滑动<br>
+                  拖放 </p>
 
-                <h3>Alternatives</h3>
-                <p><a href="cards.html">Cards</a> <br>
-                  <a href="grid-lists.html">Grid lists</a></p>
+                <h3>替代方案</h3>
+                <p><a href="cards.html">卡片</a> <br>
+                  <a href="grid-lists.html">网格列表</a></p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -42,22 +42,22 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-behavior" data-qp-ui-data-id="qp:2">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-behavior" data-qp-ui-data-id="qp:2">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-content" data-qp-ui-data-id="qp:3">Content</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-content" data-qp-ui-data-id="qp:3">内容</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-actions" data-qp-ui-data-id="qp:4">Actions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-actions" data-qp-ui-data-id="qp:4">操作</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-specs" data-qp-ui-data-id="qp:5">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-specs" data-qp-ui-data-id="qp:5">规格</a>
           </li>
         </ul>
       </nav>
@@ -66,7 +66,7 @@
 
         <div id="lists-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -78,8 +78,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A <strong>list</strong> consists of a single continuous column of tessellated sub-divisions of equal width called <strong>rows </strong>that function as containers for <strong>tiles</strong>.</p>
-                    <p><strong>Tiles</strong> hold content, and can vary in height within a list.</p>
+                    <p><strong>列表</strong>是由多个等宽的<strong>行</strong>组成的一个连续的列，行的功能是用来包含<strong>瓦片</strong>。</p>
+                    <p><strong>瓦片</strong>包含内容，在列表中瓦片的高度可以不同。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -87,7 +87,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p>List</p>
+                        <p>列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -97,7 +97,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>Row and tile</p>
+                        <p>行和瓦片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,14 +106,14 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Lists are best suited to presenting a homogeneous data type or sets of data types, such as images and text. They are optimized for reading comprehension while differentiating either between similar data types, or qualities within a single data type.</p>
-                    <h2><strong><strong>List alternatives:</strong></strong></h2>
+                    <p>列表最适合用于呈现同类数据类型或数据类型集，例如图片和文本。它针对阅读理解做了优化，并对相似的数据类型、或同一数据类型的不同特质做了区分。</p>
+                    <h2><strong><strong>替代方案：</strong></strong></h2>
                     <ul class="lst-kix_qyzctdh51pys-0 start">
-                      <li>If more than three lines of text need to be shown in list tiles, use <strong>cards </strong>instead.</li>
-                      <li>If the primary distinguishing content consists of images, use a <strong>grid list</strong>.</li>
+                      <li>如果有超过三行的文本需要显示，请使用<strong>卡片</strong>代替。</li>
+                      <li>如果主要内容是图片，请使用<strong>网格列表</strong>。</li>
                     </ul>
-                    <h2><strong><strong>Density</strong></strong></h2>
-                    <p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>
+                    <h2><strong><strong>密集型</strong></strong></h2>
+                    <p>当鼠标和键盘是主要的输入方式时，可以压缩列表尺寸以适应更密集的布局。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -121,7 +121,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_usage3.png"/>
                       </div>
                       <figcaption>
-                        <p>Typical list scanning pattern</p>
+                        <p>典型列表浏览方式</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -134,7 +134,7 @@
 
         <div id="lists-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -143,15 +143,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>Scrolling</h1>
-              <p>Lists scroll only vertically.</p>
-              <h1>Gestures</h1>
-              <p>The swipe action of each tile should be consistent within lists.</p>
-              <p>Tiles may be moved between a list and drop target (similar to moving a file into a folder) and picked up and manually reordered within a list.</p>
+              <h1>滚动</h1>
+              <p>列表只能垂直滚动。</p>
+              <h1>手势</h1>
+              <p>列表中的所有瓦片的滑动操作应保持一致。</p>
+              <p>瓦片可以从一个列表移动到目标位置（类似于移动文件到一个文件夹），或在一个列表中选取并重新排列。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Filtering and sorting</h1>
-                    <p>List tiles can be sorted or filtered by date, file size, alphabetical order, or other parameters.</p>
+                  <div class="module"><h1>过滤和排序</h1>
+                    <p>列表瓦片可以按日期、文件大小、字母顺序或其他参数进行排序和过滤。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -160,7 +160,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Alphabetical sorting makes information easier to find.</p>
+                        <p>按字母排序使信息更容易被找到。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -171,7 +171,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t display information in random order; if the UI doesn’t allow the user to sort a list, your app should use a logical sort order.</p>
+                        <p>不要按随机顺序显示信息；如果 UI 不允许用户对列表进行排序，则应用应该默认使用一种更合理的排序方式。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -183,7 +183,7 @@
 
         <div id="lists-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Content
+            内容
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -195,8 +195,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Collections of list tiles present related content in a consistent format. Lists use hierarchy to prioritize a type or set of content, which helps users find the most important information. For example, in an email inbox app, an avatar and text snippet are emphasized over a time stamp. </p>
-                    <p>List tiles may contain up to three lines of text, and text length may vary between tiles in the same list. To display more than three lines of text, use a card.</p>
+                    <p>列表瓦片使用相同的格式呈现相关内容。列表使用层次结构来凸显一个类型或一组内容，这有助于帮助用户找到最重要的信息。例如，在邮件收件箱中，头像和内容摘要比邮件的时间更重要。</p>
+                    <p>列表瓦片最多可以包含三行文本，并且不同瓦片的文本长度可以不同。如果要显示超过三行的文本，请使用卡片代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -204,7 +204,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_content1.png"/>
                       </div>
                       <figcaption>
-                        <p>Place the most distinguishing content on the left of the tile and the least distinguishing content on the right. </p>
+                        <p>把最易分辨的元素放在瓦片左边，不易分辨的元素放在瓦片右边。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -213,12 +213,12 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Specifications:</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_8uufrxu5qfsh-0 start">
-                      <li>The majority of space on a list tile should be dedicated to the primary action.</li>
-                      <li>Place the most distinguishing content towards the left of the tile.</li>
-                      <li>In tiles with <strong>multi-line content</strong>, place the most distinguishing content in the first line.</li>
-                      <li>Place <strong>supplemental actions</strong> on the right side.</li>
+                      <li>瓦片中的大部分空间应该用于主要操作。</li>
+                      <li>把最易分辨的元素放在瓦片左边。</li>
+                      <li>在有<strong>多行内容</strong>的瓦片中，把最易区分的内容放在第一行。</li>
+                      <li>把<strong>辅助操作</strong>放在瓦片右边。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -227,7 +227,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_content2.png"/>
                       </div>
                       <figcaption>
-                        <p>The primary action takes up the majority of the space on the tile. The supplemental action goes on the right side of the tile.</p>
+                        <p>主操作占据了瓦片中大部分空间。辅助操作放在瓦片右侧。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -240,7 +240,7 @@
 
         <div id="lists-actions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Actions
+            操作
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -249,28 +249,28 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Primary and supplemental actions (such as play, zoom in, delete, and select) may open a subsequent view, such as a card. They do not have a submenu or an action overflow menu.</p>
-              <p><strong>Primary actions</strong></p>
+              <p>主操作和辅助操作（例如播放、缩放、删除和选择）可能会打开随后的视图，例如卡片。它没有子菜单或弹出菜单。</p>
+              <p><strong>主操作</strong></p>
               <ul class="lst-kix_bt62f15dsukc-0 start">
-                <li>Fill the entire tile and are not represented solely by an individual icon or text button</li>
-                <li>Are consistent for all tiles in a specific list, such as the primary action in a list of music to play songs</li>
+                <li>填满整个瓦片，而不能由单独的图标或文本按钮来代表主操作</li>
+                <li>在特定的列表中，所有瓦片的主操作都是相同的，例如音乐列表中的主操作是播放音乐。</li>
               </ul>
-              <p><strong>Supplemental actions</strong></p>
+              <p><strong>辅助操作</strong></p>
               <ul class="lst-kix_ue9aszt4rxdb-0 start">
-                <li>Are represented by icons, secondary text, etc</li>
-                <li>Have consistent functionality throughout a list, such as an icon that indicates if someone is online</li>
-                <li>Have a consistent location in a list’s tiles</li>
+                <li>用图标、副文本等表示</li>
+                <li>在列表中有相同的功能，例如使用一个图标指示某人是否在线</li>
+                <li>在列表的瓦片中有相同的位置</li>
               </ul>
-              <p><strong>Repeating actions</strong></p>
-              <p>Avoid displaying a repeated supplemental action in tiles, such as a share action in every tile. </p>
-              <p>Toggles, such as stars or pins, are exceptions because they provide unique information about each individual tile.</p>
+              <p><strong>重复操作</strong></p>
+              <p>避免在瓦片中显示重复的辅助操作，例如在每个瓦片上都添加一个分享操作。</p>
+              <p>切换操作是一个例外，例如加星，因为它们提供有关每个单独瓦片的唯一信息。</p>
             </div>
           </div>
         </div>
 
         <div id="lists-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -282,7 +282,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>In a <strong>single-line list</strong>, each tile contains a single line of text. The amount of text can vary between tiles within the same list.</p>
+                    <p>在<strong>单行列表</strong>中，每个瓦片包含一行文本。列表中瓦片的文本数量可以不同。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -290,11 +290,11 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines1.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line list specs</p>
-                        <p>Icon left padding: 16dp<br>
-                          List item left padding: 72dp<br>
-                          List right padding: 16dp<br>
-                          List right margin: 56dp</p>
+                        <p>单行列表规格</p>
+                        <p>图标左侧边距： 16dp<br>
+                          列表项目左侧边距：72dp<br>
+                          列表右侧边距：16dp<br>
+                          列表右侧外边距：56dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -304,7 +304,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line list</p>
+                        <p>单行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -313,7 +313,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>In a <strong>two-line list</strong>, each tile contains a maximum of two lines of text. The amount of text can vary between tiles within the same list.</p>
+                    <p>在<strong>两行列表</strong>中，每个瓦片最多包含两行文本。列表中瓦片的文本数量可以不同。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -321,10 +321,10 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines3.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line list specs</p>
-                        <p>Icon left padding: 16dp<br>
-                          List item left padding: 72dp<br>
-                          List right padding: 16dp</p>
+                        <p>两行列表规格</p>
+                        <p>图标左侧边距：16dp<br>
+                          列表项目左侧边距：72dp<br>
+                          列表右侧边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -334,7 +334,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines4.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a two-line list</p>
+                        <p>两行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -343,8 +343,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>In a <strong>three-line list</strong>, each tile contains a maximum of three lines of text.</p>
-                    <p>The amount of text can vary between tiles within the same list.</p>
+                    <p>在<strong>三行列表</strong>中，每个瓦片最多包含三行文本。</p>
+                    <p>列表中瓦片的文本数量可以不同。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -352,10 +352,10 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines5.png"/>
                       </div>
                       <figcaption>
-                        <p>Three-line list specs</p>
-                        <p>Icon left padding: 16dp<br>
-                          List item left padding: 72dp<br>
-                          List right padding: 16dp</p>
+                        <p>三行列表规范</p>
+                        <p>图标左侧边距：16dp<br>
+                          列表项目左侧边距：72dp<br>
+                          列表右侧边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -365,7 +365,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a three-line list</p>
+                        <p>三行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -374,10 +374,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Single-line list</h1>
-                    <h2><strong>Text only</strong></h2>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
-                    <p>Bottom padding is measured from the baseline.</p>
+                    <h1>单行列表</h1>
+                    <h2><strong>仅含文本</strong></h2>
+                    <p>在列表上下添加 8dp 的内边距，含副标题的列表除外，它们自由有内边距。</p>
+                    <p>底部边距从基线开始测量。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -385,7 +385,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single1.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line list</p>
+                        <p>单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -395,7 +395,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line list</p>
+                        <p>单行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -408,11 +408,11 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single2.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Single-line list specs</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 48dp<br>
-                          Left and right padding from screen edge: 16dp<br>
-                          Top padding: 8dp</p>
+                        <p><strong>单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：48dp<br>
+                          左右距离屏幕边缘的间距：16dp<br>
+                          上边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -422,11 +422,11 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single2_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense single-line list specs</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Height: 40dp<br>
-                          Left and right padding from screen edge: 16dp<br>
-                          Top padding: 4dp </p>
+                        <p><strong>紧凑型单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          高度：40dp<br>
+                          左右距离屏幕边缘的间距：16dp<br>
+                          上边距：4dp </p>
                       </figcaption>
                     </figure>
                   </div>
@@ -435,9 +435,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Icon with text</strong></h2>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
-                    <p>Bottom padding is measured from the baseline.</p>
+                    <h2><strong>含图标和文本</strong></h2>
+                    <p>列表上下添加 8dp 的内边距，含副标题的列表除外，它们自己有内边距。</p>
+                    <p>底部边距从基线开始测量。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -445,7 +445,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single4.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line list with icon </p>
+                        <p>含图标的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -455,7 +455,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line list with icon</p>
+                        <p>含图标的单行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,12 +469,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single5.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Single-line list with icon specs</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 48dp<br>
-                          Icon padding, left: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 8dp</p>
+                        <p><strong>含图标的单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：48dp<br>
+                          图标左侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -484,12 +484,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single5_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense single-line list with icon specs</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Height: 40dp<br>
-                          Icon padding, left: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 4dp</p>
+                        <p><strong>含图标的紧凑型单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          高度：40dp<br>
+                          图标左侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -498,9 +498,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text</strong></h2>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含头像和文本</strong></h2>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>在列表上下添加 8dp 的内边距，含图标的列表除外，它们自己有内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -508,7 +508,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single7.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line item with avatar</p>
+                        <p>含头像的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -518,7 +518,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single9.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line item with avatar </p>
+                        <p>含头像的单行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -532,12 +532,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single8.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Single-line item with avatar specs</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 56dp<br>
-                          Left avatar padding: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 8dp</p>
+                        <p><strong>含头像的单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：56dp<br>
+                          头像左侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -547,12 +547,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single8_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense single-line item with avatar specs</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Height: 48dp<br>
-                          Left avatar padding: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 4dp</p>
+                        <p><strong>含头像的紧凑型单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          高度：48dp<br>
+                          头像左侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -561,10 +561,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text and icon</strong></h2>
-                    <p>Right icon padding: 16dp</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
-                    <p>Bottom padding is measured from the baseline.</p>
+                    <h2><strong>含头像、文本和图标</strong></h2>
+                    <p>图标右侧边距：16dp</p>
+                    <p>列表上下添加 8dp 的内边距，含副标题的列表除外，它们自由有内边距。</p>
+                    <p>底部边距从基线开始测量。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -572,7 +572,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single10.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line item with avatar and icon</p>
+                        <p>含头像和图标的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -582,7 +582,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single9.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line item with avatar and icon</p>
+                        <p>含头像和图标的单行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -595,13 +595,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single11.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Single-line item with avatar and icon specs</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 56dp<br>
-                          Left avatar padding: 16dp<br>
-                          Right icon padding: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 8dp</p>
+                        <p><strong>含头像和图标的单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：56dp<br>
+                          头像左侧边距：16dp<br>
+                          图标右侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -611,13 +611,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_single11_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense single-line item with avatar and icon specs</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Height: 48dp<br>
-                          Left avatar padding: 16dp<br>
-                          Right icon padding: 16dp<br>
-                          Text padding, left: 72dp<br>
-                          Top padding: 4dp</p>
+                        <p><strong>含头像和图标的紧凑型单行列表规格</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          高度：48dp<br>
+                          头像左侧边距：16dp<br>
+                          图标右侧边距：16dp<br>
+                          文本左侧边距：72dp<br>
+                          上边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -626,14 +626,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Two-line list</h1>
-                    <h2><strong>Text only</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 72dp<br>
-                      Text padding, left: 16dp<br>
-                      Text padding, top and bottom: 20dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
+                    <h1>两行列表</h1>
+                    <h2><strong>仅含文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：72dp<br>
+                      文本左侧边距：16dp<br>
+                      文本上下边距：20dp</p>
+                    <p>底部边距从基线开始测量。</p>
                     <p>Add 8dp of padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
                   </div>
                   <div class="figure">
