@@ -9,28 +9,28 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>List controls display information and actions for list items. </p>
+          <p>列表控件为列表项提供信息和操作。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
-              <div class="module"><p>List controls provide information, indicate a state, or present actions for list items. List controls appear as icons to the left or right of list text.</p>
-                <p>List control placement:</p>
+              <div class="module"><p>列表控件提供列表项的信息、指示状态或显示操作。列表控件以图标的形式显示在文本左侧或右侧。</p>
+                <p>列表控件位置：</p>
                 <ul class="lst-kix_xecwe92rumht-0 start">
-                  <li>States and primary actions are placed on the left side of a list tile.</li>
-                  <li>Secondary actions and info are placed on the right side of the tile.</li>
+                  <li>状态和主操作放在列表瓦片的左侧。</li>
+                  <li>副操作和信息放在瓦片的右侧。</li>
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>Types</strong></h3>
-                <p>Checkbox<br>
-                  Switch<br>
-                  Reorder<br>
-                  Expand/collapse<br>
-                  Leave-behinds</p>
+                <h3><strong>类型</strong></h3>
+                <p>复选框<br>
+                  开关<br>
+                  重新排序<br>
+                  展开/折叠<br>
+                  滑动隐藏控件</p>
 
-                <h3><strong>Menu controls</strong></h3>
-                <p>Check<br>
-                  Inline information<br>
-                  Nested menu indicator</p>
+                <h3><strong>菜单控件</strong></h3>
+                <p>选中<br>
+                  内联信息<br>
+                  嵌套菜单标识</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -45,16 +45,16 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-types-of-list-controls" data-qp-ui-data-id="qp:2">Types of list controls</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-types-of-list-controls" data-qp-ui-data-id="qp:2">列表控件类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-types-of-menu-controls" data-qp-ui-data-id="qp:3">Types of menu controls</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists-controls.html#lists-controls-types-of-menu-controls" data-qp-ui-data-id="qp:3">菜单控件类型</a>
           </li>
         </ul>
       </nav>
@@ -63,7 +63,7 @@
 
         <div id="lists-controls-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -75,17 +75,17 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>List controls fall under four categories:</p>
+                    <p>列表控件分为四类：</p>
                     <ul class="lst-kix_dgrepbta7m6r-0 start">
-                      <li>State</li>
-                      <li>Primary action (including text strings)</li>
-                      <li>Secondary action</li>
-                      <li>Secondary info</li>
+                      <li>状态</li>
+                      <li>主操作（包括文本字符串）</li>
+                      <li>副操作</li>
+                      <li>副信息</li>
                     </ul>
-                    <p>Distinguishing elements of list tiles need to be on the left for left-to-right interfaces, and vice versa. States and primary actions are placed on the left side of a list tile. Text within a list item should be considered part of the primary action target.</p>
-                    <p>Don’t place two icons or actions next to one another, such as a checkbox next to an avatar. </p>
-                    <p>If the primary action of the list item is navigational, don’t use an icon. The list item itself and its context should be sufficient to communicate the destination. </p>
-                    <p>Secondary actions and info should be placed on the right side of the title. Secondary actions are always a separate target from the primary action, as users increasingly expect every icon to trigger an action. </p>
+                    <p>列表瓦片中容易分辨的元素需要放在左侧，以符合用户从左到右的阅读顺序，反之同理。状态和主操作放在列表瓦片的左侧。列表项中的文本也被认为是主操作的操作目标的一部分。</p>
+                    <p>不要把两个图标或操作放在一起，例如复选框和头像。</p>
+                    <p>如果列表项的主要操作是导航，那么就不要使用图标。列表项本身以及它的上下文就足以让用户明白这个列表的用处是什么。</p>
+                    <p>副操作和信息应该放在标题的右侧。副操作通常要和主操作分开，可以单独点击，因为用户越来越希望每个图标都能触发一个动作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -93,7 +93,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_usage.png"/>
                       </div>
                       <figcaption>
-                        <p>States and primary actions are placed on the left side of a list tile. The secondary action and secondary info should be placed on the right side of the title. </p>
+                        <p>状态和主操作放在瓦片的左侧。副操作和副信息放在标题的右侧。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -105,7 +105,7 @@
 
         <div id="lists-controls-types-of-list-controls" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Types of list controls
+            列表控件类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -117,26 +117,26 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Checkbox</h1>
-                    <p>A checkbox can either be a primary action or a secondary action.</p>
-                    <p>Type: primary action/state</p>
-                    <p>Desktop checkboxes should appear only on hover and focus. </p></div>
+                    <h1>复选框</h1>
+                    <p>复选框可以作为主操作，也可以作为副操作。</p>
+                    <p>类型：主操作/状态</p>
+                    <p>桌面端的复选框应该只在鼠标悬停和获取焦点时显示。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_checkbox1.png"/>
                       </div>
                       <figcaption>
-                        <p>The checkbox is the primary action and the state indicator for the list item.</p>
+                        <p>在这个列表中，复选框是主操作和状态标识符。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Type: secondary action</p>
-                    <p>Separate target</p>
-                    <p>When controlling a family of variables, consider using switches instead. </p>
+                    <p>类型：副操作</p>
+                    <p>单独可点击</p>
+                    <p>当控制一系列变量，而不仅仅只是控制一个变量的情况下，考虑使用开关控件来代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -144,7 +144,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_checkbox2.png"/>
                       </div>
                       <figcaption>
-                        <p>The checkbox is the secondary action for the list item.</p>
+                        <p>在这个列表中，复选框是副操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -153,16 +153,16 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Switch</h1>
-                    <p>Type: secondary action</p>
-                    <p>Separate target</p></div>
+                    <h1>开关</h1>
+                    <p>类型：副操作</p>
+                    <p>单独可点击</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_switch.png"/>
                       </div>
                       <figcaption>
-                        <p>The switch is the secondary action and a separate target. </p>
+                        <p>开关是次要操作，单独可点击。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -171,10 +171,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Reorder</h1>
-                    <p>Type: secondary action</p>
-                    <p>Usually a separate target, depending on which mode list it is in. </p>
-                    <p>Allows dragging of the list item to other locations within the list. It usually appears in list editing mode.</p>
+                    <h1>重新排序</h1>
+                    <p>类型：副操作</p>
+                    <p>通常是单独可点击的，视当前列表所处的模式而定。</p>
+                    <p>该操作允许用户把列表项拖动到列表中的其他位置。通常出现在列表编辑模式下。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -182,7 +182,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_reorder.png"/>
                       </div>
                       <figcaption>
-                        <p>The reorder icon is the secondary action for the list item. </p>
+                        <p>重新排序图标是列表项的副操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -191,10 +191,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Expand/collapse</h1>
-                    <p>Type: secondary action</p>
-                    <p>Separate target</p>
-                    <p>Expands and collapses a list view vertically to show and hide details of existing list items.</p>
+                    <h1>展开/折叠</h1>
+                    <p>类型：副操作</p>
+                    <p>单独可点击</p>
+                    <p>垂直展开或折叠一个列表来显示或隐藏列表项的详细信息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -202,7 +202,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand1.png"/>
                       </div>
                       <figcaption>
-                        <p>By touching the list control, the user expands the list. </p>
+                        <p>触摸列表控件，可以展开列表。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -212,7 +212,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand2.png"/>
                       </div>
                       <figcaption>
-                        <p>The list is expanded. </p>
+                        <p>这个列表已经展开。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -225,7 +225,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand3.png"/>
                       </div>
                       <figcaption>
-                        <p>Collapsed single-line item</p>
+                        <p>折叠的单行列表项</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -235,7 +235,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand4.png"/>
                       </div>
                       <figcaption>
-                        <p>Expanded single-line item</p>
+                        <p>展开的单行列表项</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -244,10 +244,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Leave-behinds</h1>
-                    <p>Type: Other</p>
-                    <p>A leave-behind is an informative hint as to what swiping a list item away will do to that item. The leave-behind can transform into an action.</p>
-                    <p>Swiping on a list item from either direction will reveal an icon indicating the action. After swiping, a follow-up action can appear as a text button within the space of the list item.</p>
+                    <h1>滑动隐藏控件</h1>
+                    <p>类型：其他</p>
+                    <p>滑动隐藏控件是当某一列表项被滑开之后的操作提示。滑动隐藏控件可以被转换成一项操作。</p>
+                    <p>无论从哪个方向滑动列表，都会出现操作图标，滑动了之后，操作图标就会居中显示在列表空白处。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -255,7 +255,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_leave1.png"/>
                       </div>
                       <figcaption>
-                        <p>Swiping on a list item from right to left will reveal an icon indicating the action.</p>
+                        <p>从右向左滑动一个列表项将会显示一个操作图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -265,7 +265,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_leave2.png"/>
                       </div>
                       <figcaption>
-                        <p>Swiping on a list item from left to right will reveal an icon indicating the action.</p>
+                        <p>从左向右滑动一个列表项将会显示一个操作图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -277,7 +277,7 @@
 
         <div id="lists-controls-types-of-menu-controls" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Types of menu controls
+            菜单控件类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -285,14 +285,14 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>A menu is a special type of list. In menus, use controls that are appropriate for dropdown menus, overflow menus, and so on. Don’t use these controls in regular lists. Use the regular list controls instead.</p>
+            <div><p>菜单是一种特殊类型的列表。在菜单中，使用适合于下拉菜单和弹出菜单的控件。不要在常规列表中使用这些控件。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Check</h1>
-                    <p>Type: state</p>
-                    <p>Not a separate target. </p>
-                    <p>Menus only. Indicates that the list item has been selected. The selection is done through a different control.</p>
+                    <h1>选中</h1>
+                    <p>类型：状态</p>
+                    <p>非单独可点击。</p>
+                    <p>仅适用于菜单。用于表示当前列表项已被选中。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -300,17 +300,17 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu1.png"/>
                       </div>
                       <figcaption>
-                        <p>The check indicates that the list item has been selected.</p>
+                        <p>打勾表示列表项已被选中。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Inline information</h1>
-                    <p>Type: secondary info</p>
-                    <p>Not a separate target. </p>
-                    <p>Menus only. Inline information is a small snippet of text related to the line title that can provide information or a tip, like a keyboard shortcut. It cannot be truncated.</p>
+                    <h1>内联信息</h1>
+                    <p>类型：次要信息</p>
+                    <p>非单独可点击。</p>
+                    <p>仅适用于菜单。内联信息是列表中的一小段和当前标题相关的文字，用于提供相关信息或提示，比如快捷键。它不能被截断。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -318,17 +318,17 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu2.png"/>
                       </div>
                       <figcaption>
-                        <p>The inline information for Bold, Italic and Underline provide keyboard shortcuts. </p>
+                        <p>加粗、斜体和下划线等内联信息提供了快捷键。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Nested menu indicator</h1>
-                    <p>Type: primary action</p>
-                    <p>Not a separate target. </p>
-                    <p>Menus only. The glyph indicates that a secondary menu will fly out upon hover, focus, and/or selection. </p>
+                    <h1>嵌套菜单标识</h1>
+                    <p>类型：主操作</p>
+                    <p>非单独可点击。</p>
+                    <p>仅适用于菜单。该符号表示子菜单可以通过鼠标悬停、聚焦、选择等方式弹出。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -336,7 +336,7 @@
                         <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu3.png"/>
                       </div>
                       <figcaption>
-                        <p>The glyphs for the menu items indicate that a secondary menu will fly out upon hover, focus, and/or selection.</p>
+                        <p>菜单项中的符号表示子菜单会通过鼠标悬停、聚焦、选择等方式弹出。</p>
                       </figcaption>
                     </figure>
                   </div>
