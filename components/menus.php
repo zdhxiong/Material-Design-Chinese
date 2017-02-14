@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>菜单在一个短暂出现的材料上显示一些列选项。</p>
+          <p>菜单在一个短暂出现的材料上显示一列选项。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
@@ -76,9 +76,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>菜单是一片临时的材料，A menu is a temporary piece of material that appears upon interaction with a button, action, pointer, or other control. It contains at least two menu items.</p>
-                    <p>Each menu item consists of a discrete option or action that can affect the app, the view, or selected elements within a view.</p>
-                    <p>Menus should not be used as a primary method for navigation within an app.</p>
+                    <p>菜单是一片临时的材料，由按钮、操作图标、指示器或其他控件触发。它至少包含两个菜单项。</p>
+                    <p>每一个菜单项都由一个独立的选项或操作组成，它可以影响应用、视图、或视图中的选定元素。</p>
+                    <p>菜单不应该用作应用中主要的导航方法。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -86,7 +86,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_usage1.png"/>
                       </div>
                       <figcaption>
-                        <p>The action overflow in the app bar will emit a menu.</p>
+                        <p>应用栏中的操作按钮会触发菜单。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,7 +96,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_usage2.png"/>
                       </div>
                       <figcaption>
-                        <p>This action overflow menu contains four menu items: “Refresh,” “Help &amp; feedback,” “Settings”, and “Sign out”. </p>
+                        <p>此操作触发的菜单包含四个菜单项：“Refresh”，“Help &amp; feedback”，“Settings”和“Sign out”。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -105,10 +105,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Menu labels</h2>
-                    <p>The label of a button or control should concisely and accurately reflect the items within the menu. Menu bars typically use single words as labels, like “file,” “format,” and “edit.” Other contexts may require longer labels.</p>
-                    <h2>Disabled menu options</h2>
-                    <p>Menus display a consistent set of menu items. A menu item may be enabled or disabled based on the current state of the application.</p>
+                    <h2>菜单标签</h2>
+                    <p>按钮或控件的标签应该简明、准确的反映出菜单中的菜单项。菜单栏通常使用一个单词作为标签，像“文件”、“格式”、“编辑”和“视图”。其他内容可能会有更长的标签。</p>
+                    <h2>禁用的菜单项</h2>
+                    <p>菜单显示一组一致的菜单项。每个菜单项可以基于应用的当前状态来启用或禁用。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -117,7 +117,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The title “View” accurately describes the unifying characteristic of the menu items it contains.</p>
+                        <p>标题“视图”准确地描述了其包含的菜单项的统一特性。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -131,7 +131,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The title “Stuff” is not descriptive and does not help users predict what menu items they will find in the Stuff menu.</p>
+                        <p>标题“Stuff”不是描述性的，无法帮助用户预测他们将在“Stuff”菜单中找到什么菜单项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -140,14 +140,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Contextual menus</h2>
-                    <p>Contextual menus dynamically change their available menu items based on the current state of the application. </p>
+                    <h2>上下文菜单</h2>
+                    <p>上下文菜单能够根据应用的当前状态动态的改变可用的菜单项。</p>
                     <ul class="lst-kix_jjy9e6u0ee5q-0 start">
-                      <li>Menu items that are irrelevant to the current context may be <strong>removed</strong>.</li>
-                      <li>Menu items which are relevant but need certain conditions to be met may be <strong>disabled</strong>. For example, the Copy menu option becomes enabled when text is selected.</li>
+                      <li>与当前上下文无关的菜单项可以被<strong>移除</strong>.</li>
+                      <li>相关的但需要满足特定条件才能使用的菜单项可以被<strong>禁用</strong>。例如，“复制”选项可以在选中文本后才启用。</li>
                     </ul>
-                    <p><strong>Single menu-item states</strong></p>
-                    <p>Some app states may result in a contextual menu with only a single menu item. For example, when highlighting text on a web page, Android display only the Copy menu item, as users cannot cut or paste text.</p>
+                    <p><strong>单个菜单项状态</strong></p>
+                    <p>一些应用状态会导致上下文菜单只含一个菜单项。例如，当选中网页上的文本时，Android 只显示“复制”菜单项，因为用户不能剪切或粘贴文本。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -162,7 +162,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_usage4b.png"/>
                       </div>
                       <figcaption>
-                        <p>Contextual menu</p>
+                        <p>上下文菜单</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -171,8 +171,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Menus are scrollable</h2>
-                    <p>If the height of a menu prevents all menu items from being displayed, the menu can scroll internally. One example is when viewing a menu on a phone in landscape orientation.</p>
+                    <h2>菜单可以滚动</h2>
+                    <p>如果菜单的高度不足以显示所有的菜单项，那么菜单可以内部滚动。一个典型的例子是在手机横屏状态下查看菜单。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -180,16 +180,16 @@
                         <img alt="" src="../static/media/components/menus/components_menus_usage6.png"/>
                       </div>
                       <figcaption>
-                        <p>Internally scrolling menu</p>
+                        <p>内部滚动菜单</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Cascading menus (Desktop only)</h2>
-                    <p>For menus that cascade, position the menus vertically and horizontally based on their proximity to screen edges.</p>
-                    <p>Developer note: Implementations of this component may vary by platform. By using standard platform implementations, you will receive any related future improvements.</p>
+                    <h2>级联菜单（仅适用于桌面端）</h2>
+                    <p>对于级联菜单，根据其与屏幕边缘的距离，垂直和水平地定位菜单。</p>
+                    <p>开发人员注释：此组件的实现可能因平台而异。通过使用标准平台实现，您将收到任何相关的进一步改进。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -197,7 +197,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_usage7.png"/>
                       </div>
                       <figcaption>
-                        <p>Cascading menu on desktop</p>
+                        <p>桌面端的级联菜单</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -216,7 +216,7 @@
                         </div>
                       </div>
                     </figure>
-                    <p>Cascading dropdown menu on desktop</p>
+                    <p>桌面端的级联下拉菜单</p>
                   </div>
                 </section>
               </div>
@@ -235,7 +235,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Textfield dropdown menu</p>
+                        <p>文本框下拉菜单</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -251,7 +251,7 @@
                         </div>
                       </div>
                     </figure>
-                    <p>Action overflow menu</p></div>
+                    <p>应用栏弹出菜单</p></div>
                 </section>
               </div>
             </div>
@@ -260,7 +260,7 @@
 
         <div id="menus-menu-items" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Menu items
+            菜单项
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -271,18 +271,18 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h2>Single-line display</h2>
-                    <p>Each menu item is limited to a single line of text (a single word or short phrase) that describesthe action it will perform when selected. </p>
-                    <p>Menu items may also contain: </p>
+                  <div class="module"><h2>单行显示</h2>
+                    <p>每一个菜单项都只能使用单行文本（一个单词或短语）来描述被选中时执行的操作。</p>
+                    <p>菜单项还可以包括：</p>
                     <ul class="lst-kix_pplbnwc7wnp5-0 start">
-                      <li>Icons and helper text, like keyboard shortcuts</li>
-                      <li>Controls like checkmarks to indicate multiple selected items or states (See <a href="lists-controls.html">List controls</a>)</li>
+                      <li>图标和帮助文本，比如快捷键。</li>
+                      <li>像复选标记之类的控件来标识多选条目或状态（详见<a href="lists-controls.html">列表控件</a>）</li>
                     </ul>
-                    <h2>Menu ordering</h2>
-                    <p>Menus with<strong> static content</strong> should have the most frequently used menu items placed at the top of the menu.</p>
-                    <p>Menus with <strong>dynamic content</strong> may have other behavior, such as placing previously used fonts at the top of the menu. The order can change based on user actions.</p>
-                    <h2>Menu nesting</h2>
-                    <p>Menu items can reveal nested submenus. Ideally, limit nesting to one level deep, as it can be difficult to navigate multiple nested submenus.</p>
+                    <h2>菜单排序</h2>
+                    <p>带有<strong>静态内容</strong>的菜单应该在菜单的顶部放置最常用的菜单项。</p>
+                    <p>带有<strong>动态内容</strong>的菜单可能具有其他行为，例如在菜单的顶部放置之前使用过的字体。顺序可以根据用户的操作而改变。</p>
+                    <h2>菜单嵌套</h2>
+                    <p>菜单项可以显示嵌套的子菜单。最好只嵌套一层，因为导航多级嵌套的子菜单会比较困难。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -290,7 +290,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_items1.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of menu items</p>
+                        <p>菜单项示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -299,9 +299,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Disabled actions</h2>
-                    <p>Displaying actions as disabled, rather than removing them, lets the user know they exist under the right conditions.</p>
-                    <p>For example, Redo is disabled when there is nothing to redo. Cut and Copy are disabled until content is selected. </p>
+                    <h2>禁用菜单项</h2>
+                    <p>将菜单项禁用，而不是移除，这样可以让用户知道在正确的条件下它们是可用的。</p>
+                    <p>例如，当没有东西可以恢复时，“恢复”菜单项是禁用的。在内容被选中之前，“剪切”和“复制”菜单项是禁用的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -309,7 +309,7 @@
                         <img alt="" src="../static/media/components/menus/components_menus_items2.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of disabled actions</p>
+                        <p>禁用菜单项示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -321,7 +321,7 @@
 
         <div id="menus-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -332,8 +332,8 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h1>Location</h1>
-                    <p>Menus appear above all other in-app UI elements.</p>
+                  <div class="module"><h1>位置</h1>
+                    <p>菜单出现在所有其他应用内部的 UI 元素上面。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -341,14 +341,14 @@
                         <img alt="" src="../static/media/components/menus/components_menus_behavior1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of menu appearing over all other in-app UI elements.</p>
+                        <p>菜单出现在所有其他应用内部的 UI 元素上面的示例。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Menus are positioned over their emitting elements such that the currently selected menu item appears on top of the emitting element.</p>
+                    <p>菜单显示在触发它的元素的位置，当前选中的菜单项显示在触发它的元素的顶部。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -357,14 +357,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The currently selected menu item appears over the emitting element.</p>
+                        <p>当前选中的菜单项出现在触发它的元素上面。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Do not display a duplicate of the selected menu item.</p>
+                    <p>不要重复显示已选中的菜单项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -373,14 +373,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Do not display a duplicate of the selected menu item.</p>
+                        <p>不要重复显示已选中的菜单项。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Positioning the menu below the emitting element separates it from its context.</p>
+                    <p>菜单不要放在触发它的元素的下面。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -389,7 +389,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Menus are positioned over their emitting element.</p>
+                        <p>菜单不要放在触发它的元素的下面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -398,9 +398,9 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Dismissing menus</h1>
-                    <p>Dismiss a menu by tapping outside of the menu, or by tapping the emitting button (if visible).</p>
-                    <p>Selecting a menu item should also dismiss the menu. An exception is when a menu allows for multiple items to be chosen, for example, by using checkmarks.</p>
+                    <h1>关闭菜单</h1>
+                    <p>触摸菜单外部或触发菜单的元素可以关闭菜单。</p>
+                    <p>选择了一个菜单项后也应该关闭菜单。一个例外是当菜单允许选择多个项目时，例如通过使用复选标识。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -411,7 +411,7 @@
 
         <div id="menus-simple-menus" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Simple Menus
+            简单菜单
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -420,17 +420,17 @@
           </h2>
           <div class="article-content">
             <div>
-              <h2>Mobile or tablet</h2>
-              <p>Use simple menus in lists to display the options for a specific list item. </p>
-              <h2>Vertical alignment</h2>
-              <p>When close to a screen edge, simple menus vertically realign to make all menu items are completely visible.</p>
-              <p><strong>Disambiguation:</strong> In contrast to simple menus, <a href="dialogs.html#dialogs-simple-dialogs">simple dialogs</a> can present additional detail related to the options available for a list item or provide navigational or orthogonal actions related to the primary task. Although they can display the same content, simple menus are preferred over simple dialogs because simple menus are less disruptive to the user’s current context.</p>
+              <h2>移动端或平板端</h2>
+              <p>在列表中使用简单菜单显示特定列表项的选项。</p>
+              <h2>垂直对齐</h2>
+              <p>当靠近屏幕边缘时，简单菜单垂直对齐，使所有菜单项完全可见。</p>
+              <p><strong>消除歧义：</strong>与简单菜单相反，<a href="dialogs.html#dialogs-simple-dialogs">简单对话框</a>可以呈现与可用列表项相关的附加细节，或提供与主要任务相关的导航或正交操作。尽管它们可以显示相同的内容，但是简单菜单比简单对话框更好，因为简单菜单对用户的当前上下文干扰较小。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h2>Item selection</h2>
-                    <p>Choosing an option immediately commits the option and closes the menu.</p>
-                    <h2>Cancelling selection</h2>
-                    <p>Touching outside of the menu, or pressing the system Back button, cancels the action and closes the menu.</p>
+                  <div class="module"><h2>选择选项</h2>
+                    <p>选择一个选项将立即提交该选项并关闭菜单。</p>
+                    <h2>取消选择</h2>
+                    <p>触摸菜单外部，或按下系统后退按钮，会取消操作并关闭菜单。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -438,14 +438,14 @@
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a simple menu</p>
+                        <p>简单菜单示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>When opened, simple menus attempt to vertically align the currently selected menu item with the list item. The currently selected menu item is highlighted.</p>
+                    <p>当简单菜单打开时，会尝试将当前选定的菜单项与列表项垂直对齐。当前选定的菜单项将高亮显示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -454,7 +454,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The currently selected menu item aligns vertically over the list item.</p>
+                        <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -468,14 +468,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The currently selected menu item aligns vertically over the list item.</p>
+                        <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Do not arbitrarily position the first menu item over the list item.</p>
+                    <p>不要随意地把第一个菜单项置于列表项上。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -484,14 +484,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The first menu item is arbitrarily positioned over the list item, regardless of the currently selected menu item.</p>
+                        <p>第一个菜单项被随意地放在了列表项上，而不管当前选择的菜单项。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>When close to a screen edge, simple menus reposition their vertical alignment so that all menu items are completely visible.</p>
+                    <p>当靠近屏幕边缘时，简单菜单会重新定位进行垂直对齐，以使所有菜单项完全可见。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -500,14 +500,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The currently selected menu item normally would be positioned over the list item, but because doing so in this case would cause part of the menu to appear off-screen, the entire menu is repositioned vertically.</p>
+                        <p>当前选择的菜单项通常位于列表项之上，但是在这种情况下，这样做会导致菜单的一部分出现在屏幕外面，所以整个菜单被垂直地重新定位。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Simple menus appear over their emitting element, not below.</p>
+                    <p>简单菜单出现在触发它的元素上，而不是下面。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -516,7 +516,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Simple menus appear over their emitting element.</p>
+                        <p>简单菜单出现在触发它的元素上。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -530,7 +530,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Simple menus do not appear below their emitting element.</p>
+                        <p>简单菜单不会出现在触发它的元素下面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -539,8 +539,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Menu width varies depending on string length, and on mobile is defined as a multiple of a 56dp unit.</p>
-                    <p>Simple menus always maintain a 16dp margin (phone) or 24dp margin (tablet) to the left and right edges of the screen.</p>
+                    <p>菜单宽度取决于字符串长度，在移动设备上定义为 56dp 单位的倍数。</p>
+                    <p>简单菜单通常和屏幕的左右边缘保持 16dp（手机）或 24dp（平板）的距离。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -548,9 +548,9 @@
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus8.png"/>
                       </div>
                       <figcaption>
-                        <p>Simple menu with a 16dp margin.</p>
-                        <p>Each unit is 56dp wide.</p>
-                        <p>Minimum width on mobile = 2 * 56dp = 112dp</p>
+                        <p>简单菜单具有 16dp 的外边距。</p>
+                        <p>每个单位的宽是 56dp。</p>
+                        <p>移动设备上最小宽度 = 2 * 56dp = 112dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -560,16 +560,16 @@
                         <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus9.png"/>
                       </div>
                       <figcaption>
-                        <p>Simple menu with 16dp margins on the left and right.</p>
-                        <p>Each unit is 56dp wide.</p>
-                        <p>Maximum width on mobile (in both portrait and landscape) = 5 * 56dp = 280dp</p>
+                        <p>简单菜单左右均有 16dp 的外边距。</p>
+                        <p>每个单位的宽是 56dp。</p>
+                        <p>在移动设备上的最大宽度（纵向和横向） = 5 * 56dp = 280dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>If text in a simple menu wraps to a second line, use a <a href="dialogs.html#dialogs-simple-dialogs">simple dialog</a> instead. Simple dialogs can have rows with varying heights.</p>
+                    <p>如果简单菜单中的文本需要换行，请改用<a href="dialogs.html#dialogs-simple-dialogs">简单对话框</a>。简单对话框可以有不同高度的行。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -578,7 +578,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a simple dialog if any text in a simple menu wraps to a second line.</p>
+                        <p>如果简单菜单中的任意文本产生了换行，请改用简单对话框。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -589,15 +589,15 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t truncate text in a simple menu. Use a simple dialog instead.</p>
+                        <p>不要在简单菜单中截断文本。使用简单对话框代替。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Menus show a persistent scroll bar when content is scrollable.</p>
-                    <p>The maximum height of a simple menu should be one or more rows less than the view height. This ensures a tappable area outside of the simple menu with which to dismiss the menu.</p>
+                    <p>在内容可以滚动时，菜单会显示一个持续显示的滚动条。</p>
+                    <p>简单菜单的最大高度应该比视图高度低一行或多行。这确保了在简单菜单外面留出一部分可点击区域，用于关闭菜单。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -606,7 +606,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Display a scroll bar by default for scrollable content.</p>
+                        <p>默认显示可滚动内容的滚动条。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -617,14 +617,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Without a scroll bar, it’s unclear if there are additional menu items available.</p>
+                        <p>没有滚动条，就不清楚是否有其他菜单项可用。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Don’t duplicate the selected menu item.</p>
+                    <p>不要重复显示菜单项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -633,7 +633,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Each menu item appears only once.</p>
+                        <p>每个菜单项只出现一次。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -644,7 +644,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t display a duplicate of the selected element.</p>
+                        <p>不要重复显示菜单项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -653,7 +653,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Simple menus are always left-aligned with the start of the list item text and do not reposition horizontally based on the touch location.</p>
+                    <p>简单菜单始终与列表项文本的开头左对齐，且不会基于触摸位置重新水平定位。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -662,7 +662,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Simple menus are left-aligned regardless of touch location.</p>
+                        <p>简单菜单左对齐，无论触摸位置如何。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -676,7 +676,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Simple menus do not reposition based on the touch location.</p>
+                        <p>简单菜单不根据触摸位置重新定位。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -688,7 +688,7 @@
 
         <div id="menus-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -697,11 +697,11 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Specs are provided for various sizes and types of menus and for different platforms. Add 8dp padding at the top and bottom of a menu. </p>
+              <p>规范提供了不同平台上，不同大小及不同菜单类型的尺寸标准。在菜单顶部和底部添加 8dp 的内边距。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Mobile</h1>
+                    <h1>手机端</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -709,16 +709,16 @@
                         <img alt="" src="../static/media/components/menus/components_menus_specs1.png"/>
                       </div>
                       <figcaption>
-                        <p>Menu item height: 48dp<br>
-                        Menu item text left padding: 16dp<br>
-                        Menu item text bottom padding: 20dp</p>
+                        <p>菜单项高度：48dp<br>
+                        菜单项文本左侧内边距：16dp<br>
+                        菜单项文本底部内边距：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Various widths</h1>
+                    <h1>不同宽度</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -726,14 +726,14 @@
                         <img alt="" src="../static/media/components/menus/components_menus_specs2.png"/>
                       </div>
                       <figcaption>
-                        <p>Menus of various widths: min width 1.5 x, 3x, 6x and 7x</p>
+                        <p>不同宽度的菜单：最小宽度 1.5x，3x，6x 和 7x</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Cascading menu</h1>
+                    <h1>级联菜单</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -741,14 +741,14 @@
                         <img alt="" src="../static/media/components/menus/components_menus_specs3.png"/>
                       </div>
                       <figcaption>
-                        <p>Cascading menu on desktop</p>
+                        <p>桌面端的级联菜单</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Cascading redlines</h1>
+                    <h1>级联菜单的红线标注</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -756,12 +756,12 @@
                         <img alt="" src="../static/media/components/menus/components_menus_specs4.png"/>
                       </div>
                       <figcaption>
-                        <p>Cascading menu top padding: 16dp<br>
-                        Cascading menu left padding: 24dp<br>
-                        Cascading menu item height: 32dp<br>
-                        Menu item icon right padding: 32dp<br>
-                        Menu sub-item left padding: 64dp</p>
-                        <p>15pt Roboto font</p>
+                        <p>级联菜单顶部内边距：16dp<br>
+                        级联菜单左侧内边距：24dp<br>
+                        级联菜单项高度：32dp<br>
+                        菜单项图标右侧内边距：32dp<br>
+                        子菜单项左侧内边距：64dp</p>
+                        <p>字体：15pt Roboto</p>
                       </figcaption>
                     </figure>
                   </div>

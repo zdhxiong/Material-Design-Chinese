@@ -5,7 +5,7 @@
       <?php if ($vars['prev_title']) { ?>
       <a class="footer-text" href="<?php echo url($vars['prev_path'].'.html'); ?>">
         <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
-        <span class="direction">Previous</span><span class="screen-reader">:</span>
+        <span class="direction">上一页</span><span class="screen-reader">:</span>
         <div><?php echo $vars['prev_title']; ?></div>
       </a>
       <?php } ?>
@@ -15,7 +15,7 @@
       <?php if ($vars['next_title']) { ?>
       <a class="footer-text" href="<?php echo url($vars['next_path'].'.html'); ?>">
         <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
-        <span class="direction">Next</span><span class="screen-reader">:</span>
+        <span class="direction">下一页</span><span class="screen-reader">:</span>
         <div><?php echo $vars['next_title']; ?></div>
       </a>
       <?php } ?>
