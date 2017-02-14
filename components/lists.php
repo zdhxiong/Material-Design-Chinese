@@ -147,7 +147,7 @@
               <p>列表只能垂直滚动。</p>
               <h1>手势</h1>
               <p>列表中的所有瓦片的滑动操作应保持一致。</p>
-              <p>瓦片可以从一个列表移动到目标位置（类似于移动文件到一个文件夹），或在一个列表中选取并重新排列。</p>
+              <p>瓦片可以从一个列表移动到目标位置（类似于移动文件到一个文件夹），或在一个列表内选取并重新排列。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module"><h1>过滤和排序</h1>
@@ -171,7 +171,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>不要按随机顺序显示信息；如果 UI 不允许用户对列表进行排序，则应用应该默认使用一种更合理的排序方式。</p>
+                        <p>不要按随机顺序显示信息；如果 UI 不允许用户对列表进行排序，则应该默认使用一种更合理的排序方式。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -258,7 +258,7 @@
               <p><strong>辅助操作</strong></p>
               <ul class="lst-kix_ue9aszt4rxdb-0 start">
                 <li>用图标、副文本等表示</li>
-                <li>在列表中有相同的功能，例如使用一个图标指示某人是否在线</li>
+                <li>在列表中有相同的功能，例如使用一个图标显示某人是否在线</li>
                 <li>在列表的瓦片中有相同的位置</li>
               </ul>
               <p><strong>重复操作</strong></p>
@@ -291,9 +291,9 @@
                       </div>
                       <figcaption>
                         <p>单行列表规格</p>
-                        <p>图标左侧边距： 16dp<br>
-                          列表项目左侧边距：72dp<br>
-                          列表右侧边距：16dp<br>
+                        <p>图标左侧内边距：16dp<br>
+                          列表项目左侧内边距：72dp<br>
+                          列表右侧内边距：16dp<br>
                           列表右侧外边距：56dp</p>
                       </figcaption>
                     </figure>
@@ -322,9 +322,9 @@
                       </div>
                       <figcaption>
                         <p>两行列表规格</p>
-                        <p>图标左侧边距：16dp<br>
-                          列表项目左侧边距：72dp<br>
-                          列表右侧边距：16dp</p>
+                        <p>图标左侧内边距：16dp<br>
+                          列表项目左侧内边距：72dp<br>
+                          列表右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -352,10 +352,10 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines5.png"/>
                       </div>
                       <figcaption>
-                        <p>三行列表规范</p>
-                        <p>图标左侧边距：16dp<br>
-                          列表项目左侧边距：72dp<br>
-                          列表右侧边距：16dp</p>
+                        <p>三行列表规格</p>
+                        <p>图标左侧内边距：16dp<br>
+                          列表项目左侧内边距：72dp<br>
+                          列表右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -376,7 +376,7 @@
                   <div class="module">
                     <h1>单行列表</h1>
                     <h2><strong>仅含文本</strong></h2>
-                    <p>在列表上下添加 8dp 的内边距，含副标题的列表除外，它们自由有内边距。</p>
+                    <p>在列表上下添加 8dp 的内边距，含副标题的列表除外，它们自己有内边距。</p>
                     <p>底部边距从基线开始测量。</p>
                   </div>
                   <div class="figure">
@@ -411,8 +411,8 @@
                         <p><strong>单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：48dp<br>
-                          左右距离屏幕边缘的间距：16dp<br>
-                          上边距：8dp</p>
+                          列表左右距离屏幕边缘的内边距：16dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -425,8 +425,8 @@
                         <p><strong>紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：40dp<br>
-                          左右距离屏幕边缘的间距：16dp<br>
-                          上边距：4dp </p>
+                          列表左右距离屏幕边缘的内边距：16dp<br>
+                          列表顶部内边距：4dp </p>
                       </figcaption>
                     </figure>
                   </div>
@@ -472,9 +472,9 @@
                         <p><strong>含图标的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：48dp<br>
-                          图标左侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：8dp</p>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -487,9 +487,9 @@
                         <p><strong>含图标的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：40dp<br>
-                          图标左侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：4dp</p>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -535,9 +535,9 @@
                         <p><strong>含头像的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：56dp<br>
-                          头像左侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：8dp</p>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -550,9 +550,9 @@
                         <p><strong>含头像的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：48dp<br>
-                          头像左侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：4dp</p>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -562,8 +562,8 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong>含头像、文本和图标</strong></h2>
-                    <p>图标右侧边距：16dp</p>
-                    <p>列表上下添加 8dp 的内边距，含副标题的列表除外，它们自由有内边距。</p>
+                    <p>图标右侧内边距：16dp</p>
+                    <p>列表上下添加 8dp 的内边距，含副标题的列表除外，它们自己有内边距。</p>
                     <p>底部边距从基线开始测量。</p>
                   </div>
                   <div class="figure">
@@ -598,10 +598,10 @@
                         <p><strong>含头像和图标的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：56dp<br>
-                          头像左侧边距：16dp<br>
-                          图标右侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：8dp</p>
+                          头像左侧内边距：16dp<br>
+                          图标右侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -614,10 +614,10 @@
                         <p><strong>含头像和图标的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：48dp<br>
-                          头像左侧边距：16dp<br>
-                          图标右侧边距：16dp<br>
-                          文本左侧边距：72dp<br>
-                          上边距：4dp</p>
+                          头像左侧内边距：16dp<br>
+                          图标右侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -631,10 +631,10 @@
                     <p>主文本字体：Roboto Regular 16sp<br>
                       副文本字体：Roboto Regular 14sp<br>
                       瓦片高度：72dp<br>
-                      文本左侧边距：16dp<br>
-                      文本上下边距：20dp</p>
+                      文本左侧内边距：16dp<br>
+                      文本上下内边距：20dp</p>
                     <p>底部边距从基线开始测量。</p>
-                    <p>Add 8dp of padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+                    <p>在列表的上下添加 8dp 的内边距。顶部含副标题的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -642,7 +642,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two1.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line list </p>
+                        <p>两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -652,7 +652,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a two-line list </p>
+                        <p>两行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -665,11 +665,11 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two2.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Two-line list specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 72dp<br>
-                          Left and right padding from screen edge: 16dp<br>
-                          Top padding: 8dp</p>
+                        <p><strong>两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：72dp<br>
+                          列表左右和屏幕边缘之间的内边距：16dp<br>
+                          顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -679,11 +679,11 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two2_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense two-line list specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Height: 60dp<br>
-                          Left and right padding from screen edge: 16dp<br>
-                          Top padding: 4dp</p>
+                        <p><strong>密集型两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          高度：60dp<br>
+                          列表左右和屏幕边缘之间的内边距：16dp<br>
+                          顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -692,15 +692,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Icon with text</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 72dp<br>
-                      Left icon padding: 16dp<br>
-                      Text padding, left: 72dp<br>
-                      Text padding, top and bottom: 20dp<br>
-                      Bottom padding is measured from the baseline.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含图标和文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：72dp<br>
+                      图标左侧内边距：16dp<br>
+                      文本左侧内边距：72dp<br>
+                      文本上下内边距：20dp<br>
+                      底部边距从基线开始测量。</p>
+                    <p>在列表上下添加 8dp 的内边距，含副标题的列表除外，它们自己有内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -708,7 +708,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two4.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line list with icon</p>
+                        <p>含图标的两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -718,7 +718,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two12.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a two-line list with icon</p>
+                        <p>含图标的两行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -731,13 +731,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two5.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Two-line list with icon specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Height: 72dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 8dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含图标的两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          高度：72dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表上方内边距：8dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -747,13 +747,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two5_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense two-line list with icon specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 60dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 4dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含图标的密集型两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片高度：60dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -762,16 +762,16 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 72dp<br>
-                      Left avatar padding: 16dp<br>
-                      Text padding, left: 72dp<br>
-                      Text padding, top and bottom: 20dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Center-align icon with text area.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含头像和文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：72dp<br>
+                      头像左侧内边距：16dp<br>
+                      文本左侧内边距：72dp<br>
+                      文本上下内边距：20dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>图标和文本区域居中对齐。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副标题的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -779,7 +779,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two6.png"/>
                       </div>
                       <figcaption>
-                        <p>Two-line list with avatar</p>
+                        <p>含头像的两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -789,7 +789,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two8.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a two-line list with avatar</p>
+                        <p>含头像的两行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -802,13 +802,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two7.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Two-line list with avatar specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 72dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 8dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像的两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：72dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表上方内边距：8dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -818,13 +818,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two7_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense two-line list with avatar specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 60dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 4dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像的密集型两行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片：60dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -833,15 +833,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text and icon</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 72dp<br>
-                      Left avatar padding: 16dp<br>
-                      Text padding, left: 72dp</p>
-                    <p>Right icon padding: 16dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含头像、文本和图标</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：72dp<br>
+                      头像左侧内边距：16dp<br>
+                      文本左侧内边距：72dp</p>
+                    <p>图标右侧内边距：16dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副标题的列表除外，他们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -849,7 +849,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two9.png"/>
                       </div>
                       <figcaption>
-                        <p>Avatar with text and icon</p>
+                        <p>含头像、文本和图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -859,7 +859,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two11.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of an avatar with text and icon</p>
+                        <p>含头像、文本和图标的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -872,13 +872,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two10.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Avatar with text and icon</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 72dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 8dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像、文本和图标</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：72dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：8dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -888,13 +888,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_two10_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense avatar with text and icon</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 60dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 4dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像、文本和图标的密集型列表</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片高度：60dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -903,16 +903,16 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Three-line list</h1>
-                    <h2><strong>Text only</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp</p>
-                    <p>Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 88dp<br>
-                      Text padding, left: 16dp<br>
-                      Text padding, top: 16dp<br>
-                      Text padding, bottom: 20dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h1>三行列表</h1>
+                    <h2><strong>仅文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp</p>
+                    <p>副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：88dp<br>
+                      文本左侧内边距：16dp<br>
+                      文本顶部内边距：16dp<br>
+                      文本底部内边距：20dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副文本的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -920,7 +920,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three1.png"/>
                       </div>
                       <figcaption>
-                        <p>Three-line list</p>
+                        <p>三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -930,7 +930,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three12.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a three-line list</p>
+                        <p>三行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -943,12 +943,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three2.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Three-line list specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 88dp<br>
-                          Text left padding: 16dp<br>
-                          Text right padding: 16dp<br>
-                          Padding above list: 8dp</p>
+                        <p><strong>三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：88dp<br>
+                          文本左侧内边距：16dp<br>
+                          文本右侧内边距：16dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -958,12 +958,12 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three2_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense three-line list specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 76dp<br>
-                          Text left padding: 16dp<br>
-                          Text right padding: 16dp<br>
-                          Padding above list: 4dp</p>
+                        <p><strong>密集型三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片高度：76dp<br>
+                          文本左侧内边距：16dp<br>
+                          文本右侧内边距：16dp<br>
+                          列表顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -972,17 +972,17 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Icon with text</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 88dp<br>
-                      Left icon padding: 16dp<br>
-                      Text left padding: 72dp<br>
-                      Text padding, top: 16dp<br>
-                      Text padding, bottom: 20dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Top-align icon with primary text.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含图标和文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：88dp<br>
+                      图标左侧内边距：16dp<br>
+                      文本左侧内边距：72dp<br>
+                      文本顶部内边距：16dp<br>
+                      文本底部内边距：20dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>图标和主文本的顶部对齐。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副标题的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -990,7 +990,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three4.png"/>
                       </div>
                       <figcaption>
-                        <p>Three-line list with icon</p>
+                        <p>含图标的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1000,7 +1000,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a three-line list with icon</p>
+                        <p>含图标的三行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1014,13 +1014,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three5.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Three-line list with icon specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 88dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Text padding right: 16dp<br>
-                          Padding above list: 8dp</p>
+                        <p><strong>含图标的三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：88dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          文本右侧内边距：16dp<br>
+                          列表顶部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1030,13 +1030,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three5_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense three-line list with icon specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 76dp<br>
-                          Icon left padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Text padding right: 16dp<br>
-                          Padding above list: 4dp</p>
+                        <p><strong>含图标的密集型三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片高度：76dp<br>
+                          图标左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          文本右侧内边距：16dp<br>
+                          列表顶部内边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1045,17 +1045,17 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 88dp<br>
-                      Left avatar padding: 16dp<br>
-                      Left text padding: 72dp<br>
-                      Text padding, top: 16dp<br>
-                      Text padding, bottom: 20dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Top-align avatar with primary text.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含头像和文本</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：88dp<br>
+                      头像左侧内边距：16dp<br>
+                      文本左侧内边距：72dp<br>
+                      文本上方内边距：16dp<br>
+                      文本下方内边距：20dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>头像和主文本顶部对齐。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副标题的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1063,7 +1063,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three6.png"/>
                       </div>
                       <figcaption>
-                        <p>Three-line list with avatar</p>
+                        <p>含头像的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1073,7 +1073,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three8.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a three-line list with avatar</p>
+                        <p>含头像的三行列表示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1086,13 +1086,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three7.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Three-line list with avatar specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 88dp<br>
-                          Padding above list: 8dp<br>
-                          Padding left of avatar: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像的三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：88dp<br>
+                          列表顶部内边距：8dp<br>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1102,13 +1102,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three7_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense three-line list with avatar specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<strong><br>
-                        </strong>Tile height: 76dp<br>
-                          Padding above list: 4dp<br>
-                          Padding left of avatar: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Text right padding: 16dp</p>
+                        <p><strong>含头像的密集型三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<strong><br>
+                        </strong>瓦片高度：76dp<br>
+                          列表顶部内边距：4dp<br>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          文本右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1117,18 +1117,18 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Avatar with text and icon</strong></h2>
-                    <p>Primary text font: Roboto Regular 16sp<br>
-                      Secondary text font: Roboto Regular 14sp<br>
-                      Tile height: 88dp<br>
-                      Left avatar padding: 16dp<br>
-                      Text left padding: 72dp<br>
-                      Text padding, top: 16dp<br>
-                      Text padding, bottom: 20dp</p>
-                    <p>Right icon padding: 16dp</p>
-                    <p>Bottom padding is measured from the baseline.</p>
-                    <p>Top-align avatar and icon with primary text.</p>
-                    <p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>
+                    <h2><strong>含头像、文本和图标</strong></h2>
+                    <p>主文本字体：Roboto Regular 16sp<br>
+                      副文本字体：Roboto Regular 14sp<br>
+                      瓦片高度：88dp<br>
+                      头像左侧内边距：16dp<br>
+                      文本左侧内边距：72dp<br>
+                      文本上方内边距：16dp<br>
+                      文本下方内边距：20dp</p>
+                    <p>右侧图标的内边距：16dp</p>
+                    <p>底部边距从基线开始测量。</p>
+                    <p>头像及图标和主文本的顶部对齐。</p>
+                    <p>在列表的上下添加 8dp 的内边距，含副标题的列表除外，它们有自己的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1136,7 +1136,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three9.png"/>
                       </div>
                       <figcaption>
-                        <p>Three-line list with avatar and icon</p>
+                        <p>含头像和图标的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1146,7 +1146,7 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three11.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a three-line list with avatar and icon</p>
+                        <p>含头像和图标的三行列表示例</p>
                         <p><br></p>
                       </figcaption>
                     </figure>
@@ -1160,13 +1160,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three10.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Three-line list with avatar and icon specs:</strong></p>
-                        <p>Font: Roboto Regular 16sp<br>
-                          Tile height: 88dp<br>
-                          Left avatar padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 8dp<br>
-                          Right and left padding by the icon: 16dp</p>
+                        <p><strong>含头像和图标的三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 16sp<br>
+                          瓦片高度：88dp<br>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：8dp<br>
+                          图标左右内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1176,13 +1176,13 @@
                         <img alt="" src="../static/media/components/lists/components_lists_keylines_three10_dense.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense three-line list with avatar and icon specs:</strong></p>
-                        <p>Font: Roboto Regular 13sp<br>
-                          Tile height: 76dp<br>
-                          Left avatar padding: 16dp<br>
-                          Text left padding: 72dp<br>
-                          Padding above list: 4dp<br>
-                          Right and left padding by the icon: 16dp</p>
+                        <p><strong>含头像和图标的密集型三行列表规格：</strong></p>
+                        <p>字体：Roboto Regular 13sp<br>
+                          瓦片高度：76dp<br>
+                          头像左侧内边距：16dp<br>
+                          文本左侧内边距：72dp<br>
+                          列表顶部内边距：4dp<br>
+                          图标左右内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
