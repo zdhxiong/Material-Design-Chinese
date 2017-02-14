@@ -70,7 +70,7 @@ return array(
       'lists'                           =>  '列表',
       'lists-controls'                  =>  '列表控件',
       'menus'                           =>  '菜单',
-      'pickers'                         =>  '选取器',
+      'pickers'                         =>  '选择器',
       'progress-activity'               =>  '进度 & 活动状态',
       'selection-controls'              =>  '选择控件',
       'sliders'                         =>  '滑块',

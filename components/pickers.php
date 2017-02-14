@@ -9,16 +9,16 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Pickers provide a simple way to select a single value from a pre-determined set.</p>
+          <p>选择器提供了一个简单的方法来从一个预定义的集合中选取单个值。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p><strong>Date pickers</strong> use a dialog window to select a single date on mobile.</p>
-                <p><strong>Time pickers</strong> use a dialog to select a single time (in the hours:minutes format) on mobile. They adjust to a user’s preferred time setting.</p>
+                <p><strong>日期选择器</strong>使用对话框窗口在移动设备上选择单个日期。</p>
+                <p><strong>时间选择器</strong>使用对话框在移动设备上选择单个时间（小时:分钟 的格式）。它们的格式会根据用户的首选时间设置自动调整。</p>
               </div>
               <div class="module">
-                <h3><strong>Alternatives</strong></h3>
-                <p><a href="buttons.html#buttons-other-buttons">Segmented dropdown buttons</a></p>
+                <h3><strong>替代方案</strong></h3>
+                <p><a href="buttons.html#buttons-other-buttons">分段下拉按钮</a></p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -33,16 +33,16 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-date-pickers" data-qp-ui-data-id="qp:2">Date pickers</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-date-pickers" data-qp-ui-data-id="qp:2">日期选择器</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-time-pickers" data-qp-ui-data-id="qp:3">Time pickers</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="pickers.html#pickers-time-pickers" data-qp-ui-data-id="qp:3">时间选择器</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
 
         <div id="pickers-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -60,15 +60,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>On mobile, pickers are best suited for display in a <a href="dialogs.html#dialogs-confirmation-dialogs">confirmation dialog</a>. </p>
-              <p>For inline display, such as on a form, consider using compact controls such as <a href="buttons.html#buttons-other-buttons">segmented dropdown buttons</a>. </p>
+              <p>在移动设备上，选择器最适合被用来显示一个<a href="dialogs.html#dialogs-confirmation-dialogs">确认对话框</a></p>
+              <p>对于内联显示，例如在一个表单中，考虑使用<a href="buttons.html#buttons-other-buttons">分段下拉按钮</a>之类的更紧凑的控件。</p>
             </div>
           </div>
         </div>
 
         <div id="pickers-date-pickers" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Date pickers
+            日期选择器
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
