@@ -9,23 +9,23 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Menus display a list of choices on a transient sheet of material.</p>
+          <p>菜单在一个短暂出现的材料上显示一些列选项。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Menus appear upon interaction with a button, action, or other control. They display a list of choices, with one choice per line. </p>
-                <p>Menu items may be disabled if not applicable to a certain context. Contextual menus dynamically change their available menu items based on the current state of the app.</p>
+                <p>用户单击按钮、操作图标或其他控件可以打开菜单。菜单上显示一系列的选项，每行显示一个选项。</p>
+                <p>如果不适用于特定的页面内容，菜单项可能被禁用。与页面内容相关的菜单将根据当前应用状态动态改变可用的菜单项。</p>
               </div>
               <div class="module">
-                <h3>Types</h3>
-                <p>Simple menus (mobile and tablet)<br>
-                  Cascading menus (desktop)</p>
-                <h3>Elevation</h3>
-                <p>Menus appear above other in-app elements.</p>
-                <h3>Behavior</h3>
-                <p>Scrollable</p>
-                <h3>Alternatives</h3>
-                <p><a href="dialogs.html#dialogs-simple-menus">Simple dialogs</a></p>
+                <h3>类型</h3>
+                <p>简单菜单（移动端和平板端）<br>
+                  级联菜单（桌面端）</p>
+                <h3>Z 轴高度</h3>
+                <p>菜单出现在其他应用内元素的上方。</p>
+                <h3>行为</h3>
+                <p>可滚动</p>
+                <h3>替代方案</h3>
+                <p><a href="dialogs.html#dialogs-simple-menus">简单对话框</a></p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,22 +40,22 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-menu-items" data-qp-ui-data-id="qp:2">Menu items</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-menu-items" data-qp-ui-data-id="qp:2">菜单项</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-simple-menus" data-qp-ui-data-id="qp:4">Simple Menus</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-simple-menus" data-qp-ui-data-id="qp:4">简单菜单</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-specs" data-qp-ui-data-id="qp:5">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="menus.html#menus-specs" data-qp-ui-data-id="qp:5">规格</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@
 
         <div id="menus-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -76,7 +76,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A menu is a temporary piece of material that appears upon interaction with a button, action, pointer, or other control. It contains at least two menu items.</p>
+                    <p>菜单是一片临时的材料，A menu is a temporary piece of material that appears upon interaction with a button, action, pointer, or other control. It contains at least two menu items.</p>
                     <p>Each menu item consists of a discrete option or action that can affect the app, the view, or selected elements within a view.</p>
                     <p>Menus should not be used as a primary method for navigation within an app.</p>
                   </div>
