@@ -9,21 +9,21 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Progress and activity indicators are visual indications of an app loading content.</p>
+          <p>进度和动效可以让用户清楚地看到应用内容的加载情况。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>A single visual indicator should be used to represent each type of operation. For example, a refresh operation should display either a refresh bar or an activity circle, but not both.</p>
-                <p><strong>Determinate indicators</strong> display how long an operation will take. </p>
-                <p><strong>Indeterminate indicators</strong> visualize an unspecified wait time.</p>
+                <p>每次操作只能由一个进度指示器来呈现。例如，对于刷新操作，你可以使用刷新条或者动态圆圈来表示，但不能同时使用这两者。</p>
+                <p><strong>确定进度的指示器</strong>可以显示操作将花费的时间。</p>
+                <p><strong>不确定进度的指示器</strong>只显示等待的状态，没有具体时间。</p>
               </div>
               <div class="module">
-                <h3><strong>Types</strong></h3>
-                <p>Linear<br>
-                  Circular</p>
-                <h3><strong>Behavior</strong></h3>
-                <p>Loading content in phases<br>
-                  Loading additional content</p>
+                <h3><strong>类型</strong></h3>
+                <p>线性<br>
+                  圆形</p>
+                <h3><strong>行为</strong></h3>
+                <p>分阶段加载内容<br>
+                  加载其他内容</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -38,13 +38,13 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="progress-activity.html#progress-activity-types-of-indicators" data-qp-ui-data-id="qp:1">Types of indicators</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="progress-activity.html#progress-activity-types-of-indicators" data-qp-ui-data-id="qp:1">指示器类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="progress-activity.html#progress-activity-behavior" data-qp-ui-data-id="qp:2">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="progress-activity.html#progress-activity-behavior" data-qp-ui-data-id="qp:2">行为</a>
           </li>
         </ul>
       </nav>
@@ -53,7 +53,7 @@
 
         <div id="progress-activity-types-of-indicators" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Types of indicators
+            指示器类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -62,15 +62,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When indicators are<strong> determinate </strong>they<strong> </strong>indicate how long an operation will take when the percentage complete is detectable.</p>
-              <p>When indicators are <strong>indeterminate </strong>they<strong> </strong>request that the user wait while something finishes when it’s not necessary to indicate how long it will take.</p>
-              <p>Both linear and circular progress indicators may be either determinate or indeterminate.</p>
+              <p>当可以检测到完成部分的百分比时，<strong>确定进度的指示器</strong>可以显示一项操作还需花费的时间。</p>
+              <p>在无法得知已完成部分进度的情况下，<strong>不确定进度的指示器</strong>可以显示一个等待中的状态，不需要指示出还需多久才能完成。</p>
+              <p>无论是线性进度指示器还是圆形进度指示器，都可以来指示确定进度和不确定进度的操作。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Linear</h1>
-                    <p>A linear progress indicator should always fill from 0% to 100% and never decrease in value. It should be represented by bars on the edge of a header or sheet that appear and disappear. </p>
-                    <p>For <strong>multiple operations</strong> happening in sequence, use the indicator to represent the progress as a whole, and not each individual operation. </p>
+                    <h1>线性进度指示器</h1>
+                    <p>线性进度指示器应始终从 0% 到 100% 显示，不能从高到低反向显示。线性进度指示器应放置在头部或某块区域的边缘。</p>
+                    <p>对于顺序发生的<strong>多个操作</strong>，使用指示器表示整个进度，而不是每个单独操作的进度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -84,7 +84,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Linear progress indicators</p>
+                        <p>线性进度指示器</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -105,7 +105,7 @@
                         </div>
                       </div>
                     </figure>
-                    <p>Buffering progress indicator on a video</p>
+                    <p>视频上的缓冲进度指示器</p>
                     <p></p>
                   </div>
                   <div class="figure">
@@ -120,7 +120,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Query indicator on a webpage</p>
+                        <p>网页上的查询进度指示器</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -129,7 +129,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Circular</h1></div>
+                    <h1>圆形进度指示器</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -142,7 +142,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Circular indeterminate and determinate progress indicators</p>
+                        <p>圆形的确定进度和不确定进度的指示器</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -151,7 +151,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Circular with integration</strong></strong></h2></div>
+                    <h2><strong><strong>与其他控件整合的圆形进度指示器</strong></strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -164,7 +164,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>A circular loader may be integrated with a floating action button. </p>
+                        <p>圆形指示器可以和浮动操作按钮集成。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -180,7 +180,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of a circular loader with integration</p>
+                        <p>集成的原型指示器的动画</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -192,7 +192,7 @@
 
         <div id="progress-activity-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -204,7 +204,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Loading in phases</p></div>
+                    <p>加载阶段</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -218,9 +218,9 @@
                       </div>
                     </figure>
                     <p>
-                      <figcaption>One-phased loads</figcaption>
+                      <figcaption>单阶段加载</figcaption>
                     </p>
-                    <p>Ink (copy and images) loads within an existing, unchanging container. </p>
+                    <p>在已存在的、不变的容器里加载内容（副本和图片）</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -234,8 +234,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Two-phased loads</p>
-                        <p>The paper container is generated, then the ink (copy and images) load within it. </p>
+                        <p>双阶段加载</p>
+                        <p>先生成一个容器，然后再加载内容（副本和图片）。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -254,7 +254,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Loading content for the first time</p>
+                        <p>第一次加载内容</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -270,7 +270,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Load and display all content at once.</p>
+                        <p>一次性加载完所有内容并显示出来。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -278,7 +278,7 @@
               </div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><p><strong>Loading additional content</strong></p></div>
+                  <div class="module"><p><strong>加载额外的内容</strong></p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -291,8 +291,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Example 1: Card expansion</p>
-                        <p>An indeterminate linear indicator is recommended for a card expanding on larger surfaces such as desktop.</p>
+                        <p>例 1：卡片展开</p>
+                        <p>当卡片在一个较大的平面上展开时，比如桌面，推荐使用不确定进度的线性进度指示器。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -313,8 +313,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Example 2: Scroll up to load more</p>
-                        <p>An indeterminate circular indicator with an initial radial ink reaction is recommended when loading a list from below.</p>
+                        <p>例 2：上拉加载更多</p>
+                        <p>当你想从底部加载列表时，推荐使用不确定进度的圆形进度指示器。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -330,8 +330,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Example 3: Swipe down to refresh</p>
-                        <p>An indeterminate circular indicator with a radial ink reaction is recommended when refreshing a list from above.</p>
+                        <p>例 3：下拉刷新</p>
+                        <p>当你想从上方加载一个列表时，推荐使用不确定进度的圆形进度指示器。</p>
                       </figcaption>
                     </figure>
                   </div>
