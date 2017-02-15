@@ -9,17 +9,17 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Sliders let users select from a range of values by moving the slider thumb. </p>
+          <p>滑块控件允许用户通过移动滑块从一系列的之中进行选择。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
-              <div class="module"><p>Sliders are ideal components for adjusting settings that reflect intensity levels, such as volume, brightness, or color saturation.</p>
-                <p>Sliders may have icons on both ends of the bar that reflect the value intensity. Place the smallest value for the slider range on the left and the largest value on the right. </p>
+              <div class="module"><p>滑块是用于调整反映强度级别（如音量、亮度或色彩饱和度）的设置的理想组件。</p>
+                <p>滑块可以在滑动条的两端有反映强度值的图标。将滑块范围的最小值放在左侧，最大值放在右侧。</p>
               </div>
               <div class="module">
-                <h3><strong>Continuous sliders</strong></h3>
-                <p>Continuous sliders allow users to select a value along a subjective range. They do not require a specific value to make adjustments, although they may, in some instances, offer an editable numeric value.</p>
-                <h3><strong>Discrete sliders</strong></h3>
-                <p>Discrete sliders allow users to select a specific value from a range. </p>
+                <h3><strong>连续滑块</strong></h3>
+                <p>连续滑块允许用户在主观范围内选择一个值。它们不需要特定的值来进行调整，尽管在某些情况下，它们可以提供可编辑的数值。</p>
+                <h3><strong>间续滑块</strong></h3>
+                <p>间续滑块允许用户从一个范围中选择特定值。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -34,13 +34,13 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="sliders.html#sliders-continuous-slider" data-qp-ui-data-id="qp:1">Continuous slider</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="sliders.html#sliders-continuous-slider" data-qp-ui-data-id="qp:1">连续滑块</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="sliders.html#sliders-discrete-slider" data-qp-ui-data-id="qp:2">Discrete slider</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="sliders.html#sliders-discrete-slider" data-qp-ui-data-id="qp:2">间续滑块</a>
           </li>
         </ul>
       </nav>
@@ -49,7 +49,7 @@
 
         <div id="sliders-continuous-slider" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Continuous slider
+            连续滑块
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -63,7 +63,7 @@
                   <div class="module">
                     <p>Use continuous sliders for subjective settings that do not require a specific value for the user to make meaningful adjustments.</p>
                     <h2><strong><strong>Light</strong></strong></h2>
-                    <p>Thumb on: Swatch 500, Opacity 100%<br>
+                    <p>打开时的滑块：Swatch 500, Opacity 100%<br>
                       Track on: Swatch 500, Opacity 100%</p>
                     <p>Thumb off: #000000, Opacity 26%<br>
                       Track off: #000000, Opacity 26%</p>

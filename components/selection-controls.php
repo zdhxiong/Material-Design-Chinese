@@ -263,11 +263,11 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module"><h1>亮色主题</h1>
-                    <p>打开时的拇指：Swatch 500，不透明度 100%<br>
+                    <p>打开时的滑块：Swatch 500，不透明度 100%<br>
                       打开时的轨道：Swatch 500，不透明度 50%</p>
-                    <p>关闭时的拇指：Grey 50, #FAFAFA，不透明度 100%<br>
+                    <p>关闭时的滑块：Grey 50, #FAFAFA，不透明度 100%<br>
                       关闭时的轨道：#000000，不透明度 38%</p>
-                    <p>禁用时的拇指：Grey 400, #BDBDBD，不透明度 100%<br>
+                    <p>禁用时的滑块：Grey 400, #BDBDBD，不透明度 100%<br>
                       禁用时的轨道：#000000，不透明度 12%</p>
                   </div>
                   <div class="figure">
@@ -286,11 +286,11 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>暗色主题</h1>
-                    <p>打开时的拇指：Swatch 200，不透明度 100%<br>
+                    <p>打开时的滑块：Swatch 200，不透明度 100%<br>
                       打开时的轨道：Swatch 200，不透明度 50%</p>
-                    <p>关闭时的拇指：Grey 400, #BDBDBD，不透明度 100%<br>
+                    <p>关闭时的滑块：Grey 400, #BDBDBD，不透明度 100%<br>
                       关闭时的轨道：#FFFFFF，不透明度 30%</p>
-                    <p>禁用时的拇指：Grey 800, #424242，不透明度 100%</p>
+                    <p>禁用时的滑块：Grey 800, #424242，不透明度 100%</p>
                     <p>禁用时的轨道：#FFFFFF，不透明度 10%</p>
                   </div>
                   <div class="figure">
