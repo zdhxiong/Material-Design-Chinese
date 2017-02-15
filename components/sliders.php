@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>滑块控件允许用户通过移动滑块从一系列的之中进行选择。</p>
+          <p>滑块控件允许用户通过移动滑块从一系列的值中进行选择。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module"><p>滑块是用于调整反映强度级别（如音量、亮度或色彩饱和度）的设置的理想组件。</p>
@@ -61,15 +61,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Use continuous sliders for subjective settings that do not require a specific value for the user to make meaningful adjustments.</p>
-                    <h2><strong><strong>Light</strong></strong></h2>
-                    <p>打开时的滑块：Swatch 500, Opacity 100%<br>
-                      Track on: Swatch 500, Opacity 100%</p>
-                    <p>Thumb off: #000000, Opacity 26%<br>
-                      Track off: #000000, Opacity 26%</p>
-                    <p>Focused and Click Thumb off: #000000, Opacity 38% <br>
-                      Focused and Click Track off: #000000, Opacity 38%</p>
-                    <p>Disabled (disconnected): #000000, Opacity 26%</p>
+                    <p>在不要求精准、以主观感觉为主的设置中使用连续滑块，让使用者做出更有意义的调整。</p>
+                    <h2><strong><strong>亮色主题</strong></strong></h2>
+                    <p>打开时的滑块：Swatch 500，不透明度 100%<br>
+                      打开时的轨道：Swatch 500，不透明度 100%</p>
+                    <p>关闭时的滑块：#000000，不透明度 26%<br>
+                      关闭时的轨道：#000000，不透明度 26%</p>
+                    <p>关闭时聚焦和点击状态的滑块：#000000，不透明度 38% <br>
+                      关闭时聚焦和点击时的轨道：#000000，不透明度 38%</p>
+                    <p>禁用状态（不相连）：#000000，不透明度 26%</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -77,7 +77,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous1.png"/>
                       </div>
                       <figcaption>
-                        <p>Light theme</p>
+                        <p>亮色主题</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -86,12 +86,12 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Dark</strong></strong></h2>
-                    <p>Thumb on: Swatch 200, Opacity 100%<br>
-                      Track on: Swatch 200, Opacity 100%</p>
-                    <p>Thumb off: #FFFFFF, Opacity 30%<br>
-                      Track off: #FFFFFF, Opacity 30%</p>
-                    <p>Disabled (disconnected): #FFFFFF, Opacity 30%</p>
+                    <h2><strong><strong>暗色主题</strong></strong></h2>
+                    <p>打开时的滑块：Swatch 200，不透明度 100%<br>
+                      打开时的轨道：Swatch 200，不透明度 100%</p>
+                    <p>关闭时的滑块：#FFFFFF，不透明度 30%<br>
+                      关闭时的轨道：#FFFFFF，不透明度 30%</p>
+                    <p>禁用状态（不相连）：#FFFFFF，不透明度 30%</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -99,7 +99,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous2.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme</p>
+                        <p>暗色主题</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -120,7 +120,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Various slider behaviors</p>
+                        <p>不同的滑块行为</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -128,7 +128,7 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Spacing for icons to the left and/or right of the bar:</p>
+                    <p>图标与滑块栏左/右的间距：</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -136,7 +136,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of spacing for icons in a slider. </p>
+                        <p>滑块中图标的间距示例。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -146,7 +146,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous4.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of sliders in normal, hover, focus, click, and disabled states. </p>
+                        <p>滑块在正常、鼠标悬停、聚焦、点击和禁用状态下的示例。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,8 +155,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>With an editable numeric value</h1>
-                    <p>Use for settings for which users need to set the exact value. Upon pressing the thumb, the text box becomes editable for text entry and updates the value automatically with thumb movement. </p>
+                    <h1>含可编辑的数值</h1>
+                    <p>用于需要设置精确值的设置项，通过点击滑块，文本框会变成可编辑状态以供输入文本，并且自动移动滑块来更新滑块的值。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -164,7 +164,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous5.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a slider with an editable numeric value </p>
+                        <p>具有可编辑数值的滑块示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -174,7 +174,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_continuous6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a slider with an editable numeric value in normal, hover, focus, click, and disabled states. </p>
+                        <p>具有可编辑数值的滑块在正常、鼠标悬停、聚焦、点击和禁用状态下的示例。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -186,7 +186,7 @@
 
         <div id="sliders-discrete-slider" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Discrete slider
+            间续滑块
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -194,12 +194,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>The discrete slider thumb snaps to evenly spaced tick marks along the slider rail. Use for objective settings that require specific values for the user to make meaningful adjustments. Each tick mark should change the setting to a level that’s discernible to the user. The values are predetermined and aren’t user-editable.</p>
+            <div><p>间续滑块会恰好咬合到在滑动条上平均分布的间续标记上。在要求精准、以客观设定为主的设置项中使用间续滑块，让使用者做出更有意义的调整。应当对每个间续标记设定一定的等级区间进行分隔，使得其调整效果对于使用者来说显而易见。这些生成区间的值应当是预先设定好的，使用者不可对其进行编辑。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>With a numeric value label</h1>
-                    <p>Use for settings for which users need to know the exact value of the setting. </p>
+                    <h1>含数值标签</h1>
+                    <p>用于用户需要知道精确数值的设置项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -207,7 +207,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_discrete1.png"/>
                       </div>
                       <figcaption>
-                        <p>Light theme</p>
+                        <p>亮色主题</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -215,7 +215,7 @@
                         <img alt="" src="../static/media/components/sliders/components_sliders_discrete2.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme</p>
+                        <p>暗色主题</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -236,7 +236,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of a discrete slider</p>
+                        <p>间续滑块的动画效果</p>
                       </figcaption>
                     </figure>
                   </div>
