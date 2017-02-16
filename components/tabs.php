@@ -8,22 +8,22 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Tabs make it easy to explore and switch between different views.</p>
+          <p>Tab 选项卡可以方便地在不同视图间浏览和切换。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an app.</p>
-                <p>Present tabs as a single row above their associated content. Tab labels should succinctly describe the content within.</p>
-                <p>Because swipe gestures are used for navigating between tabs, don't pair tabs with content that also supports swiping.</p>
+                <p>选项卡可以在高级别组织内容，例如在视图、数据集或应用的功能方面切换。</p>
+                <p>选项卡显示为其关联内容上方的单个行元素。选项卡标签应简明扼要地描述其中的内容。</p>
+                <p>因为滑动手势用于切换选项卡，所以不要在选项卡的内容中包含支持滑动手势的控件，以免手势产生冲突。</p>
               </div>
               <div class="module">
-                <h3><strong>Types</strong></h3>
-                <p>Fixed<br>
-                  Scrollable </p>
-                <h3><strong>Tab labels</strong></h3>
-                <p>Tab labels may be either all icons or all text.</p>
-                <h3><strong>Color</strong></h3>
-                <p>Apply your app’s accent color, or a contrasting color, to text fields and the text field cursor.</p>
+                <h3><strong>类型</strong></h3>
+                <p>固定<br>
+                  可滚动</p>
+                <h3><strong>选项卡标签</strong></h3>
+                <p>选项卡标签可以是纯图标或纯文本。</p>
+                <h3><strong>颜色</strong></h3>
+                <p>使用应用的强调色、或和文本对比度较高的颜色。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -38,19 +38,19 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-content" data-qp-ui-data-id="qp:2">Content</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-content" data-qp-ui-data-id="qp:2">内容</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-types-of-tabs" data-qp-ui-data-id="qp:3">Types of tabs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-types-of-tabs" data-qp-ui-data-id="qp:3">选项卡类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-specs" data-qp-ui-data-id="qp:4">Specs</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-specs" data-qp-ui-data-id="qp:4">规格</a>
           </li>
         </ul>
       </nav>
@@ -59,7 +59,7 @@
 
         <div id="tabs-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -68,8 +68,8 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>A tab provides the affordance for displaying grouped content. A tab label succinctly describes the tab’s associated grouping of content.</p>
-              <h1>Mobile tabs</h1>
+              <p>选项卡提供了显示分组内容的功能。选项卡标签简明扼要的描述了与标签相关的分组的内容。</p>
+              <h1>移动端的选项卡</h1>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -78,7 +78,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile3.png"/>
                       </div>
                       <figcaption>
-                        <p>Default app bar and fixed tab bar</p>
+                        <p>默认应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -88,7 +88,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile1.png"/>
                       </div>
                       <figcaption>
-                        <p>Extended app bar and fixed tab bar</p>
+                        <p>展开的应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -98,7 +98,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile6.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tab bar pinned to top with scrolled content</p>
+                        <p>在滚动内容时选项卡固定在页面顶部</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -110,7 +110,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile2.png"/>
                       </div>
                       <figcaption>
-                        <p>Inset search, app bar, and fixed tab bar</p>
+                        <p>内嵌搜索，应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -120,7 +120,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile5.png"/>
                       </div>
                       <figcaption>
-                        <p>Default app bar and scrollable tab bar</p>
+                        <p>默认应用栏和可滚动选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -130,7 +130,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile4.png"/>
                       </div>
                       <figcaption>
-                        <p>The text color is the same as the tab indicator.</p>
+                        <p>文本颜色和选项指示器颜色相同。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -142,7 +142,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile7.png"/>
                       </div>
                       <figcaption>
-                        <p>Default app bar and fixed tab bar with icons</p>
+                        <p>默认应用栏和含图标的固定选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -152,7 +152,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile8.png"/>
                       </div>
                       <figcaption>
-                        <p>The icon color is the same as the tab indicator.</p>
+                        <p>图标颜色和选项卡指示器相同。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -162,7 +162,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Desktop tabs</h1>
+                    <h1>桌面端的选项卡</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -170,7 +170,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop1.png"/>
                       </div>
                       <figcaption>
-                        <p>Default app and tab bars</p>
+                        <p>默认应用栏和选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -183,7 +183,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop2.png"/>
                       </div>
                       <figcaption>
-                        <p>Tabs with a More dropdown menu</p>
+                        <p>含下拉菜单的选项卡栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -196,7 +196,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop3.png"/>
                       </div>
                       <figcaption>
-                        <p>Tabs with an expanded More dropdown menu</p>
+                        <p>已打开下拉菜单的选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -209,7 +209,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop4.png"/>
                       </div>
                       <figcaption>
-                        <p>Tabs with Books selected from a More dropdown menu</p>
+                        <p>已从下拉菜单中选中了 Books 的选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -222,7 +222,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop5.png"/>
                       </div>
                       <figcaption>
-                        <p>Tabs with overflow pagination</p>
+                        <p>含翻页的选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -235,7 +235,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop6.png"/>
                       </div>
                       <figcaption>
-                        <p>Tabs with overflow pagination scrolled</p>
+                        <p>带分页的选项卡滚动后</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -248,7 +248,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop7.png"/>
                       </div>
                       <figcaption>
-                        <p>Tab bar centered </p>
+                        <p>居中的选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -257,11 +257,11 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>When to use</h1>
-                    <p>Use tabs to organize content at a high level, for example, to present different sections of a newspaper. Don’t use tabs for carousels or pagination of content. Those use cases involve viewing content, not navigating between groups of content.</p>
-                    <p>For more detail about using tabs for navigating top-level views, see “Tabs” in <a href="../patterns/app-structure.html#navigation-patterns">Navigation - Patterns</a>.</p>
-                    <p>Don't use tabs with content that supports the swipe gesture, because swipe gestures are used for navigating between tabs. For example, avoid using tabs in a map where content is pannable, or a list where items can be dismissed with a swipe.</p>
-                    <p>Fixed tabs should be used with a limited number of tabs and when consistent placement will aid muscle memory. Scrollable tabs should be used when there are many or a variable number of tabs.</p>
+                    <h1>何时使用</h1>
+                    <p>使用选项卡可以在高级别组织内容，例如，显示报纸的不同部分。不要把选项卡用于轮播内容或进行内容分页。这些用例涉及查看内容，而不是在内容组之间导航。</p>
+                    <p>使用选项卡在高级视图间导航的更多细节，详见<a href="../patterns/app-structure.html#navigation-patterns">导航 - 模式</a>中的“选项卡”。</p>
+                    <p>不要在选项卡内容中包含支持滑动手势的内容，因为滑动手势是用于在选项卡之间导航的。例如，避免在选项卡中包含一个可以拖动的地图，或者一个可以滑动删除的列表。</p>
+                    <p>固定的选项卡应该只包含有限数量的选项，并且保持选项的位置不变，有利于用户记忆。可滚动选项卡用于有很多选项或选项数量可变的情况。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
