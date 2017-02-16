@@ -13,8 +13,8 @@
             <section class="module-module-figure col-3">
               <div class="module">
                 <p>选项卡可以在高级别组织内容，例如在视图、数据集或应用的功能方面切换。</p>
-                <p>选项卡显示为其关联内容上方的单个行元素。选项卡标签应简明扼要地描述其中的内容。</p>
-                <p>因为滑动手势用于切换选项卡，所以不要在选项卡的内容中包含支持滑动手势的控件，以免手势产生冲突。</p>
+                <p>选项卡显示为其关联内容上方的单行元素。选项卡标签应简明扼要地描述其中的内容。</p>
+                <p>因为滑动手势被用于切换选项卡，所以不要在选项卡的内容中包含支持滑动手势的控件，以免手势产生冲突。</p>
               </div>
               <div class="module">
                 <h3><strong>类型</strong></h3>
@@ -130,7 +130,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_mobile4.png"/>
                       </div>
                       <figcaption>
-                        <p>文本颜色和选项指示器颜色相同。</p>
+                        <p>文本颜色和选项卡指示器颜色相同。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -235,7 +235,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop6.png"/>
                       </div>
                       <figcaption>
-                        <p>带分页的选项卡滚动后</p>
+                        <p>带翻页的选项卡滚动后</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -270,7 +270,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The tabs switch between equally important facets of store content.</p>
+                        <p>选项卡在含同等重要的内容的选项之间切换。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -281,7 +281,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The tabs switch between destinations of varied importance within the store.</p>
+                        <p>这个选项卡在含不同等重要的内容的选项之间切换。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -290,15 +290,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Tab characteristics</h1>
-                    <p>Tabs control the display of content in a consistent location. </p>
-                    <p>Formatting specifications:</p>
+                    <h1>选项卡特性</h1>
+                    <p>选项卡使内容在统一的位置显示。</p>
+                    <p>格式规范：</p>
                     <ul class="lst-kix_kuwhumxtki7d-0 start">
-                      <li>Present tabs as a single row. Wrap tab labels to a second line if needed, and then truncate.</li>
-                      <li>Do not include a set of tabbed content within a tab.</li>
-                      <li>Highlight the tab corresponding to the visible content.</li>
-                      <li>Group tabs together hierarchically. Connect a group of tabs with its content.</li>
-                      <li>Keep tabs adjacent to their content to maintain the relationship between the two.</li>
+                      <li>把选项卡显示为单行。如果有需要，把选项标签包裹到第二行，剩下的截断。</li>
+                      <li>选项卡不要互相嵌套。</li>
+                      <li>高亮与可见内容对应的选项卡。</li>
+                      <li>将选项卡分层组合在一起。将一组选项卡与其内容相关联。</li>
+                      <li>保持选项卡与其内容相邻，以保持两者之间的联系。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -308,7 +308,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Tabs are presented as a single row.</p>
+                        <p>选项卡显示成单行。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -319,7 +319,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Tabs are not presented as a single column.</p>
+                        <p>选项卡没有显示成单行。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -333,7 +333,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a content hierarchy such that tabs relate to the currently displayed content.</p>
+                        <p>使用内容层次结构，使选项卡与当前显示的内容相关。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -344,7 +344,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Tabs should not be nested.</p>
+                        <p>选项卡不能嵌套。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -356,7 +356,7 @@
 
         <div id="tabs-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Content
+            内容
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -367,11 +367,11 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>Content presented in tabs can vary widely, even between tabs. For example, tabs showing different years of an artist’s portfolio or tabs containing different types of settings.</p>
-                    <p>All content within a set of tabs should be related under a larger organizing principle (for example, Settings or Directions), with each tab’s content mutually exclusive of the others'.</p>
-                    <p>Tab labels should provide meaningful distinctions that logically organize associated content.</p>
-                    <p>Tab labels may be either all icons or all text. When choosing a text label, use short titles. </p>
-                    <p>Avoid the need for cross-tab comparison of content. Significant cross-tab comparison may indicate the content would benefit from a different organization or presentation that places the content closer together.</p>
+                  <div class="module"><p>选项卡中显示的内容可以有很大的不同，甚至选项卡之间也是如此。例如，选项卡可以显示不同年份的艺术作品集、或包含不同类型的设置项。</p>
+                    <p>一组选项卡中的所有内容应该根据较大的分组原则进行分组，每个选项卡的内容与其他选项卡的内容都互相独立。</p>
+                    <p>选项卡标签应该从逻辑上组织相关内容，并提供更有意义的区分。</p>
+                    <p>选项卡标签可以都是图标，也可以都是文字。当使用文字标签时，应该使用短标题。</p>
+                    <p>避免进行跨选项卡的内容比较。如果一个跨选项卡的比较是有意义的，也许就说明应该换一种内容组织或呈现方式，把内容放到更相近的地方。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -380,7 +380,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>A long label exceeding the maximum width of a tab may wrap to a second line before being truncated.</p>
+                        <p>超过选项卡最大长度的长标签可以在被截断之前换行到第二行。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -389,7 +389,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don't resize single-line labels. If labels are too long, wrap text across two lines or use scrollable tabs</p>
+                        <p>不要调整单行标签的大小。如果标签太长，请将文本跨两行或使用可滚动选项卡。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -400,7 +400,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Wrap labels before truncating them. Truncating labels too early can impede comprehension.</p>
+                        <p>在截断标签之前可以对标签进行换行。过早截断标签会妨碍理解。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -409,7 +409,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Do not combine text labels with icons. Use either all text labels or all icon labels.</p>
+                        <p>不要把文本标签和图标混合使用。全部使用文本标签、或全部使用图标标签。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -421,7 +421,7 @@
 
         <div id="tabs-types-of-tabs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Types of tabs
+            选项卡类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -430,13 +430,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Depending on the platform and the context of use, tabbed content can be presented as either fixed tabs or scrollable tabs.</p>
+              <p>根据平台和使用环境，选项卡内容可以表现为固定选项卡或可滚动选项卡。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Fixed tabs</h1>
-                    <p>Fixed tabs display all tabs concurrently and are best used with content that benefits from quick pivots between tabs in fixed positions, such as switching transportation methods for directions in Google Maps.</p>
-                    <p>Fixed tabs have equal width, calculated either as the view width divided by the number of tabs, or based on the widest tab label. To navigate between fixed tabs, touch the tab or swipe the content area left or right.</p>
+                    <h1>固定选项卡</h1>
+                    <p>固定选项卡同时显示所有的选项卡，适合用于需要在固定的位置快速切换选项卡的场景，例如在 Google 地图中切换路线的交通方式。</p>
+                    <p>固定选项卡中的选项宽度都相同，可以通过视图宽度除以选项卡数量算出选项宽度、或者根据最宽的选项的标签得出选项宽度。要在固定选项卡之间导航，可以触摸选项或者在内容区域向左或向右滑动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -444,7 +444,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_typesoftabs_mobile1.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile</p>
+                        <p>移动设备上的固定选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -454,7 +454,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_typesoftabs_mobile2.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile</p>
+                        <p>移动设备上的固定选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -463,9 +463,9 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Scrollable tabs</h1>
-                    <p>Scrollable tabs display a subset of tabs at any given moment. They can contain longer tab labels and a larger number of tabs than fixed tabs. Scrollable tabs are best used for browsing contexts in touch interfaces when users don’t need to directly compare the tab labels.</p>
-                    <p>To navigate between scrollable tabs, touch the tab or swipe the content area left or right. To scroll the tabs without navigating, swipe the tabs left or right.</p>
+                    <h1>可滚动选项卡</h1>
+                    <p>可滚动选项卡在任何时刻都只能显示选项卡集的一部分。它们可以包含更长的选项卡标签和更多的选项卡数量。可滚动选项卡最适合用于用户不需要直接对不同的选项卡进行比较，可以直接通过滑动的方式浏览不同选项卡的内容。</p>
+                    <p>通过触摸选项卡或在内容区域左右滑动，可以在可滚动的选项卡之间切换。要滚动选项卡而不需要切换选项卡，可以在选项卡上左右滑动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -479,7 +479,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Scrollable tabs on mobile</p>
+                        <p>移动端的可滚动选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -500,7 +500,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_desktop5.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of scrollable tabs </p>
+                        <p>可滚动选项卡示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -512,7 +512,7 @@
 
         <div id="tabs-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Specs
+            规格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -523,32 +523,32 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Fixed tabs</h1>
-                    <p>The width of each tab can be calculated by taking the width of the view and dividing it by the number of tabs. Alternatively, make all tabs the width of the largest tab.</p>
-                    <p>If the margin between the tab edge and view edge is 16dp or less, use full-width tabs instead of centered tabs.</p>
-                    <p>Width minimum and maximum (inclusive of padding)</p>
+                  <div class="module"><h1>固定选项卡</h1>
+                    <p>视图的宽度除以选项卡的数量，可以计算出每个选项卡的宽度。或者，使每个选项卡的宽度都等于最宽的那个选项卡的宽度。</p>
+                    <p>如果选项卡边缘和视图边缘之间的间距小于等于 16dp，使用全宽选项卡代替居中选项卡。</p>
+                    <p>最小和最大宽度（包括边距）</p>
                     <ul class="lst-kix_aw6kldsmp1d3-0 start">
-                      <li>Maximum: 264dp</li>
-                      <li>Minimum: 160dp for larger views, 72 dp for smaller views</li>
+                      <li>最大宽度：264dp</li>
+                      <li>最小宽度：在比较大的视图上为 160dp，比较小的视图上为 72dp</li>
                     </ul>
-                    <p>Height</p>
+                    <p>高度</p>
                     <ul class="lst-kix_rht9x738lfdm-0 start">
                       <li>48dp</li>
                     </ul>
-                    <p>Padding</p>
+                    <p>边距</p>
                     <ul class="lst-kix_mdnkpyh5cuin-0 start">
-                      <li>12dp left and right of text</li>
-                      <li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li>
+                      <li>文本左右 12dp</li>
+                      <li>单行选项卡文本底部 20dp，双行选项卡文本底部 12dp</li>
                     </ul>
-                    <p>Alignment</p>
+                    <p>对齐方式</p>
                     <ul class="lst-kix_a11rc3w9rvjt-0 start">
-                      <li>Full-width for smaller views</li>
-                      <li>Centered for larger views</li>
+                      <li>较小的视图上全宽显示</li>
+                      <li>较大的视图上居中对齐</li>
                     </ul>
-                    <p>Indicator</p>
+                    <p>指示器</p>
                     <ul class="lst-kix_c8y2s0clxovm-0 start">
-                      <li>Height: 2dp</li>
-                      <li>Color: #fff or accent color</li>
+                      <li>高度：2dp</li>
+                      <li>颜色：#fff 或强调色</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -557,7 +557,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs1.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile, text only, portrait orientation</p>
+                        <p>移动设备上的固定选项卡，仅文本，纵向</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -567,7 +567,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs3.png"/>
                       </div>
                       <figcaption>
-                        <p>Mobile portrait example of fixed tabs, text only</p>
+                        <p>移动设备上的固定选项卡，仅文本，纵向</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -576,15 +576,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Tabs with text only</strong></p>
-                    <p>Text</p>
+                    <p><strong>仅含文本的选项卡</strong></p>
+                    <p>文本</p>
                     <ul class="lst-kix_sh8gdszdugvh-0 start">
                       <li>14sp Roboto Medium</li>
-                      <li>12sp when wrapped across a maximum of two lines</li>
-                      <li>All caps</li>
-                      <li>Horizontally and vertically centered</li>
-                      <li>Active color: #fff or accent color</li>
-                      <li>Unfocused tab color: #fff 70%</li>
+                      <li>12sp 产生换行时，最多可以有两行</li>
+                      <li>全部使用大写文本</li>
+                      <li>垂直水平居中</li>
+                      <li>激活状态颜色：#fff 或强调色</li>
+                      <li>未聚焦的选项卡颜色：#fff 70%</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -593,7 +593,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs5.png"/>
                       </div>
                       <figcaption>
-                        <p>Mobile landscape example of same tabs aligned with left keyline</p>
+                        <p>移动设备上横屏时，选项卡左对齐的示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -601,7 +601,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs4.png"/>
                       </div>
                       <figcaption>
-                        <p>Mobile landscape example of same tabs centered</p>
+                        <p>移动设备上横屏时，选项卡居中对齐的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -610,23 +610,23 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Tabs with icons and text</strong></p>
-                    <p>Height</p>
+                    <p><strong>含图标和文本的选项卡</strong></p>
+                    <p>高度</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>72dp</li>
                     </ul>
-                    <p>Icon</p>
+                    <p>图标</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>24 x 24dp</li>
                     </ul>
-                    <p>Content alignment</p>
+                    <p>对齐方式</p>
                     <ul class="lst-kix_x2mt2m3qtwkk-0 start">
-                      <li>Text and icon are centered horizontally in the tab</li>
+                      <li>文本和图标在选项卡中垂直居中对齐</li>
                     </ul>
-                    <p>Padding</p>
+                    <p>边距</p>
                     <ul class="lst-kix_x2mt2m3qtwkk-0">
-                      <li>10dp between icon and text</li>
-                      <li>16dp under text</li>
+                      <li>图标和文本之间 10dp</li>
+                      <li>文本下方 16dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -635,7 +635,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs7.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile, icons and text</p>
+                        <p>移动设备上的固定选项卡，含图标和文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -645,29 +645,29 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs8.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile, icons and text</p>
+                        <p>移动设备上的固定选项卡，含图标和文本</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Tabs with icons only</strong></p>
-                    <p>Height</p>
+                    <p><strong>仅含图标的选项卡</strong></p>
+                    <p>高度</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>48dp</li>
                     </ul>
-                    <p>Icon</p>
+                    <p>图标</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>24 x 24dp</li>
                     </ul>
-                    <p>Content alignment</p>
+                    <p>对齐方式</p>
                     <ul class="lst-kix_x2mt2m3qtwkk-0">
-                      <li>Icon is centered horizontally and vertically in the tab</li>
+                      <li>图标在选项卡中垂直居中对齐</li>
                     </ul>
-                    <p>Padding</p>
+                    <p>边距</p>
                     <ul class="lst-kix_cftr3a9z9i1a-0 start">
-                      <li>12dp under icon</li>
+                      <li>图标下方 12dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -676,7 +676,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs9.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile, icons only</p>
+                        <p>移动设备上的固定选项卡，仅含图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -686,7 +686,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs10.png"/>
                       </div>
                       <figcaption>
-                        <p>Fixed tabs on mobile, icons only</p>
+                        <p>移动设备上的固定选项卡，仅含图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -695,27 +695,27 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Scrollable tabs</h1>
-                    <p>The left-most tab content aligns with the keyline. Alignment varies between landscape and portrait to match the different keylines.</p>
-                    <p>The width of each tab is independently calculated.</p>
-                    <p> Width minimum and maximum (inclusive of padding)</p>
+                    <h1>可滚动选项卡</h1>
+                    <p>最左侧的选项卡内容和关键线对齐。在横屏和竖屏时，对齐的关键线会不同。</p>
+                    <p>每一个选项卡的宽度都是单独计算的。</p>
+                    <p>最小宽度和最大宽度（包含边距）</p>
                     <ul class="lst-kix_9r6hyo3ljvwr-0 start">
-                      <li>Maximum (whichever fits and is smaller): 264dp or (the value of view size minus 56dp)</li>
-                      <li>Minimum: 160dp for larger views, 72 dp for smaller views</li>
+                      <li>最大宽度（以较小者为准）：264dp 或（视图宽度减去 56dp）</li>
+                      <li>最小宽度：较大的视图上为 160dp，较小的视图上为 72dp</li>
                     </ul>
-                    <p>Height</p>
+                    <p>高度</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>48dp</li>
                     </ul>
-                    <p>Padding</p>
+                    <p>边距</p>
                     <ul class="lst-kix_1s0kchnl90vb-0 start">
-                      <li>12dp left and right of text</li>
-                      <li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li>
+                      <li>文本左右 12dp</li>
+                      <li>单行选项卡文本底部 20dp，双行选项卡文本底部 12dp</li>
                     </ul>
-                    <p>Indicator</p>
+                    <p>指示器</p>
                     <ul class="lst-kix_f87fajsq8a4l-0 start">
-                      <li>Height: 2dp</li>
-                      <li>Color: #fff or accent color</li>
+                      <li>高度：2dp</li>
+                      <li>颜色：#fff 或强调色</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -724,7 +724,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs11.png"/>
                       </div>
                       <figcaption>
-                        <p>Scrollable tab</p>
+                        <p>可滚动选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -734,7 +734,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs12.png"/>
                       </div>
                       <figcaption>
-                        <p>Extremely long tab labels, as shown here, should be avoided. This max-width scrollable tab contains wrapped text. </p>
+                        <p>避免过长的选项卡标签，如此处所示。可滚动选项卡的最大宽度包含了换行的文本。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -743,14 +743,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Text</p>
+                    <p>文本</p>
                     <ul class="lst-kix_z9d6u7phjm2-0 start">
                       <li>14sp Roboto Medium</li>
-                      <li>12sp when wrapped across a maximum of two lines</li>
-                      <li>All caps</li>
-                      <li>Vertically and horizontally centered</li>
-                      <li>Active color: #fff or accent color</li>
-                      <li>Unfocused tab color: #fff 70%</li>
+                      <li>12sp 当产生换行时，最多只能有两行</li>
+                      <li>全部使用大写文本</li>
+                      <li>垂直居中对齐</li>
+                      <li>激活的文本颜色：#fff 或强调色</li>
+                      <li>未聚焦的选项卡文本颜色：#fff 70%</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -759,7 +759,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs6.png"/>
                       </div>
                       <figcaption>
-                        <p>Extremely long tab labels, as shown here, should be avoided. These max-width tabs, depicted in landscape mode on mobile, are aligned with the left keyline.</p>
+                        <p>避免过长的选项卡标签，如此处所示。在移动端横屏模式下，这些最大宽度的选项卡和左侧的关键线对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -768,39 +768,39 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Desktop</h1>
-                    <p>Width minimum and maximum (inclusive of padding)</p>
+                    <h1>桌面端</h1>
+                    <p>最小宽度和最大宽度（包含边距）</p>
                     <ul class="lst-kix_y40mme98e40j-0 start">
-                      <li>Maximum (whichever fits and is smaller): 264dp or (the value of view size minus 56dp)</li>
-                      <li>Minimum: 160dp for larger views, 72 dp for smaller views</li>
+                      <li>最大宽度（以较小者为准）：264dp 或（视图宽度减去 56dp）</li>
+                      <li>最小宽度：在较大的视图上为 160dp，较小的视图上为 72dp</li>
                     </ul>
-                    <p>Height</p>
+                    <p>高度</p>
                     <ul class="lst-kix_rht9x738lfdm-0">
                       <li>48dp</li>
                     </ul>
-                    <p>Alignment</p>
+                    <p>对齐方式</p>
                     <ul class="lst-kix_omoucouc58m7-0 start">
-                      <li>Centered or aligned with left keyline</li>
+                      <li>居中对齐或和左侧关键线对齐</li>
                     </ul>
-                    <p>Text</p>
+                    <p>文本</p>
                     <ul class="lst-kix_qqtls8nuy2at-0 start">
                       <li>13sp Roboto Medium</li>
-                      <li>All caps</li>
-                      <li>Horizontally and vertically centered</li>
-                      <li>Wraps across a maximum of two lines</li>
-                      <li>Active color: #fff or accent color</li>
-                      <li>Unfocused tab color: #fff 70%</li>
+                      <li>全部使用大写文本</li>
+                      <li>垂直居中对齐</li>
+                      <li>产生换行时，最多只能有两行</li>
+                      <li>激活状态颜色：#fff 或强调色</li>
+                      <li>未聚焦的选项卡文本颜色：#fff 70%</li>
                     </ul>
-                    <p>Padding</p>
+                    <p>边距</p>
                     <ul class="lst-kix_bu1sz04w0948-0 start">
-                      <li>24dp left and right of text</li>
-                      <li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li>
-                      <li>First tab text left padding: 80dp</li>
+                      <li>文本左右 24dp</li>
+                      <li>单行选项卡文本底部 20dp，双行选项卡文本底部 12dp</li>
+                      <li>第一个选项卡文本左侧边距：80dp</li>
                     </ul>
-                    <p>Indicator</p>
+                    <p>指示器</p>
                     <ul class="lst-kix_f87fajsq8a4l-0">
-                      <li>Height: 2dp</li>
-                      <li>Color: #fff or accent color</li>
+                      <li>高度：2dp</li>
+                      <li>颜色：#fff 或强调色</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -809,7 +809,7 @@
                         <img alt="" src="../static/media/components/tabs/components_tabs_usage_specs13.png"/>
                       </div>
                       <figcaption>
-                        <p>Desktop tabs</p>
+                        <p>桌面端的选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -818,8 +818,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Tab touch target animation</h1>
-                    <p>Note: Implementations of this component may vary by platform. By using standard platform implementations, you will receive related future improvements.</p>
+                    <h1>触摸选项卡的动画</h1>
+                    <p>注意：此组件的实现可能因平台而异。通过使用标准平台实现，您将收到任何相关的进一步改进。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -833,7 +833,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of tab touch target.</p>
+                        <p>触摸选项卡时的动画。</p>
                       </figcaption>
                     </figure>
                   </div>
