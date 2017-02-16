@@ -9,19 +9,19 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Subheaders are list tiles that delineate sections of a list or grid list.</p>
+          <p>副标题是用于描述列表或网格列表中的一部分的列表瓦片。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p><strong>Subheaders </strong>may be displayed inline with tiles or associated with content. They are typically related to filtering or sorting criteria.</p>
-                <p>Upon scrolling, subheaders remain pinned to the top of the screen until pushed off screen by the next subheader.</p>
+                <p><strong>副标题</strong>可以显示在瓦片中或者与内容相关联。它们通常与过滤或排序标准有关。</p>
+                <p>滚动时，子标题固定在屏幕顶部，直到被下一个子标题推离屏幕。</p>
               </div>
               <div class="module">
-                <h3>Subheader types</h3>
-                <p><a href="subheaders.html#subheaders-list-subheaders">List</a><br>
-                  <a href="subheaders.html#subheaders-grid-subheaders">Grid</a><br>
-                  <a href="subheaders.html#subheaders-menu-subheaders">Menu</a></p>
-                <h3>Font </h3>
+                <h3>副标题类型</h3>
+                <p><a href="subheaders.html#subheaders-list-subheaders">列表</a><br>
+                  <a href="subheaders.html#subheaders-grid-subheaders">网格</a><br>
+                  <a href="subheaders.html#subheaders-menu-subheaders">菜单</a></p>
+                <h3>字体</h3>
                 <p>Roboto Medium 14sp</p>
               </div>
               <div class="figure">
@@ -37,16 +37,16 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-list-subheaders" data-qp-ui-data-id="qp:1">List subheaders</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-list-subheaders" data-qp-ui-data-id="qp:1">列表副标题</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-grid-subheaders" data-qp-ui-data-id="qp:2">Grid subheaders</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-grid-subheaders" data-qp-ui-data-id="qp:2">网格副标题</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-menu-subheaders" data-qp-ui-data-id="qp:3">Menu subheaders</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="subheaders.html#subheaders-menu-subheaders" data-qp-ui-data-id="qp:3">菜单副标题</a>
           </li>
         </ul>
       </nav>
@@ -55,7 +55,7 @@
 
         <div id="subheaders-list-subheaders" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            List subheaders
+            列表副标题
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -66,14 +66,12 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Specs</h1>
-                    <p>Tile height: 48dp<br>
-                      Subheader font: Roboto Medium 14sp</p>
-                    <p><strong>Color</strong></p>
-                    <p>Subheader color can either be the secondary grey text value (54% black) or the primary color of
-                      the app.</p>
-                    <p>In long lists of complex information, consider using colored subheaders to delineate content.
-                      Android settings contain an example of how color can be used on subheaders.</p>
+                  <div class="module"><h1>规格</h1>
+                    <p>瓦片高度：48dp<br>
+                      副标题字体：Roboto Medium 14sp</p>
+                    <p><strong>颜色</strong></p>
+                    <p>副标题的颜色可以是灰色文本值（54% 黑色）或者应用的主色。</p>
+                    <p>在含复杂信息的长列表中，考虑使用彩色副标题来描述内容。Android 的设置功能包含了一个使用彩色副标题的示例。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -81,9 +79,9 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders1.png"/>
                       </div>
                       <figcaption>
-                        <p>Grey subheader</p>
-                        <p>Padding: 16dp<br>
-                          Subheader tile height: 48dp</p>
+                        <p>灰色副标题</p>
+                        <p>内边距：16dp<br>
+                          副标题瓦片高度：48dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -93,16 +91,16 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders2.png"/>
                       </div>
                       <figcaption>
-                        <p>Grey subheader in email inbox</p>
+                        <p>邮件收件箱中的灰色副标题</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Alignment</strong></p>
-                    <p>A subheader should be left-aligned with an avatar/icon in a list, unless there is a promoted action in that space.</p>
-                    <p>If there is a floating action button left-aligned with the avatar/icon in a list, align the subheader with the text content.</p>
+                    <p><strong>对齐方式</strong></p>
+                    <p>在列表中，副标题应该与头像/图标左对齐，除非在那个空间有更高级的操作。</p>
+                    <p>如果有一个浮动操作按钮和列表中的头像/图标左对齐，那么把副标题和文本内容对齐。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -110,9 +108,9 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders3.png"/>
                       </div>
                       <figcaption>
-                        <p>With a left-aligned floating action button, the subheader is aligned with the text content.</p>
-                        <p>Subheader tile height: 48dp<br>
-                          Floating action button tile width: 72dp</p>
+                        <p>含有左对齐的浮动操作按钮时，副标题和文本内容对齐。</p>
+                        <p>副标题瓦片高度：48dp<br>
+                          浮动操作按钮瓦片宽度：72dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -122,7 +120,7 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders4.png"/>
                       </div>
                       <figcaption>
-                        <p>The subheader is in the primary color of the app and aligned with the text because of the left-aligned floating action button. </p>
+                        <p>这个副标题使用应用的主色，并且和文本对齐，因为它有一个左对齐的浮动操作按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -134,7 +132,7 @@
 
         <div id="subheaders-grid-subheaders" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Grid subheaders
+            网格副标题
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -145,9 +143,9 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>Tile height: 48dp<br>
-                    Subheader font: Roboto Medium 14sp<br>
-                    Subheader is aligned 16dp from the left edge</p>
+                  <div class="module"><p>瓦片高度：48dp<br>
+                    副标题字体：Roboto Medium 14sp<br>
+                    副标题和左边缘有 16dp 的间距</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -155,7 +153,7 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders5.png"/>
                       </div>
                       <figcaption>
-                        <p>The grid subheader is aligned 16dp from the left edge. The height of the grid subheader tile is 48dp.</p>
+                        <p>这个副标题和左边缘有 16dp 的间距。网格副标题瓦片的高度是 48dp。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -165,7 +163,7 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders6.png"/>
                       </div>
                       <figcaption>
-                        <p>Grid subheaders for the months of the year in a photo album</p>
+                        <p>用于表示相册中的月份的网格副标题</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -177,7 +175,7 @@
 
         <div id="subheaders-menu-subheaders" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Menu subheaders
+            菜单副标题
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -189,9 +187,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Tile height: 48dp<br>
-                    Subheader font: Roboto Medium 14sp<br>
-                    Subheader is aligned 16dp from the left edge</p>
+                    <p>瓦片高度：48dp<br>
+                    副标题字体：Roboto Medium 14sp<br>
+                    副标题和左边缘有 16dp 的间距</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -199,9 +197,9 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders7.png"/>
                       </div>
                       <figcaption>
-                        <p>Menu subheader specs</p>
-                        <p>Subheader padding from left edge: 16dp<br>
-                          Tile height: 48dp</p>
+                        <p>菜单副标题规格</p>
+                        <p>副标题和左边缘的间距：16dp<br>
+                          瓦片高度：48dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -211,7 +209,7 @@
                         <img alt="" src="../static/media/components/subheaders/components_subheaders8.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of menu subheader</p>
+                        <p>菜单副标题示例</p>
                       </figcaption>
                     </figure>
                   </div>
