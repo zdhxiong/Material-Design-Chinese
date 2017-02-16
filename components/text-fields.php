@@ -9,24 +9,24 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Text fields allow users to input text, <a href="../patterns/selection.html">select text</a>, and lookup data via auto-completion.</p>
+          <p>文本框允许用户输入文本，<a href="../patterns/selection.html">选择文本</a>，和通过自动完成查找数据。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Text fields usually appear in forms. </p>
-                <p>Users may enter text, numbers, or mixed-format types of input. </p>
+                <p>文本框通常出现在表单中。</p>
+                <p>用户可以输入文本、数值或者混合格式的数据。</p>
               </div>
               <div class="module">
-                <h3><strong>Text field types</strong></h3>
-                <p>Single-line<br>
-                  Multi-line<br>
-                  Full-width</p>
-                <h3><strong>Available functionality </strong></h3>
-                <p>Character counter<br>
-                  Auto-complete<br>
-                  Search filter<br>
-                  Required fields<br>
-                  Password input redaction</p>
+                <h3><strong>文本框类型</strong></h3>
+                <p>单行<br>
+                  多行<br>
+                  全宽</p>
+                <h3><strong>可用的功能</strong></h3>
+                <p>字数统计<br>
+                  自动完成<br>
+                  搜索过滤<br>
+                  非空字段<br>
+                  密码输入显示为密文</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -41,40 +41,40 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-input" data-qp-ui-data-id="qp:1">Input</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-input" data-qp-ui-data-id="qp:1">输入</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-labels" data-qp-ui-data-id="qp:2">Labels</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-labels" data-qp-ui-data-id="qp:2">标签</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-style" data-qp-ui-data-id="qp:3">Style</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-style" data-qp-ui-data-id="qp:3">样式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-single-line-text-field" data-qp-ui-data-id="qp:4">Single-line text field</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-single-line-text-field" data-qp-ui-data-id="qp:4">单行文本框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-multi-line-text-field" data-qp-ui-data-id="qp:5">Multi-line text field</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-multi-line-text-field" data-qp-ui-data-id="qp:5">多行文本框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-full-width-text-field" data-qp-ui-data-id="qp:6">Full-width text field</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-full-width-text-field" data-qp-ui-data-id="qp:6">全宽文本框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-character-counter" data-qp-ui-data-id="qp:7">Character counter</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-character-counter" data-qp-ui-data-id="qp:7">字数统计</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-auto-complete-text-field" data-qp-ui-data-id="qp:8">Auto-complete text field</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-auto-complete-text-field" data-qp-ui-data-id="qp:8">自动完成文本框</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-search-filter" data-qp-ui-data-id="qp:9">Search filter</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-search-filter" data-qp-ui-data-id="qp:9">搜索过滤</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-required-fields" data-qp-ui-data-id="qp:10">Required fields</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-required-fields" data-qp-ui-data-id="qp:10">非空自负俺</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-password-input" data-qp-ui-data-id="qp:11">Password input</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-password-input" data-qp-ui-data-id="qp:11">密码输入</a>
           </li>
         </ul>
       </nav>
@@ -83,7 +83,7 @@
 
         <div id="text-fields-input" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Input
+            输入
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -95,30 +95,30 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Touching a text field makes the two actions occur: </p>
+                    <p>触摸文本框会发生两个操作：</p>
                     <ul class="lst-kix_wp975o1wwfq0-0 start">
-                      <li>Places the cursor there</li>
-                      <li>Displays the keyboard</li>
+                      <li>把光标放入文本框</li>
+                      <li>显示键盘</li>
                     </ul>
-                    <h2>Text field anatomy</h2>
+                    <h2>文本框剖析</h2>
                     <ul class="lst-kix_de6zx7992hd7-0 start">
-                      <li><strong>Labels</strong> describe the type of input requested in each field</li>
-                      <li><strong>Hint text</strong> is placeholder text that suggests the type of information requested, sometimes in the form of an example</li>
-                      <li><strong>Helper text</strong> appears below input fields to provide additional context</li>
+                      <li><strong>标签</strong>描述每个字段中需要输入的类型</li>
+                      <li><strong>提示文本</strong>是占位符文本，表明需要的信息的类型，有时在表单中以示例的形式显示</li>
+                      <li><strong>帮助文本</strong>出现在输入字段的下方，用于提供附加的上下文</li>
                     </ul>
-                    <h2>Input types</h2>
-                    <p>The type of text field determines what kind of characters are allowed inside the field. The virtual keyboard layout may be optimized for frequently used characters. </p>
-                    <p>Common input types for which you should optimize include:</p>
+                    <h2>输入类型</h2>
+                    <p>文本框的类型决定了字段内允许输入什么样的字符。可以针对频繁使用的字符优化虚拟键盘布局。</p>
+                    <p>需要优化的常见输入类型包括：</p>
                     <ul class="lst-kix_ndp28ou2ow42-0 start">
-                      <li>Number: Phone number, credit card number, PIN</li>
-                      <li>Text: Proper name, username, URL</li>
-                      <li>Mixed format: Email address, street address, search query</li>
+                      <li>数值：手机号、信用卡号、PIN</li>
+                      <li>文本：专有名称、用户名、链接</li>
+                      <li>混合格式：邮件地址、街道地址、搜索词</li>
                     </ul>
-                    <h2>Auto-capitalization</h2>
-                    <p>The first letter in each text field should be capitalized where appropriate and if required by the locale, as well as the first letter of each sentence. For example, this is especially relevant for input fields that: </p>
+                    <h2>自动大写</h2>
+                    <p>如果语言环境需要，或在适当的时候，文本框中的第一个字母应大写，每个句子的第一个字母也一样。例如，这对于以下的文本框尤其有关：</p>
                     <ul class="lst-kix_6sfpgcsqxyz9-0 start">
-                      <li>Ask to name something, such as a Bluetooth device, user, fingerprint, or alarm</li>
-                      <li>Contain sentence-like messages, such as text messages</li>
+                      <li>用于命名某些内容，例如蓝牙设备，用户，指纹或闹钟</li>
+                      <li>包含像句子一样的消息，例如短信</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -127,9 +127,9 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_anatomy.png"/>
                       </div>
                       <figcaption>
-                        <p>1. Label<br>
-                        2. Hint text<br>
-                        3. Helper text </p>
+                        <p>1. 标签<br>
+                        2. 提示文本<br>
+                        3. 帮助文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -142,7 +142,7 @@
 
         <div id="text-fields-labels" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Labels
+            标签
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -154,7 +154,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>When the user engages with the text input field, the floating inline labels move to float above the field. </p>
+                    <p>当用户使用文本输入框时，浮动内联标签会浮动到字段上方。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -162,7 +162,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels1.png"/>
                       </div>
                       <figcaption>
-                        <p>Floating inline labels</p>
+                        <p>浮动内联标签</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -172,7 +172,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels2.png"/>
                       </div>
                       <figcaption>
-                        <p>Floating inline labels</p>
+                        <p>浮动内联标签</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -181,8 +181,8 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Label color</h1>
-                    <p>The label’s color should reflect your app’s <a href="../style/color.html">color palette</a>, while also meeting appropriate contrast ratios. </p>
+                    <h1>标签颜色</h1>
+                    <p>标签颜色应该反映应用的<a href="../style/color.html">配色</a>，同时要满足适当的对比度。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -190,7 +190,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Light theme</h1>
+                    <h1>亮色主题</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -198,7 +198,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels3.png"/>
                       </div>
                       <figcaption>
-                        <p>Floating inline labels light theme for: normal with hint text/label, focus, normal with input text, and label and disabled states </p>
+                        <p>亮色主题下的浮动内联标签：正常状态的提示文本/标签，聚焦，正常状态的输入文本，标签和禁用状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -206,14 +206,14 @@
               </div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h1>Dark theme</h1></div>
+                  <div class="module"><h1>暗色主题</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels4.png"/>
                       </div>
                       <figcaption>
-                        <p>Floating inline labels dark theme for: normal with hint text/label, focus, normal with input text, and label and disabled states</p>
+                        <p>暗色主题下的浮动内联标签：正常状态的提示文本/标签，聚焦，正常状态的输入文本，标签和禁用状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -222,8 +222,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Specs</h1>
-                    <p><strong>Floating label </strong></p>
+                    <h1>规格</h1>
+                    <p><strong>浮动标签</strong></p>
                     <ul class="lst-kix_id4u72goxoo2-0 start">
                       <li>Roboto Regular 12sp</li>
                     </ul>
