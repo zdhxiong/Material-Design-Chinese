@@ -25,8 +25,8 @@
                 <p>字数统计<br>
                   自动完成<br>
                   搜索过滤<br>
-                  非空字段<br>
-                  密码输入显示为密文</p>
+                  必填字段<br>
+                  密码隐藏</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -71,7 +71,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-search-filter" data-qp-ui-data-id="qp:9">搜索过滤</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-required-fields" data-qp-ui-data-id="qp:10">非空自负俺</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-required-fields" data-qp-ui-data-id="qp:10">必填字段</a>
           </li>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-password-input" data-qp-ui-data-id="qp:11">密码输入</a>
@@ -115,7 +115,7 @@
                       <li>混合格式：邮件地址、街道地址、搜索词</li>
                     </ul>
                     <h2>自动大写</h2>
-                    <p>如果语言环境需要，或在适当的时候，文本框中的第一个字母应大写，每个句子的第一个字母也一样。例如，这对于以下的文本框尤其有关：</p>
+                    <p>如果语言环境需要、或在适当的时候，文本框中的第一个字母应大写，每个句子的第一个字母也一样。例如，在如下的场景中尤其要注意：</p>
                     <ul class="lst-kix_6sfpgcsqxyz9-0 start">
                       <li>用于命名某些内容，例如蓝牙设备，用户，指纹或闹钟</li>
                       <li>包含像句子一样的消息，例如短信</li>
@@ -182,7 +182,7 @@
                 <section class="module-module col-2">
                   <div class="module">
                     <h1>标签颜色</h1>
-                    <p>标签颜色应该反映应用的<a href="../style/color.html">配色</a>，同时要满足适当的对比度。</p>
+                    <p>标签颜色应该反映应用的<a href="../style/color.html">配色</a>，同时要有适当的对比度。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -198,7 +198,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels3.png"/>
                       </div>
                       <figcaption>
-                        <p>亮色主题下的浮动内联标签：正常状态的提示文本/标签，聚焦，正常状态的输入文本，标签和禁用状态</p>
+                        <p>亮色主题下的浮动内联标签的状态包括：普通状态下含提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -213,7 +213,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels4.png"/>
                       </div>
                       <figcaption>
-                        <p>暗色主题下的浮动内联标签：正常状态的提示文本/标签，聚焦，正常状态的输入文本，标签和禁用状态</p>
+                        <p>暗色主题下的浮动内联标签的状态包括：普通状态下的提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -227,12 +227,12 @@
                     <ul class="lst-kix_id4u72goxoo2-0 start">
                       <li>Roboto Regular 12sp</li>
                     </ul>
-                    <p><strong>Hint and input text</strong></p>
+                    <p><strong>提示和输入文本</strong></p>
                     <ul class="lst-kix_qvs1r256gftv-0 start">
-                      <li>Regular labels: Roboto Regular 16sp</li>
-                      <li>Dense labels: Roboto Regular 13sp</li>
+                      <li>常规标签：Roboto Regular 16sp</li>
+                      <li>密集型标签：Roboto Regular 13sp</li>
                     </ul>
-                    <p>Before input is entered, floating label text is 16sp (or 13sp for dense labels). As text is entered, the label moves to a new location above the input field and the label text becomes 12sp (for both regular and dense labels).</p>
+                    <p>在聚焦到输入框之前，浮动标签文本为 16sp（密集型标签为 13sp）。聚焦到输入框后，标签移动到输入框上方，且标签文本变为 12sp（常规和密集型文本都是如此）。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -240,17 +240,17 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels5.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Floating labels<br>
-                          </strong>Tile height: 72dp</p>
-                        <p><strong>Label text</strong><br>
-                          Font size: 12sp<br>
-                          Padding above: 16dp<br>
-                          Padding below: 8dp<br></p>
-                        <p><strong>Hint and input text</strong><br>
-                          Font size: 16sp<br>
-                          Padding below: 8dp</p>
-                        <p><strong>Input line</strong><br>
-                          Padding below: 8dp</p>
+                        <p><strong>浮动标签<br>
+                          </strong>瓦片高度：72dp</p>
+                        <p><strong>标签文本</strong><br>
+                          字体大小：12sp<br>
+                          上方边距：16dp<br>
+                          下方边距：8dp<br></p>
+                        <p><strong>提示和输入文本</strong><br>
+                          字体大小：16sp<br>
+                          下方边距：8dp</p>
+                        <p><strong>输入线</strong><br>
+                          下方边距：8dp</p>
                         <p><br></p>
                       </figcaption>
                     </figure>
@@ -261,18 +261,18 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_labels5_dense_2.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense floating labels<br>
-                          </strong>Tile height: 60dp<br></p>
-                        <p><strong>Label text<br>
-                          </strong>Font size: 12sp<br>
-                          Padding above: 12dp<br>
-                          Padding below: 4dp<br>
+                        <p><strong>密集型浮动标签<br>
+                          </strong>瓦片高度：60dp<br></p>
+                        <p><strong>标签文本<br>
+                          </strong>字体大小：12sp<br>
+                          上方边距：12dp<br>
+                          下方边距：4dp<br>
                           <br>
-                          <strong>Hint and input text</strong><br>
-                          Font size: 13sp<br>
-                          Padding below: 12dp<br></p>
-                        <p><strong>Input line</strong><br>
-                          Padding below: 4dp</p>
+                          <strong>提示和输入文本</strong><br>
+                          字体大小：13sp<br>
+                          下方边距：12dp<br></p>
+                        <p><strong>输入线</strong><br>
+                          下方边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -284,7 +284,7 @@
 
         <div id="text-fields-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Style
+            样式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -296,17 +296,17 @@
               <div class="col-list">
                 <section class="module col-1">
                   <div class="module">
-                    <h1>Density </h1>
-                    <p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>
+                    <h1>密集型</h1>
+                    <p>当鼠标和键盘作为主要的输入方式时，可以压缩尺寸以适应更密集的布局。</p>
                   </div>
                 </section>
                 <section class="module col-1">
                   <div class="module">
-                    <h1>Color</h1>
-                    <p>Text fields should reflect your product’s <a href="../style/color.html">color palette</a>. The following color applications are recommended:</p>
+                    <h1>颜色</h1>
+                    <p>文本框应该反映产品的<a href="../style/color.html">色调</a>。推荐使用下列颜色：</p>
                     <ul class="lst-kix_qlbh83jeu10g-0 start">
-                      <li><strong>Text fields</strong><strong> and text cursor: </strong>Color these with your palette’s accent color, or a contrasting color</li>
-                      <li><strong>Error states:</strong> Use a contrasting color for error states, such as a warmer hue (for example, red or orange)</li>
+                      <li><strong>文本框和文本光标</strong>：使用调色板中的强调色，或者高对比度的颜色</li>
+                      <li><strong>错误状态</strong>：错误状态使用高对比度的颜色，例如较暖的颜色（如红色或橙色）</li>
                     </ul>
                   </div>
                 </section>
@@ -315,35 +315,35 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Light theme - Dark text (#000000)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>亮色主题 - 暗色文本（#000000）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Normal</p></td>
+                        <td colspan="1" rowspan="1"><p>正常状态</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Hover</p></td>
+                        <td colspan="1" rowspan="1"><p>鼠标悬停状态</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Press</p></td>
+                        <td colspan="1" rowspan="1"><p>按下状态</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Focus</p></td>
+                        <td colspan="1" rowspan="1"><p>聚焦状态</p></td>
                         <td colspan="1" rowspan="1"><p>87%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Normal with input text</p></td>
+                        <td colspan="1" rowspan="1"><p>含输入文本的正常状态</p></td>
                         <td colspan="1" rowspan="1"><p>87%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Error</p></td>
+                        <td colspan="1" rowspan="1"><p>错误状态</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       </tbody>
@@ -353,35 +353,35 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dark theme - Light text (#ffffff)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>暗色主题 - 亮色文本（#ffffff）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Normal</p></td>
+                        <td colspan="1" rowspan="1"><p>正常状态</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Hover</p></td>
+                        <td colspan="1" rowspan="1"><p>鼠标悬停状态</p></td>
                         <td colspan="1" rowspan="1"><p>70%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Press</p></td>
+                        <td colspan="1" rowspan="1"><p>按下状态</p></td>
                         <td colspan="1" rowspan="1"><p>70%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Focus</p></td>
+                        <td colspan="1" rowspan="1"><p>聚焦状态</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Normal with input text</p></td>
+                        <td colspan="1" rowspan="1"><p>含输入文本的正常状态</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Error</p></td>
+                        <td colspan="1" rowspan="1"><p>错误状态</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       </tbody>
@@ -396,7 +396,7 @@
 
         <div id="text-fields-single-line-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Single-line text field
+            单行文本框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -408,8 +408,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Single-line fields </h1>
-                    <p>Single-line fields automatically scroll their content to the left as the text input cursor reaches the right edge of the input field. </p>
+                    <h1>单行文本框</h1>
+                    <p>单行文本框在光标到达输入框右侧边缘时，会自动把文本向左侧滚动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -417,7 +417,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single1.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field</p>
+                        <p>单行文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -427,7 +427,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single2.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field</p>
+                        <p>单行文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -436,14 +436,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>The color you choose should reflect your app’s color palette.</p>
-                    <h1>Light theme</h1>
+                    <p>文本框的颜色应该反映应用的色调。</p>
+                    <h1>亮色主题</h1>
                     <ul class="lst-kix_qdpl7zkwcukg-0 start">
-                      <li>Hint and input font: Roboto Regular 16sp</li>
-                      <li>Tile height: 48dp</li>
-                      <li>Text top and bottom padding: 16dp</li>
-                      <li>Text field divider padding: 8dp</li>
-                      <li>Hint text for pressed state: 54% black</li>
+                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
+                      <li>瓦片高度：48dp</li>
+                      <li>文本上方和下方边距：16dp</li>
+                      <li>文本框分隔符边距：8dp</li>
+                      <li>按下状态的提示文本：54% 黑色</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -452,16 +452,16 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single4.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field light theme</p>
+                        <p>亮色主题的单行文本框</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Dark theme</h1>
+                    <h1>暗色主题</h1>
                     <ul class="lst-kix_qdpl7zkwcukg-0">
-                      <li>Hint text for pressed state: 70% white</li>
+                      <li>按下状态的帮助文本：70% 白色</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -470,7 +470,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single5.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field dark theme</p>
+                        <p>暗色主题的单行文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -485,10 +485,10 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single6.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field</p>
-                        <p>Height: 48dp<br>
-                          Padding above and below text: 16dp<br>
-                          Padding below divider: 8dp</p>
+                        <p>单行文本框</p>
+                        <p>高度：48dp<br>
+                          文本上下两边边距：16dp<br>
+                          分隔线下方边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -498,11 +498,11 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single6_dense.png"/>
                       </div>
                       <figcaption>
-                        <p>Dense single-line text field</p>
-                        <p>Hint and input text: 13sp<br>
-                          Height: 40dp<br>
-                          Padding above and below text: 12dp<br>
-                          Padding below divider: 4dp<br></p>
+                        <p>密集型单行文本框</p>
+                        <p>提示和输入文本：13sp<br>
+                          高度：40dp<br>
+                          文本上下两边边距：12dp<br>
+                          分隔线下方边距：4dp<br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -511,12 +511,12 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Light theme with icon</h1>
+                    <h1>含图标的亮色主题文本框</h1>
                     <ul class="lst-kix_e7t6767m6fz9-0 start">
-                      <li>Hint and input font: Roboto Regular 16sp</li>
-                      <li>Tile height: 48dp</li>
-                      <li>Text top and bottom padding: 16dp</li>
-                      <li>Text field divider padding: 8dp</li>
+                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
+                      <li>瓦片高度：48dp</li>
+                      <li>文本上下两边边距：16dp</li>
+                      <li>文本框分隔线边距：8dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -525,21 +525,21 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single7.png"/>
                       </div>
                       <figcaption>
-                        <p>Light theme with: normal with hint text, focus, and normal with input text </p>
+                        <p>亮色主题下的：普通状态的提示文本、聚焦状态、含输入文本的普通状态</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Dark theme with icon</h1></div>
+                    <h1>含图标的暗色主题文本框</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single8.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme with: normal with hint text, focus, and normal with input text </p>
+                        <p>暗色主题下的：普通状态提示文本、聚焦状态、含输入文本的普通状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -554,11 +554,11 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single9.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line text field with icon</p>
-                        <p>Height: 48dp<br>
-                          Padding above and below text: 16dp<br>
-                          Padding below divider: 8dp<br>
-                          Icon: 24dp</p>
+                        <p>含图标的单行文本框</p>
+                        <p>高度：48dp<br>
+                          文本上下两边边距：16dp<br>
+                          分隔线下方边距：8dp<br>
+                          图标：24dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -568,12 +568,12 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_single9_dense.png"/>
                       </div>
                       <figcaption>
-                        <p>Dense single-line text field with icon</p>
-                        <p>Hint and input text: 13sp<br>
-                          Height: 40dp<br>
-                          Padding above and below text: 12dp<br>
-                          Padding below divider: 4dp<br>
-                          Icon: 20dp</p>
+                        <p>含图标的密集型单行文本框</p>
+                        <p>提示和输入文本：13sp<br>
+                          高度：40dp<br>
+                          文本上下两边边距：12dp<br>
+                          分隔线下方边距：4dp<br>
+                          图标：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -585,7 +585,7 @@
 
         <div id="text-fields-multi-line-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Multi-line text field
+            多行文本框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -597,7 +597,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Multi-line text fields automatically break to a new line for overflow text and scroll vertically when the cursor reaches the lower edge.</p>
+                    <p>多行文本框会自动把文本换行，当光标到达文本框底部边缘时，会垂直滚动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -605,7 +605,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_multiline2.png"/>
                       </div>
                       <figcaption>
-                        <p>Multi-line text field</p>
+                        <p>多行文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -615,13 +615,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>The color you choose should reflect your UI’s color scheme.</p>
-                    <h1>Light theme</h1>
+                    <p>文本框的颜色应该体现应用的配色方案。</p>
+                    <h1>亮色主题</h1>
                     <ul class="lst-kix_5i8cjrynp4k3-0 start">
-                      <li>Hint and input font: Roboto Regular 16sp</li>
-                      <li>Label font: Roboto Regular 12sp</li>
-                      <li>Text top and bottom padding: 16dp</li>
-                      <li>Text field divider padding: 8dp</li>
+                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
+                      <li>标签字体：Roboto Regular 12sp</li>
+                      <li>文本上下两边边距：16dp</li>
+                      <li>文本框分隔线边距：8dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -630,22 +630,21 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_multiline3.png"/>
                       </div>
                       <figcaption>
-                        <p>Multi-line text field light theme for: normal with hint text, focused, and normal
-                        with multi-line input text</p>
+                        <p>亮色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Dark theme</h1></div>
+                    <h1>暗色主题</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/text-fields/components_textfields_multiline4.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme for multi-line text field for these states: normal with hint text, focus, and normal with multi-line input text</p>
+                        <p>暗色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -660,8 +659,8 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_multiline5.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme specs:</p>
-                        <p>Padding above and below label: 16dp</p>
+                        <p>暗色主题规格：</p>
+                        <p>标签上下两边边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -671,9 +670,9 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_multiline5_dense.png"/>
                       </div>
                       <figcaption>
-                        <p>Dense dark theme specs:</p>
-                        <p>Label and input text: 13sp<br>
-                          Label text top and bottom padding: 12dp</p>
+                        <p>密集型暗色主题规格：</p>
+                        <p>标签和输入文本：13sp<br>
+                          标签文本的上下两边边距：12dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -685,7 +684,7 @@
 
         <div id="text-fields-full-width-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Full-width text field
+            全宽文本框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -697,14 +696,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Full-width text fields are useful for more in-depth tasks.</p></div>
+                    <p>全宽文本框用于更深入的任务。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/text-fields/components_textfields_full1.png"/>
                       </div>
                       <figcaption>
-                        <p>Full-width text field</p>
+                        <p>全宽文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -714,7 +713,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_full2.png"/>
                       </div>
                       <figcaption>
-                        <p>Full-width text field</p>
+                        <p>全宽文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -723,10 +722,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Single and multi-line fields</h1>
+                    <h1>单行和多行文本框</h1>
                     <ul class="lst-kix_3e5kow19847j-0 start">
-                      <li>Hint and input font: Roboto Regular 16sp</li>
-                      <li>Top and bottom padding for text: 20dp</li>
+                      <li>提示和输入文本：Roboto Regular 16sp</li>
+                      <li>文本的上下两边边距：20dp</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -735,7 +734,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_full3.png"/>
                       </div>
                       <figcaption>
-                        <p>Single and multi-line fields for these states: normal, focused, and normal with multi-line input text</p>
+                        <p>单行和多行文本框的以下状态：普通状态、聚焦状态、含多行输入文本的普通状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -750,9 +749,9 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_full4.png"/>
                       </div>
                       <figcaption>
-                        <p>Specs for full-width single line text field:</p>
-                        <p>Height: 56dp<br>
-                          Text top and bottom padding: 20dp</p>
+                        <p>全宽单行文本框的规格：</p>
+                        <p>高度：56dp<br>
+                          文本上下两边边距：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -762,10 +761,10 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_full4_dense.png"/>
                       </div>
                       <figcaption>
-                        <p>Specs for dense full-width single line text field:</p>
-                        <p>Hint and input text: 13sp<br>
-                          Height: 48dp<br>
-                          Text top and bottom padding: 16dp</p>
+                        <p>密集型全宽单行文本框的规格：</p>
+                        <p>提示和输入文本：13sp<br>
+                          高度：48dp<br>
+                          文本上下两边边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -777,7 +776,7 @@
 
         <div id="text-fields-character-counter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            Character counter
+            字数统计
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -785,19 +784,18 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Use a character counter in fields where a character restriction is in place. </p>
+            <div><p>在有字数限制的字段中使用字数统计。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><h1>Single line with character counter</h1>
-                    <p>Counter text: Roboto Regular 12sp</p></div>
+                  <div class="module"><h1>含字数统计的单行文本框</h1>
+                    <p>统计文本：Roboto Regular 12sp</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/text-fields/components_textfields_counter1.png"/>
                       </div>
                       <figcaption>
-                        <p>Single line with character counter with a green line showing the user has not
-                        exceeded the character restriction </p>
+                        <p>含字数统计的单行文本框上，如果显示一根绿线，则说明还没有超过字数限制。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -809,13 +807,13 @@
                         </div>
                       </figure>
                     </h3>
-                    <p>Single line with character counter with a red line showing that the character restriction has been exceeded</p>
+                    <p>含字数统计的单行文本框上，如果显示一根红线，则说明超过了字数限制。</p>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Multi-line with character counter</h1>
-                    <p>Counter text: Roboto Regular 12sp</p>
+                    <h1>含字数统计的多行文本框</h1>
+                    <p>统计文本：Roboto Regular 12sp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -823,7 +821,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_counter3.png"/>
                       </div>
                       <figcaption>
-                        <p>Multi-line with character counter with a green line showing the user has not exceeded the character restriction</p>
+                        <p>含字数统计的多行文本框，如果显示一根绿线，则说明还没有超过字数限制。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -833,7 +831,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_counter4.png"/>
                       </div>
                       <figcaption>
-                        <p>Multi-line with character counter with a red line showing that the character restriction has been exceeded</p>
+                        <p>含字数统计的多行文本框，如果显示一根红线，则说明已经超过了字数限制。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -842,7 +840,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Full-width text field with character counter</h1>
+                    <h1>含字数统计的全宽文本框</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -850,7 +848,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_counter7.png"/>
                       </div>
                       <figcaption>
-                        <p>Full-width text field with character counter</p>
+                        <p>含字数统计的全宽文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -866,7 +864,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_counter8.png"/>
                       </div>
                       <figcaption>
-                        <p>Single-line focus and multi-line focus text fields</p>
+                        <p>单行聚焦状态和多行聚焦状态的文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -878,7 +876,7 @@
 
         <div id="text-fields-auto-complete-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
-            Auto-complete text field
+            自动完成文本框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -890,8 +888,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Use auto-complete text fields to present real-time suggestions or completions in dropdowns, so users can enter information more accurately and efficiently.</p>
-                    <p>Autocomplete is especially valuable for users with limited text literacy or who have difficulty with spelling, especially if they are using a non-native language. (Some users have to navigate the Internet in English because there are no localized pages for their native languages.)</p>
+                    <p>使用自动完成文本框可以在下拉框中实时显示输入建议，以便用户更准确、高校地输入信息。</p>
+                    <p>自动完成对于读写能力有限或拼写有困难的用户尤其有用，尤其在使用非母语的情况下。（有些网页没有提供本地语言版，用户只能使用英语浏览）</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -899,7 +897,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto1.png"/>
                       </div>
                       <figcaption>
-                        <p>Auto-complete text field</p>
+                        <p>自动完成文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -909,7 +907,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto2.png"/>
                       </div>
                       <figcaption>
-                        <p>Auto-complete text field in dropdown</p>
+                        <p>下拉框中的自动完成文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -918,7 +916,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Inset auto-complete</h1>
+                    <h1>内嵌式自动完成</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -926,7 +924,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto4.png"/>
                       </div>
                       <figcaption>
-                        <p>Inset auto-complete</p>
+                        <p>内嵌式自动完成</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -936,7 +934,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto5.png"/>
                       </div>
                       <figcaption>
-                        <p>Inset auto-complete</p>
+                        <p>内嵌式自动完成</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -945,7 +943,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Full-width inline auto-complete</h1>
+                    <h1>全宽的内联自动完成</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -953,7 +951,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto7.png"/>
                       </div>
                       <figcaption>
-                        <p>Normal with hint text</p>
+                        <p>含提示文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -963,7 +961,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto8.png"/>
                       </div>
                       <figcaption>
-                        <p>Focus with suggestions</p>
+                        <p>聚焦且显示建议</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -972,7 +970,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>In-line auto-complete</h1>
+                    <h1>内联自动完成</h1>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -980,7 +978,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_auto10.png"/>
                       </div>
                       <figcaption>
-                        <p>In-line auto-complete</p>
+                        <p>内联自动完成</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -992,7 +990,7 @@
 
         <div id="text-fields-search-filter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:9">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:9">
-            Search filter
+            搜索过滤
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1004,7 +1002,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>The app bar can act as a text input field. As the user types, the content underneath is filtered and sorted. </p>
+                    <p>应用栏可以充当文本框。随着用户的输入，下面的内容会跟着被过滤和排序。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1012,7 +1010,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_search1.png"/>
                       </div>
                       <figcaption>
-                        <p>The app bar acts as a text input field.. </p>
+                        <p>应用栏充当文本输入框。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1022,7 +1020,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_search2.png"/>
                       </div>
                       <figcaption>
-                        <p>The app bar acts as a text input field and the content underneath is filtered and sorted. </p>
+                        <p>应用栏充当文本输入框，并对下面的内容进行过滤和排序。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1034,7 +1032,7 @@
 
         <div id="text-fields-required-fields" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:10">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:10">
-            Required fields
+            必填字段
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1045,9 +1043,9 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><p>To indicate that a field is required, display an asterisk (*) next to the field. At the bottom of the form, include a note explaining that an asterisk indicates a required field. </p>
-                    <p><strong>Helper text</strong></p>
-                    <p>Helper text should appear below the text field and either be persistently visible, or only visible on focus. </p>
+                  <div class="module"><p>通过在字段旁显示星号（*），来指明该字段是必填字段。在表单底部添加一个说明，星号表示必填字段。</p>
+                    <p><strong>帮助文本</strong></p>
+                    <p>帮助文本显示在文本框下面，可以永久显示，也可以在聚焦到文本框时显示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1061,7 +1059,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Required fields are marked with an asterisk. Helper text can either be visible on focus, or visible persistently.</p>
+                        <p>必填字段标有星号。帮助文本可以在聚焦到文本框时显示，也可以永久显示。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1071,8 +1069,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Hint text </h1>
-                    <p>Hint text should display the type of information requested in a text field. It may be displayed in the form of an example, such as a placeholder phone number or URL. </p>
+                    <h1>提示文本</h1>
+                    <p>提示文本应该显示文本框需要的信息类型。它可以以示例的形式显示，例如占位符电话号码或 URL。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1080,7 +1078,7 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_required6.png"/>
                       </div>
                       <figcaption>
-                        <p>Hint text gives examples of text and numbers. The hint text field may also have a dropdown menu, where the user either types in their choice or selects one from the dropdown menu. </p>
+                        <p>提示文本给出了文本和数字的示例。提示文本也可以是一个下拉菜单，用户可以输入并从中选择、或者直接从中选择。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1093,7 +1091,7 @@
 
         <div id="text-fields-password-input" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:11">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:11">
-            Password input
+            密码输入
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1105,14 +1103,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Password input is disguised by default. Midline ellipses are displayed to represent each character of a password entered (such as •••••••). </p>
-                    <h2>Enabling and disabling visibility</h2>
-                    <p>When the visibility icon is displayed with a text field, it indicates whether or not that field’s input is visible. </p>
-                    <p>A text field’s visibility may be toggled on or off using the icon: </p>
-                    <p><strong>Visibility enabled</strong></p>
-                    <p>The visibility icon is displayed, with the password visible</p>
-                    <p><strong>Visibility disabled</strong></p>
-                    <p>The invisibility icon is displayed, with the password represented by midline ellipses</p>
+                    <p>密码输入默认会隐藏密码。用居中的省略号来表示密码的字符（例如•••••••）。</p>
+                    <h2>启用和禁用密码的可见性</h2>
+                    <p>当可见性图标显示在文本框中时，它会指示该字段的输入是否可见。</p>
+                    <p>一个文本字段的可见性可以通过该图标进行切换：</p>
+                    <p><strong>启用可见性</strong></p>
+                    <p>显示可见图标，并显示密码</p>
+                    <p><strong>禁用可见性</strong></p>
+                    <p>显示不可见图标，密码用居中省略号表示</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1120,47 +1118,47 @@
                         <img alt="" src="../static/media/components/text-fields/components_textfields_passwordinput.png"/>
                       </div>
                       <figcaption>
-                        <p>The visibility icon appears on the text field, off to the side.</p>
+                        <p>可见性图标显示在文本框的右侧。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>The following transparency values are used for password text:</p>
+                    <p>密码文本有以下透明度值：</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>Normal with hint tex</strong><strong>t</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Visible</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Nonvisible</strong></p></td>
-                        <td colspan="1" rowspan="1"><p>Error</p></td>
+                        <td colspan="1" rowspan="1"><p><strong>含提示文本</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>可见</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>不可见</strong></p></td>
+                        <td colspan="1" rowspan="1"><p>错误</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p>Icon: 38%</p>
-                          <p>Hint text: 38%</p>
-                          <p>Helper text: 54%</p>
+                          <p>图标：38%</p>
+                          <p>提示文本：38%</p>
+                          <p>帮助文本：54%</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Icon: 54%</p>
-                          <p>Floating hint text: 100%</p>
-                          <p>Input text: 87%</p>
-                          <p>Helper text: 54%</p>
+                          <p>图标：54%</p>
+                          <p>浮动提示文本：100%</p>
+                          <p>输入文本：87%</p>
+                          <p>帮助文本：54%</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Icon: 54%</p>
-                          <p>Floating hint text: 100%</p>
-                          <p>Input ellipses: 87%</p>
-                          <p>Helper text: 54%</p>
+                          <p>图标：54%</p>
+                          <p>浮动提示文本：100%</p>
+                          <p>输入省略号：87%</p>
+                          <p>帮助文本：54%</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Icon: 100%</p>
-                          <p>Floating hint text: 100%</p>
-                          <p>Input text: N/A</p>
-                          <p>Helper text: 100%</p>
+                          <p>图标：100%</p>
+                          <p>浮动提示文本：100%</p>
+                          <p>输入文本：N/A</p>
+                          <p>帮助文本：100%</p>
                         </td>
                       </tr>
                       </tbody>
