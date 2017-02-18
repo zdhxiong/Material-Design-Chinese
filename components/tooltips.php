@@ -9,19 +9,19 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Tooltips are text labels that appear when the user hovers over, focuses on, or touches an element. </p>
+          <p>工具提示是一个文本标签，会在用户鼠标悬停、聚焦、或触摸一个元素时显示。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Tooltips identify an element when they are activated. They may contain brief helper text about its function. For example, they may contain text information about actionable icons.</p>
-                <p>Tooltip labels do not receive input focus.</p>
+                <p>工具提示在元素被激活时找到元素。它们可能包含关于其功能的简要帮助文本。例如，它们可能包含关于一个操作图标的文本信息。</p>
+                <p>工具提示标签无法获得焦点。</p>
               </div>
               <div class="module">
-                <h3><strong>Summoned by:</strong></h3>
+                <h3><strong>可以通过以下操作呼出工具提示：</strong></h3>
                 <ul class="lst-kix_dz083mq70mc5-0 start">
-                  <li>Hovering over an element with a cursor</li>
-                  <li>Focusing on an element with a keyboard (usually the tab key)</li>
-                  <li>Upon touch</li>
+                  <li>鼠标悬停在元素上</li>
+                  <li>用键盘把焦点聚焦到一个元素上（通常是 tab 键）</li>
+                  <li>触摸时</li>
                 </ul>
               </div>
               <div class="figure">
@@ -38,19 +38,19 @@
 
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-interaction" data-qp-ui-data-id="qp:2">Interaction</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-interaction" data-qp-ui-data-id="qp:2">交互</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-tooltips-desktop" data-qp-ui-data-id="qp:3">Tooltips (desktop)</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-tooltips-desktop" data-qp-ui-data-id="qp:3">工具提示（桌面端）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-tooltips-mobile" data-qp-ui-data-id="qp:4">Tooltips (mobile)</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-tooltips-mobile" data-qp-ui-data-id="qp:4">工具提示（移动端）</a>
           </li>
         </ul>
       </nav>
@@ -59,7 +59,7 @@
 
         <div id="tooltips-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -71,7 +71,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Use tooltips for interactive imagery. </p></div>
+                    <p>为交互式图像提供工具提示。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -95,9 +95,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Tooltips don’t display rich information including images and formatted text. </p>
-                    <p>Tooltips are different than ALT-attributes, which are intended primarily for static images.</p>
-                    <p>Tooltips don’t have directional arrows; instead, they rely on motion emanating from the source to convey direction. </p>
+                    <p>工具提示不会显示如图片和格式化文本之类的富文本信息。</p>
+                    <p>工具提示与 ALT 属性不同，ALT 属性主要用于静态图片。</p>
+                    <p>工具提示没有方向箭头；相反，它们依靠动画方向来表达工具提示的方向。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -127,7 +127,7 @@
 
         <div id="tooltips-interaction" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Interaction
+            交互
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -136,19 +136,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>A tooltip is triggered by tapping and holding an item. Keep the tooltip displayed as long as the user continues to hold the element.</p>
-              <h1>Timing</h1>
-              <p>On lift, display the tooltip for 1.5 seconds.</p>
-              <p>If the user takes another action before that time ends, the tooltip will disappear.</p>
-              <h1>Motion details</h1>
-              <p>The tooltip <strong>entrance </strong>occurs over 150ms, using the <a href="../motion/duration-easing.html#duration-easing-natural-easing-curves">Deceleration Curve</a>. It also <strong>exits </strong>over 150ms, using the <a href="../motion/duration-easing.html#duration-easing-natural-easing-curves">Acceleration Curve</a>.</p>
+              <p>通过点击并按住元素可以触发工具提示。只要用户继续按住元素，就要保持工具提示继续显示</p>
+              <h1>定时</h1>
+              <p>工具提示出现后，持续显示 1.5 秒。</p>
+              <p>如果用户在该时间之前采取了另一个操作，则工具提示将消失。</p>
+              <h1>动画细节</h1>
+              <p>工具提示<strong>出现过程</strong>持续 150 毫秒后，进入<a href="../motion/duration-easing.html#duration-easing-natural-easing-curves">减速运动</a>。它的<strong>消失过程</strong>也是持续 150 毫秒后，进入<a href="../motion/duration-easing.html#duration-easing-natural-easing-curves">加速运动</a>。</p>
             </div>
           </div>
         </div>
 
         <div id="tooltips-tooltips-desktop" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Tooltips (desktop)
+            工具提示（桌面端）
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -159,9 +159,9 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><p>Text: Roboto Medium 10sp</p>
-                    <p>Color: Grey 700</p>
-                    <p>Opacity: 90%</p>
+                  <div class="module"><p>文本：Roboto Medium 10sp</p>
+                    <p>颜色：Grey 700</p>
+                    <p>不透明度：90%</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -169,10 +169,10 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_cursor_keyline.png"/>
                       </div>
                       <figcaption>
-                        <p>Cursor/keyboard tooltips</p>
-                        <p>Tile height: 22dp<br>
-                          Left and right text padding: 8dp<br>
-                          Top margin: 14dp</p>
+                        <p>光标/键盘工具提示</p>
+                        <p>瓦片高度：22dp<br>
+                          文本左右内边距：8dp<br>
+                          顶部外边距：14dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +188,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_cursor.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of cursor/keyboard tooltip</p>
+                        <p>光标/键盘工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -200,7 +200,7 @@
 
         <div id="tooltips-tooltips-mobile" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Tooltips (mobile)
+            工具提示（移动端）
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -211,19 +211,19 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><p>Text: Roboto Medium 14sp</p>
-                    <p>Color: Grey 700</p>
-                    <p>Opacity: 90%</p></div>
+                  <div class="module"><p>文本：Roboto Medium 14sp</p>
+                    <p>颜色：Grey 700</p>
+                    <p>不透明度：90%</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_touch_keyline.png"/>
                       </div>
                       <figcaption>
-                        <p>Touch UI tooltips</p>
-                        <p>Tile height: 32dp<br>
-                          Left and right text padding: 16dp<br>
-                          Top margin: 24dp</p>
+                        <p>触摸元素工具提示</p>
+                        <p>瓦片高度：32dp<br>
+                          文本左右内边距：16dp<br>
+                          顶部外边距：24dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -237,7 +237,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_touch1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of Touch UI tooltips</p>
+                        <p>触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -247,7 +247,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_touch2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of Touch UI tooltips</p>
+                        <p>触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -260,7 +260,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_touch3.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of Touch UI tooltips in a normal state</p>
+                        <p>普通状态触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -270,7 +270,7 @@
                         <img alt="" src="../static/media/components/tooltips/components_tooltips_touch4.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of Touch UI tooltips in a press and hold state</p>
+                        <p>按下并持续按住状态的工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
