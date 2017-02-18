@@ -8,20 +8,20 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Toolbar actions appear above the view affected by their actions.</p>
+          <p>工具栏显示在受其操作影响的视图上方。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Toolbars appear a step above the content they affect. They may constrain their width to accommodate material passing over them.</p>
-                <p>Do not separate a toolbar’s actions by another sheet of material, unless it is transient, such as a menu or dialog.</p>
+                <p>工具栏会在受其影响的内容上方显示一个层阶。工具栏可以约束自己的宽度以容纳穿过工具栏的内容。</p>
+                <p>不要用别的材料把工具栏的操作分隔开，除非它只是暂时显示的，例如菜单和对话框。</p>
               </div>
               <div class="module">
-                <h3><strong>Elevation</strong></h3>
-                <p>Above app content</p>
-                <h3><strong>Scrolling</strong></h3>
-                <p>Affected content scrolls underneath toolbars.</p>
-                <h3><strong>Dismissed content</strong></h3>
-                <p>Sheets may temporarily cover the toolbar while moving offscreen.</p>
+                <h3><strong>Z 轴高度</strong></h3>
+                <p>在应用内容之上</p>
+                <h3><strong>滚动</strong></h3>
+                <p>受影响的内容会在工具栏下滚动。</p>
+                <h3><strong>忽略的内容</strong></h3>
+                <p>移动屏幕时，可能会有元素暂时覆盖工具栏。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -36,10 +36,10 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="toolbars.html#toolbars-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="toolbars.html#toolbars-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
 
         <div id="toolbars-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -60,7 +60,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Toolbars appear a step above the sheet of material affected by their actions. When sheets scroll underneath toolbars, they are clipped and cannot pass through to the opposite side.</p>
+                    <p>工具栏在受其操作影响的材料上方显示一个层阶。当材料在工具栏下方滚动时，工具栏会被限制在固定位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -68,14 +68,14 @@
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png"/>
                       </div>
                       <figcaption>
-                        <p>Toolbars are located a step above another sheet.</p>
+                        <p>工具栏在其他材料上方显示一个层阶。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Sheets can also cover the toolbar as they move offscreen.</p>
+                    <p>其他材料在滚动时可以覆盖工具栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -83,21 +83,21 @@
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png"/>
                       </div>
                       <figcaption>
-                        <p>The toolbar maintains its seam until it moves off of the screen.</p>
+                        <p>工具栏会保持和其他材料的接缝，直到工具栏离开屏幕。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Finally, the second sheet can cover the toolbar as it moves.</p></div>
+                    <p>最后，第二个材料在滚动时也可以覆盖工具栏。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png"/>
                       </div>
                       <figcaption>
-                        <p>The second sheet covers the toolbar as it moves.</p>
+                        <p>第二个材料在滚动时也可以覆盖工具栏。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,8 +106,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A toolbar’s left and right actions are never split by another sheet of material, with the exception of temporary materials such as menus or dialogs.</p>
-                    <p>Instead, toolbars can constrain their width to make space for sheets of material passing over them. The actions on the left and right cluster to stay on the same side of a toolbar.</p>
+                    <p>工具栏的左右两侧的操作不会被其他材料分隔开，除了如菜单和对话框之类的临时材料。</p>
+                    <p>相反，工具栏会限制它们的宽度，以便为在其上经过的材料腾出空间。工具栏上的左右两侧的操作会始终保持在那一侧。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -116,7 +116,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Constrain width to less than the full length of its material.</p>
+                        <p>将工具栏的宽度限制为小于页面的宽度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -127,7 +127,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Never allow a sheet of material to be split by another persistent sheet of material.</p>
+                        <p>切勿让一个材料被另一个持久显示的材料分隔开。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -136,8 +136,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Toolbars can share a seam with another sheet.</p>
-                    <p>In cases where they share a seam that transforms into a step, it is called a <strong>waterfall</strong>.</p>
+                    <p>工具栏可以和其他材料共用一个接缝。</p>
+                    <p>在某些情况下，接缝可以转换为层阶，这种变形称为<strong>瀑布</strong>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -145,7 +145,7 @@
                         <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png"/>
                       </div>
                       <figcaption>
-                        <p>In the waterfall variant of clipping, the toolbar starts out as seamed and then lifts to form a step.</p>
+                        <p>在瀑布变形中，工具栏开始显示接缝，然后提升形成一个层阶。</p>
                       </figcaption>
                     </figure>
                   </div>
