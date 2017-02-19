@@ -75,7 +75,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
-                        <p>Titles are always left-aligned. </p>
+                        <p>标题始终左对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -86,7 +86,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>Titles are center-aligned by default.</p>
+                        <p>标题默认居中对齐</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -100,7 +100,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
-                        <p>When multiple actions, or even no actions, appear on the right side, toolbar titles are always left-aligned.</p>
+                        <p>在工具栏右侧有多个操作，或者甚至没有操作时，工具栏标题始终左对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -111,7 +111,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>When multiple action buttons are on the right side, or at the home screen of an application, titles may be left-aligned.</p>
+                        <p>在工具栏右侧、或应用的主屏幕上有多个操作按钮时，标题可以左对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -121,7 +121,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>Iconography</h1>
-                    <p>System icons are used to represent the most universally available actions for the platform.</p>
+                    <p>系统图标用于表示在该平台中的最普遍的操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -130,7 +130,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
-                        <p>The back button contains a thin arrow with a stem. </p>
+                        <p>后退按钮包含带茎秆的细箭头。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -141,7 +141,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>On iOS, the back arrow is thicker, and without a stem.</p>
+                        <p>在 iOS 上，后退箭头更粗，且不带茎秆。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,7 +155,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
-                        <p>The action overflow menu icon (indicated by the “More…” symbol) contains three <strong>vertical </strong>dots.</p>
+                        <p>弹出菜单按钮图标（通过“More”符号指示）包含三个<strong>垂直的</strong>点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -166,7 +166,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>The action overflow menu icon (indicated by the “More…” symbol) contains three <strong>horizontal </strong>dots.</p>
+                        <p>弹出菜单按钮图标（通过“More”符号指示）包含三个<strong>水平的</strong>点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -175,8 +175,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Controls</h1>
-                    <p>Controls should clearly indicate how users should interact with them. </p>
+                    <h1>控件</h1>
+                    <p>控件应该清楚的指示用户应如何与它们进行交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -185,7 +185,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
-                        <p>Use Material switches, checkboxes, and radio buttons. </p>
+                        <p>使用 Material Design 的开关、复选框和单选按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -196,8 +196,8 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS </strong></p>
-                        <p>Native platform switches may be used as they have matching functionality and appearance as Material switches.</p>
-                        <p>Use switches instead of check boxes and check mark lists instead of radio buttons, as these are the graphics expected on iOS.</p>
+                        <p>本平台的开关仍然可以使用，因为它们有着和 Material Design 的开关相匹配的功能和外观。</p>
+                        <p>使用开关代替复选框，使用复选标记列表代替单选按钮，因为这些是 iOS 平台上预定的图案。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -211,7 +211,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Web</strong></p>
-                        <p>You may use Material switches, checkboxes, and radio buttons.</p>
+                        <p>可以使用 Material Design 的开关、复选框和单选按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
