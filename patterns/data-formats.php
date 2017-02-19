@@ -306,7 +306,7 @@
                     <div class="text-box">
                       <p>SSN • • • 5678</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -321,7 +321,7 @@
                     <div class="text-box">
                       <p>Visa • • • • 1234</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Ellipses for credit card redaction</p>
                     </figcaption>
@@ -337,7 +337,7 @@
                   </div>
                   <div class="module">
                     <div class="text-box"><p>PayPal krestovozdvizhensky@goog…</p></div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Redacted email address with three baseline ellipses.</p>
                     </figcaption>

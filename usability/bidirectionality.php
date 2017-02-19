@@ -103,7 +103,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Text and numbers should always be in the correct direction for the language. </p>
                       </figcaption>
                     </figure>
@@ -114,7 +114,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_dont-typed.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Text should not be typed in reverse order. </p>
                       </figcaption>
                     </figure>
@@ -423,7 +423,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>An LTR airplane mode off state with the LTR slash is acceptable for both LTR and RTL locales.</p>
                       </figcaption>
                     </figure>
@@ -434,7 +434,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when8.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>There’s no need for an RTL airplane mode off state with an RTL slash. </p>
                       </figcaption>
                     </figure>
@@ -619,7 +619,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Media controls for playback are always LTR. </p>
                       </figcaption>
                     </figure>
@@ -635,7 +635,7 @@
                         <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Do not mirror media playback or progress bars. The direction of these elements represents the direction of the tape, not the direction of time. </p>
                       </figcaption>
                     </figure>

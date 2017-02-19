@@ -149,7 +149,7 @@
                         <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use whitespace.</p>
                       </figcaption>
                     </figure>
@@ -160,7 +160,7 @@
                         <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid creating too many regions.</p>
                       </figcaption>
                     </figure>

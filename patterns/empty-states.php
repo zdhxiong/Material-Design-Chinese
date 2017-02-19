@@ -83,7 +83,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The image is neutral and clearly part of the background. The tagline conveys the purpose of the app without coming across as a call to action.</p>
                       </figcaption>
                     </figure>
@@ -94,7 +94,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The image is bright and the tagline is worded like a call to action, which may encourage users to touch either the image or the tagline to start a hangout.</p>
                       </figcaption>
                     </figure>

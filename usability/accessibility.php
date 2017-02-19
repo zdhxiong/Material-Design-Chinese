@@ -140,7 +140,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color1_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>These lines of text follow the color contrast ratio recommendations and are legible against their background colors. </p>
                       </figcaption>
                     </figure>
@@ -151,7 +151,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color2_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>These lines of text do not meet the color contrast ratio recommendations and are difficult to read against their background colors. </p>
                       </figcaption>
                     </figure>
@@ -167,7 +167,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color3_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>These icons follow the color contrast ratio recommendations and are legible against their backgrounds.</p>
                       </figcaption>
                     </figure>
@@ -178,7 +178,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color4_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>These icons do not follow the color contrast ratio recommendations and are difficult to discern against their backgrounds. </p>
                       </figcaption>
                     </figure>
@@ -197,7 +197,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color5_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Decorative logos that are distinguishable don’t have to meet contrast ratios.</p>
                       </figcaption>
                     </figure>
@@ -208,7 +208,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color6_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>It is not necessary to distort your logo to meet contrast ratios.</p>
                       </figcaption>
                     </figure>
@@ -228,7 +228,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color7_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The text field error state is communicated through multiple cues: title color, text field stroke, and an error message below the field. </p>
                       </figcaption>
                     </figure>
@@ -239,7 +239,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_color8_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The text field error state is only communicated with a colored stroke, which would be missed by a user who cannot perceive color.</p>
                       </figcaption>
                     </figure>
@@ -387,7 +387,7 @@
                       </div>
                     </figure>
                     <div class="text-box"></div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>The slider value is in close proximity with the slider control. </p>
                     </figcaption>
@@ -399,7 +399,7 @@
                       </div>
                     </figure>
                     <div class="text-box"></div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>The slider value is placed too far away from the control. A user of screen magnification may not be able to view both the slider and the value without panning back and forth. </p>
                     </figcaption>
@@ -460,7 +460,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_hierarchy_1_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>By placing important actions at the top of the screen, they are given more importance in the hierarchy.</p>
                       </figcaption>
                     </figure>
@@ -469,7 +469,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>When important actions are embedded within other content, it’s unclear what the most important elements are on the page.</p>
                       </figcaption>
                     </figure>
@@ -530,7 +530,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_implementation1_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This screen is using the standard platform dialog. </p>
                       </figcaption>
                     </figure>
@@ -541,7 +541,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_implementation2_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This screen is using a non-standard platform dialog to perform a standard dialog task. This implementation would require extra coding and testing to make this non-standard control work well with assistive technology. </p>
                       </figcaption>
                     </figure>
@@ -563,7 +563,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_implementation3_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This UI has scaled well with magnification and large text. </p>
                       </figcaption>
                     </figure>
@@ -572,7 +572,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_implementation4_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This UI has not scaled well with magnification and large text. Portions of content are overlapping or cut off.</p>
                       </figcaption>
                     </figure>
@@ -678,7 +678,7 @@
                     <div class="text-box">
                       <p>Switch to heyfromjonathan@gmail.com</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Write clear and short accessibility text. </p>
                     </figcaption>
@@ -687,7 +687,7 @@
                     <div class="text-box">
                       <p>Account switcher. Switch to account heyfromjonathan@gmail.com</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Don’t write long accessibility text. </p>
                     </figcaption>
@@ -704,7 +704,7 @@
                     <div class="text-box">
                       <p>Search</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Use short descriptions.</p>
                     </figcaption>
@@ -713,7 +713,7 @@
                     <div class="text-box">
                       <p>Search field</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Don’t write the control type.</p>
                     </figcaption>
@@ -738,7 +738,7 @@
                     <div class="text-box">
                       <p>Download over Wi-Fi only</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Use short descriptions.</p>
                     </figcaption>
@@ -747,7 +747,7 @@
                     <div class="text-box">
                       <p>Download over Wi-Fi is selected</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Don’t write out the state.</p>
                     </figcaption>
@@ -771,7 +771,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_edit_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The description read aloud indicates the action represented by the icon. </p>
                       </figcaption>
                     </figure>
@@ -782,7 +782,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_edit_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Describing what the icon looks like doesn’t make it clear what the action does. </p>
                       </figcaption>
                     </figure>
@@ -796,7 +796,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_menu_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Accessible text for a navigation menu could be “Show/hide navigation menu” (preferred) or “Show/Hide main menu” (acceptable).</p>
                       </figcaption>
                     </figure>
@@ -807,7 +807,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_menu_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>When read aloud, the text “side drawer” doesn’t indicate what action will occur.</p>
                       </figcaption>
                     </figure>
@@ -839,7 +839,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The command “voice search” describes the user task (search) paired with the input method (voice).</p>
                       </figcaption>
                     </figure>
@@ -850,7 +850,7 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The command “Tap” is inaccurate as it is not the only way to activate this control (it could be selected via a keyboard press, switch device, or braille display). As the main user task in this example is to search, that action should be mentioned instead of “speak”.</p>
                       </figcaption>
                     </figure>

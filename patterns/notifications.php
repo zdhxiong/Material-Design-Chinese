@@ -223,7 +223,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_01_dontA.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t send holiday or birthday greetings in the form of notifications.</p>
                       </figcaption>
                     </figure>
@@ -237,7 +237,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_02_dontB.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t interrupt the user in the middle of a task for the sole purpose of asking if you're doing a good job.</p>
                       </figcaption>
                     </figure>
@@ -495,7 +495,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_13_action_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t include text actions that duplicate the behavior of tapping on the notification body.</p>
                       </figcaption>
                     </figure>
@@ -509,7 +509,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_14_action_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>When Android's Clock app has a timer running, this notification lets the user pause or add a minute directly from the notification.</p>
                       </figcaption>
                     </figure>
@@ -923,7 +923,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_09_title_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The content title shows the app name, which is redundant with the header area and uses up available characters.</p>
                       </figcaption>
                     </figure>
@@ -943,7 +943,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_10_title_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The content title shows the most important information.</p>
                       </figcaption>
                     </figure>
@@ -968,7 +968,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_11_large_icon_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>The large icon is not intended for branding.</p>
                       </figcaption>
                     </figure>
@@ -982,7 +982,7 @@
                         <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_12_large_icon_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The large icon is meant to reinforce the content of the notification in a meaningful way, such as a person's photo attached to a message notification.</p>
                       </figcaption>
                     </figure>

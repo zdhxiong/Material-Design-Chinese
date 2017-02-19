@@ -1419,7 +1419,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_accent3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Only use the accent color for body text to accent a web link.</p>
                       </figcaption>
                     </figure>
@@ -1430,7 +1430,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_accent4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use the accent color for body text color.</p>
                       </figcaption>
                     </figure>
@@ -1444,7 +1444,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_accent5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use the accent color for your primary action button and components like switches or sliders. </p>
                       </figcaption>
                     </figure>
@@ -1455,7 +1455,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_accent6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use the accent color for app bars or larger areas of color. Avoid using the same color for the floating action button and the background.</p>
                       </figcaption>
                     </figure>
@@ -1524,7 +1524,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_fallback1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use a fallback accent color over background colors that are too light or too dark.</p>
                       </figcaption>
                     </figure>
@@ -1535,7 +1535,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_fallback2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use the accent color over a background color if there isn’t enough contrast.</p>
                       </figcaption>
                     </figure>
@@ -1670,7 +1670,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_alpha3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Grey text (hex value of #727272) on a white background becomes hard to read if the background color changes to magenta.</p>
                       </figcaption>
                     </figure>
@@ -1681,7 +1681,7 @@
                         <img alt="" src="../static/media/style/color/style_color_uiapplication_alpha4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Black text, set to a 0.54 opacity, ensures a minimum degree of legibility and color harmony with new background colors.</p>
                       </figcaption>
                     </figure>

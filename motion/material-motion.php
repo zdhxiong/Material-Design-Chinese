@@ -373,7 +373,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Animate quickly so that the user never has to wait for the animation to finish.</p>
                       </figcaption>
                     </figure>
@@ -390,7 +390,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Staggering and slowing the movement of many elements can lengthen the duration.</p>
                       </figcaption>
                     </figure>
@@ -415,7 +415,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Maintain a clear path into the next view, even while elements are choreographed as a group.</p>
                       </figcaption>
                     </figure>
@@ -432,7 +432,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Transitions can get confusing when multiple items need to move in different directions or cross paths.</p>
                       </figcaption>
                     </figure>
@@ -494,7 +494,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>During the transition, the user is guided to the next view. The surface transforms to communicate hierarchy. Loading occurs behind the scenes to reduce perceived latency.</p>
                       </figcaption>
                     </figure>
@@ -511,7 +511,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>It is unclear how the new view is related to the old because no transition occurs and there isn’t a clear focal point. Any sense of hierarchy isn’t communicated, and loading is more apparent by the display of a circular spinner.</p>
                       </figcaption>
                     </figure>

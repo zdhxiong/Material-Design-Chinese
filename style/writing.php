@@ -29,7 +29,7 @@
                 <div class="text-box">
                   <p>Text should be simple, concise, and direct</p>
                 </div>
-                <p class="s-tag-caption do">Do.</p>
+                <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
               </div>
             </section>
           </div>
@@ -105,7 +105,7 @@
                     <div class="text-box">
                       <p>Change your preferences in My Account</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -120,13 +120,13 @@
                     <div class="text-box">
                       <p>Get started with these popular posts on Google+</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>To get you started, we’re showing you popular posts on Google+</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -137,13 +137,13 @@
                     <div class="text-box">
                       <p>We’ll review your appeal and respond within a few days</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Your appeal will be reviewed, and you will receive a response within a few days</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -157,13 +157,13 @@
                     <div class="text-box">
                       <p>Send money to anyone in the US who has an email address. It’s fast, easy, and free.</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Send (and receive) money with friends and family in the US with an email address. It’s a two-step process with little-to-no latency and there aren’t any charges for the recipients of the money.</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -174,13 +174,13 @@
                     <div class="text-box">
                       <p>Read the instructions that came with your phone</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Consult the documentation that came with your phone for further instructions</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -206,13 +206,13 @@
                     <div class="text-box">
                       <p>Save changes?</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Would you like to save your changes?</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -221,13 +221,13 @@
                     <div class="text-box">
                       <p>Message sent</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Message has been sent</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -236,13 +236,13 @@
                     <div class="text-box">
                       <p>Register to vote</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>You must register before you can vote</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -256,13 +256,13 @@
                     <div class="text-box">
                       <p>Turn on Location History</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Enable Location History</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -273,13 +273,13 @@
                     <div class="text-box">
                       <p>Preparing video…</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Buffering…</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -288,13 +288,13 @@
                     <div class="text-box">
                       <p>“Ok Google” isn’t supported on your phone</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>“Ok Google” is only supported on dual-core devices</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -305,13 +305,13 @@
                     <div class="text-box">
                       <p>Click <strong>Continue</strong></p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Click the Continue button</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -325,13 +325,13 @@
                     <div class="text-box">
                       <p>Remove photo</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Delete photo</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption></figcaption>
                   </div>
                 </section>
@@ -341,7 +341,7 @@
                     <div class="text-box">
                       <p>Remove photo?</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>The dialog title is short.</p>
                     </figcaption>
@@ -350,7 +350,7 @@
                     <div class="text-box">
                       <p>Remove photo from page?</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>The dialog title is longer than necessary. </p>
                     </figcaption>
@@ -367,13 +367,13 @@
                     <div class="text-box">
                       <p>To remove a photo from this album, drag it to the trash</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Drag a photo to the trash to remove it from this album</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -387,13 +387,13 @@
                     <div class="text-box">
                       <p>Remove downloaded book?</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Are you sure you want to remove this downloaded book? You won’t be able to access it unless you’re online.</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -407,13 +407,13 @@
                     <div class="text-box">
                       <p>Your circle names aren’t shared</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>We’ll never share your circle names</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -512,14 +512,14 @@
                       <p><strong>MyApp isn’t responding <br>
                         </strong>Do you want to close it?</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>Sorry! <br>
                         </strong>Activity in MyAppActivity (in the MyApp app) is not responding</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -533,13 +533,13 @@
                     <div class="text-box">
                       <p>All your savings in one place</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Great deals at places you’ll love</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -548,13 +548,13 @@
                     <div class="text-box">
                       <p>More restaurant reviews</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>All restaurant reviews</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -568,13 +568,13 @@
                     <div class="text-box">
                       <p>To save power, switch Location mode to Battery saving mode</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Manually control GPS to prevent other apps from using it</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -588,13 +588,13 @@
                     <div class="text-box">
                       <p>Use 24 characters or fewer for file names</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Your file name must be less than 25 characters</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -603,13 +603,13 @@
                     <div class="text-box">
                       <p>Try again</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>The action failed</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -624,14 +624,14 @@
                       <p><strong>Signing in... <br>
                         </strong>Your phone is contacting Google. This can take up to five minutes.</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>Signing in... <br>
                         </strong>Your phone needs to communicate with Google servers to sign in to your account. This may take up to five minutes.</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -661,13 +661,13 @@
                     <div class="text-box">
                       <p>Search settings</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Search Settings</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -676,7 +676,7 @@
                     <div class="text-box">
                       <p>SEARCH SETTINGS</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -711,7 +711,7 @@
                     <div class="text-box">
                       <p>Share your photos with friends. <a href="writing.html#capitalization-punctuation">Learn more</a></p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Place periods after sentences followed by a link.</p>
                     </figcaption>
@@ -720,7 +720,7 @@
                     <div class="text-box">
                       <p>Share your photos with friends. <a href="writing.html#capitalization-punctuation">Learn more</a>.</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Sentences followed by a link should place the period before the link, not after.</p>
                     </figcaption>
@@ -732,7 +732,7 @@
                     <div class="text-box">
                       <p>To narrow your targeting from all countries and territories, add a location</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -744,7 +744,7 @@
                     <div class="text-box">
                       <p>If you undo this bulk edit, everything you changed will go back to its previous state</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Skip periods after solo sentences of body text.</p>
                     </figcaption>
@@ -754,7 +754,7 @@
                     <div class="text-box">
                       <p>If you undo this bulk edit, everything you changed will go back to its previous state.</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Don’t place periods after body text if there is only a single sentence present.</p>
                     </figcaption>
@@ -769,13 +769,13 @@
                     <div class="text-box">
                       <p>Share with</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Share with:</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -789,13 +789,13 @@
                     <div class="text-box">
                       <p>it’s, can’t, wouldn’t, you’re, you’ve, haven’t, don’t</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>it is, cannot, would not, it’ll, should’ve</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -809,13 +809,13 @@
                     <div class="text-box">
                       <p>Welcome!</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Learn about the new features of Calendar!</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -824,7 +824,7 @@
                     <div class="text-box">
                       <p>Good job!</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -840,13 +840,13 @@
                     <div class="text-box">
                       <p>You have 3 messages</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>You have three messages</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>

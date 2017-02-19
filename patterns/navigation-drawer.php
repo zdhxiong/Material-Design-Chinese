@@ -426,7 +426,7 @@
                         <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>

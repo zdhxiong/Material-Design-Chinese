@@ -647,7 +647,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_color_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -657,7 +657,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_color_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -674,7 +674,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_layer_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -684,7 +684,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_layer_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -701,7 +701,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_elevate_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -711,7 +711,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_elevate_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -728,7 +728,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_score_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -738,7 +738,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_score_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -754,7 +754,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_fold_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -764,7 +764,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_fold_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -781,7 +781,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_overlap_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -791,7 +791,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_overlap_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -808,7 +808,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_accordian_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -818,7 +818,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_accordian_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -834,7 +834,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_distort_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -844,7 +844,7 @@
                         <img alt="" src="../static/media/style/icon/style_logos_product_patterns_distort_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -982,7 +982,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use simple shapes for background silhouettes.</p>
                       </figcaption>
                     </figure>
@@ -993,7 +993,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use complicated shapes for background silhouettes.</p>
                       </figcaption>
                     </figure>
@@ -1007,7 +1007,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use the correct and consistent human form at all times.</p>
                       </figcaption>
                     </figure>
@@ -1018,7 +1018,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use an incorrect human form or add complex details.</p>
                       </figcaption>
                     </figure>
@@ -1032,7 +1032,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use curved and straight edges for visual balance.</p>
                       </figcaption>
                     </figure>
@@ -1043,7 +1043,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use circular arm terminals nor cropped arms.</p>
                       </figcaption>
                     </figure>
@@ -1523,7 +1523,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use consistent stroke weights and squared stroke terminals.</p>
                       </figcaption>
                     </figure>
@@ -1534,7 +1534,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use inconsistent stroke weights or rounded stroke terminals.</p>
                       </figcaption>
                     </figure>
@@ -1548,7 +1548,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do make icons appear front-facing and sturdy.</p>
                       </figcaption>
                     </figure>
@@ -1559,7 +1559,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t tilt, rotate, or make icons appear dimensional.</p>
                       </figcaption>
                     </figure>
@@ -1573,7 +1573,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do simplify icons for greater clarity and legibility.</p>
                       </figcaption>
                     </figure>
@@ -1584,7 +1584,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t be overly literal. Avoid complex icons.</p>
                       </figcaption>
                     </figure>
@@ -1598,7 +1598,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do make icons graphic and bold.</p>
                       </figcaption>
                     </figure>
@@ -1609,7 +1609,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use delicate, thin stroke weights.</p>
                       </figcaption>
                     </figure>
@@ -1623,7 +1623,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use geometric, consistent shapes.</p>
                       </figcaption>
                     </figure>
@@ -1634,7 +1634,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use gestural or loose organic shapes.</p>
                       </figcaption>
                     </figure>
@@ -1648,7 +1648,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_do6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do position icons “on pixel” – meaning the X and Y coordinates are integers and do not contain decimals. </p>
                         <p>Icons should have equal width and height (e.g. 24x24) to avoid distorting the icon.</p>
                       </figcaption>
@@ -1660,7 +1660,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_best_dont6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t place the icon on a coordinate that is not “on pixel”.</p>
                         <p>Don’t distort the icon by having unequal width and height values. </p>
                       </figcaption>
@@ -1869,7 +1869,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use consistent stroke weights and squared arm/leg terminals.</p>
                       </figcaption>
                     </figure>
@@ -1880,7 +1880,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use inconsistent stroke weights nor rounded arms/legs.</p>
                       </figcaption>
                     </figure>
@@ -1894,7 +1894,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do align elements to simplify the silhouette for clarity.</p>
                       </figcaption>
                     </figure>
@@ -1905,7 +1905,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t crop portions of arms/legs.</p>
                       </figcaption>
                     </figure>
@@ -1919,7 +1919,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do fully embed elements within a shape when contained.</p>
                       </figcaption>
                     </figure>
@@ -1930,7 +1930,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t break the container’s boundary with elements.</p>
                       </figcaption>
                     </figure>
@@ -1944,7 +1944,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do add human elements when they help amplify the meaning of an icon.</p>
                       </figcaption>
                     </figure>
@@ -1955,7 +1955,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t add human elements when they increase the complexity of an icon.</p>
                       </figcaption>
                     </figure>
@@ -1969,7 +1969,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Do use the most simple shapes to represent human characteristics.</p>
                       </figcaption>
                     </figure>
@@ -1980,7 +1980,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t apply human characteristics to inanimate objects.</p>
                       </figcaption>
                     </figure>
@@ -2132,7 +2132,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The color of the icon should have enough contrast against the Material Grey 100 background.</p>
                       </figcaption>
                     </figure>
@@ -2143,7 +2143,7 @@
                         <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use colors with insufficient contrast against the grey background.</p>
                       </figcaption>
                     </figure>

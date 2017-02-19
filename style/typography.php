@@ -867,7 +867,7 @@
                         <img alt="" src="../static/media/style/typography/style_typography_styles_linebreaks1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -877,7 +877,7 @@
                         <img alt="" src="../static/media/style/typography/style_typography_styles_linebreaks2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid leaving large gaps and orphans on a line. Try not to leave very short words such as prepositions at the end of a line. Well-considered line breaks can avoid hyphenation of words altogether.</p>
                       </figcaption>
                     </figure>

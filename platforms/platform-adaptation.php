@@ -269,7 +269,7 @@
                         <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p><strong>Web</strong></p>
                         <p>Browsers often use edge gestures for their feature set. Edge swipes should not be used on the web.</p>
                       </figcaption>
@@ -281,7 +281,7 @@
                         <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p><strong>Web</strong></p>
                         <p>Edge swipes can not be relied on across browsers.</p>
                       </figcaption>

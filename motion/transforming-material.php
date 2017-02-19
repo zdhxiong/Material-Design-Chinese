@@ -181,7 +181,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Radial transformation should be used on circular surfaces that morph into rectangular surfaces, or for creating new surfaces from the point of input.</p>
                       </figcaption>
                     </figure>
@@ -198,7 +198,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use a radial transformation when transforming between two rectangular shapes.</p>
                       </figcaption>
                     </figure>
@@ -218,7 +218,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t expand an oval’s width and height asynchronously.</p>
                       </figcaption>
                     </figure>
@@ -235,7 +235,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t transform complex shapes.</p>
                       </figcaption>
                     </figure>

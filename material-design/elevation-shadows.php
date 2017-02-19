@@ -248,7 +248,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Without a shadow, nothing indicates that the floating action button is separate from the background surfaces.</p>
                       </figcaption>
                     </figure>
@@ -259,7 +259,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Crisp shadows indicate the floating action button and the blue sheet are separate elements. However, their shadows are so similar that they imply they are both at the same elevation.</p>
                       </figcaption>
                     </figure>
@@ -270,7 +270,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Softer, larger shadows indicate the floating action button is at a higher elevation than the blue sheet, which has a crisper shadow.</p>
                       </figcaption>
                     </figure>
@@ -286,7 +286,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Without a shadow to indicate elevation, it’s unclear whether this square is increasing in size or increasing its elevation.</p>
                       </figcaption>
                     </figure>
@@ -297,7 +297,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The shadow grows softer and larger as the object’s elevation increases and grows crisper and smaller as the elevation decreases.</p>
                       </figcaption>
                     </figure>
@@ -308,7 +308,7 @@
                         <img alt="" src="../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>In this case, the consistent shadow helps the user understand that the object is changing shape as opposed to changing elevation.</p>
                       </figcaption>
                     </figure>

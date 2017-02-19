@@ -77,7 +77,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>When moving diagonally upward, begin with a shallow ascent and end with a steep ascent. </p>
                       </figcaption>
                     </figure>
@@ -94,7 +94,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t start an element’s upward movement with a steep ascent.</p>
                       </figcaption>
                     </figure>
@@ -119,7 +119,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>When moving diagonally downward, descent should begin steeply and end shallowly.</p>
                       </figcaption>
                     </figure>
@@ -136,7 +136,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t start an element’s downward movement with a shallow descent.</p>
                       </figcaption>
                     </figure>
@@ -161,7 +161,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Keep the path for single-axis movement straight.</p>
                       </figcaption>
                     </figure>
@@ -178,7 +178,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t apply an unnatural arc to single-axis movement.</p>
                       </figcaption>
                     </figure>
@@ -200,7 +200,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Linear entrances are easy to follow with a clearly defined entry point.</p>
                       </figcaption>
                     </figure>
@@ -217,7 +217,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t arc the path of an element if it is moving off-screen, as it complicates the entry point.</p>
                       </figcaption>
                     </figure>
@@ -260,7 +260,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Apply the deceleration curve to items entering the screen that do not affect the position of any other elements around it. On mobile, this transition typically occurs over 225ms. Apply the acceleration curve to these same items when they permanently leave the screen. On mobile, this transition typically occurs over 195ms.</p>
                       </figcaption>
                     </figure>
@@ -277,7 +277,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use the standard curve for either these cases. For entrances, slow acceleration is unnecessary as focus should be on the final resting point. For exits, slow deceleration is unnecessary as the ending point isn’t visible.</p>
                       </figcaption>
                     </figure>
@@ -300,7 +300,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Apply the sharp curve to items temporarily leaving the screen that may return from the same exit point. When they return, use the deceleration curve. On mobile, this transition typically occurs over 300ms.</p>
                       </figcaption>
                     </figure>
@@ -317,7 +317,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Apply the acceleration curve to items permanently leaving the screen, or if they are to return from a different location. If they return, use the deceleration curve.</p>
                       </figcaption>
                     </figure>
@@ -343,7 +343,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Since the on-screen floating action button’s movement is influenced by the entering card, the standard curve is applied to the movement of both elements to maintain a smooth start and stop. On mobile, this transition typically occurs over 300ms.</p>
                       </figcaption>
                     </figure>
@@ -360,7 +360,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Using deceleration and acceleration curves for the upward and downward movement cause the on-screen floating action button to abruptly start moving upward and abruptly stop moving downward. This movement is harsh and disruptive.</p>
                       </figcaption>
                     </figure>

@@ -297,7 +297,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Selecting what to bundle will have a meaningful impact on the user experience.</p>
                       </figcaption>
                     </figure>
@@ -308,7 +308,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Knowing how often users check their stream doesn’t impact their experience.</p>
                       </figcaption>
                     </figure>
@@ -325,7 +325,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Normal usage won’t easily clarify what a user wants to bundle. It is valuable to ask the user their preferences.</p>
                       </figcaption>
                     </figure>
@@ -336,7 +336,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don't ask users to make selections that will become evident with normal use of the app and that won't meaningfully change the first-run experience.</p>
                       </figcaption>
                     </figure>
@@ -354,7 +354,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>A single Self-Select screen</p>
                       </figcaption>
                     </figure>
@@ -365,7 +365,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Many Self-Select screens</p>
                       </figcaption>
                     </figure>
@@ -445,7 +445,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Provide options to get the user started.</p>
                       </figcaption>
                     </figure>
@@ -456,7 +456,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t leave users with nothing to do.</p>
                       </figcaption>
                     </figure>
@@ -473,7 +473,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Offer the user the opportunity to learn more about the app.</p>
                       </figcaption>
                     </figure>
@@ -484,7 +484,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t force education upfront.</p>
                       </figcaption>
                     </figure>
@@ -501,7 +501,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Nudge users to take the first key action.</p>
                       </figcaption>
                     </figure>
@@ -512,7 +512,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t leave users with nothing to do.</p>
                       </figcaption>
                     </figure>
@@ -608,7 +608,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Using consistent visuals and colors throughout the experience unify the story by creating a uniform canvas for the button and circles. </p>
                       </figcaption>
                     </figure>
@@ -627,7 +627,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The metaphor of saving files to the cloud is visually illustrated.</p>
                       </figcaption>
                     </figure>
@@ -638,7 +638,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>There is no point of focus in this image.</p>
                       </figcaption>
                     </figure>
@@ -656,7 +656,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-7.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This illustration helps convey the benefits of directions. </p>
                       </figcaption>
                     </figure>
@@ -667,7 +667,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Showing the actual app’s UI makes it unclear if the images are an illustration or an interactive element.</p>
                       </figcaption>
                     </figure>

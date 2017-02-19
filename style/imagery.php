@@ -176,7 +176,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_mediums1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>For specific entities, look first to photographic representation. </p>
                       </figcaption>
                     </figure>
@@ -187,7 +187,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_mediums2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>When total specificity is not available or applicable, illustration conveys approximation of content to aid comprehension.</p>
                       </figcaption>
                     </figure>
@@ -207,7 +207,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Strive for images that represent genuine stories.</p>
                       </figcaption>
                     </figure>
@@ -218,7 +218,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Stock images can feel inauthentic.</p>
                       </figcaption>
                     </figure>
@@ -232,7 +232,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>For specific representations, use specific imagery. </p>
                       </figcaption>
                     </figure>
@@ -243,7 +243,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don't default to literal stock photography. </p>
                       </figcaption>
                     </figure>
@@ -262,7 +262,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use color and composition to give images a clear focus.</p>
                       </figcaption>
                     </figure>
@@ -273,7 +273,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid making the user hunt for the meaning in the image. </p>
                       </figcaption>
                     </figure>
@@ -287,7 +287,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>The most powerful iconic images consist of a few meaningful elements, with minimal distractions.</p>
                       </figcaption>
                     </figure>
@@ -298,7 +298,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>When the point of focus is obscured, the iconic quality of the image is lost.</p>
                       </figcaption>
                     </figure>
@@ -312,7 +312,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>A clear focus communicates the concept at a glance. </p>
                       </figcaption>
                     </figure>
@@ -323,7 +323,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>A lack of focus makes the image meaningless.</p>
                       </figcaption>
                     </figure>
@@ -342,7 +342,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>An image that tells a story is infinitely more interesting and informative.</p>
                       </figcaption>
                     </figure>
@@ -353,7 +353,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>An image that lacks a story loses an opportunity to convey mood, brand, and context.</p>
                       </figcaption>
                     </figure>
@@ -367,7 +367,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Properly contextualized concepts convey your message and brand more effectively.</p>
                       </figcaption>
                     </figure>
@@ -378,7 +378,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>A representation of an entity that is dissociated from context is uninteresting.</p>
                       </figcaption>
                     </figure>
@@ -412,7 +412,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_resolution1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Appropriately sized imagery</p>
                       </figcaption>
                     </figure>
@@ -423,7 +423,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_resolution2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Degraded imagery</p>
                       </figcaption>
                     </figure>
@@ -514,7 +514,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Dark scrims should ideally be between 20%-40% opacity depending on the content. Light scrims should ideally range from 40%-60% opacity depending on the content.</p>
                       </figcaption>
                     </figure>
@@ -525,7 +525,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don't obscure imagery when you use a scrim. </p>
                       </figcaption>
                     </figure>
@@ -539,7 +539,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>For larger real estate, target specific areas for text protection instead of blanketing the entire image. </p>
                       </figcaption>
                     </figure>
@@ -550,7 +550,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t ‘over-scrim’ large images.</p>
                       </figcaption>
                     </figure>
@@ -564,7 +564,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Color overlays are different than text-protection scrims and can be used as a design element. When creating complementary color overlays, use the Palette API to define your color scheme based on content.</p>
                       </figcaption>
                     </figure>
@@ -575,7 +575,7 @@
                         <img alt="" src="../static/media/style/imagery/style_imagery_integration_text6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>You can use your brand’s color palette decoratively to enhance imagery.</p>
                       </figcaption>
                     </figure>

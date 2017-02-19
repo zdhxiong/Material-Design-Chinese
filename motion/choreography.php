@@ -157,7 +157,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Guide the user’s focus to the next view using the most important shared element.</p>
                       </figcaption>
                     </figure>
@@ -174,7 +174,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Avoid creating scenes without focus, such as by using many shared elements or by letting elements cross paths during the transition. </p>
                       </figcaption>
                     </figure>
@@ -199,7 +199,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Make room for the unloaded elements during the transition and gracefully display them in place once they fully load.</p>
                       </figcaption>
                     </figure>
@@ -216,7 +216,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t shift the layout as elements load into view, as this distracts and causes a shift in focus.</p>
                       </figcaption>
                     </figure>
@@ -256,7 +256,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>This menu appears from the touch point, tying the element to the point of touch.</p>
                       </figcaption>
                     </figure>
@@ -273,7 +273,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>This menu appears far away from the touch point that triggered it, which breaks its relationship with the input method.</p>
                       </figcaption>
                     </figure>
@@ -298,7 +298,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>List items have a slightly staggered entrance. Grid items populate left to right, and top to bottom.</p>
                       </figcaption>
                     </figure>
@@ -315,7 +315,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Items shouldn’t appear within the list all at once. It’s overwhelming and eliminates a clear focus.</p>
                       </figcaption>
                     </figure>
@@ -335,7 +335,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Items that have a slightly staggered entrance shouldn’t appear in an order that’s confusing to follow.</p>
                       </figcaption>
                     </figure>
@@ -352,7 +352,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Do not wait for each item to fully animate before introducing the next item. Begin each item’s staggered entrance no more than 20ms apart.</p>
                       </figcaption>
                     </figure>
@@ -377,7 +377,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>An automatically triggered surface appears smoothly and quickly.</p>
                       </figcaption>
                     </figure>
@@ -394,7 +394,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Too much animation during surface creation is distracting.</p>
                       </figcaption>
                     </figure>

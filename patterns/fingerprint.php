@@ -461,7 +461,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_15_state1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use a multi-colored Fingerprint icon. </p>
                       </figcaption>
                     </figure>
@@ -545,7 +545,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_15_state2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t tilt or distort the fingerprint icon.</p>
                       </figcaption>
                     </figure>

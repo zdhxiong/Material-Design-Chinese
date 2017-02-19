@@ -267,7 +267,7 @@
                       <p><strong>Notifications</strong><br>
                       Show notifications</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>Avoid repeating words from the label in the secondary text.</p>
                     </figcaption>
@@ -288,7 +288,7 @@
                       <p><strong>Enable NFC</strong><br>
                       Allow data exchange when the phone touches another device</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>Start the description with a verb.</p>
                     </figcaption>
@@ -330,14 +330,14 @@
                       <p><strong>Sleep</strong><br>
                       After 10 minutes of inactivity</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>Screen timeout</strong><br>
                       Adjust the delay before the screen automatically turns off</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -365,13 +365,13 @@
                     <div class="text-box">
                       <p><strong>Vibrate on touch</strong></p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>Use tactile feedback</strong></p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -383,14 +383,14 @@
                       <p><strong>Sleep</strong><br>
                       After 10 minutes of inactivity</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>Screen timeout</strong><br>
                       Adjust the delay before the screen automatically turns off</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -402,7 +402,7 @@
                       <p><strong>Screen lock</strong><br>
                       Pattern</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
                       <p>If the user hasn’t set up a screen lock, the secondary text should say “None.”</p>
                     </figcaption>
@@ -412,7 +412,7 @@
                       <p><strong>Change screen lock</strong><br>
                       Change or disable pattern, PIN, or password security</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption><br></figcaption>
                   </div>
                 </section>
@@ -425,14 +425,14 @@
                       <p><strong>NFC</strong><br>
                       Allow data exchange when the phone touches another device</p>
                     </div>
-                    <p class="s-tag-caption do">Do.</p>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>NFC</strong><br>
                       Use Near Field Communication to read and exchange tags</p>
                     </div>
-                    <p class="s-tag-caption dont">Don't.</p>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>

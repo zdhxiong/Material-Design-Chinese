@@ -115,7 +115,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_04_overflow.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Overflow menu showing “Help” and “Send feedback”</p>
                       </figcaption>
                     </figure>
@@ -196,7 +196,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_02_do.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         Once a user selects “Help,” they should be taken directly to the “Help” menu.
                       </figcaption>
                     </figure>
@@ -210,7 +210,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_01_dont.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         After a user has selected “Help,” do not present a screen asking the user to choose between “Help” and other options.
                       </figcaption>
                     </figure>
@@ -299,7 +299,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_01.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use the standard material icon for Help.</p>
                       </figcaption>
                     </figure>
@@ -310,7 +310,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_02.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use icon variations, such as those with speech bubbles or circle outlines.</p>
                       </figcaption>
                     </figure>
@@ -326,7 +326,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_03.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use the standard material icon for Send feedback.</p>
                       </figcaption>
                     </figure>
@@ -337,7 +337,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_04.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use icon variations, such as chat or bug icons.</p>
                       </figcaption>
                     </figure>
@@ -353,7 +353,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_05.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Use the standard material icon for Help Tooltips.</p>
                       </figcaption>
                     </figure>
@@ -364,7 +364,7 @@
                         <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_06.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t use icon variations, including the Help icon, or icons with speech bubbles or outlines.</p>
                       </figcaption>
                     </figure>

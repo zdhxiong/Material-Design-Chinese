@@ -81,7 +81,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Animate quickly so that the user doesn’t have to wait for the animation to finish.</p>
                       </figcaption>
                     </figure>
@@ -98,7 +98,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Don’t animate slowly as it creates unnecessary lag.</p>
                       </figcaption>
                     </figure>

@@ -124,7 +124,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Navigation drawers (if present in an app) contain navigation destinations, not dynamic content.</p>
                       </figcaption>
                     </figure>
@@ -135,7 +135,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Home screen widgets should update content automatically.</p>
                       </figcaption>
                     </figure>
@@ -149,7 +149,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Pannable content, like in maps, have no primary direction or content origin from which users can presume the swipe to refresh gesture will originate.</p>
                       </figcaption>
                     </figure>
@@ -185,7 +185,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -195,7 +195,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -210,7 +210,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -229,7 +229,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -239,7 +239,7 @@
                         <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -279,7 +279,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>Keeping the refresh indicator in view until the activity is completed provides feedback on the status of the refresh activity.</p>
                       </figcaption>
                     </figure>
@@ -296,7 +296,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>Scrolling the refresh indicator off-screen hides the status of the refresh activity and may imply that the refresh activity is associated with a specific component within the view, such as a card, instead of the entire view.</p>
                       </figcaption>
                     </figure>
