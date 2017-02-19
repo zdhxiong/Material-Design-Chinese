@@ -5,7 +5,7 @@
   <link href="<?php url('static/css/main.min.css'); ?>" rel="stylesheet">
   <link href="<?php url('static/css/fonts.css'); ?>" rel="stylesheet">
   <meta name="viewport" content="initial-scale=1, width=device-width">
-  <title><?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 中文文档，指南</title>
+  <title><?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 中文文档，指南，翻译</title>
   <meta itemprop="name" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 指南">
   <meta itemprop="image" content="<?php url('static/media/public/share.png') ?>">
   <meta property="og:type" content="article">
