@@ -8,24 +8,24 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Material has certain immutable characteristics and inherent behaviors. </h1>
+          <h1>材料自身有一些固定的特性和行为。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Understanding these qualities of material will help you manipulate material in a way that’s consistent with the vision of material design.</p>
+                <p>了解材料的这些特性，会有助于你用一种和 Material Design 的构想更一致的方式来使用材料。</p>
               </div>
               <div class="module">
-                <h3><strong>Material characteristics</strong></h3>
-                <p>Solid<br>
-                  Occupies unique points in space<br>
-                  Impenetrable<br>
-                  Mutable shape<br>
-                  Changes in size only along its plane<br>
-                  Unbendable<br>
-                  Can join to other material<br>
-                  Can separate, split, and heal<br>
-                  Can be created or destroyed<br>
-                  Moves along any axis</p>
+                <h3><strong>材料的特性</strong></h3>
+                <p>固体的<br>
+                  在空间中占据一个独一无二的位置<br>
+                  不可穿透<br>
+                  形状可变<br>
+                  仅允许沿着当前所在平面改变大小<br>
+                  坚硬的<br>
+                  可以添加到其他材料中<br>
+                  可以独立、分割和复原<br>
+                  可以被创建和销毁<br>
+                  可以在任何轴上移动</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,16 +40,16 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-physical-properties" data-qp-ui-data-id="qp:1">Physical properties</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-physical-properties" data-qp-ui-data-id="qp:1">物理属性</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-transforming-material" data-qp-ui-data-id="qp:2">Transforming material</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-transforming-material" data-qp-ui-data-id="qp:2">材料的转换</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-movement-of-material" data-qp-ui-data-id="qp:3">Movement of material</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-movement-of-material" data-qp-ui-data-id="qp:3">材料的移动</a>
           </li>
         </ul>
       </nav>
@@ -58,7 +58,7 @@
 
         <div id="material-properties-physical-properties" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Physical properties
+            物理属性
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -69,15 +69,15 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>Material has <strong>varying x &amp; y dimensions</strong> (measured in dp) and a <strong>uniform thickness</strong> (1dp). </p></div>
+                  <div class="module"><p>材料在 <strong>x、y 轴上有不同的尺寸</strong>（计量单位为 dp）和<strong>统一的厚度</strong>（1dp）。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>The height and width of material can vary.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>材料的长度和宽度是可以改变的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -87,8 +87,8 @@
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Material is always 1dp thick.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>所有材料都是 1dp 的厚度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -97,8 +97,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material casts shadows.</p>
-                    <p>Shadows result naturally from the relative elevation (z-position) between material elements.</p>
+                    <p>材料会投射出阴影。</p>
+                    <p>阴影是由于元素之间的相对高度（Z 轴）而自然产生的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -112,8 +112,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Shadows depict the relative elevation between material elements.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>阴影反映了材料的元素之间的相对高度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -132,8 +132,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Shadows are never approximated by coloring material.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>阴影不是通过对材料着色产生的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -142,7 +142,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Content is displayed on material, in any shape and color. Content does not add thickness to material.</p>
+                    <p>内容可以以任何形状和颜色显示在材料上。内容不会增加材料的厚度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -156,8 +156,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Material can display any shape and color.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>材料可以展示任何形状和颜色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -166,7 +166,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Content can behave independently of the material, but is limited within the bounds of the material.</p>
+                    <p>内容看起来可以独立于材料，但是会被限制在材料的边界内。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -180,8 +180,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Content behavior can be independent of the behavior of material.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>内容的行为可以和材料的行为互相独立。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -190,8 +190,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Material is solid.</p>
-                    <p>Input events cannot pass through material.</p>
+                    <p>材料是固态的。</p>
+                    <p>输入事件不能穿透材料。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -199,8 +199,8 @@
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical3.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Input events only affect the foreground material.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>只有在最前面的材料才会响应输入事件。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -210,15 +210,15 @@
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical4.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Input events cannot pass through material.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>输入事件不能穿透材料。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Multiple material elements cannot occupy the same point in space simultaneously.</p>
+                    <p>多个材料元素不能同时出现在同一空间中的相同位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -226,8 +226,8 @@
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical5.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Using elevation to separate material elements is one method of preventing multiple material elements from occupying the same point in space simultaneously.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>利用高度来区分材料元素，以防止多个材料元素同时占用空间中的相同位置。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -237,8 +237,8 @@
                         <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical6.png"/>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Multiple material elements cannot occupy the same point in space simultaneously.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>多个材料元素不能同时占用空间中的相同位置。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -247,8 +247,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material cannot pass through other material.</p>
-                    <p>For example, one sheet of material cannot pass through another sheet of material when changing elevation.</p>
+                    <p>材料之间不能相互交叉。</p>
+                    <p>例如，当改变材料高度时，这片材料不能从另一片材料中穿过。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -262,8 +262,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Material cannot pass through other material.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>材料之间不能相互交叉。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -275,7 +275,7 @@
 
         <div id="material-properties-transforming-material" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Transforming material
+            材料的转换
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -287,7 +287,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material can change shape.</p>
+                    <p>材料可以改变形状。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -301,7 +301,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material can change shape.</p>
+                        <p>材料可以改变形状。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -310,7 +310,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material grows and shrinks only along its plane.</p>
+                    <p>材料只能在当前所在平面内伸缩。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -324,15 +324,15 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption do">Do.</p>
-                        <p>Material grows and shrinks only along its plane.</p>
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>材料只能在当前所在平面内伸缩。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material never bends or folds.</p>
+                    <p>材料不能弯曲或折叠。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -346,8 +346,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p class="s-tag-caption dont">Don't.</p>
-                        <p>Material never bends or folds.</p>
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>材料不能弯曲或折叠。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -356,7 +356,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Sheets of material can join together to become a single sheet of material.</p>
+                    <p>多片材料可以组合成一片材料。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -370,7 +370,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Multiple sheets of material can join together to become a single sheet. </p>
+                        <p>多片材料可以组合成一片材料。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -379,7 +379,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>When split, material can heal. For example, if you remove a portion of material from a sheet of material, the sheet of material will become a whole sheet again. </p>
+                    <p>分割之后，材料可以复原。例如，如果你从一片材料中移动了其中一部分，这部分材料会重新回到那片材料中，恢复成一整片材料。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -393,7 +393,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material can split and become whole again. </p>
+                        <p>材料可以被分割和复原。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -405,7 +405,7 @@
 
         <div id="material-properties-movement-of-material" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Movement of material
+            材料的移动
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -417,7 +417,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Material can be spontaneously generated or destroyed anywhere in the environment.</p>
+                    <p>材料可以在环境中的任何地方自动创建或销毁。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -431,7 +431,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material can be spontaneously generated or destroyed. </p>
+                        <p>材料可以自动创建或销毁。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -439,7 +439,7 @@
               </div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><p>Material can move along any axis.</p></div>
+                  <div class="module"><p>材料可以沿着任何轴移动。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -452,7 +452,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material can move along various axes. </p>
+                        <p>材料可以沿着任何轴移动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -461,7 +461,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Z-axis motion is typically a result of user interaction with material.</p>
+                    <p>Z 轴的运动通常是用户和材料交互的结果。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -475,7 +475,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Z-axis motion prompted by user interaction.</p>
+                        <p>Z 轴的运动是用户和材料交互后产生的。</p>
                       </figcaption>
                     </figure>
                   </div>
