@@ -9,13 +9,13 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>The latest version of Roboto is designed for both mobile and web usage.</p>
+          <p>最新版本的 Roboto 是专为移动设备和网页设计的。</p>
           <p>
             <div class="modulettes">
               <a class="modulette download trackdl" download="" href="../static/media/resources/roboto-noto-fonts/RobotoTTF.zip" title="Roboto Font">
                 <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
                 <div class="info">
-                  <div class="title">Roboto Font</div>
+                  <div class="title">Roboto 字体</div>
                   <span class="subtitle">1.21 MB (.zip) </span>
                 </div>
                 </img>
@@ -27,20 +27,20 @@
               <a class="modulette download trackdl" download="" href="../static/media/resources/roboto-noto-fonts/RobotoSpecimenBooklet.pdf" title="Roboto specimen booklet">
                 <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
                 <div class="info">
-                  <div class="title">Roboto specimen booklet</div>
+                  <div class="title">Roboto 样本手册</div>
                   <span class="subtitle">1.67 MB (.pdf) </span>
                 </div>
                 </img>
               </a>
             </div>
           </p>
-          <p>Noto is the standard typeface on Android for all languages not covered by Roboto. </p>
+          <p>Noto 是 Android 上的标准字体，涵盖了所有语言，包括哪些 Roboto 未涵盖的语言。</p>
           <div class="modulettes">
             <a class="modulette container download" href="https://www.google.com/url?q=http://www.google.com/get/noto&amp;sa=D&amp;ust=1481818010233000&amp;usg=AFQjCNFDRorGowf5eMOxCtv0lciFLtuM1w" target="_blank">
               <img alt="" class="icon callout-icon" src="../static/images/callouts/download.svg">
               <div class="info">
-                <div class="title">Get Noto</div>
-                <span class="subtitle">Downloads are available for all languages in the Noto font family.</span>
+                <div class="title">获取 Noto</div>
+                <span class="subtitle">下载适用于所有语言的 Noto 字体系列。</span>
               </div>
               </img>
             </a>

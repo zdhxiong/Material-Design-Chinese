@@ -147,8 +147,8 @@ return array(
       'color-palettes'                  =>  '调色板',
       'devices'                         =>  '设备',
       'layout-templates'                =>  '布局模板',
-      'roboto-noto-fonts'               =>  'Roboto & Noto fonts',
-      'sticker-sheets-icons'            =>  '贴纸 & 图标'
+      'roboto-noto-fonts'               =>  'Roboto & Noto 字体',
+      'sticker-sheets-icons'            =>  '贴片 & 图标'
     )
   )
 );

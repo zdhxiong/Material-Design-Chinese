@@ -9,15 +9,15 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Objects in material design possess similar qualities to objects in the physical world. </h1>
+          <h1>Material Design 中的物体与物理世界中的物体有很多相似的特性。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>In the physical world, objects can be stacked or affixed to one another, but cannot pass through each other. Objects also cast shadows and reflect light.</p>
-                <p>Material design reflects these qualities to form a spatial model that is familiar to users and can be applied consistently across apps. </p>
+                <p>在物理世界中，物体之间可以相互叠加和拼接，但是无法彼此交叉。物体也会投射出阴影，并且会反射光线。</p>
+                <p>Material Design 中的物体也拥有这些特性，并以此构建出用户熟悉的空间模型，在不同应用之间也是如此。</p>
               </div>
               <div class="module">
-                <h3><strong>Elevation</strong></h3>
+                <h3><strong>Z 轴高度</strong></h3>
                 <p>Measured from the front of one surface to the front of another, an element’s elevation indicates the distance between surfaces and the depth of its shadow.</p>
                 <h3><strong>Resting elevation</strong></h3>
                 <p>All material elements have resting elevations. While components have consistent resting elevations across apps, they may have different resting elevations across platforms and devices.</p>

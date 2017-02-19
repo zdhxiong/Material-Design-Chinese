@@ -10,13 +10,13 @@
       <div class="article-content chapter-intro"></div>
       
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="devices.html#devices-device-metrics" data-qp-ui-data-id="qp:1">Device metrics</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="devices.html#devices-device-metrics" data-qp-ui-data-id="qp:1">设备数据</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="devices.html#devices-resizer-tool" data-qp-ui-data-id="qp:2">Resizer tool</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="devices.html#devices-resizer-tool" data-qp-ui-data-id="qp:2">Resizer 工具</a>
           </li>
         </ul>
       </nav>
@@ -24,7 +24,7 @@
       <div class="article-list">
         <div id="devices-device-metrics" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Device metrics
+            设备数据
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -37,8 +37,8 @@
                 <a class="modulette container md" href="https://material.io/devices/" target="_blank">
                   <img alt="" class="icon callout-icon" src="../static/images/callouts/md.svg">
                   <div class="info">
-                    <div class="title">Device metrics</div>
-                    <span class="subtitle">A comprehensive resource for sizing, resolution, and more across multiple devices</span>
+                    <div class="title">设备数据</div>
+                    <span class="subtitle">一个包含各种设备的设备尺寸、分辨率等数据的综合性资源。</span>
                   </div>
                   </img>
                 </a>
@@ -49,7 +49,7 @@
 
         <div id="devices-resizer-tool" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Resizer tool
+            Resizer 工具
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -58,13 +58,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Resizer is an interactive viewer that shows how digital products respond to material design breakpoints across desktop, mobile, and tablet.</p>
+              <p>Resizer 是一个交互式查看器，显示数字产品如何响应桌面设备、移动设备和平板电脑上的 Material Design 的断点。</p>
               <div class="modulettes">
                 <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
                   <img alt="" class="icon callout-icon" src="../static/images/callouts/md.svg">
                   <div class="info">
                     <div class="title">Resizer</div>
-                    <span class="subtitle">Preview websites and demos across Material Design breakpoints</span>
+                    <span class="subtitle">在不同的 Material Design 断点下预览网站和示例。</span>
                   </div>
                   </img>
                 </a>

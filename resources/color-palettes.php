@@ -9,14 +9,14 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>This downloadable zip file contains Adobe Photoshop and Adobe Illustrator color swatches that you can install. Included in the zip file is a Read-Me.pdf with instructions on how to install the .aco files into Photoshop and .ase files into Illustrator.</p>
-          <p>For more information on color in material design, see <a href="../style/color.html">Color</a>.</p>
+          <p>这个 zip 文件包含 Adobe Photoshop 和 Adobe Illustrator 的颜色色板，你可以直接下载安装。zip 文件中的 Read-Me.pdf 是安装指南，它会教你如何把 .aco 文件安装到 Photoshop，以及如何把 .ase 文件安装到 Illustrator。</p>
+          <p>关于 Material Design 中的更多关于颜色的信息，详见<a href="../style/color.html">颜色</a>。</p>
           <p>
             <div class="modulettes">
               <a class="modulette download trackdl" download="" href="../static/media/resources/color-palettes/color_swatches.zip" title="Color Swatches">
                 <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
                 <div class="info">
-                  <div class="title">Color Swatches</div>
+                  <div class="title">颜色色板</div>
                   <span class="subtitle">0.02 MB (.zip) </span>
                 </div>
                 </img>
