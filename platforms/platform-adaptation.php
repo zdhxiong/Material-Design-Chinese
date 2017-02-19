@@ -9,18 +9,18 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Material Design supports design and usability best practices across platforms to help create beautiful user experiences.</h1>
+          <h1>Material Design 支持跨平台的设计和可用性的最佳实践，以构建出色的用户体验。</h1>
         </div>
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-when-to-adapt" data-qp-ui-data-id="qp:1">When to adapt</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-when-to-adapt" data-qp-ui-data-id="qp:1">何时需要适配</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-platform-recommendations" data-qp-ui-data-id="qp:2">Platform recommendations</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-platform-recommendations" data-qp-ui-data-id="qp:2">平台建议</a>
           </li>
         </ul>
       </nav>
@@ -29,7 +29,7 @@
 
         <div id="platform-adaptation-when-to-adapt" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            When to adapt
+            何时需要适配
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -38,9 +38,9 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Material Design was built on a foundation of best practices in both traditional and web design, informed by user experience research and cognitive science. The design guidelines that developed from these findings are intended to be universally applied across all platforms and devices. </p>
-              <p>Design conventions can differ from platform to platform. These differences in convention can affect the user's ability to understand the UI or complete certain tasks. In these cases, it is recommended to adapt to platform-specific conventions. In areas where design differences are minimally disruptive, adapting to the platform is optional. </p>
-              <p>The following guidelines indicate when you should adapt to native platform conventions, and when you have the option to adapt. Platform conventions are constantly evolving, and Material Design is evolving with them to increase the quality of our design patterns.</p>
+              <p>Material Design 建立在传统和网页设计的最佳实践的基础上，根据用户体验研究和认知科学研究得出。这份依据这些研究结果开发的设计准则，致力于普遍适配所有的平台和设备。</p>
+              <p>不同平台之间的设计惯例会不同。这些设计惯例的差异会影响用户对 UI 的理解、或影响用户完成某些任务。在这些情况下，建议只适配特定平台的设计惯例。在设计差异不容易造成混乱的地方，可以选择不进行适配。</p>
+              <p>以下准则指示你何时应该适配本机平台的设计惯例，何时可以不进行适配。平台设计惯例在不断的改进，Material Design 也在和它们一起发展，以提高我们的设计模式的质量。</p>
               <figure class="s-tag-media">
                 <div class="media">
                   <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png"/>
@@ -64,7 +64,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Toolbars </h1>
+                    <h1>工具栏</h1>
                     <p>Toolbars are commonly used to frame the context of a screen. </p>
                     <p>It is recommended to use a platform’s default text alignment for toolbar titles, unless multiple action buttons are present. </p>
                   </div>
