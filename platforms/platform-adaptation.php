@@ -20,7 +20,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-when-to-adapt" data-qp-ui-data-id="qp:1">何时需要适配</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-platform-recommendations" data-qp-ui-data-id="qp:2">平台建议</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="platform-adaptation.html#platform-adaptation-platform-recommendations" data-qp-ui-data-id="qp:2">平台适配建议</a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
 
         <div id="platform-adaptation-platform-recommendations" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Platform recommendations
+            平台适配建议
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -65,8 +65,8 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>工具栏</h1>
-                    <p>Toolbars are commonly used to frame the context of a screen. </p>
-                    <p>It is recommended to use a platform’s default text alignment for toolbar titles, unless multiple action buttons are present. </p>
+                    <p>工具栏通常作为屏幕中上下文的骨架。</p>
+                    <p>建议工具栏的标题使用平台默认的文本对齐方式，除非存在多个操作按钮。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -120,7 +120,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Iconography</h1>
+                    <h1>图像</h1>
                     <p>系统图标用于表示在该平台中的最普遍的操作。</p>
                   </div>
                   <div class="figure">
@@ -221,10 +221,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Gestures</h1>
-                    <p><strong>Edge swipe</strong></p>
-                    <p>An edge swipe starts from outside of the screen to reveal off-screen content. </p>
-                    <p>Edge swipes can conflict with other swipe gestures, such as horizontal swipes through pages or table rows. To avoid these kinds of conflicts, an edge swipe should perform the same behavior as any other swipe that exists over a content area.</p>
+                    <h1>手势</h1>
+                    <p><strong>边缘滑动</strong></p>
+                    <p>边缘滑动从屏幕外部开始，以显示屏幕外的内容。</p>
+                    <p>边缘滑动可能和其他滑动手势（如页面或表格行中的水平滑动）发生冲突。为了避免这些类型的冲突，边缘滑动应该拥有和内容上的其他滑动相同的行为。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -239,7 +239,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
-                        <p>When conflicting gestures are not present, performing an edge swipe from the left reveals off-screen content, such as a navigation drawer.</p>
+                        <p>当不存在冲突的手势时，可以从左侧使用边缘滑动来显示屏幕外的内容，例如抽屉栏导航。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -256,7 +256,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>When conflicting gestures are not present, performing an edge swipe from the left navigates you back through an app’s hierarchy.</p>
+                        <p>当不存在冲突的手势时，可以从左侧使用边缘滑动回到应用的上一级界面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -271,7 +271,7 @@
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p><strong>Web</strong></p>
-                        <p>Browsers often use edge gestures for their feature set. Edge swipes should not be used on the web.</p>
+                        <p>浏览器通常使用边缘滑动进行浏览器的功能设置。所以边缘滑动不应该用在网页上。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -283,7 +283,7 @@
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p><strong>Web</strong></p>
-                        <p>Edge swipes can not be relied on across browsers.</p>
+                        <p>边缘滑动不能用在浏览器上。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -292,9 +292,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Typography</h1>
-                    <p>Typography communicates both text content and branding. In both cases, text must be accessible and resizable. </p>
-                    <p>If your app already uses typography for branding, it is recommended to do so in moderation.</p>
+                    <h1>排版</h1>
+                    <p>排版可以传达文本内容和品牌标识。在这两种情况下，文本必须是可访问和可调整大小的。</p>
+                    <p>如果你的应用已经为品牌标识使用了排版，建议再使用排版时要适度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -303,7 +303,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
-                        <p>The default typeface on Android is Roboto. On Android, text size should be specified in <a href="https://www.google.com/url?q=https://material.google.com/layout/units-measurements.html%23units-measurements-scaleable-pixels-sp&amp;sa=D&amp;ust=1481818028627000&amp;usg=AFQjCNGXhnPOv82E5ryeE8L34rONxByVpA" target="_blank">scaleable pixels</a> to allow type to be resized using accessibility features.</p>
+                        <p>Android 上默认字体是 Roboto。在 Android 上，应该使用<a href="https://www.google.com/url?q=https://material.google.com/layout/units-measurements.html%23units-measurements-scaleable-pixels-sp&amp;sa=D&amp;ust=1481818028627000&amp;usg=AFQjCNGXhnPOv82E5ryeE8L34rONxByVpA" target="_blank">可伸缩像素</a>的文本大小，以允许用户使用系统辅助功能来调整应用整体的字体大小。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -314,7 +314,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>The default typeface on iOS is San Francisco. Using this typeface is the easiest way to implement accessibility features like Dynamic Type. Using other typefaces may require making adjustments to get the same accessibility features.</p>
+                        <p>iOS 上的默认字体是 San Francisco。使用此字体是实现辅助功能（如“动态类型”）的最简单的方法。使用其他字体可能需要进行调整后才能获得相同的辅助功能。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -328,8 +328,8 @@
                       </div>
                       <figcaption>
                         <p><strong>Web</strong></p>
-                        <p>While Arial is the most broadly available font on the web, modern browsers provide accessibility and scaling support for web fonts.</p>
-                        <p>Material Design’s standard <a href="../style/typography.html#typography-styles">typographic guidelines</a> for Roboto on the web can help simplify your font usage. Alternatively, use <a href="https://www.google.com/url?q=https://fonts.google.com/&amp;sa=D&amp;ust=1481818028634000&amp;usg=AFQjCNGHCFWUIa8AEvmEAX9BQjfXz0Xacw" target="_blank">custom fonts</a> and establish your own type hierarchy that ensures legibility. </p>
+                        <p>虽然 Arial 是网页上使用最广泛的字体，但是现代浏览器为 Web 字体提供了可访问性和缩放支持。</p>
+                        <p>Material Design 的标准<a href="../style/typography.html#typography-styles">排版指南</a>使用的 Roboto 字体可以帮助简化字体的使用。或者，使用自定义的字体，并建立自己的类型层次结构，以确保易读性。</p>
                       </figcaption>
                     </figure>
                   </div>
