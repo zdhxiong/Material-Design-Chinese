@@ -9,33 +9,33 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Accessible design allows users of all abilities to navigate, understand, and use your UI successfully. </h1>
+          <h1>无障碍设计使任何人（无论能力）都能成功地浏览、理解和使用您的应用。</h1>
         </div>
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-principles" data-qp-ui-data-id="qp:1">Principles</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-principles" data-qp-ui-data-id="qp:1">原则</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-color-contrast" data-qp-ui-data-id="qp:2">Color and contrast</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-color-contrast" data-qp-ui-data-id="qp:2">颜色和对比度</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-sound-motion" data-qp-ui-data-id="qp:3">Sound and motion</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-sound-motion" data-qp-ui-data-id="qp:3">声音和动效</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-style" data-qp-ui-data-id="qp:4">Style</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-style" data-qp-ui-data-id="qp:4">样式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-hierarchy-focus" data-qp-ui-data-id="qp:5">Hierarchy and focus</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-hierarchy-focus" data-qp-ui-data-id="qp:5">层次和焦点</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-implementation" data-qp-ui-data-id="qp:6">Implementation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-implementation" data-qp-ui-data-id="qp:6">实施</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-writing" data-qp-ui-data-id="qp:7">Writing</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-writing" data-qp-ui-data-id="qp:7">写作</a>
           </li>
         </ul>
       </nav>
@@ -44,7 +44,7 @@
 
         <div id="accessibility-principles" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Principles
+            原则
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -53,8 +53,8 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>A well-designed product is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments. Improving your product’s accessibility enhances the usability for all users. It’s also the right thing to do. </p>
-              <p>Material design’s built-in accessibility considerations will help you accommodate all of your users. This section primarily applies to mobile UI design. For more information on designing and developing fully accessible products, visit the <a href="https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNGE9U9SjxQHorwXVWWB6-shsgj6IQ" target="_blank">Google accessibility site</a>.</p>
+              <p>一款设计良好的产品可供所有能力的用户使用，包括视力低下、失明、听力障碍、认知障碍或运动障碍的用户。改进产品的无障碍功能可以增强所有用户的可用性，这是非常值得做的事情。</p>
+              <p>Material design 的内置的无障碍功能将帮助你的应用适应所有用户。本节内容主要适用于移动端 UI 设计。有关设计和开发完全无障碍的产品的详情，请访问<a href="https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNGE9U9SjxQHorwXVWWB6-shsgj6IQ" target="_blank">Google 无障碍网站</a>。</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -63,13 +63,13 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_principles1.png"/>
                       </div>
                       <figcaption>
-                        <h1>Clear</h1>
-                        <p>Help users navigate your app by designing clear layouts with distinct calls to action. Every added button, image, and line of text make the screen more complicated. Simplify your app’s UI with:</p>
+                        <h1>明确的</h1>
+                        <p>通过使用清晰的布局设计、功能明确的操作，来帮助用户浏览你的应用。每添加一个按钮、图片或一行文本都会使界面变得更加复杂，可以通过以下方式简化你的应用：</p>
                         <ul class="lst-kix_k028nm5n1mm4-0 start">
-                          <li>Clearly visible elements</li>
-                          <li>Sufficient contrast and size</li>
-                          <li>A clear hierarchy of importance</li>
-                          <li>Key information discernable at a glance</li>
+                          <li>清晰可见的元素</li>
+                          <li>足够的对比度和尺寸</li>
+                          <li>明确的重要性级别</li>
+                          <li>主要信息一目了然</li>
                         </ul>
                       </figcaption>
                     </figure>
@@ -80,12 +80,12 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_principles2.png"/>
                       </div>
                       <figcaption>
-                        <h1>Robust </h1>
-                        <p>Design your app to accommodate a variety of users. A user may have a short attention span, be new to your product, or use a text-only <strong>screen reader</strong> (a program that uses a speech synthesizer to read text aloud or kinesthetically using a braille display). Your app should make it easy for each user to:</p>
+                        <h1>健全的</h1>
+                        <p>使你的应用能适应各种用户。用户可能只有短暂的注意力，对你的产品不熟悉，或使用纯文本<strong>屏幕阅读器</strong>（使用语音合成器朗读文本或使用盲文显示器产生触觉的程序）。你的应用应该方便每位用户来：</p>
                         <ul class="lst-kix_3clj5zpaz4lj-0 start">
-                          <li><strong>Navigate: </strong>Give users confidence in knowing where they are in your app and what is important.</li>
-                          <li><strong>Understand important tasks: </strong>Reinforce important information through multiple visual and textual cues. Use color, shape, text, and motion to communicate what is happening.</li>
-                          <li><strong>Access your app: </strong>Include appropriate content labelling to accommodate users who experience a text-only version of your app.</li>
+                          <li><strong>浏览：</strong>使用户清楚的知道他们现在在应用中的哪个位置，以及哪些是重要内容。</li>
+                          <li><strong>了解重要任务：</strong>通过多个视觉和文本提示来强化重要信息。使用颜色、形状、文本和动效来传达正在发生的事情。</li>
+                          <li><strong>访问你的应用：</strong>包含适当的内容标签，以适应那些使用纯文字版本的用户。</li>
                         </ul>
                       </figcaption>
                     </figure>
@@ -96,9 +96,9 @@
                         <img alt="" src="../static/media/usability/accessibility/accessibility_principles3.png"/>
                       </div>
                       <figcaption>
-                        <h1>Specific</h1>
-                        <p>Support assistive technologies specific to your platform, just as you support the input methods of touch, keyboard, and mouse. For example, ensure your Android app works with Google’s screen reader, <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>.</p>
-                        <p><strong>Assistive technology</strong> helps increase, maintain, or improve the functional capabilities of individuals with disabilities, through devices like screen readers, magnification devices, wheelchairs, hearing aids, or memory aids. </p>
+                        <h1>具体的</h1>
+                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以和 Google 的屏幕阅读器“<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>”配合使用。</p>
+                        <p><strong>辅助技术</strong>通过屏幕阅读器、放大设备、轮椅、助听器或记忆辅助设备等设备帮助增强、维持或改善残疾人的能力。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -110,7 +110,7 @@
 
         <div id="accessibility-color-contrast" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Color and contrast
+            颜色和对比度
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -119,19 +119,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Use color and contrast to help users see and interpret your app’s content, interact with the right elements, and understand actions. </p>
-              <h1>Accessible color palette</h1>
-              <p>Choose primary, secondary, and accent colors for your app that support usability. Ensure sufficient color contrast between elements so that users with low vision can see and use your app.</p>
+              <p>使用颜色和对比度来帮助用户查看和解读应用的内容，与正确的元素交互，并理解操作。</p>
+              <h1>无障碍调色板</h1>
+              <p>为应用选择支持可用性的主色、辅助色和强调色。确保元素之间有足够的颜色对比度，以便视力低下的用户也可以使用你的应用。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Contrast ratios</h1>
-                    <p>The contrast ratio between a color and its background ranges from 1-21 based on its luminance, or intensity of light emitted, according to the <a href="https://www.google.com/url?q=https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&amp;sa=D&amp;ust=1481818010600000&amp;usg=AFQjCNGms-qT2N209tGSJg7ILk2-OCsYyA" target="_blank">World Wide Web Consortium (W3C)</a>. </p>
-                    <p>Contrast ratios represent how different a color is from another color, commonly written as 1:1 or 21:1. The higher the difference between the two numbers in the ratio, the greater the difference in relative luminance between the colors. </p>
-                    <p>The W3C recommends the following contrast ratios for body text and image text:</p>
+                    <h1>对比度</h1>
+                    <p>基于亮度或发光强度，颜色和它的背景色的对比度范围为 1 - 21，和<a href="https://www.google.com/url?q=https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&amp;sa=D&amp;ust=1481818010600000&amp;usg=AFQjCNGms-qT2N209tGSJg7ILk2-OCsYyA" target="_blank">万维网联盟（W3C）</a>一致。</p>
+                    <p>对比度表示两种颜色之间的差异程度，通常写为 1:1 或 21:1。两个数之间的比值越高，颜色之间的相对亮度就越大。</p>
+                    <p>W3C 推荐在正文文本和图片中使用以下对比度：</p>
                     <ul class="lst-kix_c2xsypf5z28r-0 start">
-                      <li>Small text should have a contrast ratio of at least 4.5:1 against its background.</li>
-                      <li>Large text (at 14 pt bold/18 pt regular and up) should have a contrast ratio of at least 3:1 against its background.</li>
+                      <li>小文本至少和它的背景色之间至少有 4.5:1 的对比度。</li>
+                      <li>大文本（加粗的14pt/普通的18pt及以上）和它的背景色之间至少有 3:1 的对比度。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -141,7 +141,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>These lines of text follow the color contrast ratio recommendations and are legible against their background colors. </p>
+                        <p>这些文本遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -152,14 +152,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>These lines of text do not meet the color contrast ratio recommendations and are difficult to read against their background colors. </p>
+                        <p>这些文本没有遵循合颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Icons or other critical elements should also use the above recommended contrast ratios.</p>
+                    <p>图标或其他关键元素也应使用上述推荐的对比度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -168,7 +168,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>These icons follow the color contrast ratio recommendations and are legible against their backgrounds.</p>
+                        <p>这些图标遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -179,7 +179,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>These icons do not follow the color contrast ratio recommendations and are difficult to discern against their backgrounds. </p>
+                        <p>这些图标没有遵循颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +188,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Logos and decorative elements</h1>
+                    <h1>Logo 和装饰性的元素</h1>
                     <p>While decorative elements (such as logos or illustrations) don’t have to meet contrast ratios, they should be distinguishable if they possess important functionality.</p>
                   </div>
                   <div class="figure">
