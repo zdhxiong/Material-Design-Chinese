@@ -9,15 +9,15 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>The growth and communications guidelines contain best practices and components to help users quickly and intuitively understand what they can do with your app, including <a href="onboarding.html">onboarding</a>, <a href="feature-discovery.html">feature discovery</a>, and <a href="gesture-education.html">gesture education</a>. </h1>
+          <h1>成长和沟通指南包含了最佳实践和组件，以帮助用户快速直观地了解应用的功能，指南包括<a href="onboarding.html">过程</a>，<a href="feature-discovery.html">特性探索</a>，和<a href="gesture-education.html">附加手势</a>。</h1>
         </div>
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="introduction.html#introduction-goals" data-qp-ui-data-id="qp:1">Goals</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="introduction.html#introduction-goals" data-qp-ui-data-id="qp:1">目标</a>
           </li>
         </ul>
       </nav>
@@ -26,7 +26,7 @@
 
         <div id="introduction-goals" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Goals
+            目标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -34,12 +34,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>The following guidelines aim to:</p>
+            <div><p>以下准则旨在：</p>
               <ul class="lst-kix_to3stogm3g1q-0 start">
-                <li>Help users derive more value from your app by introducing them to features and functionality at contextually relevant moments</li>
-                <li>Improve app engagement and retention metrics</li>
+                <li>在用户浏览或进行某些操作时，向用户介绍关于这些内容或操作的相关特性和功能，以帮助用户从应用中获得更多有价值的信息</li>
+                <li>提高用户的活跃度和留存率</li>
               </ul>
-              <p>To ensure a user experience that respects user attention, these recommendations address targeting, timing, volume, and frequency.</p>
+              <p>为了确保用户体验，不对用户造成打扰，这些建议只针对定位、时间、音量和频率。</p>
               <div class="col-list">
                 <section class="figure col-1">
                   <div class="figure">
@@ -48,11 +48,11 @@
                         <img alt="" src="../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png"/>
                       </div>
                       <figcaption>
-                        <p><strong>First seven days</strong></p>
-                        <p>Onboarding: Self-Select model<br>
-                          User education: Basic guidance on how to use the app</p>
-                        <p><strong>Next 30 days and beyond</strong></p>
-                        <p>Feature discovery: Tips for features and functionality the user hasn’t tried</p>
+                        <p><strong>前七天</strong></p>
+                        <p>过程：自选模型<br>
+                          用户教育：指导用户如何使用应用</p>
+                        <p><strong>接下来30天及以后</strong></p>
+                        <p>特性探索：对用户尚未尝试过的特性和功能做出提示</p>
                       </figcaption>
                     </figure>
                   </div>

@@ -14,11 +14,11 @@ return array(
     )
   ),
   'motion'          =>  array(
-    'title'           =>  '动画',
+    'title'           =>  '动效',
     'theme_color'     => '#8E24AA',
     'color_name'      => 'purple',
     'children'        =>  array(
-      'material-motion'                 =>  'Material 动画',
+      'material-motion'                 =>  'Material 动效',
       'duration-easing'                 =>  '时长 & 缓动',
       'movement'                        =>  '移动',
       'transforming-material'           =>  'Material 形变',

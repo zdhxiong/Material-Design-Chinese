@@ -189,7 +189,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>Logo 和装饰性的元素</h1>
-                    <p>While decorative elements (such as logos or illustrations) don’t have to meet contrast ratios, they should be distinguishable if they possess important functionality.</p>
+                    <p>虽然装饰性元素（例如 Logo 和插图）不需要满足对比度建议，但如果它们有比较重要的功能，那么它们应该有一定的辨识度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -198,7 +198,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Decorative logos that are distinguishable don’t have to meet contrast ratios.</p>
+                        <p>有辨识度的装饰性元素不需要满足对比度建议。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -209,7 +209,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>It is not necessary to distort your logo to meet contrast ratios.</p>
+                        <p>没有必要扭曲你的 Logo 来满足对比度建议。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -218,9 +218,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Other visual cues</h1>
-                    <p>For users who are colorblind, or cannot see differences in color, include design elements in addition to color that ensure they receive the same amount of information. </p>
-                    <p>Colorblindness takes different forms (including red-green, blue-yellow, and monochromatic). Use multiple visual cues to communicate important states. Use elements such as strokes, indicators, patterns, texture, or text to describe actions and content. </p>
+                    <h1>其他视觉提示</h1>
+                    <p>对于色盲或看不到颜色差异的用户，除了颜色外还增加了设计元素，以确保他们能接收到和正常人等量的信息。</p>
+                    <p>色盲症分不同的类型（包括红绿色盲、蓝黄色盲和单色色盲）。对于重要的状态，可以同时使用多个视觉提示。使用下划线、指示符、图案或文本等元素来描述操作和内容。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -229,7 +229,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The text field error state is communicated through multiple cues: title color, text field stroke, and an error message below the field. </p>
+                        <p>文本字段的错误状态使用了多个提示来传达：标题颜色、文本字段下划线、字段下面的错误提示。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -240,7 +240,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The text field error state is only communicated with a colored stroke, which would be missed by a user who cannot perceive color.</p>
+                        <p>这个文本字段的错误状态仅使用了彩色下划线，可能会被色弱的用户忽略。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -252,7 +252,7 @@
 
         <div id="accessibility-sound-motion" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Sound and motion
+            声音和动效
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -261,26 +261,26 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>Sound </h1>
-              <p>Give visual alternatives to sound, and vice versa. Provide closed captions, a transcript, or another visual alternatives to critical audio elements and sound alerts. </p>
-              <p>Allow users to navigate your app using sound by adding descriptive labels to UI elements. When using a screen reader such as TalkBack and navigating by <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">touch exploration</a>, labels are spoken aloud when users touch UI elements with their fingertips.</p>
-              <p>The following sounds should be avoided:</p>
+              <h1>声音</h1>
+              <p>给视觉元素添加声音作为替代方案，反之亦然。添加可隐藏的字幕，或其他视觉元素来作为重要声音元素和声音警报的替代方案。</p>
+              <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如“TalkBack”），并通过<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">触摸板</a>导航时，在用户指尖触摸到 UI 元素时，会大声读出标签上的文本。</p>
+              <p>应避免使用以下声音：</p>
               <ul class="lst-kix_8rfeeey1j8st-0 start">
-                <li>Unnecessary sounds that play over a screen reader, such as background music that autoplays when entering a web page. If there is background sound, ensure users can safely pause or stop it.</li>
-                <li>Extra sounds added to native elements (screen readers will be able to interpret native elements correctly).</li>
+                <li>通过屏幕阅读器播放不必要的声音，例如打开网页时自动播放的背景音乐。如果有背景音乐，请确保用户可以安全的暂停或停止背景音乐。</li>
+                <li>添加到原生元素上的额外的声音（屏幕阅读器能够正确的翻译原生元素）。</li>
               </ul>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010682000&amp;usg=AFQjCNEMSxp0z9UzKoL1jiMkdv21RVe3cA" target="_blank">
                   <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
                   <div class="info">
-                    <div class="title">Labeling User Interface Elements</div>
-                    <span class="subtitle"> Add audible descriptions to input controls and other elements</span>
+                    <div class="title">标记用户界面元素</div>
+                    <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备朗读</span>
                   </div>
                   </img>
                 </a>
               </div>
-              <h1>Motion</h1>
-              <p>Material design uses motion to guide focus between views, which helps reduce user distraction. Surfaces transform into focal points for the user to follow, and unimportant elements are removed.</p>
+              <h1>动效</h1>
+              <p>Material design 使用动效来引导视图之间的焦点，以避免用户分心。表面转换为 Surfaces transform into focal points for the user to follow, and unimportant elements are removed.</p>
               <p>To allow users with motion and vision sensitivities to use interfaces comfortably, adhere to the <a href="../animation/authentic-motion.html">material design motion spec</a>, which supports the following motion guidelines from the W3C:</p>
               <ul class="lst-kix_1yj07pccvkev-0 start">
                 <li>Enable content that moves, scrolls, or blinks automatically to be paused, stopped, or hidden if it lasts more than than five seconds.</li>
