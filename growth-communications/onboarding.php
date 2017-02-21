@@ -9,24 +9,24 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Onboarding is a virtual unboxing experience that helps users get started with an app’s UI. It should be brief and enhance the use of the app. </p>
+          <p>入门是一种真正的开箱体验，以帮助用户开始使用应用。它应该简短，并能促进用户使用应用。</p>
         </div>
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>内容</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-onboarding-models" data-qp-ui-data-id="qp:2">Onboarding models</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-onboarding-models" data-qp-ui-data-id="qp:2">入门模式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-self-select" data-qp-ui-data-id="qp:3">Self-Select</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-self-select" data-qp-ui-data-id="qp:3">自选</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-quickstart" data-qp-ui-data-id="qp:4">Quickstart</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-quickstart" data-qp-ui-data-id="qp:4">快速开始</a>
           </li>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-top-user-benefits" data-qp-ui-data-id="qp:5">Top User Benefits</a>
@@ -38,7 +38,7 @@
 
         <div id="onboarding-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -50,28 +50,28 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>Your onboarding should have specific goals suited to the user’s level of familiarity with the app.</p>
+                    <p>应该针对用户对应用的熟悉程度，给出更适合用户的入门。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>User context</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Goals of the warm welcome</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>使用者情境</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>热烈欢迎的目标</strong></p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_l5hhdzppq2fe-0 start">
-                            <li>The user has already installed the app and doesn’t need to see more marketing for it</li>
-                            <li>The user may be eager to try the app without reading an instruction manual</li>
-                            <li>The user is not yet familiar with the app’s UI or ready to learn about it</li>
+                            <li>用户已经安装了应用，不再需要看到更多推广信息了</li>
+                            <li>用户可能渴望尝试应用，但还没有看过说明手册</li>
+                            <li>用户尚不熟悉应用或正准备去了解</li>
                           </ul>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_azd2ij3tgnl7-0 start">
-                            <li>Welcome users and excite them about the experience ahead</li>
-                            <li>Help users implicitly or explicitly understand how the app can be used in their lives</li>
-                            <li>Drive users to take actions that increase engagement and retention in the first seven days</li>
+                            <li>欢迎用户，并提前激发用户体验应用的兴趣</li>
+                            <li>帮助用户了解在生活中可以怎么使用应用</li>
+                            <li>鼓励用户进行操作，增加用户互动，提高前七天的留存率</li>
                           </ul>
                         </td>
                       </tr>
@@ -86,7 +86,7 @@
 
         <div id="onboarding-onboarding-models" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Onboarding models
+            入门模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -94,12 +94,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Onboarding is one point in a longer journey that begins in the app store and ends with either:</p>
+            <div><p>入门是漫长旅程中的一个点，从应用商店开始，结束于：</p>
               <ul class="lst-kix_51ddxjjk56ls-0 start">
-                <li>A first-run experience (FRE), or</li>
-                <li>A user’s first experience using an app</li>
+                <li>首次运行体验（FRE），或者</li>
+                <li>用户的首次使用体验</li>
               </ul>
-              <p>When designing your onboarding, consider the screens that came before it and those that will come after it.</p>
+              <p>在设计你的入门时，要考虑在入门之前的界面和入门之后的界面。</p>
               <div class="col-list">
                 <section class="figure col-1">
                   <div class="figure">
@@ -108,13 +108,13 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/edu-timeline_3.png"/>
                       </div>
                       <figcaption>
-                        <p>Show onboarding to first-time users. Don’t show it to returning users. </p>
+                        <p>只为首次使用的用户显示入门，不要向老用户显示。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>Material design includes three onboarding models:</p>
+              <p>Material design 包含三种入门模式：</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -123,8 +123,8 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png"/>
                       </div>
                       <figcaption>
-                        <p>1. <a href="onboarding.html#onboarding-self-select">Self-Select</a></p>
-                        <p>Allow users to customize their experiences.</p>
+                        <p>1. <a href="onboarding.html#onboarding-self-select">自选</a></p>
+                        <p>允许用户自定义其体验。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -134,8 +134,8 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png"/>
                       </div>
                       <figcaption>
-                        <p>2. <a href="onboarding.html#onboarding-quickstart">Quickstart</a></p>
-                        <p>Start the user directly in the app.</p>
+                        <p>2. <a href="onboarding.html#onboarding-quickstart">快速开始</a></p>
+                        <p>在应用中直接开始。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -146,7 +146,7 @@
                       </div>
                       <figcaption>
                         <p>3. <a href="onboarding.html#onboarding-top-user-benefits">Top User Benefits</a></p>
-                        <p>Display a brief autoplay carousel (or animatic) highlighting up to three benefits of using the app.</p>
+                        <p>显示一个简短的自动轮播（或动画），突出应用的多达三个的好处。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,7 +155,7 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>The onboarding best suited to your app depends on if your app uses a common, recognizable UI style and and how easy it is to set up.</p>
+                    <p>最适合你的应用的入门，取决于你的应用是否使用通用的、易于识别的 UI 样式，以及设置是否容易。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
@@ -163,10 +163,10 @@
                       <tr>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1">
-                          <p><a href="https://www.google.com/url?q=https://material.google.com/growth-communications/onboarding.html%23onboarding-onboarding-models&amp;sa=D&amp;ust=1481818000037000&amp;usg=AFQjCNG1ci9ZPGNHiFyLcE8CqJ3H673tmA" target="_blank">Self-Select</a></p>
+                          <p><a href="https://www.google.com/url?q=https://material.google.com/growth-communications/onboarding.html%23onboarding-onboarding-models&amp;sa=D&amp;ust=1481818000037000&amp;usg=AFQjCNG1ci9ZPGNHiFyLcE8CqJ3H673tmA" target="_blank">自选</a></p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-quickstart&amp;sa=D&amp;ust=1481818000040000&amp;usg=AFQjCNFFoYK6pAQhnYR99IU1sXUyVmCW0g" target="_blank">Quickstart</a></p>
+                          <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-quickstart&amp;sa=D&amp;ust=1481818000040000&amp;usg=AFQjCNFFoYK6pAQhnYR99IU1sXUyVmCW0g" target="_blank">快速开始</a></p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-top-user-benefits&amp;sa=D&amp;ust=1481818000042000&amp;usg=AFQjCNEzyXKFkOPbXV-xnXLgP-z4f4cFgQ" target="_blank">Top User Benefits</a></p>
@@ -174,12 +174,12 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p><strong>When to use</strong></p>
+                          <p><strong>何时使用</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_uy053ztub1qi-0 start">
-                            <li>The UI can be customized</li>
-                            <li>Your app has setup and consent requirements</li>
+                            <li>UI 可以定制</li>
+                            <li>你的应用需要设置</li>
                           </ul>
                         </td>
                         <td colspan="1" rowspan="1">
@@ -194,7 +194,7 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p><strong>When not to use</strong></p>
+                          <p><strong>何时不要使用</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_kh9gvs41p97x-0 start">
@@ -214,7 +214,7 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p><strong>Combinations</strong></p>
+                          <p><strong>组合</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <p>Don’t combine Self Select with Top User Benefits</p>
@@ -240,7 +240,7 @@
 
         <div id="onboarding-self-select" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Self-Select
+            自选
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -252,8 +252,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>The Self-Select model allows users to customize their first-run experience by making a short series of choices. </p>
-                    <p>This experience provides implicit education, giving the user a sense of control and vested interest in the screens to come. </p>
+                    <p>自选模式允许用户通过做出一系列简短的选择来自定义他们的首次体验。</p>
+                    <p>这种体验提供了隐性教育，让用户对即将到来的界面拥有控制感并产生兴趣。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -261,7 +261,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png"/>
                       </div>
                       <figcaption>
-                        <p>Sign-in screen</p>
+                        <p>登录界面</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -271,25 +271,25 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png"/>
                       </div>
                       <figcaption>
-                        <p>Self-Select model</p>
+                        <p>自选模式</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Present the right choices </h1>
-              <p>The choices you give users affect the success of your onboarding.</p>
-              <p>Choices should:</p>
+              <h1>呈现正确的选择</h1>
+              <p>你给用户的选择会影响到你的入门是否成功。</p>
+              <p>选择可以是：</p>
               <ul class="lst-kix_6m84l7poylne-0 start">
-                <li>Be meaningful and noticeable</li>
-                <li>Provide new information</li>
-                <li>Be short</li>
+                <li>有意义的和有显著影响的</li>
+                <li>提供新信息的</li>
+                <li>简短的</li>
               </ul>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Meaningful and noticeable</h2>
-                    <p>Offer choices that have a meaningful and noticeable impact on the user experience. These implicitly teach users how to interact with your UI.</p>
+                    <h2>有意义的和有显著影响的</h2>
+                    <p>提供对用户体验有意义和有显著影响的选择。这些选择隐式地教导了用户如何于你的 UI 交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -298,7 +298,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Selecting what to bundle will have a meaningful impact on the user experience.</p>
+                        <p>选择绑定哪些内容会对用户体验产生有意义的影响。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -309,15 +309,15 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Knowing how often users check their stream doesn’t impact their experience.</p>
+                        <p>了解用户检查数据流的频率对提高用户体验没有帮助。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Ask what you don’t know</h2>
-                    <p>Don’t ask for preferences that can be garnered from normal usage.</p>
+                    <h2>询问你无法得知的数据</h2>
+                    <p>不要询问可以从正常使用中获取的偏好设置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -326,7 +326,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Normal usage won’t easily clarify what a user wants to bundle. It is valuable to ask the user their preferences.</p>
+                        <p>从正常使用中无法清楚的得知用户想要绑定的内容。向用户询问他们的偏好是有价值的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -337,16 +337,16 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don't ask users to make selections that will become evident with normal use of the app and that won't meaningfully change the first-run experience.</p>
+                        <p>对于正常使用应用过程中可以得知的数据，不要要求用户做出选择，那不会改进用户的首次体验。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Keep it short</h2>
-                    <p>Limit choices to one screen, or make multiple screens feel connected to each other.</p>
-                    <p>Each screen should have fewer than ten choices.</p>
+                    <h2>保持简短</h2>
+                    <p>把选项限制在一个屏幕内，或使多个屏幕看起来彼此相连。</p>
+                    <p>每个屏幕内的选项应少于十个。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -355,7 +355,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>A single Self-Select screen</p>
+                        <p>单个自选屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -366,16 +366,16 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Many Self-Select screens</p>
+                        <p>很多个自选屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>When designing onboarding, think about how the onboarding process connects to a user’s first-run experience. After onboarding, the users should land on a screen that makes it easy to act on what they just learned.</p>
-              <h1>Design</h1>
-              <p>Design your Self-Select screens to relate to what your app does. Apps focused on content consumption may ask for topics of interest, whereas apps with feeds may ask which topics to bundle.</p>
-              <p>Some common Self-Select design patterns include:</p>
+              <p>在设计入门时，请考虑入门过程如何与用户首次体验相衔接。入门后，用户登陆到的界面上可以展示用户刚刚学到的东西。</p>
+              <h1>设计</h1>
+              <p>自选屏幕的设计应该和应用的用途相关。专注于内容消费的应用可能会询问感兴趣的话题，而新闻订阅类应用可能会询问需要订阅哪些话题。</p>
+              <p>一些常见的自选设计模式包括：</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -384,7 +384,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png"/>
                       </div>
                       <figcaption>
-                        <p>Bundled List</p>
+                        <p>绑定列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -394,7 +394,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png"/>
                       </div>
                       <figcaption>
-                        <p>Grid View</p>
+                        <p>网格视图</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -404,7 +404,7 @@
                         <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png"/>
                       </div>
                       <figcaption>
-                        <p>List</p>
+                        <p>列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -416,7 +416,7 @@
 
         <div id="onboarding-quickstart" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Quickstart
+            快速开始
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>

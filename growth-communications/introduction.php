@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>成长和沟通指南包含了最佳实践和组件，以帮助用户快速直观地了解应用的功能，指南包括<a href="onboarding.html">过程</a>，<a href="feature-discovery.html">特性探索</a>，和<a href="gesture-education.html">附加手势</a>。</h1>
+          <h1>成长和沟通指南包含了最佳实践和组件，以帮助用户快速直观地了解应用的功能，指南包括<a href="onboarding.html">入门</a>，<a href="feature-discovery.html">特性探索</a>，和<a href="gesture-education.html">附加手势</a>。</h1>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
                       </div>
                       <figcaption>
                         <p><strong>前七天</strong></p>
-                        <p>过程：自选模型<br>
+                        <p>入门：自选模型<br>
                           用户教育：指导用户如何使用应用</p>
                         <p><strong>接下来30天及以后</strong></p>
                         <p>特性探索：对用户尚未尝试过的特性和功能做出提示</p>
