@@ -36,7 +36,7 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>内容</h1>
+        <h1>目录</h1>
         <ul>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="environment.html#environment-3d-world" data-qp-ui-data-id="qp:1">3D 世界</a>

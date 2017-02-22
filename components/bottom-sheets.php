@@ -40,7 +40,7 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>内容</h1>
+        <h1>目录</h1>
 
         <ul>
           <li>
