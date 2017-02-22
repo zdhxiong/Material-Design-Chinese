@@ -14,7 +14,7 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>目录</h1>
         <ul>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-usage" data-qp-ui-data-id="qp:1">Usage</a>

@@ -31,7 +31,7 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>目录</h1>
         <ul>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-why-does-motion-matter" data-qp-ui-data-id="qp:1">Why does motion matter?</a>

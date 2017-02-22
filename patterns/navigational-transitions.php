@@ -33,7 +33,7 @@
       </div>
       
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>目录</h1>
         <ul>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigational-transitions.html#navigational-transitions-parent-to-child" data-qp-ui-data-id="qp:1">Parent to child</a>

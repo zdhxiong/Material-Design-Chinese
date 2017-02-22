@@ -14,7 +14,7 @@
       </div>
 
       <nav class="chapter-toc">
-        <h1>内容</h1>
+        <h1>目录</h1>
         <ul>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-usage" data-qp-ui-data-id="qp:1">用法</a>
@@ -425,19 +425,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>In the Quickstart model, users land directly in the UI without any onboarding model shown (other than sign in and setup). </p>
-              <p><strong>The Quickstart model:</strong></p>
+              <p>在快速开始模式中，用户将直接进入 UI 界面，不会显示任何其他的入门模式（登录和设置除外）。</p>
+              <p><strong>快速开始模式：</strong></p>
               <ol class="lst-kix_bnu8mpfh6v9r-0 start" start="1">
-                <li>Enables users to quickly get started with the core functionality of the app</li>
-                <li>Often prioritizes the first key action</li>
-                <li>Can also provide an optional way to learn more or ask for help</li>
+                <li>使用户能快速上手应用的核心功能</li>
+                <li>通常优先处理最关键的操作</li>
+                <li>也可以提供一个可选的了解更多或寻求帮助的途径</li>
               </ol>
-              <h2><strong>Best practices</strong></h2>
+              <h2><strong>最佳实践</strong></h2>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Give users something to do</strong></p>
-                    <p>Rather than leaving users on a blank screen, your UI should encourage interaction. </p>
+                    <p><strong>给用户一些事情做</strong></p>
+                    <p>你的 UI 应该鼓励用户进行交互，而不是将用户留在空白屏幕上。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -446,7 +446,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Provide options to get the user started.</p>
+                        <p>提供给用户一些选项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -457,15 +457,15 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t leave users with nothing to do.</p>
+                        <p>不要让用户没事可做。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Offer education</strong></p>
-                    <p>If it appears as though the user is unclear how to use the app towards the end of the average first-run experience (90% of the way through the first session), display a UI prompt offering the opportunity to learn how to use the app.</p>
+                    <p><strong>提供教育</strong></p>
+                    <p>如果大部分用户在首次体验后，仍然不太清楚如何使用你的应用（90% 的用户第一次使用都会这样），给出一些 UI 上的提示，来帮助用户学习使用你的应用。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -474,7 +474,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Offer the user the opportunity to learn more about the app.</p>
+                        <p>给用户提供更多学习使用应用的机会。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -485,15 +485,15 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t force education upfront.</p>
+                        <p>不要强迫用户。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Prioritize the first key action</strong></p>
-                    <p>Choose the action most closely linked to engagement in the first seven days. Alternatively, introduce core functionality as tips for actions that a user hasn’t tried.</p>
+                    <p><strong>优先处理最关键的操作</strong></p>
+                    <p>在前7天，选择和用户交互最密切的操作。或者，引入核心功能，来给那些用户还未尝试过的功能做出提示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -502,7 +502,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Nudge users to take the first key action.</p>
+                        <p>鼓励用户去进行最关键的操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -513,7 +513,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t leave users with nothing to do.</p>
+                        <p>不要让用户没事可做。</p>
                       </figcaption>
                     </figure>
                   </div>

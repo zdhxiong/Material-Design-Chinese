@@ -9,24 +9,24 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Provide value and encourage return visits by introducing users to new features and functionality at contextually relevant moments.</p>
+          <p>通过向用户介绍与用户所处情境相关的新特性和功能，为用户提供有价值的信息，并鼓励回访。</p>
         </div>
       </div>
 
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-design-patterns" data-qp-ui-data-id="qp:1">Design patterns</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-design-patterns" data-qp-ui-data-id="qp:1">设计模式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-targeting-triggering" data-qp-ui-data-id="qp:2">Targeting &amp; triggering</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-targeting-triggering" data-qp-ui-data-id="qp:2">定位 &amp; 触发</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-volume-frequency" data-qp-ui-data-id="qp:3">Volume &amp; frequency</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-volume-frequency" data-qp-ui-data-id="qp:3">数量 &amp; 频率</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-design" data-qp-ui-data-id="qp:4">Design</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="feature-discovery.html#feature-discovery-design" data-qp-ui-data-id="qp:4">设计</a>
           </li>
         </ul>
       </nav>
@@ -35,7 +35,7 @@
 
         <div id="feature-discovery-design-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Design patterns
+            设计模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -47,8 +47,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Single-step actions</h1>
-                    <p>Prompt users to try features or functionality that can be completed in a single tap, such as saving a location in a map app.</p>
+                    <h1>单步操作</h1>
+                    <p>提示用户去尝试那些通过单击就能完成的功能，例如在地图应用中保存一个位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -62,7 +62,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Tap target </p>
+                        <p>点击目标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -72,7 +72,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png"/>
                       </div>
                       <figcaption>
-                        <p>Hint text</p>
+                        <p>提示文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -81,8 +81,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Multiple-step actions</h1>
-                    <p>Prompt users to try features or functionality that require more than one tap to complete, such as turning on automatic backup in a photo app.</p>
+                    <h1>多步操作</h1>
+                    <p>提示用户去尝试那些需要多次点击才能完成的功能，例如在照片应用中启用自动备份功能。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -96,7 +96,7 @@
                         </div>
                       </div>
                     </figure>
-                    <p>Guided flow</p>
+                    <p>引导流程</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -107,7 +107,7 @@
 
         <div id="feature-discovery-targeting-triggering" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Targeting &amp; triggering
+            定位 &amp; 触发
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -116,29 +116,29 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Feature discovery prompts have more impact when they are presented to the right users at contextually relevant moments. When presented to the wrong user at the wrong time, they can be intrusive and annoying. </p>
+              <p>在与用户所处情境相关的时刻，把特性探索呈现给需要的用户时，特性探索提示会起到更大的作用。当在错误的时刻呈现给错误的用户时，反而会打扰用户，令人烦恼。</p>
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p><strong>Targeting</strong></p>
-                    <p>Display features that are relevant to specific users. </p>
+                    <p><strong>定位</strong></p>
+                    <p>显示与特定用户相关的功能。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>Target the right users</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Prioritize the right features</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>定位适合的用户</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>优先呈现适合的特性</strong></p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p>Show feature prompts to users who have not tried those features.</p>
-                          <p>Avoid showing advanced features to more casual users. </p>
-                          <p>Present general features to all users, such as undoing sent mail in Gmail.</p>
+                          <p>给尚未尝试过这些特性的用户显示特性提示。</p>
+                          <p>不要把高级特性显示给初级用户。</p>
+                          <p>把常规特性显示给所有用户，例如在 Gmail 中撤销已发送的邮件。</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Feature discovery should continue over time.</p>
-                          <p>Prioritize features that are relevant to user context, not just features that are new.</p>
+                          <p>特性探索应该随着时间的推移持续进行。</p>
+                          <p>优先考虑与用户所处情境相关的特性，而不仅仅是新特性。</p>
                         </td>
                       </tr>
                       </tbody>
@@ -149,35 +149,35 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p><strong>Triggering</strong></p>
-                    <p>Time the display of feature discovery prompts appropriately.</p>
+                    <p><strong>触发</strong></p>
+                    <p>特性探索提示出现次数要适当。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p><strong>Don’t present upon o</strong><strong>pening an app </strong></p>
+                          <p><strong>不要在打开应用时显示</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p><strong>Contextually relevant moments</strong></p>
+                          <p><strong>在与用户所处情境相关的时刻</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p><strong>Natural pauses</strong></p>
+                          <p><strong>自然停顿</strong></p>
                         </td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p>Users may be less likely to find a feature discovery prompt helpful upon opening an app if they’re opening it to take a specific action.</p>
-                          <p>Avoid displaying feature discovery prompts at interruptive moments.</p>
+                          <p>如果用户打开应用是为了完成特定的操作，那么在打开应用时出现的特性提示可能对用户没什么帮助。</p>
+                          <p>避免在打断用户的时候显示特性探索提示。</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Present feature discovery prompts at moments when they will help the user better complete the action they’re taking. </p>
-                          <p>For example, let a user know they can crop an image only after they’ve added an image.</p>
+                          <p>特性探索提示出现时，可以帮助用户更好地完成他们正在进行的操作。</p>
+                          <p>例如，让用户知道只有在添加图片后才能裁剪图片。</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>If you can’t set feature discovery prompts to display when triggered by specific actions, display them during natural pauses in the user experience. </p>
-                          <p>For example, in a mail app, wait until the user has read or sent a message to display a feature discovery prompt.</p>
+                          <p>如果无法做到只在触发特定操作时显示特性探索提示，请在用户体验过程的自然暂停期间显示。</p>
+                          <p>例如，在邮件应用中，在用户读完或发送完消息后才显示特性探索提示。</p>
                         </td>
                       </tr>
                       </tbody>
@@ -191,7 +191,7 @@
 
         <div id="feature-discovery-volume-frequency" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Volume &amp; frequency
+            数量 &amp; 频率
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -203,23 +203,23 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p><strong>Volume and frequency</strong></p>
-                    <p>A user’s interaction with a message signals their satisfaction with it and informs when to show the next message.</p>
+                    <p><strong>数量和频率</strong></p>
+                    <p>用户和消息进行了交互，则表示用户对消息感到满意。应用可以依此决定什么时候显示下一条消息。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>Volume</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Frequency</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>数量</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>频率</strong></p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1">
-                          <p>Limit the number of feature discovery messages you present in your UI. For example, don’t display more than one per session. </p>
+                          <p>限制 UI 中的特性探索提示的数量。例如，不要在一个会话中使用多个特性探索提示。</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>If the user <strong>dismisses</strong> a message, don’t show it or a similar message again for a more substantial period of time.</p>
-                          <p>If the user <strong>accepts </strong>a message, it’s a good signal that the user found it useful. It’s okay to display a similar message in a shorter period of time.</p>
+                          <p>如果用户<strong>忽略</strong>了一条消息，在之后很长一段时间内不要再显示这条消息、或者和这条消息相关的消息。</p>
+                          <p>如果用户<strong>接受</strong>了一条消息，说明用户觉得这条消息对他有用。可以在较短的时间内再次显示类似的消息。</p>
                         </td>
                       </tr>
                       </tbody>
@@ -233,7 +233,7 @@
 
         <div id="feature-discovery-design" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Design
+            设计
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -245,25 +245,25 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Feature discovery scenarios </h1>
-                    <p>Feature discovery scenarios and app UIs have specific material design components. </p>
+                    <h1>特性探索场景</h1>
+                    <p>特性探索场景和应用 UI 有特定的 Material Design 组件。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>Feature discovery scenario</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Design component</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>特性探索场景</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>设计组件</strong></p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Prompts for actions that can be completed in a single tap</p>
+                        <td colspan="1" rowspan="1"><p>提示一项操作可以通过单击来完成</p>
                         </td>
-                        <td colspan="1" rowspan="1"><p>Tap target, hint text</p></td>
+                        <td colspan="1" rowspan="1"><p>点击目标，提示文本</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Prompts for actions that require more than one interaction </p>
+                        <td colspan="1" rowspan="1"><p>提示一项操作需要进行多次交互才能完成</p>
                         </td>
-                        <td colspan="1" rowspan="1"><p>Guided flow</p></td>
+                        <td colspan="1" rowspan="1"><p>引导流程</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -273,10 +273,10 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Tap target</h1>
-                    <p>A feature discovery prompt focuses user attention on a specific UI element. It contains a tap target, indicated by a circular shape, which is surrounded by a larger area with a distinct background color. </p>
-                    <p>The prompt contains a single action, without additional actions present.</p>
-                    <p>Users may dismiss the prompt by using a swipe gesture or tapping outside of the prompt’s background area.</p>
+                    <h1>点击目标</h1>
+                    <p>特性探索提示把用户的注意力集中到特定的 UI 元素上。包括在圆形点击目标的外围，包裹一个较大的有不同背景色的区域。</p>
+                    <p>提示只包含单个操作，不存在附加操作。</p>
+                    <p>用户可以通过滑动手势、或点击提示背景之外的地方来关闭提示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -284,7 +284,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png"/>
                       </div>
                       <figcaption>
-                        <p>The feature discovery prompt contains a tap target, surrounded by a large background area which is colored using the app’s primary color.</p>
+                        <p>特性探索提示包含一个被大背景区域包裹的点击目标，该大背景区域使用应用的主色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -294,9 +294,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Mobile</h1>
-                    <p>The prompt may be modified to accommodate different screen locations and display sizes. </p>
-                    <p>On mobile, tap targets are located at a higher elevation than other UI elements and may span the width of the screen. </p>
+                    <h1>移动端</h1>
+                    <p>可以修改提示来适应不同的屏幕位置和显示尺寸。</p>
+                    <p>在移动端，点击目标拥有比其他 UI 元素更高的 Z 轴高度，并且可以超过屏幕的宽度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -304,7 +304,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png"/>
                       </div>
                       <figcaption>
-                        <p>When the prompted action’s tap target is located within 88dp of the screen top or bottom (not including the status and nav bars), place the tap target directly on top of the promoted action.</p>
+                        <p>当提示操作的点击目标位于屏幕顶部或底部的 88dp 之内时（不包括状态栏和导航栏），将点击目标直接放在提示操作上面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -317,11 +317,11 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png"/>
                       </div>
                       <figcaption>
-                        <p>When the prompted action is located toward the center of the screen, the prompt background should be adjusted as follows:</p>
+                        <p>当提示操作位于屏幕中心时，提示背景应做如下调整：</p>
                         <ul class="lst-kix_utdacjkuquwf-0 start">
-                          <li>Tap targets located right of the screen’s center: The prompt background should be offset 20dp to the left</li>
-                          <li>Tap targets located left of the screen’s center: The prompt background should be offset 20dp to the right</li>
-                          <li>If the tap target is in the center of screen: The prompt background will be offset automatically to the right or left depending on language</li>
+                          <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
+                          <li>点击目标位于屏幕中心左侧时：提示背景应向右偏移 20dp</li>
+                          <li>点击目标位于屏幕中心时：提示背景将根据语言自动向左或向右偏移</li>
                         </ul>
                       </figcaption>
                     </figure>
@@ -331,10 +331,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Desktop and tablet</h1>
-                    <p>On larger screens, feature discovery prompts are generally limited to the surface on which the tap target rests, such as a card. The tap target should be the size of the tappable surface. </p>
-                    <p>For tap targets not in the center of the screen, offset the prompt background from the center of the surface.</p>
-                    <p>If the tap target appears on a surface smaller than 280dp tall and 360dp wide, allow the tap target and prompt background to extend beyond that surface’s edges (at a higher elevation).</p>
+                    <h1>桌面端和平板端</h1>
+                    <p>在较大的屏幕上，特性探索提示通常限定在点击目标所在的表面，例如卡片。点击目标的大小应该是可点击表面的大小。</p>
+                    <p>对于不在屏幕中心的点击目标，将提示背景从表面中心偏移。</p>
+                    <p>如果点击目标出现在小于 280dp 的高度和 360dp 的宽度的表面上，则允许点击目标和提示背景超过屏幕的边缘（在更高的 Z 轴高度上）。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -342,9 +342,9 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png"/>
                       </div>
                       <figcaption>
-                        <p>Tap targets located within 88dp of the surface’s edge should center the prompt’sbackground around the target. </p>
-                        <p>For tap targets located in the center of the screen, offset the prompt background area by20dp. </p>
-                        <p>For all other tap targets, place the prompt background in a location suitable to other screen elements.</p>
+                        <p>点击目标位于距离表面边缘 88dp 以内时，提示背景应该以点击目标为中心进行环绕。</p>
+                        <p>点击目标位于屏幕中心时，将提示背景偏移 20dp。</p>
+                        <p>对于所有其他点击目标，将提示背景放在适合屏幕上其他元素的地方。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -357,7 +357,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png"/>
                       </div>
                       <figcaption>
-                        <p>For tap targets located within the top or bottom (144dp) or left or right (200dp) screen edge, center the prompt background around the tap target, above other elements.</p>
+                        <p>当点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）以内时，将提示背景以点击目标为中心进行环绕，并在其他元素的上方。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -372,11 +372,11 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png"/>
                       </div>
                       <figcaption>
-                        <p>Feature discovery tap targets on small surfaces, outside of the top or bottom (144dp) or left or right (200dp) screen edges, may use prompts be unconfined by any surface. </p>
+                        <p>在较小的表面上，点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）之外的区域时，提示背景可以不限制在点击目标所在的表面。</p>
                         <ul class="lst-kix_utdacjkuquwf-0">
-                          <li>Tap targets located right of the screen’s center: The prompt background should be offset 20dp to the left</li>
-                          <li>Tap targets located left of the screen’s center: The prompt background should be offset 20dp to the right</li>
-                          <li>If the tap target is in the center of screen: The prompt background will be offset automatically to the right or left depending on language</li>
+                          <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
+                          <li>点击目标位于屏幕中心左侧时，提示背景应向右偏移 20dp</li>
+                          <li>如果点击目标位于屏幕中心：提示背景将根据语言自动向右或向左偏移</li>
                         </ul>
                       </figcaption>
                     </figure>
@@ -385,9 +385,9 @@
               </div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Color</h1>
-                    <p>The tap target may use the primary color of your app or toolbar.</p>
-                    <p>The background of the tap target has an opacity of 96%. </p>
+                  <div class="module"><h1>颜色</h1>
+                    <p>点击目标可以使用应用或工具栏的主色。</p>
+                    <p>点击目标的背景有 96% 的不透明度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -395,7 +395,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png"/>
                       </div>
                       <figcaption>
-                        <p>The primary color is applied to the tap target background.</p>
+                        <p>点击目标的背景使用了主色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -405,25 +405,25 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png"/>
                       </div>
                       <figcaption>
-                        <p>The accent color is applied to the tap target background.</p>
+                        <p>点击目标的背景使用了强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Motion</h1>
-              <p>Motion helps inform users where the tap target originates.</p>
+              <h1>动效</h1>
+              <p>动效可以告诉用户点击目标在哪里生成。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Appear</strong></p>
-                    <p>The tap target originates on the screen from the highlighted icon using a standard material motion curve.</p>
-                    <p><strong>Idle</strong></p>
-                    <p>While idle, the highlighted action grows by 10% over one second and then shrinks. A material touch ripple emanates from the action as it reaches its largest size.</p>
-                    <p><strong>Interaction</strong></p>
-                    <p>Tapping the highlighted action causes the tap target to expand and then fade with an ease out.</p>
-                    <p><strong>Dismiss</strong></p>
-                    <p>Tapping outside the tap target causes it to shrink and fade with an ease out.</p>
+                    <p><strong>出现</strong></p>
+                    <p>点击目标使用标准 Material 动效曲线从一个高亮的图标上生成。</p>
+                    <p><strong>生成后</strong></p>
+                    <p>生成后，高亮的操作按钮会在一秒内放大 10%，然后再缩小。涟漪效果会从操作按钮出发，放大到其最大尺寸。</p>
+                    <p><strong>交互</strong></p>
+                    <p>点击高亮的操作按钮会展开点击目标，然后缓缓淡出。</p>
+                    <p><strong>忽视</strong></p>
+                    <p>触摸点击目标外面的区域，点击目标会收缩，并缓缓淡出。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -437,7 +437,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Motions for appear, idle, and interaction</p>
+                        <p>出现、出现后和交互的动效</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -453,17 +453,17 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Motions for appear, idle, and dismiss</p>
+                        <p>出现、出现后和忽视的动效</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Guided flows</h1>
+              <h1>引导流程</h1>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Guided flows walk users through tasks that require multiple steps to complete. </p>
+                    <p>引导流程会引导用户完成需要多个步骤的任务。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -477,29 +477,29 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Guided flow</p>
+                        <p>引导流程</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="module"></div>
                 </section>
               </div>
-              <p>Guided flows may contain up to three design components. Use the components that work best for the specific tasks in your UI.</p>
+              <p>引导流程可以最多包含 3 个设计组件。使用最适合您 UI 中特定任务的组件。</p>
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>1. Tap target</strong></p>
-                    <p>Tap targets introduce the task ahead by highlighting the user benefit. </p>
+                    <p><strong>1. 点击目标</strong></p>
+                    <p>点击目标通过高亮使用者效益来提前介绍任务。</p>
                   </div>
                   <div class="module">
-                    <p><strong>2. Ripple</strong></p>
-                    <p>Ripples guide users through subsequent steps.</p>
-                    <p>The color of the ripple should match the color of the tap target. </p>
+                    <p><strong>2. 涟漪</strong></p>
+                    <p>涟漪指导用户完成后续的步骤。</p>
+                    <p>涟漪的颜色应该和点击目标的颜色相匹配。</p>
                   </div>
                   <div class="module">
-                    <p><strong>3. Completion toast</strong></p>
-                    <p>Upon completion of the guided flow, provide a toast confirming that the user has completed the task. </p>
-                    <p>Include an action that brings the user back to where the tap target appeared.</p>
+                    <p><strong>3. 完成 toast</strong></p>
+                    <p>完成引导流程后，提供一个 toast 来确认用户已完成任务。</p>
+                    <p>包含一个操作，可以使用户回到点击目标出现的地方。</p>
                   </div>
                 </section>
                 <section class="figure-figure-figure col-3">
@@ -515,7 +515,7 @@
                         </div>
                       </div>
                     </figure>
-                    <p>The tap target is used to introduce the guided flow.</p>
+                    <p>点击目标用于引出引导流程。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -529,7 +529,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The ripples are used for following steps.</p>
+                        <p>涟漪用于紧接着的步骤。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -545,17 +545,17 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The toast is used to reaffirm that the task has been completed.</p>
+                        <p>toast 用于确认任务已完成。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Hint Text</h1>
+              <h1>提示文本</h1>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>For smaller, simpler prompts that request user input, use hint text instead of tap targets. </p>
+                    <p>对于需要用户输入的更小、更轻的提示，使用提示文本代替点击目标。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -563,7 +563,7 @@
                         <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of hint text</p>
+                        <p>提示文本示例</p>
                       </figcaption>
                     </figure>
                   </div>

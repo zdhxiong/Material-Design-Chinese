@@ -9,20 +9,20 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>When a user invokes an action in your app, confirm or acknowledge that action through text.</h1>
+          <h1>当用户在应用中执行操作时，通过文本确认或确知该操作。</h1>
         </div>
       </div>
       <nav class="chapter-toc">
-        <h1>Contents</h1>
+        <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-confirmation" data-qp-ui-data-id="qp:2">Confirmation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-confirmation" data-qp-ui-data-id="qp:2">确认</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-acknowledgement" data-qp-ui-data-id="qp:3">Acknowledgement</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="confirmation-acknowledgement.html#confirmation-acknowledgement-acknowledgement" data-qp-ui-data-id="qp:3">确知</a>
           </li>
         </ul>
       </nav>
@@ -31,7 +31,7 @@
 
         <div id="confirmation-acknowledgement-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -40,19 +40,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Confirming and acknowledging actions can help alleviate uncertainty about things that have happened or will happen. It also prevents users from making mistakes they might regret.</p>
+              <p>确认和确知操作可以帮助减轻已经发生或即将发生的事情的不确定性。它还可以防止用户犯下会让他们后悔的错误。</p>
               <ul class="lst-kix_xhnp0oc6lrvk-0 start">
-                <li><strong>Confirming </strong>involves asking the user to verify that they want to proceed with an action.</li>
-                <li><strong>Acknowledging </strong>is displaying text to let the user know that the action they chose has been completed.</li>
+                <li><strong>确认</strong>要求用户核实需要继续执行的操作。</li>
+                <li><strong>确知</strong>是显示文本，让用户知道他们执行的操作已完成。</li>
               </ul>
-              <p>Not all actions warrant a confirmation or an acknowledgment.</p>
+              <p>并非所有操作都需要确认或确知。</p>
             </div>
           </div>
         </div>
 
         <div id="confirmation-acknowledgement-confirmation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Confirmation
+            确认
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -64,9 +64,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A confirmation asks the user to verify that they truly want to proceed with the action they just invoked. It may be paired with a warning or critical information related to that action.</p>
-                    <p>Modal dialog titles for confirmations should be meaningful and echo the requested action.</p>
-                    <p>Confirmation isn’t necessary when the consequences of an action are reversible or negligible. For example, if a check mark shows an image has been selected, further confirmation is unnecessary.</p>
+                    <p>确认要求用户核实他们真的要继续执行刚刚调用的操作。它可能与警告或与该操作相关的关键信息相配对。</p>
+                    <p>确认的模态对话框标题应该有意义，并回应请求的操作。</p>
+                    <p>当操作的结果是可逆的或可忽略的，则不需要确认。例如，使用复选标记来显示已选择的图片，则不需要确认。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -74,7 +74,7 @@
                         <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png"/>
                       </div>
                       <figcaption>
-                        <p>The user has requested to delete an album from their library. An <a href="https://www.google.com/url?q=https://developer.android.com/design/building-blocks/dialogs.html%23alerts&amp;sa=D&amp;ust=1481817987575000&amp;usg=AFQjCNF5wLNAZ9zxKjUBWwQZBXGRMVZ38g" target="_blank">alert</a> appears to confirm this action and inform the user that the album will no longer be available from any device.</p>
+                        <p>用户请求从库中删除一个相册，会显示一个警告框来确认此操作，并告知用户此相册在任何设备上都将不能使用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -84,7 +84,7 @@
                         <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png"/>
                       </div>
                       <figcaption>
-                        <p>After initiating Android Beam, the user is prompted to touch the content to be shared. If they decide not to proceed, they simply move their phone away.</p>
+                        <p>启用 Android Beam 后，系统会提示用户触摸要共享的内容。如果用户决定不共享了，只需把手机移开即可。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,7 +96,7 @@
 
         <div id="confirmation-acknowledgement-acknowledgement" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Acknowledgement
+            确知
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -108,7 +108,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Acknowledgement removes uncertainty about implicit operations that the system is taking. It may be paired with an option to undo the action.</p>
+                    <p>确知消除了系统采取的隐式操作的不确定性。它可以和一个含撤销操作的选项配对使用。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -116,7 +116,7 @@
                         <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png"/>
                       </div>
                       <figcaption>
-                        <p>The draft of an email is saved if the user navigates back or up from the compose screen. An acknowledgment in the form of a toast appears, then fades after a few seconds. </p>
+                        <p>如果用户从撰写界面向后或向上导航，则会保存电子邮件的草稿，一个 toast 形式的确知出现，然后几秒钟后淡出。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -126,7 +126,7 @@
                         <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png"/>
                       </div>
                       <figcaption>
-                        <p>After the user deletes a conversation from the list view, an acknowledgment appears with an undo option. It remains until the user takes an unrelated action, such as scrolling the list.</p>
+                        <p>在用户从列表视图中删除一个会话后，将出现一个带有撤销选项的确认。它会持续显示，直到用户采取了不相关的操作，例如滚动列表。</p>
                       </figcaption>
                     </figure>
                   </div>
