@@ -9,28 +9,28 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Errors occur when an app fails to complete an expected action.</h1>
+          <h1>应用无法完成预期操作时会发生错误。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Some examples of errors include:</p>
+                <p>一些错误示例包括：</p>
                 <ul class="lst-kix_29eeo766e8cf-0 start">
-                  <li>When user input is not understood</li>
-                  <li>An app failing to load</li>
-                  <li>Incompatible operations are run concurrently</li>
+                  <li>用户的输入无法识别</li>
+                  <li>应用无法载入</li>
+                  <li>同时执行不兼容的操作</li>
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>Types of errors</strong></h3>
-                <p>User input errors<br>
-                  App errors<br>
-                  Incompatible state errors</p>
-                <h3><strong>Specific error patterns</strong></h3>
-                <p>Forms<br>
-                  General usage errors<br>
-                  Sync errors<br>
-                  Connectivity<br>
-                  Permissions</p>
+                <h3><strong>错误类型</strong></h3>
+                <p>用户输入错误<br>
+                  应用错误<br>
+                  不兼容的状态错误</p>
+                <h3><strong>具体的错误模式</strong></h3>
+                <p>表单<br>
+                  普通使用错误<br>
+                  同步错误<br>
+                  连接<br>
+                  权限</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -48,16 +48,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-user-input-errors" data-qp-ui-data-id="qp:2">User input errors</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-user-input-errors" data-qp-ui-data-id="qp:2">用户输入错误</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-app-errors" data-qp-ui-data-id="qp:3">App errors</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-app-errors" data-qp-ui-data-id="qp:3">应用错误</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">Incompatible state errors</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="errors.html#errors-incompatible-state-errors" data-qp-ui-data-id="qp:4">不兼容的状态错误</a>
           </li>
         </ul>
       </nav>
@@ -66,7 +66,7 @@
 
         <div id="errors-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -74,18 +74,18 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Errors occur when an app fails to complete an action, such as:</p>
+            <div><p>应用无法完成操作时发生错误，例如：</p>
               <ul class="lst-kix_js14ueu0qjs1-0 start">
-                <li>The app does not understand user input</li>
-                <li>The system or app fails</li>
-                <li>A user intends to run incompatible operations concurrently</li>
+                <li>应用无法识别用户输入</li>
+                <li>系统或应用失败</li>
+                <li>用户试图同时进行不兼容的操作</li>
               </ul>
-              <p>Minimize errors by designing apps that make it easy for users to input information flexibly. Apps should accept common data formats that use affordances to improve user understanding. </p>
-              <p>To address errors:</p>
+              <p>通过优化设计，使用户能轻松地输入信息，最大限度地减少错误。应用应该使用通用数据格式，以帮助用户理解。</p>
+              <p>解决错误：</p>
               <ul class="lst-kix_ssfjdsdhclqn-0 start">
-                <li>Clearly communicate what is happening</li>
-                <li>Describe how a user can resolve it</li>
-                <li>Preserve as much user-entered input as possible</li>
+                <li>清楚的告诉用户发生了什么</li>
+                <li>告诉用户如何解决这个错误</li>
+                <li>尽可能保留用户的输入</li>
               </ul>
             </div>
           </div>
@@ -93,7 +93,7 @@
 
         <div id="errors-user-input-errors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            User input errors
+            用户输入错误
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -102,11 +102,11 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Help users fix input errors as soon as they are detected. Disable the submission of a form if errors are detected, and if detected only after form submission, clearly explain the error and how to fix it.</p>
+              <p>在监测到用户输入错误后立即帮助用户进行修复。如果监测到错误，则禁用提交表单功能，如果仅在提交表单后才能监测到错误，清楚地说明错误原因和修复方式。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Text field input </h1>
-                    <p><strong>Helper text</strong> may be included before, during, or after a user interacts with each field on a form. </p>
+                  <div class="module"><h1>文本字段输入</h1>
+                    <p><strong>帮助文本</strong>可以包含在用户与表单上的每个字段交互之前、期间和之后。</p>
                     <p>Show <strong>error text</strong> only after user interaction with a field. If the user inputs incorrect data, helper text may transform into error text. </p>
                     <p>Minimize form text to the essentials. Not every text field needs helper and/or error text. </p>
                     <p>Specification:</p>
