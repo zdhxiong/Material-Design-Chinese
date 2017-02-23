@@ -9,21 +9,21 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Empty states occur when an item’s content can’t be shown.</h1>
+          <h1>无法显示项目的内容时会显示空状态。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>A list that doesn’t contain any items, or a search that doesn’t display any results, are examples of empty states. Although these states aren’t typical, they should be designed to prevent user confusion. </p>
-                <p>For content that cannot be displayed because of a system failure, see <a href="errors.html#errors-app-errors">app errors</a>.</p>
+                <p>不包含任何项目的列表，或不包含任何结果的搜索，都是空状态的例子。虽然这些状态并不具有代表性，但它们也应该被设计成防止用户混淆。</p>
+                <p>对于由于系统故障而无法显示的内容，请参阅<a href="errors.html#errors-app-errors">应用错误</a>。</p>
               </div>
               <div class="module">
-                <h3>Alternatives to empty states</h3>
-                <p>Starter content<br>
-                  Educational content<br>
-                  Best match</p>
-                <h3>Content for empty states</h3>
-                <p>Text tagline<br>
-                  Non-interactive image</p>
+                <h3>空状态的替代方案</h3>
+                <p>启动器内容<br>
+                  教育性的内容<br>
+                  最佳匹配</p>
+                <h3>空状态的内容</h3>
+                <p>文字标语<br>
+                  非交互式图像</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -41,10 +41,10 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="empty-states.html#empty-states-displaying-empty-states" data-qp-ui-data-id="qp:1">Displaying empty states</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="empty-states.html#empty-states-displaying-empty-states" data-qp-ui-data-id="qp:1">显示空状态</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="empty-states.html#empty-states-avoiding-completely-empty-states" data-qp-ui-data-id="qp:2">Avoiding completely empty states</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="empty-states.html#empty-states-avoiding-completely-empty-states" data-qp-ui-data-id="qp:2">避免完全为空的状态</a>
           </li>
         </ul>
       </nav>
@@ -53,7 +53,7 @@
 
         <div id="empty-states-displaying-empty-states" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Displaying empty states
+            显示空状态
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -64,17 +64,17 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>The most basic empty state displays a non-interactive image and a text tagline.</p>
-                    <p>Use an image that:</p>
+                  <div class="module"><p>最基本的空状态是显示非交互式的图像和文本标语。</p>
+                    <p>使用以下图片：</p>
                     <ul class="lst-kix_ojibm6d1wfvy-0 start">
-                      <li>Is subtle and neutral with respect to the background</li>
-                      <li>Conveys the purpose and potential of the app in a lively way, such as your app's icon</li>
+                      <li>淡淡的，颜色素净的，和背景色不造成冲突的</li>
+                      <li>以活泼的方式传达应用的用途和潜能，例如应用的图标</li>
                     </ul>
-                    <p>Include a tagline that:</p>
+                    <p>使用以下标语</p>
                     <ul class="lst-kix_m2obi9471yei-0 start">
-                      <li>Has a positive tone</li>
-                      <li>Is consistent with your brand</li>
-                      <li>Conveys the purpose of the app without appearing to be actionable</li>
+                      <li>有一个积极的基调</li>
+                      <li>与你的品牌一致</li>
+                      <li>传达应用的用途，而不要出现可执行的操作</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -84,7 +84,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The image is neutral and clearly part of the background. The tagline conveys the purpose of the app without coming across as a call to action.</p>
+                        <p>图像应该是素净的，视觉上能成为背景的一部分。标语应该传达应用的用途，而不要让用户去执行某项操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -95,7 +95,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The image is bright and the tagline is worded like a call to action, which may encourage users to touch either the image or the tagline to start a hangout.</p>
+                        <p>图像太过鲜明，标语不应该使用号召性的文字，这可能会导致用户去触摸图像或标语来开始视频聊天。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -107,7 +107,7 @@
 
         <div id="empty-states-avoiding-completely-empty-states" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Avoiding completely empty states
+            避免完全为空的状态
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -116,17 +116,17 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>There are several situations in which you can provide users with alternatives to truly empty states.</p>
+              <p>这里有几种完全空白状态的替代方案。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p><strong>Starter content</strong></p>
-                    <p>The most compelling way for new users to learn and get excited about your app is by using it. Consider providing starter content that will allow users to explore your app right away. </p>
-                    <p>Recommendations:</p>
+                    <p><strong>启动器内容</strong></p>
+                    <p>使新用户学习使用并对应用感兴趣的最有效的途径是让用户使用它。考虑提供一个启动器内容，以便用户能立即浏览你的应用。</p>
+                    <p>建议：</p>
                     <ul class="lst-kix_49cmhgvnnhb4-0 start">
-                      <li>Use content that has broad appeal and demonstrates primary features.</li>
-                      <li>Give users the ability to delete and replace this content.</li>
-                      <li>If possible, provide content that's personalized.</li>
+                      <li>使用具有显著吸引力并展示主要功能的内容。</li>
+                      <li>使用户能删除和替换此内容。</li>
+                      <li>如果有可能，提供个性化的内容。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -135,7 +135,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_starter.png"/>
                       </div>
                       <figcaption>
-                        <p>A book reading app might provide all users with a few free popular books to immediately start exploring the app.</p>
+                        <p>一个图书阅读应用可以为所有用户提供几本免费流行的书籍，以便用户可以立即开始探索该应用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -145,13 +145,13 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p><strong>Educational content</strong></p>
-                    <p>If the purpose of the screen isn't easily conveyed through an image and a tagline, consider showing educational content instead.</p>
-                    <p>Recommendations:</p>
+                    <p><strong>教育性的内容</strong></p>
+                    <p>如果屏幕的目的不易通过图片和标语来传达，请考虑显示教育性的内容。</p>
+                    <p>建议：</p>
                     <ul class="lst-kix_6zm2x7h92bnt-0 start">
-                      <li>Help users understand what they'll be able to do on this screen once it has content.</li>
-                      <li>Make it possible to dismiss or skip this content.</li>
-                      <li>Keep it brief.</li>
+                      <li>帮助用户了解在此屏幕上有新内容后，他们能在此屏幕上执行哪些操作。</li>
+                      <li>可以关闭或跳过此内容。</li>
+                      <li>保持简短。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -160,7 +160,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_education.png"/>
                       </div>
                       <figcaption>
-                        <p>Before a user watches a video in the movies app, a dismissible card is shown to explain the features and benefits of the service.</p>
+                        <p>用户在一个电影应用中观看视频之前，显示一个可移除的卡片，以说明服务的功能和优点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -170,9 +170,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Best match</strong></p>
-                    <p>If nothing exactly matches the user's query, are there any results for a query spelled slightly differently? If so, then show the results, as they may help a user find what they're after.</p>
-                    <p>With this approach, clearly convey in a heading above the results that this content shouldn't be mistaken for a match to actual query results.</p>
+                    <p><strong>最佳匹配</strong></p>
+                    <p>如果没有完全匹配用户查询的搜索结果，是否存在相似的搜索结果？如果有，则显示该结果，因为它们可能会帮用户找到他们想要的。</p>
+                    <p>使用这种方法，需要在搜索结果上面的标题中清楚的指出，该内容不应被误认为与实际搜索结果相匹配。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -180,7 +180,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/Empty-state_best_match_01.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of best matches </p>
+                        <p>最佳匹配示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -190,7 +190,7 @@
                         <img alt="" src="../static/media/patterns/empty-states/Empty-state_best_match_02.png"/>
                       </div>
                       <figcaption>
-                        <p>Offering best matches is a great way to handle a misspelled query without explicitly placing blame on the user.</p>
+                        <p>提供最佳匹配是一个处理用户拼写错误，且不把责任推给用户的好方法。</p>
                       </figcaption>
                     </figure>
                   </div>
