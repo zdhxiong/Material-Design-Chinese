@@ -52,7 +52,7 @@ class Nav {
       'theme_color' =>  '#00bcd4',
       'color_name'  =>  'cyan',
       'file'        =>  'index',
-      'title'       =>  'Introduction'
+      'title'       =>  '概述'
     );
 
     foreach($this->original as $key => $val) {
