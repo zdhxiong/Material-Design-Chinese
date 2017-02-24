@@ -9,23 +9,23 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p><strong>Android only</strong></p>
-          <h1>Fingerprint detection may be used to unlock a device, sign in to apps, and authenticate purchases using Google Play and some third-party apps. </h1>
+          <p><strong>仅支持 Android</strong></p>
+          <h1>指纹识别可用于解锁设备，登录应用以及用于 Google Play 和某些第三方应用的购买的验证。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>To authenticate purchases using Fingerprint, display the Fingerprint authentication dialog.</p>
-                <p>Fingerprint is not as secure as a strong PIN or password. Authentication alternatives include a user’s account password, an app PIN, and device credentials.</p>
+                <p>要使用指纹验证购买，请显示指纹验证对话框。</p>
+                <p>指纹不如复杂的 PIN 或密码安全。指纹验证的备用方案包括用户的账号密码，应用 PIN 和设备证书。</p>
               </div>
               <div class="module">
-                <h3><strong>When to use</strong></h3>
-                <p>Upon opening the app<br>
-                  During your app’s purchase flow<br>
-                  In your app settings<br>
-                  After enrollment</p>
-                <h3><strong>Icon</strong></h3>
-                <p>Fingerprint icon size: 24dp<br>
-                  Circle surrounding icon: 40dp</p>
+                <h3><strong>何时使用</strong></h3>
+                <p>打开应用的时候<br>
+                  在应用的购买流程中<br>
+                  在应用的设置中<br>
+                  注册后</p>
+                <h3><strong>图标</strong></h3>
+                <p>指纹图标大小：24dp<br>
+                  圆环图标：40dp</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -43,19 +43,19 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-enrollment" data-qp-ui-data-id="qp:1">Enrollment</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-enrollment" data-qp-ui-data-id="qp:1">注册</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-authentication" data-qp-ui-data-id="qp:2">Authentication</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-authentication" data-qp-ui-data-id="qp:2">验证</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-fingerprint-icon" data-qp-ui-data-id="qp:4">Fingerprint icon</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-fingerprint-icon" data-qp-ui-data-id="qp:4">指纹图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-reauthentication" data-qp-ui-data-id="qp:5">Reauthentication</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="fingerprint.html#fingerprint-reauthentication" data-qp-ui-data-id="qp:5">重新验证</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@
 
         <div id="fingerprint-enrollment" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Enrollment
+            注册
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -73,15 +73,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Before invoking Fingerprint in your app, you must get consent from the user that they want to use Fingerprint as an alternate way of authenticating themselves. </p>
+              <p>你的应用在使用指纹之前，必须先获得用户的同意，允许你使用指纹作为验证账户的备用方法。</p>
               <div class="col-list">
                 <section class="module-module-module col-3">
-                  <div class="module"><p>Possible times to invite users to try Fingerprint include:</p>
+                  <div class="module"><p>邀请用户尝试指纹的时间可以是：</p>
                     <ul class="lst-kix_47wor9z2y2ny-0 start">
-                      <li>Upon opening the app</li>
-                      <li>During your app’s purchase flow</li>
-                      <li>In your app settings</li>
-                      <li>After enrollment</li>
+                      <li>打开应用时</li>
+                      <li>在应用的购买流程中</li>
+                      <li>在应用的设置中</li>
+                      <li>注册后</li>
                     </ul>
                   </div>
                   <div class="module"></div>
@@ -89,7 +89,7 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Upon opening the app</strong></strong></h2>
+                    <h2><strong><strong>打开应用时</strong></strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -103,7 +103,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The user is offered the option to enroll their fingerprint right after logging in.</p>
+                        <p>用户可以在登录后立即验证其指纹。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -119,7 +119,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The user is offered the option to enroll their fingerprint right after creating their account.</p>
+                        <p>用户可以在创建账号后立即注册他们的指纹。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -128,14 +128,14 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>During your app’s purchase flow</strong></strong></h2></div>
+                    <h2><strong><strong>在应用的购买流程中</strong></strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_03_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>The user is offered the option to enroll their fingerprint right after making a purchase with an existing account.</p>
+                        <p>用户可以在使用现有账户进行购买后，立即验证他们的指纹。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -143,7 +143,7 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>In your app settings</strong></h2></div>
+                    <h2><strong>在应用的设置中</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -156,7 +156,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The user is offered the option to enable Fingerprint as their lock within an app’s settings.</p>
+                        <p>用户可以在应用的设置中启用指纹锁定功能。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -164,7 +164,7 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>After enrollment</strong></strong></h2>
+                    <h2><strong><strong>注册后</strong></strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -178,7 +178,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>After enrollment, present the Fingerprint dialog whenever you need authentication from the user.</p>
+                        <p>注册后，每当需要用户验证时都可以出现指纹对话框。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -191,7 +191,7 @@
 
         <div id="fingerprint-authentication" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Authentication
+            验证
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -200,16 +200,16 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Your app’s users can set up the option to log in or authenticate purchases using Fingerprint.</p>
-              <p>When a user action needs to be authenticated, display the Fingerprint authentication dialog in place of your login screen.</p>
+              <p>用户可以设置使用指纹来验证登录、或验证购买行为。</p>
+              <p>当需要验证用户操作时，显示指纹验证对话框代替登录界面。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Title</strong></p>
-                    <p>Use the title to describe the action being performed, such as “Sign in.” The title should not be used to introduce Fingerprint.</p>
-                    <p><strong>Secondary text</strong></p>
-                    <p>Use the phase “Confirm fingerprint.” This wording maintains consistency with Android Settings.</p>
-                    <p>You may combine the above text with the associated user action, such as “Confirm fingerprint to complete purchase.”</p>
+                    <p><strong>标题</strong></p>
+                    <p>使用标题来描述正在执行的操作，例如“登录”。标题不应该用来介绍指纹。</p>
+                    <p><strong>副文本</strong></p>
+                    <p>使用“确认指纹”来和 Android 的设置保持一致性。</p>
+                    <p>你可以将上述文本和用户的操作相结合，例如“确认指纹以完成购买。”</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -217,7 +217,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_06-.png"/>
                       </div>
                       <figcaption>
-                        <p>Confirm fingerprint dialog </p>
+                        <p>指纹验证对话框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -230,18 +230,18 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_07.png"/>
                       </div>
                       <figcaption>
-                        <p>Specifications for confirm fingerprint dialog:</p>
-                        <p>Dialog left and right padding: 24dp<br>
-                          Dialog top padding: 24dp<br>
-                          Title bottom margin: 20dp<br>
-                          Subtitle bottom margin: 28dp<br>
-                          Fingerprint icon right margin: 16dp<br>
-                          Touch sensor height: 40dp<br>
-                          Touch sensor call to action top and bottom padding: 12dp<br>
-                          Button container height: 52dp<br>
-                          Button container bottom padding: 8dp<br>
-                          Button height: 36p<br>
-                          Button right and left padding: 8dp</p>
+                        <p>指纹验证对话框规格：</p>
+                        <p>对话框左右内边距：24dp<br>
+                          对话框顶部内边距：24dp<br>
+                          标题底部外边距：20dp<br>
+                          副标题底部外边距：28dp<br>
+                          指纹图标右侧外边距：16dp<br>
+                          触摸传感器高度：40dp<br>
+                          触摸传感器文本上下外边距：12dp<br>
+                          按钮容器高度：52dp<br>
+                          按钮容器底部内边距：8dp<br>
+                          按钮高度：36p<br>
+                          按钮左右边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -253,7 +253,7 @@
 
         <div id="fingerprint-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -265,15 +265,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Default state</strong></strong></h2>
-                    <p>Ask the user to put their finger on the sensor.</p></div>
+                    <h2><strong><strong>默认状态</strong></strong></h2>
+                    <p>要求用户将他们的手指放在传感器上。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_08.png"/>
                       </div>
                       <figcaption>
-                        <p>Default state asking the user to put their finger on the sensor</p>
+                        <p>默认状态要求用户将他们的手指放在传感器上</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -282,16 +282,16 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Success state</strong></strong></h2>
-                    <p>Once the fingerprint is recognized, change the dialog to a success message and the image to the fingerprint icon with the check mark.</p>
-                    <p>Specification:</p>
+                    <h2><strong><strong>成功状态</strong></strong></h2>
+                    <p>一旦识别到指纹，将对话框更改为成功的消息，将图像更改为带有复选标记的指纹图标。</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_snh2q96njwby-0 start">
-                      <li>Use your app’s primary color for the success text and icon, or Teal 500 (#009688)</li>
+                      <li>成功的文本和图标使用应用的主色，或使用 Teal 500 (#009688)</li>
                     </ul>
-                    <p>Success states should avoid:</p>
+                    <p>成功状态应避免：</p>
                     <ul class="lst-kix_pv1kglh59qr0-0 start">
-                      <li>Displaying two success states simultaneously</li>
-                      <li>Extensive transitions between default and success states</li>
+                      <li>同时显示两个成功状态</li>
+                      <li>默认状态和成功状态之间的过渡太多</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -300,7 +300,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_09.png"/>
                       </div>
                       <figcaption>
-                        <p>Success message stating that the fingerprint has been recognized</p>
+                        <p>表示指纹已被识别的成功消息</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -309,15 +309,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Failure state</strong></strong></h2>
-                    <p>Upon failure, provide a clear indication that the user’s fingerprint was not recognized and that they should try again, using the error icon either with or without a status message.</p>
-                    <p>Specification:</p>
+                    <h2><strong><strong>失败状态</strong></strong></h2>
+                    <p>失败时，提供一个清楚的提示，可以是带或不带状态消息的错误图标，告诉用户指纹未被识别，可以再次尝试。</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_snh2q96njwby-0">
-                      <li>Use your app’s color assigned to failure states, or Deep Orange 600 (#F4511E)</li>
+                      <li>使用用于失败状态的应用色调，或者 Deep Orange 600 (#F4511E)</li>
                     </ul>
-                    <p>Failure states should avoid:</p>
+                    <p>失败状态应避免：</p>
                     <ul class="lst-kix_hptt6efiv41m-0 start">
-                      <li>Extensive transitions between default and failure states</li>
+                      <li>默认状态和失败状态之间的过渡太多</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -326,7 +326,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_10.png"/>
                       </div>
                       <figcaption>
-                        <p>Error message stating the fingerprint was not recognized. </p>
+                        <p>指出无法识别指纹的错误信息</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -335,8 +335,8 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2><strong><strong>Exiting</strong></strong></h2>
-                    <p>Provide alternative ways to exit the dialog. At minimum, provide an affordance to close the Fingerprint dialog, such as a “Cancel” button.</p>
+                    <h2><strong><strong>退出</strong></strong></h2>
+                    <p>提供其他方法退出对话框。至少，要提供关闭指纹对话框的功能，例如“取消”按钮。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -344,12 +344,12 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2><strong><strong>Authentication alternatives</strong></strong></h2>
-                    <p>Fingerprint should not be the only way to authenticate. Provide alternative authentication methods, such as:</p>
+                    <h2><strong><strong>指纹验证的替代方案</strong></strong></h2>
+                    <p>指纹不应该是唯一的验证方式。提供其他身份验证方法，例如：</p>
                     <ul class="lst-kix_mj3hmnye60y2-0 start">
-                      <li>User’s account password</li>
-                      <li>App PIN</li>
-                      <li><a href="https://www.google.com/url?q=https://developer.android.com/preview/api-overview.html%23confirm-credential&amp;sa=D&amp;ust=1481818027268000&amp;usg=AFQjCNHE1rk2HMXWl_KBmaPpZYFcpxaINw" target="_blank">Device credentials</a></li>
+                      <li>用户的账号密码</li>
+                      <li>应用 PIN</li>
+                      <li><a href="https://www.google.com/url?q=https://developer.android.com/preview/api-overview.html%23confirm-credential&amp;sa=D&amp;ust=1481818027268000&amp;usg=AFQjCNHE1rk2HMXWl_KBmaPpZYFcpxaINw" target="_blank">设备证书</a></li>
                     </ul>
                   </div>
                   <div class="module"></div>
@@ -361,7 +361,7 @@
 
         <div id="fingerprint-fingerprint-icon" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Fingerprint icon
+            指纹图标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -373,8 +373,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Usage and size</strong></strong></h2>
-                    <p>The Fingerprint icon should be displayed at the standard system icon size, 24dp, within a 40dp circle.</p>
+                    <h2><strong><strong>用法和大小</strong></strong></h2>
+                    <p>指纹图标应该以标准的系统图标大小 24dp，显示在 40dp 的圆圈内。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -382,7 +382,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_11_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>40dp circle</p>
+                        <p>40dp 的圆圈</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -392,7 +392,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_11_state2.png"/>
                       </div>
                       <figcaption>
-                        <p>24dp system icon</p>
+                        <p>24dp 的系统图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -401,12 +401,12 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Default icon</strong></strong></h2>
-                    <p>Users will be asked to look for this icon for places where they can use Fingerprint. </p>
-                    <p>Specifications: </p>
+                    <h2><strong><strong>默认图标</strong></strong></h2>
+                    <p>用户会在可以使用指纹的地方找到此图标。</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_cwipeaharukh-0 start">
-                      <li>Circular background color: #607D8B</li>
-                      <li>Works on white backgrounds</li>
+                      <li>圆圈背景色：#607D8B</li>
+                      <li>运行在白色背景上</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -415,7 +415,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_12_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>Default icon</p>
+                        <p>默认图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -428,7 +428,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_12_state2.png"/>
                       </div>
                       <figcaption>
-                        <p>Dialog box and default icon</p>
+                        <p>对话框和默认图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -437,8 +437,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Tinted icon</strong></strong></h2>
-                    <p>The circle surrounding the icon can be customized with a color that provides appropriate contrast against the lines of the Fingerprint icon.</p>
+                    <h2><strong><strong>有色图标</strong></strong></h2>
+                    <p>图标外的圆圈可以使用不同颜色来定制，该颜色为指纹图标提供合适的对比度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -446,7 +446,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_13_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>Contrast and tinted icons</p>
+                        <p>有对比度的有色图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -462,7 +462,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use a multi-colored Fingerprint icon. </p>
+                        <p>不要使用带多种颜色的指纹图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -472,12 +472,12 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>UIs with light backgrounds</strong></p>
-                    <p>Use the Fingerprint icon with a dark circle background. </p>
-                    <p>Specifications:</p>
+                    <p><strong>浅色背景的 UI 界面上</strong></p>
+                    <p>使用带深色圆圈背景的指纹图标。</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_qoe5s0qzeerw-0 start">
-                      <li>Color: #FFFFFF</li>
-                      <li>Opacity: 100%</li>
+                      <li>颜色：#FFFFFF</li>
+                      <li>不透明度：100%</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -486,19 +486,19 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_13_state2.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark circle background with the Fingerprint icon for a light background</p>
+                        <p>浅色背景下，使用带深色圆圈背景的指纹图标</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-module col-2">
                   <div class="module">
-                    <p><strong>UIs with dark backgrounds</strong></p>
-                    <p>Use the Fingerprint icon with a light circle background.</p>
-                    <p>Specifications:</p>
+                    <p><strong>深色背景的 UI 界面上</strong></p>
+                    <p>使用带浅色圆圈背景的指纹图标。</p>
+                    <p>规格：</p>
                     <ul class="lst-kix_gb25ynglkofj-0 start">
-                      <li>Color: #000000</li>
-                      <li>Opacity: 54%</li>
+                      <li>颜色：#000000</li>
+                      <li>不透明度：54%</li>
                     </ul>
                   </div>
                   <div class="module"></div>
@@ -507,8 +507,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Icon with no circular background</strong></strong></h2>
-                    <p>Apps requiring a more versatile Fingerprint icon may eliminate the circular background.</p>
+                    <h2><strong><strong>没有圆形背景的图标</strong></strong></h2>
+                    <p>需要更多通用指纹图标的应用可能会消除圆形背景。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -516,7 +516,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_14_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>Icon with no circular background</p>
+                        <p>没有圆形背景的图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -529,7 +529,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_14_state2.png"/>
                       </div>
                       <figcaption>
-                        <p>Dialog box with icon with no circular background</p>
+                        <p>没有圆形背景图标的对话框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -546,7 +546,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t tilt or distort the fingerprint icon.</p>
+                        <p>不要倾斜或扭曲指纹图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -558,7 +558,7 @@
 
         <div id="fingerprint-reauthentication" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Reauthentication
+            重新验证
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -570,12 +570,12 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Reauthentication applies when users need to confirm their identity before continuing. </p>
-                    <p>Reauthentication uses: </p>
+                    <p>重新验证适用于用户在继续操作之前需要确认其身份的情况。</p>
+                    <p>重新验证用于：</p>
                     <ul class="lst-kix_kjm079cq6g2q-0 start">
-                      <li>To prevent unauthorized viewing of sensitive information</li>
-                      <li>To guard against unauthorized purchases</li>
-                      <li>When cryptographic keys expire and users are asked to reconfirm their identity</li>
+                      <li>防止未经授权查看敏感信息</li>
+                      <li>防止未经授权的购买行为</li>
+                      <li>当加密密钥过期时，用户会被要求重新确认其身份</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -584,7 +584,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_16-.png"/>
                       </div>
                       <figcaption>
-                        <p>Reauthentication dialog</p>
+                        <p>重新验证对话框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -592,7 +592,7 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Alternatively, if a user forgets about Fingerprint authentication, you can ask users to use their backup password and remind them of the Fingerprint option next time.</p>
+                    <p>或者，如果用户不考虑使用指纹验证，你可以要求他们使用备用密码，并在下一次提醒他们使用指纹。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -600,7 +600,7 @@
                         <img alt="" src="../static/media/patterns/fingerprint/components_fp_17-.png"/>
                       </div>
                       <figcaption>
-                        <p>Dialog asking user for their backup password</p>
+                        <p>询问用户备用密码的对话框</p>
                       </figcaption>
                     </figure>
                   </div>
