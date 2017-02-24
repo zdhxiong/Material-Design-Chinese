@@ -29,7 +29,7 @@
                 <p>表单<br>
                   普通使用错误<br>
                   同步错误<br>
-                  连接<br>
+                  网络连接<br>
                   权限</p>
               </div>
               <div class="figure">
@@ -107,10 +107,10 @@
                 <section class="module-figure-figure col-3">
                   <div class="module"><h1>文本字段输入</h1>
                     <p><strong>帮助文本</strong>可以包含在用户与表单上的每个字段交互之前、期间和之后。</p>
-                    <p>Show <strong>error text</strong> only after user interaction with a field. If the user inputs incorrect data, helper text may transform into error text. </p>
-                    <p>Minimize form text to the essentials. Not every text field needs helper and/or error text. </p>
-                    <p>Specification:</p>
-                    <p>Place 16dp of vertical space between text fields and the below error text. </p>
+                    <p>仅在用户与输入字段交互之后才显示<strong>错误文本</strong>。如果用户输入了不正确的数据，帮助文本可能会转换为错误文本。</p>
+                    <p>缩减表单文本，只显示要点。不是所有文本输入框都需要帮助文本或错误文本。</p>
+                    <p>规格：</p>
+                    <p>在文本字段和下面的错误文本之间放置 16dp 的垂直间距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -118,7 +118,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput1.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a text field input</p>
+                        <p>文本输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -128,7 +128,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput2.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a text field input with error text</p>
+                        <p>带有错误文本的文本输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -137,9 +137,9 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Form submission</h1>
-                    <p>The Submit button should be enabled by default.</p>
-                    <p>If you are performing inline form validation, and the field with the error is clearly marked, the submit button may be disabled until the error is corrected.</p>
+                    <h1>表单提交</h1>
+                    <p>默认情况下，提交按钮应处于启用状态。</p>
+                    <p>如果你正在进行内联表单验证，并且已清楚地标记出出现错误的字段，则可能会禁用提交按钮，直到错误被更正。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -147,19 +147,19 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Color</h1>
-                    <p>Error text should reflect your product’s <a href="../style/color.html">color palette</a>. It’s recommended that you use a contrasting color for error states, such as a warmer hue like red or orange. </p>
-                    <p>Error text should be legible, with noticeable contrast against its background color. </p>
-                    <p>Sites such as <a href="https://www.google.com/url?q=http://webaim.org/&amp;sa=D&amp;ust=1481817993140000&amp;usg=AFQjCNEFMDykeKuS7TD374W2xqHvCvF8bg" target="_blank">webaim.org</a> offer color contrast checking tools.</p>
+                    <h1>颜色</h1>
+                    <p>错误文本应该反映产品的<a href="../style/color.html">色调</a>。建议对错误状态使用对比度较高的颜色，例如像红色或橙色之类的暖色调。</p>
+                    <p>错误文本应该清晰易读，与背景色有明显的对比。</p>
+                    <p>网站 <a href="https://www.google.com/url?q=http://webaim.org/&amp;sa=D&amp;ust=1481817993140000&amp;usg=AFQjCNEFMDykeKuS7TD374W2xqHvCvF8bg" target="_blank">webaim.org</a> 提供了颜色对比度检查工具。</p>
                   </div>
                   <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Fonts for light backgrounds</h2>
+                    <h2>浅色背景下的字体</h2>
                     <ul class="lst-kix_ok30zaagthgs-0 start">
-                      <li>Errors: Roboto Regular 12sp</li>
-                      <li>Hint and helper text: #000000 with 38% opacity</li>
+                      <li>错误：Roboto Regular 12sp</li>
+                      <li>提示文本和帮助文本：#000000 带 28% 的不透明度</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -168,17 +168,17 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput3.png"/>
                       </div>
                       <figcaption>
-                        <p>Light theme for these states: normal with hint text, normal with error text, normal with helper text, and normal with helper as error text</p>
+                        <p>浅色主题下的这些状态：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Fonts for dark backgrounds</h2>
+                    <h2>深色背景下的字体</h2>
                     <ul class="lst-kix_ok30zaagthgs-0">
-                      <li>Errors: Roboto Regular 12sp</li>
-                      <li>Hint and helper text: #FFFFFF with 50% opacity</li>
+                      <li>错误：Roboto Regular 12sp</li>
+                      <li>提示文本和帮助文本：#FFFFFF 带 50% 的不透明度</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -187,7 +187,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput4.png"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme for these states: normal with hint text, normal with error text, normal with helper text, and normal with helper as error text </p>
+                        <p>深色主题下的这些状态：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -196,7 +196,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Helper and error text </h2>
+                    <h2>帮助和错误文本</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -204,7 +204,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput5.png"/>
                       </div>
                       <figcaption>
-                        <p>Example with helper text </p>
+                        <p>帮助文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -214,7 +214,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput6.png"/>
                       </div>
                       <figcaption>
-                        <p>Example with error text </p>
+                        <p>错误文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -227,7 +227,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput7.png"/>
                       </div>
                       <figcaption>
-                        <p>Example with helper text</p>
+                        <p>帮助文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -237,7 +237,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput8.png"/>
                       </div>
                       <figcaption>
-                        <p>Example with error text </p>
+                        <p>错误文本示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -252,7 +252,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput9.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of normal with helper text and normal with helper and error text</p>
+                        <p>带帮助文本的正常状态，和带帮助文本和错误文本的正常状态示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -267,11 +267,11 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput_keyline1.png"/>
                       </div>
                       <figcaption>
-                        <p>Input and error text</p>
-                        <p>Tile height: 64dp<br>
-                          Padding above input text: 16dp<br>
-                          Padding below input text: 8dp<br>
-                          Padding above and below error text: 4dp</p>
+                        <p>输入文本和错误文本</p>
+                        <p>瓦片高度：64dp<br>
+                          输入文本上方边距：16dp<br>
+                          输入文本下方边距：8dp<br>
+                          错误文本上下边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -281,7 +281,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Error with floating text label </h2>
+                    <h2>带浮动文本标签的错误文本</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -289,7 +289,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput10.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of floating text label with input text </p>
+                        <p>已有输入文字的浮动文本标签示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -299,7 +299,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput11.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of floating text label with error text</p>
+                        <p>有错误文本的浮动文本标签示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -314,7 +314,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput12.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of normal with hint text/label and normal with input text, label and error</p>
+                        <p>带提示文本的正常状态，带输入文本，标签和错误文本的正常状态示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -329,27 +329,27 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput_keyline2.png"/>
                       </div>
                       <figcaption>
-                        <p>Specs for floating text label</p>
-                        <p>Tile height: 80dp<br>
-                          Padding above label text: 8dp<br>
-                          Padding above and below input text: 8dp<br>
-                          Padding above and below error text: 4dp</p>
+                        <p>浮动文本标签规格</p>
+                        <p>瓦片高度：80dp<br>
+                          标签文本上方边距：8dp<br>
+                          输入文本上下边距：8dp<br>
+                          错误文本上下边距：4dp</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="module"></div>
                 </section>
               </div>
-              <h1>Text field input - Over/under character or word count </h1>
-              <p>A character counter may be displayed before, during, and after user interaction with a field. Consider not displaying the counter until the user approaches the character limit. </p>
+              <h1>文本框输入 - 少于/超过字符数或词数</h1>
+              <p>字符计数器可以在用户与字段交互之前、期间和之后显示。可以考虑在用户输入的字数接近字数限制之前不显示计数器。</p>
               <ul class="lst-kix_1u8c9dhapu10-0 start">
-                <li>Counter font is Roboto Regular 12sp</li>
-                <li>Counter fields have 16dp of additional bottom padding</li>
+                <li>计数器字体是 Roboto Regular 12sp</li>
+                <li>计数器字段有 16dp 的额外的底部边距</li>
               </ul>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Single-line with character counter </h2>
+                    <h2>带字符计数器的单行输入框</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -357,7 +357,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput13.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line input label with character counter and user input text</p>
+                        <p>带有字符计数器和输入文本的单行输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -367,21 +367,21 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput14.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line input label with character counter and error text</p>
+                        <p>带字符计数器和错误文本的单行输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Multi-line with character counter</h2></div>
+                    <h2>带字符计数器的多行输入框</h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput15.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a multi-line input label with character counter and user input text</p>
+                        <p>带有字符计数器和已输入的文本的多行文本框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -391,7 +391,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput16.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a multi-line input label with character counter and error text</p>
+                        <p>带有字符计数器和错误文本的多行输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -406,7 +406,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput17.png"/>
                       </div>
                       <figcaption>
-                        <p>Examples of these states: single-line input label with user input text, single-line input label with error text, single-line input label with user input text, and multi-line input label with error text</p>
+                        <p>这些状态的示例：含已输入的文本的单行输入框，含错误文本的单行输入框，含已输入文本的多行输入框，含错误文本的多行输入框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -421,11 +421,11 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput_keyline3.png"/>
                       </div>
                       <figcaption>
-                        <p>Text field input</p>
-                        <p>Height of entire input area: 88dp</p>
-                        <p>Single-line input label top padding: 16dp<br>
-                          Top and bottom padding for input text for a single-line field: 8dp</p>
-                        <p>Padding above counter: 8dp</p>
+                        <p>文本框输入</p>
+                        <p>整个输入区域高度：88dp</p>
+                        <p>单行文本框标签顶部边距：16dp<br>
+                          单行文本框输入文本的上下边距：8dp</p>
+                        <p>计数器下方边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -435,15 +435,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Incompatible values</h1>
-                    <p>Show errors for incompatible values during or after a user interacts with a text field.</p>
-                    <p>If two or more fields have incompatible inputs:</p>
+                    <h1>不兼容的值</h1>
+                    <p>在用户与文本字段交互期间或之后显示不兼容值的错误。</p>
+                    <p>如果有两个或多个字段存在不兼容的输入：</p>
                     <ul class="lst-kix_q3mgtx4icxgk-0 start">
-                      <li>In the text field, indicate a fix is needed. Add an error message below.</li>
-                      <li>Display a message at the top of the form, or screen, summarizing the fixes needed and any additional explanation.</li>
+                      <li>在文本框中，指明需要修复。在下面添加错误信息。</li>
+                      <li>在表单或屏幕顶部显示一条消息，总结出所需进行的修复和任何其他说明。</li>
                     </ul>
-                    <h2>Errors detected upon form submission</h2>
-                    <p>Reload the form with consolidated error messages and scroll position at the top. Error messages for individual fields may be resolved as the user works through the form. </p>
+                    <h2>表单提交时检测到错误</h2>
+                    <p>重新加载表单，显示所有的错误消息，并滚动到顶部。每个字段的错误消息都可以在用户处理完该字段后解决。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -451,7 +451,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput18.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a form</p>
+                        <p>表单示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -461,18 +461,18 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput19.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of errors detected after attempted form submission</p>
+                        <p>提交表单后检测到错误的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Incomplete form </h1>
-                    <p>Empty form fields should be indicated by both the text field and error message below. </p>
-                    <p>Display incomplete form errors to indicate a user has skipped a field after they have advanced through a form. If unable to detect user progress through the form, display an error after the user has attempted to submit the form. </p>
-                    <h2>Multiple errors before form submission</h2>
-                    <p>Individually label error messages as the user works through the form. </p>
+                    <h1>未完成的表单</h1>
+                    <p>空的表单字段应该用文本框下面的错误文本指示。</p>
+                    <p>显示未完成的表单错误，表示用户在填写表单时跳过了某个字段。如果无法通过表单检测到用户的输入进度，则在用户尝试提交表单后显示错误。</p>
+                    <h2>表单提交之前出现多个错误</h2>
+                    <p>为每一个表单字段单独添加错误消息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -480,7 +480,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput21.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a form </p>
+                        <p>表单示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -490,21 +490,21 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput22.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of an incomplete form</p>
+                        <p>未完成的表单示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Single-line list error</h1></div>
+                    <h1>单行列表错误</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_userinput23.png"/>
                       </div>
                       <figcaption>
-                        <p>Example of a single-line list error</p>
+                        <p>单行列表错误示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -517,7 +517,7 @@
 
         <div id="errors-app-errors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            App errors
+            应用错误
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -526,13 +526,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>App errors occur independent of user input.</p>
+              <p>应用错误和用户的输入无关。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>General app error</h1>
-                    <p>When an error occurs, an app should display loading indicators until the error message appears. </p>
-                    <p>Features not available may be indicated as disabled in the UI. For example, a button not may be displayed in a disabled state, paired with text explaining it is not available. Not every error requires a new component to pop up. </p>
-                    <p>If possible, give your user an action that will help them address the error. </p>
+                  <div class="module"><h1>一般的应用错误</h1>
+                    <p>当出现错误时，在显示错误消息之前应显示加载提示符。</p>
+                    <p>不可用的功能可以在 UI 中用禁用状态表示。例如，按钮可能不能以禁用状态显示，则需要用匹配的文本来说明按钮不可用。不是每个错误都需要弹出一个新的组件。</p>
+                    <p>如果有可能，请为用户提供一个操作，以帮助他们解决错误。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -540,7 +540,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app1.png"/>
                       </div>
                       <figcaption>
-                        <p>Alert dialog: app feedback about an error that is blocking normal operation </p>
+                        <p>警告框：阻止了正常操作的错误，使用警告框来作为反馈</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -550,13 +550,13 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app2.png"/>
                       </div>
                     </figure>
-                    <p>The snackbar contains app feedback about a peripheral error. Snackbars are transient. Don't use them for critical, persistent, or bulk errors.</p>
+                    <p>snackbar 可以显示次要的错误。Snackbars 是短暂显示的。不要把 snackbar 用于重要的、需要持续显示的、或大量的错误。</p>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Sync error/failure to load</h1>
-                    <p>When sync is down or content has failed to load, the user should be able to interact with as much of the rest of the app as possible.</p>
+                    <h1>同步错误/加载失败</h1>
+                    <p>当遇到同步错误或加载失败时，应该让用户尽可能可以和应用的其余部分进行交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -564,7 +564,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app3.png"/>
                       </div>
                       <figcaption>
-                        <p>Empty state for the screen/content failing to load</p>
+                        <p>内容加载失败的空状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -574,16 +574,16 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app4.png"/>
                       </div>
                       <figcaption>
-                        <p>Container/component specific error with action</p>
+                        <p>带操作的容器/组件的特定错误</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Connectivity </h1>
-                    <p>When connectivity is down, the user should be able to interact with as much of the rest of the app as possible. </p>
-                    <p>If appropriate, present a link to help a user accomplish their task. Only offer links that you can actually support. For example, don't offer an option like "Try again" in cases where you can detect that the operation will fail.</p>
+                    <h1>网络连接</h1>
+                    <p>当连接断开时，用户应该尽可能多的能和应用的其余部分进行交互。</p>
+                    <p>如果可以的话，提供一个链接来帮助用户完成任务。请提供真正能提供帮助的链接。例如，在已经检测到操作会失败的情况下，不要提供类似“再试一次”的选项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -591,7 +591,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app5.png"/>
                       </div>
                     </figure>
-                    <p>Snackbar with action to retry </p>
+                    <p>带操作的 Snackbar 来重试</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -599,7 +599,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_app6.png"/>
                       </div>
                       <figcaption>
-                        <p>Empty state for a screen that is only available online </p>
+                        <p>只有在线状态才可用时，显示的空状态</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -611,7 +611,7 @@
 
         <div id="errors-incompatible-state-errors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Incompatible state errors
+            不兼容的状态错误
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -620,13 +620,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Incompatible state errors occur when users attempt to run operations that conflict, such as making a call while in airplane mode or taking a screenshot from a restricted work account. Help prevent users from putting themselves into these situations by clearly communicating the states they are selecting and the implications for the rest of their experience. When these errors are triggered, do not imply that they are the user’s fault. </p>
+              <p>当用户试图进行不兼容的操作时，会发生不兼容的状态错误，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户进入这些状态。当这些错误被触发时，并不代表是用户的错误。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>General incompatibility </strong></h2>
-                    <p>Clarify the reason for and origination of the error. </p>
-                    <p>For example, screenshots and premium features are not allowed while in a restricted mode. </p>
+                    <h2><strong>一般的不兼容</strong></h2>
+                    <p>澄清产生错误的原因。</p>
+                    <p>例如，在受限模式下，不允许使用截屏和高级功能。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -634,7 +634,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_state1.png"/>
                       </div>
                       <figcaption>
-                        <p>Snackbar + special mode indicator</p>
+                        <p>Snackbar + 特定模式的指示器</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -642,12 +642,12 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Offline by choice</strong></h2>
-                    <p>Display an unobtrusive, persistent indicator when users are offline but try to do tasks that require being online.</p>
-                    <p>Examples: </p>
+                    <h2><strong>离线状态</strong></h2>
+                    <p>当用户处于离线状态，但尝试执行需要联网的任务时，显示一个持续显示的、不显眼的指示符。</p>
+                    <p>示例：</p>
                     <ul class="lst-kix_jj4uoi73ffco-0 start">
-                      <li>Placing a call while in airplane mode</li>
-                      <li>Music availability while offline</li>
+                      <li>在飞行模式下打电话</li>
+                      <li>离线时音乐仍然是可用的</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -656,7 +656,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_state2.png"/>
                       </div>
                       <figcaption>
-                        <p>Snackbar </p>
+                        <p>Snackbar</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -666,20 +666,20 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_state3.png"/>
                       </div>
                       <figcaption>
-                        <p>Indicator that the device has been placed into airplane mode. </p>
+                        <p>指示设备已处于飞行模式。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>Permission requested</strong></h2>
-                    <p>If your app requires user permission before proceeding with an action, include the permission request in the app flow instead of treating it as an error. </p>
-                    <p>If permissions are necessary before the first run of an app, consider including them into your app’s first-run experience.</p>
-                    <p>Examples: </p>
+                    <h2><strong>请求权限</strong></h2>
+                    <p>如果你的应用需要用户授予权限才能继续操作，请在应用流程中包含权限申请，而不是将其视为错误。</p>
+                    <p>如果在首次运行应用之前需要获取权限，请考虑将请求权限的操作包含在应用的首次运行体验中。</p>
+                    <p>示例：</p>
                     <ul class="lst-kix_jj4uoi73ffco-0">
-                      <li>An app’s permissions have changed.</li>
-                      <li>In-app purchases have been disabled.</li>
+                      <li>应用的权限已变更。</li>
+                      <li>应用内购买已停用。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -688,7 +688,7 @@
                         <img alt="" src="../static/media/patterns/errors/patterns_errors_state4.png"/>
                       </div>
                       <figcaption>
-                        <p>Dialog </p>
+                        <p>对话框</p>
                       </figcaption>
                     </figure>
                   </div>
