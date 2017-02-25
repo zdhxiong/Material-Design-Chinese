@@ -16,7 +16,7 @@
                 <p>不要用别的材料把工具栏的操作分隔开，除非它只是暂时显示的，例如菜单和对话框。</p>
               </div>
               <div class="module">
-                <h3><strong>Z 轴高度</strong></h3>
+                <h3><strong>海拔高度</strong></h3>
                 <p>在应用内容之上</p>
                 <h3><strong>滚动</strong></h3>
                 <p>受影响的内容会在工具栏下滚动。</p>

@@ -14,7 +14,7 @@
             <section class="module-module-figure col-3">
               <div class="module">
                 <p>浮动操作按钮是为了使用户更便于操作。</p>
-                <p>就像一个圆形的图标漂浮在界面上，它会在聚焦时改变颜色，在选中时改变 Z 轴高度。按下时，它可能会包含更多相关的操作。</p>
+                <p>就像一个圆形的图标漂浮在界面上，它会在聚焦时改变颜色，在选中时改变海拔高度。按下时，它可能会包含更多相关的操作。</p>
               </div>
               <div class="module">
                 <h3><strong>用法</strong></h3>
@@ -134,7 +134,7 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>浮动操作按钮在聚焦时会改变颜色，在选中时会增加 Z 轴高度。</p>
+                    <p>浮动操作按钮在聚焦时会改变颜色，在选中时会增加海拔高度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -415,7 +415,7 @@
                     <p>对于带有标签的屏幕，浮动操作按钮不应朝着屏幕退出时的同一方向退出屏幕。否则会导致：</p>
                     <ul class="lst-kix_31k3fqgiubnr-0 start">
                       <li>屏幕上出现一个失灵的浮动操作按钮</li>
-                      <li>错误地表明了浮动操作按钮和内容在相同地 Z 轴高度上。</li>
+                      <li>错误地表明了浮动操作按钮和内容在相同的海拔高度上。</li>
                     </ul>
                   </div>
                   <div class="figure">

@@ -667,11 +667,11 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Z 轴高度</strong></p>
-                    <p>卡片静止状态 Z 轴高度：2dp<br>
-                      卡片浮动状态 Z 轴高度：8dp</p>
-                    <p>卡片的默认 Z 轴高度是：2dp.</p>
-                    <p>在桌面端，卡片可以拥有 0dp 的静止 Z 轴高度，并且在鼠标悬浮时获得 8dp 的 Z 轴高度。</p>
+                    <p><strong>海拔高度</strong></p>
+                    <p>卡片静止状态海拔高度：2dp<br>
+                      卡片浮动状态海拔高度：8dp</p>
+                    <p>卡片的默认海拔高度是：2dp.</p>
+                    <p>在桌面端，卡片可以拥有 0dp 的静止海拔高度，并且在鼠标悬浮时获得 8dp 的海拔高度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -679,7 +679,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_elevation.png"/>
                       </div>
                       <figcaption>
-                        <p>卡片静止状态 Z 轴高度为 2dp，浮动状态 Z 轴高度为 8dp</p>
+                        <p>卡片静止状态海拔高度为 2dp，浮动状态海拔高度为 8dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -687,7 +687,7 @@
                         <img alt="" src="../static/media/components/cards/components_cards_elevation_desktop.png"/>
                       </div>
                       <figcaption>
-                        <p>在桌面端，卡片的静止状态 Z 轴高度为 0dp（左侧），鼠标悬浮状态为 8dp（右侧）</p>
+                        <p>在桌面端，卡片的静止状态海拔高度为 0dp（左侧），鼠标悬浮状态为 8dp（右侧）</p>
                         <p>（仅限桌面端）</p>
                       </figcaption>
                     </figure>

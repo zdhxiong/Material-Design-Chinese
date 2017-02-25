@@ -24,14 +24,14 @@
                 <h3>扁平按钮</h3>
                 <p>扁平按钮只包含文本。<br>
                   它们可用于对话框、工具栏或内嵌在其他组件中。<br>
-                  它们不会改变 Z 轴高度，但会在点击时改变颜色。</p>
+                  它们不会改变海拔高度，但会在点击时改变颜色。</p>
 
                 <h3>浮动按钮</h3>
                 <p>浮动按钮为矩形按钮。<br>
                   它们可以内嵌在其他组件中。<br>
-                  它们在点击时会改变 Z 轴高度和触发水波纹效果。</p>
+                  它们在点击时会改变海拔高度和触发水波纹效果。</p>
 
-                <h3>Z 轴高度</h3>
+                <h3>海拔高度</h3>
                 <p>扁平按钮：0dp<br>
                   浮动按钮：2dp</p>
               </div>
@@ -92,9 +92,9 @@
             <div>
               <p>有三种标准类型的按钮：</p>
               <ul class="lst-kix_4tql5k8r9fvj-0 start">
-                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变Z 轴高度和触发水波纹效果。</li>
-                <li>浮动按钮：典型的方形纸片按钮，点击后改变Z 轴高度和触发水波纹效果。</li>
-                <li>扁平按钮：点击时会有水波纹效果，但不会改变Z 轴高度。</li>
+                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变海拔高度和触发水波纹效果。</li>
+                <li>浮动按钮：典型的方形纸片按钮，点击后改变海拔高度和触发水波纹效果。</li>
+                <li>扁平按钮：点击时会有水波纹效果，但不会改变海拔高度。</li>
               </ul>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
@@ -417,7 +417,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>用法</h1>
-                    <p>扁平按钮没有 Z 轴高度，但在点击时会填充颜色。</p>
+                    <p>扁平按钮没有海拔高度，但在点击时会填充颜色。</p>
                     <p>在下边的场景中使用扁平按钮：</p>
                     <ul class="lst-kix_sx4zu9flaq2f-0 start">
                       <li>工具栏</li>
@@ -659,7 +659,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>浮动按钮看起来就像一块放在纸上的材料 - 在点击时会改变 Z 轴高度并填充颜色。</p>
+                    <p>浮动按钮看起来就像一块放在纸上的材料 - 在点击时会改变海拔高度并填充颜色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -700,9 +700,9 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>按钮 Z 轴高度</strong></h2>
-                    <p>浮动按钮的默认 Z 轴高度为 2dp。</p>
-                    <p>在桌面端，浮动按钮在鼠标移入时才有 Z 轴高度。</p>
+                    <h2><strong>按钮海拔高度</strong></h2>
+                    <p>浮动按钮的默认海拔高度为 2dp。</p>
+                    <p>在桌面端，浮动按钮在鼠标移入时才有海拔高度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -713,7 +713,7 @@
                         <p><strong>暗色/亮色</strong> <strong>主题</strong></p>
                         <p>最小宽度：88dp <br>
                           高度：36dp <br>
-                          Z 轴高度：0dp<br>
+                          海拔高度：0dp<br>
                           禁用状态的文本：30% #FFFFFF<br>
                           禁用状态的按钮：12% #FFFFFF</p>
                       </figcaption>

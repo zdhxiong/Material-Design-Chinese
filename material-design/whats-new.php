@@ -8,11 +8,11 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>December 2016 </h1>
-          <p><strong>New sections</strong></p>
+          <h1>2016年12月</h1>
+          <p><strong>新章节</strong></p>
           <ul class="lst-kix_wrd5bzg7vln7-0 start">
-            <li><a href="../platforms/platform-adaptation.html">Platforms</a> discusses when and how to adapt apps to Material Design, and when to adhere to platform conventions</li>
-            <li><a href="../style/icons.html#icons-app-shortcut-icons">App shortcut icons</a> contains specs on how to create app shortcut icons for the home screen</li>
+            <li><a href="../platforms/platform-adaptation.html">平台</a>讨论了何时以及如何使应用适配 Material Design，以及何时遵守平台的惯例。</li>
+            <li><a href="../style/icons.html#icons-app-shortcut-icons">应用快捷图标</a> contains specs on how to create app shortcut icons for the home screen</li>
             <li><a href="../patterns/help-feedback.html">Help and feedback</a> describes how to indicate, craft, and place help content</li>
           </ul>
           <p><strong>Significant updates</strong></p>

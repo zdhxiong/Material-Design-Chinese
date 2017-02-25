@@ -260,13 +260,13 @@
                     <h2><strong><strong>关闭状态的联系人纸片</strong></strong></h2>
                     <ul class="lst-kix_kvbtu6ue51j9-0 start">
                       <li>联系人名称文本：Roboto Regular 14sp.</li>
-                      <li>聚焦后，纸片的 Z 轴高度会上升到 2dp。按下时，它会展开以显示联系人的其他地址。</li>
+                      <li>聚焦后，纸片的海拔高度会上升到 2dp。按下时，它会展开以显示联系人的其他地址。</li>
                     </ul>
                     <h2><strong><strong>打开状态的联系人纸片</strong></strong></h2>
                     <ul class="lst-kix_kt2fh1r11a8a-0 start">
                       <li>联系人名称文本：Roboto Regular 16sp</li>
                       <li>地址文本：Roboto Regular 14sp</li>
-                      <li>打开状态的联系人纸片的 Z 轴高度为 8dp。</li>
+                      <li>打开状态的联系人纸片的海拔高度为 8dp。</li>
                       <li>按下时，联系人纸片会自动关闭。</li>
                       <li>默认状态下，顶部的条目会处于激活并聚焦状态。</li>
                     </ul>

@@ -68,5 +68,5 @@
 </form>
 
 <?php
-include SRC_PATH.'/public/sideNav.php';
+include SRC_PATH.'/public/sidenav.php';
 ?>
