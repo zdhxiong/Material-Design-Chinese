@@ -17,8 +17,8 @@
                   <div class="media">
                     <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                       <video controls="" loop="" preload="metadata">
-                        <source src="../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm" type="video/webm">
-                        <source src="../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4" type="video/mp4">
+                        <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm'); ?>" type="video/webm">
+                        <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4'); ?>" type="video/mp4">
                         </source></source>
                       </video>
                     </div>
@@ -65,8 +65,8 @@
               <p>Themes enable consistent app styling through surface shades, shadow depth, and ink opacity.</p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/style/color/color_swatches.zip" title="Download color swatches">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Download color swatches</div>
                       <span class="subtitle">0.02 MB (.zip) </span>
@@ -1306,7 +1306,7 @@
               <h4 class="related">Related</h4>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html%23ColorPalette&amp;sa=D&amp;ust=1481817962720000&amp;usg=AFQjCNEYvpgiGPa5xnI2xkHQ0IId58B_pg" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Customize the color palette</div>
                     <span class="subtitle">Define your app’s color palette.</span>
@@ -1323,7 +1323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_palette1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a color palette using two purple hues from the primary palette and one accent green hue.</p>
@@ -1333,7 +1333,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_palette1_example.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of UI color application</p>
@@ -1351,7 +1351,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_palette1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a primary color palette with variations for when a darker or lighter version of the color is needed</p>
@@ -1369,7 +1369,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_palette2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a secondary palette with variations for when a darker or lighter version of the color is needed</p>
@@ -1393,7 +1393,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Floating action button using the accent color</p>
@@ -1403,7 +1403,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Switch using the accent color</p>
@@ -1416,7 +1416,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1427,7 +1427,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1441,7 +1441,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1452,7 +1452,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_accent6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1466,7 +1466,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_accentcolor_appbar.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_appbar.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The App bar, toolbar and system status bar can be customized using your palette accent color. In this example, the toolbar uses the 500 version of indigo, while the status bar uses the 700 version.</p>
@@ -1476,7 +1476,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_accentcolor_links.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Web links and buttons can be customized using your palette accent color. </p>
@@ -1491,7 +1491,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text fields and selection controls can be customized using your palette accent color. </p>
@@ -1501,7 +1501,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text selection can be customized using your palette accent color. </p>
@@ -1521,7 +1521,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_fallback1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1532,7 +1532,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_fallback2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1582,7 +1582,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_textandsymbols_alpha1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dark text on light backgrounds</p>
@@ -1625,7 +1625,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_textandsymbols_alpha2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>White text on dark backgrounds</p>
@@ -1667,7 +1667,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_alpha3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_alpha3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1678,7 +1678,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_uiapplication_alpha4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_alpha4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1750,8 +1750,8 @@
               <p>Themes let you apply a consistent tone to an app. The theme specifies the darkness of the surfaces, level of shadow, and appropriate opacity of ink elements. To promote greater consistency between apps, light and dark themes are available to choose from.</p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/style/color/stickersheet_uielements.ai" title="Download themes">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Download themes</div>
                       <span class="subtitle">1.23 MB (.ai) </span>
@@ -1771,7 +1771,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_themes_light1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light theme palette</p>
@@ -1781,7 +1781,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_themes_light2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>UI application</p>
@@ -1800,7 +1800,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_themes_dark1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dark theme palette</p>
@@ -1810,7 +1810,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/color/style_color_themes_dark2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>UI application</p>
@@ -1822,7 +1822,7 @@
               <h4 class="related">Related</h4>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html&amp;sa=D&amp;ust=1481817962520000&amp;usg=AFQjCNHY9FJJrH-7BVQoJaHhHcP_7eFFuA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Using the Material Theme</div>
                     <span class="subtitle">Customize the design to your brand identity.</span>

@@ -29,7 +29,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/selection/patterns_selection.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -101,8 +101,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_entering1.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_entering1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_entering1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_entering1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -127,8 +127,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling1.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -143,8 +143,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling2.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -165,8 +165,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -188,8 +188,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_indicating1.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_indicating1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -204,8 +204,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_indicating2.webm" type="video/webm">
-                            <source src="../static/media/patterns/selection/patterns_selection_item_indicating2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -279,7 +279,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of text selection handles</p>
@@ -289,7 +289,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text02.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of text selection handles</p>
@@ -309,7 +309,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text_color1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <ol class="lst-kix_xdqkwleg2gie-0 start" start="1">
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text_color2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text selection can be customized using your palette accent color. </p>
@@ -338,7 +338,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text03.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text selection – Light theme</p>
@@ -353,7 +353,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text04.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text selection – Dark theme</p>
@@ -372,7 +372,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text05.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dropdown menus for Cut, Copy, Paste, and More appear above the selection area.</p>
@@ -380,7 +380,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text07.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>More</p>
@@ -390,7 +390,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text06.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>When the user selects More, the menu begins transitioning to show the overflow items. </p>
@@ -398,7 +398,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text08.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Overflow menu items: Share, Search, and Translate </p>
@@ -411,7 +411,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/selection/patterns_selection_text09.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Text selection</p>

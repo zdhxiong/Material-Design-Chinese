@@ -33,7 +33,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/dividers/components_dividers.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -87,7 +87,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全出血分隔线分隔邮件的摘要。</p>
@@ -98,7 +98,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全出血分隔线分隔邮件中的发件人、收件人、主题和正文部分。</p>
@@ -116,7 +116,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>空白和副标题分隔了这些照片。</p>
@@ -132,7 +132,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -143,7 +143,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -168,7 +168,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_usage5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_usage5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -202,7 +202,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_fullbleed1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_fullbleed1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全出血分隔线示例</p>
@@ -212,7 +212,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全出血分隔线示例</p>
@@ -231,7 +231,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内嵌型分隔线示例</p>
@@ -241,7 +241,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内嵌型分隔线示例</p>
@@ -259,7 +259,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>副标题上的分隔线示例</p>
@@ -269,7 +269,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_type6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_type6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>副标题上的分割线示例</p>
@@ -302,7 +302,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dividers/components_dividers_specs.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers_specs.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>分隔线位于内容块的基线内。</p>

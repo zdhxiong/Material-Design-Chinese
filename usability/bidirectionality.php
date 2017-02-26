@@ -100,7 +100,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -111,7 +111,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_dont-typed.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_dont-typed.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -141,7 +141,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirror1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example using LTR UI</p>
@@ -151,7 +151,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirror2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This is an example using RTL UI in Arabic. The numbers are presented LTR.</p>
@@ -168,7 +168,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_LTR.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_LTR.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Text editing menu in LTR mode</strong></p>
@@ -181,7 +181,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_RTL.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_RTL.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Text editing menu in RTL mode</strong></p>
@@ -195,7 +195,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>LTR screen</strong></p>
@@ -210,7 +210,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>RTL screen</strong><strong> </strong></p>
@@ -228,7 +228,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>LTR screen </strong><br></p>
@@ -238,7 +238,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_mirroring5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong> </strong><strong>RTL screen with title, icons, and UI elements displayed flowing from right to left.</strong></p>
@@ -258,7 +258,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong> LTR</strong></p>
@@ -274,7 +274,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong> RTL</strong></p>
@@ -293,7 +293,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_1.png'); ?>"/>
                       </div>
                       <figcaption><br>
                         <p><strong> LTR</strong></p>
@@ -308,7 +308,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong> RTL</strong></p>
@@ -347,7 +347,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR back button</p>
@@ -357,7 +357,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>RTL back button</p>
@@ -370,7 +370,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR forward button</p>
@@ -380,7 +380,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>RTL forward button</p>
@@ -395,7 +395,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>In a LTR UI, a bicycle facing the right typically communicates a sense of moving forward.</p>
@@ -405,7 +405,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>In a RTL UI, a bicycle may similarly communicate a sense of moving forward with the bicycle pointing to the left.</p>
@@ -420,7 +420,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -431,7 +431,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -447,7 +447,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR volume with slider</p>
@@ -457,7 +457,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>RTL volume with speaker icon and slider mirrored</p>
@@ -475,7 +475,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when13.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when13.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR redo and undo button from the toolbar in Google Docs</p>
@@ -493,7 +493,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR chat icon</p>
@@ -503,7 +503,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when15.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when15.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>RTL chat icon</p>
@@ -521,7 +521,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The refresh icon shows time moving forward; the direction is clockwise. The icon is not mirrored.</p>
@@ -531,7 +531,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The history icon points backwards in time; the direction is counterclockwise. The icon is not mirrored.</p>
@@ -547,7 +547,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keyboard icon</p>
@@ -557,7 +557,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Headset icon</p>
@@ -574,7 +574,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Search icon</p>
@@ -584,7 +584,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Local cafe icon</p>
@@ -603,7 +603,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Since media playback buttons and the progress indicator reflect the direction of the tape, they are not mirrored. </p>
@@ -616,7 +616,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -632,7 +632,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -647,7 +647,7 @@
                   <div class="module">
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://github.com/devinmancuso/sketch-rtl&amp;sa=D&amp;ust=1481818040540000&amp;usg=AFQjCNEUfiWMoSUq38fjaakDn4SJsYhkSw" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
                           <div class="title">RTL Sketch plug-in</div>
                           <span class="subtitle">Flip existing designs and assets into an RTL format</span>
@@ -693,7 +693,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_other1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>LTR UI icon containing numbers.</p>
@@ -703,7 +703,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_other2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>RTL UI Icon localized in Arabic. Numbers must be localized for languages that use different numerals. </p>
@@ -721,7 +721,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/bidirectionality/usability_bidirectionality_other3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This example shows a RTL paragraph inside an English document. The buttons for indenting and lists should be RTL even though the primary UI direction is LTR.</p>

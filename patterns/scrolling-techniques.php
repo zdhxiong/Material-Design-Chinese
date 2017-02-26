@@ -25,7 +25,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -72,7 +72,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>App bar components can include: status bar, navigation bar, tab/search bar, and flexible space</p>
@@ -82,7 +82,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a status bar, navigation bar, tab/search bar, and flexible space</p>
@@ -121,7 +121,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The standard app bar</p>
@@ -135,8 +135,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -163,7 +163,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Status bar, toolbar, and tab bar</p>
@@ -178,8 +178,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -205,7 +205,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Status bar, toolbar, and flexible space</p>
@@ -219,8 +219,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -242,7 +242,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Status bar, toolbar, and flexible space</p>
@@ -256,8 +256,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -286,7 +286,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Flexible space</p>
@@ -300,8 +300,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -314,8 +314,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.webm" type="video/webm">
-                            <source src="../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

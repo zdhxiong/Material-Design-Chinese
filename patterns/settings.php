@@ -31,7 +31,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/settings/patterns_settings.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -86,7 +86,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/patterns_settings_sidenav.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sidenav.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Settings in the navigation drawer </p>
@@ -96,7 +96,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/patterns_settings_menu.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_menu.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Settings in the toolbar menu</p>
@@ -131,7 +131,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/patterns_settings_sliders.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sliders.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Important settings appear at the top of the list</p>
@@ -207,7 +207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/patterns_settings_subscreen2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Grouped settings for interruptions</p>
@@ -217,7 +217,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/patterns_settings_subscreen3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Related settings grouped under a subscreen</p>
@@ -302,7 +302,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/settings_switch1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/settings_switch1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Underneath the label, show the status text of the switch as "On" or "Off.” </p>
@@ -312,7 +312,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/settings/settings_switch2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/settings/settings_switch2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Add the switch itself and a longer description to a second screen.</p>

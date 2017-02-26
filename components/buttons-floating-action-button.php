@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/buttons-floating-action-button/components_buttons_fab.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_buttons_fab.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -85,7 +85,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动操作按钮</p>
@@ -95,7 +95,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>迷你型浮动操作按钮</p>
@@ -110,7 +110,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动操作按钮</p>
@@ -122,7 +122,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>迷你型浮动操作按钮</p>
@@ -141,8 +141,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -157,8 +157,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -178,7 +178,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -189,7 +189,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -205,7 +205,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -215,7 +215,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_content4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -233,7 +233,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -256,7 +256,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -273,7 +273,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -283,7 +283,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -298,7 +298,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -308,7 +308,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -343,8 +343,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -359,8 +359,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -381,8 +381,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -397,8 +397,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -423,8 +423,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -439,8 +439,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -481,8 +481,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -497,8 +497,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -520,8 +520,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -536,8 +536,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -557,8 +557,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -573,8 +573,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -592,7 +592,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -603,7 +603,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -622,8 +622,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -638,8 +638,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -659,8 +659,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -675,8 +675,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -695,7 +695,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -706,7 +706,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -722,7 +722,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -733,7 +733,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -749,7 +749,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -760,7 +760,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -774,7 +774,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -785,7 +785,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -801,7 +801,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -812,7 +812,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -828,7 +828,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -839,7 +839,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -860,8 +860,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -876,8 +876,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -899,8 +899,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -915,8 +915,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.webm" type="video/webm">
-                            <source src="../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -951,7 +951,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -966,7 +966,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -980,7 +980,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -994,7 +994,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1009,7 +1009,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>

@@ -45,7 +45,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>前七天</strong></p>

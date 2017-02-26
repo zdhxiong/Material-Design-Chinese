@@ -23,7 +23,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/navigational-transitions/patterns_navigation_transitions.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigation_transitions.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -70,8 +70,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -89,8 +89,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -129,8 +129,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -148,8 +148,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

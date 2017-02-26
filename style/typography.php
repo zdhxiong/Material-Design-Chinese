@@ -44,7 +44,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/style/typography/style_typography.png"/>
+                    <img alt="" src="<?php static_url('../static/media/style/typography/style_typography.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -120,7 +120,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_roboto1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_roboto1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples of Roboto</p>
@@ -133,7 +133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_roboto2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_roboto2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Roboto A-Z and numerals</p>
@@ -151,7 +151,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_weights1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weights1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Roboto font weights</p>
@@ -169,7 +169,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_noto1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_noto1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Noto Sans examples for English and CJK (Chinese, Japanese, and Korean)</p>
@@ -182,7 +182,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_noto2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_noto2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Noto Sans examples for Thai and Hindi (Devanagari)</p>
@@ -200,7 +200,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_weight1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weight1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Noto Sans CJK font weights</p>
@@ -215,7 +215,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_weight2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weight2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Noto Sans Thai and Hindi (Devanagari) font weights</p>
@@ -226,7 +226,7 @@
               </div>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/fonts&amp;sa=D&amp;ust=1481817971067000&amp;usg=AFQjCNFzeRUNQKxis0ia4IFE32tRJPSBGQ" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">Google font directory</div>
                     <span class="subtitle">A directory of open-source web fonts</span>
@@ -270,7 +270,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_scale.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_scale.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -282,7 +282,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_01_display1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_01_display1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Display style, English</p>
@@ -292,7 +292,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_02_display2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_02_display2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -302,7 +302,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_03_headline1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_03_headline1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Headline style, English</p>
@@ -312,7 +312,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_04_headline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_04_headline2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -324,7 +324,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_05_title1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_05_title1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Title style, English</p>
@@ -334,7 +334,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_06_title2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_06_title2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -346,7 +346,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_07_subhead1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_07_subhead1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using subheading style, English</p>
@@ -356,7 +356,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_08_subhead2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_08_subhead2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -366,7 +366,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_09_body-1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_09_body-1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Body style, English</p>
@@ -376,7 +376,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_10_body2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_10_body2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -386,7 +386,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_11_body3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_11_body3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Body style, English</p>
@@ -396,7 +396,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_12_body4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_12_body4.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -408,7 +408,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_13_button1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_13_button1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples using Button style, English</p>
@@ -418,7 +418,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_14_button2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_14_button2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -435,7 +435,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_style1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style1.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -445,7 +445,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_style2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example, dense language script</p>
@@ -460,7 +460,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_japanese1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a subheading, Japanese</p>
@@ -470,7 +470,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_japanese2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body, Japanese</p>
@@ -483,7 +483,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_japanese3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body 1, Japanese</p>
@@ -493,7 +493,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_chinese1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a subheading, Traditional Chinese</p>
@@ -506,7 +506,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_chinese2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body, Traditional Chinese</p>
@@ -516,7 +516,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_chinese3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body 1, Traditional Chinese</p>
@@ -536,7 +536,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_style3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style3.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -546,7 +546,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_style4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example, tall language scripts</p>
@@ -561,7 +561,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_hindi1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a subheading, Hindi</p>
@@ -571,7 +571,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_hindi2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body, Hindi</p>
@@ -584,7 +584,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_hindi3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body1, Hindi</p>
@@ -594,7 +594,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_thai1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a subheading, Thai</p>
@@ -607,7 +607,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_thai2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body, Thai</p>
@@ -617,7 +617,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_example_thai3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Body1, Thai</p>
@@ -650,7 +650,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_lineheight1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>English and English-like type and leading</p>
@@ -663,7 +663,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_lineheight2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Pairing examples</p>
@@ -676,7 +676,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_lineheight3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Isolated examples – Increased line height</p>
@@ -694,7 +694,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_lineheight_tall1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Line height for tall and dense languages</p>
@@ -702,7 +702,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_lineheight_tall2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Line height pairing example, Thai and Hindi</p>
@@ -715,7 +715,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_lineheight_dense2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_dense2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Line height pairing example, Chinese and Japanese</p>
@@ -750,7 +750,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_contrast.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_contrast.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -762,7 +762,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_15_contrast1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_15_contrast1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Contrast over light background</p>
@@ -772,7 +772,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_16_contrast2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_16_contrast2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Contrast over dark background</p>
@@ -787,7 +787,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_17_contrast3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_17_contrast3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Contrast over image</p>
@@ -797,7 +797,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_18_contrast4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_18_contrast4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Contrast over illustration</p>
@@ -817,7 +817,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_19_dynamic1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_19_dynamic1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples of dynamic type</p>
@@ -827,7 +827,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_20_dynamic2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_20_dynamic2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -839,7 +839,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_21_dynamic3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_21_dynamic3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>UI application of dynamic type </p>
@@ -849,7 +849,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_22_dynamic4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_22_dynamic4.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -864,7 +864,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_linebreaks1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -874,7 +874,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_linebreaks2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -892,7 +892,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_tracking.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_tracking.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -912,7 +912,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_linelengths1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Ideal line lengths for English body text. The numbers represent the number of characters per line.</p>
@@ -920,7 +920,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/typography/style_typography_styles_linelengths2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Ideal line lengths for short lines of text in English. The numbers represent the number of characters per line.</p>

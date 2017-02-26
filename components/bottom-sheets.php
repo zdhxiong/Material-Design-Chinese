@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/bottom-sheets/components_bottom_sheets.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottom_sheets.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -91,7 +91,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>模态化的底部卡片从应用内容的上方滑入。</p>
@@ -101,7 +101,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>固定显示的底部卡片是应用布局的组成部分。</p>
@@ -138,7 +138,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>将固定显示的底部卡片引入到布局中，会使得浮动操作按钮（FAB）垂直移动到图片位置。</p>
@@ -152,7 +152,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>固定显示的底部卡片，可以使地图上的位置信息细节保留在屏幕上。</p>
@@ -162,7 +162,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>无论用户在主视图中如何导航，播放控件都会显示在固定显示的底部卡片上方</p>
@@ -180,7 +180,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>平板上，与屏幕等宽的固定显示的底部卡片</p>
@@ -188,7 +188,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>平板上，内嵌式的固定显示的底部卡片</p>
@@ -203,7 +203,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在桌面端，一个固定显示的底部卡片的内容可以移动到一个新的卡片上去。在大屏幕设备中，屏幕左侧的卡片会比底部卡片更为合适。</p>
@@ -235,7 +235,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在列表中包含一系列操作项的模态化底部卡片</p>
@@ -245,7 +245,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在网格中包含一系列操作项的模态化底部卡片</p>
@@ -268,7 +268,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部卡片可以将图标与菜单项关联。</p>
@@ -278,7 +278,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含副文本的菜单项</p>
@@ -294,7 +294,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在深层链接的底部卡片上，可以直接显示一个单词的解释，用户无需打开词典应用。</p>
@@ -308,7 +308,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>右侧 app 的底部卡片显示来自左侧 app 的内容。这允许用于在不离开当前 app 的情况下查看来自另一 app 的内容。</p>
@@ -330,7 +330,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -341,7 +341,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -358,7 +358,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -367,7 +367,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -378,7 +378,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -387,7 +387,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -438,7 +438,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal15.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal15.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单可以使选项和触发它的元素的位置更靠近，不建议将这些菜单项放在底部卡片中。</p>
@@ -453,7 +453,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal13.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal13.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>平板上的网格列表底部卡片</p>
@@ -461,7 +461,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_modal14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>平板上的长列表底部卡片</p>
@@ -494,7 +494,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>向下滑动底部卡片来关闭</p>
@@ -504,7 +504,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击底部卡片以外的区域来关闭</p>
@@ -512,7 +512,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击 X 关闭</p>
@@ -564,7 +564,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>手机端的列表样式的底部卡片的尺寸标注</p>
@@ -574,7 +574,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>手机端的列表样式的底部卡片</p>
@@ -597,7 +597,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>有表头的底部列表尺寸标注</p>
@@ -607,7 +607,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>有表头的底部列表</p>
@@ -629,7 +629,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>网格样式的底部卡片的尺寸标注，其中包含一组跳转到其他应用的操作项</p>
@@ -639,7 +639,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>网格样式的底部卡片，其中包含一组跳转到其他应用的操作项</p>
@@ -655,7 +655,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部卡片的初始高度不应超过 16:9。</p>
@@ -665,7 +665,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部卡片的最小高度和它包含的列表的高度相关联。</p>
@@ -715,7 +715,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-sheets/components_bottomsheets_specs11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>各种桌面屏幕尺寸的断点</p>

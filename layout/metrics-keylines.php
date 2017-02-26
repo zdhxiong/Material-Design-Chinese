@@ -50,7 +50,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_baseline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of baseline grid</p>
@@ -60,7 +60,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_baseline3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of baseline grid</p>
@@ -77,7 +77,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_baseline5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of typography in a baseline grid</p>
@@ -105,8 +105,8 @@
               <h1>Templates</h1>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai" title="Mobile layout template">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile layout template">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Mobile layout template</div>
                       <span class="subtitle">2.23 MB (.ai) </span>
@@ -117,8 +117,8 @@
               </p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai" title="Tablet layout template">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet layout template">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Tablet layout template</div>
                       <span class="subtitle">1.39 MB (.ai) </span>
@@ -129,8 +129,8 @@
               </p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai" title="Desktop Layout Template">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Layout Template">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Desktop Layout Template</div>
                       <span class="subtitle">89.40 MB (.ai) </span>
@@ -149,7 +149,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -162,7 +162,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -183,7 +183,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -195,7 +195,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -219,7 +219,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -233,7 +233,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -257,7 +257,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -272,7 +272,7 @@
                     <h2>
                       <figure class="s-tag-media">
                         <div class="media">
-                          <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png"/>
+                          <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png'); ?>"/>
                         </div>
                       </figure>
                     </h2>
@@ -297,7 +297,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -314,7 +314,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -336,7 +336,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -355,7 +355,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -379,7 +379,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop full screen</p>
@@ -395,7 +395,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Horizontal window</p>
@@ -405,7 +405,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical window</p>
@@ -454,7 +454,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Screen width</p>
@@ -465,7 +465,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of screen width on mobile</p>
@@ -478,7 +478,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Element width</p>
@@ -488,7 +488,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of element width on mobile</p>
@@ -523,7 +523,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_incremental2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This example card width has a horizontal increment of 8x.</p>
@@ -531,7 +531,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_incremental3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The height of the example extended app bar is 2x the increment, and the width of the right panel is 5x the increment.</p>
@@ -539,7 +539,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_incremental4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Increments can work across many elements in material design UI.</p>
@@ -572,7 +572,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Avatar: 40dp <br>
@@ -582,7 +582,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch target height: 48dp <br>
@@ -593,7 +593,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of touch targets</p>
@@ -601,7 +601,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of touch targets and buttons</p>

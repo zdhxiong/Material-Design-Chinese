@@ -36,7 +36,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/cards/components_cards.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/cards/components_cards.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -87,7 +87,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>卡片的例子</p>
@@ -104,7 +104,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>卡片集的例子</p>
@@ -114,7 +114,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>卡片集的例子</p>
@@ -139,7 +139,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -152,7 +152,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -170,7 +170,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -181,7 +181,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -195,7 +195,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -206,7 +206,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -244,7 +244,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_content1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_content1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>该卡片集包含拥有不同布局的卡片。</p>
@@ -252,7 +252,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_content2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_content2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>该卡片集包含拥有不同类型和布局的卡片。</p>
@@ -262,7 +262,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_content3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_content3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>可以利用排版来强调主要内容。</p>
@@ -270,7 +270,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_content4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_content4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>该卡片集包含拥有不同布局和内容层次结构的卡片。</p>
@@ -316,7 +316,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>卡片以从左到右、从上到下的顺序排列。</p>
@@ -333,7 +333,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>超过卡片最大高度的卡片内容会被截断，不会滚动。</p>
@@ -347,7 +347,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -358,7 +358,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -372,7 +372,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在桌面端，卡片内容可以展开和滚动。</p>
@@ -389,7 +389,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>遍历焦点时选中一个操作</p>
@@ -397,7 +397,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_behavior7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_behavior7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>原来隐藏的文本展开后，焦点落在了补充操作上</p>
@@ -433,7 +433,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含操作区域、富媒体和文本的卡片</p>
@@ -441,7 +441,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards17.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards17.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含两个操作区域、卡片头部、富媒体、文本和追加操作的卡片</p>
@@ -449,7 +449,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards18.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards18.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含四个操作区域、卡片头部、富媒体和追加操作的卡片</p>
@@ -457,7 +457,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards19.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards19.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含两个操作区域、卡片头部、文本和追加操作的卡片</p>
@@ -473,7 +473,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个卡片在操作区域有 UI 控件。</p>
@@ -481,7 +481,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个卡片在操作区域有分段按钮。</p>
@@ -489,7 +489,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个卡片在操作区域有一个滑块。</p>
@@ -497,7 +497,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个卡片在操作区域有 Tab 选项卡。</p>
@@ -514,7 +514,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_overflow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_overflow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个卡片在右上角有一个弹出菜单。</p>
@@ -531,7 +531,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action2-do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action2-do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -542,7 +542,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action3-dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action3-dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -584,7 +584,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards20.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards20.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>主标题顶部内边距：24dp<br>
@@ -623,7 +623,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards28.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards28.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -643,8 +643,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/cards/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
-                            <source src="../static/media/components/cards/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/cards/layout_adaptiveUI_grid_02_margins.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/cards/layout_adaptiveUI_grid_02_margins.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -676,7 +676,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_elevation.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_elevation.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>卡片静止状态海拔高度为 2dp，浮动状态海拔高度为 8dp</p>
@@ -684,7 +684,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_elevation_desktop.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_elevation_desktop.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在桌面端，卡片的静止状态海拔高度为 0dp（左侧），鼠标悬浮状态为 8dp（右侧）</p>
@@ -714,7 +714,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards29.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards29.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -749,7 +749,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards30.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards30.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -777,7 +777,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards31.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards31.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -811,7 +811,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards32.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards32.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -852,7 +852,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards33.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards33.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -894,7 +894,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards34.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards34.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -915,7 +915,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards35.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards35.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -948,7 +948,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards36.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards36.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -973,7 +973,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards37.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards37.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1007,7 +1007,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards24.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards24.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1040,7 +1040,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards25.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards25.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1073,7 +1073,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards26.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards26.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1095,7 +1095,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards41.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards41.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1111,7 +1111,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards33.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards33.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此示例使用全出血分隔线。和可展开列表类似，此卡片使用全宽度的分隔线表示扩展。</p>
@@ -1126,7 +1126,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此示例使用全出血分隔线，来分隔滑块和列表。</p>
@@ -1141,7 +1141,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/cards/components_cards_action4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/cards/components_cards_action4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此示例使用内嵌式分隔线把餐厅信息和预定部分分离。</p>

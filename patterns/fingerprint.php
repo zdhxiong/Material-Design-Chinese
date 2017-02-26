@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/fingerprint/patterns_fingerprint.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/patterns_fingerprint.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -96,8 +96,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -112,8 +112,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -132,7 +132,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_03_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_03_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户可以在使用现有账户进行购买后，立即验证他们的指纹。</p>
@@ -149,8 +149,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -171,8 +171,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -214,7 +214,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_06-.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_06-.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>指纹验证对话框</p>
@@ -227,7 +227,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_07.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_07.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>指纹验证对话框规格：</p>
@@ -270,7 +270,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_08.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_08.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>默认状态要求用户将他们的手指放在传感器上</p>
@@ -297,7 +297,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_09.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_09.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>表示指纹已被识别的成功消息</p>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>指出无法识别指纹的错误信息</p>
@@ -379,7 +379,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_11_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>40dp 的圆圈</p>
@@ -389,7 +389,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_11_state2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>24dp 的系统图标</p>
@@ -412,7 +412,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_12_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>默认图标</p>
@@ -425,7 +425,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_12_state2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框和默认图标</p>
@@ -443,7 +443,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_13_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>有对比度的有色图标</p>
@@ -458,7 +458,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_15_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -483,7 +483,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_13_state2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浅色背景下，使用带深色圆圈背景的指纹图标</p>
@@ -513,7 +513,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_14_state1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>没有圆形背景的图标</p>
@@ -526,7 +526,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_14_state2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>没有圆形背景图标的对话框</p>
@@ -542,7 +542,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_15_state2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -581,7 +581,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_16-.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_16-.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>重新验证对话框</p>
@@ -597,7 +597,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/fingerprint/components_fp_17-.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_17-.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>询问用户备用密码的对话框</p>

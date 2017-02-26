@@ -28,7 +28,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/progress-activity/components_progress_and_activity.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/progress-activity/components_progress_and_activity.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -77,8 +77,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -98,8 +98,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -113,8 +113,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -135,8 +135,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -157,8 +157,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -173,8 +173,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -210,8 +210,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -227,8 +227,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -247,8 +247,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -263,8 +263,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -284,8 +284,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -306,8 +306,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -323,8 +323,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

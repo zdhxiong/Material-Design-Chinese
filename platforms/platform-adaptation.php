@@ -43,7 +43,7 @@
               <p>以下准则指示你何时应该适配本机平台的设计惯例，何时可以不进行适配。平台设计惯例在不断的改进，Material Design 也在和它们一起发展，以提高我们的设计模式的质量。</p>
               <figure class="s-tag-media">
                 <div class="media">
-                  <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png"/>
+                  <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png'); ?>"/>
                 </div>
               </figure>
             </div>
@@ -71,7 +71,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
@@ -82,7 +82,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
@@ -96,7 +96,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
@@ -107,7 +107,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
@@ -126,7 +126,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
@@ -137,7 +137,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
@@ -151,7 +151,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
@@ -162,7 +162,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
@@ -181,7 +181,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
@@ -192,7 +192,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS </strong></p>
@@ -207,7 +207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Web</strong></p>
@@ -231,8 +231,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.webm" type="video/webm">
-                            <source src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -248,8 +248,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.webm" type="video/webm">
-                            <source src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -266,7 +266,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -278,7 +278,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -299,7 +299,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Android</strong></p>
@@ -310,7 +310,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
@@ -324,7 +324,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Web</strong></p>

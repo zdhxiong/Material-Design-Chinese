@@ -24,7 +24,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/motion/transforming-material/03-transforming-material.png"/>
+                    <img alt="" src="<?php static_url('../static/media/motion/transforming-material/03-transforming-material.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -74,8 +74,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -96,8 +96,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -120,8 +120,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -136,8 +136,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -174,8 +174,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -191,8 +191,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_02_DontRadial_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_02_DontRadial_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -211,8 +211,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_03_DontOval_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_03_DontOval_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -228,8 +228,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_03_DontShape_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_03_DontShape_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -250,8 +250,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -266,8 +266,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -309,8 +309,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/transforming-material/Join_01_JoinDivide_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/transforming-material/Join_01_JoinDivide_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

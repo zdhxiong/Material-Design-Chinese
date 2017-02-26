@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/dialogs/components_dialogs.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -99,7 +99,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_content1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_content1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框示例</p>
@@ -109,7 +109,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全屏对话框示例</p>
@@ -136,7 +136,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>将对话框中的可滚动列表的标题固定，以确保标题和被选中的条目可以同时可见。</p>
@@ -176,7 +176,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_alerts_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_alerts_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -187,7 +187,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_alerts_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_alerts_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -209,7 +209,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -220,7 +220,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_alerts4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_alerts4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -255,7 +255,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simplemenu1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单菜单示例</p>
@@ -265,7 +265,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simplemenu2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -301,7 +301,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单对话框示例</p>
@@ -311,7 +311,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>移动设备上对话框的宽度为单位的倍数。</p>
@@ -329,7 +329,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -340,7 +340,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -366,7 +366,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -402,7 +402,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在用户按下“OK”按钮前，不会提交对话框中的铃声选择。</p>
@@ -412,7 +412,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>文本左侧有控件的确认对话框示例。</p>
@@ -428,7 +428,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户通过选择一个日期，并按下“OK”按钮来设置日期。</p>
@@ -438,7 +438,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户用过移动时钟指针，并按下“OK”按钮来设置时间。</p>
@@ -454,7 +454,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -465,7 +465,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_confirmation6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -508,7 +508,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全屏对话框支持使用简单对话框来选择日期。</p>
@@ -518,7 +518,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>从全屏对话框中打开日期选择器</p>
@@ -543,7 +543,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -554,7 +554,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -571,7 +571,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此设置示例中的返回箭头表示任何更改都将在选择后立即保存。</p>
@@ -581,7 +581,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击此设置示例中的“X”将放弃所有更改，更改只有在点击保存按钮后才会保存。</p>
@@ -600,7 +600,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -611,7 +611,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_fullscreen7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -648,7 +648,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此对话框包含标题、内容和操作。</p>
@@ -669,7 +669,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_swapped_actions_16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -685,7 +685,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_swapped_actions_17.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_17.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -705,7 +705,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_usage5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -729,7 +729,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一致的操作按钮位置、文本颜色有利于把操作和普通文本区分开来，即使操作处于禁用状态。</p>
@@ -737,7 +737,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在做出选择之前，肯定按钮更有可能处于禁用状态。而取消按钮不会被禁用。</p>
@@ -760,7 +760,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内容的间距</p>
@@ -768,7 +768,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_actions.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_actions.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在内容区域中，内容下方的 24dp 的边距有助于将其与操作分隔开。</p>
@@ -779,7 +779,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>滚动状态的内容的内边距</p>
@@ -798,7 +798,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮的宽度和边距的详细信息</p>
@@ -817,7 +817,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮区域的细节</p>
@@ -825,7 +825,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_consistent_placement3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>滚动状态下，对话框的内容和操作之间的描边。</p>
@@ -849,7 +849,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_sidebyside.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_sidebyside.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮高度：36dp<br>
@@ -867,7 +867,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_stacked.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_stacked.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>每个按钮的可触摸高度：48dp<br>
@@ -886,7 +886,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单对话框的参考线</p>
@@ -914,7 +914,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_simple-redlines.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple-redlines.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单对话框的标注</p>
@@ -939,7 +939,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全屏对话框应用栏的详细信息</p>
@@ -954,7 +954,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含单行文本应用栏的全屏对话框。</p>
@@ -964,7 +964,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/dialogs/components_dialogs_updates12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>请注意，此图片仅供参考。长标题应该放置在全屏对话框的内容区域。</p>

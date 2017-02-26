@@ -9,31 +9,31 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p><strong>Mobile only</strong></p>
-          <h1>Gestures include <strong>touch mechanics</strong> (what your fingers do on the screen) and <strong>touch activities</strong> (results of specific gestures).</h1>
+          <p><strong>仅支持移动端</strong></p>
+          <h1>手势包括<strong>触摸方法</strong>（手指在屏幕上做什么）和<strong>触摸动作</strong>（特定手势引发的结果）。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>A <strong>touch mechanic</strong> may cause different outcomes, depending on the context in which it is used. For example, a <strong>long press</strong> may select an element like a list item.</p>
-                <p>A <strong>touch activity</strong> may be achieved through combining multiple touch mechanics. For example, by using the touch mechanics of pinch open, double-touch, or double-touch and dragging, a user may zoom in on a view.</p>
+                <p><strong>触摸方法</strong>根据所处情境不同可能导致不同的结果。例如，<strong>长按</strong>可以选择像列表项之类的元素。</p>
+                <p><strong>触摸动作</strong>可以通过组合多个触摸方法来实现。例如，用户可以使用捏放、双击或双击拖拽等触摸方法，来放大视图。</p>
               </div>
               <div class="module">
-                <h3><strong>Types of drag, swipe, and fling activities</strong></h3>
-                <p>Scroll<br>
+                <h3><strong>拖拽类型，滑动，和Types of drag, swipe, and fling activities</strong></h3>
+                <p>滚动<br>
                   Reveal upon scroll<br>
-                  Pan<br>
-                  Dismiss<br>
-                  Swipe to refresh<br>
-                  Edge swipe<br>
-                  Paging swipe<br>
+                  平移<br>
+                  忽视<br>
+                  滑动刷新<br>
+                  边缘滑动<br>
+                  页面滑动<br>
                   Overscroll collapse<br>
-                  Menu open<br>
-                  Tilt</p>
+                  打开菜单<br>
+                  倾斜</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/gestures/patterns_gestures.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns_gestures.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -82,7 +82,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch</p>
@@ -94,7 +94,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Double touch</p>
@@ -106,7 +106,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Drag, Swipe, or Fling</p>
@@ -120,7 +120,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Long press</p>
@@ -133,7 +133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Long-press drag</p>
@@ -145,7 +145,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Double-touch drag</p>
@@ -159,7 +159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Pinch open</p>
@@ -171,7 +171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Pinch closed</p>
@@ -183,7 +183,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Two-finger touch</p>
@@ -197,7 +197,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Two-finger swipe, drag, fling</p>
@@ -209,7 +209,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Two-finger long-press</p>
@@ -221,7 +221,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Two-finger long-press drag</p>
@@ -237,7 +237,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Two-finger double touch</p>
@@ -249,7 +249,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Rotate</p>
@@ -434,7 +434,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of scroll directions</p>
@@ -451,7 +451,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of scroll directions</p>
@@ -474,7 +474,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a pan</p>
@@ -493,7 +493,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a dismiss gesture</p>
@@ -510,7 +510,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of the swipe to refresh gesture</p>
@@ -529,7 +529,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an edge swipe</p>
@@ -550,7 +550,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a paging swipe</p>
@@ -568,7 +568,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an overscroll collapse</p>
@@ -587,7 +587,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a menu open drag</p>
@@ -606,7 +606,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a tilt</p>

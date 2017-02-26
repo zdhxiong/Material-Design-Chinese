@@ -34,7 +34,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -82,7 +82,7 @@
                     <p>Changes may not be immediately obvious to users when this gesture is used in views that can change significantly upon refresh. For example, the refresh may non-sequentially delete, reorder, modify, and insert items or change only off-screen items.</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html&amp;sa=D&amp;ust=1481818005820000&amp;usg=AFQjCNFmsKLzRMsBHOQ8FvmJkvq9uAyz4A" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Swipe to refresh layout</div>
                           <span class="subtitle">Refresh the contents of a view via a vertical swipe gesture</span>
@@ -96,8 +96,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -121,7 +121,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -132,7 +132,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -146,7 +146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -182,7 +182,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -192,7 +192,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -207,7 +207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -226,7 +226,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -236,7 +236,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -272,8 +272,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -289,8 +289,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -319,8 +319,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -339,8 +339,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -355,8 +355,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -371,8 +371,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.webm" type="video/webm">
-                            <source src="../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

@@ -38,7 +38,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/buttons/components_buttons.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -101,7 +101,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动操作按钮</p>
@@ -111,7 +111,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动按钮</p>
@@ -121,7 +121,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮</p>
@@ -135,7 +135,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动操作按钮的示例</p>
@@ -145,7 +145,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动按钮的示例</p>
@@ -155,7 +155,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮的示例</p>
@@ -176,7 +176,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_main.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_main.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -292,7 +292,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_keyline4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮高度：36dp<br>
@@ -311,7 +311,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_radius.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_radius.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -332,7 +332,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main18.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main18.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>默认按钮</p>
@@ -340,7 +340,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main20.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main20.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮文本：14pt Roboto medium<br>
@@ -353,7 +353,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main19.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main19.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>密集型按钮</p>
@@ -361,7 +361,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main21.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main21.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按钮文本：13pt Roboto medium<br>
@@ -381,7 +381,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_keyline1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框中的扁平按钮示例</p>
@@ -428,7 +428,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框适合使用扁平按钮</p>
@@ -438,7 +438,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮能最大限度的把用户焦点聚焦在内容上</p>
@@ -452,7 +452,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -463,7 +463,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -480,7 +480,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main13.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main13.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮亮色主题</p>
@@ -495,7 +495,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮暗色主题</p>
@@ -516,7 +516,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_dialogs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框文本内边距：24dp <br>
@@ -532,7 +532,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_dialogs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框中的扁平按钮</p>
@@ -554,7 +554,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_focus_flat.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_focus_flat.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>扁平按钮在聚焦时有 12% 的不透明度</p>
@@ -573,8 +573,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons/components-buttons-flatbuttons.webm" type="video/webm">
-                            <source src="../static/media/components/buttons/components-buttons-flatbuttons.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-flatbuttons.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-flatbuttons.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -611,7 +611,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>使用浮动按钮，可以使按钮在有较多内容的布局中更加显眼。</p>
@@ -621,7 +621,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动按钮可以分隔不同的内容项。</p>
@@ -635,7 +635,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -646,7 +646,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -664,7 +664,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main15.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main15.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动按钮亮色主题</p>
@@ -680,7 +680,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动按钮暗色主题</p>
@@ -707,7 +707,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_main17.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main17.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>暗色/亮色</strong> <strong>主题</strong></p>
@@ -732,8 +732,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons/components-buttons-raisedbuttons.webm" type="video/webm">
-                            <source src="../static/media/components/buttons/components-buttons-raisedbuttons.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-raisedbuttons.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-raisedbuttons.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -768,7 +768,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_keyline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部固定按钮的高度为 48dp</p>
@@ -778,7 +778,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部固定按钮示例</p>
@@ -795,7 +795,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_keyline3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -814,7 +814,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对话框中的底部固定按钮</p>
@@ -824,7 +824,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_usage_buttons6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>可滚动对话框中的底部固定按钮</p>
@@ -860,7 +860,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_dropdown1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>关闭状态的下拉按钮、打开状态的下拉菜单、选中状态的下拉菜单</p>
@@ -875,7 +875,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_mobile2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_mobile2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>带有列表菜单的下拉按钮</p>
@@ -898,7 +898,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_dropdown2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>通用、分段、可编辑下拉按钮，在正常、鼠标悬浮、聚焦、按下和选择状态时的示例</p>
@@ -915,8 +915,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm" type="video/webm">
-                            <source src="../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -940,7 +940,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_dropdown3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>桌面端下拉列表</p>
@@ -992,7 +992,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>同时只能有一个选项被选中</p>
@@ -1001,7 +1001,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>没有选项被选中</p>
@@ -1011,7 +1011,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>多选</p>
@@ -1020,7 +1020,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_togglebuttons4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个选项被选中</p>
@@ -1045,7 +1045,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/components_buttons_other1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_other1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>图标切换的正常、鼠标悬浮、聚焦、按下、和禁用状态</p>
@@ -1053,7 +1053,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/buttons/inline-components_buttons_toggleicons.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/buttons/inline-components_buttons_toggleicons.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>图标切换获取焦点时的颜色和不透明度和图标的颜色相关。</p>

@@ -26,7 +26,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/loading-images/patterns_loading_images.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -70,7 +70,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/loading-images/patterns_loadingimages1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Opacity, exposure, and saturation recommendations for loading images</p>
@@ -88,7 +88,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full opacity and exposure</p>
@@ -98,7 +98,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Color saturation</p>
@@ -119,8 +119,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/loading-images/patterns_loadingimages_largescreen.webm" type="video/webm">
-                            <source src="../static/media/patterns/loading-images/patterns_loadingimages_largescreen.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -167,7 +167,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -185,8 +185,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -210,8 +210,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

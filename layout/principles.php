@@ -52,7 +52,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/principles/layout_principles_papercraft_paper1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Seams in two sheets of material</p>
@@ -70,7 +70,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/principles/layout_principles_papercraft_paper2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Steps in two sheets of overlapping material</p>
@@ -104,7 +104,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/principles/layout_principles_papercraft_actions1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions1.png'); ?>"/>
                       </div>
                       <figcaption><br>
                         <p>Floating action buttons straddling steps</p>
@@ -122,7 +122,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/principles/layout_principles_papercraft_actions2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions2.png'); ?>"/>
                       </div>
                       <figcaption><br>
                         <p>Floating action buttons straddling seams</p>

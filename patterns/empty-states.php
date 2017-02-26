@@ -28,7 +28,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/empty-states/patterns_empty_states.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_empty_states.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -80,7 +80,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -91,7 +91,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -132,7 +132,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_starter.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个图书阅读应用可以为所有用户提供几本免费流行的书籍，以便用户可以立即开始探索该应用。</p>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/patterns_emptystates_education.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户在一个电影应用中观看视频之前，显示一个可移除的卡片，以说明服务的功能和优点。</p>
@@ -177,7 +177,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/Empty-state_best_match_01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>最佳匹配示例</p>
@@ -187,7 +187,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/empty-states/Empty-state_best_match_02.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>提供最佳匹配是一个处理用户拼写错误，且不把责任推给用户的好方法。</p>

@@ -11,7 +11,7 @@
         <div>
           <figure class="s-tag-media">
             <div class="media">
-              <img alt="" src="../static/media/style/imagery/style_imagery_introduction.png"/>
+              <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>"/>
             </div>
             <figcaption>
               <h1>Imagery is more than decoration. It’s a powerful tool to help you communicate and differentiate your product.</h1>
@@ -39,7 +39,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/style/imagery/style_imagery.png"/>
+                    <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -81,7 +81,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_principles1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Personal relevance</p>
@@ -92,7 +92,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_principles2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Information</p>
@@ -103,7 +103,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_principles3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Delight</p>
@@ -122,7 +122,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_principles4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Use imagery that is context-relevant.</p>
@@ -140,7 +140,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_principles5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Background imagery can be obscured when engaging with foreground content.</p>
@@ -173,7 +173,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_mediums1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -184,7 +184,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_mediums2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -204,7 +204,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -215,7 +215,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -229,7 +229,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -240,7 +240,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_stock4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -259,7 +259,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -270,7 +270,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -284,7 +284,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -295,7 +295,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -309,7 +309,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -320,7 +320,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_focus6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -339,7 +339,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -350,7 +350,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -364,7 +364,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -375,7 +375,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_bestpractices_narrative4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -409,7 +409,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_resolution1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -420,7 +420,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_resolution2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -439,7 +439,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_scale1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Within a gallery context, introduce thumbnails of various sizes to convey content hierarchy. </p>
@@ -449,7 +449,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_scale2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Encourage multiple containers living in the same ecosystem. </p>
@@ -467,7 +467,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1. Dark end of gradient: Opacity values depend on context<br>
@@ -488,7 +488,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>In this image, the gradient is 60% black.</p>
@@ -498,7 +498,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This is the gradient which has been applied to the image at the left.</p>
@@ -511,7 +511,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -522,7 +522,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -536,7 +536,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -547,7 +547,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -561,7 +561,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -572,7 +572,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_text6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -593,7 +593,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_thumbs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Avatars make an app feel more personal – and occupy minimal space.</p>
@@ -603,7 +603,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_thumbs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>A brand avatar communicates information at a glance. </p>
@@ -620,7 +620,7 @@
                     <h4 class="related">Related</h4>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/material/drawables.html%23ColorExtract&amp;sa=D&amp;ust=1481817965517000&amp;usg=AFQjCNHvJEDlsiZBE-TLcyhpwlntq_lEsA" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Extract prominent colors from an image</div>
                           <span class="subtitle"></span>
@@ -632,7 +632,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_hero1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Feature</p>
@@ -643,7 +643,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_hero2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Integrated hero image</p>
@@ -662,7 +662,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_gallery1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Photo Grid</p>
@@ -672,7 +672,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/imagery/style_imagery_integration_gallery2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Gallery image</p>

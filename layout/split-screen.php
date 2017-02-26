@@ -59,7 +59,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/split-screen/patterns_splitscreen_intro.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Split screen shown in portrait mode on mobile (on the left) and landscape mode on tablet (on the right)</p>
@@ -122,7 +122,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>An app may use the same layout across mobile (left) and tablet (right).</p>
@@ -130,7 +130,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>An app may use different layouts across mobile (left) and tablet (right).</p>
@@ -149,7 +149,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>When the split screen is active, the aspect ratio of an app in portrait orientation is 16:9 on mobile. </p>
@@ -159,7 +159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>When the split screen is active, the aspect ratio of an app in portrait orientation is 34.15% on tablet.</p>

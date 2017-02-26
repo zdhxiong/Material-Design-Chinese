@@ -32,7 +32,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/lists/components_lists.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/lists/components_lists.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -84,7 +84,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>列表</p>
@@ -94,7 +94,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>行和瓦片</p>
@@ -118,7 +118,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>典型列表浏览方式</p>
@@ -156,7 +156,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_behavior1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_behavior1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -167,7 +167,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_behavior2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_behavior2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -201,7 +201,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_content1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_content1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>把最易分辨的元素放在瓦片左边，不易分辨的元素放在瓦片右边。</p>
@@ -224,7 +224,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_content2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_content2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>主操作占据了瓦片中大部分空间。辅助操作放在瓦片右侧。</p>
@@ -287,7 +287,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行列表规格</p>
@@ -301,7 +301,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行列表示例</p>
@@ -318,7 +318,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行列表规格</p>
@@ -331,7 +331,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行列表示例</p>
@@ -349,7 +349,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>三行列表规格</p>
@@ -362,7 +362,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>三行列表示例</p>
@@ -382,7 +382,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行列表</p>
@@ -392,7 +392,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行列表示例</p>
@@ -405,7 +405,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>单行列表规格</strong></p>
@@ -419,7 +419,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single2_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>紧凑型单行列表规格</strong></p>
@@ -442,7 +442,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的单行列表</p>
@@ -452,7 +452,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的单行列表示例</p>
@@ -466,7 +466,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的单行列表规格</strong></p>
@@ -481,7 +481,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single5_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的紧凑型单行列表规格</strong></p>
@@ -505,7 +505,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的单行列表</p>
@@ -515,7 +515,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的单行列表示例</p>
@@ -529,7 +529,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的单行列表规格</strong></p>
@@ -544,7 +544,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single8_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的紧凑型单行列表规格</strong></p>
@@ -569,7 +569,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像和图标的单行列表</p>
@@ -579,7 +579,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像和图标的单行列表示例</p>
@@ -592,7 +592,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像和图标的单行列表规格</strong></p>
@@ -608,7 +608,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_single11_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像和图标的紧凑型单行列表规格</strong></p>
@@ -639,7 +639,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行列表</p>
@@ -649,7 +649,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行列表示例</p>
@@ -662,7 +662,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>两行列表规格：</strong></p>
@@ -676,7 +676,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two2_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>密集型两行列表规格：</strong></p>
@@ -705,7 +705,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的两行列表</p>
@@ -715,7 +715,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的两行列表示例</p>
@@ -728,7 +728,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的两行列表规格：</strong></p>
@@ -744,7 +744,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two5_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的密集型两行列表规格：</strong></p>
@@ -776,7 +776,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的两行列表</p>
@@ -786,7 +786,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的两行列表示例</p>
@@ -799,7 +799,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的两行列表规格：</strong></p>
@@ -815,7 +815,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two7_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的密集型两行列表规格：</strong></p>
@@ -846,7 +846,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像、文本和图标</p>
@@ -856,7 +856,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像、文本和图标的示例</p>
@@ -869,7 +869,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像、文本和图标</strong></p>
@@ -885,7 +885,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_two10_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像、文本和图标的密集型列表</strong></p>
@@ -917,7 +917,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>三行列表</p>
@@ -927,7 +927,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>三行列表示例</p>
@@ -940,7 +940,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>三行列表规格：</strong></p>
@@ -955,7 +955,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three2_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>密集型三行列表规格：</strong></p>
@@ -987,7 +987,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的三行列表</p>
@@ -997,7 +997,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的三行列表示例</p>
@@ -1011,7 +1011,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的三行列表规格：</strong></p>
@@ -1027,7 +1027,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three5_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含图标的密集型三行列表规格：</strong></p>
@@ -1060,7 +1060,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的三行列表</p>
@@ -1070,7 +1070,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像的三行列表示例</p>
@@ -1083,7 +1083,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的三行列表规格：</strong></p>
@@ -1099,7 +1099,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three7_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像的密集型三行列表规格：</strong></p>
@@ -1133,7 +1133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像和图标的三行列表</p>
@@ -1143,7 +1143,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含头像和图标的三行列表示例</p>
@@ -1157,7 +1157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像和图标的三行列表规格：</strong></p>
@@ -1173,7 +1173,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists/components_lists_keylines_three10_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>含头像和图标的密集型三行列表规格：</strong></p>

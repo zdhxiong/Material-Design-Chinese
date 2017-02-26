@@ -22,7 +22,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/motion/creative-customization/05-creative-customization.png"/>
+                    <img alt="" src="<?php static_url('../static/media/motion/creative-customization/05-creative-customization.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -67,8 +67,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -87,8 +87,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -106,8 +106,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -130,8 +130,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -146,8 +146,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -165,8 +165,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -181,8 +181,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -219,8 +219,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -235,8 +235,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -254,8 +254,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -270,8 +270,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/creative-customization/Illustrations_04_Maps_v1.webm" type="video/webm">
-                            <source src="../static/media/motion/creative-customization/Illustrations_04_Maps_v1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_04_Maps_v1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_04_Maps_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

@@ -11,7 +11,7 @@
         <div>
           <figure class="s-tag-media">
             <div class="media">
-              <img alt="" src="static/media/index/materialdesign_introduction.png"/>
+              <img alt="" src="<?php static_url('static/media/index/materialdesign_introduction.png'); ?>"/>
             </div>
             <figcaption>
               <h1>Material Design 是我们将经典的设计原则和科技、创新相结合而创造的设计语言。这份文档会随着我们对 Material Design 的探索而不断更新。</h1>
@@ -53,7 +53,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="static/media/index/materialdesign_goals_language.png"/>
+                        <img alt="" src="<?php static_url('static/media/index/materialdesign_goals_language.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -65,7 +65,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="static/media/index/materialdesign_goals_system.png"/>
+                        <img alt="" src="<?php static_url('static/media/index/materialdesign_goals_system.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -91,7 +91,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="static/media/index/materialdesign_principles_metaphor.png"/>
+                        <img alt="" src="<?php static_url('static/media/index/materialdesign_principles_metaphor.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>Material 是一种隐喻</h1>
@@ -104,7 +104,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="static/media/index/materialdesign_principles_bold.png"/>
+                        <img alt="" src="<?php static_url('static/media/index/materialdesign_principles_bold.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>鲜明、形象、有意义</h1>
@@ -116,7 +116,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="static/media/index/materialdesign_principles_motion.png"/>
+                        <img alt="" src="<?php static_url('static/media/index/materialdesign_principles_motion.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>有意义的动画效果</h1>

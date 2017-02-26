@@ -23,7 +23,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/launch-screens/patterns_launch_screens.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns_launch_screens.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -70,7 +70,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Branded launch screen</p>
@@ -80,7 +80,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-03.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Placeholder UI</p>
@@ -114,7 +114,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patters-launch-screens-03.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of placeholder UI</p>
@@ -149,7 +149,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples of branded launch screens </p>
@@ -159,7 +159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-02.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-02.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -171,7 +171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-04.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-04.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -183,7 +183,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/launch-screens/patterns-launch-screens-05.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-05.png'); ?>"/>
                       </div>
                     </figure>
                   </div>

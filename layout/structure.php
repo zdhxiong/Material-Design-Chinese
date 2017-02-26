@@ -55,7 +55,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_mobile.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_mobile.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile structure</p>
@@ -76,7 +76,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_tablet.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_tablet.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet structure</p>
@@ -98,7 +98,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_desktop.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_desktop.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop structure</p>
@@ -119,7 +119,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical divider</p>
@@ -129,7 +129,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Horizontal divider</p>
@@ -146,7 +146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -175,7 +175,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Card breaking an edge</p>
@@ -185,7 +185,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Floating action button breaking an edge</p>
@@ -202,7 +202,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Cards</p>
@@ -212,7 +212,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_regions_guidance8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Cards</p>
@@ -243,7 +243,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full-width, default height app bar</p>
@@ -256,7 +256,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full-width, extended height app bar </p>
@@ -269,7 +269,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Column-width toolbars at multiple levels of hierarchy</p>
@@ -282,7 +282,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Flexible toolbar and card toolbar</p>
@@ -295,7 +295,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Floating toolbar</p>
@@ -308,7 +308,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Detached toolbar palette</p>
@@ -321,7 +321,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Bottom toolbar that launches to a shelf and clings to the top of the keyboard or other bottom component</p>
@@ -334,7 +334,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_toolbars8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Bottom toolbar shelf</p>
@@ -374,7 +374,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>App bar structure</p>
@@ -391,7 +391,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light</p>
@@ -401,7 +401,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dark</p>
@@ -414,7 +414,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Colored</p>
@@ -424,7 +424,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Transparent</p>
@@ -443,7 +443,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Single color (default)</p>
@@ -453,7 +453,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_structure7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Distinct title color</p>
@@ -475,7 +475,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>App bar height: 56dp<br>
@@ -489,7 +489,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The app bar with significantly increased height for prominence</p>
@@ -503,7 +503,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Action area height: 56dp<br>
@@ -523,7 +523,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Incremental keyline is set by the app bar height, with a height of 64dp, which determines the keyline increment.</p>
@@ -539,7 +539,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Prominent app bar height: 128dp<br>
@@ -557,7 +557,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics7_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Dense app bar on desktop</strong></p>
@@ -569,7 +569,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_metrics8_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Dense prominent app bar </strong></p>
@@ -590,7 +590,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_menu1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an app bar</p>
@@ -600,7 +600,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_appbar_menu2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of menu in an app bar</p>
@@ -633,7 +633,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_status1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Android status bar</p>
@@ -643,7 +643,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_status2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Chrome window bar</p>
@@ -662,7 +662,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_status3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Android status bar on top of the app bar</p>
@@ -672,7 +672,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_status4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Chrome window bar on top of the app bar </p>
@@ -686,7 +686,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_status5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Chrome window controls inside app bar</p>
@@ -719,7 +719,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_systembars_fullscreen1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch the screen anywhere to bring back the system bars</p>
@@ -737,7 +737,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_systembars_fullscreen2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Swipe from the any edge of the screen with a hidden bar to bring back system bars.</p>
@@ -747,7 +747,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_systembars_fullscreen3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen3.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -762,8 +762,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/layout/structure/layout_structure_system_lightsout.webm" type="video/webm">
-                            <source src="../static/media/layout/structure/layout_structure_system_lightsout.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/layout/structure/layout_structure_system_lightsout.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/structure/layout_structure_system_lightsout.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -783,7 +783,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Color is based on a sample taken from the content</p>
@@ -793,7 +793,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Translucent status bar, 20% Black #000000</p>
@@ -808,7 +808,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dark status bar</p>
@@ -818,7 +818,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Status bar color in a darker tone of the app bar color</p>
@@ -836,7 +836,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light status bar color is based on sample taken from content</p>
@@ -846,7 +846,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Translucent light status bar, 70% White #FFFFFF</p>
@@ -861,7 +861,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light status bar, default background fill is #E0E0E0</p>
@@ -871,7 +871,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_color8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light status bar in darker tone of a light app bar color</p>
@@ -890,7 +890,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dark</p>
@@ -900,7 +900,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Light</p>
@@ -918,7 +918,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Translucent</p>
@@ -928,7 +928,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Translucent over complex image</p>
@@ -943,7 +943,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Transparent</p>
@@ -953,7 +953,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_android6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Transparent over even-toned image</p>
@@ -972,7 +972,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_system_chrome.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_chrome.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Chrome OS shelf</p>
@@ -1006,7 +1006,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_sidenav1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile screen</p>
@@ -1016,7 +1016,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_sidenav2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Side nav menu</p>
@@ -1041,7 +1041,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_sidenav_structure1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Left nav on mobile</p>
@@ -1053,8 +1053,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -1072,7 +1072,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_sidenav_structure3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Left nav on desktop </p>
@@ -1080,7 +1080,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout_structure_sidenav_structure4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Right nav on desktop</p>
@@ -1113,7 +1113,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_bigtop_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_bigtop_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Carded content that expands and collapses</p>
@@ -1123,7 +1123,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_calendar_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_calendar_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Overlayed content details with focused app bar on mobile</p>
@@ -1136,7 +1136,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_gallery_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_gallery_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Left side nav and one-up stream on mobile</p>
@@ -1146,7 +1146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_mail_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_mail_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Source list</p>
@@ -1159,7 +1159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_maps_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_maps_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full-screen background image with inset search field and carded search results</p>
@@ -1169,7 +1169,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/structure/layout-structure-whiteframe_music_large_xhdpi.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_music_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Expandable footer drawer</p>

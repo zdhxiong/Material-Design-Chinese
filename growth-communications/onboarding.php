@@ -105,7 +105,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/edu-timeline_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>只为首次使用的用户显示入门，不要向老用户显示。</p>
@@ -120,7 +120,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1. <a href="onboarding.html#onboarding-self-select">自选</a></p>
@@ -131,7 +131,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>2. <a href="onboarding.html#onboarding-quickstart">快速开始</a></p>
@@ -142,7 +142,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>3. <a href="onboarding.html#onboarding-top-user-benefits">Top User Benefits</a></p>
@@ -258,7 +258,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>登录界面</p>
@@ -268,7 +268,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>自选模式</p>
@@ -294,7 +294,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -305,7 +305,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -322,7 +322,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -333,7 +333,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -351,7 +351,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -362,7 +362,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -381,7 +381,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>绑定列表</p>
@@ -391,7 +391,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>网格视图</p>
@@ -401,7 +401,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>列表</p>
@@ -442,7 +442,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -453,7 +453,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -470,7 +470,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -481,7 +481,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -498,7 +498,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -509,7 +509,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -557,8 +557,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -581,8 +581,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -605,7 +605,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -624,7 +624,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -635,7 +635,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -653,7 +653,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -664,7 +664,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/Best-Practices-3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -685,7 +685,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile portrait</p>
@@ -695,7 +695,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet portrait</p>
@@ -713,7 +713,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile landscape</p>
@@ -723,7 +723,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet landscape</p>
@@ -741,7 +741,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop</p>
@@ -768,7 +768,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlinePortrait.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlinePortrait.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -791,7 +791,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineLandscape.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineLandscape.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -803,7 +803,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineDesktop_s.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineDesktop_s.png'); ?>"/>
                       </div>
                     </figure>
                   </div>

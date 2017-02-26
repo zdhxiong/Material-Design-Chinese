@@ -1053,7 +1053,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/writing/style_writing_globalwriting_japanese.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Japanese writing</p>
@@ -1063,7 +1063,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/writing/style_writing_globalwriting_thai.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of Thai writing</p>
@@ -1081,7 +1081,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/writing/style_writing_globalwriting_arabic.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>In this example of a right-to-left (RTL) interface in Arabic, the interface is mirrored relative to English.</p>
@@ -1091,7 +1091,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/writing/style_writing_globalwriting_english.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a left-to-right (LTR) interface in English</p>

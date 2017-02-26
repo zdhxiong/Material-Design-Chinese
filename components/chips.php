@@ -29,7 +29,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/chips/components_chips.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -78,7 +78,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_acux_chips_chiptxt.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含文本的纸片</p>
@@ -93,7 +93,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_acux_chips_chipstxticon.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含文本和图标的纸片</p>
@@ -128,8 +128,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/chips/components_acux_chips_deleting.webm" type="video/webm">
-                            <source src="../static/media/components/chips/components_acux_chips_deleting.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -165,7 +165,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_chips_contact1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户在联系人纸片上确认邮件接收者的姓名。</p>
@@ -175,7 +175,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_chips_contact2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户在联系人纸片确认选择哪个邮件地址。</p>
@@ -190,7 +190,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_chips_contact3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>联系人纸片有多种不同的状态：正常、聚焦、按下、和激活。</p>
@@ -221,7 +221,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_acux_chips_deletable_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>可删除纸片</strong></p>
@@ -238,7 +238,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>不可删除的纸片</strong></p>
@@ -274,7 +274,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_chips_contact_keyline1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>联系人纸片</p>
@@ -287,7 +287,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/chips/components_chips_contact_keyline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>聚焦和激活状态的联系人纸片</p>

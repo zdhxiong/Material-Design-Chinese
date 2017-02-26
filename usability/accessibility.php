@@ -60,7 +60,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_principles1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>明确的</h1>
@@ -77,7 +77,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_principles2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>健全的</h1>
@@ -93,7 +93,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_principles3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h1>具体的</h1>
@@ -137,7 +137,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color1_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -148,7 +148,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color2_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -164,7 +164,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color3_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -175,7 +175,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color4_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -194,7 +194,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color5_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -205,7 +205,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color6_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -225,7 +225,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color7_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -236,7 +236,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_color8_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -271,7 +271,7 @@
               </ul>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010682000&amp;usg=AFQjCNEMSxp0z9UzKoL1jiMkdv21RVe3cA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">标记用户界面元素</div>
                     <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备朗读</span>
@@ -294,7 +294,7 @@
               <p>For controls that enable other important functions, make sure that the user can turn on the controls again or perform the same function in other ways. Learn more in <a href="accessibility.html#accessibility-hierarchy-focus">hierarchy and focus</a>.</p>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/url?q=https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index%3D..%252F..%252Findex%236&amp;sa=D&amp;ust=1481818010699000&amp;usg=AFQjCNEbRXnLu995smOan2sqOXJ1dO7YNw" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">Vocalizing text automatically</div>
                     <span class="subtitle"> Read about placing text in a live region.</span>
@@ -331,7 +331,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Avatar: 40dp <br>
@@ -343,7 +343,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples of touch targets</p>
@@ -356,7 +356,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch target height: 48dp <br>
@@ -367,7 +367,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Examples of touch targets and buttons</p>
@@ -383,7 +383,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout5_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>"/>
                       </div>
                     </figure>
                     <div class="text-box"></div>
@@ -395,7 +395,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_layout6_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>"/>
                       </div>
                     </figure>
                     <div class="text-box"></div>
@@ -428,7 +428,7 @@
               <p>Navigation should have clear task flows with minimal steps. Focus control, or the ability to control keyboard and reading focus, should be implemented for frequently used tasks.</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23focus-nav&amp;sa=D&amp;ust=1481818010784000&amp;usg=AFQjCNGcVcgx9-v7WOQibv-e8P2-XXKniA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Enabling Focus Navigation</div>
                     <span class="subtitle"> Use focus controls for navigation</span>
@@ -457,7 +457,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_hierarchy_1_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -466,7 +466,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -494,7 +494,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_hierarchy_3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The green circles indicate the order in which onscreen elements should receive focus. </p>
@@ -527,7 +527,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_implementation1_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -538,7 +538,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_implementation2_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -560,7 +560,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_implementation3_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -569,7 +569,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_implementation4_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -586,7 +586,7 @@
                     <p>Screen-reader users need to know which UI elements are tappable on-screen. To enable screen readers to read the names of components out loud, add the <strong>contentDescription</strong> attribute to components such as buttons, icons, and tabs containing icons that have no visible text. </p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010756000&amp;usg=AFQjCNH5Ns3rByzXYss4-XDz58sFR8gNsg" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Labeling UI Elements</div>
                           <span class="subtitle"> Use the contentDescription attribute to set labels.</span>
@@ -598,7 +598,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/Accessibility_labeling1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1. Label the Search icon<br>
@@ -609,7 +609,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/Accessibility_labeling2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1. Label the Edit icon<br>
@@ -642,7 +642,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_implementation5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>People use assistive technology in different ways. </p>
@@ -725,7 +725,7 @@
                     <p>On Android, set the class name field of the control’s AccessibilityNodeInfo to "android.widget.Button".</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23custom-views&amp;sa=D&amp;ust=1481818010719000&amp;usg=AFQjCNH1OZWUJCKsBHDScGoKuJr4ZCO75g" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Building Accessible Custom Views</div>
                           <span class="subtitle"></span>
@@ -768,7 +768,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_edit_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -779,7 +779,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_edit_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -793,7 +793,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_menu_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -804,7 +804,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_menu_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -836,7 +836,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -847,7 +847,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -864,7 +864,7 @@
               <p>Hint speech provides extra information for actions that aren't clear. For example, Android's “double-tap to select” feature prompts the user to tap twice when landing on an item without taking action. Android TalkBack will also announce any custom actions associated with an element. Use hint speech sparingly and only for complex UI. </p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html%23addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)&amp;sa=D&amp;ust=1481818010766000&amp;usg=AFQjCNE_U-MDUDvIwn8hceWHW36IGykFbQ" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Android Custom Actions</div>
                     <span class="subtitle"></span>

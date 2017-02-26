@@ -24,7 +24,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/sliders/components_sliders.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -74,7 +74,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题</p>
@@ -96,7 +96,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题</p>
@@ -113,8 +113,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/sliders/components-sliders-continuous_slider_light_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/components/sliders/components-sliders-continuous_slider_light_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/sliders/components-sliders-continuous_slider_light_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/sliders/components-sliders-continuous_slider_light_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -133,7 +133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>滑块中图标的间距示例。</p>
@@ -143,7 +143,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>滑块在正常、鼠标悬停、聚焦、点击和禁用状态下的示例。</p>
@@ -161,7 +161,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>具有可编辑数值的滑块示例</p>
@@ -171,7 +171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_continuous6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_continuous6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>具有可编辑数值的滑块在正常、鼠标悬停、聚焦、点击和禁用状态下的示例。</p>
@@ -204,7 +204,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_discrete1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_discrete1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题</p>
@@ -212,7 +212,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/sliders/components_sliders_discrete2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/sliders/components_sliders_discrete2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题</p>
@@ -229,8 +229,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/sliders/components-sliders-discreteslider-061202_Slider_LightTheme_xhdpi_002.webm" type="video/webm">
-                            <source src="../static/media/components/sliders/components-sliders-discreteslider-061202_Slider_LightTheme_xhdpi_002.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/sliders/components-sliders-discreteslider-061202_Slider_LightTheme_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/sliders/components-sliders-discreteslider-061202_Slider_LightTheme_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

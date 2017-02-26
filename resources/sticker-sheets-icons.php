@@ -44,8 +44,8 @@
               <p>这些贴片元素距离网格边缘 8dp。类型基线位于 4dp 网格上。</p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/stickersheet_components_20160817.sketch" title="Components sticker sheet for Sketch">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/stickersheet_components_20160817.sketch'); ?>" title="Components sticker sheet for Sketch">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Sketch 的组件贴片</div>
                       <span class="subtitle">23.89 MB (.sketch) </span>
@@ -56,8 +56,8 @@
               </p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/stickersheet_general_aep.zip" title="Components sticker sheet for Adobe After Effects">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/stickersheet_general_aep.zip'); ?>" title="Components sticker sheet for Adobe After Effects">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Adobe After Effects 的组件贴片</div>
                       <span class="subtitle">136.72 MB (.zip) </span>
@@ -68,8 +68,8 @@
               </p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/stickersheet_general_20161205.psd" title="Components sticker sheet for Adobe Photoshop">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/stickersheet_general_20161205.psd'); ?>" title="Components sticker sheet for Adobe Photoshop">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Adobe Photoshop 的组件贴片</div>
                       <span class="subtitle">81.31 MB (.psd) </span>
@@ -80,8 +80,8 @@
               </p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/stickersheet_components_20161205.ai" title="Components sticker sheet for Adobe Illustrator">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/stickersheet_components_20161205.ai'); ?>" title="Components sticker sheet for Adobe Illustrator">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">Adobe Illustrator 的组件贴片</div>
                       <span class="subtitle">53.20 MB (.ai) </span>
@@ -111,8 +111,8 @@
               <p>下面的文件是一个含有系统图标网格的贴片。</p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/System_Icon_StickerSheet.ai" title="System icon sticker sheet">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/System_Icon_StickerSheet.ai'); ?>" title="System icon sticker sheet">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">系统图标贴片</div>
                       <span class="subtitle">0.39 MB (.ai) </span>
@@ -123,7 +123,7 @@
               </p>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/url?q=https://github.com/google/material-design-icons&amp;sa=D&amp;ust=1481818026600000&amp;usg=AFQjCNFzMOT_0vZKqANpBHPFke8Fy50E1A" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">Github 上的系统图标</div>
                     <span class="subtitle">你也可以从 Github 上下载系统图标。</span>
@@ -149,8 +149,8 @@
               <p>这份资源包含了 4 个产品图标贴片。贴片提供了在产品图标网格中，图层和形状的使用指导。</p>
               <p>
                 <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="../static/media/resources/sticker-sheets-icons/Product_Icon_StickerSheet.zip" title="Product icon sticker sheet">
-                    <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/sticker-sheets-icons/Product_Icon_StickerSheet.zip'); ?>" title="Product icon sticker sheet">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">产品图标贴片</div>
                       <span class="subtitle">1.95 MB (.zip) </span>
@@ -176,7 +176,7 @@
             <div>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/design/icons/&amp;sa=D&amp;ust=1481818026571000&amp;usg=AFQjCNHXCBt0RwCJsRpvGmN7WiAwzz2dyw" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">图标库</div>
                     <span class="subtitle">下载图标和图标字体</span>

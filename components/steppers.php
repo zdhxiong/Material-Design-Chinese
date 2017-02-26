@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/steppers/components_steppers.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/steppers/components_steppers.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -78,7 +78,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_vertstep.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>步进器适用于一个步骤后面紧跟着另一个步骤的情况。</p>
@@ -133,7 +133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_avoid.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_avoid.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -167,7 +167,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_editable.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_editable.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>可编辑步骤可以在同一个会话中进行编辑。</p>
@@ -187,7 +187,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_noneditable.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_noneditable.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>不可编辑步骤一旦完成后就不允许修改。</p>
@@ -204,7 +204,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_mbltypog.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbltypog.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>移动端步骤的文本</strong></p>
@@ -215,7 +215,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_mbldots.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbldots.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>移动端步骤点</strong></p>
@@ -229,7 +229,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>移动端步骤进度条</strong></p>
@@ -249,7 +249,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_optstps.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstps.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>线性流中的可选步骤标记为可选。</p>
@@ -286,7 +286,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_horizstep.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_horizstep.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在水平步进器上，步骤名称和数值显示在水平条上，在页面向下滚动时，可以将其固定在页面顶部。</p>
@@ -304,7 +304,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_mblvertinpg.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblvertinpg.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>垂直步进器可以在移动端使用。只需确保每个步骤的内容是响应式的。</p>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_linear.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_linear.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>每一个线性步骤都必须完成后才能继续下一个步骤。</p>
@@ -339,7 +339,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_nonlinear.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_nonlinear.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>非线性步进器可以以任意顺序完成。</p>
@@ -368,7 +368,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>另类的标签位置</p>
@@ -381,7 +381,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>包含一个可选步骤的另类标签位置</p>
@@ -401,8 +401,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/steppers/components_acux_stepper_feedback.webm" type="video/webm">
-                            <source src="../static/media/components/steppers/components_acux_stepper_feedback.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/steppers/components_acux_stepper_feedback.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/steppers/components_acux_stepper_feedback.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -436,7 +436,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_standard_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_standard_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>步进器高度：72dp<br>
@@ -453,7 +453,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_optstp_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstp_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>步骤高度：72dp<br>
@@ -470,7 +470,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_multilnerr_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_multilnerr_rl.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -482,7 +482,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>步骤高度：104dp</p>
@@ -498,7 +498,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含可选步骤的另类标签</p>
@@ -515,7 +515,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>另类标签位置的错误状态</p>
@@ -533,7 +533,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_hvrhoriz.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrhoriz.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>鼠标悬停</p>
@@ -541,7 +541,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_hvrvert.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrvert.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>鼠标悬停</p>
@@ -554,7 +554,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_prssdhoriz.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdhoriz.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按下</p>
@@ -562,7 +562,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_prssdvert.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdvert.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按下</p>
@@ -590,7 +590,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_vertstep_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>垂直步进器，具有子步骤<br>
@@ -611,7 +611,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>垂直步进器示例</p>
@@ -628,7 +628,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>图标上下两侧边距：8dp<br>

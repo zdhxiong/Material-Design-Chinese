@@ -36,7 +36,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/bottom-navigation/components_bottom_navigation.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottom_navigation.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -85,7 +85,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>移动端的底部导航</p>
@@ -95,7 +95,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在较大的显示器上（如平板和桌面端）的左侧导航</p>
@@ -119,7 +119,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -130,7 +130,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -146,7 +146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -171,7 +171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -182,7 +182,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_usage8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -232,7 +232,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -243,7 +243,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -259,7 +259,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -270,7 +270,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -289,7 +289,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -300,7 +300,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -314,7 +314,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -325,7 +325,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_style4.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_style4.png"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -362,8 +362,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -378,8 +378,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -403,8 +403,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -419,8 +419,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -440,8 +440,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -457,8 +457,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -498,7 +498,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed1.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed1.png"/>
                       </div>
                       <figcaption>
                         <p>移动设备上，固定状态的底部导航栏</p>
@@ -510,8 +510,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -547,7 +547,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed2.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed2.png"/>
                       </div>
                       <figcaption>
                         <p>最小宽度 80dp<br>内边距 12dp</p>
@@ -555,7 +555,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed4.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed4.png"/>
                       </div>
                       <figcaption>
                         <p>高度 56dp<br>
@@ -567,7 +567,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed3.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed3.png"/>
                       </div>
                       <figcaption>
                         <p>最大宽度 168dp<br>
@@ -576,7 +576,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed5.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed5.png"/>
                       </div>
                       <figcaption>
                         <p>底部导航栏示例</p>
@@ -591,7 +591,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed6.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed6.png"/>
                       </div>
                       <figcaption>
                         <p>大屏幕移动设备上，固定状态的底部导航栏。</p>
@@ -609,7 +609,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed7.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed7.png"/>
                       </div>
                       <figcaption>
                         <p>平板设备上，固定状态的底部导航栏<br>
@@ -655,7 +655,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting1.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting1.png"/>
                       </div>
                       <figcaption>
                         <p>移动设备上，可切换的底部导航栏<br>
@@ -673,8 +673,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -690,7 +690,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting2.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting2.png"/>
                       </div>
                       <figcaption>
                         <p>激活状态：最小宽度 96dp</p>
@@ -698,7 +698,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting4.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting4.png"/>
                       </div>
                       <figcaption>
                         <p>不激活状态：最小宽度 56dp</p>
@@ -706,7 +706,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting6-.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting6-.png"/>
                       </div>
                       <figcaption>
                         <p>激活的导航项上的文本标签可以使用最大宽度。</p>
@@ -716,7 +716,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting3.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting3.png"/>
                       </div>
                       <figcaption>
                         <p>激活状态：最大宽度 168dp</p>
@@ -724,7 +724,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting5.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting5.png"/>
                       </div>
                       <figcaption>
                         <p>不激活状态：最大宽度 96dp</p>
@@ -732,7 +732,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting7.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting7.png"/>
                       </div>
                       <figcaption>
                         <p>激活的导航项上的文本标签可以使用最大宽度。</p>
@@ -747,7 +747,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting8.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting8.png"/>
                       </div>
                       <figcaption>
                         <p>大屏移动设备上的可切换底部导航栏<br>
@@ -766,7 +766,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting9.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting9.png"/>
                       </div>
                       <figcaption>
                         <p>在平板上的可切换底部导航栏<br>
@@ -791,7 +791,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation1.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation1.png"/>
                       </div>
                       <figcaption>
                         <p>Snackbar 在底部导航栏后面。</p>
@@ -803,8 +803,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.webm" type="video/webm">
-                            <source src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.mp4" type="video/mp4">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.webm" type="video/webm">
+                            <source src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.mp4" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -822,7 +822,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation3-.png"/>
+                        <img alt="" src="<?php static_url(''); ?>../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation3-.png"/>
                       </div>
                       <figcaption>
                         <p>应用结构的正交视图。</p>

@@ -33,7 +33,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/navigation/patterns_navigation.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -86,7 +86,7 @@
               <p>For information on movements between states, see <a href="navigational-transitions.html">navigational transitions</a>.</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/implementing-navigation/index.html&amp;sa=D&amp;ust=1481817996621000&amp;usg=AFQjCNG9BAni_a8z2Rat7w2AEI3n93mnJg" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Implementing Effective Navigation</div>
                     <span class="subtitle"></span>
@@ -113,7 +113,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_structure1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This image shows relationships between email items by grouping them into these clusters: Promos, Social, Finance.</p>
@@ -125,8 +125,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -136,7 +136,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_structure3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Use simple design and lightweight structure when user needs are simple.</p>
@@ -165,7 +165,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_definingyournavigation-alt.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_definingyournavigation-alt.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -183,7 +183,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/inventory.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/inventory.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Identify your key users and the use cases they might want to perform.</p>
@@ -200,7 +200,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/prioritize.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/prioritize.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>When designing navigation for a restaurant app, the highest priority tasks may include viewing restaurant details or finding new restaurants.</p>
@@ -220,7 +220,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/sequence.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/sequence.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Whether a consumer wants to find a new restaurant or view a favorite one, both paths lead viewing restaurant details. Make frequently used paths to these destinations (such as search or favorites) easily available.</p>
@@ -236,7 +236,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/deconstruct.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/deconstruct.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The broader activity of “Find a restaurant” may actually encapsulate smaller activities, such as: Browse nearby, Search by name, and Browse popular. These smaller tasks may be easier for users to perform searches and should be integrated within your navigation.</p>
@@ -269,7 +269,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_upandback1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The Up button</p>
@@ -279,7 +279,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_upandback2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The Up button in a photo gallery </p>
@@ -300,7 +300,7 @@
                     </ul>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/components/tasks-and-back-stack.html&amp;sa=D&amp;ust=1481817996847000&amp;usg=AFQjCNFn8EsNCS11DfShnDzTgnwhCU_mZw" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Tasks and Back Stack</div>
                           <span class="subtitle">Activities performed by users are arranged in a stack in the order in which each activity is opened</span>
@@ -313,7 +313,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_upandback3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The Back button </p>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_upandback4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The Back button in a photo gallery</p>
@@ -370,8 +370,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigation/patterns_navigation_betweenapps1.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigation/patterns_navigation_betweenapps1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_betweenapps1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_betweenapps1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -405,7 +405,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_home.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_home.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Home</h2>
@@ -417,7 +417,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_parent-child.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_parent-child.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Parent and child </h2>
@@ -429,7 +429,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_navigation.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_navigation.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Navigation </h2>
@@ -443,7 +443,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_siblings.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_siblings.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Siblings</h2>
@@ -455,7 +455,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_collections.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_collections.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Collections</h2>
@@ -466,7 +466,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_hierarchy_links.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_links.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2>Links</h2>
@@ -517,7 +517,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_embedded1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_embedded1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This is a mobile example of an app with embedded navigation. Common tasks are performed in a strong primary view. </p>
@@ -545,7 +545,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_tabs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example with three tabs</p>
@@ -559,7 +559,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_tabs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example of centered tabs</p>
@@ -567,7 +567,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_tabs3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of left-aligned fixed tabs with a title and extended header</p>
@@ -595,7 +595,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example with fixed text labels present at all times</p>
@@ -609,7 +609,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example with text labels present at all times</p>
@@ -622,7 +622,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example with shifting text and labels</p>
@@ -636,7 +636,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example with shifting text and labels</p>
@@ -665,7 +665,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example of a closed left nav</p>
@@ -673,7 +673,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example of an open left nav</p>
@@ -683,7 +683,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example of an open left nav</p>
@@ -691,7 +691,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of an open and pinned-in-place left nav </p>
@@ -718,7 +718,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_nested1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_nested1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of an expanding left nav</p>
@@ -734,7 +734,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_expanding1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of an expanding left nav</p>
@@ -744,7 +744,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_expanding2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -757,7 +757,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_cascading1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of a cascading left nav</p>
@@ -767,7 +767,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterns_cascading2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -789,8 +789,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/navigation/Expanding - Overscroll Top.webm" type="video/webm">
-                            <source src="../static/media/patterns/navigation/Expanding - Overscroll Top.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/navigation/Expanding - Overscroll Top.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/navigation/Expanding - Overscroll Top.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -845,7 +845,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example of navigation integrated into content </p>
@@ -855,7 +855,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example of an up arrow</p>
@@ -868,7 +868,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet/desktop example of navigation integrated into content </p>
@@ -876,7 +876,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet/desktop example of an up arrow</p>
@@ -895,7 +895,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example using two levels of navigation: a navigation drawer and tabs</p>
@@ -905,7 +905,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Mobile example of an open left nav</p>
@@ -920,7 +920,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example using two levels of navigation: a navigation drawer and tabs</p>
@@ -933,7 +933,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tablet example of an open left nav in front of tabs</p>
@@ -946,7 +946,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example using two levels of navigation: a navigation drawer and tabs</p>
@@ -962,7 +962,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation/patterns_navigation_patterncombinations10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Desktop example of a nested left nav with tabs</p>

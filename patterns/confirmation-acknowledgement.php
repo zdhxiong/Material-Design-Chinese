@@ -71,7 +71,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用户请求从库中删除一个相册，会显示一个警告框来确认此操作，并告知用户此相册在任何设备上都将不能使用。</p>
@@ -81,7 +81,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>启用 Android Beam 后，系统会提示用户触摸要共享的内容。如果用户决定不共享了，只需把手机移开即可。</p>
@@ -113,7 +113,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>如果用户从撰写界面向后或向上导航，则会保存电子邮件的草稿，一个 toast 形式的确知出现，然后几秒钟后淡出。</p>
@@ -123,7 +123,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在用户从列表视图中删除一个会话后，将出现一个带有撤销选项的确认。它会持续显示，直到用户采取了不相关的操作，例如滚动列表。</p>

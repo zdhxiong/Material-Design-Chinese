@@ -34,7 +34,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/data-tables/components_data_tables.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/data-tables/components_data_tables.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -90,7 +90,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_structure_basictable.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_structure_basictable.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>基本的数据表格</p>
@@ -136,7 +136,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_rowhover.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_rowhover.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>鼠标悬停在行上</p>
@@ -162,7 +162,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_selectedrow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_selectedrow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>选中的行</p>
@@ -190,7 +190,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>带有正排序的列</p>
@@ -217,7 +217,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_tooltip.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_tooltip.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>鼠标悬停在列名称上</p>
@@ -239,7 +239,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_longtitle1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>对太长的列名称进行截断，并用省略号代替</p>
@@ -247,7 +247,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_longtitle2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>鼠标悬停在截断的列名称上</p>
@@ -271,7 +271,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_editing1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing1.png'); ?>"/>
                       </div>
                       <figcaption><br>
                       </figcaption>
@@ -292,7 +292,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_editing2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个简单的、含单个文本框的编辑框</p>
@@ -312,7 +312,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_editing3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个复杂、灵活的编辑框</p>
@@ -331,7 +331,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_editing4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>（可选）使用图标进行编辑提示。在单元格的内容的反方向使用图标。</p>
@@ -355,7 +355,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含菜单的表格</p>
@@ -363,7 +363,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个打开了菜单的表格</p>
@@ -397,7 +397,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_cards_tablecard.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_tablecard.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>具有头部和底部的表格卡片</p>
@@ -426,7 +426,7 @@
                     </ul>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_cards_altheaders.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_altheaders.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>表格卡片中的替换头部</p>
@@ -463,7 +463,7 @@
                     <h1>垂直间距</h1>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_specs_verticalspacing.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_verticalspacing.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>数据表格卡片的垂直间距以及它的最后一行</p>
@@ -487,7 +487,7 @@
                     <h1>头部和底部内边距</h1>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>表格卡片中元素之间的水平间距</p>
@@ -511,7 +511,7 @@
                     <h1>列的内边距</h1>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>列之间的内边距</p>

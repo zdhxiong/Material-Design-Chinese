@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Help content providers answers to user’s questions and concerns.</h1>
+          <h1>帮助内容为用户的问题和疑虑提供解答。</h1>
         </div>
       </div>
 
@@ -17,19 +17,19 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-placement" data-qp-ui-data-id="qp:2">Placement</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-icons" data-qp-ui-data-id="qp:4">Icons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-icons" data-qp-ui-data-id="qp:4">图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-writing" data-qp-ui-data-id="qp:5">Writing</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-writing" data-qp-ui-data-id="qp:5">写作</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +38,7 @@
 
         <div id="help-feedback-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -47,7 +47,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Help content provides answers to common user questions about your app. Users can send comments, report bugs, and ask questions that are not already answered by the help content. </p>
+              <p>帮助内容提供了用户常见问题的解答。用户可以发表评论，报告错误，并提出帮助内容中尚未回答的问题。</p>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><p>Make it easy for users to find help content in your app. </p>
+                  <div class="module"><p>方便用户在应用中查找帮助内容。</p>
                     <p>Help content can be made accessible from various points in your app’s navigation, with options listed below. It is usually placed in the navigation drawer (or overflow menu) under the label “Help” or “Send feedback.” </p>
                     <h2>Complex apps</h2>
                     <p>If your app is complex, place “Help” both in the navigation drawer and the app bar.</p>
@@ -73,7 +73,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_01_decisiontree.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_01_decisiontree.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>To make it easy for users to get help, particularly if your app is complex, place “Help” in both the navigation drawer and app bar. Otherwise, place “Help” in the navigation drawer only, or the overflow menu.</p>
@@ -92,7 +92,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_02_navdrawer.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_02_navdrawer.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The navigation drawer showing “Help” and “Send feedback”</p>
@@ -112,7 +112,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_04_overflow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_04_overflow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -133,7 +133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_07_appbar.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_07_appbar.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Help icon promoted in the app bar</p>
@@ -152,7 +152,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_placement_06_overflow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_06_overflow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>A help screen with frequently asked questions and answers and an action button to send feedback.</p>
@@ -193,7 +193,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_02_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_02_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -207,7 +207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_01_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_01_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -296,7 +296,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -307,7 +307,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_02.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_02.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_03.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_03.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -334,7 +334,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_04.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_04.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -350,7 +350,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_05.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_05.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -361,7 +361,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_icons_06.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_06.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -406,7 +406,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/help-feedback/patterns_helpfeedback_writing_01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_writing_01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Headings clearly outline an article’s content. They help readers scan the page to quickly find the information they need.</p>

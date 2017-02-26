@@ -28,7 +28,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navigation_drawer.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navigation_drawer.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -69,7 +69,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Typography</p>
@@ -86,7 +86,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines and margins</p>
@@ -102,7 +102,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical spacing</p>
@@ -143,7 +143,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_elevation1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_elevation1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Nav drawer on Android</p>
@@ -164,7 +164,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>List item selected</p>
@@ -172,7 +172,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch ripple/highlight</p>
@@ -180,7 +180,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch ripple/highlight</p>
@@ -190,7 +190,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch ripple/highlight</p>
@@ -198,7 +198,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch ripple/highlight</p>
@@ -206,7 +206,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_selection6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Touch ripple/highlight</p>
@@ -225,7 +225,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a divider</p>
@@ -235,7 +235,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>8dp vertical spacing</p>
@@ -254,7 +254,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Navigation drawer before scrolling</p>
@@ -264,7 +264,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Navigation drawer during scrolling</p>
@@ -282,7 +282,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_settings1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_settings1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Settings and support are located at the bottom of the scrolling list.</p>
@@ -322,7 +322,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent1.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -342,7 +342,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a permanent, full-height drawer </p>
@@ -352,7 +352,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a permanent, clipped drawer</p>
@@ -365,7 +365,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a permanent, floating drawer </p>
@@ -375,7 +375,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a permanent, floating drawer in card</p>
@@ -395,7 +395,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a closed persistent drawer </p>
@@ -405,7 +405,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an open persistent drawer </p>
@@ -423,7 +423,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -443,7 +443,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a mini drawer </p>
@@ -453,7 +453,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of open persistent drawer </p>
@@ -474,7 +474,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a closed temporary drawer on mobile </p>
@@ -484,7 +484,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an open temporary drawer on mobile </p>
@@ -499,7 +499,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a closed temporary drawer on tablet</p>
@@ -509,7 +509,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an open temporary drawer on tablet </p>
@@ -522,7 +522,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of a closed temporary drawer on desktop</p>
@@ -532,7 +532,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an open temporary drawer on desktop</p>

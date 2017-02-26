@@ -37,7 +37,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/notifications/patterns_notifications.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns_notifications.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -104,7 +104,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_anatomy_01_comparison.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_comparison.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Collapsed notification on Android M (above) and Android N (below) </p>
@@ -121,7 +121,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_anatomy_02_comparison.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_comparison.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Expanded notification on Android M (above) and Android N (below) </p>
@@ -144,7 +144,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_anatomy_01_header.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_header.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The header area is new for Android N. </p>
@@ -163,7 +163,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_anatomy_02_content.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_content.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Android N's notifications are wider, resulting in a less cluttered presentation of the main content.</p>
@@ -180,7 +180,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_anatomy_03_action_area.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_03_action_area.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>The action area in an Android N notification. </p>
@@ -220,7 +220,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_01_dontA.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_01_dontA.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -234,7 +234,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_02_dontB.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_02_dontB.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -275,8 +275,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_01_status.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_01_status.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_01_status.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_01_status.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -294,8 +294,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_02_peak.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_02_peak.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_02_peak.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_02_peak.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_behavior_03_drawer.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_03_drawer.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>In this notification drawer, a text that just arrived appears at the top. A lower priority notification about the weather appears at the bottom.</p>
@@ -360,8 +360,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_06_expand.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_06_expand.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_06_expand.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_06_expand.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -383,8 +383,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_07_dismiss.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_07_dismiss.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_07_dismiss.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_07_dismiss.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -405,8 +405,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_08_controls.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_behavior_08_controls.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_08_controls.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_08_controls.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -434,7 +434,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_05_summary_1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Multiple notifications summarized, shown in both collapsed view and expanded view.</p>
@@ -457,7 +457,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_05_summary_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Bundled notifications, shown in both collapsed and expanded views</p>
@@ -475,7 +475,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Collapsed and expanded notifications</p>
@@ -492,7 +492,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_13_action_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_13_action_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -506,7 +506,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_14_action_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_14_action_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -529,8 +529,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/notifications/notifications_guidelines_17_inline.webm" type="video/webm">
-                            <source src="../static/media/patterns/notifications/notifications_guidelines_17_inline.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_17_inline.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_17_inline.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -660,7 +660,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_03_optin.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_03_optin.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This notification from YouTube takes the opt-out approach. It offers both context (a YouTube channel the user has subscribed to) and value (a new video from that channel). The "Options" action navigates the user to where they can opt out of future notifications for this channel.</p>
@@ -676,7 +676,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_04_optout.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_04_optout.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This app takes the opt-in approach. A card at the top of the app lets users know that they can receive notifications for breaking news stories. If the user wants to opt in, they choose Yes. Otherwise, they choose No Thanks and remain opted out. This choice is also available in the app's settings.</p>
@@ -871,7 +871,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_behavior_04_lockscreen1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_04_lockscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This user has chosen to show all notification content on the lock screen.</p>
@@ -881,7 +881,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_behavior_05_lockscreen2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_05_lockscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>This user has chosen to hide sensitive content from the lock screen. Because these apps gave their notifications a visibility level of "private,” they show "Contents hidden" by default. </p>
@@ -920,7 +920,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_09_title_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_09_title_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -940,7 +940,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_10_title_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_10_title_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -965,7 +965,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_11_large_icon_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_11_large_icon_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -979,7 +979,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_guidelines_12_large_icon_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_12_large_icon_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1014,7 +1014,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_templates_01_standard.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_01_standard.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Standard template for collapsed and expanded notifications </p>
@@ -1030,7 +1030,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_templates_02_big_text.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_02_big_text.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Big text template for collapsed and expanded notifications</p>
@@ -1046,7 +1046,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_templates_03_big_picture.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_03_big_picture.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Big picture template for collapsed and expanded notifications</p>
@@ -1062,7 +1062,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_templates_04_progress.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_04_progress.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Progress template for collapsed and expanded notifications</p>
@@ -1078,7 +1078,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/notifications/notifications_templates_05_media.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_05_media.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Media template for collapsed and expanded notifications</p>

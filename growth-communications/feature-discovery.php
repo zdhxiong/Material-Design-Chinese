@@ -55,8 +55,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -69,7 +69,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>提示文本</p>
@@ -89,8 +89,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -281,7 +281,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>特性探索提示包含一个被大背景区域包裹的点击目标，该大背景区域使用应用的主色。</p>
@@ -301,7 +301,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>当提示操作的点击目标位于屏幕顶部或底部的 88dp 之内时（不包括状态栏和导航栏），将点击目标直接放在提示操作上面。</p>
@@ -314,7 +314,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>当提示操作位于屏幕中心时，提示背景应做如下调整：</p>
@@ -339,7 +339,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击目标位于距离表面边缘 88dp 以内时，提示背景应该以点击目标为中心进行环绕。</p>
@@ -354,7 +354,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>当点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）以内时，将提示背景以点击目标为中心进行环绕，并在其他元素的上方。</p>
@@ -369,7 +369,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在较小的表面上，点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）之外的区域时，提示背景可以不限制在点击目标所在的表面。</p>
@@ -392,7 +392,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击目标的背景使用了主色。</p>
@@ -402,7 +402,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>点击目标的背景使用了强调色。</p>
@@ -430,8 +430,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -446,8 +446,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -470,8 +470,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -508,8 +508,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -522,8 +522,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -538,8 +538,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -560,7 +560,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>提示文本示例</p>

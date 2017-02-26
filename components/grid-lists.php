@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/grid-lists/components_grid_lists.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grid_lists.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -78,7 +78,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>网格列表示例</p>
@@ -97,7 +97,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>网格列表示例</p>
@@ -107,7 +107,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单元格和瓦片示例</p>
@@ -144,7 +144,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_content1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_content1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>包含主内容和副操作的瓦片内容示例</p>
@@ -175,7 +175,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_content2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_content2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>副操作的操作和文本的位置示例</p>
@@ -211,7 +211,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_behavior1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -222,7 +222,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_behavior2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -276,7 +276,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs1.png'); ?>"/>
                       </div>
                       <figcaption><br>
                         <p>字体大小 14/14 <br>
@@ -287,7 +287,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs2.png'); ?>"/>
                       </div>
                       <figcaption><br>
                         <p>字体大小 16/12 <br>
@@ -298,7 +298,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs22.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs22.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>头部/底部中的文本截断。</p>
@@ -318,7 +318,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>仅含图片的网格列表</p>
@@ -328,7 +328,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>仅含图片的网格列表相册</p>
@@ -350,7 +350,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行网格列表底部含 16dp 的内边距</p>
@@ -358,7 +358,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行网格列表头部含 16dp 的内边距</p>
@@ -368,7 +368,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行网格列表相册</p>
@@ -390,7 +390,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部含 16dp 的内边距和图标的单行网格列表</p>
@@ -398,7 +398,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>头部含 16dp 的内边距和图标的单行网格列表</p>
@@ -406,7 +406,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部含图标单行网格列表相册</p>
@@ -416,7 +416,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部含图标的单行网格列表</p>
@@ -424,7 +424,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>头部含图标的单行网格列表</p>
@@ -446,7 +446,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs13.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs13.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部含 16dp 内边距的两行网格列表</p>
@@ -454,7 +454,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs15.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs15.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行网格列表，4dp 间距示例</p>
@@ -464,7 +464,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>头部含 16dp 内边距的两行网格列表</p>
@@ -472,7 +472,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>两行网格列表，1dp 间距示例</p>
@@ -494,7 +494,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs17.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs17.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>底部含两行文本和图标</p>
@@ -503,7 +503,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs19.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs19.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>头部含两行文本和图标</p>
@@ -512,7 +512,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs21.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs21.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的文本示例</p>
@@ -522,7 +522,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs18.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs18.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的两行文本示例</p>
@@ -530,7 +530,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/grid-lists/components_grids_specs20.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs20.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的两行文本示例</p>

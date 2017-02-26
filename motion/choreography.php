@@ -23,7 +23,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/motion/choreography/04-choreography.png"/>
+                    <img alt="" src="<?php static_url('../static/media/motion/choreography/04-choreography.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -72,8 +72,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -96,8 +96,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -117,8 +117,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -150,8 +150,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -167,8 +167,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -192,8 +192,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -209,8 +209,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -249,8 +249,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -266,8 +266,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -291,8 +291,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -308,8 +308,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -328,8 +328,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -345,8 +345,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -370,8 +370,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -387,8 +387,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -427,8 +427,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/RR_Point_of_Contact_001.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/RR_Point_of_Contact_001.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/RR_Point_of_Contact_001.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/RR_Point_of_Contact_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -443,8 +443,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/02_SearchRipple-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/02_SearchRipple-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/02_SearchRipple-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/02_SearchRipple-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -462,8 +462,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/choreography/01_GridRipple.webm" type="video/webm">
-                            <source src="../static/media/motion/choreography/01_GridRipple.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/choreography/01_GridRipple.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/choreography/01_GridRipple.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

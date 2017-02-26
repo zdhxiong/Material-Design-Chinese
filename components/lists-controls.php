@@ -35,7 +35,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/lists-controls/components_lists_controls.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_lists_controls.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -90,7 +90,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_usage.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_usage.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>状态和主操作放在瓦片的左侧。副操作和副信息放在标题的右侧。</p>
@@ -124,7 +124,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_checkbox1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在这个列表中，复选框是主操作和状态标识符。</p>
@@ -141,7 +141,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_checkbox2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在这个列表中，复选框是副操作。</p>
@@ -159,7 +159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_switch.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_switch.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>开关是次要操作，单独可点击。</p>
@@ -179,7 +179,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_reorder.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_reorder.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>重新排序图标是列表项的副操作。</p>
@@ -199,7 +199,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>触摸列表控件，可以展开列表。</p>
@@ -209,7 +209,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个列表已经展开。</p>
@@ -222,7 +222,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>折叠的单行列表项</p>
@@ -232,7 +232,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_expand4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>展开的单行列表项</p>
@@ -252,7 +252,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_leave1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>从右向左滑动一个列表项将会显示一个操作图标。</p>
@@ -262,7 +262,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_leave2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>从左向右滑动一个列表项将会显示一个操作图标。</p>
@@ -297,7 +297,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>打勾表示列表项已被选中。</p>
@@ -315,7 +315,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>加粗、斜体和下划线等内联信息提供了快捷键。</p>
@@ -333,7 +333,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/lists-controls/components_listcontrols_menu3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单项中的符号表示子菜单会通过鼠标悬停、聚焦、选择等方式弹出。</p>

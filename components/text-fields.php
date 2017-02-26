@@ -31,7 +31,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/text-fields/components_text_fields.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/text-fields/components_text_fields.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -124,7 +124,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_anatomy.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_anatomy.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1. 标签<br>
@@ -159,7 +159,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动内联标签</p>
@@ -169,7 +169,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>浮动内联标签</p>
@@ -195,7 +195,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题下的浮动内联标签的状态包括：普通状态下含提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
@@ -210,7 +210,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题下的浮动内联标签的状态包括：普通状态下的提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
@@ -237,7 +237,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>浮动标签<br>
@@ -258,7 +258,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_labels5_dense_2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels5_dense_2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>密集型浮动标签<br>
@@ -414,7 +414,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行文本框</p>
@@ -424,7 +424,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行文本框</p>
@@ -449,7 +449,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题的单行文本框</p>
@@ -467,7 +467,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题的单行文本框</p>
@@ -482,7 +482,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行文本框</p>
@@ -495,7 +495,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single6_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single6_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>密集型单行文本框</p>
@@ -522,7 +522,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题下的：普通状态的提示文本、聚焦状态、含输入文本的普通状态</p>
@@ -536,7 +536,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题下的：普通状态提示文本、聚焦状态、含输入文本的普通状态</p>
@@ -551,7 +551,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的单行文本框</p>
@@ -565,7 +565,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_single9_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single9_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含图标的密集型单行文本框</p>
@@ -602,7 +602,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_multiline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>多行文本框</p>
@@ -627,7 +627,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_multiline3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>亮色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态。</p>
@@ -641,7 +641,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_multiline4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态</p>
@@ -656,7 +656,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_multiline5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>暗色主题规格：</p>
@@ -667,7 +667,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_multiline5_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline5_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>密集型暗色主题规格：</p>
@@ -700,7 +700,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_full1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全宽文本框</p>
@@ -710,7 +710,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_full2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全宽文本框</p>
@@ -731,7 +731,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_full3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行和多行文本框的以下状态：普通状态、聚焦状态、含多行输入文本的普通状态</p>
@@ -746,7 +746,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_full4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>全宽单行文本框的规格：</p>
@@ -758,7 +758,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_full4_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full4_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>密集型全宽单行文本框的规格：</p>
@@ -792,7 +792,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_counter1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含字数统计的单行文本框上，如果显示一根绿线，则说明还没有超过字数限制。</p>
@@ -803,7 +803,7 @@
                     <h3>
                       <figure class="s-tag-media">
                         <div class="media">
-                          <img alt="" src="../static/media/components/text-fields/components_textfields_counter2.png"/>
+                          <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter2.png'); ?>"/>
                         </div>
                       </figure>
                     </h3>
@@ -818,7 +818,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_counter3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含字数统计的多行文本框，如果显示一根绿线，则说明还没有超过字数限制。</p>
@@ -828,7 +828,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_counter4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含字数统计的多行文本框，如果显示一根红线，则说明已经超过了字数限制。</p>
@@ -845,7 +845,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_counter7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含字数统计的全宽文本框</p>
@@ -861,7 +861,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_counter8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>单行聚焦状态和多行聚焦状态的文本框</p>
@@ -894,7 +894,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>自动完成文本框</p>
@@ -904,7 +904,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>下拉框中的自动完成文本</p>
@@ -921,7 +921,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内嵌式自动完成</p>
@@ -931,7 +931,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内嵌式自动完成</p>
@@ -948,7 +948,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含提示文本</p>
@@ -958,7 +958,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>聚焦且显示建议</p>
@@ -975,7 +975,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_auto10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内联自动完成</p>
@@ -1007,7 +1007,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_search1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_search1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>应用栏充当文本输入框。</p>
@@ -1017,7 +1017,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_search2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_search2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>应用栏充当文本输入框，并对下面的内容进行过滤和排序。</p>
@@ -1052,8 +1052,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -1075,7 +1075,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_required6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_required6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>提示文本给出了文本和数字的示例。提示文本也可以是一个下拉菜单，用户可以输入并从中选择、或者直接从中选择。</p>
@@ -1115,7 +1115,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/text-fields/components_textfields_passwordinput.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_passwordinput.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>可见性图标显示在文本框的右侧。</p>

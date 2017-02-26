@@ -27,7 +27,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/search/patterns_search.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -83,7 +83,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_persistent1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Persistent search box</p>
@@ -93,7 +93,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_persistent2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Persistent search text field in focus</p>
@@ -113,7 +113,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_persistent3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Auto-complete<br>
@@ -123,7 +123,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_persistent4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Search results</p>
@@ -146,7 +146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_expandable1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Expandable search</p>
@@ -156,7 +156,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_expandable2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Search text field in focus</p>
@@ -176,7 +176,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_expandable3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Auto-complete<br></p>
@@ -186,7 +186,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/search/patterns_search_expandable4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Search results</p>

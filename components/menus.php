@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/menus/components_menus.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/menus/components_menus.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -83,7 +83,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>应用栏中的操作按钮会触发菜单。</p>
@@ -93,7 +93,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>此操作触发的菜单包含四个菜单项：“Refresh”，“Help &amp; feedback”，“Settings”和“Sign out”。</p>
@@ -113,7 +113,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage3do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage3do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -127,7 +127,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage3dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage3dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -152,14 +152,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage4a.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage4a.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage4b.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage4b.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>上下文菜单</p>
@@ -177,7 +177,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>内部滚动菜单</p>
@@ -194,7 +194,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_usage7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>桌面端的级联菜单</p>
@@ -209,8 +209,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm" type="video/webm">
-                            <source src="../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -228,8 +228,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm" type="video/webm">
-                            <source src="../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -244,8 +244,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -287,7 +287,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_items1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_items1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单项示例</p>
@@ -306,7 +306,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_items2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_items2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>禁用菜单项示例</p>
@@ -338,7 +338,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_behavior1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_behavior1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单出现在所有其他应用内部的 UI 元素上面的示例。</p>
@@ -353,7 +353,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_behavior2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_behavior2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -369,7 +369,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_behavior3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_behavior3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -385,7 +385,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_behavior4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_behavior4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -435,7 +435,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单菜单示例</p>
@@ -450,7 +450,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -464,7 +464,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -480,7 +480,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -496,7 +496,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -512,7 +512,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -526,7 +526,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -545,7 +545,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单菜单具有 16dp 的外边距。</p>
@@ -557,7 +557,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus9.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus9.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>简单菜单左右均有 16dp 的外边距。</p>
@@ -574,7 +574,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus10.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus10.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -585,7 +585,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus11.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus11.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -602,7 +602,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus12.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus12.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -613,7 +613,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus13.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus13.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -629,7 +629,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus14.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus14.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -640,7 +640,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus15.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus15.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -658,7 +658,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus16.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus16.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -672,7 +672,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_dialogs_simplemenus17.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus17.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -706,7 +706,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_specs1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单项高度：48dp<br>
@@ -723,7 +723,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_specs2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_specs2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>不同宽度的菜单：最小宽度 1.5x，3x，6x 和 7x</p>
@@ -738,7 +738,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_specs3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_specs3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>桌面端的级联菜单</p>
@@ -753,7 +753,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/menus/components_menus_specs4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_specs4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>级联菜单顶部内边距：16dp<br>

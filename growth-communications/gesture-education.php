@@ -55,8 +55,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -80,8 +80,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -190,8 +190,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -219,8 +219,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm" type="video/webm">
-                            <source src="../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

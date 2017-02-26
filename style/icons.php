@@ -53,7 +53,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/style/icon/style_icons.png"/>
+                    <img alt="" src="<?php static_url('../static/media/style/icon/style_icons.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -97,7 +97,7 @@
                     <p>Use these guidelines as a starting point to ensure that your product icon colors and key elements reflect your brand identity.</p>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://design.google.com/icons/&amp;sa=D&amp;ust=1481817966474000&amp;usg=AFQjCNHwlr9zCKtdz3f1PJvpLh3cPz-_Gg" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
                           <div class="title">Material icons</div>
                           <span class="subtitle">Material icons are easy to use in your web, Android, and iOS projects. </span>
@@ -109,7 +109,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_intro_definition.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_definition.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -124,7 +124,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_intro_material_physical.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Physical prototype</p>
@@ -134,7 +134,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_intro_material_lighting.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Lighting study</p>
@@ -147,7 +147,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_intro_material_material.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Material prototype</p>
@@ -157,7 +157,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_intro_material_color.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Color study</p>
@@ -175,7 +175,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_logo_grid.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Grid </p>
@@ -185,7 +185,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_logo_keylines.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines </p>
@@ -203,7 +203,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_shapes_square.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Square</p>
@@ -215,7 +215,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_shapes_circle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Circle </p>
@@ -229,7 +229,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical rectangle</p>
@@ -241,7 +241,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Horizontal rectangle</p>
@@ -262,7 +262,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_unit_1to1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>1:1 Unit grid </p>
@@ -272,7 +272,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_unit_4to1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>4:1 Unit grid </p>
@@ -290,14 +290,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_geometry1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry1.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_geometry2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -307,14 +307,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_geometry3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry3.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_grid_geometry4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry4.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -334,7 +334,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_components.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Components</p>
@@ -345,7 +345,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_components_perspective.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Construction perspective</p>
@@ -359,7 +359,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_material_background.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Material background</p>
@@ -370,7 +370,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_material_foreground.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Material foreground</p>
@@ -384,7 +384,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_color_spot.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Spot color</p>
@@ -395,7 +395,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_color_flooding.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Flooding</p>
@@ -409,7 +409,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tinted edge</p>
@@ -420,7 +420,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Shaded edge</p>
@@ -434,7 +434,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_shadow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Contact shadow</p>
@@ -445,7 +445,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_anatomy_finish.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Finish</p>
@@ -465,7 +465,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_lighting_top.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Top</p>
@@ -475,7 +475,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_lighting_45.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>45º angle</p>
@@ -493,7 +493,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_shadow.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Drop shadow metrics</p>
@@ -522,7 +522,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_edge_tinted.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Tinted edge</p>
@@ -535,7 +535,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_edge_shaded.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Shaded edge</p>
@@ -556,7 +556,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_finish.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Gradient metrics</p>
@@ -587,7 +587,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_values_cool.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_cool.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -597,7 +597,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_values_fresh.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_fresh.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -607,7 +607,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_values_warm.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_warm.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -617,7 +617,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_values_hot.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_hot.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -627,7 +627,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_lighting_values_neutral.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_neutral.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -644,7 +644,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_color_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -654,7 +654,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_color_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -671,7 +671,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_layer_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -681,7 +681,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_layer_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -698,7 +698,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_elevate_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -708,7 +708,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_elevate_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -725,7 +725,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_score_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -735,7 +735,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_score_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -751,7 +751,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_fold_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -761,7 +761,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_fold_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -778,7 +778,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_overlap_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -788,7 +788,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_overlap_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -805,7 +805,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_accordian_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -815,7 +815,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_accordian_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -831,7 +831,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_distort_do.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_do.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -841,7 +841,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_logos_product_patterns_distort_dont.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_dont.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -859,7 +859,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_form1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Construction</p>
@@ -869,7 +869,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_form2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keyline alignment</p>
@@ -883,7 +883,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_keyline1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Square</p>
@@ -893,7 +893,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_keyline2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Circle</p>
@@ -906,7 +906,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_keyline3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Vertical rectangle</p>
@@ -916,7 +916,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_keyline4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Horizontal rectangle</p>
@@ -930,7 +930,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_dimension1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Paper</p>
@@ -940,7 +940,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_dimension2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Color</p>
@@ -955,7 +955,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_gestures1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Construction</p>
@@ -965,7 +965,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_gestures2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Composition</p>
@@ -979,7 +979,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -990,7 +990,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1004,7 +1004,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1015,7 +1015,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1029,7 +1029,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_do3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1040,7 +1040,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_product_human_best_dont3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1072,7 +1072,7 @@
                     <p>The design of system icons is simple, modern, friendly, and sometimes quirky. Each icon is reduced to its minimal form, with every idea edited to its essence. The designs ensure readability and clarity even at small sizes.</p>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/design/icons/&amp;sa=D&amp;ust=1481817966568000&amp;usg=AFQjCNFijbXpQjCvaR-U8dJCj3ER3TByfQ" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
                           <div class="title">Material design icons</div>
                           <span class="subtitle">Download our system icons</span>
@@ -1084,7 +1084,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_intro.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1100,7 +1100,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_intro_principles_simple.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Simple</p>
@@ -1110,7 +1110,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_intro_principles_intuitive.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Intuitive</p>
@@ -1123,7 +1123,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_intro_principles_actionable.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Actionable</p>
@@ -1133,7 +1133,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_intro_principles_consistent.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Consistent</p>
@@ -1153,7 +1153,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_unitgrid_100.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>100% scale</p>
@@ -1161,7 +1161,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dense grid at 20dp, 100% scale</p>
@@ -1171,7 +1171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_icongrid_800.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>800% scale</p>
@@ -1179,7 +1179,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Dense grid at 20dp, 800% scale</p>
@@ -1195,7 +1195,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_icongrid_grid.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Grid</p>
@@ -1205,7 +1205,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Keylines</p>
@@ -1225,7 +1225,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_area_live.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Live area</p>
@@ -1234,7 +1234,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_area_live_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Dense live area</p>
@@ -1245,7 +1245,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_area_trim.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Padding</p>
@@ -1254,7 +1254,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_area_trim_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Dense padding area</p>
@@ -1271,7 +1271,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_shapes_square.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Square</p>
@@ -1283,7 +1283,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_shapes_circle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Circle</p>
@@ -1297,7 +1297,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Vertical rectangle</p>
@@ -1309,7 +1309,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Horizontal rectangle</p>
@@ -1327,7 +1327,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_geometry1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Construction</p>
@@ -1337,7 +1337,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_grid_geometry2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Composition</p>
@@ -1360,7 +1360,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1375,7 +1375,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Exterior corners with 2dp corner radius</p>
@@ -1385,7 +1385,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_corner_interior.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Interior corners</p>
@@ -1401,7 +1401,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Consistency</p>
@@ -1411,7 +1411,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Curves and angles</p>
@@ -1424,7 +1424,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Stroke terminal</p>
@@ -1434,7 +1434,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Counter stroke</p>
@@ -1451,7 +1451,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_optical_complex.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Complex</p>
@@ -1462,7 +1462,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_optical_small.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p> Small scale</p>
@@ -1480,7 +1480,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_clearance_area.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_area.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Clearance area</p>
@@ -1490,7 +1490,7 @@
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Clearance area for dense icons</p>
@@ -1502,7 +1502,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Placement</p>
@@ -1520,7 +1520,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1531,7 +1531,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1545,7 +1545,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1556,7 +1556,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1570,7 +1570,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1581,7 +1581,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1595,7 +1595,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1606,7 +1606,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1620,7 +1620,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1631,7 +1631,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1645,7 +1645,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_do6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1657,7 +1657,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_best_dont6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1682,7 +1682,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_anatomy1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full body</p>
@@ -1692,7 +1692,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_anatomy2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Upper body</p>
@@ -1706,7 +1706,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_form1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full body example</p>
@@ -1716,7 +1716,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_form2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Upper body example</p>
@@ -1729,7 +1729,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_form3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Cropped example</p>
@@ -1739,7 +1739,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_form4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Detailed parts example</p>
@@ -1753,7 +1753,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_fullbody1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Full body examples</p>
@@ -1763,7 +1763,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_fullbody2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1773,7 +1773,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_fullbody3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Visual Alignment</p>
@@ -1788,7 +1788,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_upperbody1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Upper body examples</p>
@@ -1798,7 +1798,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_upperbody2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1808,7 +1808,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_upperbody3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Visual Alignment</p>
@@ -1823,7 +1823,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_contained1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Cropped examples</p>
@@ -1833,7 +1833,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_contained2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1844,7 +1844,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_detailedparts1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Detailed part examples</p>
@@ -1854,7 +1854,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_detailedparts2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -1866,7 +1866,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1877,7 +1877,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1891,7 +1891,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1902,7 +1902,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1916,7 +1916,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1927,7 +1927,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1941,7 +1941,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1952,7 +1952,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1966,7 +1966,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_do5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -1977,7 +1977,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_human_best_dont5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -1997,14 +1997,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_color1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color1.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_system_color2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -2035,7 +2035,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Four shortcuts maximum may be shown at once. You may determine the order of the shortcuts. </p>
@@ -2063,7 +2063,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Live area</strong></p>
@@ -2074,7 +2074,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Total area</strong></p>
@@ -2104,7 +2104,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>System icon size</strong></p>
@@ -2115,7 +2115,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Position in live area circle</strong></p>
@@ -2129,7 +2129,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -2140,7 +2140,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -2167,7 +2167,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Live area circle</strong><strong> &amp; avatar area</strong></p>
@@ -2178,7 +2178,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Total area</strong></p>
@@ -2207,7 +2207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Live area circle</strong></p>
@@ -2220,7 +2220,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Avatar area</strong></p>
@@ -2234,7 +2234,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>Total area</strong></p>

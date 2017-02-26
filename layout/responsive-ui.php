@@ -43,7 +43,7 @@
             <div><p>For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.</p>
               <div class="modulettes">
                 <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/md.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/md.svg'); ?>">
                   <div class="info">
                     <div class="title">Resizer</div>
                     <span class="subtitle">Preview material design breakpoints with this interactive viewer across desktop, mobile, and tablet </span>

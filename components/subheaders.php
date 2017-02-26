@@ -27,7 +27,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt=""  src="../static/media/components/subheaders/components_subheaders.png"/>
+                    <img alt=""  src="<?php static_url('../static/media/components/subheaders/components_subheaders.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -76,7 +76,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>灰色副标题</p>
@@ -88,7 +88,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>邮件收件箱中的灰色副标题</p>
@@ -105,7 +105,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>含有左对齐的浮动操作按钮时，副标题和文本内容对齐。</p>
@@ -117,7 +117,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个副标题使用应用的主色，并且和文本对齐，因为它有一个左对齐的浮动操作按钮。</p>
@@ -150,7 +150,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>这个副标题和左边缘有 16dp 的间距。网格副标题瓦片的高度是 48dp。</p>
@@ -160,7 +160,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>用于表示相册中的月份的网格副标题</p>
@@ -194,7 +194,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单副标题规格</p>
@@ -206,7 +206,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/subheaders/components_subheaders8.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders8.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>菜单副标题示例</p>

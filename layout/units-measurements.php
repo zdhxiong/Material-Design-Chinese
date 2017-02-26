@@ -56,7 +56,7 @@
                     <h4 class="related">Related</h4>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/practices/screens_support.html&amp;sa=D&amp;ust=1481817970797000&amp;usg=AFQjCNGwPQDJJd2uu17SB88ySaEwsmZEPw" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Supporting Multiple Screens</div>
                           <span class="subtitle">Optimize your design for different screen densities.</span>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/resources/more-resources.html%23Dimension&amp;sa=D&amp;ust=1481817970799000&amp;usg=AFQjCNGSIwsX8PWLOAEIqXA1Gm15wNg5jA" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">More Resource Types</div>
                           <span class="subtitle">Units of measure supported by Android.</span>
@@ -78,7 +78,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/units-measurements/layout_units_density1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><br>
@@ -92,7 +92,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/units-measurements/layout_units_density2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><br>
@@ -126,7 +126,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/layout/units-measurements/layout_units_dp.png"/>
+                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_dp.png'); ?>"/>
                       </div>
                     </figure>
                   </div>

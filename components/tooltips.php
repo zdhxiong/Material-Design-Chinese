@@ -27,7 +27,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/tooltips/components_tooltips.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -75,7 +75,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_usage1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -85,7 +85,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_usage2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -102,7 +102,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_usage3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -112,7 +112,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_usage4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -166,7 +166,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_cursor_keyline.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor_keyline.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>光标/键盘工具提示</p>
@@ -185,7 +185,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_cursor.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>光标/键盘工具提示示例</p>
@@ -217,7 +217,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_touch_keyline.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch_keyline.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>触摸元素工具提示</p>
@@ -234,7 +234,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_touch1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>触摸元素工具提示示例</p>
@@ -244,7 +244,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_touch2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>触摸元素工具提示示例</p>
@@ -257,7 +257,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_touch3.png"/>
+                        <img alt="" src="<?php static_url(''); ?>"/>
                       </div>
                       <figcaption>
                         <p>普通状态触摸元素工具提示示例</p>
@@ -267,7 +267,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/tooltips/components_tooltips_touch4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>按下并持续按住状态的工具提示示例</p>

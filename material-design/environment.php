@@ -26,7 +26,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/material-design/environment/what_is_material_environment.png"/>
+                    <img alt="" src="<?php static_url('../static/media/material-design/environment/what_is_material_environment.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -68,7 +68,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/environment/whatismaterial_environment_3d.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_3d.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>具有 x、y、z 轴的 3D 空间</p>
@@ -99,7 +99,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/environment/whatismaterial_environment_shadow1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>直射光投射的阴影</p>
@@ -109,7 +109,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/environment/whatismaterial_environment_shadow2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>环境光投射的阴影</p>
@@ -119,7 +119,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/environment/whatismaterial_environment_shadow3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>直射光和环境光混合投影</p>

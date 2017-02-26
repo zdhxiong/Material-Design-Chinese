@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/expansion-panels/components_expansion_panels.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansion_panels.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -81,7 +81,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/expansion-panels/components_expansionpanels_usage.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>各种扩展面板</p>
@@ -134,7 +134,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>折叠的面板示例</p>
@@ -153,7 +153,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_expand.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>展开的面板示例</p>
@@ -172,7 +172,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_state.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p><strong>背景色</strong></p>
@@ -216,7 +216,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png'); ?>"/>
                       </div>
                     </figure>
                   </div>

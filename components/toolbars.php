@@ -26,7 +26,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/components/toolbars/components_toolbars.png"/>
+                    <img alt="" src="<?php static_url('../static/media/components/toolbars/components_toolbars.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -65,7 +65,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>工具栏在其他材料上方显示一个层阶。</p>
@@ -80,7 +80,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>工具栏会保持和其他材料的接缝，直到工具栏离开屏幕。</p>
@@ -94,7 +94,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>第二个材料在滚动时也可以覆盖工具栏。</p>
@@ -112,7 +112,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -123,7 +123,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -142,7 +142,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>在瀑布变形中，工具栏开始显示接缝，然后提升形成一个层阶。</p>

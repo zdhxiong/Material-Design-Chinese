@@ -45,7 +45,7 @@
               <p>用户可以移动小部件，如果支持的话，可以在主屏幕上调整小部件的大小。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/appwidgets/index.html&amp;sa=D&amp;ust=1481817989213000&amp;usg=AFQjCNEYogPWPMXxugx8F_BKM54SqwxaRA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">应用小部件</div>
                     <span class="subtitle">如何发布一个应用小部件</span>
@@ -76,7 +76,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_types_information.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_information.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个信息小部件</p>
@@ -100,7 +100,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_types_collection.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>集合小部件</p>
@@ -110,7 +110,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_types_collection_list.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection_list.png'); ?>"/>
                       </div>
                     </figure>
                   </div>
@@ -126,7 +126,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_types_control.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_control.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个控制小部件</p>
@@ -146,7 +146,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_types_hybrid.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_hybrid.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>一个混合小部件</p>
@@ -186,7 +186,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/components/widgets/components_widgets_behavior_01.png"/>
+                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_behavior_01.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>长按之后可调整大小的小部件将进入调整大小模式。用户可以拖动手柄或小部件角度来设置所需的大小。</p>

@@ -13,8 +13,8 @@
           <p>关于 Material Design 中的更多关于颜色的信息，详见<a href="../style/color.html">颜色</a>。</p>
           <p>
             <div class="modulettes">
-              <a class="modulette download trackdl" download="" href="../static/media/resources/color-palettes/color_swatches.zip" title="Color Swatches">
-                <img alt="" class="icon download-icon" src="../static/images/callouts/download.svg">
+              <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/color-palettes/color_swatches.zip'); ?>" title="Color Swatches">
+                <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                 <div class="info">
                   <div class="title">颜色色板</div>
                   <span class="subtitle">0.02 MB (.zip) </span>

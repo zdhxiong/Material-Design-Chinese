@@ -30,7 +30,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/material-design/material-properties/what_is_material_material_properties.png"/>
+                    <img alt="" src="<?php static_url('../static/media/material-design/material-properties/what_is_material_material_properties.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -73,7 +73,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -84,7 +84,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -105,8 +105,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -125,8 +125,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -149,8 +149,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -173,8 +173,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -196,7 +196,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -207,7 +207,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -223,7 +223,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
@@ -234,7 +234,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/material-design/material-properties/whatismaterial_properties_physical6.png"/>
+                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical6.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -255,8 +255,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -294,8 +294,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -317,8 +317,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -339,8 +339,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -363,8 +363,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -386,8 +386,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -424,8 +424,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -445,8 +445,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -468,8 +468,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.webm" type="video/webm">
-                            <source src="../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

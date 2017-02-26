@@ -29,7 +29,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/patterns/permissions/patterns_permissions.png"/>
+                    <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -135,7 +135,7 @@
                     <p></p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/components/intents-filters.html&amp;sa=D&amp;ust=1481818002243000&amp;usg=AFQjCNFfT6XSBf74_LqfVqUqBpvFHpJPDA" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">Intents and Intent Filters</div>
                           <span class="subtitle"></span>
@@ -171,7 +171,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_runtime1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Example of an app requesting permission</p>
@@ -203,7 +203,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns0.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>Critical permissions should be requested up-front. Secondary permissions may be requested in-context.</p>
@@ -218,7 +218,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2><strong>Educate before asking</strong></h2>
@@ -229,7 +229,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2><strong>Ask up-front</strong></h2>
@@ -241,7 +241,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns3.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2><strong>Ask in context</strong></h2>
@@ -255,7 +255,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns4.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2><strong>Educate in context</strong></h2>
@@ -266,7 +266,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_patterns5.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>"/>
                       </div>
                       <figcaption>
                         <h2><strong>Provide an immediate benefit </strong></h2>
@@ -279,8 +279,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/patterns/permissions/patterns_permissions_patterns2.webm" type="video/webm">
-                            <source src="../static/media/patterns/permissions/patterns_permissions_patterns2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -323,7 +323,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_denied1.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>A snackbar displays the need for permission in order to use an audio feature. </p>
@@ -340,7 +340,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="../static/media/patterns/permissions/patterns_permissions_denied2.png"/>
+                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>A screen explains that a permission is needed for an app to function, with a link to allow that permission in Settings.</p>

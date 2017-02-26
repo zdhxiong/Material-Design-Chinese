@@ -24,7 +24,7 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media">
-                    <img alt="" src="../static/media/motion/movement/02-movement.png"/>
+                    <img alt="" src="<?php static_url('../static/media/motion/movement/02-movement.png'); ?>"/>
                   </div>
                 </figure>
               </div>
@@ -70,8 +70,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -87,8 +87,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -112,8 +112,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -129,8 +129,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -154,8 +154,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -171,8 +171,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -193,8 +193,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -210,8 +210,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -253,8 +253,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -270,8 +270,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -293,8 +293,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -310,8 +310,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -336,8 +336,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -353,8 +353,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.webm" type="video/webm">
-                            <source src="../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

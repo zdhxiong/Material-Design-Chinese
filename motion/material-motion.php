@@ -17,8 +17,8 @@
                   <div class="media">
                     <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                       <video controls="" loop="" preload="metadata">
-                        <source src="../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.webm" type="video/webm">
-                        <source src="../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.mp4" type="video/mp4">
+                        <source src="<?php static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.webm'); ?>" type="video/webm">
+                        <source src="<?php static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.mp4'); ?>" type="video/mp4">
                         </source></source>
                       </video>
                     </div>
@@ -72,7 +72,7 @@
               <h4 class="related">Related</h4>
               <div class="modulettes">
                 <a class="modulette container gd" href="https://www.google.com/url?q=https://design.google.com/articles/making-motion-meaningful/&amp;sa=D&amp;ust=1481817956630000&amp;usg=AFQjCNFv-WwC2zwQq_ZcOUOgB3F1DZ_Tig" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/images/callouts/gd.svg">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/gd.svg'); ?>">
                   <div class="info">
                     <div class="title">Making Motion Meaningful</div>
                     <span class="subtitle">Motion designers from around Google share some of their most moving product features.</span>
@@ -107,8 +107,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Responsive_01_Durations-v1.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Responsive_01_Durations-v1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -127,8 +127,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Responsive_02_Feedback-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Responsive_02_Feedback-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -144,8 +144,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -168,8 +168,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Natural_01_Easing-v1.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Natural_01_Easing-v1.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -188,8 +188,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Natural_02_Arc-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Natural_02_Arc-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.mp4'); ?>" type="video/mp4">
                             </source></source></video>
                         </div>
                       </div>
@@ -204,8 +204,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Natural_03_Transform-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Natural_03_Transform-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -229,8 +229,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Aware_01_Choreo-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Aware_01_Choreo-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -245,8 +245,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Aware_02_MoveAway-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Aware_02_MoveAway-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -264,8 +264,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Aware_03_Magnets-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Aware_03_Magnets-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -290,8 +290,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Intentional_01_Focus-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Intentional_01_Focus-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -306,8 +306,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Intentional_03_Disabled-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Intentional_03_Disabled-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -325,8 +325,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/Intentional_02_Ring-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/Intentional_02_Ring-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -366,8 +366,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/GoodTransition_QuickDo-v4.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/GoodTransition_QuickDo-v4.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -383,8 +383,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/GoodTransition_QuickDont-v4.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/GoodTransition_QuickDont-v4.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -408,8 +408,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/GoodTransition_ClearDo-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/GoodTransition_ClearDo-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -425,8 +425,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/GoodTransition_ClearDont-v3.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/GoodTransition_ClearDont-v3.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -450,8 +450,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/GoodTransition_Cohesive-v4.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/GoodTransition_Cohesive-v4.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -487,8 +487,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/ImplicationsDo-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/ImplicationsDo-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDo-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDo-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -504,8 +504,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
                           <video controls="" loop="" preload="metadata">
-                            <source src="../static/media/motion/material-motion/ImplicationsDont-v2.webm" type="video/webm">
-                            <source src="../static/media/motion/material-motion/ImplicationsDont-v2.mp4" type="video/mp4">
+                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDont-v2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDont-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
