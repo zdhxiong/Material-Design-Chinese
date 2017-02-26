@@ -12,14 +12,14 @@
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Material can make surfaces feel alive by multiplying and dividing them, and changing their shape and size.</p>
+                <p>材料可以通过合并和分割、改变形状和尺寸，来使材料表面更富生命力。</p>
               </div>
               <div class="module">
-                <h3><strong>Rectangular transformation </strong></h3>
-                <p>Asymmetric<br>
-                  Symmetric</p>
-                <h3><strong>Radial transformation</strong></h3>
-                <p>Symmetrical and circular</p>
+                <h3><strong>矩形转换</strong></h3>
+                <p>不对称转换<br>
+                  对称转换</p>
+                <h3><strong>径向转换</strong></h3>
+                <p>对称和圆形</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -37,13 +37,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-rectangular-transformation" data-qp-ui-data-id="qp:1">Rectangular transformation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-rectangular-transformation" data-qp-ui-data-id="qp:1">矩形转换</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-radial-transformation" data-qp-ui-data-id="qp:2">Radial transformation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-radial-transformation" data-qp-ui-data-id="qp:2">径向转换</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-joining-dividing" data-qp-ui-data-id="qp:3">Joining &amp; Dividing</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-joining-dividing" data-qp-ui-data-id="qp:3">合并 &amp; 分割</a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
 
         <div id="transforming-material-rectangular-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Rectangular transformation
+            矩形转换
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -61,7 +61,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When material changes shape and size, its width and height change asynchronously along a motion curve. These changes are <a href="choreography.html">choreographed</a> with nearby surfaces inside or around the changing element.</p>
+              <p>当材料改变形状和尺寸时，它的宽度和高度也会也会沿着运动曲线异步变化。这些改变是和内部与周围的元素经过<a href="choreography.html">编排</a>的。</p>
               <p>All surface transformations that occur on-screen, such as the ones below, use the <a href="duration-easing.html#duration-easing-natural-easing-curves">standard curve</a>. </p>
               <div class="col-list">
                 <section class="module-figure col-2">
