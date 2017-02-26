@@ -257,7 +257,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="<?php static_url(''); ?>"/>
+                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch3.png'); ?>"/>
                       </div>
                       <figcaption>
                         <p>普通状态触摸元素工具提示示例</p>
