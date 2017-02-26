@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Motion in the world of material design is used to describe spatial relationships, functionality, and intention with beauty and fluidity.</h1>
+          <h1>在 Material Design 的世界中，动效用于描述空间关系、功能以及提供优雅流畅的交互效果。</h1>
           <div class="col-list">
             <section class="figure col-1">
               <div class="figure">
@@ -34,16 +34,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-why-does-motion-matter" data-qp-ui-data-id="qp:1">Why does motion matter?</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-why-does-motion-matter" data-qp-ui-data-id="qp:1">为什么动效很重要？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-how-does-material-move" data-qp-ui-data-id="qp:2">How does material move?</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-how-does-material-move" data-qp-ui-data-id="qp:2">材料如何移动？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-what-makes-a-good-transition" data-qp-ui-data-id="qp:3">What makes a good transition?</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-what-makes-a-good-transition" data-qp-ui-data-id="qp:3">什么是好的转换？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-implications-of-motion" data-qp-ui-data-id="qp:4">Implications of motion</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-implications-of-motion" data-qp-ui-data-id="qp:4">动效的影响</a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
 
         <div id="material-motion-why-does-motion-matter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Why does motion matter?
+            为什么动效很重要?
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -60,22 +60,22 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Motion shows how an app is organized and what it can do. </p>
-              <p>Motion provides: </p>
+            <div><p>动效展示了应用的组织方式和功能。</p>
+              <p>动效可以：</p>
               <ul class="lst-kix_so1jjix4kui4-0 start">
-                <li>Guided focus between views</li>
-                <li>Hints at what will happen if a user completes a gesture</li>
-                <li>Hierarchical and spatial relationships between elements</li>
-                <li>Distraction from what’s happening behind the scenes (like fetching content or loading the next view)</li>
-                <li>Character, polish, and delight</li>
+                <li>引导用户在视图中的视觉焦点</li>
+                <li>提示用户完成手势操作后会发生什么</li>
+                <li>暗示元素间的等级和空间关系</li>
+                <li>让用户忽视系统背后发生的事情（比如抓取内容、或加载下一个视图）</li>
+                <li>使应用更有个性、更优雅、更令人愉悦</li>
               </ul>
-              <h4 class="related">Related</h4>
+              <h4 class="related">延伸阅读</h4>
               <div class="modulettes">
                 <a class="modulette container gd" href="https://www.google.com/url?q=https://design.google.com/articles/making-motion-meaningful/&amp;sa=D&amp;ust=1481817956630000&amp;usg=AFQjCNFv-WwC2zwQq_ZcOUOgB3F1DZ_Tig" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/gd.svg'); ?>">
                   <div class="info">
-                    <div class="title">Making Motion Meaningful</div>
-                    <span class="subtitle">Motion designers from around Google share some of their most moving product features.</span>
+                    <div class="title">让动效更有意义</div>
+                    <span class="subtitle">来自 Google 的动效设计师分享了一些它们引以为傲的产品特性。</span>
                   </div>
                   </img>
                 </a>
@@ -86,7 +86,7 @@
 
         <div id="material-motion-how-does-material-move" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            How does material move?
+            材料如何移动?
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -95,12 +95,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>The material environment draws inspiration from real-world forces, such as gravity and friction. These forces are reflected in the way user input affects elements on screen and how elements react to each other.</p>
-              <p>Material in motion has the following characteristics:</p>
+              <p>材料环境从现实世界的力学中吸取灵感，如重力和摩擦力。这些力显示了用户如何和屏幕上的元素交互，以及元素之间的相互影响。</p>
+              <p>运动中的材料有以下特性：</p>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h2><strong><strong>Responsive</strong></strong></h2>
-                    <p>Material is full of energy. It quickly responds to user input precisely where the user triggers it.</p>
+                  <div class="module"><h2><strong><strong>反映敏捷</strong></strong></h2>
+                    <p>材料通常充满活力。它可以快速准确地在用户输入的位置做出响应。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -114,8 +114,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Larger animations on mobile devices are 300-400ms long. Smaller animations can be as short as 150-200ms. Animations longer or shorter than these can feel sluggish or difficult to follow.</p>
-                        <p>See more in <a href="duration-easing.html#duration-easing-common-durations">Common Durations</a>.</p>
+                        <p>在移动设备上，长一点的动画时间在 300-400ms 之间，短一点的动画时间在 150-200ms 之间。动画时间太长会让用户感觉迟钝，太短会感觉难以跟上。</p>
+                        <p>更多信息详见<a href="duration-easing.html#duration-easing-common-durations">常见的动画时间</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -134,8 +134,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Ink ripples confirm user input by immediately expanding outward from the point of touch. The card lifts to indicate an active state.</p>
-                        <p>See more in <a href="choreography.html#choreography-radial-reaction">Radial reaction</a>.</p>
+                        <p>用户输入时会立即出现水波纹，从用户的触点向外扩散。浮动的卡片指示了卡片处于激活状态。</p>
+                        <p>更多信息详见<a href="choreography.html#choreography-radial-reaction">径向反映</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -151,8 +151,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Show the connection between new surfaces and the element or action that creates them.</p>
-                        <p>See more in <a href="choreography.html#choreography-creation">Creation</a>.</p>
+                        <p>展示了新创建的元素和创建者之间的联系。</p>
+                        <p>更多信息详见<a href="choreography.html#choreography-creation">创造</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -161,8 +161,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Natural</strong></strong></h2>
-                    <p>Material depicts natural movement inspired by forces in the real world.</p></div>
+                    <h2><strong><strong>自然的</strong></strong></h2>
+                    <p>受到了真实世界中的力学的启发，材料会很自然的移动。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -175,8 +175,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>In the real world, an element’s ability to speed up or slow down quickly is affected by weight and surface friction. In a similar way, starts and stops do not occur instantaneously in material design.</p>
-                        <p>See more in <a href="duration-easing.html#duration-easing-natural-easing-curves">Natural easing curves</a>.</p>
+                        <p>在现实世界中，物体的加速度和减速度会受到物体自身的重量和表面摩擦力的影响，因此在 Material Design 中，物体不会突然开始运动，也不会突然停止。</p>
+                        <p>更多信息详见<a href="duration-easing.html#duration-easing-natural-easing-curves">自然缓动曲线</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -194,8 +194,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Real-world forces, like gravity, inspire an element’s movement along an arc rather than in a straight line.</p>
-                        <p>See more in <a href="movement.html#movement-movement-within-screen-bounds">Movement</a>.</p>
+                        <p>现实世界中的力，如重力，会启发物体沿着曲线运动，而不是直线运动。</p>
+                        <p>更多信息详见<a href="movement.html#movement-movement-within-screen-bounds">移动</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -211,8 +211,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material transformations follow an arc of movement.</p>
-                        <p>See more in <a href="transforming-material.html">Transforming material</a>.</p>
+                        <p>材料的形变也遵守曲线的运动轨迹。</p>
+                        <p>更多信息详见<a href="transforming-material.html">材料转换</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -220,9 +220,9 @@
               </div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h2><strong>Aware</strong></h2>
-                    <p>Material is aware of its surroundings, including the user and other material around it. It can be attracted to elements and respond appropriately to user intent.</p>
-                    <p>See more in <a href="choreography.html">Choreography</a>.</p>
+                  <div class="module"><h2><strong>有意识的</strong></h2>
+                    <p>材料可以感知周围环境，包括用户和周围的其他材料。它可以被吸引到其他材料上，并以此响应用户的意图。</p>
+                    <p>更多信息详见<a href="choreography.html">编排</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -236,7 +236,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>As elements transition into view, they and their surroundings are choreographed in a way that defines their relationships.</p>
+                        <p>当元素转换到视图中时，它们和它们周围的元素会以某种方式编排在一起，以此来定义它们之间的关系。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -252,7 +252,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Material can push other material out of the way.</p>
+                        <p>材料可以把其他材料挤出视图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -271,7 +271,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Elements may attract other elements and join with them as they approach one another.</p>
+                        <p>元素可以吸引其他元素，并在接近一个元素时加入到这个元素中，成为一个新的元素。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -281,9 +281,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Intentional</strong></strong></h2>
-                    <p>Material in motion guides focus to the right spot at the right time. </p>
-                    <p>See more in <a href="choreography.html#choreography-continuity">Continuity</a>.</p>
+                    <h2><strong><strong>有意图的</strong></strong></h2>
+                    <p>运动中的材料会指引用户在正确的时间聚焦于正确的位置。</p>
+                    <p>更多信息详见<a href="choreography.html#choreography-continuity">连续性</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -297,7 +297,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>A transition helps guide the user to the next step of an interaction.</p>
+                        <p>转换可以指引用户前往交互的下一步。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -313,7 +313,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Movement can communicate different signals, such as whether an action is unavailable.</p>
+                        <p>移动可以传达出不同的信息，例如操作是否不可用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -332,7 +332,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation can bring focus to elements that need user attention.</p>
+                        <p>动画可以把用户的焦点聚集到需要用户注意的元素上。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -345,7 +345,7 @@
 
         <div id="material-motion-what-makes-a-good-transition" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            What makes a good transition?
+            什么是好的转换？
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -354,12 +354,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Successful motion design possesses the following characteristics:</p>
+              <p>成功的动效设计需要遵守以下规则：</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Motion is quick</strong></strong></h2>
-                    <p>An interaction shouldn't keep the user waiting longer than necessary. </p>
+                    <h2><strong><strong>动效是快速的</strong></strong></h2>
+                    <p>每一次交互都不应该让用户等待过长的时间。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -374,7 +374,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Animate quickly so that the user never has to wait for the animation to finish.</p>
+                        <p>动画要迅速，这样用户不必等待动画完成。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -391,7 +391,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Staggering and slowing the movement of many elements can lengthen the duration.</p>
+                        <p>错开元素的动画，以及减慢元素的移动速度，都会导致动画时间过长。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -400,8 +400,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Motion is clear</strong></strong></h2>
-                    <p>Transitions should be clear, simple, and coherent. They should avoid doing too much at once. </p>
+                    <h2><strong><strong>动画要简单明了</strong></strong></h2>
+                    <p>转化要简单明了，并保持连贯。避免同时加入太多效果。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -416,7 +416,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Maintain a clear path into the next view, even while elements are choreographed as a group.</p>
+                        <p>转换到下一个视图时要保持清晰的路径，即使下一个视图是由很多元素编排成的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -433,7 +433,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Transitions can get confusing when multiple items need to move in different directions or cross paths.</p>
+                        <p>当有多个元素沿不同的方向、或不同的路径移动时，转换会变得很混乱。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -442,8 +442,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Motion is cohesive</strong></strong></h2>
-                    <p>Material elements are unified by their speed, responsiveness, and intention. Any customizations to your app's motion experience should be consistent throughout the app.</p>
+                    <h2><strong><strong>动效是一个整体</strong></strong></h2>
+                    <p>材料元素的运动速度、灵敏度和目的都是统一的。应用中任何自定义的动效体验都应保持一致。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -457,7 +457,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>While these apps have different functions, their similar animation experiences make them feel related.</p>
+                        <p>虽然这些应用有不同的功能，但是相似的动画体验使用户觉得它们是相关的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,7 +469,7 @@
 
         <div id="material-motion-implications-of-motion" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Implications of motion
+            动效的影响
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -480,7 +480,7 @@
             <div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>The benefits of these motion patterns are observable in the following two examples, in which an app that follows these patterns is compared with an app that does not.</p>
+                  <div class="module"><p>这些动效带来的好处，可以在下列两个案例中观察到，这两个案例一个使用了动效，一个没有用动效。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -495,7 +495,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>During the transition, the user is guided to the next view. The surface transforms to communicate hierarchy. Loading occurs behind the scenes to reduce perceived latency.</p>
+                        <p>在转换期间，用户被引导到下一个视图。通过平面的转换来传达应用的层次结构。加载过程在后台进行，以减少用户感知上的延迟。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -512,7 +512,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>It is unclear how the new view is related to the old because no transition occurs and there isn’t a clear focal point. Any sense of hierarchy isn’t communicated, and loading is more apparent by the display of a circular spinner.</p>
+                        <p>没有过渡效果，很难看出新视图和旧视图之间有什么关联。也无法感知到应用任何的层次结构，并且使用圆形旋转器的加载让加载过程显得太突兀。</p>
                       </figcaption>
                     </figure>
                   </div>
