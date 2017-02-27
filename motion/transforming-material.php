@@ -61,13 +61,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>当材料改变形状和尺寸时，它的宽度和高度也会也会沿着运动曲线异步变化。这些改变是和内部与周围的元素经过<a href="choreography.html">编排</a>的。</p>
-              <p>All surface transformations that occur on-screen, such as the ones below, use the <a href="duration-easing.html#duration-easing-natural-easing-curves">standard curve</a>. </p>
+              <p>当材料改变形状和尺寸时，它的宽度和高度也会沿着运动曲线异步变化。这些改变是和内部与周围的元素经过<a href="choreography.html">编排</a>的。</p>
+              <p>在屏幕上发生的所有表面转换，比如以下这些，都使用<a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a>。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h1>Transforming width and height</h1>
-                    <p>Elements may be expanded or collapsed using either asymmetric or symmetrical width and height changes.</p>
-                    <p><strong>Asymmetric transformations</strong> involve the width and height changes at different rates. They work best when multiple elements or position changes are involved.</p>
+                  <div class="module"><h1>宽度和高度的转换</h1>
+                    <p>可以通过对称或不对称的宽度和高度变化来展开或折叠元素。</p>
+                    <p><strong>不对称转换</strong>需要宽度和高度以不同的速率变化。当需要改变多个元素的的属性或位置时，最适合使用不对称转换。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -81,15 +81,15 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Asymmetric transformation</p>
-                        <p>To expand an elements’ size, begin transforming the width of an element slightly before transforming the height. To collapse an element’s size, begin transforming the height slightly before the width. </p>
+                        <p>不对称转换</p>
+                        <p>要扩展元素的尺寸，请在转换高度之前先稍微转换一下元素的宽度。要折叠元素的尺寸，请在转换宽度之前先稍微转换一下元素的高度。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Symmetrical transformations</strong> involve width and height changes occurring at the same rate. They are better for changes to a single element that occur along a single axis.</p>
+                    <p><strong>对称转换</strong>需要宽度和高度以相同的频率变换。当单个元素沿着单个轴进行变换时，最适合使用对称转换。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -103,8 +103,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Symmetric transformation</p>
-                        <p>Transforming width and height at the same time is a less detailed animation approach best suited to simple shape changes. These transformations can have slightly shorter durations than asymmetric ones.</p>
+                        <p>对称转换</p>
+                        <p>同时变换宽度和高度是一种不太细致的变换方法，最适合简单的形状变更。这些变换比非对称变换的持续时间稍短。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -113,7 +113,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>When an element expands asynchronously, the items it contains (such as text or images) change size at a constant aspect ratio to prevent unnatural stretching. For more information on how to transition content within a surface, see <a href="choreography.html">Choreography</a>.</p>
+                    <p>当元素异步扩展时，其包含的内容（例如文本或图片）也会以恒定的宽高比进行转换，以防止内容被拉伸。了解更多如何转换内容的方法，详见<a href="choreography.html">编排</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -127,7 +127,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Content (such as a full-width image) transforms at a constant aspect ratio, even as its container (such as a larger card) transforms asynchronously along a motion curve.</p>
+                        <p>内容（例如全宽的图片）会按恒定的宽高比进行转换，即使它的容器（例如较大的卡片）是沿着运动曲线异步变换的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -143,7 +143,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Containers with full-bleed content (such as a full-bleed image) may expand synchronously.</p>
+                        <p>含全出血内容的容器（例如全出血图片）也可以同步展开。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,7 +155,7 @@
 
         <div id="transforming-material-radial-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Radial transformation
+            径向转换
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -167,7 +167,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Radial transformations are symmetrical, circular visualizations that originate from a user’s point of touch. They are commonly used on circular surfaces that morph into other shapes.</p>
+                    <p>径向转换是源自用户的触摸点的、对称的、圆形的视觉效果。它们通常应用在圆形的表面，用于转换成其他形状。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -182,7 +182,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Radial transformation should be used on circular surfaces that morph into rectangular surfaces, or for creating new surfaces from the point of input.</p>
+                        <p>径向转换应该用在圆形表面上，用于转换成矩形表面、或者从输入点创建一个新表面。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -199,7 +199,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use a radial transformation when transforming between two rectangular shapes.</p>
+                        <p>在两个矩形之间转换时，请不要使用径向转换。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -219,7 +219,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t expand an oval’s width and height asynchronously.</p>
+                        <p>不要对圆形的宽度和高度使用异步转换。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -236,14 +236,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t transform complex shapes.</p>
+                        <p>不要转换复杂的形状。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Transformations can originate either from the object’s current location or from the center of the final surface being formed. </p>
+                    <p>转换的起点可以是元素的当前位置、或者是表面最终出现的位置的中心。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -257,7 +257,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>During expansion, the floating action button moves in an arc towards its destination as it expands into a card.</p>
+                        <p>在扩展期间，浮动操作按钮沿着一条弧线向目的地移动，并最终扩展成一张卡片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -273,7 +273,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The center of the floating action button stays in place during the transformation, creating a subtler expansion effect.</p>
+                        <p>在转换期间，浮动操作按钮的中心保持在原来的位置，创造了一种更微妙的扩展效果。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -285,7 +285,7 @@
 
         <div id="transforming-material-joining-dividing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Joining &amp; Dividing
+            合并 &amp; 分割
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -297,12 +297,12 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Joining</h2>
-                    <p>Material may join with other material, or it may divide into multiple pieces. As two pieces of material approach one other, their edges meet and margins overlap before the movement completes. </p>
-                    <h2>Dividing</h2>
-                    <p>When material divides into multiple pieces, the pieces begin separation at the start of the movement. </p>
-                    <h2>Shadows</h2>
-                    <p>Shadows from separated material do not appear above sibling elements.</p>
+                    <h2>合并</h2>
+                    <p>材料可以合并到其他元素中，或者分割成多个部分。当两片材料彼此接近时，在完成移动前，它们的边缘会相遇且重叠。</p>
+                    <h2>分割</h2>
+                    <p>当材料分割成多个部分时，每一部分在刚开始移动时就分离了。</p>
+                    <h2>阴影</h2>
+                    <p>来自分离的元素的阴影，不会覆盖在同级元素的上面。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -316,7 +316,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Example of material joining and dividing</p>
+                        <p>材料合并和分离的示例</p>
                       </figcaption>
                     </figure>
                   </div>

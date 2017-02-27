@@ -8,7 +8,7 @@ return array(
     'children'        =>  array(
       'introduction'                    =>  '概述',
       'environment'                     =>  '环境',
-      'material-properties'             =>  'Material 属性',
+      'material-properties'             =>  '材料属性',
       'elevation-shadows'               =>  '层次 & 阴影',
       'whats-new'                       =>  '最近更新'
     )
@@ -18,10 +18,10 @@ return array(
     'theme_color'     => '#8E24AA',
     'color_name'      => 'purple',
     'children'        =>  array(
-      'material-motion'                 =>  'Material 动效',
+      'material-motion'                 =>  '材料动效',
       'duration-easing'                 =>  '时长 & 缓动',
       'movement'                        =>  '移动',
-      'transforming-material'           =>  'Material 形变',
+      'transforming-material'           =>  '材料形变',
       'choreography'                    =>  '编排',
       'creative-customization'          =>  '自定义动画'
     )
