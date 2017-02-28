@@ -1,1 +1,5 @@
 .idea/
+build/
+!build/static/css
+!build/static/images
+!build/static/js

@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. </h1>
+          <h1>Material Design 中的配色灵感来自大胆的色调与柔和的环境、深度的阴影、明亮的高光并存。</h1>
           <div class="col-list">
             <section class="figure col-1">
               <div class="figure">
@@ -34,16 +34,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-palette" data-qp-ui-data-id="qp:1">Color palette</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-palette" data-qp-ui-data-id="qp:1">调色板</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-schemes" data-qp-ui-data-id="qp:2">Color schemes</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-schemes" data-qp-ui-data-id="qp:2">配色方案</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-text-background-colors" data-qp-ui-data-id="qp:3">Text and background colors</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-text-background-colors" data-qp-ui-data-id="qp:3">文字和背景色</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-themes" data-qp-ui-data-id="qp:4">Themes</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-themes" data-qp-ui-data-id="qp:4">主题</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
       <div class="article-list">
         <div id="color-color-palette" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Color palette
+            调色板
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -60,15 +60,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant.</p>
-              <p>This color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. They’ve been designed to work harmoniously with each other. The color palette starts with primary colors and fills in the spectrum to create a complete and usable palette for Android, Web, and iOS. Google suggests using the 500 colors as the primary colors in your app and the other colors as accents colors. </p>
-              <p>Themes enable consistent app styling through surface shades, shadow depth, and ink opacity.</p>
+              <p>材料从现代建筑、路标、路面标记和运动场所得到了灵感。颜色应该是充满惊喜和活力的。</p>
+              <p>该调色板包含了主色和强调色，可以用于插图或开发你的品牌色。这些经过设计的颜色可以灵活的搭配。调色板从主色开始，通过填充光谱为 Android、Web、iOS 创建了完整可用的调色板。Google 建议使用 500 色号的颜色作为主色，其他颜色作为强调色。</p>
+              <p>主题通过设置表面阴影、阴影深度和墨迹不透明度来构建统一的应用样式。</p>
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
                     <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
-                      <div class="title">Download color swatches</div>
+                      <div class="title">下载调色板</div>
                       <span class="subtitle">0.02 MB (.zip) </span>
                     </div>
                     </img>
@@ -1292,7 +1292,7 @@
 
         <div id="color-color-schemes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Color schemes
+            配色方案
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1301,15 +1301,15 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>Choosing a color palette</h1>
-              <p>Your app's color palette may be defined by using a custom palette suited to your brand, such as monochromatic, black and white, full color, or neutral. Alternatively, you may use the material design color palette. All color palettes should include sufficient contrast between different UI elements. </p>
-              <h4 class="related">Related</h4>
+              <h1>选择调色板</h1>
+              <p>你可以在应用中使用定制的调色板，以适配你的品牌颜色，例如单色、黑白色、多彩色或中性色。或者，你也可以使用 Material Design 的调色板。在不用 UI 元素之间，颜色必须要有足够的对比度。</p>
+              <h4 class="related">相关资源</h4>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html%23ColorPalette&amp;sa=D&amp;ust=1481817962720000&amp;usg=AFQjCNEYvpgiGPa5xnI2xkHQ0IId58B_pg" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
-                    <div class="title">Customize the color palette</div>
-                    <span class="subtitle">Define your app’s color palette.</span>
+                    <div class="title">定制你的调色板</div>
+                    <span class="subtitle">定义应用的调色板</span>
                   </div>
                   </img>
                 </a>
@@ -1317,8 +1317,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Using the material design color palette</h1>
-                    <p>Apps that don’t have existing color schemes may select colors from the material design color palette. Limit your selection of colors to three hues from the primary palette and one accent color from the secondary palette.</p>
+                    <h1>使用 Material Design 的调色板</h1>
+                    <p>没有现成的配色方案的应用，可以从 Material Design 的调色板中选择颜色。你可以在主色板选择 3 种颜色，从辅助色板中选择 1 个强调色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1326,7 +1326,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a color palette using two purple hues from the primary palette and one accent green hue.</p>
+                        <p>示例：从主色板中选择了两种色调的紫色和一种绿色强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1336,7 +1336,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of UI color application</p>
+                        <p>UI 中颜色应用的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1345,8 +1345,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Primary color</h1>
-                    <p>When using a primary color in your palette, this color should be the most widely used across all screens and components.</p>
+                    <h1>主色</h1>
+                    <p>使用调色板中的主色时，该颜色应该是所有屏幕和组件中使用最广泛的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1354,7 +1354,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a primary color palette with variations for when a darker or lighter version of the color is needed</p>
+                        <p>示例：当需要更暗或更亮的色调时，可以为主色添加不同明暗度的色调。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1362,9 +1362,9 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Secondary color</h1>
-                    <p>Palettes with a secondary color may use this color to indicate a related action or information. </p>
-                    <p>The secondary color may be a darker or lighter variation of the primary color.</p>
+                    <h1>次要颜色</h1>
+                    <p>次要颜色的调色板可以用于指示相关操作或信息。</p>
+                    <p>次要颜色可以是比主色更亮或更暗的同色系颜色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1372,7 +1372,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a secondary palette with variations for when a darker or lighter version of the color is needed</p>
+                        <p>示例：当需要更暗或更亮的色调时，可以为次要颜色添加不同明暗度的色调。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1380,14 +1380,14 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Accent color</h1>
-                    <p>The accent should be used for the floating action button and interactive elements, such as:</p>
+                    <h1>强调色</h1>
+                    <p>强调色应该用于浮动操作按钮和交互性元素中，例如：</p>
                     <ul class="lst-kix_ghf5dsoviz4m-0 start">
-                      <li>Text fields and cursors</li>
-                      <li>Text selection</li>
-                      <li>Progress bars</li>
-                      <li>Selection controls, buttons, and sliders</li>
-                      <li>Links</li>
+                      <li>文本框和光标</li>
+                      <li>文本选中状态</li>
+                      <li>进度条</li>
+                      <li>选择控件、按钮、滑块</li>
+                      <li>链接</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -1396,7 +1396,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Floating action button using the accent color</p>
+                        <p>使用强调色的浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1406,7 +1406,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Switch using the accent color</p>
+                        <p>使用强调色的开关</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1420,7 +1420,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Only use the accent color for body text to accent a web link.</p>
+                        <p>文本只有作为网页链接时才使用强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1431,7 +1431,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use the accent color for body text color.</p>
+                        <p>正文文本不要使用强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1445,7 +1445,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use the accent color for your primary action button and components like switches or sliders. </p>
+                        <p>在主要操作按钮和组件中使用强调色，比如开关和滑块。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1456,7 +1456,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use the accent color for app bars or larger areas of color. Avoid using the same color for the floating action button and the background.</p>
+                        <p>不要在应用栏或其他大面积区域使用强调色。避免在浮动操作按钮和背景色中使用相同的颜色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1469,7 +1469,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_appbar.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The App bar, toolbar and system status bar can be customized using your palette accent color. In this example, the toolbar uses the 500 version of indigo, while the status bar uses the 700 version.</p>
+                        <p>应用栏、工具栏以及系统状态栏均可以使用定制的强调色。在本示例中，工具栏使用 500 的靛蓝色，而状态栏使用 700 的靛蓝色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1479,7 +1479,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Web links and buttons can be customized using your palette accent color. </p>
+                        <p>网页链接和按钮可以使用定制的强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1494,7 +1494,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text fields and selection controls can be customized using your palette accent color. </p>
+                        <p>文本框和选择控件可以使用定制的强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1504,7 +1504,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text selection can be customized using your palette accent color. </p>
+                        <p>文本选中状态可以使用定制的强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1514,9 +1514,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Alternative accent colors</h1>
-                    <h2>Darker shades and lighter tints</h2>
-                    <p>If your accent color is too light or dark to sufficiently contrast with the background color, use a darker shade or lighter tint of the accent color instead. </p>
+                    <h1>替换强调色</h1>
+                    <h2>更深或更浅的色调</h2>
+                    <p>如果你的强调色太亮或太暗，无法和背景色形成充分的对比，请使用更深或更浅的强调色代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1525,7 +1525,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a fallback accent color over background colors that are too light or too dark.</p>
+                        <p>在太亮或太暗的背景色上，使用备用的强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1536,16 +1536,16 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use the accent color over a background color if there isn’t enough contrast.</p>
+                        <p>如果强调色和背景色没有足够的对比度，就不要使用强调色。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h2>Primary color variations</h2>
-                    <p>Another alternative accent color is the 500 version of your primary color on white backgrounds. </p>
-                    <p>However, if your background color is already the 500 version of your primary color, make your accent color either white 100% or black 54%.</p>
+                    <h2>主色的变化</h2>
+                    <p>另一个强调色的替换方案是：在白色背景上使用 500 的主色。</p>
+                    <p>但是，如果背景色已经是 500 的主色了，可以使用 100% 的白色或 54% 的黑色。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
@@ -1557,7 +1557,7 @@
 
         <div id="color-text-background-colors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Text and background colors
+            文本和背景色
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1566,17 +1566,17 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>Text opacity</h1>
-              <p>Text may be displayed with different degrees of opacity to convey how important certain information is relative to other information. The level of opacity used for text depends on whether your background is darker or lighter.</p>
+              <h1>文本不透明度</h1>
+              <p>文本可以以不同的不透明度显示，以传达某些信息相对于其他信息的重要性。文本的不透明度取决于使用的是暗色背景还是亮色背景。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>Dark text on light backgrounds</strong></strong></h2>
-                    <p>For dark text on light backgrounds, apply the following opacity levels: </p>
+                    <h2><strong><strong>亮色背景中的暗色文本</strong></strong></h2>
+                    <p>亮色背景中的暗色文本，使用以下不透明度：</p>
                     <ul class="lst-kix_buzsh26i37pa-0 start">
-                      <li>The most important text has an opacity of 87%.</li>
-                      <li>Secondary text, which is lower in the visual hierarchy, has an opacity of 54%.</li>
-                      <li>Text hints (like those in text fields and labels) and disabled text have even lower visual prominence with an opacity of 38%.</li>
+                      <li>最重要的文本不透明度为 87%。</li>
+                      <li>次要文本在视觉上优先级较低，不透明度为 54%。</li>
+                      <li>文本提示（比如文本框和标签中的那些）和禁用状态的文本视觉优先级更低，不透明度为 38%。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -1585,7 +1585,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dark text on light backgrounds</p>
+                        <p>亮色背景下的暗色文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1593,23 +1593,23 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dark text (#000000)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>暗色文本（#000000）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
+                        <td colspan="1" rowspan="1"><p>主文本</p></td>
                         <td colspan="1" rowspan="1"><p>87%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
+                        <td colspan="1" rowspan="1"><p>次要文本</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled text, hint text, and icons</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本，图标</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
+                        <td colspan="1" rowspan="1"><p>分割线</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
                       </tr>
                       </tbody>
@@ -1618,9 +1618,9 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>White text on dark backgrounds</strong></strong></h2>
-                    <p>The table values relay relative levels of importance for white text on dark backgrounds.</p>
-                    <p>White text appearing on colored backgrounds should do so at an opacity of 100%.</p>
+                    <h2><strong><strong>暗色背景中的白色文本</strong></strong></h2>
+                    <p>表格中的不透明度是相对于暗色背景中的白色文本而言的。</p>
+                    <p>在有颜色的背景中使用白色文本时，其不透明度应为 100%。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1628,7 +1628,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>White text on dark backgrounds</p>
+                        <p>暗色背景中的白色文本</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1636,23 +1636,23 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Light text (#FFFFFF)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>亮色文本（#FFFFFF）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
+                        <td colspan="1" rowspan="1"><p>主文本</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
+                        <td colspan="1" rowspan="1"><p>次要文本</p></td>
                         <td colspan="1" rowspan="1"><p>70%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled text, hint text, and icons</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本、图标</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
+                        <td colspan="1" rowspan="1"><p>分割线</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
                       </tr>
                       </tbody>
@@ -1661,8 +1661,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Use opacity instead of grey</strong></strong></h2>
-                    <p>Black or white text that is transparent remains legible and vibrant against background color changes. This makes it more flexible than grey text in the same contexts.</p>
+                    <h2><strong><strong>使用不透明度代替灰色</strong></strong></h2>
+                    <p>使用透明的黑色或白色文本，可以保证在背景色变化时文本依然保持清晰和鲜明。在相同情况下，使用不透明度会比使用灰色更加灵活。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1671,7 +1671,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Grey text (hex value of #727272) on a white background becomes hard to read if the background color changes to magenta.</p>
+                        <p>如果背景色变成洋红色，灰色文本（十六进制值为 #727272）就变得难以阅读。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1682,7 +1682,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Black text, set to a 0.54 opacity, ensures a minimum degree of legibility and color harmony with new background colors.</p>
+                        <p>将黑色文本的不透明度设置为 0.54，可以保证在新背景中，文本的清晰度和协调性。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1691,22 +1691,22 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Icons and other elements</h1>
-                    <p>Elements like icons benefit from having a hex value of black or white (rather than a specific color) at 38% opacity so that they work on backgrounds of any color.</p>
+                    <h1>图标和其他元素</h1>
+                    <p>像图标这样的元素，受益于在 38% 的不透明度处具有黑色或白色的十六进制值（而不是其他特定颜色），所以它们可以更好的适配任何背景色。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dark icons (#000000)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>暗色图标（#000000）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Active icon</p></td>
+                        <td colspan="1" rowspan="1"><p>激活的图标</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Inactive icon</p></td>
+                        <td colspan="1" rowspan="1"><p>未激活的图标</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       </tbody>
@@ -1716,15 +1716,15 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Light icons (#FFFFFF)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>亮色图标（#FFFFFF）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Active icon</p></td>
+                        <td colspan="1" rowspan="1"><p>激活的图标</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Inactive icon</p></td>
+                        <td colspan="1" rowspan="1"><p>未激活的图标</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       </tbody>
@@ -1738,7 +1738,7 @@
 
         <div id="color-themes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Themes
+            主题
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1747,13 +1747,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Themes let you apply a consistent tone to an app. The theme specifies the darkness of the surfaces, level of shadow, and appropriate opacity of ink elements. To promote greater consistency between apps, light and dark themes are available to choose from.</p>
+              <p>主题可以让你的应用具有统一的风格。主题指定表面的暗度、阴影程度，以及墨水元素的适当的不透明度。为了提高不同应用之间的一致性，你可以选择亮色主题和暗色主题。</p>
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
                     <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
-                      <div class="title">Download themes</div>
+                      <div class="title">下载主题</div>
                       <span class="subtitle">1.23 MB (.ai) </span>
                     </div>
                     </img>
@@ -1762,11 +1762,11 @@
               </p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Light theme</h1>
-                    <p>1. Status bar<br>
-                      2. App bar<br>
-                      3. Background<br>
-                      4. Cards/Dialogs</p>
+                  <div class="module"><h1>亮色主题</h1>
+                    <p>1. 状态栏<br>
+                      2. 应用栏<br>
+                      3. 背景<br>
+                      4. 卡片/对话框</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1774,7 +1774,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light theme palette</p>
+                        <p>亮色主题调色板</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1784,18 +1784,18 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>UI application</p>
+                        <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Dark theme</h1>
-                    <p>1. Status bar<br>
-                      2. App bar<br>
-                      3. Background<br>
-                      4. Cards/Dialogs</p>
+                    <h1>暗色主题</h1>
+                    <p>1. 状态栏<br>
+                      2. 应用栏<br>
+                      3. 背景<br>
+                      4. 卡片/对话框</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1803,7 +1803,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dark theme palette</p>
+                        <p>暗色主题调色板</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1813,19 +1813,19 @@
                         <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>UI application</p>
+                        <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h4 class="related">Related</h4>
+              <h4 class="related">相关资源</h4>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html&amp;sa=D&amp;ust=1481817962520000&amp;usg=AFQjCNHY9FJJrH-7BVQoJaHhHcP_7eFFuA" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
-                    <div class="title">Using the Material Theme</div>
-                    <span class="subtitle">Customize the design to your brand identity.</span>
+                    <div class="title">使用材料主题</div>
+                    <span class="subtitle">自定义你的品牌标识。</span>
                   </div>
                   </img>
                 </a>
