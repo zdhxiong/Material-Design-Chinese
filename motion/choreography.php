@@ -12,13 +12,13 @@
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Material in motion guides the user’s focus through interactions by sharing elements across transitions.</p>
+                <p>运动中的材料通过在转换过程中共享元素的交互来引导用户的视觉焦点。</p>
               </div>
               <div class="module">
-                <h3><strong>Surface creation </strong></h3>
-                <p>Stagger the choreography of new surfaces being created.</p>
-                <h3><strong>Radial reaction</strong></h3>
-                <p>Connect user input to surface reactions with touch ripples.</p>
+                <h3><strong>创建表面</strong></h3>
+                <p>把新创建的表面错开编排。</p>
+                <h3><strong>径向反应</strong></h3>
+                <p>使用触摸后的水波纹把用户输入和表面反应联系起来。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -36,13 +36,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-continuity" data-qp-ui-data-id="qp:1">Continuity</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-continuity" data-qp-ui-data-id="qp:1">连续性</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-creation" data-qp-ui-data-id="qp:2">Creation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-creation" data-qp-ui-data-id="qp:2">创建</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-radial-reaction" data-qp-ui-data-id="qp:3">Radial reaction</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-radial-reaction" data-qp-ui-data-id="qp:3">径向反应</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
 
         <div id="choreography-continuity" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Continuity
+            连续性
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -59,13 +59,13 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Maintain a clear focal point during transitions by carefully selecting the number and type of elements shared across the transitions. </p>
+            <div><p>仔细地选择在转换过程中共享的元素类型和数量，以此在转换过程中保持清晰的视觉焦点。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>All content elements are shared</h1>
-                    <p>While a surface is expanding, a significant number of elements should remain visible during the transition. </p>
-                    <p>Complex transitions should keep a single element visible (see below).</p>
+                    <h1>共享所有内容元素</h1>
+                    <p>当表面扩展时，特定的元素在扩展过程中应始终保持可见。</p>
+                    <p>复杂的转换应保持单个元素可见（见下文）。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -79,7 +79,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>All elements from this collapsed card form the header of the expanded card.</p>
+                        <p>此折叠状态的卡片中的所有元素，组成了展开后的卡片的头部。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -88,8 +88,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Few or no content elements are shared</h1>
-                    <p>While expanding a surface, if only a <strong>single element</strong> will be present after thetransition, that element should be the focal point of the transition, controlling all otherelements.</p>
+                    <h1>很少或没有共享内容元素</h1>
+                    <p>当扩展一个表面时，如果在转换后只存在<strong>单个元素</strong>，则该元素应该是转换的焦点，由它来控制所有其他元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -103,14 +103,14 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Anchoring non-shared content to a single shared element’s movement.</p>
+                        <p>把不共享的内容固定到单个共享的元素上一起移动。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>If there are <strong>no shared elements</strong> between views, anchor all crossfading elements to the surface’s vertical movement. The surface crops the content within.</p>
+                    <p>如果视图之间<strong>没有共享的元素</strong>，则将所有元素固定到表面上一起纵向移动、淡入淡出。表面会修剪其中的内容。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -124,7 +124,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Anchoring all non-shared content to the vertical movement of the surface expansion.</p>
+                        <p>把所有的非共享内容固定到扩展元素的表面做纵向运动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -133,8 +133,8 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>No shared surfaces (Not recommended)</h1>
-                    <p>If there are <strong>no common surfaces</strong> shared across the transition, a new surface enters the screen from another location, creating a new focal point.</p>
+                    <h1>无共享的表面（不推荐）</h1>
+                    <p>如果在转换过程中<strong>没有公共表面</strong>共享，就会有一个新的表面从其他位置进入屏幕，创造一个新的视觉焦点。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -142,8 +142,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Multiple shared elements</h1>
-                    <p>When <strong>multiple elements</strong> remain visible during a transition, only the most important ones should be included. Some elements may disappear during the transition but reappear once the transition completes, if they are too distracting during the transition itself.</p>
+                    <h1>多个共享的元素</h1>
+                    <p>当有<strong>多个元素</strong>在转换过程中可见时，应该仅包含最重要的元素。如果某些元素在转换过程中太过抢眼，则在转换期间可能会消失，一旦转换完成，它们又会重新出现。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -158,7 +158,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Guide the user’s focus to the next view using the most important shared element.</p>
+                        <p>使用最重要的共享元素把用户的焦点引导到下一个视图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -175,7 +175,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid creating scenes without focus, such as by using many shared elements or by letting elements cross paths during the transition. </p>
+                        <p>避免创建没有焦点的场景，例如在转换期间使用大量共享元素、或使元素的路径相互交叉。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -184,8 +184,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Layout awareness</h1>
-                    <p>When any element doesn't completely load by the time a transition completes, allow sufficient space in the location where the element will appear. This prevents jarring layout shifts when the elements finally appear, and avoids user frustration when a touch target suddenly jumps away.</p>
+                    <h1>布局意识</h1>
+                    <p>如果转换完成时，还有一些元素没有加载，请在元素即将出现的位置留出足够的空间。这避免了元素突然出现时造成的元素跳动；也避免了用户触摸时，触摸目标突然跳开，使用户失望。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -200,7 +200,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Make room for the unloaded elements during the transition and gracefully display them in place once they fully load.</p>
+                        <p>在转换期间为尚未加载的元素留出空间，在加载完成后将其优雅的呈现出来。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -217,7 +217,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t shift the layout as elements load into view, as this distracts and causes a shift in focus.</p>
+                        <p>不要在元素加载完后挪动视图，因为那会把用户注意力转移到新加载的元素上。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -229,7 +229,7 @@
 
         <div id="choreography-creation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Creation
+            创建
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -238,11 +238,11 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>New material surfaces, and their content, may be created from nothing.</p>
+              <p>新的材料表面和它的内容可以凭空创建。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>Creating new surfaces</h1>
-                    <p>Associate newly created surfaces to the element or action that creates them. New surfaces usually emerge from radial or rectangular expansions from the point of touch.</p>
+                  <div class="module"><h1>创建新的表面</h1>
+                    <p>把新创建的表面与创建它们的元素或操作关联起来。新表面通常以径向或矩形转换的方式从触摸点出现。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -257,7 +257,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>This menu appears from the touch point, tying the element to the point of touch.</p>
+                        <p>此菜单从触摸点出现，并将元素绑定到了触摸点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -274,7 +274,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>This menu appears far away from the touch point that triggered it, which breaks its relationship with the input method.</p>
+                        <p>此菜单从距离触摸点很远的地方出现，破坏了菜单和触摸点之间的关联。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -283,8 +283,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Choreographing surfaces</h1>
-                    <p>When multiple new surfaces are created at the same time, quickly stagger the appearance of each. Create a clear, smooth focal path in a single direction.</p>
+                    <h1>编排表面</h1>
+                    <p>当同时创建多个表面时，把它们快速交错显示出来。在单个方向上创建清晰、平滑的视觉路径。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -299,7 +299,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>List items have a slightly staggered entrance. Grid items populate left to right, and top to bottom.</p>
+                        <p>列表项有一个稍微交错的入场效果。网格项的交错效果为从左到右、从上到下。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -316,7 +316,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Items shouldn’t appear within the list all at once. It’s overwhelming and eliminates a clear focus.</p>
+                        <p>列表项不应该同时一次性地出现。这样无法创造清晰的视觉焦点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -336,7 +336,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Items that have a slightly staggered entrance shouldn’t appear in an order that’s confusing to follow.</p>
+                        <p>带有交错入场效果的列表项，不应该以混乱的顺序出现。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -353,7 +353,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Do not wait for each item to fully animate before introducing the next item. Begin each item’s staggered entrance no more than 20ms apart.</p>
+                        <p>不要等前一个项目的动画结束后才开始出现下一个。使用交错入场时，交错的时间间隔不应超过 20ms。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -362,8 +362,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Autonomous surface creation</h1>
-                    <p>Surfaces created without user input, or without a point of origin, should do so using an elegant combination of fading, position, and scaling transformations.</p>
+                    <h1>自主创建的表面</h1>
+                    <p>在没有用户输入源或没有起始点的情况下创建的表面，应该使用优雅的转换组合，包含淡入淡出、位移、缩放等效果。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -378,7 +378,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>An automatically triggered surface appears smoothly and quickly.</p>
+                        <p>自主创建的表面应平滑且快速地出现。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -395,7 +395,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Too much animation during surface creation is distracting.</p>
+                        <p>表面创建期间过多的动画会分散用户的注意力。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -407,7 +407,7 @@
 
         <div id="choreography-radial-reaction" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Radial reaction
+            径向转换
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -415,12 +415,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Clarify the connection between user input and surface reactions using radial action.</p>
+            <div><p>使用径向反应来阐明用户输入和表面反应之间的联系。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1>User input</h1>
-                    <p>Connect user input to screen reactions by using touch ripples to both indicate the point of touch, and to confirm that touch input was received. For touch or mouse, this occurs at the point of contact.</p>
-                    <p>Screen reactions occurring near the point of touch should occur sooner than reactions further away.</p>
+                  <div class="module"><h1>用户输入</h1>
+                    <p>使用触摸水波纹把用户输入和屏幕反应联系起来，同时指示出用户的触摸点，并告知用户已接受到触摸操作。无论是触摸还是鼠标，都应该在触摸点出现水波纹。</p>
+                    <p>在触摸点附近发生的屏幕反应，应该比远离触摸点发生的屏幕反应出现的更早。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -434,7 +434,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Use touch ripples to connect screen reactions to the point of touch. </p>
+                        <p>使用触摸水波纹把触摸点和屏幕反应关联起来。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -450,7 +450,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Starting from the point of touch, the app bar changes color with the new color rippling outwards.</p>
+                        <p>从触摸点开始，应用栏会随着新颜色向外扩散而改变颜色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,7 +469,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Images in this grid fade out based on the radial reaction around the tap point.</p>
+                        <p>网格中的图片按照从触摸点出现的径向反应淡出。</p>
                       </figcaption>
                     </figure>
                   </div>

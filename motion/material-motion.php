@@ -152,7 +152,7 @@
                       </div>
                       <figcaption>
                         <p>展示了新创建的元素和创建者之间的联系。</p>
-                        <p>更多信息详见<a href="choreography.html#choreography-creation">创造</a>。</p>
+                        <p>更多信息详见<a href="choreography.html#choreography-creation">创建</a>。</p>
                       </figcaption>
                     </figure>
                   </div>
