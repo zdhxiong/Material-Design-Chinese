@@ -12,12 +12,12 @@
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Animation may be used in a wide range of scales and contexts to unite beauty and function. </p>
+                <p>动画可以大规模地应用在各种场景中，使应用兼具优美和功能。</p>
               </div>
               <div class="module">
-                <h3><strong>Icon types </strong></h3>
-                <p>System icons may perform dual functions. </p>
-                <p>Product icons should demonstrate polish.</p>
+                <h3><strong>图标类型</strong></h3>
+                <p>系统图标可以执行双重功能。</p>
+                <p>产品图标则让用户眼前一亮。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -35,10 +35,10 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="creative-customization.html#creative-customization-icons" data-qp-ui-data-id="qp:1">Icons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="creative-customization.html#creative-customization-icons" data-qp-ui-data-id="qp:1">图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="creative-customization.html#creative-customization-illustrations" data-qp-ui-data-id="qp:2">Illustrations</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="creative-customization.html#creative-customization-illustrations" data-qp-ui-data-id="qp:2">插画</a>
           </li>
         </ul>
       </nav>
@@ -47,7 +47,7 @@
 
         <div id="creative-customization-icons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Icons
+            图标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -59,8 +59,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>System icons</h1>
-                    <p>An icon may serve dual functions. For example, a menu icon may smoothly transition to a playback control, and back again. This effect both informs the user of the button's function while adding an element of wonder to the interaction.</p>
+                    <h1>系统图标</h1>
+                    <p>图标可以提供双重功能。例如，菜单图标可以平滑的转换成后退图标，之后再转换回来。这个效果既告诉了用户按钮的功能，又给交互效果添加了一个极有效的元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -74,7 +74,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Transforming the menu icon into the back arrow signifies that the two actions are connected, and that one cannot exist while the other is present. The back button must be pressed in order to return to the top-level view with the menu icon.</p>
+                        <p>菜单图标转换成后退图标，这说明了两个操作是关联的，且两者不会同时出现。必须按下返回按钮后才会回到带有菜单图标的上级视图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -94,7 +94,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Transforming the play button to a pause button signifies that the two actions are linked, and that pressing one makes the other one visible.</p>
+                        <p>播放按钮转换成暂停按钮，说明了两个操作是关联的，按下一个后才会出现另一个。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -113,7 +113,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>When pressing this floating action button, the plus sign transforms into a pencil. This indicates that the pencil is the primary creation method.</p>
+                        <p>当按下浮动操作按钮时，加号转换成了铅笔。这指明了铅笔是主要的创作方式。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -122,8 +122,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Product icons</h1>
-                    <p>Animated product icons should demonstrate polish and refinement from the moment the app launches.</p>
+                    <h1>产品图标</h1>
+                    <p>带动画的产品图标应该在应用被打开时呈现优雅且惊艳的动画。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -137,7 +137,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The Inbox product icon animation displays when the user opens the app for the first time and is asked to sign in.</p>
+                        <p>Inbox 的产品图标动画会在用户首次打开应用且需要登陆的时候出现。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -153,7 +153,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The Calendar product icon animation displays when the user’s calendar data is loaded for the first time.</p>
+                        <p>日历的产品图标动画，会在首次加载用户的日历数据时出现。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -172,7 +172,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The Photos product icon animation displays when the user opens the app for the first time and enters the warm welcome.</p>
+                        <p>相册的产品图标动画，会在用户首次打开应用时出现，以呈现出热烈的欢迎。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +188,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The Gmail product icon animation has a slightly more playful personality while still keeping a similar reveal, and is also displayed when the user opens the app for the first time and is asked to sign in.</p>
+                        <p>Gmail 的产品图标动画有一些有趣的个性，但仍保持了相似的显示效果，同样会在用户首次打开应用且要求登陆时显示图标动画。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -200,7 +200,7 @@
 
         <div id="creative-customization-illustrations" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Illustrations
+            插画
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -212,7 +212,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Subtle animation in imagery and illustrations can add a sense of playfulness to the user experience.</p>
+                    <p>在图片和插画中使用微妙的动画，可以为用户带来更有趣的体验。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -226,7 +226,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>When displaying an unexpected error, use it as an opportunity to delight with animation.</p>
+                        <p>当出现意外的错误时，可以把它当成一个欣赏动画的机会。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -242,7 +242,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animating the bicycle while Calendar schedules a goal helps entertain the user while the task finishes.</p>
+                        <p>在日历添加任务的等待过程中，自行车动画可以让用户在等待期间保持愉悦。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -261,7 +261,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Rewarding the user with an animation when they accomplish personal goals, like reaching Inbox Zero, can create deeper engagement with app features. </p>
+                        <p>当用户完成个人目标（如处理完收件箱中的所有邮件）时通过动画奖励用户，可以创建用户和应用功能更深入的互动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -277,7 +277,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animating an illustration for a new feature can educate the user about the feature in a memorable way.</p>
+                        <p>通过为新功能添加动画插图的形式，来让用户学习产品的功能，会让用户更难忘。</p>
                       </figcaption>
                     </figure>
                   </div>
