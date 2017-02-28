@@ -9,43 +9,43 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Material icons use geometric shapes to visually represent core ideas, capabilities, or topics.</h1>
+          <h1>材料图标使用几何形状来直观地表达核心思想、特性或主题。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p><strong>Product icons</strong> are the visual expression of a brand’s products, services, and tools. </p>
-                <p><strong>System icons</strong> represent a command, file, device, directory, or common actions.</p>
+                <p><strong>产品图标</strong>是一个品牌的产品、服务和工具的视觉表现。</p>
+                <p><strong>系统图标</strong>代表一个命令、文件、设备、目录或一般性操作。</p>
               </div>
               <div class="module">
-                <h3><strong>Sizing</strong></h3>
-                <p>Product icons are 48dp, with 1dp edges<br>
-                  System icons are 24dp</p>
+                <h3><strong>尺寸</strong></h3>
+                <p>产品图标是 48dp，包含 1dp 的边缘<br>
+                  系统图标是 24dp</p>
                 <table class="s-tag-table">
                   <tbody>
                   <tr>
-                    <td colspan="1" rowspan="1"><p><strong>Opacity</strong></p></td>
-                    <td colspan="1" rowspan="1"><p><strong>Icon</strong></p></td>
-                    <td colspan="1" rowspan="1"><p><strong>Background color</strong></p></td>
+                    <td colspan="1" rowspan="1"><p><strong>不透明度</strong></p></td>
+                    <td colspan="1" rowspan="1"><p><strong>图标</strong></p></td>
+                    <td colspan="1" rowspan="1"><p><strong>背景色</strong></p></td>
                   </tr>
                   <tr>
                     <td colspan="1" rowspan="1"><p>54%</p></td>
-                    <td colspan="1" rowspan="1"><p>Active icon</p></td>
-                    <td colspan="1" rowspan="1"><p>Light</p></td>
+                    <td colspan="1" rowspan="1"><p>激活的图标</p></td>
+                    <td colspan="1" rowspan="1"><p>亮色</p></td>
                   </tr>
                   <tr>
                     <td colspan="1" rowspan="1"><p>26%</p></td>
-                    <td colspan="1" rowspan="1"><p>Inactive icon</p></td>
-                    <td colspan="1" rowspan="1"><p>Light</p></td>
+                    <td colspan="1" rowspan="1"><p>非激活的图标</p></td>
+                    <td colspan="1" rowspan="1"><p>亮色</p></td>
                   </tr>
                   <tr>
                     <td colspan="1" rowspan="1"><p>100%</p></td>
-                    <td colspan="1" rowspan="1"><p>Active icon</p></td>
-                    <td colspan="1" rowspan="1"><p>Dark</p></td>
+                    <td colspan="1" rowspan="1"><p>激活的图标</p></td>
+                    <td colspan="1" rowspan="1"><p>暗色</p></td>
                   </tr>
                   <tr>
                     <td colspan="1" rowspan="1"><p>30%</p></td>
-                    <td colspan="1" rowspan="1"><p>Inactive icon</p></td>
-                    <td colspan="1" rowspan="1"><p>Dark</p></td>
+                    <td colspan="1" rowspan="1"><p>非激活的图标</p></td>
+                    <td colspan="1" rowspan="1"><p>暗色</p></td>
                   </tr>
                   </tbody>
                 </table>
@@ -66,13 +66,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-product-icons" data-qp-ui-data-id="qp:1">Product icons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-product-icons" data-qp-ui-data-id="qp:1">产品图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-system-icons" data-qp-ui-data-id="qp:2">System icons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-system-icons" data-qp-ui-data-id="qp:2">系统图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-app-shortcut-icons" data-qp-ui-data-id="qp:3">App shortcut icons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="icons.html#icons-app-shortcut-icons" data-qp-ui-data-id="qp:3">应用快捷操作图标</a>
           </li>
         </ul>
       </nav>
@@ -81,7 +81,7 @@
 
         <div id="icons-product-icons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Product icons
+            产品图标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -93,7 +93,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Product icons are the visual expression of a brand’s products, services, and tools. Simple, bold, and friendly, they communicate the core idea and intent of a product. While each product icon is visually distinct, all product icons for a given brand should be unified through concept and execution.</p>
+                    <p>产品图标是一个品牌的产品、服务和工具的视觉表现。简单、大胆、友好，它们传达了产品的核心理念和意图。虽然每个产品图标在视觉上不同，但特定品牌的所有产品图标应该通过理念和z</p>
                     <p>Use these guidelines as a starting point to ensure that your product icon colors and key elements reflect your brand identity.</p>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://design.google.com/icons/&amp;sa=D&amp;ust=1481817966474000&amp;usg=AFQjCNHwlr9zCKtdz3f1PJvpLh3cPz-_Gg" target="_blank">
