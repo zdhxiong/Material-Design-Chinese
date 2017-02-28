@@ -8,7 +8,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Some units have different meanings in different contexts. This chapter discusses the usage of device-independent pixels, scaleable pixels, as well as concepts like pixel density. </h1>
+          <h1>有些单位在不同的情境下有不同的含义。本章讨论与设备无关的像素、可缩放像素以及像素密度等概念的用法。</h1>
         </div>
       </div>
 
@@ -17,19 +17,19 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-pixel-density" data-qp-ui-data-id="qp:1">Pixel density</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-pixel-density" data-qp-ui-data-id="qp:1">像素密度</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-density-independent-pixels-dp" data-qp-ui-data-id="qp:2">Density-independent pixels (dp)</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-density-independent-pixels-dp" data-qp-ui-data-id="qp:2">与密度无关的像素（dp）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-scaleable-pixels-sp" data-qp-ui-data-id="qp:3">Scaleable pixels (sp)</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-scaleable-pixels-sp" data-qp-ui-data-id="qp:3">可缩放像素（sp）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-designing-layouts-for-dp" data-qp-ui-data-id="qp:4">Designing layouts for dp</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-designing-layouts-for-dp" data-qp-ui-data-id="qp:4">为 dp 设计布局</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-image-scaling" data-qp-ui-data-id="qp:5">Image scaling</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="units-measurements.html#units-measurements-image-scaling" data-qp-ui-data-id="qp:5">图片缩放</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +38,7 @@
 
         <div id="units-measurements-pixel-density" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Pixel density
+            像素密度
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -108,7 +108,7 @@
 
         <div id="units-measurements-density-independent-pixels-dp" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Density-independent pixels (dp)
+            与密度无关的像素（dp）
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -172,7 +172,7 @@
 
         <div id="units-measurements-scaleable-pixels-sp" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Scaleable pixels (sp)
+            可缩放像素（sp）
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -189,7 +189,7 @@
 
         <div id="units-measurements-designing-layouts-for-dp" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Designing layouts for dp
+            为 dp 设计布局
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -207,7 +207,7 @@
 
         <div id="units-measurements-image-scaling" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Image scaling
+            图片缩放
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
