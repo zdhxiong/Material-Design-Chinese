@@ -93,14 +93,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>产品图标是一个品牌的产品、服务和工具的视觉表现。简单、大胆、友好，它们传达了产品的核心理念和意图。虽然每个产品图标在视觉上不同，但特定品牌的所有产品图标应该通过理念和z</p>
-                    <p>Use these guidelines as a starting point to ensure that your product icon colors and key elements reflect your brand identity.</p>
+                    <p>产品图标是一个品牌的产品、服务和工具的视觉表现。简单、大胆、友好，它们传达了产品的核心理念和意图。虽然每个产品图标在视觉上不同，但特定品牌的所有产品图标应该通过理念和实践来统一。</p>
+                    <p>参照下文的指导规范，来确保产品图标的颜色和核心元素可以反映出你的品牌标识。</p>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://design.google.com/icons/&amp;sa=D&amp;ust=1481817966474000&amp;usg=AFQjCNHwlr9zCKtdz3f1PJvpLh3cPz-_Gg" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
-                          <div class="title">Material icons</div>
-                          <span class="subtitle">Material icons are easy to use in your web, Android, and iOS projects. </span>
+                          <div class="title">材料图标</div>
+                          <span class="subtitle"材料图标可以轻易的使用在 Web、Android 和 iOS 项目中。</span>
                         </div>
                         </img>
                       </a>
@@ -118,8 +118,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Design approach</h1>
-                    <p>Product icon design is inspired by the tactile and physical quality of material. Each icon is cut, folded, and lit as paper would be, but represented by simple graphic elements. The quality of the material is sturdy, with clean folds and crisp edges. The matte-like finish interacts with light through subtle highlights and consistent shadows.</p>
+                    <h1>设计方法</h1>
+                    <p>产品图标的设计灵感来自现实材料的触感和物理质感。每一个图标都像纸一样被裁剪、折叠和点亮，但都是由简单的图形元素组成的。材料的质地结实，具有干净的皱褶和清晰的边缘。哑光般的表面通过细微的高光和一致的阴影完成与光线的交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -127,7 +127,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Physical prototype</p>
+                        <p>物理原型</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -137,7 +137,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Lighting study</p>
+                        <p>光线研究</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -150,7 +150,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Material prototype</p>
+                        <p>材料属性</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -160,7 +160,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Color study</p>
+                        <p>颜色研究</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -169,8 +169,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Product icon grid</h1>
-                    <p>The product icon grid has been developed to facilitate consistency and establish a clear set of rules for the positioning of graphic elements. This standardization results in a flexible but coherent system.</p>
+                    <h1>产品图标网格</h1>
+                    <p>产品图标网格被用来促进图标的一致性，以及为图形元素的定位建立一组清晰的规范。这种标准化的规范造就了一个灵活但有条理的系统。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -178,7 +178,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Grid </p>
+                        <p>网格</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +188,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines </p>
+                        <p>关键线</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -197,8 +197,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Keyline shapes</strong></strong></h2>
-                    <p>Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across related product icons.</p>
+                    <h2><strong><strong>关键线形状</strong></strong></h2>
+                    <p>关键线形状是网格的基础。使用这些核心形状作为准则，你可以在相关产品图标的设计中保持一致的视觉比例。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -206,9 +206,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Square</p>
-                        <p>Height: 152dp<br>
-                          Width: 152dp</p>
+                        <p>正方形</p>
+                        <p>高度：152dp<br>
+                          宽度：152dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -218,8 +218,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Circle </p>
-                        <p>Diameter: 176dp</p>
+                        <p>圆形</p>
+                        <p>直径：176dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -232,9 +232,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical rectangle</p>
-                        <p>Height: 176dp<br>
-                          Width: 128dp</p>
+                        <p>纵向矩形</p>
+                        <p>高度：176dp<br>
+                          宽度：128dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -244,9 +244,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Horizontal rectangle</p>
-                        <p>Height:128dp<br>
-                          Width:176dp</p>
+                        <p>水平矩形</p>
+                        <p>高度：128dp<br>
+                          宽度：176dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -255,9 +255,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>DP unit grid</strong></strong></h2>
-                    <p>Android expects product icons to be provided at 48dp, with edges at 1dp. When you create the icon, maintain the 48-unit measure, but scale it to 400% at 192 x 192 dp (the edge becomes 4dp). </p>
-                    <p>Any scaling done to the original will scale the image up or down proportionally. By maintaining the unit ratio, you preserve sharp edges and correct alignment when the scale is reduced.</p>
+                    <h2><strong><strong>DP 网格单位</strong></strong></h2>
+                    <p>Android 要求产品图标为 48dp，包含 1dp 的边缘。在创建图标的时候，保持 48dp 为基本单位，但是放大 400% 到 192 x 192dp（边缘变成 4dp）。</p>
+                    <p>对原稿进行的任何缩放，都将按比例上下调整图像。通过保持单位比例不变，在缩小图像时可以保持锐利的边缘和正确的对齐方式。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -265,7 +265,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>1:1 Unit grid </p>
+                        <p>1:1 单位网格</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -275,7 +275,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>4:1 Unit grid </p>
+                        <p>4:1 单位网格</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -284,8 +284,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Geometry</strong></strong></h2>
-                    <p>Preset standards have been determined for specific keylines: circle, square, rectangle, orthogonals, and diagonals. This small palette of universal and simple elements has been developed to unify product icons and systemize their placement on the grid.</p>
+                    <h2><strong><strong>几何形状</strong></strong></h2>
+                    <p>已经为特定的关键线预设了一些标准：圆形、正方形、矩形、正交线和对角线。这种通用和简单的线框可以统一图标的样式，以及规范图标在网格上的位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -323,13 +323,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Product icon anatomy</h1>
-                    <p>Product icon anatomy describes the graphic elements that make up a product icon. The consistency of these elements across icons for a given brand is critical in maintaining a shared visual language. Familiarity with these elements makes it easier to understand characteristics of each logo and subtle differences between them. It will also help educate your eye to recognize the underlying structure of logo designs.<br></p>
-                    <p>1. Finish<br>
-                      2. Material background<br>
-                      3. Material foreground<br>
-                      4. Color<br>
-                      5. Shadow</p>
+                    <h1>产品图标剖析</h1>
+                    <p>产品图标的剖析描述了组成产品图标的图形元素。在特定品牌的产品图标中，元素的一致性对于维持一个共享的视觉语言是至关重要的。熟悉这些元素，可以更容易的理解每个品牌的特征，以及它们之间的细微的差别。它还将帮助用户识别 logo 设计的基础结构。<br></p>
+                    <p>1. 抛光<br>
+                      2. 材料背景<br>
+                      3. 材料前景<br>
+                      4. 颜色<br>
+                      5. 阴影</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -337,8 +337,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Components</p>
-                        <p>Each component is positioned on top of the previous one, always viewed from straight above.</p>
+                        <p>组件</p>
+                        <p>每一个组件都位于前一个组件的上方，并且永远保持垂直视角。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -348,8 +348,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Construction perspective</p>
-                        <p>An exploded perspective example illustrating the context of each component of the logo construction.</p>
+                        <p>结构透视</p>
+                        <p>logo 结构中的每个组件的分解透视示例。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -362,8 +362,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Material background</p>
-                        <p>The back-most material element</p>
+                        <p>材料背景</p>
+                        <p>处于最底层的材料元素</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -373,8 +373,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Material foreground</p>
-                        <p>A material element raised above, and casting a shadow upon, the material background.</p>
+                        <p>材料前景</p>
+                        <p>浮起的材料元素，会在材料背景上投射出阴影。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -387,8 +387,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Spot color</p>
-                        <p>Color applied to a small portion of an element.</p>
+                        <p>斑点色</p>
+                        <p>应用于元素中的一小部分的颜色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -398,8 +398,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Flooding</p>
-                        <p>Color applied to an entire element, edge-to-edge. </p>
+                        <p>填充色</p>
+                        <p>应用到整个元素的颜色，包括从一个边缘到另一个边缘。</p>
                       </figcaption>
                     </figure>
                   </div>
