@@ -12,19 +12,19 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-baseline-grids" data-qp-ui-data-id="qp:1">Baseline grids</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-baseline-grids" data-qp-ui-data-id="qp:1">基准网格</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-keylines-spacing" data-qp-ui-data-id="qp:2">Keylines and spacing </a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-keylines-spacing" data-qp-ui-data-id="qp:2">关键线和间距</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-ratio-keylines" data-qp-ui-data-id="qp:3">Ratio keylines</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-ratio-keylines" data-qp-ui-data-id="qp:3">比例关键线</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-sizing-by-increments" data-qp-ui-data-id="qp:4">Sizing by increments</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-sizing-by-increments" data-qp-ui-data-id="qp:4">使用增量调整大小</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-touch-target-size" data-qp-ui-data-id="qp:5">Touch target size</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="metrics-keylines.html#metrics-keylines-touch-target-size" data-qp-ui-data-id="qp:5">触控目标大小</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
 
         <div id="metrics-keylines-baseline-grids" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Baseline grids
+            基准网格
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -45,7 +45,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>All components align to an 8dp square baseline grid for mobile, tablet, and desktop. Iconography in toolbars align to a 4dp square baseline grid. </p>
+                    <p>手机、平板和桌面设备的所有组件都与 8dp 的基准网格对齐。工具栏中的图标则与 4dp 的基准网格对齐。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -53,7 +53,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of baseline grid</p>
+                        <p>基准网格示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -63,7 +63,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of baseline grid</p>
+                        <p>基准网格示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -72,7 +72,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Type aligns to a 4dp baseline grid. See detailed information on <a href="../style/typography.html">typography</a>.</p>
+                    <p>文字与 4dp 的基准网格对齐。更多细节详见<a href="../style/typography.html">排版</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -80,7 +80,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of typography in a baseline grid</p>
+                        <p>基准网格中的排版示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -92,7 +92,7 @@
 
         <div id="metrics-keylines-keylines-spacing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Keylines and spacing
+            关键线和间距
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -101,14 +101,14 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>The following templates and examples contain keylines, spacing guidance, and sample screens for elements on mobile, tablet, and desktop. </p>
-              <h1>Templates</h1>
+              <p>以下模板包含移动设备、平板和桌面上的元素的关键线、间距指南和示例界面。</p>
+              <h1>模板</h1>
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile layout template">
                     <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
-                      <div class="title">Mobile layout template</div>
+                      <div class="title">移动端布局模版</div>
                       <span class="subtitle">2.23 MB (.ai) </span>
                     </div>
                     </img>
@@ -120,7 +120,7 @@
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet layout template">
                     <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
-                      <div class="title">Tablet layout template</div>
+                      <div class="title">平板端布局模版</div>
                       <span class="subtitle">1.39 MB (.ai) </span>
                     </div>
                     </img>
@@ -132,19 +132,19 @@
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Layout Template">
                     <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
                     <div class="info">
-                      <div class="title">Desktop Layout Template</div>
+                      <div class="title">桌面端布局模版</div>
                       <span class="subtitle">89.40 MB (.ai) </span>
                     </div>
                     </img>
                   </a>
                 </div>
               </p>
-              <h1>Mobile</h1>
+              <h1>移动端</h1>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>List</strong></p>
-                    <p>A two-column, left-aligned list with a 56dp floating action button.</p>
+                    <p><strong>列表</strong></p>
+                    <p>一个两列、左对齐的列表，且有一个 56dp 的浮动操作按钮。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -152,10 +152,10 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right margins: 16dp<br>
-                          Content associated with an icon or avatar left margin: 72dp<br>
-                          Horizontal margins on mobile: 16dp</p>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：16dp<br>
+                          与图标或头像相关联的内容的左边距：72dp<br>
+                          手机上的水平边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -165,12 +165,12 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical spacing</p>
+                        <p>垂直间距</p>
                         <ol class="lst-kix_9b5cwq3ltnu1-0 start" start="1">
-                          <li>Status bar: 24dp</li>
-                          <li>Toolbar: 56dp</li>
-                          <li>Subtitle: 48dp</li>
-                          <li>List item: 72dp</li>
+                          <li>状态栏：24dp</li>
+                          <li>工具栏：56dp</li>
+                          <li>副标题：48dp</li>
+                          <li>列表项：72dp</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -186,9 +186,9 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right margins: 16dp<br>
-                          Content left margin from screen edge: 72dp</p>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：16dp<br>
+                          内容与屏幕左边缘的间距：72dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -198,13 +198,13 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical spacing</p>
+                        <p>垂直间距</p>
                         <ol class="lst-kix_9is1l1vcq9ji-0 start" start="1">
-                          <li>Status bar: 24dp</li>
-                          <li>Toolbar: 56dp</li>
-                          <li>Title and list items: 72dp</li>
-                          <li>Subtitle: 48dp</li>
-                          <li>Space between content areas: 8dp</li>
+                          <li>状态栏：24dp</li>
+                          <li>工具栏：56dp</li>
+                          <li>标题和列表项：72dp</li>
+                          <li>副标题：48dp</li>
+                          <li>内容区之间的间隔：8dp</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -214,17 +214,17 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Detail view</strong></p>
-                    <p>A detail card with a 56dp floating action button.</p></div>
+                    <p><strong>详情视图</strong></p>
+                    <p>详情卡片，包含 56dp 的浮动操作按钮。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right margins: 16dp<br>
-                          Content left margin from screen edge: 72dp<br>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：16dp<br>
+                          内容与屏幕左边缘的间距：72dp<br>
                           Right-side icons align 32dp from the right edge to coordinate with the floating action button.
                         </p>
                       </figcaption>
