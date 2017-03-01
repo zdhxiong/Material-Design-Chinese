@@ -47,19 +47,19 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>The number of pixels that fit into an inch is referred to as “pixel density.” High-density screens have more pixels per inch than low-density ones. As a result, UI elements (such as a button) appear physically larger on low-density screens and smaller on high-density screens. </p>
+              <p>每英寸所包含的像素数量被称为“像素密度”。高密度的屏幕每英寸拥有的像素数量比低密度的要多。所以 UI 元素（比如按钮）在低密度的屏幕上看起来更大，而在高密度的屏幕上看起来更小。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Screen resolution refers to the total number pixels in a display. </p>
-                    <p><strong>screen density = screen width (or height) in pixels / screen width (or height) in </strong><strong>inches</strong></p>
-                    <h4 class="related">Related</h4>
+                    <p>屏幕分辨率则是屏幕内的像素总数。</p>
+                    <p><strong>屏幕密度 = 以像素为单位的屏幕宽度（或高度） / 以英寸为单位的屏幕宽度（或高度）</strong></p>
+                    <h4 class="related">相关资源</h4>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/practices/screens_support.html&amp;sa=D&amp;ust=1481817970797000&amp;usg=AFQjCNGwPQDJJd2uu17SB88ySaEwsmZEPw" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">Supporting Multiple Screens</div>
-                          <span class="subtitle">Optimize your design for different screen densities.</span>
+                          <div class="title">支持多种屏幕</div>
+                          <span class="subtitle">为不同屏幕密度的设备优化设计</span>
                         </div>
                         </img>
                       </a>
@@ -68,8 +68,8 @@
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/resources/more-resources.html%23Dimension&amp;sa=D&amp;ust=1481817970799000&amp;usg=AFQjCNGSIwsX8PWLOAEIqXA1Gm15wNg5jA" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">More Resource Types</div>
-                          <span class="subtitle">Units of measure supported by Android.</span>
+                          <div class="title">更多资源类型</div>
+                          <span class="subtitle">Android 支持的度量单位。</span>
                         </div>
                         </img>
                       </a>
@@ -82,7 +82,7 @@
                       </div>
                       <figcaption>
                         <p><br>
-                        High-density screen</p>
+                        高密度屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,7 +96,7 @@
                       </div>
                       <figcaption>
                         <p><br>
-                        Low-density screen</p>
+                        低密度屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -120,8 +120,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>"Density independence" refers to the uniform display of UI elements on screens with different densities. </p>
-                    <p>Density-independent pixels (pronounced “dips”) are flexible units that scale to uniform dimensions on any screen. When developing an Android application, use dp to display elements uniformly on screens with different densities. </p>
+                    <p>"与密度无关"指在不同密度的屏幕上显示相同的 UI 元素。</p>
+                    <p>与密度无关的像素（发音为“dips”）是一个灵活的单位，可以在任何屏幕上缩放到统一尺寸。开发 Android 应用时，使用 dp 在不同密度的屏幕上显示相同的元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -135,17 +135,17 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>A dp is equal to one physical pixel on a screen with a density of 160. To calculate dp:</p>
-                    <p><strong>dp = (width in pixels * 160) / screen density</strong></p>
-                    <p>When writing CSS, use px wherever dp or sp is stated. Dp only needs to be used in developing for Android.</p>
+                    <p>1dp 等于密度为 160 的屏幕上的 1 个物理像素。dp 的计算方式为：</p>
+                    <p><strong>dp = （以像素为单位的宽度 * 160） / 屏幕密度</strong></p>
+                    <p>编写 CSS 时，不用管 dp 或 sp，统一使用 px，dp 只在 Android 开发时使用。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Screen density</p></td>
-                        <td colspan="1" rowspan="1"><p>Screen width in pixels</p></td>
-                        <td colspan="1" rowspan="1"><p>Screen width in density-independent pixels</p></td>
+                        <td colspan="1" rowspan="1"><p>屏幕密度</p></td>
+                        <td colspan="1" rowspan="1"><p>以像素为单位的屏幕宽度</p></td>
+                        <td colspan="1" rowspan="1"><p>以与密度无关的像素为单位的屏幕宽度</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>120</p></td>
@@ -162,7 +162,7 @@
                       </tr>
                       </tbody>
                     </table>
-                    <p>If you have three screens, all 1.5 inches wide, with varying screen densities, the screen width will still be 240dp for all of them.</p>
+                    <p>如果你有 3 个 1.5 英寸宽的设备，即使屏幕密度不同，屏幕的宽度始终是 240dp。</p>
                   </div>
                 </section>
               </div>
@@ -181,8 +181,8 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When developing for Android, scaleable pixels (sp) serve the same function as dp, but for fonts. The default value of an sp is the same as the default value for dp. </p>
-              <p>The primary difference between an sp and a dp is that sp preserves a user's font settings. Users who have larger text settings for accessibility will see the font size matched to their text size preferences.</p>
+              <p>在进行 Android 开发时，可缩放像素（sp）和 dp 功能一样，但仅用在字体上。1sp 的默认值和 1dp 一样。</p>
+              <p>sp 和 dp 的主要区别是 sp 保留了用户的字体设置。在辅助功能中设置了大号字体的用户会看到和他们的设置相匹配的字体大小。</p>
             </div>
           </div>
         </div>
@@ -198,9 +198,9 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When designing layouts for the screen, calculate an element’s measurements in dp: </p>
-              <p><strong>dp = (width in pixels * 160) / density</strong></p>
-              <p>For example, a 32 x 32 px icon with a screen density of 320 equals 16 x 16 dp.</p>
+              <p>为屏幕设计布局时，使用 dp 来计算元素的尺寸：</p>
+              <p><strong>dp = （以像素为单位的宽度 * 160） / 像素密度</strong></p>
+              <p>例如，32 x 32 px 的图标在 320 像素密度的屏幕上，等同于 16 x 16 dp。</p>
             </div>
           </div>
         </div>
@@ -219,16 +219,16 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>Images can be scaled to look the same across different screen resolutions by using these ratios:</p>
+                    <p>通过使用以下比率，可以使图片在不同分辨率的屏幕上看起来一样：</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p><strong>Screen resolution</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>屏幕分辨率</strong></p></td>
                         <td colspan="1" rowspan="1"><p><strong>dpi</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Pixel ratio</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>Image size (pixels)</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>像素比例</strong></p></td>
+                        <td colspan="1" rowspan="1"><p><strong>图片尺寸（像素）</strong></p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>xxxhdpi</p></td>
