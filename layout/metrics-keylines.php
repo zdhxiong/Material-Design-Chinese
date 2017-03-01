@@ -101,7 +101,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>以下模板包含移动设备、平板和桌面上的元素的关键线、间距指南和示例界面。</p>
+              <p>以下模板包含移动端、平板端和桌面端的元素的关键线、间距指南和示例界面。</p>
               <h1>模板</h1>
               <p>
                 <div class="modulettes">
@@ -204,7 +204,7 @@
                           <li>工具栏：56dp</li>
                           <li>标题和列表项：72dp</li>
                           <li>副标题：48dp</li>
-                          <li>内容区之间的间隔：8dp</li>
+                          <li>内容区域之间的间距：8dp</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -225,7 +225,7 @@
                         <p>关键线和边距</p>
                         <p>屏幕边缘的左右边距：16dp<br>
                           内容与屏幕左边缘的间距：72dp<br>
-                          Right-side icons align 32dp from the right edge to coordinate with the floating action button.
+                          右侧图标距离屏幕的右边距为 32dp，以便与浮动操作按钮同轴对齐。
                         </p>
                       </figcaption>
                     </figure>
@@ -236,12 +236,12 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical spacing</p>
+                        <p>垂直空间</p>
                         <ol class="lst-kix_xmui2mjw0eb4-0 start" start="1">
-                          <li>Status bar: 24dp</li>
-                          <li>Toolbar: 56dp</li>
-                          <li>Space between content areas: 8dp</li>
-                          <li>List item: 72dp</li>
+                          <li>状态栏：24dp</li>
+                          <li>工具栏：56dp</li>
+                          <li>内容区域之间的间距：8dp</li>
+                          <li>列表项：72dp</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -251,8 +251,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p><strong>Navigation drawer</strong></p>
-                    <p>A side navigation menu with icons, avatars, and text aligned on the left. Other icons align on the right.</p>
+                    <p><strong>抽屉导航</strong></p>
+                    <p>一个侧边栏的导航菜单，包含图标、头像、和左对齐的文本。其他图标右对齐。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -260,11 +260,10 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right margins: 16dp<br>
-                          Content associated with an icon or avatar left margin: 72dp<br>
-                          Side nav width: The screen width minus the height of the action bar. Here, the width is 56dp
-                          from the right screen edge.</p>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：16dp<br>
+                          为了与图标和头像相协调，内容的左边距为：72dp<br>
+                          侧边导航宽度：屏幕宽度减去操作栏高度。本例中，侧边导航的宽度为屏幕宽度减去 56dp。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -277,22 +276,22 @@
                       </figure>
                     </h2>
                     <p>
-                      <figcaption>Vertical spacing</figcaption>
+                      <figcaption>垂直空间</figcaption>
                     </p>
                     <ol class="lst-kix_wza18d9k4k2q-0 start" start="1">
-                      <li>Account menu and list items: 48dp</li>
-                      <li>Space between content areas: 8dp</li>
-                      <li>Navigation right margin: 56dp</li>
+                      <li>帐号菜单和列表项：48dp</li>
+                      <li>内容区域之间的间距：8dp</li>
+                      <li>导航栏右边距：56dp</li>
                     </ol>
                   </div>
                 </section>
               </div>
-              <h1>Tablet</h1>
+              <h1>平板端</h1>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>List with detail view</strong></p>
-                    <p>Left-aligned list with a right-aligned floating action button</p>
+                    <p><strong>带详细视图的列表</strong></p>
+                    <p>左对齐的列表，带有一个右对齐的浮动操作按钮</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -300,11 +299,11 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right margins: 24dp<br>
-                          Content left margin from screen edge: 80dp<br>
-                          Card left and right padding: 24dp<br>
-                          Card content left padding: 104dp</p>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：24dp<br>
+                          内容与屏幕的左边距：80dp<br>
+                          卡片的左右内边距：24dp<br>
+                          卡片内容的左边距：104dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -317,12 +316,12 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical spacing</p>
+                        <p>垂直空间</p>
                         <ol class="lst-kix_qacmrwughh6w-0 start" start="1">
-                          <li>Status bar and space above list: 24dp</li>
-                          <li>List item: 64dp</li>
-                          <li>Space between content areas: 8dp</li>
-                          <li>List item: 72dp</li>
+                          <li>状态栏和列表顶部间距：24dp</li>
+                          <li>列表项：64dp</li>
+                          <li>内容区域之间的间距：8dp</li>
+                          <li>列表项：72dp</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -330,8 +329,8 @@
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>List with detail view</strong></p>
-                    <p>Left-aligned list with a left-aligned floating action button</p>
+                    <p><strong>带详细视图的列表</strong></p>
+                    <p>左对齐的列表，带有一个右对齐的浮动操作按钮</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -339,13 +338,13 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines and margins</p>
-                        <p>Screen edge left and right padding: 24dp<br>
-                          Icons’ vertical center distance from screen edge: 52dp<br>
-                          Nav item left padding from screen edge: 104dp<br>
-                          Content left margin from screen edge: 80dp<br>
-                          Card left and right padding: 32dp<br>
-                          Card nav item left padding: 96dp</p>
+                        <p>关键线和边距</p>
+                        <p>屏幕边缘的左右边距：24dp<br>
+                          图标的垂直中线与屏幕边缘的距离：52dp<br>
+                          导航项距离屏幕的左边距：104dp<br>
+                          内容与屏幕左边距：80dp<br>
+                          卡片左右内边距：32dp<br>
+                          卡片导航项的左边距：96dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -358,21 +357,21 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical spacing</p>
+                        <p>垂直空间</p>
                         <ol class="lst-kix_o4su4vbde70q-0 start" start="1">
-                          <li>Status bar: 24dp</li>
-                          <li>Toolbar and list item: 64dp</li>
-                          <li>Space between content areas: 8dp</li>
-                          <li>Subtitle, list item, and slider: 48dp</li>
-                          <li>Title: 80dp</li>
+                          <li>状态栏：24dp</li>
+                          <li>工具栏和列表项：64dp</li>
+                          <li>内容区域之间的间距：8dp</li>
+                          <li>副标题、列表项和滑块：48dp</li>
+                          <li>标题：80dp</li>
                         </ol>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Desktop</h1>
-              <p>Keylines and spacing blocks for desktop inherit grid rules from tablet and mobile, depending on window size.</p>
+              <h1>桌面端</h1>
+              <p>用于桌面的关键线和间隔块会根据窗口大小从平板端和移动设备继承网格规则。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module"></div>
@@ -382,7 +381,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop full screen</p>
+                        <p>桌面端的全屏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -391,14 +390,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Resized windows</p></div>
+                    <p>调整大小后的窗口</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Horizontal window</p>
+                        <p>水平窗口</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -408,7 +407,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical window</p>
+                        <p>垂直窗口</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -420,7 +419,7 @@
 
         <div id="metrics-keylines-ratio-keylines" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Ratio keylines
+            比例关键线
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -432,8 +431,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>The proportion of an element’s width to its height (called the <strong>aspect ratio</strong>) applies to both UI elements and screen size. It is written as width:height.</p>
-                    <p>These aspect ratios are recommended:</p>
+                    <p>元素宽度与高度的比例（称为<strong>宽高比</strong>），可以同时应用于 UI 元素和屏幕尺寸。宽高比写作：宽:高。</p>
+                    <p>推荐的宽高比为：</p>
                     <ul class="lst-kix_o15apqn3jiyj-0 start">
                       <li>16:9</li>
                       <li>3:2</li>
@@ -442,14 +441,14 @@
                       <li>3:4</li>
                       <li>2:3</li>
                     </ul>
-                    <p>For example:</p>
+                    <p>例如：</p>
                     <ul class="lst-kix_hc7d1myqxv1l-0 start">
-                      <li>A 1:1 aspect ratio means an element has equal height and width.</li>
-                      <li>A 360dp wide image with a 2:3 aspect ratio has a height of 540.</li>
+                      <li>1:1 的宽高比说明元素有相同的宽度和高度。</li>
+                      <li>2:3 宽高比的图片，宽度为 360dp 时，高度为 540dp。</li>
                     </ul>
-                    <p>Determine the width or height of your element for a chosen aspect ratio using the below formulas. The aspect ratio is always expressed as a fraction. For example, 3:2 is treated as 3/2.</p>
-                    <p>Width = Aspect ratio * Height </p>
-                    <p>Height = Width/Aspect ratio</p>
+                    <p>使用以下公式，根据宽高比来确定元素的宽度或高度。宽高比总是用分数表示。例如，3:2 会被视为 3/2。</p>
+                    <p>宽度 = 宽高比 * 高度 </p>
+                    <p>高度 = 宽度 / 宽高比</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -457,7 +456,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Screen width</p>
+                        <p>屏幕宽度</p>
                         <p></p>
                       </figcaption>
                     </figure>
@@ -468,7 +467,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of screen width on mobile</p>
+                        <p>移动端的屏幕宽度示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -481,7 +480,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Element width</p>
+                        <p>元素宽度</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -491,7 +490,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of element width on mobile</p>
+                        <p>移动端的元素宽度示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -503,7 +502,7 @@
 
         <div id="metrics-keylines-sizing-by-increments" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Sizing by increments
+            使用增量调整大小
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -515,10 +514,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>An increment is a measurement used to determine the size and position of other elements in the app. </p>
-                    <p>For example, you can define an increment as the height of a standard element, such as the action bar. If the action bar is 56dp tall, you may define one increment as equal to 56 x 56dp. Determine the size of other elements by how many 56dp increments wide or tall an element should be. </p>
-                    <p>If an element is 8 increments wide, using 56dp as the increment size, the width is equal to 448dp.</p>
-                    <p>Incremental keylines apply mostly to desktop, often to tablet, and infrequently to mobile. The number of increments varies based on window size.</p>
+                    <p>增量是一个度量单位，用来确定应用中其他元素的大小和位置。</p>
+                    <p>例如，你可以把增量定义为标准元素（例如操作栏）的高度。如果操作栏高度是 56dp，增量就可以定义为 56 x 56dp。通过元素有多少个 56dp 的增量宽或高，来确定元素的大小。</p>
+                    <p>如果一个元素是 8 增量宽，使用 56dp 作为增量大小，那么它的宽度是 448dp。</p>
+                    <p>增量关键线主要应用于桌面端，也常用于平板端，但不常用与移动端。增量的数量会根据窗口大小而变化。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -526,7 +525,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This example card width has a horizontal increment of 8x.</p>
+                        <p>该示例中的卡片宽度是 8x 的水平增量。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -534,7 +533,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The height of the example extended app bar is 2x the increment, and the width of the right panel is 5x the increment.</p>
+                        <p>该示例中的应用栏扩展后的高度为 2x 的增量，右侧面板的宽度为 5x 的增量。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -542,7 +541,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Increments can work across many elements in material design UI.</p>
+                        <p>在 Material Design 的 UI 中，增量可以在很多元素上使用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -554,7 +553,7 @@
 
         <div id="metrics-keylines-touch-target-size" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Touch target size
+            触摸目标大小
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -566,8 +565,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>To ensure balanced information density and usability, touch targets should be at least 48 x 48 dp. In most cases, there should be 8dp or more space between them.</p>
-                    <p>Size elements at least 48dp high and wide to ensure a physical size of about 9mm regardless of screen size. The recommended target size for touchscreen objects is 7-10mm.</p>
+                    <p>为了确保信息密度和可用性之间的平衡，触摸目标的尺寸至少为 48 x 48 dp。在大多数情况下，触摸目标之间至少还有 8dp 的间隔。</p>
+                    <p>把元素的宽度和高度调整为至少 48dp，以确保在任何尺寸的屏幕中，元素的物理尺寸都至少为 9mm。触摸目标的大小建议为 7-10mm。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -575,9 +574,9 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Avatar: 40dp <br>
-                        Icon: 24dp<br>
-                        Touch target on both: 48dp</p>
+                        <p>头像尺寸：40dp <br>
+                        图标尺寸：24dp<br>
+                        触摸目标尺寸均为：48dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -585,8 +584,8 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Touch target height: 48dp <br>
-                        Button height: 36dp</p>
+                        <p>触摸目标高度：48dp <br>
+                        按钮高度：36dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -596,7 +595,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of touch targets</p>
+                        <p>触摸目标示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -604,7 +603,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of touch targets and buttons</p>
+                        <p>触摸目标和按钮示例</p>
                       </figcaption>
                     </figure>
                   </div>
