@@ -8,8 +8,8 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h2><strong>Android only</strong></h2>
-          <h1>Split-screen mode allows two activities to be visible on screen at the same time.</h1>
+          <h2><strong>仅支持 Android</strong></h2>
+          <h1>分屏模式支持在屏幕上同时显示两个活动。</h1>
         </div>
       </div>
 
@@ -18,13 +18,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-behavior" data-qp-ui-data-id="qp:2">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-behavior" data-qp-ui-data-id="qp:2">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-layout" data-qp-ui-data-id="qp:3">Layout</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="split-screen.html#split-screen-layout" data-qp-ui-data-id="qp:3">布局</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
 
         <div id="split-screen-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -42,18 +42,18 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>User interaction required</h1>
-              <p>Apps are not allowed to invoke split-screen mode by themselves; the user must activate it. </p>
+              <h1>需要用户主动激活</h1>
+              <p>应用不能自行进入分屏模式；必须由用户主动激活。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Launching new activities</h1>
-                    <p>When an app launches a new activity, it will launch within the <strong>same portion</strong> <strong>of the screen</strong> by default. Apps will be resized to fit the split-screen view as necessary (unless your app isn’t compatible with the split-screen format).</p>
-                    <p>When split-screen mode is active, apps may launch new activities in the <strong>opposite portion of the screen</strong> if the following criteria are met:</p>
+                    <h1>启动新的活动</h1>
+                    <p>当应用启动新的活动时，默认会显示在<strong>屏幕中的相同部分</strong>。应用将根据需要重新调整尺寸以适应分屏视图（除非你的应用不兼容分屏模式）。</p>
+                    <p>当分屏模式处于启用状态时，如果满足以下条件，应用可能会在<strong>屏幕的另一部分</strong>启动新的活动：</p>
                     <ul class="lst-kix_fv5lrrj255tl-0 start">
-                      <li>The original and new activities are related to each other and usable while in split-screen mode</li>
-                      <li>The task the app helps accomplish warrants displaying two activities at once, and hiding the other app that was open</li>
-                      <li>It is clear that the app will enter split-screen mode, such as with a button stating “Open in new window”</li>
+                      <li>当处于分屏模式时，原有的活动和新的活动互相关联，并且都可用</li>
+                      <li>任务的完成需要应用一次显示两个活动，并且隐藏其他已打开的应用</li>
+                      <li>清楚的指出应用将要进入分屏模式，例如有一个写着“在新窗口打开”的按钮</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -62,7 +62,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Split screen shown in portrait mode on mobile (on the left) and landscape mode on tablet (on the right)</p>
+                        <p>手机上的纵向分屏模式（左图），平板上的横向分屏模式（右图）</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -74,7 +74,7 @@
 
         <div id="split-screen-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -83,20 +83,20 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Split-screen mode remains active until the user cancels it or switches to an incompatible app. </p>
-              <h1>Resizing split screen</h1>
-              <p>Users may move and resize each screen in split-screen mode by dragging the divider between the two split screens. </p>
-              <h1>Edge swipe gestures</h1>
-              <p>When split-screen mode is active, the edge swipe gesture will likely not work as intended. Because split-screen mode relies on swiping to resize each split screen, if your app also relies on edge swipes to perform actions, then it’s possible that the swipe will either trigger screen resizing or an action in your app.</p>
-              <p>To avoid this, edge swipes should not be the only way to perform actions in your app. There should be an alternative method to perform each action. </p>
-              <p>For example, the <a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">navigation drawer</a> enables an edge swipe to open the drawer, but it is also accessible by pressing the menu icon.</p>
+              <p>分屏模式会保持激活状态，直到用户取消或切换到一个不支持分屏的应用。</p>
+              <h1>调整分屏大小</h1>
+              <p>在分屏模式下，用户可以通过拖动两个分屏中间的分割线来移动和调整每个屏幕。</p>
+              <h1>边缘滑动手势</h1>
+              <p>当处于分屏模式时，边缘滑动手势可能不会像预期的那样。因为分屏模式依靠滑动来调整每个分屏的大小，如果你的应用还依靠边缘滑动来执行某项操作，则滑动操作可能会导致冲突。</p>
+              <p>为了避免这种情况，边缘滑动不应设置为触发应用中的操作的唯一途径。应该要有一个替代方法来执行该操作。</p>
+              <p>例如，<a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">抽屉导航</a>可以通过边缘滑动来触发，但也可以通过按下菜单按钮来触发。</p>
             </div>
           </div>
         </div>
 
         <div id="split-screen-layout" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Layout
+            布局
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -105,18 +105,18 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>To support split-screen usage, viewable content should be scaled to an appropriate size and density. </p>
-              <p>Primary controls should be adapted for split-screen mode. For example, navigation tabs may be collapsed into a menu.</p>
+              <p>为了支持分屏模式的使用，可见内容应该缩放到适当的大小和密度。</p>
+              <p>主操作需要适配分屏模式。例如，导航标签可以折叠到菜单中。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Responsive UI</h1>
-                    <p>Apps in split-screen mode should elegantly adjust across device sizes and orientations. </p>
-                    <p>Changing a device’s orientation should not cause the UI to change unexpectedly. For example, an app displaying a video in one of the split screens (in portrait mode) should not begin playback in full-screen mode if the device rotates to landscape mode.</p>
-                    <p>Apps may use the same or different layouts for mobile and tablet:</p>
+                    <h1>响应式 UI</h1>
+                    <p>分屏模式下的应用应优先根据设备尺寸和方向来调整。</p>
+                    <p>更改设备的方向时不应该导致 UI 也意外的发生改变。例如，应用在一个分屏中（纵向模式中）正在播放视频，当设备变成横屏时，视频不应该进入全屏模式。</p>
+                    <p>应用可以在手机和平板中使用相同或不同的布局：</p>
                     <ul class="lst-kix_twwe5kbnekhv-0 start">
-                      <li>Apps with <strong>similar layouts</strong> for mobile and tablet may switch between the tablet and mobile UIs when the app is resized, as the transition will not be jarring.</li>
-                      <li>Apps with <strong>completely different layouts</strong> for mobile and tablet should avoid using the mobile UI on tablet in split-screen mode. Instead, the existing tablet UI should be adapted to fit the smaller size to ensure that users have a consistent experience on both devices.</li>
+                      <li>当调整应用的分屏大小时，在手机和平板上有着<strong>相似布局</strong>的应用可能会在手机模式和平板模式之间切换，因为这样的过渡效果不会显得不和谐。</li>
+                      <li>在手机和平板上<strong>布局完全不同</strong>的应用应避免在分屏模式时在平板上使用手机版 UI。相反，平板 UI 应该调整尺寸来适应更小尺寸的设备，以确保用户在不同设备上能有一致的体验。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -125,7 +125,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>An app may use the same layout across mobile (left) and tablet (right).</p>
+                        <p>应用可以在手机（左图）和平板（右图）中使用相同的布局。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -133,7 +133,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>An app may use different layouts across mobile (left) and tablet (right).</p>
+                        <p>应用可以在手机（左图）和平板（右图）中使用不同的布局。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -142,9 +142,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Design for condensed sizes</h1>
-                    <p>To simplify adapting your app for the various sizes of split-screen mode, it is recommended to design for the smallest size first.</p>
-                    <p>Create a layout that works at 220dp wide or tall by condensing elements or removing non-essential ones. The layout may be scaled upward from there.</p>
+                    <h1>为小尺寸设计</h1>
+                    <p>为了使应用更方便的设配各种尺寸的分屏模式，建议首先为最小尺寸做设计。</p>
+                    <p>通过聚合元素或移除不必要的元素，为应用创建可以适配 220dp 宽度或高度的布局。在此基础上放大来设计完整的布局。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -152,7 +152,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>When the split screen is active, the aspect ratio of an app in portrait orientation is 16:9 on mobile. </p>
+                        <p>在手机上，当处于分屏模式时，应用竖直方向上的长宽比为 16:9。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -162,7 +162,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>When the split screen is active, the aspect ratio of an app in portrait orientation is 34.15% on tablet.</p>
+                        <p>在平板上，当处于分屏模式时，应用在竖直方向上的长宽比为 34.15%。</p>
                       </figcaption>
                     </figure>
                   </div>
