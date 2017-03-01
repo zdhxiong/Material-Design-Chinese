@@ -12,22 +12,22 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-ui-regions" data-qp-ui-data-id="qp:1">UI regions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-ui-regions" data-qp-ui-data-id="qp:1">UI 区域</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-toolbars" data-qp-ui-data-id="qp:2">Toolbars </a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-toolbars" data-qp-ui-data-id="qp:2">工具栏</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-app-bar" data-qp-ui-data-id="qp:3">App bar</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-app-bar" data-qp-ui-data-id="qp:3">应用栏</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-system-bars" data-qp-ui-data-id="qp:4">System bars</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-system-bars" data-qp-ui-data-id="qp:4">系统栏</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-side-nav" data-qp-ui-data-id="qp:5">Side nav</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-side-nav" data-qp-ui-data-id="qp:5">侧边栏</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-whiteframes" data-qp-ui-data-id="qp:6">Whiteframes</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="structure.html#structure-whiteframes" data-qp-ui-data-id="qp:6">线框图</a>
           </li>
         </ul>
       </nav>
@@ -36,7 +36,7 @@
 
         <div id="structure-ui-regions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            UI regions
+            UI 区域
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -44,13 +44,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>For guidance on arranging elements in z-space to achieve the correct behavior and shadows, see the
-              <a href="../material-design/environment.html">Environment</a> and <a href="../what-is-material/elevation-shadows.html">Elevations and shadows</a> sections.</p>
+            <div><p>为元素在 Z 轴空间的排列提供指导，以拥有正确的行为和阴影，见<a href="../material-design/environment.html">环境</a>和<a href="../what-is-material/elevation-shadows.html">海拔高度和阴影</a>章节。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Mobile structure</h1>
-                    <p>This structure includes a permanent app bar and floating action button. An optional bottom bar can be added for additional functionality or action overflow. Side nav menus overlay all other structural elements.</p>
+                    <h1>手机端结构</h1>
+                    <p>此结构中包含一个固定的应用栏和浮动操作按钮。可以添加一个可选的底栏，用于放置额外的功能或弹出操作。侧边栏会遮盖结构中的所有元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -58,10 +57,9 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_mobile.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile structure</p>
-                        <p>Top left to right: Side nav, app bar/primary toolbar, content area (below the app bar/primary
-                          toolbar), and right nav<br>
-                          On the bottom: bottom bar</p>
+                        <p>手机端结构</p>
+                        <p>顶部从左到右：应用栏/主工具栏，内容区域（在应用栏/主工具栏下方），右侧导航<br>
+                          底部：底栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -70,8 +68,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Tablet structure</h1>
-                    <p>This structure shows a permanent app bar with a floating action button. The app bar absorbs elements from the tablet and mobile bottom bars. An optional bottom bar can be added for additional functionality or action overflow. A side nav overlays all other structural elements. A right nav menu can be accessed temporarily or pinned for permanent display.</p>
+                    <h1>平板端结构</h1>
+                    <p>此结构包含固定应用栏和浮动操作按钮。平板和手机的底栏中的元素可以合并到应用栏中。可以添加一个可选的底栏，用于放置额外的功能和弹出操作。侧边栏会覆盖结构中的所有元素。右侧导航可以临时显示，也可以永久固定显示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -79,10 +77,9 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_tablet.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet structure</p>
-                        <p>Top left to right: Side nav, app bar/primary toolbar, content canvas (below the app
-                          bar/primary toolbar), and right nav<br>
-                          On the bottom: bottom bar</p>
+                        <p>平板端结构</p>
+                        <p>顶部从左到右：侧边栏，应用栏/主工具栏，内容区域（在应用栏/主工具栏下方），右侧导航<br>
+                          底部：底栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -91,9 +88,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Desktop structure</h1>
-                    <p>The desktop structure contains a permanent app bar with a floating action button. The app bar absorbs elements from the tablet and mobile bottom bars. Where possible, the window controls are absorbed into the app bar. </p>
-                    <p>Side navigation menus can take up the full height of the screen size (including under the app bar) and be accessed temporarily or pinned for permanent display. Side nav menus, as well as the content canvas, can have their own secondary toolbars for tabs, palettes, or secondary actions.</p>
+                    <h1>桌面端结构</h1>
+                    <p>桌面端结构包含一个固定的应用栏和一个浮动操作按钮。手机和平板的底栏可以合并到应用栏中。如果有可能，窗口空间也会被合并到应用栏中。</p>
+                    <p>侧边导航菜单可以占据屏幕大小的整个高度（包括应用栏下方的），可以临时显示，也可以永久固定显示。侧边栏菜单和内容区域一样，都可以有自己的二级工具栏，用来放置选项卡、选项或次要操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -101,11 +98,11 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_desktop.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop structure</p>
-                        <p>Top left to right: App bar/primary toolbar</p>
-                        <p>Second row from left to right: Toolbar, secondary toolbar, and toolbar</p>
-                        <p>Third row from left to right: side nav, content canvas, and right nav</p>
-                        <p>On the bottom: floating action button</p>
+                        <p>桌面端结构</p>
+                        <p>顶部从左到右：应用栏/主工具栏</p>
+                        <p>第二行从左到右：工具栏、次要工具栏、工具栏</p>
+                        <p>第三行从左到右：侧边栏、内容区域、右侧边栏</p>
+                        <p>底部：浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -114,15 +111,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>UI regions</h1>
-                    <p>Define a primary horizontal or vertical divider.</p></div>
+                    <h1>UI 区域</h1>
+                    <p>定义水平或垂直的主分隔线。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical divider</p>
+                        <p>垂直分隔线</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -132,7 +129,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Horizontal divider</p>
+                        <p>水平分隔线</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -141,7 +138,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Avoid slicing up the interface into too many regions which can cause L shapes. Instead, use whitespace to delineate secondary areas.</p>
+                    <p>避免把界面分隔成太多区域，这样会导致布局呈现 L 形。相反，可以使用空白来描绘辅助区域。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -150,7 +147,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use whitespace.</p>
+                        <p>使用空白。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -161,7 +158,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid creating too many regions.</p>
+                        <p>避免创建太多区域。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -170,7 +167,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Break edges with cards and floating action buttons.</p>
+                    <p>可以使用卡片和浮动操作按钮来打破区域的边界。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -178,7 +175,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Card breaking an edge</p>
+                        <p>卡片打破了边界</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +185,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Floating action button breaking an edge</p>
+                        <p>浮动操作按钮打破了边界</p>
                       </figcaption>
                     </figure>
                   </div>
