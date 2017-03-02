@@ -44,7 +44,7 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>为元素在 Z 轴空间的排列提供指导，以拥有正确的行为和阴影，见<a href="../material-design/environment.html">环境</a>和<a href="../what-is-material/elevation-shadows.html">海拔高度和阴影</a>章节。</p>
+            <div><p>为元素在 Z 轴空间的排列提供指导，以使其拥有正确的行为和阴影，见<a href="../material-design/environment.html">环境</a>和<a href="../what-is-material/elevation-shadows.html">海拔高度和阴影</a>章节。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
@@ -89,7 +89,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>桌面端结构</h1>
-                    <p>桌面端结构包含一个固定的应用栏和一个浮动操作按钮。手机和平板的底栏可以合并到应用栏中。如果有可能，窗口空间也会被合并到应用栏中。</p>
+                    <p>桌面端结构包含一个固定的应用栏和一个浮动操作按钮。手机和平板的底栏可以合并到应用栏中。如果有可能，窗口控件也会被合并到应用栏中。</p>
                     <p>侧边导航菜单可以占据屏幕大小的整个高度（包括应用栏下方的），可以临时显示，也可以永久固定显示。侧边栏菜单和内容区域一样，都可以有自己的二级工具栏，用来放置选项卡、选项或次要操作。</p>
                   </div>
                   <div class="figure">
@@ -194,7 +194,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Use cards to organize content when specific behaviors are needed or if groupings of information need more separation than what whitespace or dividers can provide.</p>
+                    <p>当需要特定行为、或需要比空格或分隔符更多的分隔来进行信息分组时，可以使用卡片来组织内容。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -202,7 +202,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Cards</p>
+                        <p>卡片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -212,7 +212,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Cards</p>
+                        <p>卡片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -224,7 +224,7 @@
 
         <div id="structure-toolbars" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Toolbars
+            工具栏
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -236,14 +236,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Toolbars are versatile and can be used in many different ways. </p></div>
+                    <p>工具栏有多种用途，可以以多种不同的方式使用。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full-width, default height app bar</p>
+                        <p>全宽，默认高度的应用栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -256,7 +256,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full-width, extended height app bar </p>
+                        <p>全宽，扩展了高度的应用栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -269,7 +269,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Column-width toolbars at multiple levels of hierarchy</p>
+                        <p>多级层次结构中与列同宽的工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -282,7 +282,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Flexible toolbar and card toolbar</p>
+                        <p>弹性工具栏和卡片工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -295,7 +295,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Floating toolbar</p>
+                        <p>浮动工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -308,7 +308,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Detached toolbar palette</p>
+                        <p>分离的调色板工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -321,7 +321,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Bottom toolbar that launches to a shelf and clings to the top of the keyboard or other bottom component</p>
+                        <p>底部工具栏，就像一块隔板，附着在键盘或其他底部组件的顶部。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -334,7 +334,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Bottom toolbar shelf</p>
+                        <p>底部隔板工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -346,7 +346,7 @@
 
         <div id="structure-app-bar" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            App bar
+            应用栏
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -358,15 +358,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>The app bar, formerly known as the action bar in Android, is a special kind of toolbar that’s used for branding, navigation, search, and actions.</p>
-                    <p>The nav icon at the left side of the app bar can be:</p>
+                    <p>应用栏（以前称为 Android 中的操作栏）是一种特殊类型的工具栏，用于放置品牌、导航、搜索和操作。</p>
+                    <p>应用栏左侧的导航图标可以是：</p>
                     <ul class="lst-kix_arqj2113mx70-0 start">
-                      <li>A control to open a navigation drawer.</li>
-                      <li>An up arrow for navigating upward through your app’s hierarchy.</li>
-                      <li>Omitted entirely if no navigation is required from this screen.</li>
+                      <li>打开导航栏的控件。</li>
+                      <li>导航到层次结构中的上一层的返回箭头。</li>
+                      <li>如果此屏幕不需要导航，则可以完全省略该图标。</li>
                     </ul>
-                    <p>The title in the app bar reflects the current page. It can be an app title, page title, or a page filter.</p>
-                    <p>Icons on the right side of the app bar are app-related actions. The menu icon opens the overflow menu, which contains secondary actions and menu items like help, settings, and feedback.</p>
+                    <p>应用栏中的标题反映当前页面。它可以是应用标题、页面标题或页面筛选详情。</p>
+                    <p>应用栏右侧的图标是与应用相关的操作。菜单图标可以打开弹出菜单，其中可以包含一些辅助操作，例如帮助、设置、反馈等。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -374,9 +374,9 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>App bar structure</p>
-                        <p>On the left: Nav icon, title, and filter icon<br>
-                          On the right: Action and menu icons </p>
+                        <p>应用栏结构</p>
+                        <p>左侧：导航图标，标题，筛选图标<br>
+                          右侧：操作和菜单图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -391,7 +391,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light</p>
+                        <p>亮色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -401,7 +401,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dark</p>
+                        <p>暗色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -414,7 +414,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Colored</p>
+                        <p>彩色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -424,7 +424,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Transparent</p>
+                        <p>透明</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -433,9 +433,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Title color</h1>
-                    <p>In an app bar, all icons should be the same color. </p>
-                    <p>The title can have a distinct color from the icons if increased visual hierarchy is needed. Distinct title colors work best on backgrounds with enough contrast for both white and black glyphs.</p>
+                    <h1>标题颜色</h1>
+                    <p>在应用栏中，所有图标的颜色都应使用相同的颜色。</p>
+                    <p>如果需要增加视觉层次，标题可以使用和图标不同的颜色。不同的标题颜色最适合在白色和黑色背景上都有足够对比度的背景上使用。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -443,7 +443,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Single color (default)</p>
+                        <p>单一颜色（默认）</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -453,7 +453,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Distinct title color</p>
+                        <p>不同的标题颜色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -462,12 +462,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Metrics</h1>
-                    <p><strong>Default heights:</strong></p>
-                    <p>Mobile Landscape: 48dp<br>
-                      Mobile Portrait: 56dp<br>
-                      Tablet/Desktop: 64dp</p>
-                    <p>For extended app bars, the height is equal to the default height plus content increment(s).</p>
+                    <h1>度量标准</h1>
+                    <p><strong>默认高度：</strong></p>
+                    <p>手机端横屏：48dp<br>
+                      手机端竖屏：56dp<br>
+                      平板端/桌面端：64dp</p>
+                    <p>对于扩展的应用栏，高度等于默认高度加内容增量。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -475,11 +475,11 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>App bar height: 56dp<br>
-                        App bar left and right padding: 16dp<br>
-                        App bar icon top, bottom, left padding: 16dp<br>
-                        App bar title left padding: 72dp<br>
-                        App bar title bottom padding: 20dp</p>
+                        <p>应用栏高度：56dp<br>
+                        应用栏左右内边距：16dp<br>
+                        应用栏图标上、下、左边距：16dp<br>
+                        应用栏标题左边距：72dp<br>
+                        应用栏标题下边距：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -489,8 +489,8 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The app bar with significantly increased height for prominence</p>
-                        <p>App bar height: 128dp</p>
+                        <p>为了视觉效果更突出，应用栏大幅地增加了高度</p>
+                        <p>应用栏高度：128dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -503,11 +503,11 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Action area height: 56dp<br>
-                        Title area height: 80dp<br>
-                        Title area bottom padding: 8dp<br>
-                        Description area height: 72dp<br>
-                        Description area bottom padding: 16dp</p>
+                        <p>操作区域高度：56dp<br>
+                        标题区域高度：80dp<br>
+                        标题区域下边距：8dp<br>
+                        描述区域高度：72dp<br>
+                        描述区域下边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -523,10 +523,10 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Incremental keyline is set by the app bar height, with a height of 64dp, which determines the keyline increment.</p>
+                        <p>增量的关键线被设置为应用栏的高度 64dp，应用栏高度决定了关键线增量。</p>
                         <p><br>
-                          App bar left and right content padding: 24dp<br>
-                          App bar icon top and bottom padding: 20dp</p>
+                          应用栏左右内边距：24dp<br>
+                          应用栏图标上下边距：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -539,17 +539,17 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Prominent app bar height: 128dp<br>
-                        App bar left and right icon padding: 24dp<br>
-                        App bar left content padding: 80dp</p>
+                        <p>扩展后的应用栏高度：128dp<br>
+                        应用栏左右图标边距：24dp<br>
+                        应用栏内容的左边距：80dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Density</strong></p>
-                    <p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>
+                    <p><strong>密集型</strong></p>
+                    <p>当键盘和鼠标为主要输入方式时，可以适当压缩尺寸，以适应更紧凑的布局。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -557,11 +557,11 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense app bar on desktop</strong></p>
-                        <p>App bar height: 48dp<br>
-                          App bar left and right content padding: 24<br>
-                          App bar left content padding: 80dp<br>
-                          Icon height with touch target: 40dp</p>
+                        <p><strong>桌面端的密集型应用栏</strong></p>
+                        <p>应用栏高度：48dp<br>
+                          应用栏左右图标边距：24<br>
+                          应用栏内容的左边距：80dp<br>
+                          图标的触摸目标高度：40dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -569,10 +569,10 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Dense prominent app bar </strong></p>
-                        <p>Dense prominent app bar height: 96dp<br>
-                          App bar left and right content padding: 24dp<br>
-                          App bar left content padding: 80dp</p>
+                        <p><strong>密集型的扩展后的应用栏</strong></p>
+                        <p>密集型的扩展后的应用栏高度：96dp<br>
+                          应用栏左右图标边距：24dp<br>
+                          应用栏内容的左边距：80dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -581,8 +581,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Menus</h1>
-                    <p>A menu is a temporary sheet of paper that always overlaps the app bar, rather than behaving as an extension of the app bar.</p>
+                    <h1>菜单</h1>
+                    <p>菜单是一张始终会遮盖应用栏的临时卡片，而不会表现的像是应用栏的扩展。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -590,7 +590,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of an app bar</p>
+                        <p>应用栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -600,7 +600,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of menu in an app bar</p>
+                        <p>应用栏中的菜单示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -612,7 +612,7 @@
 
         <div id="structure-system-bars" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            System bars
+            系统栏
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -624,8 +624,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Status bar/window bar</h1>
-                    <p>On Android, the status bar contains notification icons and system icons. On Chrome, the top bar contains the window controls: minimize, full screen, and close. In a Chrome app, the top bar can disappear, and the window controls are then brought into the app bar. </p>
+                    <h1>状态栏/窗口栏</h1>
+                    <p>在 Android 上，状态栏包含通知图标和系统图标。在 Chrome 上，顶栏包含窗口控件：最小化、全屏、关闭。在 Chrome 应用中，顶栏可以消失，窗口控件会合并到应用栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -633,7 +633,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Android status bar</p>
+                        <p>Android 状态栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -643,7 +643,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Chrome window bar</p>
+                        <p>Chrome 窗口栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -652,9 +652,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Metrics:<br>
-                    Android status bar height: 24dp<br>
-                    Chrome window height: 32dp</p>
+                    <p>度量标准：<br>
+                    Android 状态栏高度：24dp<br>
+                    Chrome 窗口栏高度：32dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -662,7 +662,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Android status bar on top of the app bar</p>
+                        <p>Android 状态栏在应用栏上方</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -672,7 +672,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Chrome window bar on top of the app bar </p>
+                        <p>Chrome 窗口栏在应用栏上方</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -686,7 +686,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Chrome window controls inside app bar</p>
+                        <p>Chrome 窗口控件位于应用栏内</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -695,13 +695,13 @@
               <div class="col-list">
                 <section class="module col-1">
                   <div class="module">
-                    <h1>Full screen</h1>
-                    <p>Some content is best experienced in full-screen mode, such as videos, games, books, and slides. Full-screen mode increases engagement with content by minimizing visual distraction from controls and protecting users from escaping the app accidentally.</p>
-                    <p>Full-screen mode comes in several types:</p>
+                    <h1>全屏</h1>
+                    <p>有些内容在全屏模式下会有最佳体验，例如视频、游戏、书籍和幻灯片。全屏模式通过最大限度的减少控件对视频的视觉干扰 ，并防止用户意外地关闭应用，来增加用户与内容的互动。</p>
+                    <p>全屏模式有以下几种类型：</p>
                     <ul class="lst-kix_1yiz4a21yri-0 start">
-                      <li>Lean back</li>
-                      <li>Immersive</li>
-                      <li>Lights Out</li>
+                      <li>Lean back 模式</li>
+                      <li>沉浸模式</li>
+                      <li>关灯模式</li>
                     </ul>
                   </div>
                 </section>
@@ -709,9 +709,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Lean back</h2>
-                    <p>Lean back mode is best suited to watching content with limited screen interaction, such as a video. </p>
-                    <p><strong>Interaction: </strong>Touch the screen anywhere to bring back the system bars.</p>
+                    <h2>Lean back 模式</h2>
+                    <p>Lean back 模式最适合观看具有有限的屏幕交互的内容，例如视频。</p>
+                    <p><strong>交互</strong>：触摸屏幕的任何地方会出现系统栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -719,17 +719,17 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Touch the screen anywhere to bring back the system bars</p>
+                        <p>触摸屏幕的任何地方会出现系统栏</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Immersive</h2>
-                    <p>Immersive mode is best when users need to interact heavily with the screen, such as playing a game or interacting with an image gallery. You may show and hide your app’s controls along with the system bars as needed. </p>
-                    <p><strong>Interaction:</strong> Swipe from any edge of the screen to make the system bars appear. The first time an app goes full-screen, this swipe gesture is explained. </p>
-                    <p><strong>Edge swipe exception: </strong>Apps that use the swipe-from-edge gesture to perform actions should also display the system bars when that gesture is used. For example, a drawing app that uses an edge swipe (such as to draw a line) should also display the system bars semi-transparently for a few seconds any time that gesture occurs.</p>
+                    <h2>沉浸模式</h2>
+                    <p>当用户需要和屏幕进行大量交互时，最适合使用沉浸模式，例如玩游戏或操作相册。你可以根据需要显示或隐藏应用控件和系统栏。</p>
+                    <p><strong>交互</strong>：从屏幕任何一个边缘滑动，来显示系统栏。应用首次进入全屏模式时，会出现此滑动手势的说明。</p>
+                    <p><strong>边缘滑动的例外</strong>：使用边缘滑动手势来执行操作的应用，在沉浸模式下触发滑动手势时，也应该显示系统栏。例如，一个绘图应用使用边缘滑动（例如画一条线）时，也应该半透明地显示系统栏几秒钟。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -737,7 +737,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Swipe from the any edge of the screen with a hidden bar to bring back system bars.</p>
+                        <p>从屏幕的任何边缘滑动，会使隐藏的系统栏重新显示。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -751,8 +751,8 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Lights Out </h2>
-                    <p>In Lights Out mode, the Action Bar and Status Bar fade away and become unavailable after a few seconds of inactivity. The Navigation Bar is still available and responds to touches but appears dimmed. </p>
+                    <h2>关灯模式</h2>
+                    <p>在关灯模式下，操作栏和状态栏不会消失，且会在几秒钟不活动后变为不可用。导航栏仍然可用，并会响应触摸操作，但显示为灰色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -774,8 +774,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Dark status bar</h1>
-                    <p>By default, the color of the status or window bar is a darker shade of the app bar color. It can also use color from another element in the layout or be translucent.</p>
+                    <h1>暗色状态栏</h1>
+                    <p>默认情况下，状态栏或窗口栏的颜色是在应用栏上添加一层暗色的遮罩。但也可以使用布局中其他元素的颜色，或者半透明。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -783,7 +783,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Color is based on a sample taken from the content</p>
+                        <p>暗色状态栏的颜色是基于从内容中获取的样本得到的</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -793,7 +793,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Translucent status bar, 20% Black #000000</p>
+                        <p>半透明状态栏，20% 黑色 #000000</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -808,7 +808,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dark status bar</p>
+                        <p>暗色状态栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -818,7 +818,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Status bar color in a darker tone of the app bar color</p>
+                        <p>状态栏颜色色调比应用栏的颜色更深</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -827,8 +827,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Light status bar</h1>
-                    <p>The light status bar, with dark icons, better harmonizes with light content and can be used as an alternative to the dark status bar. </p>
+                    <h1>亮色状态栏</h1>
+                    <p>使用暗色图标的亮色状态栏，可以更好的和亮色内容协调，可以用来代替暗色状态栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -836,7 +836,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light status bar color is based on sample taken from content</p>
+                        <p>亮色状态栏的颜色是基于从内容中获取的样本得到的</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -846,7 +846,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Translucent light status bar, 70% White #FFFFFF</p>
+                        <p>半透明的亮色状态栏，70% 白色 #FFFFFF</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -861,7 +861,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light status bar, default background fill is #E0E0E0</p>
+                        <p>亮色状态栏，默认背景为 #E0E0E0</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -871,7 +871,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light status bar in darker tone of a light app bar color</p>
+                        <p>亮色状态栏的颜色色调比亮色应用栏的颜色更深</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -880,9 +880,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Android navigation bar</h1>
-                    <p>The navigation bar in Android houses the device navigation controls: Back, Home, and Overview. It also displays a menu for apps written for Android 2.3 or earlier.</p>
-                    <p>Height: 48dp</p>
+                    <h1>Android 导航栏</h1>
+                    <p>Android 中的导航栏包含几个设备导航控件：后退键、Home 键、任务键。对于 Android 2.3 或更早的系统还会出现菜单键。</p>
+                    <p>高度：48dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -890,7 +890,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dark</p>
+                        <p>暗色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -900,7 +900,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Light</p>
+                        <p>亮色</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -909,8 +909,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Color variants</h1>
-                    <p>The navigation bar can be opaque, translucent, or transparent.</p>
+                    <h1>颜色变化</h1>
+                    <p>导航栏可以是不透明、半透明或全透明的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -918,7 +918,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Translucent</p>
+                        <p>半透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -928,7 +928,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Translucent over complex image</p>
+                        <p>复杂图片上的半透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -943,7 +943,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Transparent</p>
+                        <p>全透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -953,7 +953,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Transparent over even-toned image</p>
+                        <p>纯色图片上的透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -962,9 +962,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Chrome OS shelf</h1>
-                    <p>The shelf houses the app launcher, application icons, and system settings on Chrome OS.</p>
-                    <p>Height: 56dp</p>
+                    <h1>Chrome OS 的底架</h1>
+                    <p>Chrome OS 上的底架包含应用启动器、应用图标和系统设置。</p>
+                    <p>高度：56dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -972,7 +972,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_chrome.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of Chrome OS shelf</p>
+                        <p>Chrome OS 的底架示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -984,7 +984,7 @@
 
         <div id="structure-side-nav" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Side nav
+            侧边栏
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -996,9 +996,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>If present, side nav bars can be pinned for permanent display or float temporarily as overlays. Side navs can be positioned on the left or right side of the screen.</p>
-                    <p>The content appearing in the left nav is ideally navigation- or identity-based. Right nav content should be secondary to the main content on a page.</p>
-                    <p>See also <a href="../patterns/navigation-drawer.html">Navigation drawer</a>.</p>
+                    <p>如果存在侧边栏，侧边栏可以永久固定显示，或者作为遮盖层临时显示。侧边栏可以位于屏幕左侧或右侧。</p>
+                    <p>理想状态下，左侧侧边栏应该是与导航相关的、或是与用户身份相关的内容。右侧侧边栏应该是与页面中的主内容相关的次要信息。</p>
+                    <p>参见<a href="../patterns/navigation-drawer.html">抽屉导航</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1006,7 +1006,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile screen</p>
+                        <p>手机屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1016,7 +1016,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Side nav menu</p>
+                        <p>侧边栏菜单</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1025,15 +1025,15 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Structure</h1>
-                    <p>Side nav bars may be pinned for permanent display, or they can float temporarily as overlays. Temporary nav drawers overlay the content canvas; whereas pinned nav panels are situated alongside or below the content canvas.</p>
-                    <p>Screen size can determine whether a panel is pinned or an overlay. With sufficient space, a panel can be pinned and content adjusted responsively. With insufficient space, a panel has to be an overlay.</p>
-                    <h2><strong><strong>Metrics</strong></strong></h2>
-                    <p><strong>Mobile</strong>:</p>
-                    <p>Width = <em>Screen width </em>− 56 dp</p>
-                    <p>Maximum width: 320dp</p>
-                    <p>Maximum width applies only when using a left nav. When using a right nav, the panel can cover the full width of the screen.</p>
-                    <p><strong>Desktop</strong>: Maximum width for a left nav is 400dp. The right nav can vary depending on content.</p>
+                    <h1>结构</h1>
+                    <p>侧边导航栏可以永久固定显示，或是作为覆盖层临时显示。临时显示的抽屉栏会覆盖屏幕内容；而固定的导航面板则位于屏幕内容的旁边或下面。</p>
+                    <p>屏幕尺寸可以决定面板是永久固定显示还是临时覆盖显示。有足够的空间时，面板可以固定显示，且内容需要及时做出调整。空间不足时，面板必须作为覆盖层显示。</p>
+                    <h2><strong><strong>度量标准</strong></strong></h2>
+                    <p><strong>手机端</strong>:</p>
+                    <p>宽度 = <em>屏幕宽度</em> − 56 dp</p>
+                    <p>最大宽度：320dp</p>
+                    <p>最大宽度仅在使用左侧导航时才适用。当使用右侧导航时，面板可以覆盖整个屏幕的宽度。</p>
+                    <p><strong>桌面端</strong>：左侧导航的最大宽度是 400dp。右侧导航可以根据内容变化。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1041,7 +1041,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Left nav on mobile</p>
+                        <p>手机端的左侧导航</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1057,7 +1057,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Right nav on mobile</p>
+                        <p>手机端的右侧导航</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1072,7 +1072,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Left nav on desktop </p>
+                        <p>桌面端的左侧导航</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1080,7 +1080,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Right nav on desktop</p>
+                        <p>桌面端的右侧导航</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1092,7 +1092,7 @@
 
         <div id="structure-whiteframes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Whiteframes
+            线框图
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1104,8 +1104,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Whiteframes provide a variety of layout structures using a consistent approach to surfaces, layering, and shadows.</p>
-                    <p>For download and other information about whiteframes, see <a href="../resources/layout-templates.html#layout-templates-whiteframes">Resources</a>.</p>
+                    <p>线框图使用统一的界面、图层、阴影来提供多样化的布局结构。</p>
+                    <p>下载资源和更多信息，参见<a href="../resources/layout-templates.html#layout-templates-whiteframes">资源</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1113,7 +1113,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_bigtop_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Carded content that expands and collapses</p>
+                        <p>展开和折叠的卡片内容</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1123,7 +1123,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_calendar_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Overlayed content details with focused app bar on mobile</p>
+                        <p>覆盖内容的详细信息，专注于桌面应用栏</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1136,7 +1136,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_gallery_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Left side nav and one-up stream on mobile</p>
+                        <p>桌面端的左侧导航和单向流</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1146,7 +1146,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_mail_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Source list</p>
+                        <p>资源列表</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1159,7 +1159,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_maps_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full-screen background image with inset search field and carded search results</p>
+                        <p>内嵌搜索框和卡片式搜索结果的全屏背景图片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1169,7 +1169,7 @@
                         <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_music_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Expandable footer drawer</p>
+                        <p>可展开的底部抽屉</p>
                       </figcaption>
                     </figure>
                   </div>
