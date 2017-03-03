@@ -14,27 +14,27 @@
               <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>"/>
             </div>
             <figcaption>
-              <h1>Imagery is more than decoration. It’s a powerful tool to help you communicate and differentiate your product.</h1>
+              <h1>图像不仅仅是装饰。它是一个强大的工具，可以帮助你表达和差异化你的产品。</h1>
             </figcaption>
           </figure>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Bold, graphic, and intentional imagery helps to engage the user.</p>
-                <p>Whether the mood is subdued and muted or bright and colorful, the following principles and best practices can help you successfully incorporate imagery and bring your apps to life, no matter what the visual brand.</p>
+                <p>大胆、生动、富有意味的图像可以帮助吸引用户。</p>
+                <p>无论气氛是沉闷安静还是多彩明亮，以下原则和最佳实践可以帮助你成功地整合图像，为应用带来活力，无论是什么视觉品牌。</p>
               </div>
               <div class="module">
-                <h3><strong>Principles</strong></h3>
-                <p>Relevant<br>
-                  Informative<br>
-                  Delightful</p>
-                <h3><strong>Integrating with UI</strong></h3>
-                <p>Use appropriate resolution<br>
-                  Use scrims to protect text </p>
-                <h3><strong>Use cases</strong></h3>
-                <p>Avatars and thumbnails<br>
-                  Hero images<br>
-                  Galleries</p>
+                <h3><strong>原则</strong></h3>
+                <p>相关的<br>
+                  提供有用信息的<br>
+                  令人愉悦的</p>
+                <h3><strong>与 UI 整合</strong></h3>
+                <p>使用合适的分辨率<br>
+                  使用半透明背景来保护文本</p>
+                <h3><strong>用例</strong></h3>
+                <p>头像和缩略图<br>
+                  主图<br>
+                  图库</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -52,13 +52,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-principles" data-qp-ui-data-id="qp:1">Principles</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-principles" data-qp-ui-data-id="qp:1">原则</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-best-practices" data-qp-ui-data-id="qp:2">Best practices</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-best-practices" data-qp-ui-data-id="qp:2">最佳实践</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-ui-integration" data-qp-ui-data-id="qp:3">UI integration</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="imagery.html#imagery-ui-integration" data-qp-ui-data-id="qp:3">UI 整合</a>
           </li>
         </ul>
       </nav>
@@ -67,7 +67,7 @@
 
         <div id="imagery-principles" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Principles
+            原则
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -75,7 +75,7 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>When using illustration and photography to enhance the user experience, choose images that express personal relevance, information, and delight. </p>
+            <div><p>当使用插画和照片来提升用户体验时，选择那些能表达与人物相关的、有意义的、并且令人愉悦的图像。</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -84,8 +84,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Personal relevance</p>
-                        <p>Imagery can reflect the context and the world the user inhabits.</p>
+                        <p>与人物相关的</p>
+                        <p>图像可以反映出用户所处的情境。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -95,8 +95,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Information</p>
-                        <p>Images can convey specific information that makes comprehension easy and immediate.</p>
+                        <p>有意义的</p>
+                        <p>图像可以传达特定的信息，使用户马上就能轻松理解。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,8 +106,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Delight</p>
-                        <p>Portraying context with aesthetic beauty will make your product unique and add to user delight. </p>
+                        <p>令人愉悦的</p>
+                        <p>使用优美的插画来描绘场景，会使你的产品显得更加独特，并增添用户的愉悦感。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -116,8 +116,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong>Appreciate context</strong></h2>
-                    <p>Ensure images are dynamic and context-relevant. Use predictive visuals to substantially improve the user experience.</p>
+                    <h2><strong>加深场景</strong></h2>
+                    <p>确保图片与用户所处场景相关，并且随着场景变化图片也会动态变化。使用预测的视觉效果来大幅提升用户体验。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -125,7 +125,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Use imagery that is context-relevant.</p>
+                        <p>使用和场景相关的图片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -134,7 +134,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong>Be immersive</strong></h2>
+                    <h2><strong>沉浸感</strong></h2>
                     <p>When necessary, it’s acceptable to obscure or allude to integrated heros and thumbnails through color and content overlays.</p>
                   </div>
                   <div class="figure">
