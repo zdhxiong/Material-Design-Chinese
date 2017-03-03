@@ -135,7 +135,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h2><strong>沉浸感</strong></h2>
-                    <p>When necessary, it’s acceptable to obscure or allude to integrated heros and thumbnails through color and content overlays.</p>
+                    <p>必要时，可以通过颜色和内容的遮罩层来暗示主图和缩略图是一体的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -143,7 +143,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Background imagery can be obscured when engaging with foreground content.</p>
+                        <p>当与前景内容交互时，背景图片可以加上一层遮罩。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,7 +155,7 @@
 
         <div id="imagery-best-practices" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Best practices
+            最佳实践
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -167,8 +167,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Use multiple mediums</h1>
-                    <p>Both illustration and photography can live within the same product. Photography automatically implies a degree of specificity and should be used to showcase specific entities and stories. Illustration is effective for representing concepts and metaphors where specific photography might be alienating.</p>
+                    <h1>使用多种介质</h1>
+                    <p>插图和照片可以同时存在于同一个产品中。照片应该自然的表达出一定程度的确定性，并且应该用于展示具体的实体或故事。在特定的照片不适用时，使用插画可以有效的表达概念和隐喻。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -177,7 +177,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>For specific entities, look first to photographic representation. </p>
+                        <p>对于特定实体，应该首先通过照片来表达。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -188,7 +188,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>When total specificity is not available or applicable, illustration conveys approximation of content to aid comprehension.</p>
+                        <p>当内容不具有明确性时，使用和内容近似的插画以帮助理解。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -197,9 +197,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Stay away from stock</h1>
-                    <p>Use imagery to express a distinctive voice and exemplify creative excellence. </p>
-                    <p>For specific entities or branded content, use specific imagery. For more abstract content, be interpretive. Photographic stock and clipart is neither specific nor interpretive.</p>
+                    <h1>远离老套的</h1>
+                    <p>使用图像来传达有特色的观点，和作为优秀创意的示范。</p>
+                    <p>对于特定的实体或品牌内容，请使用特定的图像。对于更抽象的内容，图像应该能解释其中的含义。老套的照片和剪贴画既不特殊，也不能解释含义。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -208,7 +208,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Strive for images that represent genuine stories.</p>
+                        <p>争取让图片能反映出真实的故事。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -219,7 +219,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Stock images can feel inauthentic.</p>
+                        <p>老套的图片可能让人感觉不真实。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -233,7 +233,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>For specific representations, use specific imagery. </p>
+                        <p>使用特定的图像表示特定的内容。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -244,7 +244,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don't default to literal stock photography. </p>
+                        <p>不要根据字面意思去配一张老套的照片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -253,8 +253,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Have a point of focus</h1>
-                    <p>Have an iconic point of focus in your imagery. Focus ranges from a single entity to an overarching composition. Ensure that a clear concept is conveyed to the user in a memorable way.</p>
+                    <h1>具有焦点</h1>
+                    <p>在你的图像中有一个标志性的焦点。焦点范围从单一的实体到整体。确保能以一种难忘的方式向用户传达一个清晰的概念。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -263,7 +263,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use color and composition to give images a clear focus.</p>
+                        <p>使用颜色和构成来给图像一个清晰的焦点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -274,7 +274,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid making the user hunt for the meaning in the image. </p>
+                        <p>避免让用户主动去寻找图片的含义。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -288,7 +288,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The most powerful iconic images consist of a few meaningful elements, with minimal distractions.</p>
+                        <p>最有影响力的标志性图像往往只由少数几个有意义的元素组成，并能最大限度减少用户分心。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -299,7 +299,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>When the point of focus is obscured, the iconic quality of the image is lost.</p>
+                        <p>当焦点被湮没时，图像标志性的特性就会丧失。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -313,7 +313,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>A clear focus communicates the concept at a glance. </p>
+                        <p>清晰的焦点可以一目了然地传达概念。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -324,7 +324,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>A lack of focus makes the image meaningless.</p>
+                        <p>缺少视觉焦点的图片没有意义。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -333,8 +333,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Build narratives</h1>
-                    <p>Create an immersive story and a sense of context to humanize your app. Define the mood through visual storytelling. Is the mood aspirational? Somber? Celebratory?</p>
+                    <h1>构建叙事</h1>
+                    <p>创建一个沉浸式的故事和场景，使你的应用更加人性化。通过视觉叙事来定义情绪。情绪是有雄心壮志的？忧郁的？快乐的？</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -343,7 +343,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>An image that tells a story is infinitely more interesting and informative.</p>
+                        <p>一个讲述故事的图片是非常有吸引力，且信息量很大的。</p>
                       </figcaption>
                     </figure>
                   </div>
