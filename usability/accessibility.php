@@ -35,7 +35,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-implementation" data-qp-ui-data-id="qp:6">实施</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-writing" data-qp-ui-data-id="qp:7">写作</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="accessibility.html#accessibility-writing" data-qp-ui-data-id="qp:7">书写</a>
           </li>
         </ul>
       </nav>

@@ -29,7 +29,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-icons" data-qp-ui-data-id="qp:4">图标</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-writing" data-qp-ui-data-id="qp:5">写作</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="help-feedback.html#help-feedback-writing" data-qp-ui-data-id="qp:5">书写</a>
           </li>
         </ul>
       </nav>

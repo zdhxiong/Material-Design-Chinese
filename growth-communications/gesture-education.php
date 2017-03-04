@@ -26,7 +26,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="gesture-education.html#gesture-education-volume-frequency" data-qp-ui-data-id="qp:3">数量和频率</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="gesture-education.html#gesture-education-design-writing" data-qp-ui-data-id="qp:4">设计 &amp; 写作</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="gesture-education.html#gesture-education-design-writing" data-qp-ui-data-id="qp:4">设计 &amp; 书写</a>
           </li>
         </ul>
       </nav>
@@ -167,7 +167,7 @@
 
         <div id="gesture-education-design-writing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            设计 &amp; 写作
+            设计 &amp; 书写
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -182,7 +182,7 @@
                     <p><strong>设计</strong><strong> </strong></p>
                     <p>示例 UI 应该模拟其所代表的真实 UI 的移动。</p>
                     <p>当监测到触摸手势时，手势指示器应暂停然后消失。示例中的手势应该是关闭示例 UI 的唯一方法。例如，只有向左或向右滑动才会关闭描述滑动手势的卡片。</p>
-                    <p><strong>写作</strong></p>
+                    <p><strong>书写</strong></p>
                     <p>用简短明确的文本描述手势的结果。</p>
                   </div>
                   <div class="figure">
@@ -211,7 +211,7 @@
                     <p><strong>设计</strong></p>
                     <p>全屏手势应该用 snackbar 来说明手势会做什么。</p>
                     <p>当用户点击屏幕时，页面内容应该返回到其默认状态，同时移除手势指示器。继续显示底部卡片，直到用户和元素进行了交互，例如点击按钮。</p>
-                    <p><strong>写作</strong></p>
+                    <p><strong>书写</strong></p>
                     <p>用简单明确的文本描述手势的结果。</p>
                   </div>
                   <div class="figure">

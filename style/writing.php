@@ -114,71 +114,34 @@
                 <section class="module-module-module col-3">
                   <div class="module">
                     <h1>避免使用代词 “我们”</h1>
-                    <p>Focus on the user and what they can do with your app, rather than what you or your app is doing for the user.</p>
+                    <p>把注意力放在用户以及用户如何使用应用上，而不是你或你的应用正在为用户做什么。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Get started with these popular posts on Google+</p>
+                      <p>从 Google+ 上获取热门信息</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>To get you started, we’re showing you popular posts on Google+</p>
+                      <p>我们在 Google+ 上为你准备了这些热门信息</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p>One exception is when a person takes an action for a user, such as reviewing an appeal or responding to a suggestion. Here, the use of “we” is appropriate.</p>
+                    <p>一个例外是，当某人对用用户执行操作时，例如审核申请或回应建议。这里，使用 “我们” 是恰当的。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>We’ll review your appeal and respond within a few days</p>
+                      <p>我们会审核你的申请，并在几天内回复</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Your appeal will be reviewed, and you will receive a response within a few days</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <h1>Be concise</h1>
-                    <p>Write in small, scannable segments to facilitate navigation and discovery. </p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Send money to anyone in the US who has an email address. It’s fast, easy, and free.</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Send (and receive) money with friends and family in the US with an email address. It’s a two-step process with little-to-no latency and there aren’t any charges for the recipients of the money.</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
-                </section>
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <p>Keep your sentences and phrases short, with as few concepts as possible.</p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Read the instructions that came with your phone</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Consult the documentation that came with your phone for further instructions</p>
+                      <p>你的申请将被审核，你将在几天内收到回复</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -187,60 +150,35 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Write in the present</h1>
-                    <p>Use the present tense to describe product behavior. Avoid using the future tense to describe the way a product always acts. </p>
-                    <p>When you need to write in the past or future, use simple verb forms.</p>
-                  </div>
-                  <div class="module"></div>
-                  <div class="module"></div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <h1>Write simply and directly</h1>
-                    <p>Use simple, direct language that is easy for users to understand.</p>
-                    <p>Common introductory phrases may be omitted.</p>
+                    <h1>保持简洁</h1>
+                    <p>使用简短的文字来方便导航和发现。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Save changes?</p>
+                      <p>汇款给美国任何拥有电子邮箱的人。这是快速、简单和免费的。</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Would you like to save your changes?</p>
+                      <p>通过电子邮件地址向美国的朋友和家人汇款（或收款）。这只需要两步，几乎没有延迟，不需要任何费用就能收款。</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
-                  <div class="module"></div>
+                  <div class="module">
+                    <p>保持句子简短，尽可能少添加概念。</p>
+                  </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Message sent</p>
+                      <p>阅读手机附带的操作说明</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Message has been sent</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
-                </section>
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Register to vote</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>You must register before you can vote</p>
+                      <p>查阅手机附带的关于更多高级操作指南的文档</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -249,35 +187,30 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Write for all levels of readers</h1>
-                    <p>Pick common words that are clearly and easily understandable to both beginning and advanced English readers. </p>
+                    <h1>使用现在时</h1>
+                    <p>使用现在时来描述产品行为。避免使用将来时来描述产品的日常行为。</p>
+                    <p>当你需要使用过去时或将来时，请使用简单的动词形式。</p>
                   </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Turn on Location History</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>Enable Location History</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
+                  <div class="module"></div>
+                  <div class="module"></div>
                 </section>
+              </div>
+              <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p>Avoid industry-specific terminology or names invented for UI features.</p>
+                    <h1>简单直接地书写</h1>
+                    <p>使用简单、直接的语言，便于用户理解。</p>
+                    <p>常见的介绍性短语可以省略。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Preparing video…</p>
+                      <p>保存更改？</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Buffering…</p>
+                      <p>你想要保存你的更改吗？</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -286,30 +219,28 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>“Ok Google” isn’t supported on your phone</p>
+                      <p>消息已发送</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>“Ok Google” is only supported on dual-core devices</p>
+                      <p>消息已经被发送了</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
-                  <div class="module">
-                    <p>Refer users to the labels on UI elements, not the type of element (such as menu or button).</p>
-                  </div>
+                  <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Click <strong>Continue</strong></p>
+                      <p>注册以投票</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Click the Continue button</p>
+                      <p>在投票之前你必须先注册</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -318,18 +249,87 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Use consistent words in all parts of a feature</h1>
-                    <p>Use verbs in a consistent manner across the description of an action.</p>
+                    <h1>为所有级别的读者书写</h1>
+                    <p>选择对初级和高级英语读者来说都清楚易懂的常用词汇。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Remove photo</p>
+                      <p>开启位置记录</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Delete photo</p>
+                      <p>激活位置记录</p>
+                    </div>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <p>避免使用行业特定的术语、或为 UI 的功能虚构的名称。</p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>正在准备视频…</p>
+                    </div>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>正在缓冲…</p>
+                    </div>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module"></div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>你的手机不支持 “Ok Google”</p>
+                    </div>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>只有双核处理器的设备才支持 “Ok Google”</p>
+                    </div>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <p>把用户引导到 UI 元素的标签，而不是元素类型（例如菜单或按钮）。</p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>点击<strong>继续</strong></p>
+                    </div>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>点击继续按钮</p>
+                    </div>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <h1>在一个功能的所有部分中使用一致的词</h1>
+                    <p>所有操作的描述都使用一致的动词。</p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>移除图片</p>
+                    </div>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>删除图片</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption></figcaption>
@@ -339,20 +339,20 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Remove photo?</p>
+                      <p>移除图片？</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>The dialog title is short.</p>
+                      <p>对话框标题应简短。</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Remove photo from page?</p>
+                      <p>从页面中移除图片？</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>The dialog title is longer than necessary. </p>
+                      <p>对话框标题过长。</p>
                     </figcaption>
                   </div>
                 </section>
@@ -360,18 +360,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Begin with the objective</h1>
-                    <p>If a sentence describes both an objective and the action needed to achieve that objective, start the sentence with the objective.</p>
+                    <h1>以目标开始</h1>
+                    <p>如果一个句子既描述了一个目标，又包含了实现这个目标所需的操作，则以目标作为句子的开始。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>To remove a photo from this album, drag it to the trash</p>
+                      <p>从相册中移除图片，只需拖动照片到垃圾箱即可</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Drag a photo to the trash to remove it from this album</p>
+                      <p>拖动照片到垃圾箱，以把它从相册中移除</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -380,18 +380,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Reveal detail as needed</h1>
-                    <p>It's not necessary to describe every detail in the first interaction. Reveal increasing detail about features as the user explores them and needs the information. </p>
+                    <h1>根据需要显示详细信息</h1>
+                    <p>没有必要在第一次的互动中就描述每个细节。在用户探索信息并且需要这些信息时，才向用户显示有关功能的详细信息。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Remove downloaded book?</p>
+                      <p>移除下载的书籍？</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Are you sure you want to remove this downloaded book? You won’t be able to access it unless you’re online.</p>
+                      <p>你确定你要移除这本下载的书籍？移除后你只有在线状态才能访问它了。</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -400,86 +400,86 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Never say “never” </h1>
-                    <p>Avoid “never” and other absolutes.</p>
+                    <h1>不要说 “绝不” </h1>
+                    <p>避免使用 “绝不” 和其它绝对性的词语。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Your circle names aren’t shared</p>
+                      <p>你的圈子名称不会被公开</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>We’ll never share your circle names</p>
+                      <p>我们绝不会公开你的圈子名称</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
-              <h1>Text for buttons and related elements</h1>
+              <h1>按钮和相关元素的文本</h1>
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>Buttons appear in <a href="../components/buttons.html#buttons-flat-raised-buttons">dialogs</a> and as blue or underlined text. </p>
+                    <p>按钮出现在<a href="../components/buttons.html#buttons-flat-raised-buttons">对话框</a>中，并且显示蓝色或带下划线的文本。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Button</p></td>
-                        <td colspan="1" rowspan="1"><p>Usage</p></td>
+                        <td colspan="1" rowspan="1"><p>按钮</p></td>
+                        <td colspan="1" rowspan="1"><p>用法</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>[ Action ]</p></td>
-                        <td colspan="1" rowspan="1"><p>See above guideline about using consistent verbs.</p></td>
+                        <td colspan="1" rowspan="1"><p>[ 操作 ]</p></td>
+                        <td colspan="1" rowspan="1"><p>参考上文中关于一致性动词的指南。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Back</p></td>
-                        <td colspan="1" rowspan="1"><p>Allows multi-step processes</p></td>
+                        <td colspan="1" rowspan="1"><p>后退</p></td>
+                        <td colspan="1" rowspan="1"><p>允许多步处理</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Cancel</p></td>
-                        <td colspan="1" rowspan="1"><p>Cancels an action</p></td>
+                        <td colspan="1" rowspan="1"><p>取消</p></td>
+                        <td colspan="1" rowspan="1"><p>取消一个操作</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dismiss</p></td>
-                        <td colspan="1" rowspan="1"><p>Causes a message or dialog to disappear without any consequences</p></td>
+                        <td colspan="1" rowspan="1"><p>忽略</p></td>
+                        <td colspan="1" rowspan="1"><p>导致消息或对话框消失，且不会有任何后果</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Done</p></td>
-                        <td colspan="1" rowspan="1"><p>Confirms the completion of a multi-step process</p></td>
+                        <td colspan="1" rowspan="1"><p>完成</p></td>
+                        <td colspan="1" rowspan="1"><p>确认完成一个有多个步骤的任务</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Got it</p></td>
-                        <td colspan="1" rowspan="1"><p>Causes a message or dialog to disappear without any consequences (similar to OK)</p></td>
+                        <td colspan="1" rowspan="1"><p>知道了</p></td>
+                        <td colspan="1" rowspan="1"><p>导致消息或对话框消失，且不会有任何后果（类似于 “好” ）</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Learn more</p></td>
-                        <td colspan="1" rowspan="1"><p>Takes the user to additional content</p></td>
+                        <td colspan="1" rowspan="1"><p>了解更多</p></td>
+                        <td colspan="1" rowspan="1"><p>把用户带到另外的内容</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Next</p></td>
-                        <td colspan="1" rowspan="1"><p>Takes the user to the next step of a multi-step process</p></td>
+                        <td colspan="1" rowspan="1"><p>下一步</p></td>
+                        <td colspan="1" rowspan="1"><p>使用户进行多步骤任务的下一步</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>No thanks</p></td>
-                        <td colspan="1" rowspan="1"><p>Allows a user to decline</p></td>
+                        <td colspan="1" rowspan="1"><p>不，谢谢</p></td>
+                        <td colspan="1" rowspan="1"><p>允许用户拒绝</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Not now</p></td>
+                        <td colspan="1" rowspan="1"><p>以后再说</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>Let’s a user postpone an action or decision. Use only when the call to action in the dialog is essential to the functionality of the product, for legal reasons, or for another urgent reason. </p>
-                          <p><br>Do not use “Not now” as a mechanism to avoid providing a “No thanks” option.</p>
+                          <p>让用户推迟一个操作或决定。仅当对话框中的操作对产品的功能至关重要时，但出于法律原因或其他紧急原因时，才能使用。</p>
+                          <p><br>不要使用 “以后再说” 来机械地代替 “不，谢谢”。</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>OK</p></td>
-                        <td colspan="1" rowspan="1"><p>Allows the user to confirm an action that’s relevant to the task at hand</p></td>
+                        <td colspan="1" rowspan="1"><p>好</p></td>
+                        <td colspan="1" rowspan="1"><p>允许用户确认与手头任务相关的操作</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Skip</p></td>
-                        <td colspan="1" rowspan="1"><p>Gives the user a way to avoid an interruption and proceed with a task </p></td>
+                        <td colspan="1" rowspan="1"><p>跳过</p></td>
+                        <td colspan="1" rowspan="1"><p>使用户能跳过不必要的步骤，继续执行任务</p></td>
                       </tr>
                       </tbody>
                     </table>
