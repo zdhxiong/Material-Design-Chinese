@@ -263,7 +263,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>使用颜色和构成来给图像一个清晰的焦点。</p>
+                        <p>使用颜色和构图来给图像一个清晰的焦点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -354,7 +354,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>An image that lacks a story loses an opportunity to convey mood, brand, and context.</p>
+                        <p>缺乏故事的图片失去了传达情绪、品牌和语境的机会。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -368,7 +368,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Properly contextualized concepts convey your message and brand more effectively.</p>
+                        <p>适当的融入情景可以更有效的传达信息和品牌。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -379,7 +379,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>A representation of an entity that is dissociated from context is uninteresting.</p>
+                        <p>脱离情景的图片是无趣的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -391,7 +391,7 @@
 
         <div id="imagery-ui-integration" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            UI integration
+            UI 整合
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -403,8 +403,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Resolution</h1>
-                    <p>Make sure your images are appropriately sized for displays and across platforms. Material design emphasizes large images. Ideally, the assets should not appear pixelated. Test appropriate resolution sizes for specific ratios and devices.</p>
+                    <h1>分辨率</h1>
+                    <p>确保你的图片尺寸适合跨平台显示。Material Design 强调使用大图片。理想情况下，素材中不应该可以看到点阵。请为特殊宽高比的屏幕和设备测试一个合适的分辨率大小。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -413,7 +413,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Appropriately sized imagery</p>
+                        <p>合适尺寸的图片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -424,7 +424,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Degraded imagery</p>
+                        <p>分辨率过低的图片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -433,8 +433,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Introduce scale</h1>
-                    <p>Introduce alternative scales to create levels of visual importance. </p>
+                    <h1>使用比例</h1>
+                    <p>使用另类的比例创建视觉优先级。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -442,7 +442,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Within a gallery context, introduce thumbnails of various sizes to convey content hierarchy. </p>
+                        <p>在图库的场景中，使用多种尺寸的缩略图来表达内容的层次结构。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -452,7 +452,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Encourage multiple containers living in the same ecosystem. </p>
+                        <p>鼓励多个容器同时生活在同一个生态系统中。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -461,8 +461,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Text protection</h1>
-                    <p>To make typography legible on top of imagery, apply text protection in the form of <strong>scrims</strong>. Scrims are lightweight, translucent material layers.</p>
+                    <h1>文本保护</h1>
+                    <p>要使图片上的文本清晰可见，请使用<strong>遮罩</strong>的形式来保护文本。遮罩是一个轻量级、半透明的材料层。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -470,9 +470,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>1. Dark end of gradient: Opacity values depend on context<br>
-                        2. Center point of gradient: 3/10ths closer the darker end<br>
-                        3. End point of gradient: Opacity of 0</p>
+                        <p>1. 渐变的较暗的一端：不透明度视场景而定<br>
+                        2. 渐变的中点：靠近较暗一端的 3/10 处<br>
+                        3. 渐变的结束点：不透明度为 0</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -481,9 +481,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>To avoid banding (the formation of distinct stripe shapes), the gradient should be long, 3x standard app bar height, with the centerpoint about 3/10 towards the darker side of the gradient. This gives the gradient a natural falloff and avoids a sharp edge.</p>
-                    <p>The gradient’s opacity should be chosen based on its environment. Some imagery can use darker gradients, such as the image displayed here with a 60% gradient. </p>
-                    <p>Gradients could be as low as 10-20% in some contexts.</p>
+                    <p>为了避免条带效应（形成明显的条纹形状），渐变要尽可能长，一般是标准应用栏高度的 3 倍，渐变的中点在距离暗端 3/10 处。这使得渐变非常自然，且避免了边缘变得尖锐。</p>
+                    <p>渐变的不透明度应该根据所处环境进行选择。某些图像可以使用较深的渐变，例如在此显示的图片有 60% 的渐变。</p>
+                    <p>在某些情况下，可以使用最低 10-20% 的渐变。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -491,7 +491,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>In this image, the gradient is 60% black.</p>
+                        <p>此图片中，渐变为 60% 的黑色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -501,7 +501,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This is the gradient which has been applied to the image at the left.</p>
+                        <p>这是应用于左侧图片的渐变。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -515,7 +515,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Dark scrims should ideally be between 20%-40% opacity depending on the content. Light scrims should ideally range from 40%-60% opacity depending on the content.</p>
+                        <p>暗色遮罩的不透明度根据内容而定，最好在 20%-40% 之间。亮色遮罩的不透明度根据内容而定，最好在 40%-60% 之间。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -526,7 +526,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don't obscure imagery when you use a scrim. </p>
+                        <p>当使用遮罩时，不要使图像变得模糊。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -540,7 +540,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>For larger real estate, target specific areas for text protection instead of blanketing the entire image. </p>
+                        <p>对于较大的实景图，遮罩应该在文本区域，而不是覆盖整张图片。 </p>
                       </figcaption>
                     </figure>
                   </div>
@@ -551,7 +551,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t ‘over-scrim’ large images.</p>
+                        <p>不要“过度遮盖”大图片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -565,7 +565,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Color overlays are different than text-protection scrims and can be used as a design element. When creating complementary color overlays, use the Palette API to define your color scheme based on content.</p>
+                        <p>颜色覆盖层和文本保护遮罩不同，颜色覆盖层可以作为设计元素使用。创建颜色覆盖层时，使用 Palette API 根据内容来定义颜色方案。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -576,7 +576,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>You can use your brand’s color palette decoratively to enhance imagery.</p>
+                        <p>可以使用你的品牌色来进行装饰，以增强图像。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -585,10 +585,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Avatars and thumbnails </h1>
-                    <p>Avatars and thumbnails represent entities or content, either literally through photography or conceptually through illustration. Generally, they are tap targets that lead to a primary view of the entity or content.</p>
-                    <p>Avatars can be used to represent people. For personal avatars, offer personalization options. As users may choose not to personalize an avatar, provide delightful defaults. When used with a specific logo, avatars can also be used to represent brand.</p>
-                    <p>Thumbnails allude to more information – letting the user peek into content – and assist navigation. Thumbnails let you include imagery in tight spaces.</p>
+                    <h1>头像和缩略图</h1>
+                    <p>头像和缩略图可以代表实体或内容，可以是摄影照片或抽象的插图。一般来说，它们是点击目标，点击后可以进入实体或内容的主视图。</p>
+                    <p>头像可以用来代表一个人。对于个人头像，应当提供个性化的选择。由于用户可能选择不使用个性化的头像，因此应提供一个令人愉悦的默认头像。使用特定 logo 的头像也可以用来代表品牌。</p>
+                    <p>缩略图可以暗示更多信息 - 让用户了解内容 - 并辅助导航。缩略图可以把图像放在一个较小的空间里。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -596,7 +596,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Avatars make an app feel more personal – and occupy minimal space.</p>
+                        <p>头像可以使应用感觉更加私人化 - 且占据最小的空间。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -606,7 +606,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>A brand avatar communicates information at a glance. </p>
+                        <p>品牌头像可以一目了然的传达品牌信息。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -615,14 +615,14 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Hero images</h1>
-                    <p>Hero images are images that are usually anchored in a prominent position, above the fold, such as a banner at the top of the screen. They serve to draw in a user, provide context about the content, or reinforce the brand.</p>
-                    <h4 class="related">Related</h4>
+                    <h1>主图</h1>
+                    <p>主图通常固定在显眼的位置，例如屏幕顶部的横幅。主图用于吸引用户，为内容营造场景，或突显品牌。</p>
+                    <h4 class="related">相关资源</h4>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/material/drawables.html%23ColorExtract&amp;sa=D&amp;ust=1481817965517000&amp;usg=AFQjCNHvJEDlsiZBE-TLcyhpwlntq_lEsA" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">Extract prominent colors from an image</div>
+                          <div class="title">从图片中提取主色</div>
                           <span class="subtitle"></span>
                         </div>
                         </img>
@@ -635,8 +635,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Feature</p>
-                        <p>A feature image is a bold, primary point of focus within a heterogeneous layout.</p>
+                        <p>特色</p>
+                        <p>特色图片是一个多样化布局中的非常明显的主焦点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -646,8 +646,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Integrated hero image</p>
-                        <p>Integrated hero images create a setting for heterogeneous pieces of content within a layout. They are not the primary points of focus.</p>
+                        <p>整合的主图</p>
+                        <p>整合的主图为不同的内容在布局上设定了区域。整合的主图不是视觉的主焦点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -656,8 +656,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Gallery</h1>
-                    <p>Gallery images are bold visual hero images within homogenous layouts in either a grid or as a single image.</p>
+                    <h1>图库</h1>
+                    <p>图库中的图片是视觉鲜明的主图，它们有着相同类型的布局，比如网格或单张图片。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -665,7 +665,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Photo Grid</p>
+                        <p>照片网格</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -675,7 +675,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Gallery image</p>
+                        <p>图库中的图片</p>
                       </figcaption>
                     </figure>
                   </div>
