@@ -169,7 +169,7 @@
                     <p>大部分警告框不需要标题</p>
                     <p>它们只用一句话或两句话来说明：</p>
                     <ul class="lst-kix_cwqflibcg89h-0 start">
-                      <li>提出问题（例如“删除此会话？”）</li>
+                      <li>提出问题（例如 “删除此会话？” ）</li>
                       <li>对操作按钮进行说明</li>
                     </ul>
                   </div>
@@ -180,7 +180,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>肯定按钮的文本“Discard”清楚地表明了操作的后果。</p>
+                        <p>肯定按钮的文本 “Discard” 清楚地表明了操作的后果。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -191,7 +191,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>取消按钮的文本“No”回答了提问，但没有明确表明之后会发生什么。更好的按钮文本应该是更易理解的“Cancel”和“Delete”。</p>
+                        <p>取消按钮的文本 “No” 回答了提问，但没有明确表明之后会发生什么。更好的按钮文本应该是更易理解的“Cancel”和“Delete”。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -202,8 +202,8 @@
                     <p>仅在高风险情况下使用有标题栏的警告框，例如网络连接断开了。用户应该要仅凭标题和按钮文本就能明白警告框的含义。</p>
                     <p>如果需要标题：</p>
                     <ul class="lst-kix_mxsc3tn7ox57-0 start">
-                      <li>在内容区域使用清楚的问题或说明进行解释，例如“移除 USB 存储设备？”。</li>
-                      <li>避免使用表示歉意、存在歧义、或表示疑问的语句，例如“警告！”或“你确定吗？”。</li>
+                      <li>在内容区域使用清楚的问题或说明进行解释，例如 “移除 USB 存储设备？” 。</li>
+                      <li>避免使用表示歉意、存在歧义、或表示疑问的语句，例如 “警告！” 或 “你确定吗？” 。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -333,7 +333,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>这个简单对话框有一个明确的“Cancel”按钮。</p>
+                        <p>这个简单对话框有一个明确的 “Cancel” 按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -344,7 +344,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>这个简单对话框有一个明确的“Cancel”按钮。</p>
+                        <p>这个简单对话框有一个明确的 “Cancel” 按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -395,7 +395,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <p>确认对话框要求用户在提交选项之前先确认它们的选择。例如，用户可以收听多个铃声，但只有在触摸“确认”按钮时才会提交最终的选择。<br></p>
-                    <p>触摸确认对话框中的“Cancel”或按下后退键，会取消操作，放弃所有更改，然后关闭对话框。</p>
+                    <p>触摸确认对话框中的 “Cancel” 或按下后退键，会取消操作，放弃所有更改，然后关闭对话框。</p>
                     <h2>避免从对话框中启动其他对话框</h2>
                     <p>避免从确认对话框中启动其他简单对话框或简单菜单，因为它们会增加复杂性，并增加了应用的海拔高度。如果需要从对话框中启动对话框来完成一项任务，请考虑使用<a href="dialogs.html#dialogs-full-screen-dialogs">全屏对话框</a>代替。</p>
                   </div>
@@ -405,7 +405,7 @@
                         <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>在用户按下“OK”按钮前，不会提交对话框中的铃声选择。</p>
+                        <p>在用户按下 “OK” 按钮前，不会提交对话框中的铃声选择。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -431,7 +431,7 @@
                         <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>用户通过选择一个日期，并按下“OK”按钮来设置日期。</p>
+                        <p>用户通过选择一个日期，并按下 “OK” 按钮来设置日期。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -441,7 +441,7 @@
                         <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>用户用过移动时钟指针，并按下“OK”按钮来设置时间。</p>
+                        <p>用户用过移动时钟指针，并按下 “OK” 按钮来设置时间。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -495,7 +495,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong><strong>用法</strong></strong></h2>
-                    <p>全屏对话框将一系列任务（例如创建日历）分组，然后用户可以选择提交或丢弃这些任务。在触摸“保存”按钮之前，不会保存任何数据。触摸“X”会丢弃所有更改并退出对话框。</p>
+                    <p>全屏对话框将一系列任务（例如创建日历）分组，然后用户可以选择提交或丢弃这些任务。在触摸 “保存” 按钮之前，不会保存任何数据。触摸 “X” 会丢弃所有更改并退出对话框。</p>
                     <p>全屏对话框启用复杂布局，最小化堆叠材料（对话框上方的对话框）的外观，并临时把应用的视觉高度重置为比较高的基线。它们允许使用简单菜单或简单对话框作为复杂操作的一部分。</p>
                     <p>全屏对话框可用于符合以下任何条件的内容或任务：</p>
                     <ul class="lst-kix_t7jhlbmuw669-0 start">
@@ -534,7 +534,7 @@
                     <p>确认按钮在屏幕的右上角，并使用叙述性的动词，例如：保存、发送、共享、更新或创建。不要使用模糊的动词，例如：完成、好、关闭。</p>
                     <p>在对话框中所有字段都通过验证之前，确认操作将被禁用。</p>
                     <h2><strong><strong>取消</strong></strong></h2>
-                    <p>取消操作（屏幕左上角的“X”）和返回按钮都会关闭全屏对话框并放弃更改。</p>
+                    <p>取消操作（屏幕左上角的 “X” ）和返回按钮都会关闭全屏对话框并放弃更改。</p>
                     <ul class="lst-kix_w0srevl2gebd-0 start">
                       <li>如果未进行更改，对话框会直接关闭，不需要进行丢弃确认。</li>
                       <li>如果用户进行了更改，系统将提示用户对丢弃操作进行确认。</li>
@@ -547,7 +547,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>不要使用模糊的术语，如“Close”来确认操作。</p>
+                        <p>不要使用模糊的术语，如 “Close” 来确认操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -566,7 +566,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong><strong>导航</strong></strong></h2>
-                    <p>在全屏对话框中使用的“X”不同于返回箭头，使用返回箭头表示视图的状态会被实时保存。例如，“设置”中使用返回箭头表示立即提交所有更改，而不需要进行确认或取消操作。</p>
+                    <p>在全屏对话框中使用的 “X” 不同于返回箭头，使用返回箭头表示视图的状态会被实时保存。例如， “设置” 中使用返回箭头表示立即提交所有更改，而不需要进行确认或取消操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -584,7 +584,7 @@
                         <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>点击此设置示例中的“X”将放弃所有更改，更改只有在点击保存按钮后才会保存。</p>
+                        <p>点击此设置示例中的 “X” 将放弃所有更改，更改只有在点击保存按钮后才会保存。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -663,7 +663,7 @@
                     <ul class="lst-kix_6ymsfsu4bdxd-0 start">
                       <li><strong>肯定操作</strong>放在右侧，并在点击后继续进行下一步操作。肯定操作可能具有破坏性，例如“删除”或“移除”。</li>
                       <li><strong>忽略操作</strong>直接放在肯定操作的左侧，并在点击后返回到原始界面，或者跳过这一步。</li>
-                      <li><strong>忽略和肯定操作的文本</strong>可以是“Cancel”/“OK”或其他能表明操作结果的动词或动词短语。</li>
+                      <li><strong>忽略和肯定操作的文本</strong>可以是 “Cancel” / “OK” 或其他能表明操作结果的动词或动词短语。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -689,7 +689,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>避免向用户提供模糊不清的选择。在此示例中，“Cancel”与标题无关，因为没有指出明确的操作。</p>
+                        <p>避免向用户提供模糊不清的选择。在此示例中， “Cancel” 与标题无关，因为没有指出明确的操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -699,8 +699,8 @@
                     <h2><strong><strong>确认操作</strong></strong></h2>
                     <p>在需要用户确认对话框内容的情况下，警告框可以仅包含一个操作。谨慎使用此类警告框，因为它会打断用户的操作。可以考虑通过其他方法把信息传递给用户，例如把信息显示在视图的内容中。</p>
                     <h2><strong><strong>操作的数量</strong></strong></h2>
-                    <p>对话框不能包含两个以上的操作。第三个操作，例如“了解更多”会离开对话框，可能会留下未完成的任务。</p>
-                    <p>避免使用“了解更多”操作来访问帮助文档；应该使用对话框内的可展开内容代替。如果需要提供更多详细信息，请在进入对话框之前提供。</p>
+                    <p>对话框不能包含两个以上的操作。第三个操作，例如 “了解更多” 会离开对话框，可能会留下未完成的任务。</p>
+                    <p>避免使用 “了解更多” 操作来访问帮助文档；应该使用对话框内的可展开内容代替。如果需要提供更多详细信息，请在进入对话框之前提供。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -709,7 +709,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>“了解更多”操作会离开此对话框，使其处于不确定的状态。</p>
+                        <p>“了解更多” 操作会离开此对话框，使其处于不确定的状态。</p>
                       </figcaption>
                     </figure>
                   </div>

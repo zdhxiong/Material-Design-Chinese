@@ -551,7 +551,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>不要“过度遮盖”大图片。</p>
+                        <p>不要 “过度遮盖” 大图片。</p>
                       </figcaption>
                     </figure>
                   </div>

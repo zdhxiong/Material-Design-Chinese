@@ -96,7 +96,7 @@
                         <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>此操作触发的菜单包含四个菜单项：“Refresh”，“Help &amp; feedback”，“Settings”和“Sign out”。</p>
+                        <p>此操作触发的菜单包含四个菜单项： “Refresh” ， “Help &amp; feedback” ， “Settings” 和 “Sign out” 。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,7 +106,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h2>菜单标签</h2>
-                    <p>按钮或控件的标签应该简明、准确的反映出菜单中的菜单项。菜单栏通常使用一个单词作为标签，像“文件”、“格式”、“编辑”和“视图”。其他内容可能会有更长的标签。</p>
+                    <p>按钮或控件的标签应该简明、准确的反映出菜单中的菜单项。菜单栏通常使用一个单词作为标签，像 “文件” 、 “格式” 、 “编辑” 和 “视图” 。其他内容可能会有更长的标签。</p>
                     <h2>禁用的菜单项</h2>
                     <p>菜单显示一组一致的菜单项。每个菜单项可以基于应用的当前状态来启用或禁用。</p>
                   </div>
@@ -117,7 +117,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>标题“视图”准确地描述了其包含的菜单项的统一特性。</p>
+                        <p>标题 “视图” 准确地描述了其包含的菜单项的统一特性。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -131,7 +131,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>标题“Stuff”不是描述性的，无法帮助用户预测他们将在“Stuff”菜单中找到什么菜单项。</p>
+                        <p>标题 “Stuff” 不是描述性的，无法帮助用户预测他们将在 “Stuff” 菜单中找到什么菜单项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -144,10 +144,10 @@
                     <p>上下文菜单能够根据应用的当前状态动态的改变可用的菜单项。</p>
                     <ul class="lst-kix_jjy9e6u0ee5q-0 start">
                       <li>与当前上下文无关的菜单项可以被<strong>移除</strong>.</li>
-                      <li>相关的但需要满足特定条件才能使用的菜单项可以被<strong>禁用</strong>。例如，“复制”选项可以在选中文本后才启用。</li>
+                      <li>相关的但需要满足特定条件才能使用的菜单项可以被<strong>禁用</strong>。例如， “复制” 选项可以在选中文本后才启用。</li>
                     </ul>
                     <p><strong>单个菜单项状态</strong></p>
-                    <p>一些应用状态会导致上下文菜单只含一个菜单项。例如，当选中网页上的文本时，Android 只显示“复制”菜单项，因为用户不能剪切或粘贴文本。</p>
+                    <p>一些应用状态会导致上下文菜单只含一个菜单项。例如，当选中网页上的文本时，Android 只显示 “复制” 菜单项，因为用户不能剪切或粘贴文本。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -301,7 +301,7 @@
                   <div class="module">
                     <h2>禁用菜单项</h2>
                     <p>将菜单项禁用，而不是移除，这样可以让用户知道在正确的条件下它们是可用的。</p>
-                    <p>例如，当没有东西可以恢复时，“恢复”菜单项是禁用的。在内容被选中之前，“剪切”和“复制”菜单项是禁用的。</p>
+                    <p>例如，当没有东西可以恢复时，“恢复”菜单项是禁用的。在内容被选中之前， “剪切” 和 “复制” 菜单项是禁用的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

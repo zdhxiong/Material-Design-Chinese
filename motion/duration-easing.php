@@ -304,7 +304,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>标准曲线</h1>
-                    <p>标准曲线（也称为“ease in out”）是最常见的缓动曲线。元素会在屏幕上的位置之间快速加速，缓慢减速。它主要用于材料变大变小，以及其他属性改变的动画。</p>
+                    <p>标准曲线（也称为 “ease in out” ）是最常见的缓动曲线。元素会在屏幕上的位置之间快速加速，缓慢减速。它主要用于材料变大变小，以及其他属性改变的动画。</p>
                     <p>更多信息详见<a href="movement.html#movement-movement-within-screen-bounds">屏幕内的移动</a>。</p>
                   </div>
                   <div class="figure">
@@ -359,7 +359,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>减速曲线</h1>
-                    <p>使用减速曲线（也称为“ease out”）时，元素会全速进入屏幕，然后缓慢减速到目标位置。</p>
+                    <p>使用减速曲线（也称为 “ease out” ）时，元素会全速进入屏幕，然后缓慢减速到目标位置。</p>
                     <p>减速期间，元素可能会放大尺寸（到 100%）或不透明度（到 100%）。在一些情况下，当元素以 0% 的不透明度进入屏幕时，可能会从比原始尺寸更大的尺寸略微收缩一点。</p>
                     <p>更多信息详见<a href="movement.html#movement-movement-in-out-of-screen-bounds">进出屏幕时的移动</a>。</p>
                   </div>
@@ -409,7 +409,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>加速曲线</h1>
-                    <p>使用加速曲线（也称为“ease in”）时，元素会全速离开屏幕。离开屏幕时不会减速。</p>
+                    <p>使用加速曲线（也称为 “ease in” ）时，元素会全速离开屏幕。离开屏幕时不会减速。</p>
                     <p>在动画开始时会加速，并可能缩小尺寸（到 0%）或不透明度（到 0%）。在一些情况下，当元素以 0% 的不透明度离开屏幕时，同时可能会放大或缩小尺寸。</p>
                     <p>更多细节详见<a href="movement.html#movement-movement-in-out-of-screen-bounds">进出屏幕时的移动</a>。</p>
                   </div>
@@ -460,7 +460,7 @@
                 <section class="module-figure col-2">
                   <div class="module"><h1>夏普曲线<br>
                   </h1>
-                    <p>使用夏普曲线（也称为“ease in out”）时，元素会很快的加速和减速。主要用在已有的元素离开屏幕后重新返回时。</p>
+                    <p>使用夏普曲线（也称为 “ease in out” ）时，元素会很快的加速和减速。主要用在已有的元素离开屏幕后重新返回时。</p>
                     <p>元素可以在屏幕的起始点快速加速，然后以对称曲线快速减速到离开屏幕的点。它的减速度比标准曲线快，因为在离开屏幕时并不存在明确的路径。元素可能在任何时候返回。</p>
                     <p>更多细节详见<a href="movement.html#movement-movement-in-out-of-screen-bounds">退出屏幕时的移动</a>。</p>
                   </div>

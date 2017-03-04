@@ -80,7 +80,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <p>底部导航可以快速切换应用的不同视图。它主要为移动端设计。</p>
-                    <p>在较大的显示器上，例如桌面显示器，可以通过侧边栏导航实现类似的效果。例如，在侧边栏使用简洁的“轨道”来排列导航图标。</p>
+                    <p>在较大的显示器上，例如桌面显示器，可以通过侧边栏导航实现类似的效果。例如，在侧边栏使用简洁的 “轨道” 来排列导航图标。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

@@ -18,7 +18,7 @@
               </div>
               <div class="module">
                 <h3><strong>用法</strong></h3>
-                <p>同一时间只能有一个 snackbar 处于显示状态。每一个 snackbar 都可能包含单个操作，但不会是“Dismiss”或“Cancel”。</p>
+                <p>同一时间只能有一个 snackbar 处于显示状态。每一个 snackbar 都可能包含单个操作，但不会是 “Dismiss” 或 “Cancel” 。</p>
                 <h3><strong>行为</strong></h3>
                 <p>Snackbars 从屏幕底部边缘以动画的形式出现。</p>
                 <h3><strong>Snackbar 规格</strong></h3>

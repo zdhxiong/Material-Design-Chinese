@@ -155,7 +155,7 @@
                       </div>
                       <figcaption>
                         <p><strong>Android/Web</strong></p>
-                        <p>弹出菜单按钮图标（通过“More”符号指示）包含三个<strong>垂直的</strong>点。</p>
+                        <p>弹出菜单按钮图标（通过 “More” 符号指示）包含三个<strong>垂直的</strong>点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -166,7 +166,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>弹出菜单按钮图标（通过“More”符号指示）包含三个<strong>水平的</strong>点。</p>
+                        <p>弹出菜单按钮图标（通过 “More” 符号指示）包含三个<strong>水平的</strong>点。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -314,7 +314,7 @@
                       </div>
                       <figcaption>
                         <p><strong>iOS</strong></p>
-                        <p>iOS 上的默认字体是 San Francisco。使用此字体是实现辅助功能（如“动态类型”）的最简单的方法。使用其他字体可能需要进行调整后才能获得相同的辅助功能。</p>
+                        <p>iOS 上的默认字体是 San Francisco。使用此字体是实现辅助功能（如 “动态类型” ）的最简单的方法。使用其他字体可能需要进行调整后才能获得相同的辅助功能。</p>
                       </figcaption>
                     </figure>
                   </div>

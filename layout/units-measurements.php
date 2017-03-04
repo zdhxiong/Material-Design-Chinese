@@ -47,7 +47,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>每英寸所包含的像素数量被称为“像素密度”。高密度的屏幕每英寸拥有的像素数量比低密度的要多。所以 UI 元素（比如按钮）在低密度的屏幕上看起来更大，而在高密度的屏幕上看起来更小。</p>
+              <p>每英寸所包含的像素数量被称为 “像素密度” 。高密度的屏幕每英寸拥有的像素数量比低密度的要多。所以 UI 元素（比如按钮）在低密度的屏幕上看起来更大，而在高密度的屏幕上看起来更小。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
@@ -121,7 +121,7 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <p>"与密度无关"指在不同密度的屏幕上显示相同的 UI 元素。</p>
-                    <p>与密度无关的像素（发音为“dips”）是一个灵活的单位，可以在任何屏幕上缩放到统一尺寸。开发 Android 应用时，使用 dp 在不同密度的屏幕上显示相同的元素。</p>
+                    <p>与密度无关的像素（发音为 “dips” ）是一个灵活的单位，可以在任何屏幕上缩放到统一尺寸。开发 Android 应用时，使用 dp 在不同密度的屏幕上显示相同的元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

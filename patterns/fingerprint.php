@@ -206,10 +206,10 @@
                 <section class="module-figure col-2">
                   <div class="module">
                     <p><strong>标题</strong></p>
-                    <p>使用标题来描述正在执行的操作，例如“登录”。标题不应该用来介绍指纹。</p>
+                    <p>使用标题来描述正在执行的操作，例如 “登录” 。标题不应该用来介绍指纹。</p>
                     <p><strong>副文本</strong></p>
-                    <p>使用“确认指纹”来和 Android 的设置保持一致性。</p>
-                    <p>你可以将上述文本和用户的操作相结合，例如“确认指纹以完成购买。”</p>
+                    <p>使用 “确认指纹” 来和 Android 的设置保持一致性。</p>
+                    <p>你可以将上述文本和用户的操作相结合，例如 “确认指纹以完成购买” 。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -336,7 +336,7 @@
                 <section class="module-module col-2">
                   <div class="module">
                     <h2><strong><strong>退出</strong></strong></h2>
-                    <p>提供其他方法退出对话框。至少，要提供关闭指纹对话框的功能，例如“取消”按钮。</p>
+                    <p>提供其他方法退出对话框。至少，要提供关闭指纹对话框的功能，例如 “取消” 按钮。</p>
                   </div>
                   <div class="module"></div>
                 </section>

@@ -236,7 +236,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <p>开关按钮切换单个设置项的状态。开关控件中的选项，以及它的状态，应该在相应的内联标签中显示清楚。开关按钮具有和单选按钮一样的视觉属性。</p>
-                    <p>使用文本“开”和“关”滑动切换已经过时了。使用这里显示的开关按钮来代替。</p>
+                    <p>使用文本 “开” 和 “关” 滑动切换已经过时了。使用这里显示的开关按钮来代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

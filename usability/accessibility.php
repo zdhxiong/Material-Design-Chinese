@@ -97,7 +97,7 @@
                       </div>
                       <figcaption>
                         <h1>具体的</h1>
-                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以和 Google 的屏幕阅读器“<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>”配合使用。</p>
+                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以和 Google 的屏幕阅读器 “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>” 配合使用。</p>
                         <p><strong>辅助技术</strong>通过屏幕阅读器、放大设备、轮椅、助听器或记忆辅助设备等设备帮助增强、维持或改善残疾人的能力。</p>
                       </figcaption>
                     </figure>
@@ -263,7 +263,7 @@
             <div>
               <h1>声音</h1>
               <p>给视觉元素添加声音作为替代方案，反之亦然。添加可隐藏的字幕，或其他视觉元素来作为重要声音元素和声音警报的替代方案。</p>
-              <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如“TalkBack”），并通过<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">触摸板</a>导航时，在用户指尖触摸到 UI 元素时，会大声读出标签上的文本。</p>
+              <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如 “TalkBack” ），并通过<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">触摸板</a>导航时，在用户指尖触摸到 UI 元素时，会大声读出标签上的文本。</p>
               <p>应避免使用以下声音：</p>
               <ul class="lst-kix_8rfeeey1j8st-0 start">
                 <li>通过屏幕阅读器播放不必要的声音，例如打开网页时自动播放的背景音乐。如果有背景音乐，请确保用户可以安全的暂停或停止背景音乐。</li>

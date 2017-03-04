@@ -9,25 +9,25 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Text should be understandable by anyone, anywhere, regardless of their culture or language.</h1>
+          <h1>无论用户拥有怎样的文化和语言，无论在何地，文本都应该能被用户理解。</h1>
           <div class="col-list">
             <section class="module-module-module col-3">
               <div class="module">
-                <p>Clear, accurate, and concise text makes interfaces more usable and builds trust. </p>
-                <p>In addition to these guidelines, be sure to consult guidelines for specific UI elements, such as <a href="../patterns/errors.html">Errors</a>, <a href="../components/dialogs.html">Dialogs</a>, <a href="../patterns/settings.html">Settings</a>, and <a href="../patterns/data-formats.html">Data formats</a>.</p>
+                <p>清晰、准确、简洁的文本能增加界面的可用性，并建立信任感。</p>
+                <p>除了这些指南外，请务必参考为特定的 UI 元素编写的指南，例如<a href="../patterns/errors.html">错误</a>、<a href="../components/dialogs.html">对话框</a>、<a href="../patterns/settings.html">设置</a>，以及<a href="../patterns/data-formats.html">数据格式</a>。</p>
               </div>
               <div class="module">
-                <h3><strong>Guidelines</strong></h3>
-                <p>Tone<br>
-                  Capitalization<br>
-                  Punctuation<br>
-                  UI button text</p>
-                <h3><strong>Style</strong></h3>
-                <p>Google guidelines generally follow the Associated Press (AP) style guidelines. </p>
+                <h3><strong>指南</strong></h3>
+                <p>语气<br>
+                  大小写<br>
+                  标点符号<br>
+                  按钮文本</p>
+                <h3><strong>样式</strong></h3>
+                <p>通常 Google 的指南会遵循美联社（AP）的样式指南。</p>
               </div>
               <div class="module">
                 <div class="text-box">
-                  <p>Text should be simple, concise, and direct</p>
+                  <p>文本应当简洁、易懂、直截了当</p>
                 </div>
                 <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
               </div>
@@ -40,16 +40,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-language" data-qp-ui-data-id="qp:1">Language</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-language" data-qp-ui-data-id="qp:1">语言</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-tone" data-qp-ui-data-id="qp:2">Tone</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-tone" data-qp-ui-data-id="qp:2">语气</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-capitalization-punctuation" data-qp-ui-data-id="qp:3">Capitalization &amp; punctuation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-capitalization-punctuation" data-qp-ui-data-id="qp:3">大小写 &amp; 标点符号</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-global-writing" data-qp-ui-data-id="qp:4">Global writing</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="writing.html#writing-global-writing" data-qp-ui-data-id="qp:4">国际化书写</a>
           </li>
         </ul>
       </nav>
@@ -58,7 +58,7 @@
 
         <div id="writing-language" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Language
+            语言
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -69,41 +69,41 @@
             <div>
               <div class="col-list">
                 <section class="module-module-module col-3">
-                  <div class="module"><h1>Addressing users </h1>
-                    <p>Your UI may address the user using either: </p>
+                  <div class="module"><h1>称谓</h1>
+                    <p>在 UI 中可以使用下列之一的方式称呼用户：</p>
                     <ul class="lst-kix_4h34kitihxzm-1 start">
-                      <li><strong>Second person, “you” or “your”</strong>: Use this conversational style for most situations, as though the app is speaking directly to the user.</li>
-                      <li><strong>First person, “I” or “my”</strong>: In some cases, you may need to use this form of address to emphasize the user's ownership of content or actions.</li>
+                      <li><strong>第二人称， “你” 或 “你们” </strong>：在大多数情况下会使用这种谈话的风格，就像应用在直接和用户说话一样。</li>
+                      <li><strong>第一人称， “我” 或 “我们” </strong>：在某些情况下，可能需要使用这种形式的称呼来强调用户对内容或操作的所有权。</li>
                     </ul>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Quickly open the camera without unlocking your screen<br>
+                      <p>在不解锁你的屏幕的情况下快速打开相机<br>
                       <br>
-                      Your places</p>
+                      你的空间</p>
                     </div>
                     <figcaption>
-                      <p>Addressing the user with the second person using “you” or “your” </p>
+                      <p>使用第二人称 “你” 或 “你们” 来称呼用户</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>I agree to follow the Google Terms of Service<br>
+                      <p>我同意遵守 Google 的服务条款<br>
                       <br>
-                      My Account</p>
+                      我的账户</p>
                     </div>
                     <figcaption>
-                      <p>Addressing the user with the first person using “I” or “my”</p>
+                      <p>使用第一人称 “我” 或 “我的” 来称呼用户</p>
                     </figcaption>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p>Avoid mixing "me"/"my" with "you"/"your.” It can cause confusion to see both forms of addressing the user in the same context.</p>
+                    <p>避免混合使用 “我” / “我的” 和 “你” / “你的” 。在同一个内容中同时使用这两种称谓会让用户感到困惑。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Change your preferences in My Account</p>
+                      <p>在我的账户中更改你的设置偏好</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -113,7 +113,7 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Avoid the pronoun “we”</h1>
+                    <h1>避免使用代词 “我们”</h1>
                     <p>Focus on the user and what they can do with your app, rather than what you or your app is doing for the user.</p>
                   </div>
                   <div class="module">

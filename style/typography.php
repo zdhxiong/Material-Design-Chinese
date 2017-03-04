@@ -906,7 +906,7 @@
                     <p>“如果你想要一个良好的阅读体验，应该保持每行约 60 个字符。每行文本拥有正确的字符数，是文本可读性的关键。”</p>
                     <p>“太宽 – 如果一行文本太长，用户的眼睛会很难专注于文本。因为太长的一行文字让用户很难判断哪里是一行的开始和结束。此外，从一大块文本中正确的找到下一行也变得极为困难。”</p>
                     <p>“太窄 – 如果一行文本太短，用户的眼睛必须频繁来回移动，打乱了读者的阅读节奏。太短的行也会给用户带来压力，使用户在还没看完当前行时直接看到了下一行（可能跳过一些关键的文字）。”</p>
-                    <p>原文：“Readability: the Optimal Line Length,”</p>
+                    <p>原文： “Readability: the Optimal Line Length,”</p>
                     <p><a href="https://www.google.com/url?q=http://baymard.com/blog/line-length-readability&amp;sa=D&amp;ust=1481817971186000&amp;usg=AFQjCNH2N5LAy8Z7hOfvaHKRRt4ewTy1Vg" target="_blank">http://baymard.com/blog/line-length-readability</a></p>
                   </div>
                   <div class="figure">
