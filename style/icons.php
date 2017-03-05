@@ -18,8 +18,8 @@
               </div>
               <div class="module">
                 <h3><strong>尺寸</strong></h3>
-                <p>产品图标是 48dp，包含 1dp 的边缘<br>
-                  系统图标是 24dp</p>
+                <p>产品图标为 48dp，包含 1dp 的边缘<br>
+                  系统图标为 24dp</p>
                 <table class="s-tag-table">
                   <tbody>
                   <tr>
@@ -119,7 +119,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>设计方法</h1>
-                    <p>产品图标的设计灵感来自现实材料的触感和物理质感。每一个图标都像纸一样被裁剪、折叠和点亮，但都是由简单的图形元素组成的。材料的质地结实，具有干净的皱褶和清晰的边缘。哑光般的表面通过细微的高光和一致的阴影完成与光线的交互。</p>
+                    <p>产品图标的设计灵感来自现实材料的触感和物理质感。每一个图标都可以像纸一样被裁剪、折叠和点亮，但都是由简单的图形元素组成的。材料的质地结实，具有干净的皱褶和清晰的边缘。哑光般的表面通过细微的高光和一致的阴影完成与光线的交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -256,8 +256,8 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong><strong>DP 网格单位</strong></strong></h2>
-                    <p>Android 要求产品图标为 48dp，包含 1dp 的边缘。在创建图标的时候，保持 48dp 为基本单位，但是放大 400% 到 192 x 192dp（边缘变成 4dp）。</p>
-                    <p>对原稿进行的任何缩放，都将按比例上下调整图像。通过保持单位比例不变，在缩小图像时可以保持锐利的边缘和正确的对齐方式。</p>
+                    <p>Android 要求产品图标为 48dp，包含 1dp 的边缘。在创建图标的时候，保持 48dp 为基本单位，然后放大 400% 到 192 x 192dp（边缘变成 4dp）。</p>
+                    <p>对原稿进行的任何缩放，都将按比例调整图像。通过保持单位比例不变，在缩小图像时可以保持锐利的边缘和正确的对齐方式。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -285,7 +285,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong><strong>几何形状</strong></strong></h2>
-                    <p>已经为特定的关键线预设了一些标准：圆形、正方形、矩形、正交线和对角线。这种通用和简单的线框可以统一图标的样式，以及规范图标在网格上的位置。</p>
+                    <p>预设的标准已经确定了一些明确的关键线：圆形、正方形、矩形、正交线和对角线。这种通用和简单的线框可以统一图标的样式，以及规范图标在网格上的位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -412,8 +412,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tinted edge</p>
-                        <p>The top edge of a material element. A tint is the mixture of a color with white, which lightens the original color.</p>
+                        <p>有色浅色边缘</p>
+                        <p>材料元素的顶部边缘。使用指定颜色和白色混合后的颜色，比原来的颜色更淡。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -423,8 +423,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Shaded edge</p>
-                        <p>The bottom edge of a material element. Shade is the mixture of a color with a darker hue, which darkens the original color.</p>
+                        <p>有色深色边缘</p>
+                        <p>材料元素的底部边缘。使用指定颜色和一种暗色混合后的色调，比原来的颜色更深。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -437,8 +437,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Contact shadow</p>
-                        <p>A soft shadow around all edges of a raised material element.</p>
+                        <p>接触阴影</p>
+                        <p>浮动元素周围的柔和的阴影。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -448,8 +448,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Finish</p>
-                        <p>A soft tint above all elements to provide surface lighting, fading from upper-left to lower-right.</p>
+                        <p>抛光</p>
+                        <p>所有元素上方的一层柔和的浅色色调，为表面布光，从左上角淡入，右下角淡出。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -458,9 +458,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Product icon metrics</h1>
-                    <h2><strong><strong>Lighting</strong></strong></h2>
-                    <p>Within the material environment, virtual lights illuminate the scene and allow objects to cast shadows. A top light cast on material elements creates a contact shadow while highlighting the top and bottom edges. An angled light reinforces the sense of surface across the elements.</p>
+                    <h1>产品图标标准</h1>
+                    <h2><strong><strong>光线</strong></strong></h2>
+                    <p>在材料环境中，虚拟的光线照亮了场景，并使物体投射出阴影。顶部的光投射在材料元素上产生接触阴影，并突显出顶部和底部边缘。有角度的光线增强了元素表面的质感。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -468,7 +468,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Top</p>
+                        <p>顶部</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -478,7 +478,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>45º angle</p>
+                        <p>45º 角</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -487,8 +487,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>Shadows</strong></strong></h2>
-                    <p>For a product icon, the top light from above casts a soft shadow surrounding an element lightly on the top and left. The shadow is slightly heavier below and to the right. This shadow is always contained within the icon’s silhouette.</p>
+                    <h2><strong><strong>阴影</strong></strong></h2>
+                    <p>对于产品图标来说，顶部的光线会在元素周围投射出柔和的阴影，同时照亮元素的顶部和左侧，因此阴影在底部和右侧会稍微重一些。阴影将始终处于图标的轮廓内。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -496,13 +496,13 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Drop shadow metrics</p>
-                        <p>Mode: Normal<br>
-                          Opacity: 20%<br>
-                          X Offset: 0dp<br>
-                          Y Offset: 4dp<br>
-                          Blur: 4dp<br>
-                          Color: Refer to Tint, shade and shadow values</p>
+                        <p>阴影指标</p>
+                        <p>模式：普通<br>
+                          不透明度：20%<br>
+                          X 轴偏移：0dp<br>
+                          Y 轴偏移：4dp<br>
+                          模糊半径：4dp<br>
+                          颜色：参考浅色边缘、深色边缘和阴影的数值</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -512,12 +512,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Edge tint and shade</strong></strong></h2>
-                    <p>The top and bottom edges of material elements provide a sense of depth and surface. Material elements have a standard 1dp thickness. All edge distances are measured from an element's interior edge. <br>
+                    <h2><strong><strong>浅色边缘和深色边缘</strong></strong></h2>
+                    <p>材料元素的顶部和底部边缘，提供深度和表面感。材料元素具有标准的 1dp 的厚度。所有边缘距离均从元素的内部边缘测量。<br>
                       <br>
-                      Tint highlights the top edge of all elements. The left, right, and bottom edges do not have a tint applied. <br>
+                      浅色色调的边缘突显所有元素的顶部边缘。左侧、右侧和底部边缘没有浅色色调。<br>
                       <br>
-                      Shade darkens the bottom edge of all elements. The left, right, and top edges do not have a shade applied.</p>
+                      深色色调的边缘使所有元素的底部边缘变暗。左侧、右侧和顶部边缘没有深色色调。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -525,10 +525,10 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tinted edge</p>
-                        <p>Height: 1dp<br>
-                          Opacity: 20%<br>
-                          Color: White (#FFFFFF)</p>
+                        <p>浅色边缘</p>
+                        <p>高度：1dp<br>
+                          不透明度：20%<br>
+                          颜色：白色（#FFFFFF）</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -538,10 +538,10 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Shaded edge</p>
-                        <p>Height: 1dp<br>
-                          Opacity: 20%<br>
-                          Color: Refer to Tint, shade and shadow values</p>
+                        <p>深色边缘</p>
+                        <p>高度：1dp<br>
+                          不透明度：20%<br>
+                          颜色：参考浅色边缘、深色边缘和阴影的数值</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -550,8 +550,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>Finish</strong></strong></h2>
-                    <p>The finish layer is a result of the virtual 45º light source. It extends from the top-left corner to the exterior edge of the icon’s silhouette. The finish is always contained within these boundaries.</p>
+                    <h2><strong><strong>抛光</strong></strong></h2>
+                    <p>抛光层是虚拟光线 45º 照射的结果，光照效果从左上角延伸到图标轮廓的外边缘。抛光始终在图标轮廓内部。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -559,19 +559,19 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Gradient metrics</p>
-                        <p>Type: Radial<br>
-                          Angle: 45º<br>
-                          Color: White (#FFFFFF)<br>
-                          Midpoint Location: 33%<br>
+                        <p>渐变指标</p>
+                        <p>类型：径向渐变<br>
+                          角度：45º<br>
+                          颜色：白色（#FFFFFF）<br>
+                          中点位置：33%<br>
                           <br>
-                          Slider 1<br>
-                          Opacity: 10%<br>
-                          Location: 0%<br>
+                          滑块 1<br>
+                          不透明度：10%<br>
+                          位置：0%<br>
                           <br>
-                          Slider 2<br>
-                          Opacity: 0%<br>
-                          Location: 100%</p>
+                          滑块 2<br>
+                          不透明度：0%<br>
+                          位置：100%</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -581,8 +581,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong><strong>Tint, shade, and shadow values</strong></strong></h2>
-                    <p>Each color reacts differently when tints and shades are added. The color of every edge tint, edge shade, and shadow needs to be adjusted for each color that lies behind it. To ensure color harmony, follow the appropriate value for each.</p>
+                    <h2><strong><strong>浅色边缘、深色边缘和阴影的数值</strong></strong></h2>
+                    <p>不同颜色在添加浅色边缘和深色边缘时反应不同。每种颜色的浅色边缘、深色边缘以及阴影，都需要根据其背后的颜色进行调整。为了确保颜色的和谐，请为每种颜色选择合适的数值。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -633,14 +633,14 @@
                   </div>
                 </section>
               </div>
-              <h1>Product icon patterns</h1>
-              <p>Influenced by the behavior of physical material, simple conventions provide a sense of surface and tactility. The interactions of material and color allow for numerous unique compositions.</p>
+              <h1>产品图标模式</h1>
+              <p>受物理材料行为的影响，通过简单的规范便可以让物体产生质感和触感。材料和颜色的相互作用，为许多独特的构成提供了可能。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Color</strong></strong></h2>
-                    <p>Color elements are flush to the paper’s surface.</p>
-                    <p>Don’t embellish color elements with any edges or shadows.</p></div>
+                    <h2><strong><strong>颜色</strong></strong></h2>
+                    <p>颜色元素和纸片的表面齐平。</p>
+                    <p>不要使用任何边缘或阴影来装饰颜色元素。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -664,9 +664,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Layer</strong></strong></h2>
-                    <p>Layered paper elements create depth, having edges and shadows. </p>
-                    <p>Be cautious with the quantity of overlapping surfaces. Having too many complicates the icon and lacks focus.</p>
+                    <h2><strong><strong>图层</strong></strong></h2>
+                    <p>层状的纸片元素会创造出深度，并拥有边框和阴影。</p>
+                    <p>谨慎控制重叠表面的数量。太多的重叠会使图标复杂化、失去焦点。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -691,9 +691,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Elevate</strong></strong></h2>
-                    <p>Elevating a key material element atop a simple background silhouette focuses attention to the center.</p>
-                    <p>Don’t crop elevated material elements within another shape.</p>
+                    <h2><strong><strong>提升</strong></strong></h2>
+                    <p>在简单的背景轮廓中，提升一个关键的材料元素时，需要将元素放置在背景轮廓的中心。</p>
+                    <p>不要使用其他形状对提升的材料元素进行裁剪。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -718,9 +718,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Score</strong></strong></h2>
-                    <p>Scored material elements have the illusion of depth without losing their geometric form. Scores should be centered on symmetrical shapes.</p>
-                    <p>Don’t use multiple scores, or position a score off-center.</p>
+                    <h2><strong><strong>折痕</strong></strong></h2>
+                    <p>有折痕的材料元素会给人错觉，使其看起来有深度，但不会损失其几何形状。折痕应该显示在对称形状的中心。</p>
+                    <p>不要使用多个折痕，也不要将折痕放在非中心位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -745,8 +745,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Fold</strong></strong></h2>
-                    <p>Folded material elements are skewed, having greater dimension. Spot colors should be avoided, so as to avoid altering or misrepresenting key elements.</p>
+                    <h2><strong><strong>折叠</strong></strong></h2>
+                    <p>折叠的材料元素是倾斜的，具有较大尺寸。避免在折叠材料中添加斑点色，以避免改变或扭曲关键元素。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -771,9 +771,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Overlap</strong></strong></h2>
-                    <p>Overlapped material elements create unique silhouettes. All elements, edges, and shadows are confined to the interior of the silhouette.</p>
-                    <p>Don’t exceed more than two overlaps. Having too many complicates the icon and lacks focus.</p>
+                    <h2><strong><strong>部分重叠</strong></strong></h2>
+                    <p>部分重叠的材料元素创造了独特的轮廓。所有的元素、边缘、阴影都限制在轮廓内部。</p>
+                    <p>不要重叠超过两个元素。太多重叠会使图标复杂化、失去焦点。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -798,9 +798,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Accordion</strong></strong></h2>
-                    <p>Accordion folded material elements are adjoined by a connecting fold, used to add dimension to a single material element.</p>
-                    <p>Don’t exceed more than two accordion folds. Having too many complicates the icon and lacks focus.</p>
+                    <h2><strong><strong>手风琴</strong></strong></h2>
+                    <p>手风琴折叠的材料元素由两个元素连接而成，用于增加单个材料元素的尺寸。</p>
+                    <p>不要折叠超过两层。太多的折叠会使图标复杂化、失去焦点。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -825,8 +825,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>Distort</strong></strong></h2>
-                    <p>Product icons should never be distorted or transformed. Elements should remain in their geometric form, and not be skewed, rotated, bowed, warped, or bent. </p>
+                    <h2><strong><strong>扭曲</strong></strong></h2>
+                    <p>产品图标不应扭曲或变形。元素应保持其几何样式，不应歪斜、旋转、翘起或弯曲。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -850,19 +850,19 @@
                   </div>
                 </section>
               </div>
-              <h1>Human iconography</h1>
-              <p>The below guidelines and examples illustrate best practices for incorporating human iconography into your UI. </p>
+              <h1>人物肖像</h1>
+              <p>以下准则和示例解释了将人物肖像合并到 UI 中的最佳实践。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Form</strong></h2></div>
+                    <h2><strong>构成</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Construction</p>
+                        <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -872,21 +872,21 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keyline alignment</p>
+                        <p>对齐关键线</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Keyline shapes</strong></h2></div>
+                    <h2><strong>关键线形状</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Square</p>
+                        <p>正方形</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -896,7 +896,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Circle</p>
+                        <p>圆形</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -909,7 +909,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Vertical rectangle</p>
+                        <p>纵向矩形</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -919,21 +919,21 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Horizontal rectangle</p>
+                        <p>横向矩形</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Paper vs color</strong></h2></div>
+                    <h2><strong>纸片 vs 颜色</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Paper</p>
+                        <p>纸片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -943,14 +943,14 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Color</p>
+                        <p>颜色</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Gestures</strong></h2>
+                    <h2><strong>手势</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -958,7 +958,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Construction</p>
+                        <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -968,14 +968,14 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Composition</p>
+                        <p>成品</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Human icon rules</strong></h2></div>
+                    <h2><strong>人物图标规范</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
@@ -983,7 +983,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use simple shapes for background silhouettes.</p>
+                        <p>使用简单的形状作为背景轮廓。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -994,7 +994,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use complicated shapes for background silhouettes.</p>
+                        <p>不要使用复杂的形状作为背景轮廓。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1008,7 +1008,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use the correct and consistent human form at all times.</p>
+                        <p>始终使用正确且一致的人物形象。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1019,7 +1019,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use an incorrect human form or add complex details.</p>
+                        <p>不要使用不正确的人物形象，或添加复杂的细节。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1033,7 +1033,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use curved and straight edges for visual balance.</p>
+                        <p>使用直线和曲线边缘来平衡视觉效果。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1044,7 +1044,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use circular arm terminals nor cropped arms.</p>
+                        <p>不要在手臂的尾部使用圆形，也不要裁剪手臂。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1056,7 +1056,7 @@
 
         <div id="icons-system-icons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            System icons
+            系统图标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1068,14 +1068,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>A system icon, or UI icon, symbolizes a command, file, device, or directory. System icons are also used to represent common actions like trash, print, and save.</p>
-                    <p>The design of system icons is simple, modern, friendly, and sometimes quirky. Each icon is reduced to its minimal form, with every idea edited to its essence. The designs ensure readability and clarity even at small sizes.</p>
+                    <p>系统图标、或者 UI 图标表示一个命令、文件、设备或目录。系统图标也用于表示常见操作，如删除、打印、保存。</p>
+                    <p>系统图标的设计应简洁、现代化、友好，有时也要有点趣味。图标在能表达其本意的前提下应尽可能的精简。这种设计确保了即使在小尺寸下也有很好的可读性和清晰度。</p>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/design/icons/&amp;sa=D&amp;ust=1481817966568000&amp;usg=AFQjCNFijbXpQjCvaR-U8dJCj3ER3TByfQ" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
-                          <div class="title">Material design icons</div>
-                          <span class="subtitle">Download our system icons</span>
+                          <div class="title">Material design 图标</div>
+                          <span class="subtitle">下载我们的系统图标</span>
                         </div>
                         </img>
                       </a>
@@ -1093,9 +1093,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Design principles</h1>
-                    <p>Shapes are bold and geometric. </p>
-                    <p>Symmetry and consistency of shapes give the icons a unique quality, while keeping them simple and bold. </p>
+                    <h1>设计原则</h1>
+                    <p>使用大胆的几何形状。</p>
+                    <p>图标形状的对称性和一致性使图标更优质，同时保持了图标的简洁和大胆。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1103,7 +1103,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Simple</p>
+                        <p>简洁</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1113,7 +1113,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Intuitive</p>
+                        <p>直观</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1126,7 +1126,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Actionable</p>
+                        <p>可操作性</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1136,7 +1136,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Consistent</p>
+                        <p>一致性</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1145,10 +1145,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Grid, proportion, and size</h1>
-                    <h2><strong>DP unit grid</strong></h2>
-                    <p>System icons are displayed at 24dp. When creating icons, it’s important to design at 100% scale for pixel-perfect accuracy.</p>
-                    <p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts. For dense layouts on desktop, icons can be scaled down to 20dp. </p>
+                    <h1>网格、比例和尺寸</h1>
+                    <h2><strong>以 DP 为单位的网格</strong></h2>
+                    <p>系统图标以 24dp 的尺寸显示。创建图标时，以 100% 的比例来设计是非常重要的，那样可以确保像素级的精度。</p>
+                    <p>当鼠标和键盘为主要的输入方式时，可以压缩尺寸以适应更紧凑的布局。在桌面端紧凑的布局中，图标尺寸可以缩小到 20dp。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1156,7 +1156,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>100% scale</p>
+                        <p>100% 比例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1164,7 +1164,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dense grid at 20dp, 100% scale</p>
+                        <p>20dp 的紧凑型网格，100% 比例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1174,7 +1174,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>800% scale</p>
+                        <p>800% 比例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1182,15 +1182,15 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dense grid at 20dp, 800% scale</p>
+                        <p>20dp 的紧凑型网格，800% 比例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Icon grid</strong></h2>
-                    <p>The icon grid has been developed to facilitate consistency and establish a clear set of rules for the positioning of graphic elements. This standardization results in a flexible but coherent system.</p>
+                    <h2><strong>图标网格</strong></h2>
+                    <p>图标网格用于促进图标的一致性，并为图标元素的定位建立清晰的规范。这种标准化造就了一个灵活但一致的系统。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1198,7 +1198,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Grid</p>
+                        <p>网格</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1208,19 +1208,19 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keylines</p>
+                        <p>关键线</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Content area</strong></h2>
-                    <p>The content of an icon should remain inside of the <strong>live area</strong>. The live area is a safe zone of an image, in which graphics have sufficient display room and are unlikely to be cut off from view (such as when sidebars appear upon scrolling).</p>
-                    <p>The <strong>trim area</strong> refers to the final size of a graphic file. </p>
-                    <p>Content should only extend into the padding between the live and trim areas if additional visual weight is needed. Do not place any part of the icon outside of the trim area.</p>
-                    <p><strong>Dense layouts</strong></p>
-                    <p>For dense layouts on desktop, icons may be scaled down to 20dp with 2dp of padding surrounding the icon.</p>
+                    <h2><strong>内容区域</strong></h2>
+                    <p>图标内容应该保持在<strong>安全区域</strong>内。在安全区域内，图标有足够的显示空间，不会被视图截断（例如滚动时出现的侧边栏）。</p>
+                    <p><strong>裁剪区域</strong>会参考图形文件的最终尺寸。</p>
+                    <p>如果需要增加额外的视觉权重，应该仅在安全区域和裁剪区域的间隙内扩展内容。不要让图标的任何一部分超出裁剪区域。</p>
+                    <p><strong>密集型布局</strong></p>
+                    <p>对于桌面端的密集型布局，图标可能会缩小到 20dp，使图标只含 2dp 的内边距。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1228,8 +1228,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Live area</p>
-                        <p>Icon content is limited to the 20dp x 20dp live area, with 4dp of padding around the perimeter.</p>
+                        <p>安全区域</p>
+                        <p>图标内容被限制在 20dp x 20dp 的安全区域内，周围有 4dp 的边距。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1237,8 +1237,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Dense live area</p>
-                        <p>Icon content is limited to the 16dp x 16dp live area, with 2dp of padding around the perimeter.</p>
+                        <p>密集型安全区域</p>
+                        <p>图标内容被限制在 16dp x 16dp 的安全区域内，周围有 2dp 的边距。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1248,8 +1248,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Padding</p>
-                        <p>4px of empty space makes up the padding surrounding the 20dp x 20dp live area.</p>
+                        <p>内边距</p>
+                        <p>4dp 的空白区域构成了内边距，围绕着 20dp x 20dp 的安全区域。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1257,16 +1257,16 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Dense padding area</p>
-                        <p>The 2dp of padding surrounds the live area.</p>
+                        <p>密集型内边距</p>
+                        <p>2dp 的内边距围绕着安全区域。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Keyline shapes</strong></h2>
-                    <p>Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion throughout the system icons.</p>
+                    <h2><strong>关键线形状</strong></h2>
+                    <p>关键线形状是网格的基础。通过使用这些核心形状作为准则，你可以在整个系统图标的设计中保持一致的视觉比例。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1274,9 +1274,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Square</p>
-                        <p>Height: 18dp<br>
-                          Width: 18dp</p>
+                        <p>正方形</p>
+                        <p>高度：18dp<br>
+                          宽度：18dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1286,8 +1286,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Circle</p>
-                        <p>Diameter: 20dp</p>
+                        <p>圆形</p>
+                        <p>直径：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1300,9 +1300,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Vertical rectangle</p>
-                        <p>Height: 20dp<br>
-                          Width: 16dp</p>
+                        <p>纵向矩形</p>
+                        <p>高度：20dp<br>
+                          宽度：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1312,17 +1312,17 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Horizontal rectangle</p>
-                        <p>Height: 16dp<br>
-                          Width: 20dp</p>
+                        <p>横向矩形</p>
+                        <p>高度：16dp<br>
+                          宽度：20dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Geometry</strong></h2>
-                    <p>Preset standards have been determined for specific keylines: circle, square, rectangle, orthogonals, and diagonals. This small palette of universal and simple elements has been developed to unify Google system icons and systemize their placement on the icon grid.</p>
+                    <h2><strong>几何形状</strong></h2>
+                    <p>预设的标准已经确定了一些明确的关键线：圆形、正方形、矩形和对角线。这种通用的小型面板和简单元素，被用来统一 Google 的系统图标，并系统化图标在网格上的位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1330,7 +1330,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Construction</p>
+                        <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1340,7 +1340,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Composition</p>
+                        <p>成品</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1349,13 +1349,13 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>System icon anatomy</strong></h2>
-                    <p>1. Stroke terminal<br>
-                      2. Corner<br>
-                      3. Counter area<br>
-                      4. Stroke<br>
-                      5. Counter stroke<br>
-                      6. Bounding area</p>
+                    <h2><strong>系统图标分解</strong></h2>
+                    <p>1. 笔画末端<br>
+                      2. 拐角<br>
+                      3. 内部区域<br>
+                      4. 笔画<br>
+                      5. 内部笔画<br>
+                      6. 边界区域</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1368,9 +1368,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Corners</strong></h2>
-                    <p>Consistent corner radiuses are key to unifying the overall system icon family. A 2dp corner radius is used on the silhouette form of the icon. Do not round the corners of strokes (shapes 2dp wide or less). </p>
-                    <p>Interior corners should be square. Do not round the corners of interior shapes. </p>
+                    <h2><strong>拐角</strong></h2>
+                    <p>一致的圆角半径是统一整个系统图标家族的关键。在图标的外形轮廓上使用 2dp 的圆角半径。不要把描边的拐角也做成圆角（宽度小于等于 2dp 的形状）。</p>
+                    <p>拐角的内部应该是方形。不要把内部拐角也做成圆角。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1378,7 +1378,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Exterior corners with 2dp corner radius</p>
+                        <p>2dp 圆角的外部拐角</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1388,15 +1388,15 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Interior corners</p>
+                        <p>内部拐角</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Strokes</strong></h2>
-                    <p>Consistent stroke weights are key to unifying the overall system icon family. Maintain a 2dp width for all stroke instances, including curves, angles, and both interior and exterior strokes. </p>
+                    <h2><strong>笔画</strong></h2>
+                    <p>一致的笔画粗细是统一整个系统图标家族的关键。对所有笔画都保持 2dp 的宽度，包括曲线、斜线、以及内部和外部的描边。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1404,7 +1404,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Consistency</p>
+                        <p>一致性</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1414,7 +1414,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Curves and angles</p>
+                        <p>曲线和斜线</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1427,7 +1427,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Stroke terminal</p>
+                        <p>笔画末端</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1437,16 +1437,16 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Counter stroke</p>
+                        <p>内部笔画</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Optical corrections</strong></h2>
-                    <p>Extreme scenarios that call for subtle tweaks add to the legibility of an icon. Instances where complex details are unavoidable require adjusting metrics.</p>
-                    <p>If optical corrections are necessary, only use the consistent geometric forms on which all other icons are based. Don’t skew or distort the forms.</p>
+                    <h2><strong>视觉修正</strong></h2>
+                    <p>在极端情况下，需要进行细微的调整以保证图标的可读性。当出现不可避免的复杂细节时，需要对标准做一些调整。</p>
+                    <p>如果需要进行视觉修正，应该使用基本的几何形态。不要倾斜或扭曲这些形态。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1454,8 +1454,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Complex</p>
-                        <p>The paperclip icon in this example is only using 1.5dp of the possible 2dp stroke area to fit multiple curves within the 24 x 24dp icon space.</p>
+                        <p>复杂</p>
+                        <p>此示例中，回形针图标仅用了原本 2dp 的笔画区域中的 1.5dp，以便在 24 x 24dp 的空间内适应多个弯角。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1465,17 +1465,17 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p> Small scale</p>
-                        <p>The microphone icon in this example is using a 1.5dp stroke to indicate microphone sound waves within the 24 x 24dp icon space.</p>
+                        <p>缩小比例</p>
+                        <p>此示例中，麦克风图标使用 1.5dp 的笔画来表示 24 x 24dp 的空间内的麦克风声波。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Clearance</strong></h2>
-                    <p>Adequate space around the icon is needed to allow for legibility and touch.</p>
-                    <p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts. </p>
+                    <h2><strong>间隙</strong></h2>
+                    <p>需要在图标周围留有足够的空间，以增加可读性和增加触摸范围。</p>
+                    <p>当键盘和鼠标为主要输入方式时，可以压缩尺寸以适应更紧凑的布局。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1483,9 +1483,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_area.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Clearance area</p>
-                        <p>Icon: 24dp<br>
-                          Touch target: 48dp</p>
+                        <p>间隙区域</p>
+                        <p>图标：24dp<br>
+                          触摸范围：48dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -1493,9 +1493,9 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Clearance area for dense icons</p>
-                        <p>Icon: 20dp<br>
-                          Touch target: 40dp</p>
+                        <p>紧凑型图标的间隙区域</p>
+                        <p>图标：20dp<br>
+                          触摸区域：40dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1505,7 +1505,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Placement</p>
+                        <p>放置</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1514,8 +1514,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Best practices</h1>
-                    <p>Consistency aids user comprehension of icons. Use the existing system icons whenever possible and across different applications.</p>
+                    <h1>最佳实践</h1>
+                    <p>保持一致性有助于用户理解图标。在不同的应用中都尽可能使用已有的系统图标。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1524,7 +1524,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use consistent stroke weights and squared stroke terminals.</p>
+                        <p>使用一致的笔画粗细和方形的笔画末端。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1535,7 +1535,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use inconsistent stroke weights or rounded stroke terminals.</p>
+                        <p>不要使用不一致的笔画粗细或圆形的笔画末端。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1549,7 +1549,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do make icons appear front-facing and sturdy.</p>
+                        <p>显示图标的正前方，使其显得更稳固。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1560,7 +1560,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t tilt, rotate, or make icons appear dimensional.</p>
+                        <p>不要倾斜、旋转、或使图标看起来很立体。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1574,7 +1574,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do simplify icons for greater clarity and legibility.</p>
+                        <p>简化图标以提高清晰度和可读性。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1585,7 +1585,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t be overly literal. Avoid complex icons.</p>
+                        <p>不要过度拟物化。避免复杂的图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1599,7 +1599,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do make icons graphic and bold.</p>
+                        <p>图标要生动大胆。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1610,7 +1610,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use delicate, thin stroke weights.</p>
+                        <p>不要使用柔和、纤细的笔画。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1624,7 +1624,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use geometric, consistent shapes.</p>
+                        <p>使用一致的几何形状。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1635,7 +1635,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use gestural or loose organic shapes.</p>
+                        <p>不要使用手势或松散的几何形状。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1649,8 +1649,8 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do position icons “on pixel” – meaning the X and Y coordinates are integers and do not contain decimals. </p>
-                        <p>Icons should have equal width and height (e.g. 24x24) to avoid distorting the icon.</p>
+                        <p>图标的位置与像素对齐 – 意味着 X 和 Y 轴的坐标都应该为整数，不出现小数。</p>
+                        <p>图标的宽度和高度应该相等（例如 24x24），避免使图标变形。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1661,8 +1661,8 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t place the icon on a coordinate that is not “on pixel”.</p>
-                        <p>Don’t distort the icon by having unequal width and height values. </p>
+                        <p>不要把图标放在不是整数像素值的坐标上。</p>
+                        <p>不要通过给图标不一样的宽度和高度来扭曲图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1671,13 +1671,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Human iconography</h1>
-                    <h2><strong>Human icon anatomy</strong></h2>
-                    <p>1. Head<br>
-                      2. Neck<br>
-                      3. Upper body<br>
-                      4. Arm<br>
-                      5. Leg</p>
+                    <h1>人物肖像</h1>
+                    <h2><strong>人物图标分解</strong></h2>
+                    <p>1. 头部<br>
+                      2. 颈部<br>
+                      3. 上半身<br>
+                      4. 手臂<br>
+                      5. 腿部</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1685,7 +1685,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full body</p>
+                        <p>全身</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1695,21 +1695,21 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Upper body</p>
+                        <p>上半身</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Form</strong></h2></div>
+                    <h2><strong>构成</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full body example</p>
+                        <p>全身示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1719,7 +1719,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Upper body example</p>
+                        <p>上半身示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1732,7 +1732,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Cropped example</p>
+                        <p>有边框的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1742,21 +1742,21 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Detailed parts example</p>
+                        <p>肢体细节示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Full body</strong></h2></div>
+                    <h2><strong>全身</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Full body examples</p>
+                        <p>全身示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1776,14 +1776,14 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Visual Alignment</p>
+                        <p>视觉对齐</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Upper body</strong></h2>
+                    <h2><strong>上半身</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1791,7 +1791,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Upper body examples</p>
+                        <p>上半身示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1811,14 +1811,14 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Visual Alignment</p>
+                        <p>视觉对齐</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Contained</strong></h2>
+                    <h2><strong>包含着的</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1826,7 +1826,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Cropped examples</p>
+                        <p>有边框的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1840,14 +1840,14 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Detailed parts</strong></h2></div>
+                    <h2><strong>肢体细节</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Detailed part examples</p>
+                        <p>肢体细节示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1861,7 +1861,7 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Human icon rules</strong></h2>
+                    <h2><strong>人物图标规范</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1870,7 +1870,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use consistent stroke weights and squared arm/leg terminals.</p>
+                        <p>使用一致的笔画粗细，以及在手臂/腿部末端使用直角。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1881,7 +1881,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use inconsistent stroke weights nor rounded arms/legs.</p>
+                        <p>不要使用不一致的笔画粗细和圆角的手臂/腿部末端。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1895,7 +1895,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do align elements to simplify the silhouette for clarity.</p>
+                        <p>为了清晰可见，请对齐元素以简化轮廓。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1906,7 +1906,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t crop portions of arms/legs.</p>
+                        <p>不要裁剪手臂/腿的部分</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1920,7 +1920,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do fully embed elements within a shape when contained.</p>
+                        <p>在需要包含时，把元素完全嵌入容器内。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1931,7 +1931,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t break the container’s boundary with elements.</p>
+                        <p>不要让元素破坏容器边界。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1945,7 +1945,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do add human elements when they help amplify the meaning of an icon.</p>
+                        <p>当人物可以帮助增强图标的含义时，请在图标中添加人物。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1956,7 +1956,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t add human elements when they increase the complexity of an icon.</p>
+                        <p>当人物会增加图标的复杂性时，不要添加人物。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1970,7 +1970,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Do use the most simple shapes to represent human characteristics.</p>
+                        <p>使用最简单的形状来表示人物特征。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1981,7 +1981,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t apply human characteristics to inanimate objects.</p>
+                        <p>不要把人物特征应用到一个没有生命的物体中。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1990,9 +1990,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Color</h1>
-                    <p>The standard opacity for an active icon on a light background is 54% (#000000). An inactive icon, which is lower in the visual hierarchy, should have an opacity of 26% (#000000).</p>
-                    <p>The standard opacity for an active icon on a dark background is 100% (#FFFFFF). An inactive icon, which is lower in the visual hierarchy, should have an opacity of 30% (#FFFFFF).</p>
+                    <h1>颜色</h1>
+                    <p>在亮色背景中，被激活的图标的标准不透明度为 54%（#000000）。未激活图标的视觉权重较低，不透明度为 26%（#000000）。</p>
+                    <p>在暗色背景中，被激活的图标的标准不透明度为 100%（#FFFFFF）。未激活的图标的视觉权重较低，不透明度为 30%（#FFFFFF）。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2016,7 +2016,7 @@
 
         <div id="icons-app-shortcut-icons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            App shortcut icons
+            应用的快捷操作图标
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -2028,9 +2028,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>App shortcuts give users quick, easy access to up to four of your app’s actions. Each action can also be added to the home screen. </p>
-                    <p>Shortcut actions are displayed depending upon the location of your app’s icon. For example, app icons near the left edge of the screen will display actions wherever there is available space.</p>
-                    <p>These guidelines will help you create app shortcuts using standard icons, single avatars, and group avatars.</p>
+                    <p>应用的快捷操作可以让用户轻松快速的访问应用的操作（最多 4 个）。每个操作也都可以添加到主屏幕上。</p>
+                    <p>根据应用图标的位置来显示快捷操作。例如，当图标在屏幕的左侧边缘时，快捷操作会从其他有足够空间的地方显示出来。</p>
+                    <p>以下指南将帮助你使用标准图标、单个头像和群组头像创建应用的快捷操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2038,7 +2038,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Four shortcuts maximum may be shown at once. You may determine the order of the shortcuts. </p>
+                        <p>每次最多显示 4 个快捷操作。你可以自己定义快捷操作的顺序。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2047,18 +2047,18 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Shortcut icon </h1>
-                    <p>App shortcut icons are circular. They contain a standard system icon, or at least one avatar. Icon content must remain inside of the trim area (the total area of the graphic). </p>
-                    <p><strong>Sizing</strong><strong> </strong></p>
+                    <h1>快捷操作图标</h1>
+                    <p>快捷操作的图标是圆形的。它包含一个标准的系统图标，或者至少一个头像。图标的内容应该保持在图标的裁剪区域（图形的整体区域）内。</p>
+                    <p><strong>尺寸</strong><strong> </strong></p>
                     <ul class="lst-kix_9pw8hhcidt6z-0 start">
-                      <li>Live area: 44dp circle</li>
-                      <li>Total area: 48dp circle</li>
+                      <li>安全区域：44dp 的圆形</li>
+                      <li>整体区域：48dp 的圆形</li>
                     </ul>
-                    <p>2dp of padding must surround the 44x44dp live area<br></p>
-                    <p><strong>Color </strong><br>
-                      Live area: Solid fill of Material Grey 100 (#F5F5F5)</p>
-                    <p><strong>Shadow</strong><br>
-                      Shortcut icons do not include shadows</p>
+                    <p>44x44dp 的安全区域周围必须有 2dp 的内边距<br></p>
+                    <p><strong>颜色</strong><br>
+                      安全区域：使用颜色 Material Grey 100（#F5F5F5）填充</p>
+                    <p><strong>阴影</strong><br>
+                      快捷操作图标没有阴影</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2066,8 +2066,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Live area</strong></p>
-                        <p>All icon content should remain in the 44dp live area, with a solid background color fill of Material Grey 100 (or #F5F5F5).</p>
+                        <p><strong>安全区域</strong></p>
+                        <p>所有图标内容应该保持在 44dp 的安全区域内，背景颜色使用 Material Grey 100 （或 #F5F5F5）填充。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2077,8 +2077,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Total area</strong></p>
-                        <p>2dp of padding must surround the live area, making the total icon size 48dp.</p>
+                        <p><strong>整体区域</strong></p>
+                        <p>安全区域周围必须有 2dp 的内边距，使整个图标尺寸为 48dp。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2087,19 +2087,19 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Standard shortcut icons </h1>
-                    <p>Standard shortcut icons have a Material system icon centered within the live area. </p>
-                    <p><strong>Sizing</strong><strong> </strong></p>
+                    <h1>标准的快捷操作图标</h1>
+                    <p>标准的快捷操作图标就是把一个材料系统图标放置在安全区域的中心。 </p>
+                    <p><strong>尺寸</strong><strong> </strong></p>
                     <ul class="lst-kix_4souztdqo3yn-0 start">
-                      <li>Live area: 44dp circle</li>
-                      <li>Total area: 48dp circle</li>
-                      <li>System icon: 24dp</li>
+                      <li>安全区域：44dp 的圆形</li>
+                      <li>整体区域：48dp 的圆形</li>
+                      <li>系统图标：24dp</li>
                     </ul>
-                    <p><strong>Color </strong><br>
-                      The system icon should have the same color as the app’s primary color or app icon (with enough contrast against the circular background).</p>
-                    <p><strong>File format</strong><br>
-                      Standard icons should be provided in SVG, which allows icons to be scaled automatically. You may also use vector drawables, tinted bitmaps, or <a href="https://www.google.com/url?q=https://developer.android.com/guide/topics/resources/drawable-resource.html%23LayerList&amp;sa=D&amp;ust=1481817966791000&amp;usg=AFQjCNFL2E3DG69vOuZ743mYbT7t1NgaaQ" target="_blank">layer lists</a>.</p>
-                    <p>Do not use non-vector drawables, as they have specific dimensions that do not scale in this context.</p>
+                    <p><strong>颜色</strong><br>
+                      系统图标的颜色应该和应用的主色或应用的图标颜色保持一致（和圆形背景有足够的对比度）。</p>
+                    <p><strong>文件格式</strong><br>
+                      标准的图标应该以 SVG 格式提供，这个格式使图标可以自由缩放。你也可以使用矢量图、位图或<a href="https://www.google.com/url?q=https://developer.android.com/guide/topics/resources/drawable-resource.html%23LayerList&amp;sa=D&amp;ust=1481817966791000&amp;usg=AFQjCNFL2E3DG69vOuZ743mYbT7t1NgaaQ" target="_blank">图层列表</a>。</p>
+                    <p>不要使用非矢量图形，因为它们有特定的尺寸，无法进行缩放。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2107,8 +2107,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>System icon size</strong></p>
-                        <p>The system icon should have equal width and height: 24x24dp.</p>
+                        <p><strong>系统图标尺寸</strong></p>
+                        <p>系统图标应该有相同的宽度和高度：24x24dp.</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2118,8 +2118,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Position in live area circle</strong></p>
-                        <p>The 24dp icon should be centered vertically and horizontally within the live area circle.</p>
+                        <p><strong>在圆形安全区域中的位置</strong></p>
+                        <p>24dp 的图标应该在圆形安全区域中垂直水平居中对齐。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2133,7 +2133,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The color of the icon should have enough contrast against the Material Grey 100 background.</p>
+                        <p>图标的颜色需要和 Material Grey 100 的背景色有足够的对比度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2144,7 +2144,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use colors with insufficient contrast against the grey background.</p>
+                        <p>不要使用和灰色背景没有足够对比度的颜色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2153,16 +2153,16 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Single avatars</h1>
-                    <p>Single avatars contain one image. They must be created at XXXHPDI.</p>
-                    <p><strong>Sizing</strong></p>
+                    <h1>单个头像</h1>
+                    <p>单个头像包含一张图片。该图片必须在 XXXHPDI 中创建。</p>
+                    <p><strong>尺寸</strong></p>
                     <ul class="lst-kix_mli9vg446oco-0 start">
-                      <li>Live area: 44dp circle</li>
-                      <li>Avatar area: 44dp circle</li>
-                      <li>Total area: 48dp circle</li>
+                      <li>安全区域：44dp 的圆形</li>
+                      <li>头像区域：44dp 的圆形</li>
+                      <li>整体区域：48dp 的圆形</li>
                     </ul>
-                    <p><strong>File format</strong><br>
-                      Provide PNG files at all densities.</p>
+                    <p><strong>文件格式</strong><br>
+                      任何时候都使用 PNG 格式的图片。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2170,8 +2170,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Live area circle</strong><strong> &amp; avatar area</strong></p>
-                        <p>The avatar should fill the entire live area circle. These assets must be created in XXXHPDI.</p>
+                        <p><strong>圆形的安全区域</strong><strong> &amp; 头像区域</strong></p>
+                        <p>头像应该填满整个圆形安全区域。这些图片必须在 XXXHPDI 中创建。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2181,8 +2181,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Total area</strong></p>
-                        <p>2dp of padding must surround the 44dp live area circle for a total area of 48dp.</p>
+                        <p><strong>整体区域</strong></p>
+                        <p>44dp 的安全区域周围必须有 2dp 的内边距，且整体区域为 48dp。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2191,18 +2191,18 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Group avatars</h1>
-                    <p>Group avatars contain 2-4 images on a circular background. They must be created at XXXHPDI.</p>
-                    <p><strong>Sizing </strong></p>
+                    <h1>群组头像</h1>
+                    <p>群组头像在圆形背景中包含 2-4 张图片。这些图片必须在 XXXHPDI 中创建。</p>
+                    <p><strong>尺寸</strong></p>
                     <ul class="lst-kix_d552qeuwewi9-0 start">
-                      <li>Live area: 44dp circle</li>
-                      <li>Avatar area: 30dp</li>
-                      <li>Total area: 48dp</li>
+                      <li>安全区域：44dp 的圆形</li>
+                      <li>头像区域：30dp</li>
+                      <li>整体区域：48dp</li>
                     </ul>
-                    <p><strong>Color</strong><br>
-                      Live area: Solid fill Material Grey 100 (#F5F5F5)</p>
-                    <p><strong>File format<br>
-                    </strong>Provide PNG files at all densities.</p>
+                    <p><strong>颜色</strong><br>
+                      安全区域：使用颜色 Material Grey 100（#F5F5F5）填充</p>
+                    <p><strong>文件格式<br>
+                    </strong>任何时候都使用 PNG 格式的图片。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2210,8 +2210,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Live area circle</strong></p>
-                        <p>The live area circle should have a color fill of Material Grey 100 (#F5F5F5).</p>
+                        <p><strong>圆形的安全区域</strong></p>
+                        <p>圆形安全区域的背景色为 Material Grey 100 （#F5F5F5）。</p>
                         <p></p>
                         <p></p>
                       </figcaption>
@@ -2223,8 +2223,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Avatar area</strong></p>
-                        <p>Avatars must fit within the 30x30 dp space and be centered, vertically and horizontally, within the live area.</p>
+                        <p><strong>头像区域</strong></p>
+                        <p>头像必须适配 30x30dp 的空间，并且在安全区域内垂直水平居中。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2237,8 +2237,8 @@
                         <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Total area</strong></p>
-                        <p>2dp of padding must surround the 44dp live area for a total area of 48dp.</p>
+                        <p><strong>整体区域</strong></p>
+                        <p>44dp 的安全区域周围必须有 2dp 的内边距，且整体区域为 48dp。</p>
                       </figcaption>
                     </figure>
                   </div>
