@@ -131,7 +131,7 @@
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p>一个例外是，当某人对用用户执行操作时，例如审核申请或回应建议。这里，使用 “我们” 是恰当的。</p>
+                    <p>一个例外是，当某人对用户执行操作时，例如审核申请或回应建议。这里，使用 “我们” 是恰当的。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -492,7 +492,7 @@
 
         <div id="writing-tone" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Tone
+            语气
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -504,20 +504,20 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be friendly, respectful, and focus on the user</h1>
-                    <p>Your app’s text should complement its design: intuitive, efficient, casual, and trustworthy. </p>
+                    <h1>友好、尊重、并专注于用户</h1>
+                    <p>你的应用的文本应该是设计的补充：直观、高效、轻松、可靠。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p><strong>MyApp isn’t responding <br>
-                        </strong>Do you want to close it?</p>
+                      <p><strong>MyApp 没有响应<br>
+                        </strong>你想要关闭它吗？</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p><strong>Sorry! <br>
-                        </strong>Activity in MyAppActivity (in the MyApp app) is not responding</p>
+                      <p><strong>抱歉！<br>
+                        </strong>MyAppActivity（在 MyApp 中）的活动没有响应</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -526,18 +526,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be humble</h1>
-                    <p>Reveal what a feature does, without bragging or over-promising.</p>
+                    <h1>保持谦逊</h1>
+                    <p>真实的描述功能，不要吹牛或过度承诺。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>All your savings in one place</p>
+                      <p>你的所有资料都存储在一个地方</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Great deals at places you’ll love</p>
+                      <p>你一定会爱上这聪明绝顶的想法</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -546,13 +546,13 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>More restaurant reviews</p>
+                      <p>更多餐厅点评</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>All restaurant reviews</p>
+                      <p>所有餐厅点评</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -561,18 +561,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be inviting</h1>
-                    <p>Focus on the benefits of each feature. Omit implementation details, caveats, and restrictions when features are introduced.</p>
+                    <h1>吸引人的</h1>
+                    <p>聚焦于每个功能的好处。在介绍功能时，省略功能的执行细节、注意事项和限制。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>To save power, switch Location mode to Battery saving mode</p>
+                      <p>为了节省电量，请将定位模式切换到省电模式</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Manually control GPS to prevent other apps from using it</p>
+                      <p>手动控制 GPS，以防止其他应用使用它</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -581,18 +581,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be positive</h1>
-                    <p>Present information in a positive light: it’s reassuring. </p>
+                    <h1>积极的</h1>
+                    <p>以积极的态度来呈现信息：让用户安心。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Use 24 characters or fewer for file names</p>
+                      <p>使用不多于 24 个字符来命名文件</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Your file name must be less than 25 characters</p>
+                      <p>你的文件名必须少于 25 个字符</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -601,13 +601,13 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Try again</p>
+                      <p>再试一次</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>The action failed</p>
+                      <p>操作失败</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -616,20 +616,20 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be essential</h1>
-                    <p>Communicate essential details, so that users can focus on their own tasks. Sometimes the most effective UI contains no text at all.</p>
+                    <h1>必不可少的</h1>
+                    <p>仅展示必要的细节，使用户可以专注于他们自己的任务。有时候最高效的 UI 根本不包含文字。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p><strong>Signing in... <br>
-                        </strong>Your phone is contacting Google. This can take up to five minutes.</p>
+                      <p><strong>正在登录... <br>
+                        </strong>你的手机正在连接到 Google。这大概需要五分钟。</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p><strong>Signing in... <br>
-                        </strong>Your phone needs to communicate with Google servers to sign in to your account. This may take up to five minutes.</p>
+                      <p><strong>正在登录... <br>
+                        </strong>你的手机需要与 Google 服务器通信才能登录账户。这大概需要五分钟。</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -641,7 +641,7 @@
 
         <div id="writing-capitalization-punctuation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Capitalization &amp; punctuation
+            大小写 &amp; 标点符号
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -653,9 +653,9 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Use sentence-style caps </h1>
-                    <p>Use sentence-style caps for all titles, headings, labels, menu items – any place that considered for “Title-Style Caps.” </p>
-                    <p>Avoid capitalizing all letters except where the material spec requires them, such as the Button style.</p>
+                    <h1>使用句式的大小写</h1>
+                    <p>所有的标题、标签、菜单项都使用句式大小写 – 其他地方则考虑使用 “标题式大小写” 。</p>
+                    <p>除了材料规范的需要之外（例如按钮样式），避免所有字母都用大写。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -684,45 +684,45 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Skip periods and other unnecessary punctuation </h1>
-                    <p>To help readers scan text at a glance, avoid using periods and other unnecessary punctuation.</p>
+                    <h1>省略句号和其他不必要的标点符号</h1>
+                    <p>为了帮助读者快速扫视文本，避免使用句号和其他不必要的标点符号。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Periods</strong>
+                    <p><strong>句号</strong>
                     </p>
-                    <p>Avoid using periods in solitary sentences in these elements: </p>
+                    <p>避免在这些元素中使用句号：</p>
                     <ul class="lst-kix_twtxrzb60awk-0 start">
-                      <li>Labels</li>
-                      <li>Hover text</li>
-                      <li>Bulleted lists</li>
-                      <li>Dialog body text</li>
+                      <li>标签</li>
+                      <li>悬浮文本</li>
+                      <li>项目列表</li>
+                      <li>对话框正文</li>
                     </ul>
-                    <p>Periods should be used for:</p>
+                    <p>句号应该用于：</p>
                     <ul class="lst-kix_qvj10667l85r-0 start">
-                      <li>Lists or dialogs with multiple sentences</li>
-                      <li>Any sentence followed by a link</li>
+                      <li>有多个句子的列表或对话框中</li>
+                      <li>超链接之前的句子</li>
                     </ul>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Share your photos with friends. <a href="writing.html#capitalization-punctuation">Learn more</a></p>
+                      <p>和你的朋友分享照片。<a href="writing.html#capitalization-punctuation">了解更多</a></p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>Place periods after sentences followed by a link.</p>
+                      <p>超链接之前的句子要使用句号。</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Share your photos with friends. <a href="writing.html#capitalization-punctuation">Learn more</a>.</p>
+                      <p>和你的朋友分享照片。<a href="writing.html#capitalization-punctuation">了解更多</a>。</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>Sentences followed by a link should place the period before the link, not after.</p>
+                      <p>句子后面跟着一个超链接时，应该把句号放在超链接之前，而不是之后。</p>
                     </figcaption>
                   </div>
                 </section>
@@ -730,7 +730,7 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>To narrow your targeting from all countries and territories, add a location</p>
+                      <p>要从所有国家和地区中缩小目标，请添加位置。</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
@@ -739,41 +739,41 @@
                 <section class="module-module-module col-3">
                   <div class="module"></div>
                   <div class="module">
-                    <p><strong>Undo bulk edit?</strong>
+                    <p><strong>撤销批量更改？</strong>
                     </p>
                     <div class="text-box">
-                      <p>If you undo this bulk edit, everything you changed will go back to its previous state</p>
+                      <p>如果撤销批量更改，你所做的更改会全部恢复到之前的状态</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>Skip periods after solo sentences of body text.</p>
+                      <p>忽略只有一句话的正文的结尾句号。</p>
                     </figcaption>
                   </div>
                   <div class="module">
-                    <p><strong>Undo bulk edit?</strong></p>
+                    <p><strong>撤销批量更改？</strong></p>
                     <div class="text-box">
-                      <p>If you undo this bulk edit, everything you changed will go back to its previous state.</p>
+                      <p>如果撤销批量更改，你所做的更改会全部恢复到之前的状态。</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>Don’t place periods after body text if there is only a single sentence present.</p>
+                      <p>不要在只有一句话的正文结尾添加句号。</p>
                     </figcaption>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Colons</strong></p>
-                    <p>Skip colons after labels. </p>
+                    <p><strong>冒号</strong></p>
+                    <p>省略标签后面的冒号。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Share with</p>
+                      <p>分享给</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Share with:</p>
+                      <p>分享给：</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -782,8 +782,8 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Use contractions </h1>
-                    <p>Don't make a sentence harder to understand just to follow this rule. For example, "do not" can give more emphasis than "don't" when needed.</p>
+                    <h1>使用缩写</h1>
+                    <p>不要为了遵循这个规则而让句子变的难懂。例如，当需要表示强调时， “do not” 比 “don't” 更好。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -802,18 +802,18 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Avoid exclamation points </h1>
-                    <p>Avoid exclamation points: they tend to come across as shouting. Some exceptions include greetings or congratulatory messages.</p>
+                    <h1>避免使用感叹号</h1>
+                    <p>避免使用感叹号：感叹号给人大喊大叫的感觉。但也有一些例外，包括问候或者贺词。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Welcome!</p>
+                      <p>欢迎！</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Learn about the new features of Calendar!</p>
+                      <p>了解更多日历的新功能！</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -822,7 +822,7 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Good job!</p>
+                      <p>干的漂亮！</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
@@ -832,19 +832,19 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>“1, 2, 3” not “one, two, three” </h1>
-                    <p>Use numerals in place of words for numbers. </p>
-                    <p>One exception is when mixing uses of numbers, such as "Enter two 3s."</p>
+                    <h1>使用 “1、2、3”，不要用 “一、二、三” </h1>
+                    <p>使用数字来代替汉字。</p>
+                    <p>有一个例外是需要混合使用多个数字时，例如 “输入两个 3s”。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>You have 3 messages</p>
+                      <p>你有 3 条消息</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>You have three messages</p>
+                      <p>你有三条消息</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
@@ -852,9 +852,9 @@
               </div>
               <div class="col-list">
                 <section class="module-module col-2">
-                  <div class="module"><h1>Punctuation</h1>
-                    <p>Omit punctuation after phrases and labels to create a cleaner and more readable interface.</p>
-                    <p>Use punctuation to add clarity or be grammatically correct.</p>
+                  <div class="module"><h1>标点符号</h1>
+                    <p>省略短语和标签后的标点符号，以创建更干净、更易读的界面。</p>
+                    <p>使用标点符号来保证句意清晰和语法正确。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
@@ -862,51 +862,51 @@
                       <tr>
                         <td colspan="1" rowspan="1">
                         </td>
-                        <td colspan="1" rowspan="1"><p>Glyph/character</p></td>
-                        <td colspan="1" rowspan="1"><p>HTML entity</p></td>
+                        <td colspan="1" rowspan="1"><p>符号/字符</p></td>
+                        <td colspan="1" rowspan="1"><p>HTML 实体字符</p></td>
                         <td colspan="1" rowspan="1"><p>Unicode</p></td>
-                        <td colspan="1" rowspan="1"><p>Description</p></td>
+                        <td colspan="1" rowspan="1"><p>描述</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Periods</p></td>
+                        <td colspan="1" rowspan="1"><p>句号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>.</strong></p></td>
                         <td colspan="1" rowspan="1">
                         </td>
                         <td colspan="1" rowspan="1">
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Omit for fragments and single sentences in affordances like toasts, snackbars, and labels. Do punctuate full sentences in body text, for example, in the body of dialogs. </p>
-                          <p>Place inside quotation marks (unless you’re telling the reader what to enter and it’s ambiguous whether to include the period). </p>
+                          <p>在文本片段或单个句子中可以省略，例如在 toasts、snackbars 和标签中。为大段正文中的句子添加句号，例如对话框中的正文。</p>
+                          <p>放置在引号内（除非在告诉用户要输入什么，且不明确是否要包含句号）。</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Commas</p></td>
+                        <td colspan="1" rowspan="1"><p>逗号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>,</strong></p></td>
                         <td colspan="1" rowspan="1">
                         </td>
                         <td colspan="1" rowspan="1">
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Place inside of quotation marks.</p>
-                          <p>Use the serial comma, except when using an ampersand (&amp;) in a list of three or more items, such as “you, me &amp; my dog.”</p>
+                          <p>放置在引号内。</p>
+                          <p>在有 3 个或更多项目的列表中使用连续的逗号分隔。但使用了 &amp; 符号的除外，例如 “you, me &amp; my dog.”</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Exclamation points</p></td>
+                        <td colspan="1" rowspan="1"><p>感叹号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>!</strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
-                        <td colspan="1" rowspan="1"><p>Avoid exclamation points as they may come across as shouting in most cases.</p></td>
+                        <td colspan="1" rowspan="1"><p>避免使用感叹号，因为它在大多数情况下会给人一种大喊大叫的感觉。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Colons</p></td>
+                        <td colspan="1" rowspan="1"><p>冒号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>: </strong></p></td>
                         <td colspan="1" rowspan="1"><p>&amp;#58;</p></td>
                         <td colspan="1" rowspan="1"><p>\u003A</p></td>
-                        <td colspan="1" rowspan="1"><p>Omit from labels, for example, in the labels for fields in a form.</p></td>
+                        <td colspan="1" rowspan="1"><p>省略标签后面的冒号，例如，表单中文本框的标签。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Quotation marks</p><p></p></td>
+                        <td colspan="1" rowspan="1"><p>引号</p><p></p></td>
                         <td colspan="1" rowspan="1">
                           <p>“ </p>
                           <p>” </p>
@@ -923,13 +923,13 @@
                           <p>\u2018</p>
                           <p>\u2019</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>Use real quotation marks, not the inch and foot symbols.</p>
-                          <p>The right single quotation mark symbol is also used for apostrophes.</p>
-                          <p>Never use the generic quotes ", ' or free-standing accents `, ´ (\u0022, \u0027, \u0060, \u00B4). These are never right for quotation marks, apostrophes, or primes.</p>
+                          <p>使用正确的引号，而不是英寸或英尺符号。</p>
+                          <p>右单引号也用于表示撇号。</p>
+                          <p>不要使用通用引号 " 或 ' ，或是单独的声标 ` 或 ´ （\u0022、\u0027、\u0060、\u00B4）。这些不是正确的引号、撇号或重音符号。</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Primes</p></td>
+                        <td colspan="1" rowspan="1"><p>撇号</p></td>
                         <td colspan="1" rowspan="1"><p>′</p></td>
                         <td colspan="1" rowspan="1">
                           <p>&amp;prime;</p>
@@ -940,25 +940,25 @@
                           <p>\u2033</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Use prime (′) only in abbreviations for feet, arcminutes, and minutes. For example: 3° 15′</p>
-                          <p>Use double-prime (″) only in abbreviations for inches, arcminutes, and minutes. For example: 3° 15′ 35″</p>
-                          <p>Don’t use generic quotes ", ' or free-standing accents `, ´ for primes.</p>
+                          <p>仅在英寸、角分、分钟的缩写中使用撇号（′）。例如：3° 15′</p>
+                          <p>仅在英寸、角分、分钟的缩写中使用双撇号（″）。例如：3° 15′ 35″</p>
+                          <p>不要使用通用的引号 " 或 ' 或单独的声标 ` 或 ´ 来代替撇号。</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Ellipses </p></td>
+                        <td colspan="1" rowspan="1"><p>省略号</p></td>
                         <td colspan="1" rowspan="1"><p><strong> … </strong></p></td>
                         <td colspan="1" rowspan="1"><p>&amp;hellip;</p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1">
-                          <p>Use to indicate an action in progress ("Downloading…") or incomplete or truncated text. No space before the ellipses.</p>
-                          <p>Omit from menu items or buttons that open a dialog or start some other process.</p>
-                          <p>Midline ellipses (three-bullet glyphs) are also used to represent numeric truncation and the redaction of sensitive data, such as credit cards.</p>
-                          <p>OS keystroke: Option-;</p>
+                          <p>用于指示正在进行中的操作（"Downloading…"）或者省略或裁剪的文本。省略号前没有空格。</p>
+                          <p>忽略用于打开一个对话框或者开始一些其他操作的菜单或按钮中的省略号。</p>
+                          <p>文本中间的省略号（三个点号）也用于表示数字截断，或用于遮挡敏感信息，比如信用卡信息。</p>
+                          <p>系统按键：Option-;</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Double angle brackets</p></td>
+                        <td colspan="1" rowspan="1"><p>双尖括号</p></td>
                         <td colspan="1" rowspan="1">
                           <p> &gt;&gt; </p>
                           <p>&lt;&lt;<strong> </strong></p>
@@ -971,57 +971,57 @@
                           <p>\u00AB</p>
                           <p>\u00BB</p>
                         </td>
-                        <td colspan="1" rowspan="1"><p>Omit from links or buttons that open another page or move to the next or previous step in a process.</p></td>
+                        <td colspan="1" rowspan="1"><p>忽略会打开页面或进入下一步/上一步的链接或按钮中的尖括号。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Em dash</p><p></p></td>
+                        <td colspan="1" rowspan="1"><p>长破折号</p><p></p></td>
                         <td colspan="1" rowspan="1"><p><strong>— </strong></p></td>
                         <td colspan="1" rowspan="1"><p>&amp;mdash;</p></td>
                         <td colspan="1" rowspan="1"><p>\u2014</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>Avoid using em dashes. Use en dashes instead. </p>
-                          <p>OS keystroke: Shift+Option -</p>
+                          <p>避免使用长破折号，使用短破折号代替。</p>
+                          <p>系统按键：Shift+Option -</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>En dash </p></td>
+                        <td colspan="1" rowspan="1"><p>短破折号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>– </strong></p></td>
                         <td colspan="1" rowspan="1"><p>&amp;ndash;</p></td>
                         <td colspan="1" rowspan="1"><p>\u2013</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>Use an en dash instead of a hyphen to indicate a range, without spaces (in English). </p>
-                          <p>Avoid using dashes to separate text. If you must use dashes for this purpose – like this – use an en dash surrounded by spaces.</p>
-                          <p>Example of use with a range:<br>
+                          <p>使用短破折号而不是连字符来表示范围，在英文中不需要添加空格。</p>
+                          <p>避免使用短破折号来分隔文字。如果非用不可 – 像这样 – 在短破折号前后加上空格。</p>
+                          <p>用短破折号表示范围的示例：<br>
                             8:00 AM–12:30 PM<br>
                             3–5 kg</p>
-                          <p>OS keystroke: Option+ -</p>
+                          <p>系统按键：Option+ -</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Hyphen</p></td>
+                        <td colspan="1" rowspan="1"><p>连字符</p></td>
                         <td colspan="1" rowspan="1"><p><strong>- </strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1">
-                          <p>Use hyphens to represent negative numbers.</p>
-                          <p>For example:<br>
+                          <p>用连字符来表示负数。</p>
+                          <p>例如：<br>
                             -5<br>
                             -$100</p>
-                          <p>Use hyphens to avoid ambiguity in adjective-noun or noun-participle pairs. </p>
-                          <p>For example:<br>
+                          <p>使用连字符来避免 “形容词-名词” 或 “名词-形容词” 中的歧义。</p>
+                          <p>例如：<br>
                             anti-inflammatory<br>
                             5-mile walk</p>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Parentheses</p></td>
+                        <td colspan="1" rowspan="1"><p>圆括号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>( )</strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1">
-                          <p>Use parentheses only to define acronyms or jargon.</p>
-                          <p>For example:<br>
-                            “Secure web connections are based on a technology called SSL (the secure sockets layer).”
+                          <p>仅在定义首字母缩写或术语时使用圆括号。</p>
+                          <p>例如：<br>
+                            “安全网页连接是一种基于 SSL（secure sockets layer）的技术。”
                           </p>
                         </td>
                       </tr>
@@ -1036,7 +1036,7 @@
 
         <div id="writing-global-writing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Global writing
+            国际化书写
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1048,7 +1048,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>People of all ages, cultures, and education levels rely on the English versions of products. Simple, clear English makes it easy for anyone to understand your product.</p>
+                    <p>所有年龄、文化和教育水平的用户都可能使用英文版的产品。简单明了的英文能使任何人都能轻松了解你的产品。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1056,7 +1056,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of Japanese writing</p>
+                        <p>日文书写示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1066,7 +1066,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of Thai writing</p>
+                        <p>泰文书写示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1075,8 +1075,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Be aware of using terms like “left” and “right” in RTL languages </h1>
-                    <p>Interfaces for languages with right-to-left scripts may be <a href="../usability/bidirectionality.html#bidirectionality-ui-mirroring-overview">mirrored</a> when a product is localized. </p>
+                    <h1>在 RTL 语言中，谨慎使用 “左” 和 “右” 这类术语</h1>
+                    <p>在本地化时，从右到左语言的界面可能需要<a href="../usability/bidirectionality.html#bidirectionality-ui-mirroring-overview">镜像化</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1084,7 +1084,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>In this example of a right-to-left (RTL) interface in Arabic, the interface is mirrored relative to English.</p>
+                        <p>在这个例子中，从右到左语言（RTL）的阿拉伯文界面，是根据英文版界面做了镜像处理的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1094,7 +1094,7 @@
                         <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a left-to-right (LTR) interface in English</p>
+                        <p>英文界面的从左到右（LTR）的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1103,12 +1103,12 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Specifying gender</h1>
-                    <p>Sometimes the gender of the user isn’t known. In English, the gender-neutral word "they" may be used in this case. But many languages refer to gender in different ways.</p>
-                    <p>When referring to gender in your app:</p>
+                    <h1>指定性别</h1>
+                    <p>有时用户的性别是未知的。在英文中，这种情况下可以使用不分性别的文字 “they” 。但是很多语言需要以不同的方式来表示性别。</p>
+                    <p>当在应用中涉及性别时：</p>
                     <ul class="lst-kix_ovfpjraz8txh-0 start">
-                      <li>Don't combine gender options, such as "his/her" or "she/he.”</li>
-                      <li>If a specific gender is required, such as text referring to a person’s name, provide clear translation instructions and use the International Components for Unicode (ICU) APIs or equivalent libraries.</li>
+                      <li>不要合并性别，例如使用 “他/她” 。</li>
+                      <li>如果必须指明性别，例如引用某人的姓名时，可以使用 Components for Unicode (ICU) 的 API 或等效的软件库来提供准确的翻译说明。</li>
                     </ul>
                   </div>
                   <div class="module"></div>
