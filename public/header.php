@@ -5,7 +5,7 @@
   <link href="<?php url('static/css/main.min.css'); ?>" rel="stylesheet">
   <link href="<?php url('static/css/fonts.css'); ?>" rel="stylesheet">
   <meta name="viewport" content="initial-scale=1, width=device-width">
-  <title><?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 中文文档，指南，翻译</title>
+  <title><?php echo $vars['title'] ? $vars['title'].' - ' : ''; ?><?php echo $vars['category'] ? $vars['category'].' - ' : ''; ?>Material design 中文文档，指南，翻译</title>
   <meta itemprop="name" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 指南">
   <meta itemprop="image" content="<?php url('static/media/public/share.png') ?>">
   <meta property="og:type" content="article">
@@ -47,7 +47,7 @@
   <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
     <div class="header-title">
       <span class="section-title"><?php echo $vars['category']; ?></span>
-      <span class="chapter-title"><span class="title-separator">–</span> <?php echo $vars['title']; ?></span>
+      <span class="chapter-title"><?php echo $vars['title'] ? '<span class="title-separator">–</span> '.$vars['title'] : ''; ?></span>
     </div>
   </div>
 </header>

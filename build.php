@@ -54,11 +54,11 @@ class Nav
         // 首页
         $nav_tmp[] = array(
             'folder' => '',
-            'category' => 'Material design',
+            'category' => '',
             'theme_color' => '#00bcd4',
             'color_name' => 'cyan',
             'file' => 'index',
-            'title' => '概述'
+            'title' => ''
         );
 
         foreach ($this->original as $key => $val) {
