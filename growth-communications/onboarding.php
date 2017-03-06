@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>入门是一种真正的开箱体验，以帮助用户开始使用应用。它应该简短，并能促进用户使用应用。</p>
+          <p>入门是一种虚拟的开箱体验，以帮助用户开始使用应用的 UI。它应该简短，并能促进用户使用应用。</p>
         </div>
       </div>
 
@@ -29,7 +29,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-quickstart" data-qp-ui-data-id="qp:4">快速开始</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-top-user-benefits" data-qp-ui-data-id="qp:5">Top User Benefits</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-top-user-benefits" data-qp-ui-data-id="qp:5">最大优势</a>
           </li>
         </ul>
       </nav>
@@ -96,10 +96,10 @@
           <div class="article-content">
             <div><p>入门是漫长旅程中的一个点，从应用商店开始，结束于：</p>
               <ul class="lst-kix_51ddxjjk56ls-0 start">
-                <li>首次运行体验（FRE），或者</li>
-                <li>用户的首次使用体验</li>
+                <li>首次运行（FRE），或者</li>
+                <li>用户的首次使用</li>
               </ul>
-              <p>在设计你的入门时，要考虑在入门之前的界面和入门之后的界面。</p>
+              <p>在设计入门时，需要考虑入门之前的界面和入门之后的界面。</p>
               <div class="col-list">
                 <section class="figure col-1">
                   <div class="figure">
@@ -124,7 +124,7 @@
                       </div>
                       <figcaption>
                         <p>1. <a href="onboarding.html#onboarding-self-select">自选</a></p>
-                        <p>允许用户自定义其体验。</p>
+                        <p>允许用户自定义他们的体验。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -145,8 +145,8 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>3. <a href="onboarding.html#onboarding-top-user-benefits">Top User Benefits</a></p>
-                        <p>显示一个简短的自动轮播（或动画），突出应用的多达三个的好处。</p>
+                        <p>3. <a href="onboarding.html#onboarding-top-user-benefits">最大优势</a></p>
+                        <p>显示一个简短的自动轮播（或动画），突出应用的最多三个优势。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -169,7 +169,7 @@
                           <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-quickstart&amp;sa=D&amp;ust=1481818000040000&amp;usg=AFQjCNFFoYK6pAQhnYR99IU1sXUyVmCW0g" target="_blank">快速开始</a></p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-top-user-benefits&amp;sa=D&amp;ust=1481818000042000&amp;usg=AFQjCNEzyXKFkOPbXV-xnXLgP-z4f4cFgQ" target="_blank">Top User Benefits</a></p>
+                          <p><a href="https://www.google.com/url?q=https://www.google.com/design/spec/growth-communications/onboarding.html%23onboarding-top-user-benefits&amp;sa=D&amp;ust=1481818000042000&amp;usg=AFQjCNEzyXKFkOPbXV-xnXLgP-z4f4cFgQ" target="_blank">最大优势</a></p>
                         </td>
                       </tr>
                       <tr>
@@ -183,12 +183,12 @@
                           </ul>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>You’ve already identified the behaviors that correspond to increased engagement (in the first session) or increased retention (in the first seven days)</p>
+                          <p>你已经确定了此行为可以增加用户的交互（第一次会话中）或增加留存率（在前七天）</p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_mwmolo1b0ta5-0 start">
-                            <li>Your app is tackling a new challenge or providing a new kind of benefit</li>
-                            <li>To announce new uses or major UI changes</li>
+                            <li>你的应用正在处理一个新的任务，或提供了一种新的优势</li>
+                            <li>发布新功能或重要的 UI 更新</li>
                           </ul>
                         </td>
                       </tr>
@@ -198,17 +198,17 @@
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_kh9gvs41p97x-0 start">
-                            <li>Your app is tackling a new challenge or providing a new kind of benefit</li>
-                            <li>To announce new uses or major UI changes</li>
+                            <li>你的应用正在处理一个新的任务，或提供了一种新的优势</li>
+                            <li>发布新功能或重要的 UI 更新</li>
                           </ul>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Your app is tackling a new challenge or providing a new kind of benefit</p>
+                          <p>你的应用正在处理一个新的任务，或提供了一种新的优势</p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_o4ytash4d3au-0 start">
-                            <li>Your app’s UI and benefits use patterns familiar to most users</li>
-                            <li>Your app has no major changes</li>
+                            <li>你的应用的界面或优势使用的模式，是大多数用户都已经熟悉了的。</li>
+                            <li>你的应用没有重要更新</li>
                           </ul>
                         </td>
                       </tr>
@@ -217,15 +217,15 @@
                           <p><strong>组合</strong></p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Don’t combine Self Select with Top User Benefits</p>
+                          <p>不要将自选和最大优势结合在一起</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                          <p>Ok to include setup before first-run experience</p>
+                          <p>确定在首次运行前需要进行设置</p>
                         </td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_gaj56whasr4f-0 start">
-                            <li>Don’t combine Top User Benefits with Self Select</li>
-                            <li>It’s okay for your app to show setup after or as part of onboarding</li>
+                            <li>不要把最大优势和自选结合使用</li>
+                            <li>你的应用可以在入门结束后显示设置、或把设置作为入门的一部分</li>
                           </ul>
                         </td>
                       </tr>
@@ -289,7 +289,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2>有意义的和有显著影响的</h2>
-                    <p>提供对用户体验有意义和有显著影响的选择。这些选择隐式地教导了用户如何于你的 UI 交互。</p>
+                    <p>提供对用户体验有意义和有显著影响的选择。这些选择隐式地教导了用户如何与你的 UI 交互。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -525,7 +525,7 @@
 
         <div id="onboarding-top-user-benefits" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Top User Benefits
+            最大优势
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -534,23 +534,23 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>The Top User Benefits onboarding model contains a brief autoplay carousel, or animated storyboard, that highlights up to three of the primary benefits from using an app.</p>
-              <h1>Choosing the right benefits</h1>
-              <p>The Top User Benefits model should demonstrate up to three primary benefits from using the app. These benefits should position the app as relevant and personal during a moment that matters, rather than give instructions or describe features.</p>
-              <p>When identifying which benefits to present, consider:</p>
+              <p>最大优势入门模型包含一个简短的自动轮播图或动画，突显使用该应用的最多三个优势。</p>
+              <h1>选择正确的优势</h1>
+              <p>最大优势模型应该展示使用该应用的最大优势，优势数量不超过 3 个。这些优势应该要把应用定位成有价值的和人性化的，而不是仅对应用的功能做描述。</p>
+              <p>在要确定使用哪些优势时，请考虑：</p>
               <ul class="lst-kix_tntcn44xacvu-0 start">
-                <li>Problems that the app solves</li>
-                <li>The primary benefits the app creates</li>
-                <li>The app’s “toothbrush features” (meaning, a feature you would use once or twice a day)</li>
+                <li>该应用能解决什么问题</li>
+                <li>应用创造的最大优势是什么</li>
+                <li>应用的 “牙刷特性” （意思是，你每天会使用一次或两次的功能）</li>
               </ul>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Integration options</h1>
-                    <p><strong>Auto-rotating carousel </strong></p>
-                    <p>A maximum of three illustrations should auto-rotate every two to three seconds and display pagination navigation. Auto-advance the first screen more quickly so that it’s clear this isn’t a single screen. The auto-advance feature should be disabled if the user touches the carousel. </p>
-                    <p>Display a “Get Started” button throughout the animation, and loop through the animation continuously until the “Get Started” action is tapped.</p>
-                    <p>The screen should be swipe-enabled, either in a forward or backward direction.</p>
+                    <h1>集成选项</h1>
+                    <p><strong>自动轮播</strong></p>
+                    <p>最多三个插图，应每隔 2 到 3 秒自轮轮播一次，并显示分页导航。第一张插图应自动提前轮播，以便使用户知道这不是一个单个的插图。当用户触摸了轮播图时，应禁用自动提前轮播的特性。</p>
+                    <p>在轮播动画中显示开始按钮，并连续循环播放动画，直到点击了 “开始” 按钮。</p>
+                    <p>屏幕应支持向前或向后滑动功能。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -564,7 +564,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>The button and pagination navigation are fixed. The typography is dynamic and on a separate field than the illustration, but at the same elevation.</p>
+                        <p>按钮和分页导航是固定显示的。文字排版是动态的，并且在一个单独的区域，不和插图混在一起，但是和插图有相同的海拔高度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -572,9 +572,9 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p><strong>Video</strong></p>
-                    <p>The most complex version of a Top User Benefits experience includes a highly produced video. </p>
-                    <p>This should include a “Get Started” button, without pagination circles. </p>
+                    <p><strong>视频</strong></p>
+                    <p>最复杂的最大优势模式可以包含一个精心制作的视频。</p>
+                    <p>这时应该包含一个 “开始” 按钮，但不包含分页导航。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -588,7 +588,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Video implementation</p>
+                        <p>视频的实现</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -598,9 +598,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Best practices</h1>
-                    <p><strong>Maintain visual continuity</strong></p>
-                    <p>Maintain visual continuity throughout characters, environments, style, typography, and button colors. </p>
+                    <h1>最佳实践</h1>
+                    <p><strong>保持视觉的连续性</strong></p>
+                    <p>通过符号、环境、样式、排版和按钮颜色等方面来保证视觉连续性。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -609,7 +609,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Using consistent visuals and colors throughout the experience unify the story by creating a uniform canvas for the button and circles. </p>
+                        <p>在整个过程中使用一致的视觉效果和颜色，通过为按钮和分页导航创造统一的背景图来统一整个过程。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -618,8 +618,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Simplify</strong></p>
-                    <p>Simplify the visuals to the essentials needed to convey a concept. </p>
+                    <p><strong>简化</strong></p>
+                    <p>简化表达一个概念的要领所需要的视觉效果。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -628,7 +628,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The metaphor of saving files to the cloud is visually illustrated.</p>
+                        <p>直观的表达出了将文件保存到云的寓意。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -639,16 +639,16 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>There is no point of focus in this image.</p>
+                        <p>这个图片没有重点。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Don’t be UI literal </strong></p>
-                    <p>Don’t show app UI if users haven't experienced it yet. Show the user benefit first. </p>
-                    <p>You may display education about the specific UI in a later context.</p>
+                    <p><strong>不要根据字面意义来绘制界面</strong></p>
+                    <p>如果用户没有使用过应用，则应该先显示最大优势。</p>
+                    <p>你可以在稍后的相关场景中显示有关特定 UI 的使用指导。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -657,7 +657,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>This illustration helps convey the benefits of directions. </p>
+                        <p>这个插图表达了这种用法的优势。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -668,27 +668,27 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Showing the actual app’s UI makes it unclear if the images are an illustration or an interactive element.</p>
+                        <p>显示实际的 UI 元素，会使用户不清楚图片是一个插画还是一个交互元素。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>Design onboarding that connects to a first-run experience. The UI seen after onboarding should make it easy for users to act on what they just learned.</p>
-              <h1>Design</h1>
-              <p>The design of Top User Benefits should compliment the writing. If there’s an idea that can be better expressed through words, use text rather than imagery.</p>
-              <p>These layouts are designed to allow an illustration with a 1:1 aspect ratio to consistently fit on screens across all platforms. Ensure that the background and text color meet minimum contrast ratios for accessibility.</p>
-              <p><strong>Mobile and tablet portrait</strong></p>
+              <p>设计成在首次运行时显示入门指导。在入门指导后看到的 UI，应该使用户能更轻松的根据他们刚刚学到的东西进行操作。</p>
+              <h1>设计</h1>
+              <p>最大优势的设计应该符合书写规范。如果有一个想法通过字词可以更好的表达出来，那么应该使用文本而不是图片。</p>
+              <p>这种布局是为了使具有 1:1 的宽高比的插画能始终适配所有平台。确保背景色和文本颜色满足最低对比度要求，增加可访问性。</p>
+              <p><strong>竖向的手机端和平板端</strong></p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><p>Place center-aligned copy and interactions beneath the illustration.</p></div>
+                  <div class="module"><p>在插画下方放置中心对齐的文本和交互元素。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile portrait</p>
+                        <p>竖向的手机端</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -698,17 +698,17 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet portrait</p>
+                        <p>竖向的平板端</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p><strong>Mobile and tablet landscape</strong></p>
+              <p><strong>横向的手机端和平板端</strong></p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Place left-aligned copy and interactions against the right edge of the illustration, vertically centered.</p>
+                    <p>将文本和交互元素左对齐，沿着插图的右边缘放置，并垂直居中。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -716,7 +716,7 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile landscape</p>
+                        <p>横屏的手机端</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -726,17 +726,17 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet landscape</p>
+                        <p>横屏的平板端</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p><strong>Desktop</strong></p>
+              <p><strong>桌面端</strong></p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Place illustration, copy, and interactions in a centered card. Display “Next” and “Previous”<strong> </strong>buttons beside this card and pagination indicators beneath it.</p>
+                    <p>将插图、文本和交互元素放置在居中的卡片中。在卡片两边显示 “下一页” 和 “上一页” 按钮，并在其下方显示分页指示符。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -744,25 +744,25 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop</p>
+                        <p>桌面端</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>Warm welcome experiences for wearables and TV use different methods of interaction, and should be treated differently.</p>
-              <h1>Platform Redlines</h1>
-              <p><strong>Mobile and tablet portrait</strong></p>
+              <p>可穿戴设备和电视的欢迎方式使用不同的交互方法，应该被区别对待。</p>
+              <h1>平台红线</h1>
+              <p><strong>竖屏的手机端和平板端</strong></p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Copy and UI are center-aligned on the screen and built from the bottom of the screen upward with 24dp padding.</p>
+                    <p>文本和交互元素在屏幕中水平居中，并从屏幕底部向上构建，距离屏幕底部有 24dp 的边距。</p>
                     <ol class="lst-kix_jwhm2b9dtsrc-0 start" start="1">
-                      <li>Headline: Type 24sp, Leading 32sp</li>
-                      <li>Subhead 1: Type 15sp, Leading 24sp</li>
-                      <li>32sp line height</li>
-                      <li>56dp padding between the top of button and the center of copy (allowing room for 1-3 lines of text)</li>
-                      <li>24dp vertical padding</li>
+                      <li>标题：字体 24sp，行距 32sp</li>
+                      <li>副标题：字体 15sp，行距 24sp</li>
+                      <li>32sp 的行高</li>
+                      <li>在按钮顶部和文本中心之间有 56dp 的间距（可以放置 1-3 行文本）</li>
+                      <li>24dp 的垂直间距</li>
                     </ol>
                   </div>
                   <div class="figure">
@@ -775,17 +775,17 @@
                   <div class="module"></div>
                 </section>
               </div>
-              <p><strong>Mobile and tablet landscape</strong></p>
+              <p><strong>横屏的手机端和平板端</strong></p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Align copy and UI to the left edge of the illustration, vertically centered.</p>
+                    <p>文本和交互元素与插画的左边缘对齐，并垂直居中。</p>
                     <ol class="lst-kix_6c5g9k77xlvl-0 start" start="1">
-                      <li>Headline: Type 24sp, Leading 32sp</li>
-                      <li>Subhead 1: Type 15sp, Leading 24sp</li>
-                      <li>32sp line height</li>
-                      <li>56dp padding between the top of the button and the center of copy (allowing room for 1-3 lines of text)</li>
-                      <li>24dp vertical padding</li>
+                      <li>标题：字体 24sp，行距 32sp</li>
+                      <li>副标题：字体 15sp，行距 24sp</li>
+                      <li>32sp 的行高</li>
+                      <li>在按钮顶部和文本的中间有 56dp 的间距（可以放置 1-3 行文本）</li>
+                      <li>24dp 的垂直间距</li>
                     </ol>
                   </div>
                   <div class="figure">
@@ -809,14 +809,14 @@
                   </div>
                 </section>
               </div>
-              <p><strong>Desktop</strong></p>
+              <p><strong>桌面端</strong></p>
               <ol class="lst-kix_9sftcuu19c4q-0 start" start="1">
-                <li>Headline: Type 24sp, Leading 32sp</li>
-                <li>Subhead: Type 16sp, Leading 24sp</li>
-                <li>Line Height: 32sp</li>
-                <li>Padding between top of button and center of copy: 56dp (allowing for 1-3 lines of text)</li>
-                <li>Vertical padding from image to pagination dots: 24dp</li>
-                <li>Horizontal spacing from image to arrow: 48dp</li>
+                <li>标题：字体 24sp，行距 32sp</li>
+                <li>副标题：字体 16sp，行距 24sp</li>
+                <li>行高： 32sp</li>
+                <li>在按钮顶部和文本中心有 56dp 的间距（允许放置 1-3 行文本）</li>
+                <li>图片和分页指示符之间的垂直间距：24dp</li>
+                <li>图片和箭头之间的水平间距：48dp</li>
               </ol>
             </div>
           </div>
