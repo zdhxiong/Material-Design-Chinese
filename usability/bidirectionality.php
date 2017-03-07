@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Languages such as Arabic and Hebrew are read from right-to-left (RTL), and their UIs should be mirrored to display most elements in RTL. </h1>
+          <h1>有些语言，例如阿拉伯语和希伯来语需要从右向左（RTL）阅读，同时它们的 UI 也应被镜像，使大多数元素从右向左显示。</h1>
           <p></p>
         </div>
       </div>
@@ -18,13 +18,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-ui-mirroring-overview" data-qp-ui-data-id="qp:1">UI mirroring overview</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-ui-mirroring-overview" data-qp-ui-data-id="qp:1">UI 镜像概述</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-rtl-mirroring-guidelines" data-qp-ui-data-id="qp:2">RTL mirroring guidelines</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-rtl-mirroring-guidelines" data-qp-ui-data-id="qp:2">RTL 镜像指南</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-localization" data-qp-ui-data-id="qp:3">Localization</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="bidirectionality.html#bidirectionality-localization" data-qp-ui-data-id="qp:3">本地化</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
 
         <div id="bidirectionality-ui-mirroring-overview" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            UI mirroring overview
+            UI 镜像概述
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -45,42 +45,42 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>The main difference between left-to-right (LTR) and right-to-left (RTL) language scripts is the direction in which content is displayed: </p>
+                    <p>从左到右（LTR）语言和从右到左（RTL）语言的最大区别是内容的显示方向：</p>
                     <ul class="lst-kix_ctt42uu1qymt-0 start">
-                      <li>LTR languages display content from left to right</li>
-                      <li>RTL languages display content from right to left</li>
+                      <li>LTR 语言从左到右显示内容</li>
+                      <li>RTL 语言从右到左显示内容</li>
                     </ul>
-                    <p>RTL content also affects the direction in which some icons and images are displayed, particularly those depicting a sequence of events. </p>
-                    <p>In general, the passage of time is depicted as left to right for LTR languages, and right to left for RTL languages. </p>
+                    <p>RTL 内容还会影响一些图标和图片的显示方向，特别是那些用于描述一系列事件的图标和图片。</p>
+                    <p>一般来说，对于 LTR 语言，时间流逝方向也是从左到右；对于 RTL 语言，时间流逝方向也是从右向左。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Element</p></td>
+                        <td colspan="1" rowspan="1"><p>元素</p></td>
                         <td colspan="1" rowspan="1"><p>LTR </p></td>
                         <td colspan="1" rowspan="1"><p>RTL </p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Text</p></td>
-                        <td colspan="1" rowspan="1"><p>Sentences are read from left to right.</p></td>
-                        <td colspan="1" rowspan="1"><p>Sentences are read from right to left.</p></td>
+                        <td colspan="1" rowspan="1"><p>文本</p></td>
+                        <td colspan="1" rowspan="1"><p>句子从左向右阅读。</p></td>
+                        <td colspan="1" rowspan="1"><p>句子从右向左阅读。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Timeline</p></td>
-                        <td colspan="1" rowspan="1"><p>An illustrated sequence of events progresses left to right.</p></td>
-                        <td colspan="1" rowspan="1"><p>An illustrated sequence of events progresses right to left.</p></td>
+                        <td colspan="1" rowspan="1"><p>时间线</p></td>
+                        <td colspan="1" rowspan="1"><p>事件序列从左向右进行。</p></td>
+                        <td colspan="1" rowspan="1"><p>事件序列从右向左进行。</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Imagery</p></td>
-                        <td colspan="1" rowspan="1"><p>An arrow pointing left to right indicates forward motion: →</p></td>
-                        <td colspan="1" rowspan="1"><p>An arrow pointing right to left indicates forward motion: ←</p></td>
+                        <td colspan="1" rowspan="1"><p>图像</p></td>
+                        <td colspan="1" rowspan="1"><p>从左向右的箭头表示向前运动：→</p></td>
+                        <td colspan="1" rowspan="1"><p>从右向左的箭头表示向前运动：←</p></td>
                       </tr>
                       </tbody>
                     </table>
                     <p>
                       <figcaption>
-                        The passage of time is depicted from left to right for LTR languages, and from right to left for RTL languages.
+                        对于 LTR 语言，从左到右描述时间的流逝；对于 RTL 语言，从右到左描述时间的流逝。
                       </figcaption>
                     </p>
                   </div>
@@ -89,13 +89,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>When a UI is changed from LTR to RTL (or vice-versa), it’s often called <strong>mirroring</strong><strong>. </strong>An RTL layout is the mirror image of an LTR layout. Mirroring affects both layout and graphics. </p>
-                    <p>When a UI changes from one direction to another, these items are not mirrored:</p>
+                    <p>当 UI 从 LTR 更改为 RTL 时（反之亦然），通常称为<strong>镜像</strong>。RTL 布局是 LTR 布局的镜像。镜像会同时影响布局和图像。</p>
+                    <p>当 UI 从一个方向更改为另一个方向时，这些项目不会镜像：</p>
                     <ul class="lst-kix_82tmnht949gx-0 start">
-                      <li>Numbers</li>
-                      <li>Untranslated text (even if it’s part of a phrase)</li>
+                      <li>数字</li>
+                      <li>未翻译的文本（即使它是词组的一部分）</li>
                     </ul>
-                    <p>Text is always in the correct direction for the language. For example, any LTR words, such as a URL, will continue to be shown in an LTR format, even if the rest of the UI is in RTL.</p>
+                    <p>文本方向总是和语言方向保持一致。例如，任何 LTR 语句（例如一个 URL）将继续以 LTR 的格式显示，即使 UI 的其余部分是 RTL 的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -104,7 +104,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Text and numbers should always be in the correct direction for the language. </p>
+                        <p>文本和数字将始终和语言的方向保持一致。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -115,7 +115,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Text should not be typed in reverse order. </p>
+                        <p>文本不应从和语言相反的方向输入。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -124,18 +124,18 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>When a UI is mirrored, these changes occur:</p>
+                    <p>当镜像一个 UI 时，这些元素会发生改变：</p>
                     <ul class="lst-kix_lfkw6767vzc6-0 start">
-                      <li><strong>Text fields</strong> <strong>icons </strong>are displayed on the opposite side of a field</li>
-                      <li><strong>N</strong><strong>avigation buttons</strong> are displayed in reverse order</li>
-                      <li><strong>Icons</strong> that communicate direction, like arrows, are mirrored</li>
-                      <li><strong>Text </strong>(if it is translated to an RTL language) is aligned to the right</li>
+                      <li><strong>文本框</strong><strong>图标</strong>显示在字段的另一侧</li>
+                      <li><strong>导航按钮</strong>以相反的顺序显示</li>
+                      <li>表示方向的<strong>图标</strong>会被镜像，例如箭头</li>
+                      <li><strong>文本</strong>（如果它被翻译为 RTL 语言）右对齐</li>
                     </ul>
-                    <p>These items are not mirrored:</p>
+                    <p>这些元素不会被镜像：</p>
                     <ul class="lst-kix_2c60lwkyikk9-0 start">
-                      <li>Icons that do not communicate direction, such as a camera</li>
-                      <li>Numbers, such as the clock and phone numbers</li>
-                      <li>Charts and graphs</li>
+                      <li>不表示方向的图标，例如相机</li>
+                      <li>数字，例如时钟和电话号码</li>
+                      <li>图标和图解</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -144,7 +144,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example using LTR UI</p>
+                        <p>使用 LTR 的 UI 示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -154,7 +154,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This is an example using RTL UI in Arabic. The numbers are presented LTR.</p>
+                        <p>这是一个使用阿拉伯语的 RTL 的 UI 示例。数字仍然以 LTR 显示。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -163,7 +163,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>To highlight the placement of icons, text fields, buttons, and spacing in these examples of mirrored layouts, the text has been intentionally left in English.</p>
+                    <p>为了突出这个镜像布局示例中的图标、文本字段、按钮和间距的位置，故意没有翻译文本，仍然以英文显示。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -171,7 +171,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_LTR.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Text editing menu in LTR mode</strong></p>
+                        <p><strong>LTR 模式下的文本编辑菜单</strong></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -184,8 +184,8 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_RTL.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>Text editing menu in RTL mode</strong></p>
-                        <p>1. Icons related to bidirectionality are mirrored to reflect the start and end of text on a line<br></p>
+                        <p><strong>RTL 模式下的文本编辑菜单</strong></p>
+                        <p>1. 与双向性有关的图标被镜像，以反映一行内文本的开始和结束位置<br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -198,12 +198,12 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>LTR screen</strong></p>
-                        <p>On an LTR screen, the tab for “Item One” is aligned to the left, and users swipe to the left to see more tabs.</p>
-                        <p>Touch target height: 48dp<br>
-                          Screen edge margin before first tab: 72dp<br>
-                          Tab labels bottom padding: 20dp<br>
-                          Tab labels right and left padding: 12dp</p>
+                        <p><strong>LTR 屏幕</strong></p>
+                        <p>在 LTR 屏幕中，“Item One” 选项对齐到了左侧，用户向左滑动可以看到更多的选项。</p>
+                        <p>触摸目标高度：48dp<br>
+                          第一个选项前面距离屏幕边缘的间距：72dp<br>
+                          选项标签的底部内边距：20dp<br>
+                          选项标签的左右内边距：12dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -213,12 +213,12 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>RTL screen</strong><strong> </strong></p>
-                        <p>On an RTL screen, the tab for “Item One” is aligned to the right, and users swipe to the right to see more tabs.</p>
-                        <p>Touch target height: 48dp<br>
-                          Screen edge margin before first tab: 72dp<br>
-                          Tab labels bottom padding: 20dp<br>
-                          Tab labels right and left padding: 12dp</p>
+                        <p><strong>RTL 屏幕</strong><strong> </strong></p>
+                        <p>在 RTL 屏幕中，“Item One” 选项对齐到了右侧，用户向右滑动可以看到更多选项。</p>
+                        <p>触摸目标高度：48dp<br>
+                          第一个选项前面距离屏幕边缘的间距：72dp<br>
+                          选项标签的底部内边距：20dp<br>
+                          选项标签的左右内边距：12dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -231,7 +231,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong>LTR screen </strong><br></p>
+                        <p><strong>LTR 屏幕</strong><br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -241,14 +241,14 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong> </strong><strong>RTL screen with title, icons, and UI elements displayed flowing from right to left.</strong></p>
-                        <p>1. Back button points to the right<br>
-                          2. Text is right-aligned<br>
-                          3. Primary and secondary buttons are mirrored to match reading direction<br>
-                          4. Checkbox appears to the right of text<br>
-                          5. Icons that do not communicate direction are not changed<br>
-                          6. Placement of units may vary across languages<br>
-                          7. Progress bars fill in the same direction as content is read</p>
+                        <p><strong> </strong><strong>RTL 屏幕，其中包含从右向左显示的标题、图标和 UI 元素。</strong></p>
+                        <p>1. 后退按钮指向右边<br>
+                          2. 文本右对齐<br>
+                          3. 主按钮和副按钮被镜像，以匹配阅读方向<br>
+                          4. 复选框显示在文本右侧<br>
+                          5. 不表示方向的图标不发生更改<br>
+                          6. 单位的位置可能因语言而异<br>
+                          7. 进度条方向和内容的阅读方向相同</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -261,13 +261,13 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong> LTR</strong></p>
-                        <p>Navigation, overflow menu, and icons switch sides in the LTR layout</p>
-                        <p>Icon padding from screen edge: 16dp<br>
-                          Title distance from screen edge: 72 dp<br>
-                          Padding below title: 20dp<br>
-                          Navigation bar height: 56dp<br>
-                          Overflow menu padding: 16dp</p>
+                        <p><strong>LTR</strong></p>
+                        <p>LTR 布局中的导航、弹出菜单和切换侧边栏的图标</p>
+                        <p>图标和屏幕边缘的间距：16dp<br>
+                          标题和屏幕边缘的间距：72 dp<br>
+                          标题下方内边距：20dp<br>
+                          导航栏高度：56dp<br>
+                          弹出菜单内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -278,12 +278,12 @@
                       </div>
                       <figcaption>
                         <p><strong> RTL</strong></p>
-                        <p>Navigation, overflow menu, and icons switch sides in the RTL layout</p>
-                        <p>Icon padding from screen edge: 16dp<br>
-                          Title distance from screen edge: 72 dp<br>
-                          Padding below title: 20dp<br>
-                          Navigation bar height: 56dp<br>
-                          Overflow menu padding: 16dp</p>
+                        <p>RTL 布局中的导航、弹出菜单和切换侧边栏的图标</p>
+                        <p>图标和屏幕边缘的间距：16dp<br>
+                          标题和屏幕边缘的间距：72 dp<br>
+                          标题下方内边距：20dp<br>
+                          导航栏高度：56dp<br>
+                          弹出菜单内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -296,12 +296,12 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_1.png'); ?>"/>
                       </div>
                       <figcaption><br>
-                        <p><strong> LTR</strong></p>
-                        <p>Padding and margin around icons and text as designed for LTR layouts.</p>
-                        <p>LTR:<br>
-                          List item height: 72dp<br>
-                          Icon margin from left screen edge: 16dp<br>
-                          List item distance from left screen edge: 72dp</p>
+                        <p><strong>LTR</strong></p>
+                        <p>为 LTR 布局设计的图标和文本的内边距和外边距。</p>
+                        <p>LTR：<br>
+                          列表项高度：72dp<br>
+                          图标和屏幕左边缘的间距：16dp<br>
+                          列表项和屏幕左边缘的距离：72dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -311,12 +311,12 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p><strong> RTL</strong></p>
-                        <p>When mirroring the layout, padding and margin around icons and text also switch placement to match RTL layouts.</p>
-                        <p>RTL:<br>
-                          List item height: 72dp<br>
-                          Icon margin from right screen edge: 16dp<br>
-                          List item distance from right screen edge: 72dp</p>
+                        <p><strong>RTL</strong></p>
+                        <p>当使用镜像布局时，图标和文本的内边距和外边距也会切换，以匹配 RTL 的布局。</p>
+                        <p>RTL：<br>
+                          列表项高度：72dp<br>
+                          图标和屏幕右边缘的间距：16dp<br>
+                          列表项和屏幕右边缘的距离：72dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -328,7 +328,7 @@
 
         <div id="bidirectionality-rtl-mirroring-guidelines" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            RTL mirroring guidelines
+            RTL 镜像指南
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -337,12 +337,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When text, layout, and iconography are mirrored to support right-to-left UIs, anything that relates to time should be depicted as moving from right to left. For example, forward points to the left, and backwards points to the right.</p>
+              <p>为了支持 RTL 的 UI 而把文本、布局和图标镜像时，任何和时间相关的东西都应该被描述为从右向左移动。例如，前进即为向左移动，后退即为向右移动。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>When to mirror</h1>
-                    <p>The most important icons for mirroring are back and forward buttons. Back and forward navigation buttons are reversed.</p>
+                    <h1>何时需要镜像</h1>
+                    <p>对于镜像最重要的图标是前进和后退按钮。后退和前进导航按钮会调换顺序。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -350,7 +350,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR back button</p>
+                        <p>LTR 后退按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -360,7 +360,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>RTL back button</p>
+                        <p>RTL 后退按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -373,7 +373,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR forward button</p>
+                        <p>LTR 前进按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -383,14 +383,14 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>RTL forward button</p>
+                        <p>RTL 前进按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>An icon that shows forward movement should be mirrored.</p>
+                    <p>显示向前移动的图标应该被镜像。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -398,7 +398,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>In a LTR UI, a bicycle facing the right typically communicates a sense of moving forward.</p>
+                        <p>在 LTR 的 UI 中，面向右侧的自行车通常表示向前移动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -408,14 +408,14 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>In a RTL UI, a bicycle may similarly communicate a sense of moving forward with the bicycle pointing to the left.</p>
+                        <p>在 RTL 的 UI 中，自行车面向左侧表示了向前移动。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Most RTL countries do not mirror slashes. Leave images with slashes as-is for RTL locales.</p>
+                    <p>大多数的 RTL 国家或地区不会镜像反斜杠。在 RTL 中把带反斜杠的图片以原样保留。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -424,7 +424,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>An LTR airplane mode off state with the LTR slash is acceptable for both LTR and RTL locales.</p>
+                        <p>带一个从左向右的反斜杠的飞行模式关闭状态，在 LTR 和 RTL 语言中都是可以使用的。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -435,14 +435,14 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>There’s no need for an RTL airplane mode off state with an RTL slash. </p>
+                        <p>没有必要为 RTL 的飞行模式关闭状态，配上一个 LTR 的反斜杠。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>A volume icon with a slider at its right side should be mirrored. The slider should progress RTL, and the sound waves should emerge from the right.</p>
+                    <p>在音量图标右侧有一个滑块时，应该被镜像。滑块的进度方向也要改为从右到左，且声波应该要从右边出现。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -450,7 +450,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when9.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR volume with slider</p>
+                        <p>带滑块的 LTR 音量</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -460,7 +460,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when10.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>RTL volume with speaker icon and slider mirrored</p>
+                        <p>镜像后，RTL 的带扬声器图标和滑块的音量</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,8 +469,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Sometimes, both the horizontal and circular direction of time are implied in an icon. For example, the redo and undo buttons in Google Docs have both a horizontal direction and a circular direction. </p>
-                    <p>In LTR, these point to the same direction in both circular and horizontal representations of time. In RTL, choose whether to show circular or horizontal direction.</p>
+                    <p>有时，水平和圆形方向的时间会同时隐含在图标中。例如，Google Docs 中的撤销和重做按钮同时具有水平方向和圆形方向。</p>
+                    <p>在 LTR 中，它们在水平和圆形方向指向相同的时间方向。在 RTL 中，可以选择只显示水平方向，或只显示圆形方向。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -478,7 +478,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when13.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR redo and undo button from the toolbar in Google Docs</p>
+                        <p>Google Docs 的工具栏中 LTR 的撤销和重做按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -487,8 +487,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Icons that contain representations of text need careful mirroring. </p>
-                    <p>Text is right-aligned in RTL. If there is a paragraph indent at the beginning of a paragraph, an unfinished line at the end of the paragraph, or a ragged right side, the icons need to be mirrored. </p>
+                    <p>图标内含有指代文本的图形时，在镜像时需要格外仔细。</p>
+                    <p>文本在 RTL 中右对齐。如果在段落开头有缩进，或者在段落末尾有未完结的行，或者段落右端较为粗糙，则图标需要被镜像。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -496,7 +496,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when14.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR chat icon</p>
+                        <p>LTR 聊天图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -506,7 +506,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when15.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>RTL chat icon</p>
+                        <p>RTL 聊天图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -515,8 +515,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>When not to mirror</h1>
-                    <p>While the linear representation of time is mirrored in RTL, the <strong>circular</strong> direction of time is not. Clocks still turn clockwise for RTL languages. A clock icon or a circular refresh or progress indicator with an arrow pointing clockwise should not be mirrored.</p>
+                    <h1>何时不需要镜像</h1>
+                    <p>虽然时间的线性流逝方向在 RTL 中需要被镜像，但时间的<strong>圆形</strong>方向不是。在 RTL 语言中，时钟仍然顺时针旋转。时钟图标、或具有顺时针箭头的旋转刷新或进度指示器不应被镜像。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -524,7 +524,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The refresh icon shows time moving forward; the direction is clockwise. The icon is not mirrored.</p>
+                        <p>刷新图标显示时间向前移动；方向是顺时针的，图标未被镜像。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -534,15 +534,15 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The history icon points backwards in time; the direction is counterclockwise. The icon is not mirrored.</p>
+                        <p>历史图标表示倒退时间；方向是逆时针的，图标未被镜像。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Some icons refer to physical objects that are not mirrored in the right-to-left world. </p>
-                    <p>For example, physical keyboards look the same everywhere in the world, so they should not be mirrored.</p>
+                    <p>有些图标指代的是在 RTL 世界中没有镜像的实体物体。</p>
+                    <p>例如，全世界的键盘看起来都是一样的，所以它们不应该被镜像。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -550,7 +550,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Keyboard icon</p>
+                        <p>键盘图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -560,16 +560,16 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Headset icon</p>
+                        <p>耳机图标</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Certain icons might seem directional but they actually represent holding an object with one’s right hand. </p>
-                    <p>For example, the search icon typically has its handle at the bottom right side, because the majority of users are right-handed. </p>
-                    <p>The majority of users in RTL-writing countries are also right-handed, so such icons should not be mirrored.</p>
+                    <p>有些图标可能看起来具有方向性，但实际上它们表示的是用右手握住该对象。</p>
+                    <p>例如，搜索图标通常在右下侧会有手柄，因为大部分用户是右撇子，会用右手来握住放大镜。</p>
+                    <p>在用右手书写的国家中，大部分用户也是右撇子，所以这些图标不应该被镜像。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -577,7 +577,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Search icon</p>
+                        <p>搜索图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -587,7 +587,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Local cafe icon</p>
+                        <p>咖啡图标</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -596,9 +596,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>The passage of time<br></h1>
-                    <p>Anything depicting the passage of time should be mirrored. </p>
-                    <p>Do not mirror media playback buttons and the media progress indicator as they refer to the direction of tape being played, not the direction of time. </p>
+                    <h1>时间的流逝<br></h1>
+                    <p>任何描述时间流逝的东西应该被镜像。</p>
+                    <p>不要镜像媒体播放按钮和媒体进度指示器，因为它们指的是播放磁带的方向，而不是时间的方向。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -606,7 +606,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Since media playback buttons and the progress indicator reflect the direction of the tape, they are not mirrored. </p>
+                        <p>由于媒体播放按钮和进度指示器反映的是磁带的方向，因此它们不会被镜像。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -620,7 +620,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Media controls for playback are always LTR. </p>
+                        <p>媒体播放器的控件始终为 LTR。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -636,7 +636,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Do not mirror media playback or progress bars. The direction of these elements represents the direction of the tape, not the direction of time. </p>
+                        <p>不要镜像媒体播放器或进度条。这些元素的方向代表的是磁带的方向，不是时间的方向。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -649,8 +649,8 @@
                       <a class="modulette container default" href="https://www.google.com/url?q=https://github.com/devinmancuso/sketch-rtl&amp;sa=D&amp;ust=1481818040540000&amp;usg=AFQjCNEUfiWMoSUq38fjaakDn4SJsYhkSw" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                         <div class="info">
-                          <div class="title">RTL Sketch plug-in</div>
-                          <span class="subtitle">Flip existing designs and assets into an RTL format</span>
+                          <div class="title">RTL Sketch 插件</div>
+                          <span class="subtitle">将现有的设计和资源翻转为 RTL 格式</span>
                         </div>
                         </img>
                       </a>
@@ -665,7 +665,7 @@
 
         <div id="bidirectionality-localization" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Localization
+            本地化
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -677,8 +677,8 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Text in graphics</h1>
-                    <p>Graphics that include text usually require localization.</p>
+                    <h1>图形中的文本</h1>
+                    <p>包含文本的图形通常需要本地化。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
@@ -687,8 +687,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Numbers</h1>
-                    <p>Icons containing numbers must be localized for languages that use different numerals. For example, Bengali, Marathi, Nepali, and some Arabic-speaking locales use different forms of numbers. </p>
+                    <h1>数字</h1>
+                    <p>包含数字的图标必须本地化为当地语言所使用的数字。例如，孟加拉语、马拉地语、尼泊尔语、和一些阿拉伯语地区，使用的是不同形式的数字。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -696,7 +696,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>LTR UI icon containing numbers.</p>
+                        <p>LTR 的 UI 中包含数字的图标。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -706,7 +706,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>RTL UI Icon localized in Arabic. Numbers must be localized for languages that use different numerals. </p>
+                        <p>RTL 的 UI 图标本地化为阿拉伯语。对于使用不同数字的语言，必须本地化数字。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -715,8 +715,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Mirroring</h1>
-                    <p>Some content may need to be mirrored, even if the UI is not mirrored. For example, when a user edits an RTL paragraph inside a LTR document, the toolbar buttons for that specific paragraph should be RTL.</p>
+                    <h1>镜像</h1>
+                    <p>即使 UI 没有被镜像，但某些内容也可能需要被镜像。例如，当用户在一个 LTR 的文档中编辑一个 RTL 的段落时，那个特定段落的工具栏按钮应该是 RTL 的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -724,10 +724,10 @@
                         <img alt="" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This example shows a RTL paragraph inside an English document. The buttons for indenting and lists should be RTL even though the primary UI direction is LTR.</p>
-                        <p>1. Paragraph aligned right<br>
-                          2. Icons flipped<br>
-                          3. Hebrew text direction is RTL even though the English document is LTR</p>
+                        <p>此示例显示了英文文档中的一个 RTL 段落。缩进和列表的按钮应该是 RTL 的，即使主界面方向仍然是 LTR。</p>
+                        <p>1. 段落右对齐<br>
+                          2. 图标翻转<br>
+                          3. 希伯来文的文本方向是 RTL，即使英文文档是 LTR 的</p>
                       </figcaption>
                     </figure>
                   </div>
