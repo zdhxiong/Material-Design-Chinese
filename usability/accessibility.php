@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>无障碍设计使任何人（无论能力）都能成功地浏览、理解和使用您的应用。</h1>
+          <h1>无障碍设计使任何人（无论什么能力）都能成功地浏览、理解和使用您的应用。</h1>
         </div>
       </div>
 
@@ -69,7 +69,7 @@
                           <li>清晰可见的元素</li>
                           <li>足够的对比度和尺寸</li>
                           <li>明确的重要性级别</li>
-                          <li>主要信息一目了然</li>
+                          <li>使主要信息一目了然</li>
                         </ul>
                       </figcaption>
                     </figure>
@@ -81,7 +81,7 @@
                       </div>
                       <figcaption>
                         <h1>健全的</h1>
-                        <p>使你的应用能适应各种用户。用户可能只有短暂的注意力，对你的产品不熟悉，或使用纯文本<strong>屏幕阅读器</strong>（使用语音合成器朗读文本或使用盲文显示器产生触觉的程序）。你的应用应该方便每位用户来：</p>
+                        <p>使你的应用能适应各种用户。用户可能只有短暂的注意力，对你的产品不熟悉，或使用纯文本<strong>屏幕阅读器</strong>（使用语音合成器朗读文本或使用盲文显示器产生触觉）。你的应用应该方便每位用户来：</p>
                         <ul class="lst-kix_3clj5zpaz4lj-0 start">
                           <li><strong>浏览：</strong>使用户清楚的知道他们现在在应用中的哪个位置，以及哪些是重要内容。</li>
                           <li><strong>了解重要任务：</strong>通过多个视觉和文本提示来强化重要信息。使用颜色、形状、文本和动效来传达正在发生的事情。</li>
@@ -130,7 +130,7 @@
                     <p>对比度表示两种颜色之间的差异程度，通常写为 1:1 或 21:1。两个数之间的比值越高，颜色之间的相对亮度就越大。</p>
                     <p>W3C 推荐在正文文本和图片中使用以下对比度：</p>
                     <ul class="lst-kix_c2xsypf5z28r-0 start">
-                      <li>小文本至少和它的背景色之间至少有 4.5:1 的对比度。</li>
+                      <li>小文本和它的背景色之间至少有 4.5:1 的对比度。</li>
                       <li>大文本（加粗的14pt/普通的18pt及以上）和它的背景色之间至少有 3:1 的对比度。</li>
                     </ul>
                   </div>
@@ -274,7 +274,7 @@
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">标记用户界面元素</div>
-                    <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备朗读</span>
+                    <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备可以进行朗读</span>
                   </div>
                   </img>
                 </a>
@@ -287,10 +287,10 @@
                 <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="https://www.google.com/url?q=http://www.w3.org/TR/WCAG20/%23general-thresholddef&amp;sa=D&amp;ust=1481818010688000&amp;usg=AFQjCNGHM4ziWaKFa1JeCr2O_Zn1p7KLKA" target="_blank">闪烁和红色闪烁的阀值</a>。</li>
                 <li>避免<a href="https://www.google.com/url?q=https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNH3h8LNSO-6Q9cl06MWh9Nx9ocdTg" target="_blank">闪烁屏幕中较大的中心区域</a>。</li>
               </ul>
-              <h1>定时空控件</h1>
+              <h1>定时控件</h1>
               <p>应用中的控件可以设置为在一定时间后消失。例如，播放视频 5 秒后，播放按钮控件可能会从屏幕上淡出。</p>
               <p><strong>高优先级的控件<br>
-                </strong>避免在有高优先级功能的控件上使用定时器，因为如果这些控件消失的太快，用户可能不会注意到这些控件。例如，当焦点聚焦到控件上时， TalkBack 会大声朗读出控件，如果为其加上了定时器，可能会阻止控件完成其任务。</p>
+                </strong>避免在有高优先级功能的控件上使用定时器，因为如果这些控件消失的太快，用户可能不会注意到这些控件。例如，当焦点聚焦到控件上时， TalkBack 会大声朗读出控件，如果为其加上了定时器，可能会阻止控件完成某些任务。</p>
               <p>对于有其他重要功能的控件，请确保用户可以再次启用控件、或可以通过其他途径执行相同的功能，在<a href="accessibility.html#accessibility-hierarchy-focus">层次和焦点</a>中了解更多。</p>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/url?q=https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index%3D..%252F..%252Findex%236&amp;sa=D&amp;ust=1481818010699000&amp;usg=AFQjCNEbRXnLu995smOan2sqOXJ1dO7YNw" target="_blank">
@@ -401,7 +401,7 @@
                     <div class="text-box"></div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>滑块值和滑块控件之间的距离太远。放大了屏幕的用户，如果不在滑块和值之间来回浏览的话，可能不能同时看到滑块和值。</p>
+                      <p>滑块值和滑块控件之间的距离太远。对于放大了屏幕的用户，如果不在滑块和值之间来回浏览的话，可能不能同时看到滑块和值。</p>
                     </figcaption>
                   </div>
                 </section>
@@ -442,7 +442,7 @@
                 <li>屏幕阅读器的触摸界面允许用户<strong>在屏幕上移动手指</strong>，以听到手指正下方的内容。这使用户能快速了解整个界面。或者用户可以凭借肌肉记忆快速移动到指定 UI 元素。在 TalkBack 中，此功能被称为 “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010787000&amp;usg=AFQjCNFZvMJlR6Y60uh3CX7UBDebkjBgdA" target="_blank">通过触摸浏览</a>” 。用户必须双击才能选择一个项目。</li>
                 <li>用户也可以在屏幕上向前或向后<strong>滑动来移动焦点</strong>，来从上到下线性地阅读页面。这允许用户在某些元素上进行训练。在 TalkBack 中，这称为<strong>线性导航</strong>。</li>
               </ul>
-              <p>用户可以在 “通过触摸探索” 和 “线性导航” 模式之间切换。当页面使用合适的语义化标签时，一些辅助技术允许用户在页面在这些标记（例如标题）之间导航。</p>
+              <p>用户可以在 “通过触摸浏览” 和 “线性导航” 模式之间切换。当页面使用合适的语义化标签时，一些无障碍技术允许用户在页面的这些标记（例如标题）之间导航。</p>
               <p>硬件或软件方向控制器（例如 D-pad、轨迹球或键盘）允许用户以线性的方式从一个选择的元素跳到另一个元素。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
@@ -486,7 +486,7 @@
                     </ul>
                     <p>通过视觉指示器和辅助文本的组合，来阐明焦点的位置。</p>
                     <h2>分组</h2>
-                    <p>在标题下对类似项目进行分组，以告诉用户这个分组代表什么。这些分组在空间上组织内容。</p>
+                    <p>在标题下对类似项目进行分组，以告诉用户这个分组代表什么。这些分组会在空间上组织内容。</p>
                     <h2>过渡</h2>
                     <p>屏幕和任务之间的焦点遍历应尽可能保持连续。</p>
                     <p>如果一个任务中断了，然后又恢复，请将焦点放在之前聚焦的元素上。</p>
@@ -522,7 +522,7 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>通过使用标准的平台控件，你的应用将自动包含与平台辅助技术协同工作所需的标记和代码。调整你的应用，以满足每个平台的辅助功能标准和辅助技术（包括快捷方式和结构），为用户提供高效的体验。</p>
+                    <p>通过使用标准的平台控件，你的应用将自动包含与平台无障碍技术协同工作所需的标记和代码。调整你的应用，以兼容每个平台的无障碍功能标准和无障碍技术（包括快捷方式和结构），为用户提供更高效的体验。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -542,19 +542,19 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>此屏幕使用非标准平台的对话框来执行一个标准的对话框任务。这种实现会需要额外的编码和测试，以使这种非标准控件和辅助技术相兼容。</p>
+                        <p>此屏幕使用非标准平台的对话框来执行一个标准的对话框任务。这种实现会需要额外的编码和测试，以使这种非标准控件和无障碍技术相兼容。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>在打开平台辅助功能的情况下，测试你的设计（实施期间和之后）。</p>
+                    <p>在打开平台无障碍功能的情况下，测试你的设计（实施期间和之后）。</p>
                     <p>其他设计的注意事项：</p>
                     <ul class="lst-kix_gcqkuykifz62-0 start">
-                      <li><strong>使用可缩放文字和一个宽敞的布局</strong>，来适应那些可能开启大文字、颜色矫正、放大或其他辅助功能的用户。</li>
+                      <li><strong>使用可缩放文字和一个宽敞的布局</strong>，来适应那些可能开启大文字、颜色矫正、放大或其他无障碍功能的用户。</li>
                       <li><strong>键盘/鼠标界面</strong>可以仅通过键盘就能访问所有任务和所有悬浮信息。</li>
-                      <li><strong>触摸界面</strong>应允许屏幕阅读器和其他辅助设备读取界面中的所有内容。朗读的文本应该是有意义的和有帮助的。</li>
+                      <li><strong>触摸界面</strong>应允许屏幕阅读器和其他无障碍设备读取界面中的所有内容。朗读的文本应该是有意义的和有帮助的。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -583,7 +583,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>使 UI 元素的标签可视化</h1>
-                    <p>屏幕阅读器用户需要知道屏幕中哪些元素是可以点击的。要是屏幕阅读器大声朗读出组件的名称，请向组件（如按钮、图标、仅含图标不含可见文本的 Tab 选项卡）添加<strong>contentDescription</strong>属性。</p>
+                    <p>屏幕阅读器用户需要知道屏幕中哪些元素是可以点击的。要使屏幕阅读器大声朗读出组件的名称，请向组件（如按钮、图标、仅含图标不含可见文本的 Tab 选项卡）添加 <strong>contentDescription</strong> 属性。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010756000&amp;usg=AFQjCNH5Ns3rByzXYss4-XDz58sFR8gNsg" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
@@ -623,21 +623,21 @@
                 <section class="module-module col-2">
                   <div class="module">
                     <h1>帮助文档</h1>
-                    <p>任何具有特殊辅助功能的功能都应包含在帮助文档中。确保帮助文档的相关性、可访问性和可发现性。例如，查看本指南，了解如何在 <a href="https://www.google.com/url?q=https://support.google.com/drive/answer/6034939?hl%3Den&amp;sa=D&amp;ust=1481818010764000&amp;usg=AFQjCNG73FZbJRcgaQsZ0qD4BJcT-spiKw" target="_blank">Google Drive</a> 中使用屏幕阅读器。</p>
+                    <p>任何具有特殊无障碍功能的功能都应包含在帮助文档中。确保帮助文档的相关性、可访问性和可发现性。例如，查看本指南，了解如何在 <a href="https://www.google.com/url?q=https://support.google.com/drive/answer/6034939?hl%3Den&amp;sa=D&amp;ust=1481818010764000&amp;usg=AFQjCNG73FZbJRcgaQsZ0qD4BJcT-spiKw" target="_blank">Google Drive</a> 中使用屏幕阅读器。</p>
                   </div>
                   <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
                     <h1>测试和研究</h1>
-                    <p>遵循这些无障碍指南有助于提升应用的可访问性，但不能保证一个完全可访问的体验。建议你也：</p>
+                    <p>遵循这些无障碍指南有助于提升应用的可访问性，但不能保证拥有一个完全可访问的体验。建议你也：</p>
                     <ul class="lst-kix_814kni54p86l-0 start">
-                      <li>打开各种辅助技术的情况下，测试应用从开始到结束的完整的任务流程。例如，在 TalkBack 中打开 “通过触摸浏览” ，并改变大声说出文本的速度。</li>
+                      <li>在打开各种无障碍技术的情况下，测试应用从开始到结束的完整的任务流程。例如，在 TalkBack 中打开 “通过触摸浏览” ，并改变大声说出文本的速度。</li>
                       <li>让有障碍的用户测试你的应用。</li>
                       <li>考虑单个元素怎么才能可访问，同时把它连接到一个连贯的用户流中。</li>
                       <li>确保你希望用户完成的主要任务，能适应每一个人。</li>
                     </ul>
-                    <p>与你的用于交流，特别是那些使用辅助技术的用户，了解他们的需求，他们想从你的应用中获得什么，它们使用什么工具，以及如何使用这些工具。开始熟悉这些工具，然后你可以给他们最好的用户体验。</p>
+                    <p>与你的用户交流，特别是那些使用辅助技术的用户，了解他们的需求，他们想从你的应用中获得什么，它们使用什么工具，以及如何使用这些工具。开始熟悉这些工具，然后你可以给他们最好的用户体验。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -645,7 +645,7 @@
                         <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>人们以不同的方式使用辅助技术。</p>
+                        <p>人们以不同的方式使用无障碍技术。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -665,31 +665,31 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>清晰且有帮助的<strong>无障碍文本</strong>是使 UI 更易访问的主要方法之一。视力低下或没有视力的用户会从清楚明白的文字描述中受益。无障碍文本是指屏幕阅读器软件所使用的文本，例如 Android 上的 TalkBack、iOS 上的 VoiceOver、桌面端的 JAWS。屏幕阅读器会大声朗读屏幕上所有的文本，包括可见和不可见的替代文本。</p>
-              <p>无障碍文本包括可见文本（包括 UI 元素中的标签、按钮中的文字、链接和表单）和不可见的描述（没有文本标签的按钮的替代文字）有时，可以使用无障碍文本覆盖屏幕中的标签，来为用户提供更多信息。</p>
-              <p>Both visible and nonvisible text should be helpfully descriptive and independently meaningful, as some users navigate by using all the headings or links on a page. Test your app with a screen reader to identify areas that are missing or need better accessibility text. </p>
+            <div><p>清晰且有帮助的<strong>无障碍文本</strong>是使 UI 更易访问的主要方法之一。视力低下或没有视力的用户会从清晰易懂的文字描述中受益。无障碍文本是指供屏幕阅读器软件使用的文本，例如 Android 上的 TalkBack、iOS 上的 VoiceOver、桌面端的 JAWS。屏幕阅读器会大声朗读屏幕上所有的文本，包括可见和不可见的替代文本。</p>
+              <p>无障碍文本包括可见文本（包括 UI 元素中的标签、按钮中的文字、链接和表单）和不可见的描述（没有文本标签的按钮的替代文字）。有时，可以使用无障碍文本覆盖屏幕中的标签，来为用户提供更多信息。</p>
+              <p>可见和不可见的文本都应该是有用的描述性的词，并且都有独自的含义，因为有些用户会使用页面中的标题和链接进行导航。使用屏幕阅读器测试你的应用，以确定那些缺失无障碍文本、或需要更好的无障碍文本的区域。</p>
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Be succinct</h1>
-                    <p>Keep content and accessibility text short and to the point. Screen reader users hear every UI element read aloud. The shorter the text, the faster the screen reader users can navigate it. </p>
+                    <h1>保持简洁</h1>
+                    <p>保持内容和无障碍文本简短、并切中主题。屏幕阅读器用户会听到每个 UI 元素的朗读。文本越短，屏幕阅读器用户导航速度越快。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Switch to heyfromjonathan@gmail.com</p>
+                      <p>切换到 heyfromjonathan@gmail.com</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>Write clear and short accessibility text. </p>
+                      <p>书写明确和简短的无障碍文本。</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Account switcher. Switch to account heyfromjonathan@gmail.com</p>
+                      <p>账户切换器。切换到账户 heyfromjonathan@gmail.com</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>Don’t write long accessibility text. </p>
+                      <p>不要写太长的无障碍文本。</p>
                     </figcaption>
                   </div>
                 </section>
@@ -697,37 +697,37 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Avoid including control type or state in text</h1>
-                    <p>Screen readers may automatically announce a control’s type or state through a sound or by speaking the control name before or after the accessibility text. </p>
+                    <h1>避免在文本中包含控件类型和状态</h1>
+                    <p>屏幕阅读器会通过声音、或通过在无障碍文本前后说出控件名称，来自动声明控件的类型和状态。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Search</p>
+                      <p>搜索</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>Use short descriptions.</p>
+                      <p>使用简短的说明。</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Search field</p>
+                      <p>搜索字段</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>Don’t write the control type.</p>
+                      <p>不要写控件类型。</p>
                     </figcaption>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Developer note:</strong> If the control type or state is not being read correctly, the control’s accessibility role may be improperly set or be a custom control. Every element should have an associated accessibility role on a website or be coded to be announced properly. This means a button should be set as a button, and a checkbox as a checkbox, so that the control’s type or state is communicated correctly to the user. If you extend or inherit from a native UI element, you will get the correct role. If not, you can override this information for accessibility on each platform (<a href="https://www.google.com/url?q=https://www.w3.org/WAI/intro/aria&amp;sa=D&amp;ust=1481818010714000&amp;usg=AFQjCNEQMr5NDvLBa9da-xfE9WfQWw4GwA" target="_blank">ARIA</a> for web, <a href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html&amp;sa=D&amp;ust=1481818010715000&amp;usg=AFQjCNG1cz2ubEf3BM2zy2s1vu9CxyYMlA" target="_blank">AccessibilityNodeInfo for Android</a>). </p>
-                    <p>On Android, set the class name field of the control’s AccessibilityNodeInfo to "android.widget.Button".</p>
+                    <p><strong>开发人员注释</strong>：如果控件类型和状态没有被正确读取，则可能是控件的无障碍角色设置不正确，或者是一个自定义控件。网站上的每个元素都应该有一个相关的无障碍角色，或者通过代码为其声明一个角色。这意味着按钮应该设置成按钮、复选框应该设置成复选框，以便将控件的类型和状态正确传达给用户。如果一个元素是从一个原生的 UI 元素上扩展或继承的，他会获得父元素的角色。如果不是，你可以在每个平台上为无障碍重写这些信息（用于 Web 的 <a href="https://www.google.com/url?q=https://www.w3.org/WAI/intro/aria&amp;sa=D&amp;ust=1481818010714000&amp;usg=AFQjCNEQMr5NDvLBa9da-xfE9WfQWw4GwA" target="_blank">ARIA</a>，用于 Android 的 <a href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html&amp;sa=D&amp;ust=1481818010715000&amp;usg=AFQjCNG1cz2ubEf3BM2zy2s1vu9CxyYMlA" target="_blank">AccessibilityNodeInfo</a>）。</p>
+                    <p>在 Android，将控件的 AccessibilityNodeInfo 类名字段设置为 “android.widget.Button”。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23custom-views&amp;sa=D&amp;ust=1481818010719000&amp;usg=AFQjCNH1OZWUJCKsBHDScGoKuJr4ZCO75g" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">Building Accessible Custom Views</div>
+                          <div class="title">构建无障碍的自定义视图</div>
                           <span class="subtitle"></span>
                         </div>
                         </img>
@@ -736,20 +736,20 @@
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Download over Wi-Fi only</p>
+                      <p>仅用过 Wi-Fi 下载</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
-                      <p>Use short descriptions.</p>
+                      <p>使用简短的说明。</p>
                     </figcaption>
                   </div>
                   <div class="module">
                     <div class="text-box">
-                      <p>Download over Wi-Fi is selected</p>
+                      <p>已选择通过 Wi-Fi 下载</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                     <figcaption>
-                      <p>Don’t write out the state.</p>
+                      <p>不要写出状态。</p>
                     </figcaption>
                   </div>
                 </section>
@@ -757,13 +757,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Indicate what an element does</h1>
-                    <p>Use action verbs to indicate what an element or link does, not what an element looks like, so a visually impaired person can understand. Link text should:</p>
+                    <h1>指示元素的作用</h1>
+                    <p>使用动作动词来指明一个元素或链接的作用，而不是一个元素的外观，以便视觉障碍用户能够理解。链接文本应该是：</p>
                     <ul class="lst-kix_9qtqh176w4cq-0 start">
-                      <li>Specify the task that tapping the link will perform</li>
-                      <li>Avoid vague descriptions, such as “click here”</li>
+                      <li>指明点击链接后将执行的任务</li>
+                      <li>避免使用模糊的描述，例如 “点击此处”</li>
                     </ul>
-                    <p>Ensure an element has the same description everywhere it’s used. </p>
+                    <p>确保所有用到该元素的地方，该元素的描述都保持一致。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -772,7 +772,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The description read aloud indicates the action represented by the icon. </p>
+                        <p>朗读的描述指明了由图标表示的操作。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -783,7 +783,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Describing what the icon looks like doesn’t make it clear what the action does. </p>
+                        <p>描述图标的外观无法清楚的表明操作的作用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -797,7 +797,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Accessible text for a navigation menu could be “Show/hide navigation menu” (preferred) or “Show/Hide main menu” (acceptable).</p>
+                        <p>导航菜单的无障碍文本可以是 “显示/隐藏导航菜单” （首选）或者 “显示/隐藏主菜单” （可接受）。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -808,20 +808,20 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>When read aloud, the text “side drawer” doesn’t indicate what action will occur.</p>
+                        <p>朗读时，文本 “侧面抽屉” 无法指明会发生什么操作。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>Elements with state changes</strong></p>
-                    <p>For icons that toggle between values or states, announce the icon according to how it is presented to the user.</p>
+                    <p><strong>状态可以变化的元素</strong></p>
+                    <p>对于可以在值和状态之间切换的图标，根据向用户呈现内容来确定使用什么类型的图标。</p>
                     <ul class="lst-kix_dsyd8ql7t187-0 start">
-                      <li>If the icon is a <strong>property</strong> of an item, make it a checkbox so that screen readers verbalize the current state, such as “on” or “off.”</li>
-                      <li>If the icon is an <strong>action</strong>, write the text label to specify the action that occurs if the icon is selected, such as “Add to wishlist.”</li>
+                      <li>如果图标是一个项目的<strong>属性</strong>，则将其设置为复选框，以便屏幕阅读器能读出当前状态，例如 “打开” 或 “关闭”。</li>
+                      <li>如果图标是一个<strong>操作</strong>，使用文本标签来指明选中图标后会发生的操作，例如 “添加到心愿单”。</li>
                     </ul>
-                    <p>How elements should be used affects how they are displayed. For example, if a star icon represents the action of adding something to a wishlist, the app should verbalize “Add to wishlist” or “Remove from wishlist.”</p>
+                    <p>元素的使用方式会影响它们的显示方式。例如星形图标表示添加到心愿单的操作，则应用应该说出 “添加到心愿单” 或 “从心愿单中移除”。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
@@ -830,8 +830,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Don’t mention the exact gesture or interaction</h1>
-                    <p>Don’t tell users how to physically interact with a control, as they may be navigating with a keyboard or other device, not with their fingers or a mouse. Accessibility software will describe the correct interaction for the user.</p>
+                    <h1>不要提及确切的手势和交互</h1>
+                    <p>不要告诉用户如何与控件进行身体上的交互，因为它们可能使用键盘或其他设备进行导航，而不是用手指或鼠标进行导航。无障碍软件会为用户描述正确的交互方式。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -840,7 +840,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The command “voice search” describes the user task (search) paired with the input method (voice).</p>
+                        <p>此命令 “语音搜索” 描述和用户输入法（语音）相匹配的任务（搜索）。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -851,22 +851,22 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The command “Tap” is inaccurate as it is not the only way to activate this control (it could be selected via a keyboard press, switch device, or braille display). As the main user task in this example is to search, that action should be mentioned instead of “speak”.</p>
+                        <p>此命令 “点击” 是不准确的，因为这不是激活此控件的唯一方式（它也可以通过按下键盘、开关切换或盲文显示来激活）。由于本例中用户的主要任务是搜索，所以操作应该使用如上文所提到的文字，而不应该使用 “说话”。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Confirm actions</h1>
-              <p>Use dialogs, toasts, or snackbars (Android) to confirm or acknowledge user actions that are destructive (like “Delete” or “Remove”) or difficult to undo. </p>
-              <p>For actions that are confirmed through visual means, such as a grid rearranging itself when an item is deleted, a toast is not necessary. In these cases, add accessibility text to provide acknowledgement.</p>
-              <h1>Provide hint speech </h1>
-              <p>Hint speech provides extra information for actions that aren't clear. For example, Android's “double-tap to select” feature prompts the user to tap twice when landing on an item without taking action. Android TalkBack will also announce any custom actions associated with an element. Use hint speech sparingly and only for complex UI. </p>
+              <h1>确认操作</h1>
+              <p>使用对话框、toasts、或 snackbars（Android）来确认或确知具有破坏性的用户操作（例如 “删除” 或 “移除”），或者提示用户此操作不能撤销。</p>
+              <p>对于通过视觉方式确认的操作（例如，在删除一个项目时重新排列网格的布局），不需要 toast。在这些情况下，添加无障碍文本以提供确认。</p>
+              <h1>提供提示语音</h1>
+              <p>提示语音为不明确的操作提供额外的信息。例如，Android 的 “双击以选择” 功能提示用户在选择一个项目时需要点击两次。Android 的 TalkBack 也会提醒和元素相关联的任何自定义操作。谨慎使用提示语音，确保只在复杂的 UI 上使用提示语音。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html%23addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)&amp;sa=D&amp;ust=1481818010766000&amp;usg=AFQjCNE_U-MDUDvIwn8hceWHW36IGykFbQ" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
-                    <div class="title">Android Custom Actions</div>
+                    <div class="title">Android 自定义操作</div>
                     <span class="subtitle"></span>
                   </div>
                   </img>
