@@ -9,21 +9,21 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Selection enables user choices through gestures and visual cues.</h1>
+          <h1>“选择” 使用户可以通过手势或视觉提示进行选择</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p><strong>Checkboxes</strong> indicate completion, such as checking items off a list.</p>
-                <p><strong>Text selection</strong> is indicated by highlighting a segment of text.</p>
+                <p><strong>复选框</strong>表示完成，例如选中列表中的项目。</p>
+                <p><strong>文本选择</strong>由一段高亮的文本来表示。</p>
               </div>
               <div class="module">
-                <h3>Types of selection</h3>
-                <p>Item selection<br>
-                  Text selection</p>
-                <h3>Selection gestures</h3>
+                <h3>选择的类型</h3>
+                <p>项目选择<br>
+                  文本选择</p>
+                <h3>选择的手势</h3>
                 <ul class="lst-kix_hgumxa1xlv11-0 start">
-                  <li>A long-press, touch, or mousedown that’s held in the same position for a moment</li>
-                  <li>A two-finger touch (touch devices only)</li>
+                  <li>在一个位置长按、触摸或按下鼠标，并保持一会儿</li>
+                  <li>双指触摸（仅限触摸设备）</li>
                 </ul>
               </div>
               <div class="figure">
@@ -42,13 +42,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-item-selection" data-qp-ui-data-id="qp:2">Item selection</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-item-selection" data-qp-ui-data-id="qp:2">项目选择</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-text-selection" data-qp-ui-data-id="qp:3">Text selection</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="selection.html#selection-text-selection" data-qp-ui-data-id="qp:3">文本选择</a>
           </li>
         </ul>
       </nav>
@@ -56,7 +56,7 @@
       <div class="article-list">
         <div id="selection-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -64,23 +64,23 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><h1>The selection gesture</h1>
-              <p>The global gesture to select data is a long-press, touch, or mousedown that’s held in the same position for a moment. A two-finger touch may also trigger selection on touch devices.</p>
-              <h1>Checkboxes (Recommended for desktop)</h1>
-              <p>Checkboxes, or custom analogs, should only be used to indicate completion, such as checking items off lists.</p>
-              <p>Checkbox behaviors:</p>
+            <div><h1>选择的手势</h1>
+              <p>用于选择数据的全局手势是，在同一位置长按、触摸或按下鼠标，并保持一会儿。在触摸设备上，双指触摸也可以触发选择。</p>
+              <h1>复选框（建议用于桌面端）</h1>
+              <p>复选框、或自定义的类似组件，应该仅用于表示完成任务，例如选中列表中的项目。</p>
+              <p>复选框行为：</p>
               <ul class="lst-kix_p8vg2qw8sw46-0 start">
-                <li>When hovering over an item, display a single checkbox for that item.</li>
-                <li>After an item is selected, display checkboxes for all remaining items in that set.</li>
+                <li>将鼠标悬停到某个项目上时，为那个项目显示一个复选框。</li>
+                <li>选中一个项目后，显示该项目集合中所有其他项目的复选框。</li>
               </ul>
-              <p>Avoid persistently displaying checkboxes as part of each item.</p>
+              <p>避免把复选框作为项目的一部分持续显示。</p>
             </div>
           </div>
         </div>
 
         <div id="selection-item-selection" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Item selection
+            项目选择
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -88,13 +88,13 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>Item selection allows users to apply actions to selected items.</p>
+            <div><p>项目选择允许用户将操作应用到选中的项目上。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Selecting items </h1>
-                    <p>On touch devices, select an item by pressing and holding it.</p>
-                    <p>To exit selection mode, deselect all items or perform an action on selected items using the toolbar.</p>
+                    <h1>选择项目</h1>
+                    <p>在触摸设备上，可以通过长按选择一个项目。</p>
+                    <p>要退出选择模式，请取消所有选择的项目，或在工具栏中对已选择的项目执行操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -108,7 +108,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>On touch devices, select an item by pressing and holding it.</p>
+                        <p>在触摸设备上，通过长按选择一个项目。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -118,9 +118,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Toggling selection on and off</h1>
-                    <p>To toggle an item between selected and unselected states, tap the item.</p>
-                    <p>To select multiple items, long press and drag the cursor.</p>
+                    <h1>打开和关闭选择</h1>
+                    <p>通过点击一个项目，使该项目在选中和未选中状态之间切换。</p>
+                    <p>通过长按并拖动光标，来选择多个项目。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -134,7 +134,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Once an item is selected, tap the item to toggle its selection.</p>
+                        <p>选中一个项目后，点击该项目即可切换其选中状态。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -150,15 +150,15 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Users may long press and drag to select items using the cursor.</p>
+                        <p>用户可以长按并拖动光标来选择多个项目。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Desktop</strong></p>
-                    <p>To toggle selection on desktop, hover over an item to reveal a check mark which can be clicked.</p>
+                    <p><strong>桌面端</strong></p>
+                    <p>要在桌面端切换选中状态，可以将鼠标悬停在某个项目上，以显示可以单击的复选标记。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -172,7 +172,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>On desktop, users may click and drag across checkboxes to select multiple items.</p></figcaption>
+                        <p>在桌面设备上，用户可以通过点击来选择多个项目。</p></figcaption>
                     </figure>
                   </div>
                 </section>
@@ -180,8 +180,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Indicating selection</h1>
-                    <p>To indicate that an item is selected, display a check mark and scrim overlapping the item, or its associated avatar.</p>
+                    <h1>指示选择</h1>
+                    <p>要指示一个项目已被选中，请显示一个与该项目或该项目的头像重叠的复选标记和透明遮罩。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -195,7 +195,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Checkmarks replace icons or avatars if there is space.</p>
+                        <p>如果图标或头像和项目内容是分隔开的，那么在选中后可以用复选标记替换图标和头像。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -211,7 +211,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Use compact checkmarks to minimize the hiding the amount of content displayed.</p>
+                        <p>使用紧凑型复选标记来减少对显示内容的遮盖。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -224,7 +224,7 @@
 
         <div id="selection-text-selection" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Text selection
+            文本选择
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -233,48 +233,48 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Text selection is indicated by highlighting a contiguous segment of text. </p>
-              <p>On mobile, a selection handle is added to both the beginning and end of a selection. Actions related to the text appear in a dropdown menu positioned immediately above, but not overlapping, the selection.</p>
+              <p>通过高亮一段文字来指示文本选择。</p>
+              <p>在移动设备上，会在选中的文字的开头和结尾各加上一个选择手柄。和文本相关的操作会显示在一个下拉菜单中，该下拉菜单会紧挨着文本上方，但不会和文本重叠。</p>
               <div class="col-list">
                 <section class="module-module col-2">
-                  <div class="module"><h1>Adjusting selected text</h1>
-                    <p>The user may adjust which text is selected by:</p>
+                  <div class="module"><h1>调整所选文本</h1>
+                    <p>用户可以通过以下方式来调整选中的文本：</p>
                     <ul class="lst-kix_t3epjq3awayd-0 start">
-                      <li>Dragging the initial selection to expand it</li>
-                      <li>Dragging either of the selection handles to expand or reduce the selection</li>
-                      <li>Touching (or clicking) repeatedly within the selection to expand it (Selection will toggle between a single word, paragraph, or all text)</li>
-                      <li>Keyboard shortcuts (see table)</li>
+                      <li>拖动刚刚被选中的文本来展开它</li>
+                      <li>拖动其中一个选择手柄来展开或缩小选择</li>
+                      <li>在选中的文本内重复触摸（或点击）来展开它（选择将在单词、段落和全文之间切换）</li>
+                      <li>键盘快捷键（见表格）</li>
                     </ul>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Keyboard shortcut</p></td>
-                        <td colspan="1" rowspan="1"><p>Result</p></td>
+                        <td colspan="1" rowspan="1"><p>键盘快捷键</p></td>
+                        <td colspan="1" rowspan="1"><p>结果</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Shift+Left/Right Arrow</p></td>
-                        <td colspan="1" rowspan="1"><p>Character-by-character selection</p></td>
+                        <td colspan="1" rowspan="1"><p>Shift+左/右方向键</p></td>
+                        <td colspan="1" rowspan="1"><p>逐字选择</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Shift+Up/Down Arrow</p></td>
-                        <td colspan="1" rowspan="1"><p>Line-by-line selection</p></td>
+                        <td colspan="1" rowspan="1"><p>Shift+上/下方向键</p></td>
+                        <td colspan="1" rowspan="1"><p>逐行选择</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>Ctrl/Command+A</p></td>
-                        <td colspan="1" rowspan="1"><p>Select all</p></td>
+                        <td colspan="1" rowspan="1"><p>全选</p></td>
                       </tr>
                       </tbody>
                     </table>
-                    <p>Text selection keyboard shortcuts can be used to alter the selection bounds.</p>
+                    <p>文本选择快捷键可用于更改选择范围。</p>
                   </div>
                 </section>
               </div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Text selection handles</strong></h2>
+                    <h2><strong>文本选择手柄</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -282,7 +282,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of text selection handles</p>
+                        <p>文本选择手柄示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -292,7 +292,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of text selection handles</p>
+                        <p>文本选择手柄示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -301,10 +301,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Color and contrast</strong></h2>
-                    <p>Text selection elements may reflect your <a href="../style/color.html">color palette</a> by using your accent color.</p>
-                    <p>Selected text should be legible, with noticeable contrast against its background color. Alternatively, selected text may be indicated by displaying outlines, text treatments, motion, or checkmark icons. </p>
-                    <p>Learn more about contrast (or try a <a href="https://www.google.com/url?q=http://webaim.org/resources/contrastchecker/&amp;sa=D&amp;ust=1481818021000000&amp;usg=AFQjCNHJditsLQxQLnMuBysPOsyFgH3ihg" target="_blank">color contrast analyzer</a>) at <a href="https://www.google.com/url?q=http://webaim.org&amp;sa=D&amp;ust=1481818021002000&amp;usg=AFQjCNE3WHKwrSZnwBOeSuup__9bJ7bklw" target="_blank">webaim.org</a>.</p>
+                    <h2><strong>颜色和对比度</strong></h2>
+                    <p>文本选择元素可以使用<a href="../style/color.html">调色板</a>中应用的强调色。</p>
+                    <p>选中的文本应清晰易读，与背景颜色对比明显。或者，可以通过显示轮廓、文本解释、动画、或复选标记来指示选中的文本。</p>
+                    <p>在<a href="https://www.google.com/url?q=http://webaim.org&amp;sa=D&amp;ust=1481818021002000&amp;usg=AFQjCNE3WHKwrSZnwBOeSuup__9bJ7bklw" target="_blank">webaim.org</a>了解更多有关对比度（或<a href="https://www.google.com/url?q=http://webaim.org/resources/contrastchecker/&amp;sa=D&amp;ust=1481818021000000&amp;usg=AFQjCNHJditsLQxQLnMuBysPOsyFgH3ihg" target="_blank">颜色对比度检查器</a>）的信息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -313,9 +313,9 @@
                       </div>
                       <figcaption>
                         <ol class="lst-kix_xdqkwleg2gie-0 start" start="1">
-                          <li>Text selection color</li>
-                          <li>Text</li>
-                          <li>Background</li>
+                          <li>文本选择的颜色</li>
+                          <li>文本</li>
+                          <li>背景</li>
                         </ol>
                       </figcaption>
                     </figure>
@@ -326,14 +326,14 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text selection can be customized using your palette accent color. </p>
+                        <p>文本选择可使用调色板中的强调色进行自定义。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong>Text selection – Light theme</strong></h2>
+                    <h2><strong>文本选择 - 亮色主题</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -341,14 +341,14 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text selection – Light theme</p>
+                        <p>文本选择 – 亮色主题</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2><strong>Text selection – Dark theme</strong></h2>
+                    <h2><strong>文本选择 – 暗色主题</strong></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -356,7 +356,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text selection – Dark theme</p>
+                        <p>文本选择 – 暗色主题</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -365,9 +365,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Text selection toolbar</h1>
-                    <p>The floating toolbar appears above the selection area with primary actions of Cut, Copy, Paste, and More. When the user selects the More icon, the toolbar collapses and transforms into a secondary menu to reveal additional actions. </p>
-                    <p>The font for the floating toolbar text is Roboto Medium 14sp, all caps.</p>
+                    <h1>文本选择工具栏</h1>
+                    <p>浮动工具栏出现在选择区域的上方，包含剪切、复制、粘贴及更多主要操作。当用户选择更多图标时，工具栏将折叠并转换为弹出菜单来显示其他操作。</p>
+                    <p>浮动工具栏文本的字体为 Roboto Medium 14sp，全部大写。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -375,7 +375,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Dropdown menus for Cut, Copy, Paste, and More appear above the selection area.</p>
+                        <p>选择区域上方的工具栏菜单，显示剪切、复制、粘贴和更多操作。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -383,7 +383,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>More</p>
+                        <p>更多</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -393,7 +393,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>When the user selects More, the menu begins transitioning to show the overflow items. </p>
+                        <p>当用户选择更多时，菜单开始转换，以显示弹出菜单项。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -401,7 +401,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Overflow menu items: Share, Search, and Translate </p>
+                        <p>弹出菜单项包括：分享、搜索和翻译</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -414,18 +414,18 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Text selection</p>
-                        <p>Dropdown menu height: 44dp<br>
-                          Dropdown menu text top padding: 12dp<br>
-                          Dropdown menu text top padding: 14dp<br>
-                          Dropdown menu text left padding: 24dp<br>
+                        <p>文本选择</p>
+                        <p>工具栏菜单高度：44dp<br>
+                          工具栏菜单文本顶部边距：12dp<br>
+                          工具栏菜单文本底部边距：14dp<br>
+                          工具栏菜单文本左侧边距：24dp<br>
                           <br>
-                          Dropdown menu space between menu text items: 32dp<br>
-                          Selected text top padding: 8dp</p>
-                        <p>Expansion icon right padding: 16dp</p>
-                        <p>Expansion icon left padding: 22dp<br>
-                          Expansion icon top and bottom padding: 10dp<br>
-                          Text selection handles: 22 x 22 dp</p>
+                          工具栏菜单中的菜单项文本之间的间距：32dp<br>
+                          菜单和选中的文本之间的间距：8dp</p>
+                        <p>扩展图标右边距：16dp</p>
+                        <p>扩展图标左边距：22dp<br>
+                          扩展图标上下边距：10dp<br>
+                          文本选择的手柄：22 x 22 dp</p>
                       </figcaption>
                     </figure>
                   </div>
