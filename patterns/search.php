@@ -9,20 +9,20 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Search allows users to locate app content quickly.</h1>
+          <h1>搜索可以使用户快速查找应用内容。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>When an app supports large amounts of information, users should be able to quickly locate content by searching for it.</p>
+                <p>当应用支持大量的内容时，用户应该要能通过搜索功能快速查找内容。</p>
               </div>
               <div class="module">
-                <h3><strong>Search options</strong></h3>
-                <p>Voice search<br>
-                  Search suggestions<br>
-                  Autocompletion</p>
-                <h3><strong>Types of search</strong></h3>
-                <p>Persistent search<br>
-                  Expandable search</p>
+                <h3><strong>搜索选项</strong></h3>
+                <p>语音搜索<br>
+                  搜索建议<br>
+                  自动完成</p>
+                <h3><strong>搜索类型</strong></h3>
+                <p>固定显示的搜索<br>
+                  可展开搜索</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -40,7 +40,7 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="search.html#search-in-app-search" data-qp-ui-data-id="qp:1">In-app search</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="search.html#search-in-app-search" data-qp-ui-data-id="qp:1">应用内搜索</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
       <div class="article-list">
         <div id="search-in-app-search" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            In-app search
+            应用内搜索
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -57,28 +57,28 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>When an app supports large amounts of information, users should be able to quickly locate content by searching. </p>
-              <p>Basic search involves:</p>
+              <p>当应用支持大量内容时，用户应该要能通过搜索功能快速查找内容。</p>
+              <p>基本的搜索包括：</p>
               <ol class="lst-kix_ip2ohrtdq8of-0 start" start="1">
-                <li>Opening a search text field</li>
-                <li>Entering and submitting a query</li>
-                <li>Displaying a set of search results</li>
+                <li>打开一个搜索文本框</li>
+                <li>输入并提交一个查询</li>
+                <li>显示一组搜索结果</li>
               </ol>
-              <p>However, the search experience can be enhanced by providing:</p>
+              <p>然而，可以通过提供以下功能来提升搜索体验：</p>
               <ul class="lst-kix_gdvuemmncjao-0 start">
-                <li>Voice search</li>
-                <li>Historical search suggestions based on recent user queries, before a query is completed</li>
-                <li>Auto-completed search suggestions matching actual results in your application data</li>
+                <li>语音搜索</li>
+                <li>在搜索完成之前，根据用户的最近搜索提供历史搜索建议</li>
+                <li>自动完成和应用的真实搜索结果匹配的搜索建议</li>
               </ul>
-              <p>There are two major patterns for in-app search: <strong>persistent search</strong> and <strong>expandable search</strong>.</p>
+              <p>应用内搜索有两种主要模式：<strong>固定显示的搜索</strong>和<strong>可展开搜索</strong>。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h1><strong>Persistent search</strong></h1>
-                    <p>Use persistent search when search is the primary focus of your app. </p>
-                    <p>Behavior:</p>
-                    <p>The search text field is presented inside of an inset search box, ready to receive focus. The user can touch the microphone icon to initiate a voice search.</p>
-                    <p>When in focus, the search field expands to show historical search suggestions. If needed, the onscreen keyboard will also appear. </p>
-                    <p>Choosing any of the suggestions submits the search. Touching the up arrow releases the focus from search, dismissing suggestions and the on-screen keyboard.</p>
+                  <div class="module"><h1><strong>固定显示的搜索</strong></h1>
+                    <p>当搜索是应用的主焦点时，使用固定显示的搜索。</p>
+                    <p>行为：</p>
+                    <p>搜索文本字段嵌入在搜索框内，随时准备获得焦点。用户可以触摸麦克风图标来启用语音搜索。</p>
+                    <p>当获得焦点时，搜索框会向下展开，显示历史搜索建议。如果需要的话，屏幕键盘也会出现。</p>
+                    <p>选择任意一条搜索建议就会提交搜索。触摸向上箭头会将焦点从搜索框中释放，关闭搜索建议以及屏幕键盘。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -86,7 +86,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Persistent search box</p>
+                        <p>固定显示的搜索框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,7 +96,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Persistent search text field in focus</p>
+                        <p>聚焦状态的固定显示的搜索框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -105,10 +105,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>As the user enters a query, the search suggestions shift to auto-completion. As the user types, the suggestions are filtered and sorted. Choosing a suggestion or pressing the return key submits the search.</p>
-                    <p>The X action in the search box clears the query. </p>
-                    <p>When displaying search results, the search box remains visible, but is not focused by default. The onscreen keyboard is dismissed so more results can be shown.</p>
-                    <p>Search results are formatted as cards to match the inset appearance of the search box and to accommodate different types of results.</p>
+                    <p>当用户输入搜索词时，搜索建议会切换为自动完成。随着用户的输入，搜索建议会被过滤和排序。选择一个建议或按下搜索键就会提交搜索。</p>
+                    <p>搜索框中的 X 操作会清空搜索词。</p>
+                    <p>当显示搜索结果时，搜索框保持可见，但是默认不拥有焦点。屏幕键盘已关闭，因此可以显示更多搜索结果。</p>
+                    <p>搜索结果的格式为卡片，以匹配搜索框的外观，以及适应不同类型的搜索结果。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -116,7 +116,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Auto-complete<br>
+                        <p>自动完成<br>
                       </p></figcaption>
                     </figure>
                   </div>
@@ -126,7 +126,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Search results</p>
+                        <p>搜索结果</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -135,13 +135,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1><strong>Expandable search</strong></h1>
-                    <p>Use expandable search when search is not the primary focus of your app.</p>
-                    <p>Behavior:</p>
-                    <p>Display a magnifying glass icon in the toolbar instead of a search text box.</p>
-                    <p>Touching the search icon causes the toolbar to transform, clearing other content and displaying a search text field. If voice search is supported, the microphone icon also appears.</p>
-                    <p>The search text field automatically receives focus, and, if needed, the onscreen keyboard will appear. Historical search suggestions can be shown beneath the toolbar. Choosing any of the suggestions submits the query. </p>
-                    <p>Touching the up arrow closes search and restores the original presentation of the toolbar.</p>
+                    <h1><strong>可展开搜索</strong></h1>
+                    <p>当搜索不是应用的主焦点时，使用可展开搜索。</p>
+                    <p>行为：</p>
+                    <p>在工具栏中显示一个放大镜图标，而不是搜索文本框。</p>
+                    <p>触摸搜索图标会使工具栏进行转换，清空工具栏中的其他内容，并显示搜索文本框。如果支持语音搜索，麦克风图标也会出现。</p>
+                    <p>搜索文本框会自动获得焦点，如果需要的话，屏幕键盘也会出现。历史搜索建议可以显示在工具栏下面。选择任何一条建议将提交搜索。</p>
+                    <p>触摸向上箭头可以关闭搜索，并把工具栏恢复成原始样式。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -149,7 +149,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Expandable search</p>
+                        <p>可展开搜索</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -159,7 +159,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Search text field in focus</p>
+                        <p>聚焦状态的搜索文本框</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -168,10 +168,10 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>As the user enters a query, the search suggestions shift to auto-completion. As the user types, the suggestions are filtered and sorted. Choosing a suggestion or pressing the return key submits the search. </p>
-                    <p>The X action in the search field clears the query. </p>
-                    <p>When displaying search results, the search version of the toolbar remains visible, but is not in focus by default. The onscreen keyboard is dismissed so more results can be shown.</p>
-                    <p>Search results are formatted as cards and appear in the main body of the page beneath the toolbar.</p>
+                    <p>当用户输入搜索词时，搜索建议会转换为自动完成。随着用户的输入，搜素建议会被过滤和排序。选择其中一条建议或按下搜索键会提交搜索。</p>
+                    <p>搜索框中的 X 操作会清空搜索框。</p>
+                    <p>当显示搜索结果时，转换成了搜索框样式的工具栏保持可见，但是默认不拥有焦点。屏幕键盘已关闭，因此可以显示更多搜索结果。</p>
+                    <p>搜索结果被格式化成卡片，并显示在工具栏下方的页面主体中。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -179,7 +179,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Auto-complete<br></p>
+                        <p>自动完成<br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -189,7 +189,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Search results</p>
+                        <p>搜索结果</p>
                       </figcaption>
                     </figure>
                   </div>
