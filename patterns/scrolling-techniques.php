@@ -9,18 +9,18 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Scrolling techniques affect how content scrolls in relation to the app bar.</h1>
+          <h1>滚动技术影响内容相对于应用栏滚动的方式。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>These following patterns describe the elevations at which content should scroll, how to size flexible space, and when to anchor specific elements.</p>
+                <p>下列这些模式描述了滚动内容的海拔高度，如何调整弹性区域，以及何时固定指定元素。</p>
               </div>
               <div class="module">
-                <h3><strong>App bar scrollable regions</strong></h3>
-                <p>Status bar<br>
-                  Toolbar<br>
-                  Tab bar/search bar<br>
-                  Flexible space</p>
+                <h3><strong>应用栏滚动区域</strong></h3>
+                <p>状态栏<br>
+                  工具栏<br>
+                  选项卡栏/搜索栏<br>
+                  弹性区域</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -38,10 +38,10 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="scrolling-techniques.html#scrolling-techniques-app-bar-scrollable-regions" data-qp-ui-data-id="qp:1">App bar scrollable regions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="scrolling-techniques.html#scrolling-techniques-app-bar-scrollable-regions" data-qp-ui-data-id="qp:1">应用栏可滚动区域</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="scrolling-techniques.html#scrolling-techniques-behavior" data-qp-ui-data-id="qp:2">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="scrolling-techniques.html#scrolling-techniques-behavior" data-qp-ui-data-id="qp:2">行为</a>
           </li>
         </ul>
       </nav>
@@ -49,7 +49,7 @@
       <div class="article-list">
         <div id="scrolling-techniques-app-bar-scrollable-regions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            App bar scrollable regions
+            应用栏可滚动区域
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -61,12 +61,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>When designing scrolling behavior, app bars contain four main regions (referred to as <strong>blocks</strong>) that comprise the scrolling structure:</p>
+                    <p>设计滚动行为时，应用栏包含 4 个主要区域（简称为<strong>块</strong>），包含下列滚动结构：</p>
                     <ul class="lst-kix_msg1zeepgnvm-0 start">
-                      <li>Status bar</li>
-                      <li>Tool bar</li>
-                      <li>Tab bar/search bar</li>
-                      <li>Flexible space: space to accommodate a desired aspect ratio for images or extended app bars</li>
+                      <li>状态栏</li>
+                      <li>工具栏</li>
+                      <li>标签栏/搜索栏</li>
+                      <li>弹性区域：可容纳图片或扩展应用栏所需宽高比的区域</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -75,7 +75,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>App bar components can include: status bar, navigation bar, tab/search bar, and flexible space</p>
+                        <p>应用栏组件可以包括：状态栏、导航栏、选项卡栏/搜索栏、弹性区域</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -85,7 +85,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a status bar, navigation bar, tab/search bar, and flexible space</p>
+                        <p>状态栏、导航栏、选项卡栏/搜索栏、弹性区域示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -97,7 +97,7 @@
 
         <div id="scrolling-techniques-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -109,13 +109,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Standard app bar</h1>
-                    <p>Specs:</p>
-                    <p>The standard app bar height is 56dp on mobile and 64dp on larger screen sizes.</p>
-                    <p>The app bar has two scrolling options:</p>
+                    <h1>标准应用栏</h1>
+                    <p>规格：</p>
+                    <p>标准应用栏在手机上为 56dp，在更大屏幕的设备上为 64dp。</p>
+                    <p>应用栏有两个滚动选项：</p>
                     <ol class="lst-kix_xragy2uut2tp-0 start" start="1">
-                      <li>The app bar can<strong> scroll off-screen</strong> with the content and return when the user reverse scrolls.</li>
-                      <li>The app bar can <strong>stay fixed at the top</strong> with content scrolling under it.</li>
+                      <li>应用栏可以和内容一起<strong>滚动离开屏幕</strong>，并在用户反向滚动时重新回到屏幕。</li>
+                      <li>应用栏可以<strong>固定在屏幕顶部</strong>，内容可以在其下方滚动。</li>
                     </ol>
                   </div>
                   <div class="figure">
@@ -124,9 +124,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The standard app bar</p>
-                        <p>Status bar height: 24dp<br>
-                          Toolbar height: 56dp / 64dp</p>
+                        <p>标准应用栏</p>
+                        <p>状态栏高度：24dp<br>
+                          工具栏高度：56dp / 64dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -142,7 +142,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of toolbar off-screen during scrolling</p>
+                        <p>滚动时应用栏离开屏幕的动画</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -151,13 +151,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>App bar with tabs</h1>
-                    <p>The <a href="https://www.google.com/url?q=http://www.google.com/design/spec/layout/structure.html%23structure-app-bar&amp;sa=D&amp;ust=1481818034413000&amp;usg=AFQjCNEyNLznR0_A392he9e-U3psIDApKg" target="_blank">standard app bar</a> component that can include the following blocks: a toolbar, tab bar, or flexible space. </p>
-                    <p>Tabs may have one of these behaviors:</p>
+                    <h1>含选项卡的应用栏</h1>
+                    <p><a href="https://www.google.com/url?q=http://www.google.com/design/spec/layout/structure.html%23structure-app-bar&amp;sa=D&amp;ust=1481818034413000&amp;usg=AFQjCNEyNLznR0_A392he9e-U3psIDApKg" target="_blank">标准应用栏</a>组件可以包含以下块：工具栏、选项卡栏、弹性区域。</p>
+                    <p>选项卡可以具有以下之一的行为：</p>
                     <ol class="lst-kix_cviczu2dcsqt-0 start" start="1">
-                      <li>The tab bar stays <strong>anchored at the top</strong>, while the toolbar scrolls off.</li>
-                      <li>The app bar stays anchored at the top, with the <strong>content scrolling underneath</strong>.</li>
-                      <li>Both the toolbar and tab bar <strong>scroll off with content</strong>. The tab bar returns on reverse-scroll, and the toolbar returns on complete reverse scroll.</li>
+                      <li>当滚动时，工具栏离开屏幕时，选项卡栏可以<strong>固定在屏幕顶部</strong>。</li>
+                      <li>应用栏始终固定在屏幕顶部，<strong>内容在应用栏下方滚动</strong>。</li>
+                      <li>工具栏和选项卡栏都会<strong>随着内容一起滚动离开屏幕</strong>。选项卡栏会在反向滚动时重新回到屏幕，工具栏会在完成反向滚动后回到屏幕。</li>
                     </ol>
                   </div>
                   <div class="figure">
@@ -166,10 +166,10 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Status bar, toolbar, and tab bar</p>
-                        <p>Status bar height: 24dp<br>
-                          Toolbar height: 56dp / 64dp<br>
-                          Tab bar height: 48dp</p>
+                        <p>状态栏、工具栏、选项卡栏</p>
+                        <p>状态栏高度：24dp<br>
+                          工具栏高度：56dp / 64dp<br>
+                          选项卡栏高度：48dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -185,7 +185,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation showing the toolbar scrolling off and the tab and app bars stay in place.</p>
+                        <p>动画显示工具栏滚动时离开屏幕，选项卡栏和应用栏固定在一个地方。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -194,12 +194,12 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Flexible space</h1>
-                    <p>Because the app bar is flexible, it can be extended to accommodate larger typography or images. To extend the app bar, add a flexible space block. </p>
-                    <p>Flexible space may be displayed one of two ways:</p>
+                    <h1>弹性区域</h1>
+                    <p>因为应用栏是弹性的，它可以扩展以适应更大的排版或图片。要扩展应用栏，请添加一个弹性区域块。</p>
+                    <p>弹性区域可以通过以下两种方式之一来显示：</p>
                     <ol class="lst-kix_ssj9brumqzmr-0 start" start="1">
-                      <li>The <strong>flexible space shrinks</strong> until only the toolbar remains. The title shrinks to 20sp in the navigation bar. When scrolling to the top of the page, the flexible space and the title grow into place again.</li>
-                      <li>The <strong>whole app bar scrolls off</strong>. When the user reverse scrolls, the toolbar returns anchored to the top. When scrolling all the way back, the flexible space and the title grow into place again.</li>
+                      <li><strong>弹性区域缩小</strong>直到只有工具栏处于显示状态。标题在导航栏中缩小到 20sp。当滚动到页面顶部时，弹性区域和标题再次增大到原来位置。</li>
+                      <li><strong>整个应用栏滚动离开屏幕</strong>。当用户反向滚动时，工具栏回到屏幕并固定到屏幕顶部。当一直反向滚动时，弹性区域和标题会再次增大到原来位置。</li>
                     </ol>
                   </div>
                   <div class="figure">
@@ -208,9 +208,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Status bar, toolbar, and flexible space</p>
-                        <p>Status bar height: 24dp<br>
-                          Toolbar height: 56dp / 64dp<br></p>
+                        <p>状态栏、工具栏、弹性区域</p>
+                        <p>状态栏高度：24dp<br>
+                          工具栏高度：56dp / 64dp<br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -226,7 +226,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation showing flexible space during scrolling</p>
+                        <p>动画显示滚动时的弹性区域</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -235,9 +235,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Flexible space with image</h1>
-                    <p>Use flexible space to accommodate images in the app bar with the desired aspect ratio. </p>
-                    <p>In this example, the aspect ratio is 4:3. When scrolling, the content pushes up the image, which shrinks the flexible space. At the end of the transformation, the image gets tinted with the primary color, independent of scrolling.</p>
+                    <h1>含图片的弹性区域</h1>
+                    <p>使用弹性区域来容纳应用栏中具有所需宽高比的图片。</p>
+                    <p>在此示例中，宽高比是 4:3。滚动时，内容向上推动图片，缩小了弹性区域。在转换结束时，图片变成了应用的主色，且与滚动无关了。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -245,9 +245,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Status bar, toolbar, and flexible space</p>
-                        <p>Status bar height: 24dp<br>
-                          Toolbar height: 56dp / 64dp<br></p>
+                        <p>状态栏、工具栏、弹性区域</p>
+                        <p>状态栏高度：24dp<br>
+                          工具栏高度：56dp / 64dp<br></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -263,7 +263,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation showing flexible space and image during scrolling</p>
+                        <p>动画显示滚动时的弹性区域和图片</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -272,16 +272,16 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Flexible space with overlapping content</h1>
-                    <p>Content can overlap the app bar. </p>
-                    <p>The app bar has two scrolling options:</p>
+                    <h1>具有重叠内容的弹性区域</h1>
+                    <p>内容可以与应用栏重叠。</p>
+                    <p>应用栏有两个滚动选项：</p>
                     <ul class="lst-kix_nm19p4ye05oz-0 start">
-                      <li>The app bar is initially positioned behind the content. Upon upward scroll, the app bar should scroll faster than the content, until the content no longer overlaps it. Once <strong>anchored in place</strong>, the app bar lifts up for content to scroll underneath.</li>
+                      <li>应用栏最初位于内容的后面。向上滚动时，应用栏应比内容滚动更快，直到内容不再和应用栏重叠。一旦<strong>固定到一个位置</strong>，应用栏就会提升海拔高度，使内容在应用栏下方滚动。</li>
                     </ul>
                     <ul class="lst-kix_5ix0qxcgg3bx-0 start">
-                      <li>The app bar can <strong>scroll off-screen</strong> with the content and return when the user reverse scrolls.</li>
+                      <li>应用栏可以和内容一起<strong>滚动离开屏幕</strong>，并在用户反向滚动时返回。</li>
                     </ul>
-                    <p>In this interaction, the app bar cannot include tabs.</p>
+                    <p>在此交互中，应用栏不能包含选项卡栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -289,9 +289,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Flexible space</p>
-                        <p>Status bar: 24dp<br>
-                          Toolbar: 56dp/64dp</p>
+                        <p>弹性区域</p>
+                        <p>状态栏：24dp<br>
+                          工具栏：56dp/64dp</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -307,7 +307,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation showing flexible space and overlapping content during scrolling</p>
+                        <p>动画显示滚动时的弹性区域和覆盖应用栏的内容</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -321,7 +321,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Z-space diagram, side view</p>
+                        <p>Z 轴方向的空间图，侧视图</p>
                       </figcaption>
                     </figure>
                   </div>
