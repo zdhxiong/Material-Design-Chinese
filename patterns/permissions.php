@@ -9,22 +9,22 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Permission requests should be simple, transparent, and understandable. </h1>
+          <h1>权限请求应该简单、透明、可理解。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Apps should clarify why each permission request is needed, either through the feature name or an explanation provided.</p>
-                <p><strong>Runtime permissions</strong> are requested at the moment a user needs to perform an action in an app.</p>
-                <p><strong>Denied permissions</strong> should provide feedback and options.</p>
+                <p>应用应该要说明每一个权限请求的原因，可以通过功能名词或者提供的解释来进行说明。</p>
+                <p><strong>运行时权限</strong>会在用户需要在应用中执行操作时来请求。</p>
+                <p><strong>被拒绝的权限</strong>应该提供反馈和选项。</p>
               </div>
               <div class="module">
-                <h3><strong>Types of permissions</strong></h3>
-                <p>Educate before asking<br>
-                  Ask up-front<br>
-                  Ask in context<br>
-                  Educate in context<br>
-                  Provide an immediate benefit<br>
-                  Only ask for relevant permissions</p>
+                <h3><strong>权限类型</strong></h3>
+                <p>在请求权限前先进行指导<br>
+                  预先请求权限<br>
+                  在需要时请求权限<br>
+                  在需要时进行指导<br>
+                  提供一个直接的好处<br>
+                  只请求相关权限</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -42,16 +42,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-runtime-permissions" data-qp-ui-data-id="qp:2">Runtime permissions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-runtime-permissions" data-qp-ui-data-id="qp:2">运行时权限</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-request-patterns" data-qp-ui-data-id="qp:3">Request patterns</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-request-patterns" data-qp-ui-data-id="qp:3">请求模式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-denied-permissions" data-qp-ui-data-id="qp:4">Denied permissions</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="permissions.html#permissions-denied-permissions" data-qp-ui-data-id="qp:4">被拒绝的权限</a>
           </li>
         </ul>
       </nav>
@@ -60,7 +60,7 @@
 
         <div id="permissions-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -72,51 +72,51 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2><strong><strong>Permission groups</strong></strong></h2>
-                    <p>Permissions are divided into nine groups, allowing users to grant all permissions encompassed by a single action. For instance, granting permission to Contacts includes the ability to both view and edit Contacts.</p>
+                    <h2><strong><strong>权限分组</strong></strong></h2>
+                    <p>权限可以分为 9 个分组，允许用户授予单个操纵中包含的所有权限。例如，授予的联系人权限包括读取和编辑联系人。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Permission</p></td>
-                        <td colspan="1" rowspan="1"><p>Description</p></td>
+                        <td colspan="1" rowspan="1"><p>权限</p></td>
+                        <td colspan="1" rowspan="1"><p>描述</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Calendar</p></td>
-                        <td colspan="1" rowspan="1"><p>Managing calendars</p></td>
+                        <td colspan="1" rowspan="1"><p>日历</p></td>
+                        <td colspan="1" rowspan="1"><p>管理日历</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Camera</p></td>
-                        <td colspan="1" rowspan="1"><p>Taking photos and recording videos</p></td>
+                        <td colspan="1" rowspan="1"><p>相机</p></td>
+                        <td colspan="1" rowspan="1"><p>拍摄照片和录制视频</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Contacts</p></td>
-                        <td colspan="1" rowspan="1"><p>Managing contacts</p></td>
+                        <td colspan="1" rowspan="1"><p>联系人</p></td>
+                        <td colspan="1" rowspan="1"><p>管理联系人</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Location</p></td>
-                        <td colspan="1" rowspan="1"><p>Current device location</p></td>
+                        <td colspan="1" rowspan="1"><p>位置</p></td>
+                        <td colspan="1" rowspan="1"><p>当前设备位置</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Microphone</p></td>
-                        <td colspan="1" rowspan="1"><p>Audio recording</p></td>
+                        <td colspan="1" rowspan="1"><p>麦克风</p></td>
+                        <td colspan="1" rowspan="1"><p>录音</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Phone</p></td>
-                        <td colspan="1" rowspan="1"><p>Dialing and managing phone calls</p></td>
+                        <td colspan="1" rowspan="1"><p>电话</p></td>
+                        <td colspan="1" rowspan="1"><p>拨打和管理电话</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Body Sensors</p></td>
-                        <td colspan="1" rowspan="1"><p>Heart rate and similar data</p></td>
+                        <td colspan="1" rowspan="1"><p>身体传感器</p></td>
+                        <td colspan="1" rowspan="1"><p>心率和类似数据</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>SMS</p></td>
-                        <td colspan="1" rowspan="1"><p>Sending and viewing messages</p></td>
+                        <td colspan="1" rowspan="1"><p>短信</p></td>
+                        <td colspan="1" rowspan="1"><p>发送和查看信息</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Storage</p></td>
-                        <td colspan="1" rowspan="1"><p>Accessing photos, media, and files</p></td>
+                        <td colspan="1" rowspan="1"><p>存储</p></td>
+                        <td colspan="1" rowspan="1"><p>访问照片、媒体和文件</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -124,20 +124,20 @@
                 </section>
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2><strong><strong>Implied permission</strong></strong></h2>
-                    <p>A user may perform an action that demonstrates clear intent, such as: </p>
+                    <h2><strong><strong>默认权限</strong></strong></h2>
+                    <p>用户可以执行有明确意图的操作，例如：</p>
                     <ul class="lst-kix_em02k6y82udr-0 start">
-                      <li>Taking a picture</li>
-                      <li>Selecting a contact</li>
-                      <li>Starting a call or text message</li>
+                      <li>拍照</li>
+                      <li>选择一个联系人</li>
+                      <li>开始呼叫或编写短信</li>
                     </ul>
-                    <p>In these cases, the user’s action clearly demonstrates their intent, and no permission dialog is needed or authorized. </p>
+                    <p>在这些情况下，用户的操作清楚地表明了他们的意图，且不需要弹出权限对话框或进行授权。</p>
                     <p></p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/components/intents-filters.html&amp;sa=D&amp;ust=1481818002243000&amp;usg=AFQjCNFfT6XSBf74_LqfVqUqBpvFHpJPDA" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">Intents and Intent Filters</div>
+                          <div class="title">意图和意图过滤器</div>
                           <span class="subtitle"></span>
                         </div>
                         </img>
@@ -153,7 +153,7 @@
 
         <div id="permissions-runtime-permissions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Runtime permissions
+            运行时权限
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -165,8 +165,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Apps may request permission to access information or use device capabilities at any time after installation. When a user needs to perform an action in an app, such as using the device camera, the app may request permission at that moment.</p>
-                    <p>Users may also allow or deny the permissions of any app from Android Settings anytime after installation.</p>
+                    <p>应用可能会在安装后的任意时间请求权限，来访问信息或使用设备功能。当用户需要在应用中执行操作时（例如使用设备相机），应用可能会在那时请求权限。</p>
+                    <p>用户也可以在安装后应用的任意时间，从系统的设置中允许或拒绝任意应用的权限。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -174,7 +174,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of an app requesting permission</p>
+                        <p>一个应用请求权限的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -187,7 +187,7 @@
 
         <div id="permissions-request-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Request patterns
+            请求模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -198,7 +198,7 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><p>Your permissions strategy depends on the clarity and importance of the permission type you are requesting. These patterns offer different ways of introducing permissions to the user.</p>
+                  <div class="module"><p>你的权限策略取决于你请求的权限类型的清晰度和重要性。这些模式提供了不同的方式来向用户介绍权限。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -206,8 +206,8 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Critical permissions should be requested up-front. Secondary permissions may be requested in-context.</p>
-                        <p>Permissions that are less clear should provide education about what the permission involves, whether done up-front or in context.</p>
+                        <p>应该预先申请关键权限。辅助权限可以在需要时进行申请。</p>
+                        <p>不明确的权限应该提供权限内容的说明，无论是预先申请权限，还是在需要时申请权限。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -221,8 +221,8 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2><strong>Educate before asking</strong></h2>
-                        <p>If your app has a “warm welcome,” use it to explain what your app does and why unexpected permissions will be requested.</p>
+                        <h2><strong>在请求权限前先进行指导</strong></h2>
+                        <p>如果你的应用有 “热烈欢迎”，可以用它来解释你的应用是做什么的，以及为什么需要申请这些额外的权限。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -232,9 +232,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2><strong>Ask up-front</strong></h2>
-                        <p>Only ask for critical and obvious permissions on first launch.</p>
-                        <p>Because users expect a messaging app to request SMS permissions, requesting it up-front makes sense.</p>
+                        <h2><strong>预先申请</strong></h2>
+                        <p>在首次启动时，仅申请关键的和明显的权限。</p>
+                        <p>因为用户期望短信应用能获取短信权限，因此预先申请这个权限是有意义的。</p>
                       </figcaption>
                     </figure>
                   </div>
