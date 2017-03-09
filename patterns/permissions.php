@@ -13,7 +13,7 @@
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>应用应该要说明每一个权限请求的原因，可以通过功能名词或者提供的解释来进行说明。</p>
+                <p>应用应该要说明每一个权限请求的原因，可以通过功能名称或者提供的解释来进行说明。</p>
                 <p><strong>运行时权限</strong>会在用户需要在应用中执行操作时来请求。</p>
                 <p><strong>被拒绝的权限</strong>应该提供反馈和选项。</p>
               </div>
@@ -23,7 +23,7 @@
                   预先请求权限<br>
                   在需要时请求权限<br>
                   在需要时进行指导<br>
-                  提供一个直接的好处<br>
+                  提供一个直接的福利<br>
                   只请求相关权限</p>
               </div>
               <div class="figure">
@@ -73,7 +73,7 @@
                 <section class="module-module col-2">
                   <div class="module">
                     <h2><strong><strong>权限分组</strong></strong></h2>
-                    <p>权限可以分为 9 个分组，允许用户授予单个操纵中包含的所有权限。例如，授予的联系人权限包括读取和编辑联系人。</p>
+                    <p>权限可以分为 9 个分组，允许用户授予一个操纵中包含的所有权限。例如，授予的联系人权限包括读取和编辑联系人。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
@@ -166,7 +166,7 @@
                 <section class="module-figure-module col-3">
                   <div class="module">
                     <p>应用可能会在安装后的任意时间请求权限，来访问信息或使用设备功能。当用户需要在应用中执行操作时（例如使用设备相机），应用可能会在那时请求权限。</p>
-                    <p>用户也可以在安装后应用的任意时间，从系统的设置中允许或拒绝任意应用的权限。</p>
+                    <p>用户也可以在安装应用后的任意时间，从系统的设置中允许或拒绝任意应用的权限。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -207,7 +207,7 @@
                       </div>
                       <figcaption>
                         <p>应该预先申请关键权限。辅助权限可以在需要时进行申请。</p>
-                        <p>不明确的权限应该提供权限内容的说明，无论是预先申请权限，还是在需要时申请权限。</p>
+                        <p>无论是预先申请权限，还是在需要时申请权限，对于不明确的权限都应该提供权限内容的说明。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -244,9 +244,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2><strong>Ask in context</strong></h2>
-                        <p>Wait until a feature is invoked to request permission. </p>
-                        <p>Users are more likely to allow a permission when they want to use the feature it enables.</p>
+                        <h2><strong>在需要时申请</strong></h2>
+                        <p>先等待着，直到调用某项功能时，再申请这项功能所需的权限。</p>
+                        <p>当用户想要使用某项功能时，用户会更愿意授予该项功能所需的权限。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -258,8 +258,8 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2><strong>Educate in context</strong></h2>
-                        <p>Explaining a permission in context helps gauge user interest and improve comprehension of the permission.</p>
+                        <h2><strong>在需要时进行指导</strong></h2>
+                        <p>在需要权限时，对权限进行解释说明，有助于判断用户的兴趣，并加深用户对权限的理解。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -269,8 +269,8 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2><strong>Provide an immediate benefit </strong></h2>
-                        <p>Provide instant gratification to make accepting a permission feel justified.</p>
+                        <h2><strong>提供一个直接的福利</strong></h2>
+                        <p>提供片刻令人满足的东西，使用户觉得接受权限会更合理。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -286,8 +286,8 @@
                         </div>
                       </div>
                       <figcaption>
-                        <h2><strong>Only ask for relevant permissions</strong></h2>
-                        <p>When more than one permission is needed for a feature to work, ask for those permissions only and nothing extra.</p>
+                        <h2><strong>只请求相关权限</strong></h2>
+                        <p>当一个功能需要多个权限时，只请求这些权限，不要请求额外的权限。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -299,7 +299,7 @@
 
         <div id="permissions-denied-permissions" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Denied permissions
+            被拒绝的权限
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -312,13 +312,13 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>Provide feedback whenever a permission is denied. Because denying permissions may prevent a feature from working as intended, whenever a permission is denied it should be explained to the user.</p>
-                    <p>Permission denials occur in one of two ways: </p>
+                    <p>当权限被拒绝时需要提供反馈。因为拒绝权限可能导致某个功能无法按预期运行，因此每当有一个权限被拒绝时，都应该向用户进行解释。</p>
+                    <p>权限拒绝以下列二选一的方式发生：</p>
                     <ul class="lst-kix_2s2yiam7aofv-0 start">
-                      <li>A permission request is denied by the user</li>
-                      <li>A permission is silently denied without warning because a user once selected “Don’t ask again” from a previous permission request</li>
+                      <li>权限请求被用户拒绝</li>
+                      <li>因为用户在之前的权限请求中勾选了 “不再询问”，所以权限默认被拒绝，没有提示。</li>
                     </ul>
-                    <p>To ensure that features requiring permission always behave as intended, the app should state that permission is needed and provide a way to allow it.</p>
+                    <p>要确保需要权限的功能始终能按预期方式运行，应用应该说明需要的权限，并提供一种方式来允许权限。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -326,7 +326,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>A snackbar displays the need for permission in order to use an audio feature. </p>
+                        <p>为了使用音频功能，snackbar 中显示了需要的权限。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -334,8 +334,8 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>Critical permissions</strong></strong></h2>
-                    <p>If the app can no longer run because a critical permission has been denied, explain why that permission must be allowed and offer a button to open Settings so the user can allow it.</p>
+                    <h2><strong><strong>关键权限</strong></strong></h2>
+                    <p>如果应用因为一个关键权限被拒绝而无法再运行，请解释为什么那个权限必须要允许，并提供一个按钮来打开 “设置”，以便用户来允许权限。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -343,7 +343,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>A screen explains that a permission is needed for an app to function, with a link to allow that permission in Settings.</p>
+                        <p>此屏幕说明了应用需要权限才能运行，并提供了一个指向 “设置” 的链接，以便用户来允许权限。</p>
                       </figcaption>
                     </figure>
                   </div>
