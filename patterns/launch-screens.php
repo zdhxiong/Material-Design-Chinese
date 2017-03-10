@@ -9,16 +9,16 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>The launch screen is a user’s first experience of your application.</h1>
+          <h1>启动页是用户对应用的第一个体验。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>A <strong>placeholder UI</strong> displays core structural elements such as the status and app bars until the app has loaded.</p>
-                <p><strong>Branded launch screens</strong> display your logo or other elements that improve brand recognition.</p>
+                <p><strong>占位 UI</strong> 会显示应用的核心结构元素，例如状态栏和应用栏，直到应用内容加载完成。</p>
+                <p><strong>品牌启动页</strong>显示你的 Logo 或其他元素，以提高品牌认知度。</p>
               </div>
               <div class="module">
-                <h3><strong>Usage</strong></h3>
-                <p>A placeholder UI is best for apps with very short load times.</p>
+                <h3><strong>用法</strong></h3>
+                <p>占位 UI 适用于加载时间非常短的应用。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -36,13 +36,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-types-of-launch-screens" data-qp-ui-data-id="qp:1">Types of launch screens</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-types-of-launch-screens" data-qp-ui-data-id="qp:1">启动页类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-placeholder-ui" data-qp-ui-data-id="qp:2">Placeholder UI</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-placeholder-ui" data-qp-ui-data-id="qp:2">占位 UI</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-branded-launch" data-qp-ui-data-id="qp:3">Branded launch</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="launch-screens.html#launch-screens-branded-launch" data-qp-ui-data-id="qp:3">品牌启动页</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
 
         <div id="launch-screens-types-of-launch-screens" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Types of launch screens
+            启动页类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -63,9 +63,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>Because launching your app while displaying a blank canvas increases its perceived loading time, consider using a placeholder UI or a branded launch screen. </p>
-                    <p>A <strong>placeholder UI</strong> is the most seamless launch transition – appropriate for both app launches and in-app activity transitions.</p>
-                    <p><strong>Branded launch screens</strong> provide momentary brand exposure, freeing the UI to focus on content.</p>
+                    <p>在加载应用时，如果显示一个空白页面，会增加用户感官上的加载时间，因此考虑使用占位 UI 或品牌启动页。</p>
+                    <p><strong>占位 UI</strong> 是最无缝的启动过渡 – 同时适用于应用启动和应用内的页面过渡。</p>
+                    <p><strong>品牌启动页</strong>提供短暂的品牌展示，清除了 UI 以便用户能专注于内容。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -73,7 +73,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Branded launch screen</p>
+                        <p>品牌启动页</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -83,7 +83,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Placeholder UI</p>
+                        <p>占位 UI</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -95,7 +95,7 @@
 
         <div id="launch-screens-placeholder-ui" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Placeholder UI
+            占位 UI
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -107,8 +107,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p>For apps that have very short load times, or don’t have a strong branding need, a placeholder UI presents the fewest possible transitions and greatest perceived responsiveness.</p>
-                    <p>On launch, core structural elements such as the status bar, app bar, and bottom sheets are displayed without content until the app has loaded. </p>
+                    <p>当应用的加载时间非常短，或没有强烈的品牌需求时，使用占位 UI 可以显示尽可能少的过渡效果，和提供最快的响应速度。</p>
+                    <p>启动时，核心结构元素（例如状态栏、应用栏和底部卡片）将在没有内容的情况下显示，直至应用内容加载完毕。</p>
                     <h2><strong> </strong></h2>
                   </div>
                   <div class="figure">
@@ -117,7 +117,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of placeholder UI</p>
+                        <p>占位 UI 示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -130,7 +130,7 @@
 
         <div id="launch-screens-branded-launch" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Branded launch
+            品牌启动页
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -139,12 +139,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Branded launch screens are a good way to portray a brand while the app is loading. Take advantage of the loading time to display your logo or other elements that improve brand recognition. Avoid using text on this screen except your logo and, if applicable, a tagline.</p>
+              <p>品牌启动页可以在应用加载内容时展示品牌形象，利用加载时间来显示 Logo 或其他元素，来提高品牌识别度。避免在此屏幕上使用文字，但你的 Logo 和标语（适用的话）除外。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong>Branded launch</strong></h2>
-                    <p>Launch screens should be used for initial, cold launch from the home screen, and should not be displayed if the application is running, or if the launch comes from another application.</p>
+                    <h2><strong>品牌启动页</strong></h2>
+                    <p>启动页应该用于初始化、从主屏幕冷启动，如果应用正在运行、或应用是从其他应用中启动的，则不显示启动页。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -152,7 +152,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Examples of branded launch screens </p>
+                        <p>品牌启动页示例</p>
                       </figcaption>
                     </figure>
                   </div>
