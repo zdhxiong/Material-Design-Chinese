@@ -27,7 +27,7 @@
                   边缘滑动<br>
                   翻页滑动<br>
                   滚动折叠<br>
-                  打开菜单<br>
+                  菜单打开<br>
                   倾斜</p>
               </div>
               <div class="figure">
@@ -267,7 +267,7 @@
 
         <div id="gestures-touch-activities" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            触摸反映
+            触摸反应
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -305,7 +305,7 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>拖拽、滑动或甩动</p></td>
-                        <td colspan="1" rowspan="1"><p>参见下文的<strong>拖拽、滑动或甩动细节</strong>来了解滚动、滚动显示、平移、忽略、滑动刷新、边缘滑动、翻页滑动、滚动折叠、打开菜单以及倾斜之间的区别。</p></td>
+                        <td colspan="1" rowspan="1"><p>参见下文的<strong>拖拽、滑动或甩动细节</strong>来了解滚动、滚动显示、平移、忽略、滑动刷新、边缘滑动、翻页滑动、滚动折叠、菜单打开以及倾斜之间的区别。</p></td>
                         <td colspan="1" rowspan="1"><p>拖拽、滑动或甩动</p></td>
                       </tr>
                       <tr>
@@ -542,10 +542,10 @@
                   <div class="module">
                     <h3><strong><strong>翻页滑动</strong></strong></h3>
                     <p><strong>翻页滑动</strong>是在屏幕上，内容内部的滑动，用于显示屏幕之外的内容。每次翻页滑动都会切换一个页面、或一个选项卡。</p>
-                    <p>If paged content is at &gt;100% zoom, an in-content swipe will <strong>Pan</strong> to an edge of the content, and an additional in-content swipe will <strong>Page</strong>.</p>
-                    <p>The Paging swipe gesture is committed based on crossing a threshold.</p>
-                    <p>Don’t use paging swipes when individual elements are swipeable. </p>
-                    <p>See below: Overscroll collapse</p>
+                    <p>如果页面内容缩放比例超过 &gt;100%，在内容内部滑动会<strong>平移</strong>到内容的边缘，到边缘后继续滑动就会<strong>翻页</strong>。</p>
+                    <p>滑动翻页只有越过临界点后才会执行。</p>
+                    <p>当页面内有个别元素可滑动时，不要使用滑动翻页手势。</p>
+                    <p>参考下文：滚动折叠</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -553,7 +553,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a paging swipe</p>
+                        <p>滑动翻页示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -561,9 +561,9 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h3><strong><strong>Overscroll collapse</strong></strong></h3>
-                    <p><strong>Overscroll collapse </strong>navigates up in the content hierarchy via a paging swipe at the top or bottom of scrolling content.</p>
-                    <p>The Overscroll collapse gesture is committed based on crossing a threshold.</p>
+                    <h3><strong><strong>滚动折叠</strong></strong></h3>
+                    <p><strong>滚动折叠</strong>通过在滚动的内容顶部或底部使用滑动翻页，来回到内容结构的上一级。</p>
+                    <p>滚动折叠手势只有在越过临界点后才会执行。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -571,7 +571,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of an overscroll collapse</p>
+                        <p>滚动折叠示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -579,10 +579,10 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h3><strong><strong>Menu open</strong></strong></h3>
-                    <p>A drag originating from a menu or picker reveals a menu. Upon lift, the highlighted menu option is selected.</p>
-                    <p>The menu then appears upon touch. </p>
-                    <p>Drag is used with <strong>Menu open</strong>.</p>
+                    <h3><strong><strong>菜单打开</strong></strong></h3>
+                    <p>在菜单或选择器上拖拽会出现菜单。手指抬起后，高亮的菜单项会被选中。</p>
+                    <p>菜单也可以通过触摸打开。</p>
+                    <p>拖拽也可以用于<strong>菜单打开</strong>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -590,7 +590,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a menu open drag</p>
+                        <p>菜单打开拖拽示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -598,10 +598,10 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h3><strong><strong>Tilt</strong></strong></h3>
-                    <p><strong>Tilt</strong> moves 3D content forward or backward.</p>
-                    <p>The transition from another two-finger gesture (e.g., pinch zoom or rotate) such as in Maps, will result in a <strong>two-finger pan</strong>.</p>
-                    <p>Drag is used with <strong>Tilt</strong>.</p>
+                    <h3><strong><strong>倾斜</strong></strong></h3>
+                    <p><strong>倾斜</strong>会使 3D 内容向前或向后转动。</p>
+                    <p>如果从另一个双指手势（如捏合或旋转）过渡而来，例如在地图中，会导致出现<strong>双指平移</strong>。</p>
+                    <p>拖拽也可以用于<strong>倾斜</strong>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -609,7 +609,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Example of a tilt</p>
+                        <p>倾斜示例</p>
                       </figcaption>
                     </figure>
                   </div>
