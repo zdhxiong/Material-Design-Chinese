@@ -17,11 +17,11 @@
               </div>
               <div class="module">
                 <h3><strong>行为</strong></h3>
-                <p>渐进式淡入<br>
+                <p>逐渐淡入<br>
                   转换时长<br>
                   动画</p>
                 <h3><strong>转换时长</strong></h3>
-                <p>使用较长的时间来载入图片，并缩短过渡效果的持续时间。</p>
+                <p>使用较长的时间来载入图片，并缩短图片切换时的过渡效果的持续时间。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -111,8 +111,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Larger screens</h1>
-                    <p>This process is ideal for larger screens, such as loading the Chrome OS wallpaper.</p>
+                    <h1>更大的屏幕</h1>
+                    <p>此过程适合更大的屏幕，例如加载 Chrome OS 的系统壁纸。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -126,7 +126,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation showing loading on larger screens for Chrome OS wallpaper</p>
+                        <p>动画显示在更大的屏幕上加载 Chrome OS 的系统壁纸</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -138,7 +138,7 @@
 
         <div id="loading-images-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -150,9 +150,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Progressive fade-in</h1>
-                    <p>Visualize the image fading in, like a print during the photo development process.</p>
-                    <p>Don’t adjust the levels in a way that will overexpose the lighter values.</p>
+                    <h1>逐渐淡入</h1>
+                    <p>将图片的淡入可视化，就像打印照片的过程那样。</p>
+                    <p>不要让图片过度曝光。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -177,8 +177,8 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Duration</h1>
-                    <p>A longer duration is recommended for loading images, and a shorter duration is recommended for transitions.</p>
+                    <h1>转换时长</h1>
+                    <p>推荐使用一个较长的转换时间来加载图片，切换图片时的过渡效果推荐使用较短的转换时间。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -192,7 +192,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Load and transition animation</p>
+                        <p>加载和过渡动画</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -202,8 +202,8 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>Animation</h1>
-                    <p>Add a small position shift to loading images. The background image shown here in the account switcher animates in horizontally.</p>
+                    <h1>动画</h1>
+                    <p>加载图片时可以添加细小的位移。此背景图在账户切换时会跟着切换动画水平移动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -217,7 +217,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Video showing adding animation</p>
+                        <p>视频显示了切换账户时的动画</p>
                       </figcaption>
                     </figure>
                   </div>
