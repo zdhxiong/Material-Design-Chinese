@@ -9,16 +9,16 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Navigational transitions are movements between states in an app, such as from a high-level view to a detailed view. </h1>
+          <h1>导航转换是在应用的不同状态间移动，例如从高级视图进入详细视图。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Most, but not all, transitions are hierarchical in nature. These moments should appropriately reflect the user’s journey through each state of an app. </p>
+                <p>大多数（但不是全部）转换都在自然的层次之间。这些时刻应该通过应用的不同状态来反应出用户的前进方向。</p>
               </div>
               <div class="module">
-                <h3><strong>Hierarchy and elevation</strong></h3>
-                <p>When elements lift up and expand, the elevation change indicates a shift in focus from <strong>parent to child</strong> elements.</p>
-                <p><strong>Sibling transitions</strong> occur between elements at the same level of hierarchy without elevation changes.</p>
+                <h3><strong>层次结构和海拔高度</strong></h3>
+                <p>当元素升高并展开，海拔高度的改变指示出了焦点从<strong>父级移动到了子级</strong>。</p>
+                <p><strong>同级转换</strong>出现在处于同一层次结构的元素之间，没有海拔高度的变化。</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -36,10 +36,10 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigational-transitions.html#navigational-transitions-parent-to-child" data-qp-ui-data-id="qp:1">Parent to child</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigational-transitions.html#navigational-transitions-parent-to-child" data-qp-ui-data-id="qp:1">父级到子级</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigational-transitions.html#navigational-transitions-sibling-to-sibling" data-qp-ui-data-id="qp:2">Sibling to sibling</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigational-transitions.html#navigational-transitions-sibling-to-sibling" data-qp-ui-data-id="qp:2">同级到同级</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
 
         <div id="navigational-transitions-parent-to-child" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Parent to child
+            父级到子级
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -57,13 +57,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Exploring deeper levels, or screens, of an app is a hierarchical journey that starts at a parent screen. From there, a user can explore multiple possible sub-screens, which are children to the parent screen.</p>
+              <p>探索应用更深层的视图，是从父屏幕开始不断深入探索的层级之途。在那里，用户可以探索多个可能的子屏幕，也就是父屏幕的子屏幕。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>In material design, elevation changes indicate changes in focus from parent to child elements. </p>
-                    <p><strong>Elevation and expansion</strong></p>
-                    <p>The surface that the user touches should lift up and expand into place from its origin. This expansion and motion highlights movement away from the parent towards a destination (a child element) in a natural movement using the material motion curve.</p>
+                    <p>在 Material Design 中，海拔高度的变化表示从父元素到子元素的焦点变化。</p>
+                    <p><strong>海拔高度和扩展</strong></p>
+                    <p>用户触摸的表面应该从原来的地方升高并展开。这种扩展和动画使用了材料运动曲线，在自然的运动中强调了离开了父级，向目标（子元素）移动。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -77,7 +77,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Parent-to-child transition animation</p>
+                        <p>父级到子级的转换动画</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,7 +96,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of parent-to-child transition </p>
+                        <p>父级到子级的转换动画</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -108,7 +108,7 @@
 
         <div id="navigational-transitions-sibling-to-sibling" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Sibling to sibling
+            同级到同级
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -117,12 +117,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p><strong>Sibling transitions</strong> are transitions that occur between elements at the same level of hierarchy. </p>
+              <p><strong>同级转换</strong>出现在处于同一层次结构的元素之间，没有海拔高度的变化。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>Static elevation</strong></p>
-                    <p>When a user navigates through tabs, for example, no elevation changes occur. The content and surface of each tab stays at the same elevation level. New content slides in from the right while sibling content moves off-screen to the left.</p>
+                    <p><strong>固定海拔高度</strong></p>
+                    <p>例如，当用户通过选项卡来导航时，是不会发生海拔高度变化的。每个选项标签的内容都和表面在同一海拔高度。新内容从右侧滑入，同时同级的内容向左移动到屏幕外。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -136,7 +136,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Sibling transition</p>
+                        <p>同级转换</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -155,7 +155,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Animation of sibling-to-sibling transition</p>
+                        <p>同级转换的动画</p>
                       </figcaption>
                     </figure>
                   </div>

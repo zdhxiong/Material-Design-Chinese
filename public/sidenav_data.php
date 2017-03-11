@@ -100,7 +100,7 @@ return array(
       'loading-images'                  =>  '图片加载',
       'navigation'                      =>  '导航',
       'navigation-drawer'               =>  '抽屉式导航',
-      'navigational-transitions'        =>  '导航的转场',
+      'navigational-transitions'        =>  '导航转换',
       'notifications'                   =>  '通知',
       'permissions'                     =>  '权限',
       'scrolling-techniques'            =>  '滚动技术',

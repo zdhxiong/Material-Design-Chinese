@@ -83,7 +83,7 @@
           <div class="article-content">
             <div>
               <p>应用的导航应该是直观且可预测的。新老用户都应该能轻松的访问应用的各个部分。当用户从一个视图进入下一个视图时，他们会看到包含图像、操作和内容的场景。这些场景组合在一起来讲述它们所包含的内容，强调正确的操作，来引导用户逐步深入。</p>
-              <p>更多关于在场景之间转换的信息，请参考<a href="navigational-transitions.html">导航的转场</a>。</p>
+              <p>更多关于在场景之间转换的信息，请参考<a href="navigational-transitions.html">导航转换</a>。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/implementing-navigation/index.html&amp;sa=D&amp;ust=1481817996621000&amp;usg=AFQjCNG9BAni_a8z2Rat7w2AEI3n93mnJg" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
@@ -782,7 +782,7 @@
                       <li>只有少数几个同级的视图</li>
                       <li>有相似内容类型的视图</li>
                     </ul>
-                    <p>更多关于场景之间转换的信息，请参考<a href="navigational-transitions.html">导航的转场</a>。</p>
+                    <p>更多关于场景之间转换的信息，请参考<a href="navigational-transitions.html">导航转换</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
