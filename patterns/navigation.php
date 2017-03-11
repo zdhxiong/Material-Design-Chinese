@@ -9,26 +9,26 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h1>Navigation guides users through different parts of your app.</h1>
+          <h1>导航用于引导用户浏览你的应用的不同部分。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Organize your app's structure according to the content and tasks you want users to see. Focus attention on important destinations by displaying them in tabs or in the side navigation, and de-emphasize inessential content by displaying it in less prominent locations.</p>
+                <p>根据你希望用户看到的内容和功能来整理你的应用的结构。通过在选项卡或侧边导航中显示重要的目标，来把用户的注意力集中到这些目标上，并把无关紧要的内容放在不显眼的位置。</p>
               </div>
               <div class="module">
-                <h3><strong>Navigation patterns</strong></h3>
-                <p>Embedded navigation<br>
-                  Tabs<br>
-                  Bottom navigation bar<br>
-                  Navigation drawer<br>
-                  Nested navigation<br>
-                  Expanding navigation drawer<br>
-                  Cascading navigation drawer (desktop)<br>
-                  Gestural</p>
-                <h3><strong>Combination navigation patterns</strong></h3>
-                <p>In-context navigation<br>
-                  Side navigation and tabs<br>
-                  Nested navigation drawer and tabs (desktop)</p>
+                <h3><strong>导航模式</strong></h3>
+                <p>嵌入式导航<br>
+                  选项卡<br>
+                  底部导航栏<br>
+                  抽屉导航<br>
+                  内嵌导航栏<br>
+                  扩展抽屉导航<br>
+                  层叠抽屉导航（桌面端）<br>
+                  手势</p>
+                <h3><strong>组合导航模式</strong></h3>
+                <p>情境内导航<br>
+                  侧边导航和选项卡<br>
+                  内嵌抽屉导航和选项卡（桌面端）</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -46,25 +46,25 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-usage" data-qp-ui-data-id="qp:1">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-defining-your-navigation" data-qp-ui-data-id="qp:2">Defining your navigation</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-defining-your-navigation" data-qp-ui-data-id="qp:2">定义你的导航</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-up-back-buttons" data-qp-ui-data-id="qp:3">Up and Back buttons</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-up-back-buttons" data-qp-ui-data-id="qp:3">向上和返回按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-navigating-between-apps-android" data-qp-ui-data-id="qp:4">Navigating between apps (Android)</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-navigating-between-apps-android" data-qp-ui-data-id="qp:4">应用间导航（Android）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-hierarchy" data-qp-ui-data-id="qp:5">Hierarchy </a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-hierarchy" data-qp-ui-data-id="qp:5">层次结构</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-patterns" data-qp-ui-data-id="qp:6">Patterns</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-patterns" data-qp-ui-data-id="qp:6">模式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-combined-patterns" data-qp-ui-data-id="qp:7">Combined patterns</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-combined-patterns" data-qp-ui-data-id="qp:7">组合模式</a>
           </li>
         </ul>
       </nav>
@@ -73,7 +73,7 @@
 
         <div id="navigation-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -82,13 +82,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Navigation through your app should be intuitive and predictable. Both new and returning users should be able to figure out how to move through your app with ease. When users move from one view to the next, they observe scenes containing imagery, actions, and content. These scenes work together to tell a story about the content they contain, leading users down paths that emphasize certain actions. </p>
-              <p>For information on movements between states, see <a href="navigational-transitions.html">navigational transitions</a>.</p>
+              <p>应用的导航应该是直观且可预测的。新老用户都应该能轻松的访问应用的各个部分。当用户从一个视图进入下一个视图时，他们会看到包含图像、操作和内容的场景。这些场景组合在一起来讲述它们所包含的内容，强调正确的操作，来引导用户逐步深入。</p>
+              <p>更多关于在场景之间转换的信息，请参考<a href="navigational-transitions.html">导航的转场</a>。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/implementing-navigation/index.html&amp;sa=D&amp;ust=1481817996621000&amp;usg=AFQjCNG9BAni_a8z2Rat7w2AEI3n93mnJg" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                   <div class="info">
-                    <div class="title">Implementing Effective Navigation</div>
+                    <div class="title">高效导航的实践</div>
                     <span class="subtitle"></span>
                   </div>
                   </img>
@@ -97,16 +97,16 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h2>Communicate relationships &amp; context</h2>
-                    <p>Group content into logical and relatable chunks that show clear relationships between items.</p>
+                    <h2>沟通关系和情境</h2>
+                    <p>根据逻辑和相关度来对内容分组，清晰的展示出条目之间的关系。</p>
                   </div>
                   <div class="module">
-                    <h2>Illuminate actions</h2>
-                    <p>Guide users from one scene to the next using paths that encourage specific choices or freer exploration.</p>
+                    <h2>启发式操作</h2>
+                    <p>使用鼓励用户进行特定的操作、或让用户自由探索的方式，引导用户从一个场景切换到下一个场景。</p>
                   </div>
                   <div class="module">
-                    <h2>Focus attention </h2>
-                    <p>Tailor your app’s navigation to promote important content and tasks. </p>
+                    <h2>注意力焦点</h2>
+                    <p>调整应用的导航，以突出重要内容和功能。</p>
                   </div>
                 </section>
                 <section class="figure-figure-figure col-3">
@@ -116,7 +116,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This image shows relationships between email items by grouping them into these clusters: Promos, Social, Finance.</p>
+                        <p>此图通过把邮件分组为：推广、社交、财务，来显示邮件条目之间的关系。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -139,7 +139,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Use simple design and lightweight structure when user needs are simple.</p>
+                        <p>当用户的需求很简单时，使用简单的设计和轻量的结构。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -151,7 +151,7 @@
 
         <div id="navigation-defining-your-navigation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Defining your navigation
+            定义你的导航
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -171,14 +171,14 @@
                   </div>
                 </section>
               </div>
-              <p>Navigation organizes content so that it’s easier to find important destinations in your app. Navigation may include frequently visited places, contain settings, or encourage specific actions.</p>
-              <p>To determine the type of navigation best suited to your app, identify your app’s users, typical paths they might take through your app, and actions you want them to perform.</p>
-              <p>For instance, if your app is a restaurant guide, your users may want to make reservations, post menus, or write reviews. By identifying the goals most users will have, you’ll be able to better define a navigation structure that meets their priorities. </p>
+              <p>导航对内容进行了整理，以便能在应用中更容易找到用户所需的内容。导航可以包括用户频繁访问的页面，包括设置、或鼓励进行特定操作。</p>
+              <p>为了确定最适合你的应用的导航类型，请先确定你的用户使用应用的典型路径，以及你希望用户执行的操作。</p>
+              <p>例如，你的应用是一个餐厅指南应用，你的用户可能需要预定、提交菜单或撰写评论。通过确定大多数用户使用应用的目标，你将能更好地定义满足其优先级的导航结构。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Take inventory</h2>
-                    <p>Identify your app’s users and their potential roles, such as consumer, business owner, or journalist. Identify the most common tasks they may want to perform.</p>
+                    <h2>列出清单</h2>
+                    <p>确定应用的用户及其可能的角色，例如消费者、商家或记者。确定用户的最常用的操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -186,16 +186,16 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/inventory.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Identify your key users and the use cases they might want to perform.</p>
+                        <p>确定你的核心用户和它们可能要执行的用例。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Prioritize</h2>
-                    <p>Assign priority levels of high, medium, or low to common user tasks. Give prominence in the UI to paths and destinations with high priority levels and frequent use. </p>
-                    <p>Adjust priority levels as user needs change over time. </p>
+                    <h2>确定优先级</h2>
+                    <p>将用户的操作按优先级分为高、中、低三个级别。在 UI 中突出高优先级的操作和用户常用的操作。</p>
+                    <p>随时根据用户需求的变化来调整优先级。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -203,18 +203,18 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/prioritize.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>When designing navigation for a restaurant app, the highest priority tasks may include viewing restaurant details or finding new restaurants.</p>
+                        <p>当为餐厅应用设计导航时，高优先级的任务可能包括查看餐厅细节和发现新的餐厅。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Sequence</h2>
-                    <p>Identify the different paths that users take through your app and use those paths to define your navigation:</p>
+                    <h2>顺序</h2>
+                    <p>确定用户在应用中使用功能的不同路径，并根据这些路径来设计导航：</p>
                     <ul class="lst-kix_lkdkprp2x96w-0 start">
-                      <li>List frequent destinations prominently in your navigation</li>
-                      <li>Group related tasks together and use those groupings to structure your navigation</li>
+                      <li>在导航中突出常用的功能</li>
+                      <li>对相关的功能进行分组，并使用这些分组来建立导航结构</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -223,15 +223,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/sequence.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Whether a consumer wants to find a new restaurant or view a favorite one, both paths lead viewing restaurant details. Make frequently used paths to these destinations (such as search or favorites) easily available.</p>
+                        <p>无论消费者想要找到新餐厅还是查看最喜欢的餐馆，两种路径都会引导用户查看餐厅详情。通过搜索或收藏夹之类的功能使用户更快速地访问常用路径。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
-                  <div class="module"><h2>Deconstruct</h2>
-                    <p>Divide complex, broad, or vague use cases into smaller activities. These smaller tasks may be frequently used, more easily understood, or better meet user goals. </p>
-                    <p>For example, dividing search into smaller activities that differentiate searching by name, location, or popularity may reveal the need to surface those smaller activities as part of navigation.</p>
+                  <div class="module"><h2>解构</h2>
+                    <p>将复杂、宽泛和模糊的用例分解为更小的功能，这些小功能可以是很常用的、易于理解的或更符合用户目标的。</p>
+                    <p>例如，把搜索分解为更小的功能，通过名称、位置和流行度来区分搜索，将这些小功能作为导航的一部分，可能会更符合用户的需求。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -239,7 +239,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/deconstruct.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The broader activity of “Find a restaurant” may actually encapsulate smaller activities, such as: Browse nearby, Search by name, and Browse popular. These smaller tasks may be easier for users to perform searches and should be integrated within your navigation.</p>
+                        <p>“查找餐厅” 是一个较广泛的功能，实际上可以分解为多个较小的功能，例如：浏览附近、按名称搜索、浏览热门餐厅。这些小功能可能更方便用户来进行搜索，应该被整合进导航中。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -251,7 +251,7 @@
 
         <div id="navigation-up-back-buttons" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Up and Back buttons
+            向上和返回按钮
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -260,11 +260,11 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>App bars provide basic navigation through the <strong>Up</strong> and <strong>Back</strong> buttons.</p>
+              <p>应用栏通过<strong>向上</strong>和<strong>返回</strong>按钮提供基本的导航。</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h2>The Up button</h2>
-                    <p>The <strong>Up</strong> button returns users to the previous screen they viewed. It navigates upward in the app’s hierarchy until the app’s home screen is reached.</p>
+                  <div class="module"><h2>向上按钮</h2>
+                    <p><strong>向上</strong>按钮把用户带回到之前的视图。它会把用户带到应用层次结构的上一级，直到到达应用的首屏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -272,7 +272,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The Up button</p>
+                        <p>向上按钮</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -282,33 +282,33 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The Up button in a photo gallery </p>
+                        <p>相册中的向上按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>The Back button</h2>
-                    <p>The <strong>Back</strong> button navigates in reverse chronological order through the history of recently viewed screens. </p>
-                    <p>Whereas the Up button ensures the user remains in your app, the Back button may take the user back through recent screens outside of your app.</p>
-                    <p>The Back button also: </p>
+                    <h2>返回按钮</h2>
+                    <p><strong>返回</strong>按钮按照最近浏览过的屏幕历史，按时间倒序导航。</p>
+                    <p>向上按钮可确保用户留在应用内，而返回按钮会按最近浏览的屏幕导航，可能会让用户离开该应用。</p>
+                    <p>返回按钮还可以：</p>
                     <ul class="lst-kix_v716ldyselu2-0 start">
-                      <li>Dismisses floating windows (such as dialogs or popups)</li>
-                      <li>Dismisses contextual action bars, and removes the highlight from the selected items</li>
-                      <li>Hides the on-screen keyboard (IME)</li>
+                      <li>清除浮动窗口（例如对话框或弹出窗口）</li>
+                      <li>清除上下文操作栏，并从选中的项目中取消高亮</li>
+                      <li>隐藏屏幕键盘（IME）</li>
                     </ul>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/components/tasks-and-back-stack.html&amp;sa=D&amp;ust=1481817996847000&amp;usg=AFQjCNFn8EsNCS11DfShnDzTgnwhCU_mZw" target="_blank">
                         <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
                         <div class="info">
-                          <div class="title">Tasks and Back Stack</div>
-                          <span class="subtitle">Activities performed by users are arranged in a stack in the order in which each activity is opened</span>
+                          <div class="title">任务和返回栈</div>
+                          <span class="subtitle">用户执行过的活动按照每个活动打开的顺序排列在堆栈中</span>
                         </div>
                         </img>
                       </a>
                     </div>
-                    <p>Make navigation more predictable by inserting the navigation path the user took to the app's topmost screen </p>
+                    <p>通过把用户访问的导航路径插入到应用的最上层屏幕，使导航更具有可预测性。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -316,7 +316,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The Back button </p>
+                        <p>返回键</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -326,27 +326,27 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The Back button in a photo gallery</p>
+                        <p>相册中的返回键</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h1>Changing views within a screen </h1>
-              <p>Navigation history is not affected by these types of screen changes:</p>
+              <h1>屏幕内切换视图</h1>
+              <p>这些类型的屏幕切换不会影响导航历史记录：</p>
               <ul class="lst-kix_5m0uqigpaul6-0 start">
-                <li>Switching views using tabs, swiping, or a dropdown</li>
-                <li>Filtering or sorting a list</li>
-                <li>Changing display characteristics (such as zooming)</li>
+                <li>使用选项卡、滑动、下拉菜单切换视图</li>
+                <li>过滤或排序列表</li>
+                <li>改变显示特性（如缩放）</li>
               </ul>
-              <p><strong>Exception:</strong> Navigation history is created by following links from related detail views (not unified by a list), such as browsing Play Store albums by the same artist.</p>
+              <p><strong>例外</strong>：导航历史记录是通过相关详细视图（不在同一个列表内）的链接创建的，例如浏览 Play Store 中同一位艺术家的专辑。</p>
             </div>
           </div>
         </div>
 
         <div id="navigation-navigating-between-apps-android" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Navigating between apps (Android)
+            应用间导航（Android）
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -355,14 +355,14 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Navigate directly from one app to another to create a consistent experience for common actions. For example, an app may activate the Camera app to capture a photo.</p>
+              <p>直接从一个应用导航到另一个应用，为常见操作创建一致的体验。例如，某个应用可能激活 “相机” 应用来拍摄照片。</p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><h1>Activities, tasks, and intents</h1>
+                  <div class="module"><h1>Activity、任务、Intent</h1>
                     <ul class="lst-kix_p3jme84ft40n-0 start">
-                      <li>In Android, an <strong>activity </strong>includes an app’s screen and the associated actions available to the user. Your app is a collection of activities you create and reuse from other apps.</li>
-                      <li>A <strong>task </strong>is the sequence of activities a user follows to accomplish a goal.</li>
-                      <li>An <strong>intent </strong>allows an app to signal it would like another app's assistance in performing an action, such as “Share.” Apps can indicate which intents to respond to through activities.</li>
+                      <li>在 Android 中，<strong>Activity</strong> 包括应用的界面和可用的相关操作。你的应用是一个 Activity 的集合，由你创建的 Activity 和其他应用重用的 Activity 构成。</li>
+                      <li><strong>任务</strong>是用户为达成某个目标而执行的 Activity 序列。</li>
+                      <li><strong>Intent</strong> 是一种机制，用于发出信号以表明需要另一个应用的辅助才能执行某个操作，例如 “分享”。应用的 Activity 可指示其可响应哪些 Intent。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -377,7 +377,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Launching an app from the Home screen begins a new <strong>task</strong>. This task is extended to include <strong>activities</strong> of navigating through albums and viewing photo details. If the user triggers the Share action, a bottom sheet is revealed with available sharing activities from different apps (all of which have been registered to handle the Share <strong>intent</strong>).</p>
+                        <p>从主屏幕启动应用即开始了一个新的<strong>任务</strong>。此任务经过扩展，以包含在相册中导航并浏览照片详情后的 <strong>Activity</strong>。如果用户触发了分享操作，会显示一个底部卡片，其中包含了来自不同应用的分享 Activity（所有之前已注册并用于处理 “分享” 的 <strong>Intent</strong>）。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -390,7 +390,7 @@
 
         <div id="navigation-hierarchy" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Hierarchy
+            层次结构
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -399,7 +399,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Navigation organizes content by placing it within a hierarchy. Scenes at the top of the hierarchy are the most prominent and accessible, connecting users to scenes lower in the hierarchy. </p>
+              <p>导航通过将内容放入层次结构中来组织内容。处于层次结构顶层的场景是优先级最高且最易访问的，并将用户连接到层次结构中较低的场景。</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -408,9 +408,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_home.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Home</h2>
-                        <p>The <strong>home </strong>scene is the entrance to the app. It introduces the app and its navigation.</p>
-                        <p>The home scene may vary the content it displays. A <strong>stateful home</strong> contains indications of a user’s previous interaction with the app.</p>
+                        <h2>主界面</h2>
+                        <p><strong>主界面</strong>是应用的入口。它介绍了应用和它的导航。</p>
+                        <p>主界面可以改变其显示的内容。<strong>有状态主界面</strong>包含了用户之前与应用交互的记录。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -420,9 +420,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_parent-child.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Parent and child </h2>
-                        <p>A higher level of navigational hierarchy is called a <strong>parent</strong>, and the level (or levels) below are referred to as <strong>children</strong>. </p>
-                        <p>For example, the home screen is the parent to all other screens in an app.</p>
+                        <h2>父级和子级</h2>
+                        <p>较高级别的导航层称为<strong>父级</strong>，其下面的层级（或多个层级）称为<strong>子级</strong>。</p>
+                        <p>例如，主界面是应用中所有其他界面的父级。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -432,9 +432,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_navigation.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Navigation </h2>
-                        <p>When you navigate more deeply into an app, you descend from a higher level of hierarchy to a lower one.</p>
-                        <p>Moving from a parent scene to a child scene is <strong>descending navigation</strong>. Moving from child to parent is <strong>ascending navigation</strong>.</p>
+                        <h2>导航</h2>
+                        <p>当你导航到应用中更深的层级时，意味着你从应用较高的层级到了较低的层级。</p>
+                        <p>从父级进入子级是<strong>下降导航</strong>。从子级进入父级是<strong>上升导航</strong>。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -446,9 +446,9 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_siblings.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Siblings</h2>
-                        <p>Scenes that have the same parent are called <strong>siblings</strong>. Apps that have multiple use cases, all of equal priority, usually contain many sibling scenes.<br></p>
-                        <p><strong>Lateral navigation</strong> is movement between siblings.</p>
+                        <h2>同级</h2>
+                        <p>有相同父级的场景称为<strong>同级</strong>。有多个相同优先级用例的应用，通常包含多个同级场景。<br></p>
+                        <p><strong>横向导航</strong>是指在同级之间移动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -458,8 +458,8 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_collections.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Collections</h2>
-                        <p><strong>Collections</strong> include multiple items that share the same parent.</p>
+                        <h2>集合</h2>
+                        <p><strong>集合</strong>包含属于同个父级的多个项目。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,10 +469,10 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_links.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <h2>Links</h2>
-                        <p>Links allow users to move quickly between scenes that aren’t navigationally adjacent.</p>
-                        <p><strong>Crosslinks</strong> are links that take users anywhere within your app. </p>
-                        <p><strong>External links</strong> are links from sources outside your app, including notifications and home screen widgets. They take users directly to scenes deep within your app.</p>
+                        <h2>链接</h2>
+                        <p>链接可以让用户在两个场景之间快速移动，即使它们在导航结构中不相邻。</p>
+                        <p><strong>交链</strong>是应用内部的链接，可以链接到应用内的任何地方。</p>
+                        <p><strong>外链</strong>是应用外部资源链接到应用内的链接，包括通知和桌面小部件。它们直接把用户带到应用内较深的场景。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -484,7 +484,7 @@
 
         <div id="navigation-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Patterns
+            模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -493,25 +493,25 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Navigation should best accommodate the needs of the majority of your app’s users. Apps with complex and deep hierarchies (that require switching between multiple views) have different navigation requirements than apps with a single primary view.</p>
-              <p>The following navigation patterns are designed to:</p>
+              <p>导航应该最好包含大多数用户的需求。复杂和层次结构较深的应用（需要在多个视图之间切换），与只有一个主视图的应用有不同的导航要求。</p>
+              <p>以下导航模式用于：</p>
               <ul class="lst-kix_9bhmorkxvuvo-0 start">
-                <li>Promote engaging and responsive layouts</li>
-                <li>Anchor navigation and actions</li>
-                <li>Highlight important destinations and de-emphasize infrequent ones</li>
-                <li>Promote a primary action with the floating action button</li>
+                <li>促进交互和响应式布局</li>
+                <li>固定导航和操作</li>
+                <li>突出重要的导航，减弱不常用的</li>
+                <li>使用浮动操作按钮来突显主要操作</li>
               </ul>
               <p></p>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Embedded navigation</h2>
-                    <p>Apps with simple navigation may embed navigation inside app content, but doing so reduces the available space to display that content.</p>
-                    <p>Recommended for:</p>
+                    <h2>嵌入式导航</h2>
+                    <p>只有单个导航的应用，可以把导航嵌入到应用内容中，但是这样做会减少内容的展示空间。</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_4ye16hy0lkcl-0 start">
-                      <li>Apps with a strong primary view, and few alternate views</li>
-                      <li>Apps that perform common tasks in the main view</li>
-                      <li>Infrequently used apps</li>
+                      <li>有一个非常重要的视图，少数几个罕见视图的应用</li>
+                      <li>常用操作都在主视图中执行的应用</li>
+                      <li>不常用的应用</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -520,7 +520,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_embedded1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This is a mobile example of an app with embedded navigation. Common tasks are performed in a strong primary view. </p>
+                        <p>这是一个移动端的嵌入式导航的示例，常用操作都在非常重要的主视图中执行。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -528,18 +528,18 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Tabs</h2>
-                    <p><a href="../components/tabs.html">Tabs</a> allow users to quickly move between a small number of equally important views.</p>
-                    <p>Appropriate for these hierarchies:</p>
+                    <h2>选项卡</h2>
+                    <p><a href="../components/tabs.html">选项卡</a>可以使用户在少数几个同等重要的视图间快速切换。</p>
+                    <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_v59hukqqlhav-0 start">
-                      <li>Parents with embedded child views</li>
-                      <li>A group of sibling views</li>
+                      <li>具有嵌入式子视图的父级</li>
+                      <li>一组同级视图</li>
                     </ul>
-                    <p>Recommended for:</p>
+                    <p>推荐用途：</p>
                     <ul class="lst-kix_fbhn9imnghkk-0 start">
-                      <li>Frequent switching between views</li>
-                      <li>Apps with few top-level views</li>
-                      <li>Promoting awareness of alternate views</li>
+                      <li>需要在视图间频繁切换</li>
+                      <li>应用只有少数几个顶级视图</li>
+                      <li>提升用户切换视图的意识</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -548,7 +548,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example with three tabs</p>
+                        <p>移动端具有三个选项的选项卡示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -562,7 +562,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example of centered tabs</p>
+                        <p>平板端的居中对齐的选项卡</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -570,26 +570,26 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of left-aligned fixed tabs with a title and extended header</p>
+                        <p>桌面端，具有标题和扩展头部的左对齐的选项卡示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Bottom navigation bar</h2>
-                    <p>A <a href="../components/bottom-navigation.html">bottom navigation bar</a> allows users to quickly move between a small number of top-level views.</p>
-                    <p>Appropriate for these hierarchies:</p>
+                    <h2>底部导航栏</h2>
+                    <p><a href="../components/bottom-navigation.html">底部导航栏</a>可以使用户在少数几个顶级视图间快速切换。</p>
+                    <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_v59hukqqlhav-0">
-                      <li>Parents with embedded child views</li>
-                      <li>A group of parent views</li>
+                      <li>具有嵌入式子视图的父级</li>
+                      <li>一组同级视图</li>
                     </ul>
-                    <p>Recommended for:</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_fbhn9imnghkk-0">
-                      <li>Frequent switching between views</li>
-                      <li>Apps with few top-level views</li>
-                      <li>Promoting awareness of alternate views</li>
-                      <li>Mobile devices, as bottom navigation is located in a more ergonomic location</li>
+                      <li>需要在视图间频繁切换</li>
+                      <li>应用只有少数几个顶级视图</li>
+                      <li>提升用户切换视图的意识</li>
+                      <li>手机设备上，底部导航栏位于更符合人体工程学的位置</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -598,7 +598,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example with fixed text labels present at all times</p>
+                        <p>手机上持续显示标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -612,7 +612,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example with text labels present at all times</p>
+                        <p>平板上持续显示标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -625,7 +625,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example with shifting text and labels</p>
+                        <p>手机上显示动态标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -639,27 +639,27 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example with shifting text and labels</p>
+                        <p>平板上显示动态标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h2>Navigation drawer</h2>
-                    <p>When there is insufficient space to support tabs, side navigation is a good alternative. Side navigation can display many navigation targets at once. A drawer remains hidden until invoked by the user. </p>
-                    <p>Apps with a single “home” should list the most frequently accessed destinations at the top of side navigation.</p>
-                    <p>Side navigation may appear either with or without a <a href="navigation-drawer.html">navigation drawer</a>. </p>
-                    <p>Appropriate for these hierarchies:</p>
+                  <div class="module"><h2>抽屉导航</h2>
+                    <p>当没有足够的空间来使用选项卡时，侧边导航是一个很好的替代方案。侧边导航可以一次性显示很多个导航目标。抽屉默认保持隐藏，直到用户调用后才会显示。</p>
+                    <p>有单个 “主界面” 的应用应该把最常访问的目标放在侧边导航的顶部。</p>
+                    <p>侧边导航可以选择是否使用<a href="navigation-drawer.html">抽屉导航</a>。</p>
+                    <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_ngfguo6izgoc-0 start">
-                      <li>Lateral navigation</li>
-                      <li>Parents with siblings or peers</li>
+                      <li>横向导航</li>
+                      <li>父级及其同级或其他同等级的目标</li>
                     </ul>
-                    <p>Recommended for:</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_90mwt7psj956-0 start">
-                      <li>Apps with many top-level views</li>
-                      <li>Enabling quick navigation between unrelated views</li>
-                      <li>Deep navigation structures</li>
-                      <li>Reducing visibility of infrequent destinations</li>
+                      <li>有很多个顶级视图的应用</li>
+                      <li>需要在多个不相关的视图之间快速切换</li>
+                      <li>更深的导航结构</li>
+                      <li>降低不常用目标的视觉优先级</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -668,7 +668,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example of a closed left nav</p>
+                        <p>手机上关闭的侧边导航示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -676,7 +676,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example of an open left nav</p>
+                        <p>平板上打开的侧边导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -686,7 +686,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example of an open left nav</p>
+                        <p>手机上打开的侧边导航示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -694,25 +694,25 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of an open and pinned-in-place left nav </p>
+                        <p>桌面端打开且固定的左侧导航</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Nested Navigation</h2>
-                    <p>When you have multiple levels of navigation, sibling views should be nested underneath their parent. </p>
-                    <p>On desktop, a secondary level of navigation may be nested within the navigation drawer.</p>
-                    <p>Appropriate for these hierarchies:</p>
+                    <h2>嵌套导航</h2>
+                    <p>当有多级导航时，同级视图应该被嵌套其在父级下。</p>
+                    <p>在桌面端，次级导航可以嵌套在抽屉导航内。</p>
+                    <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_8bvbvopfaja2-0 start">
-                      <li>Lateral navigation</li>
-                      <li>Parents with siblings or peers</li>
+                      <li>横向导航</li>
+                      <li>父级及其同级或其他同等级的目标</li>
                     </ul>
-                    <p>Recommended for:</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_zgqveo1ru94k-0 start">
-                      <li>Deep navigation structures with many views</li>
-                      <li>Enabling quick navigation between unrelated views</li>
+                      <li>有很多个视图的深层次的导航结构</li>
+                      <li>需要在多个不相关的视图之间快速切换</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -721,15 +721,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_nested1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of an expanding left nav</p>
+                        <p>桌面端展开的左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Expanding navigation drawer</h2>
-                    <p>If you have a deep navigational hierarchy, you may expand that hierarchy within the navigation drawer. Upon selecting a level, the level of navigation below is revealed. Selecting a collapsed section expands that level in-line, hiding all levels outside of it. </p>
+                    <h2>可展开的抽屉导航</h2>
+                    <p>如果你的应用的导航层次很深，可以在抽屉导航中扩展该层次结构。选择一个层次后，该层次下方的导航就会展开。选择折叠部分，可以展开其下一级的层次，并关闭所有其他展开的层次。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -737,7 +737,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of an expanding left nav</p>
+                        <p>桌面端展开的左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -751,8 +751,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Cascading navigation drawer (Desktop only)</h2>
-                    <p>If you have a deep navigational hierarchy, you may use cascading menus to expand navigation drawer content horizontally. Each collection of views is presented in its own panel, and a level closes when a subsection is selected. </p>
+                    <h2>级联抽屉导航（仅限桌面端）</h2>
+                    <p>如果你的应用的导航层次较深，则可以使用级联菜单来水平扩展抽屉导航的内容。每个视图集合都会显示其各自的面板，且子项目被选中后面板就会关闭。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -760,7 +760,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of a cascading left nav</p>
+                        <p>桌面端的级联左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -774,15 +774,15 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2>Gestural</h2>
-                    <p>Gestural navigation allows users to use swipe gestures to navigate between sibling or peer views. Supported gestures include: touching and dragging the screen horizontally (left/right), vertically (up/down), or while zooming in or out. </p>
-                    <p>Recommended for:</p>
+                    <h2>手势</h2>
+                    <p>手势导航允许用户使用滑动手势在同级或同等优先级的视图之间导航。支持的手势包括：触摸和水平拖拽（左/右）屏幕，垂直拖拽屏幕（上/下），或缩放。</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_72r0fesv1xsx-0 start">
-                      <li>Naturally ordered relationships, such as pages representing consecutive calendar days</li>
-                      <li>Views with few siblings</li>
-                      <li>Views with similar content types</li>
+                      <li>自然关系排序，例如一个表示连续日期的日历视图</li>
+                      <li>只有少数几个同级的视图</li>
+                      <li>有相似内容类型的视图</li>
                     </ul>
-                    <p>See <a href="navigational-transitions.html">Navigational transitions</a> for more information on hierarchical journeys between scenes.</p>
+                    <p>更多关于场景之间转换的信息，请参考<a href="navigational-transitions.html">导航的转场</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -796,7 +796,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>When in Inbox, you are able to pull down on a message to return back to the parent view.</p>
+                        <p>在 Inbox 中，你可以在一条信息上向下拉动来回到父级视图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -809,7 +809,7 @@
 
         <div id="navigation-combined-patterns" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            Combined patterns
+            组合模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -821,26 +821,26 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>In-context navigation </h1>
-                    <p>In-context navigation (used with tabs or navigation drawers) allows nimble movement between related sets of data. </p>
-                    <p>In-context navigation integrates into an app’s content and is typically less linear in nature. When moving through in-context navigation, navigating to a new scene will display navigational controls specific to that view. </p>
-                    <p>Appropriate for these hierarchies:</p>
+                    <h1>情境内导航</h1>
+                    <p>情境内导航（和选项卡或抽屉导航一起使用）允许用户灵活的在相关数据集之间切换。</p>
+                    <p>情境内导航被整合进了应用的内容，且通常不是线性导航的。当通过情境内导航导航到一个新场景时，将显示该视图的导航控件。</p>
+                    <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_ljqhq92pvh6u-0 start">
-                      <li>Parents with siblings</li>
+                      <li>含同级的父级</li>
                     </ul>
-                    <p>Recommended for:</p>
+                    <p>推荐用于：</p>
                     <ul class="lst-kix_4wc9g77p30zo-0 start">
-                      <li>Showing large sets of child scenes</li>
-                      <li>Focusing attention on a specific set of tasks</li>
-                      <li>Apps with a strong primary view, and few alternates</li>
+                      <li>显示一大组子场景</li>
+                      <li>将注意力集中到一组特定的任务上</li>
+                      <li>有一个非常重要的视图和少数几个罕见视图的应用</li>
                     </ul>
-                    <p>Example uses:</p>
+                    <p>示例：</p>
                     <ul class="lst-kix_qszrwkirn4jp-0 start">
-                      <li>Link a song to an artist</li>
-                      <li>Move between recent items and a complete history</li>
-                      <li>Connect a user’s post to their profile page</li>
+                      <li>把歌曲链接到艺术家</li>
+                      <li>在最近访问的项目和完整的历史记录之间切换</li>
+                      <li>把用户的文章关联到他们的个人信息页面</li>
                     </ul>
-                    <p>The up arrow is used to return to the previous level.</p>
+                    <p>向上箭头用于返回到上级页面。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -848,7 +848,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example of navigation integrated into content </p>
+                        <p>手机上导航整合进内容的示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -858,7 +858,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example of an up arrow</p>
+                        <p>手机上的向上箭头示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -871,7 +871,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet/desktop example of navigation integrated into content </p>
+                        <p>平板/桌面端的导航整合进内容的示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
@@ -879,7 +879,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet/desktop example of an up arrow</p>
+                        <p>平板/桌面端的向上箭头示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -888,8 +888,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Side nav and tab combinations</h1>
-                    <p>Products with two levels of navigation may pair a left navigation drawer with tabs.</p>
+                    <h1>侧边导航和选项卡组合</h1>
+                    <p>有两级导航的产品可以使用左侧抽屉导航和选项卡。</p>
                     <h2><strong> </strong></h2>
                   </div>
                   <div class="figure">
@@ -898,7 +898,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example using two levels of navigation: a navigation drawer and tabs</p>
+                        <p>手机上的两级导航示例：抽屉导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -908,7 +908,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations6.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Mobile example of an open left nav</p>
+                        <p>手机上打开的左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -923,7 +923,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example using two levels of navigation: a navigation drawer and tabs</p>
+                        <p>平板上使用两级导航的示例：抽屉导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -936,7 +936,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations8.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Tablet example of an open left nav in front of tabs</p>
+                        <p>平板上打开的左侧导航显示在选项卡前面</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -949,15 +949,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example using two levels of navigation: a navigation drawer and tabs</p>
+                        <p>桌面端使用两级导航的示例：抽屉导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Nested navigation drawer + tabs (Desktop only)</h1>
-                    <p>If your product has three levels of navigation, pair a navigation drawer with nested navigation and tabs. </p>
+                    <h1>嵌套的抽屉导航 + 选项卡（仅限桌面端）</h1>
+                    <p>如果你的产品有三级导航，可以同时使用抽屉导航、嵌套导航和选项卡。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -965,7 +965,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations10.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Desktop example of a nested left nav with tabs</p>
+                        <p>桌面端的嵌套左侧导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
