@@ -20,15 +20,15 @@
                 <p>嵌入式导航<br>
                   选项卡<br>
                   底部导航栏<br>
-                  抽屉导航<br>
+                  抽屉式导航<br>
                   内嵌导航栏<br>
-                  扩展抽屉导航<br>
-                  层叠抽屉导航（桌面端）<br>
+                  扩展抽屉式导航<br>
+                  层叠抽屉式导航（桌面端）<br>
                   手势</p>
                 <h3><strong>组合导航模式</strong></h3>
                 <p>情境内导航<br>
                   侧边导航和选项卡<br>
-                  内嵌抽屉导航和选项卡（桌面端）</p>
+                  内嵌抽屉式导航和选项卡（桌面端）</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
@@ -645,10 +645,10 @@
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
-                  <div class="module"><h2>抽屉导航</h2>
+                  <div class="module"><h2>抽屉式导航</h2>
                     <p>当没有足够的空间来使用选项卡时，侧边导航是一个很好的替代方案。侧边导航可以一次性显示很多个导航目标。抽屉默认保持隐藏，直到用户调用后才会显示。</p>
                     <p>有单个 “主界面” 的应用应该把最常访问的目标放在侧边导航的顶部。</p>
-                    <p>侧边导航可以选择是否使用<a href="navigation-drawer.html">抽屉导航</a>。</p>
+                    <p>侧边导航可以选择是否使用<a href="navigation-drawer.html">抽屉式导航</a>。</p>
                     <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_ngfguo6izgoc-0 start">
                       <li>横向导航</li>
@@ -703,7 +703,7 @@
                   <div class="module">
                     <h2>嵌套导航</h2>
                     <p>当有多级导航时，同级视图应该被嵌套其在父级下。</p>
-                    <p>在桌面端，次级导航可以嵌套在抽屉导航内。</p>
+                    <p>在桌面端，次级导航可以嵌套在抽屉式导航内。</p>
                     <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_8bvbvopfaja2-0 start">
                       <li>横向导航</li>
@@ -728,8 +728,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>可展开的抽屉导航</h2>
-                    <p>如果你的应用的导航层次很深，可以在抽屉导航中扩展该层次结构。选择一个层次后，该层次下方的导航就会展开。选择折叠部分，可以展开其下一级的层次，并关闭所有其他展开的层次。</p>
+                    <h2>可展开的抽屉式导航</h2>
+                    <p>如果你的应用的导航层次很深，可以在抽屉式导航中扩展该层次结构。选择一个层次后，该层次下方的导航就会展开。选择折叠部分，可以展开其下一级的层次，并关闭所有其他展开的层次。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -751,8 +751,8 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>级联抽屉导航（仅限桌面端）</h2>
-                    <p>如果你的应用的导航层次较深，则可以使用级联菜单来水平扩展抽屉导航的内容。每个视图集合都会显示其各自的面板，且子项目被选中后面板就会关闭。</p>
+                    <h2>级联抽屉式导航（仅限桌面端）</h2>
+                    <p>如果你的应用的导航层次较深，则可以使用级联菜单来水平扩展抽屉式导航的内容。每个视图集合都会显示其各自的面板，且子项目被选中后面板就会关闭。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -822,7 +822,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>情境内导航</h1>
-                    <p>情境内导航（和选项卡或抽屉导航一起使用）允许用户灵活的在相关数据集之间切换。</p>
+                    <p>情境内导航（和选项卡或抽屉式导航一起使用）允许用户灵活的在相关数据集之间切换。</p>
                     <p>情境内导航被整合进了应用的内容，且通常不是线性导航的。当通过情境内导航导航到一个新场景时，将显示该视图的导航控件。</p>
                     <p>适用于这些层次结构：</p>
                     <ul class="lst-kix_ljqhq92pvh6u-0 start">
@@ -889,7 +889,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>侧边导航和选项卡组合</h1>
-                    <p>有两级导航的产品可以使用左侧抽屉导航和选项卡。</p>
+                    <p>有两级导航的产品可以使用左侧抽屉式导航和选项卡。</p>
                     <h2><strong> </strong></h2>
                   </div>
                   <div class="figure">
@@ -898,7 +898,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>手机上的两级导航示例：抽屉导航和选项卡</p>
+                        <p>手机上的两级导航示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -923,7 +923,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>平板上使用两级导航的示例：抽屉导航和选项卡</p>
+                        <p>平板上使用两级导航的示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -949,15 +949,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>桌面端使用两级导航的示例：抽屉导航和选项卡</p>
+                        <p>桌面端使用两级导航的示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>嵌套的抽屉导航 + 选项卡（仅限桌面端）</h1>
-                    <p>如果你的产品有三级导航，可以同时使用抽屉导航、嵌套导航和选项卡。</p>
+                    <h1>嵌套的抽屉式导航 + 选项卡（仅限桌面端）</h1>
+                    <p>如果你的产品有三级导航，可以同时使用抽屉式导航、嵌套导航和选项卡。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

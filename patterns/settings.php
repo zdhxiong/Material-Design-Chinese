@@ -79,7 +79,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <p><strong>侧边导航</strong></p>
-                    <p>如果存在侧边导航，例如抽屉导航，在所有其他选项（帮助和反馈除外）的下面添加 “设置”。</p>
+                    <p>如果存在侧边导航，例如抽屉式导航，在所有其他选项（帮助和反馈除外）的下面添加 “设置”。</p>
                     <p><strong>不含导航的应用</strong></p>
                     <p>放在工具栏菜单的所有其他选项下面（帮助和反馈除外）。</p>
                   </div>

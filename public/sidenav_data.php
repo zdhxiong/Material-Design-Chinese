@@ -99,7 +99,7 @@ return array(
       'launch-screens'                  =>  '启动页',
       'loading-images'                  =>  '图片加载',
       'navigation'                      =>  '导航',
-      'navigation-drawer'               =>  '抽屉导航',
+      'navigation-drawer'               =>  '抽屉式导航',
       'navigational-transitions'        =>  '导航的转场',
       'notifications'                   =>  '通知',
       'permissions'                     =>  '权限',

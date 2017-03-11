@@ -251,7 +251,7 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <p><strong>抽屉导航</strong></p>
+                    <p><strong>抽屉式导航</strong></p>
                     <p>一个侧边栏的导航菜单，包含图标、头像、和左对齐的文本。其他图标右对齐。</p>
                   </div>
                   <div class="figure">

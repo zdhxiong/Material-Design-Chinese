@@ -89,7 +89,7 @@
               <h1>边缘滑动手势</h1>
               <p>当处于分屏模式时，边缘滑动手势可能不会像预期的那样。因为分屏模式依靠滑动来调整每个分屏的大小，如果你的应用还依靠边缘滑动来执行某项操作，则滑动操作可能会导致冲突。</p>
               <p>为了避免这种情况，边缘滑动不应设置为触发应用中的操作的唯一途径。应该要有一个替代方法来执行该操作。</p>
-              <p>例如，<a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">抽屉导航</a>可以通过边缘滑动来触发，但也可以通过按下菜单按钮来触发。</p>
+              <p>例如，<a href="../patterns/navigation-drawer.html#navigation-drawer-behavior">抽屉式导航</a>可以通过边缘滑动来触发，但也可以通过按下菜单按钮来触发。</p>
             </div>
           </div>
         </div>

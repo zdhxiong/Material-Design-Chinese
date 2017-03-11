@@ -998,7 +998,7 @@
                   <div class="module">
                     <p>如果存在侧边栏，侧边栏可以永久固定显示，或者作为遮盖层临时显示。侧边栏可以位于屏幕左侧或右侧。</p>
                     <p>理想状态下，左侧侧边栏应该是与导航相关的、或是与用户身份相关的内容。右侧侧边栏应该是与页面中的主内容相关的次要信息。</p>
-                    <p>参见<a href="../patterns/navigation-drawer.html">抽屉导航</a>。</p>
+                    <p>参见<a href="../patterns/navigation-drawer.html">抽屉式导航</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

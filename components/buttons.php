@@ -12,7 +12,7 @@
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Material 按钮在点击时会有水波纹效果。按钮可以显示文本、图像。扁平按钮和浮动按钮是最常用的两种按钮类型。</p>
+                <p>Material 按钮在点击时会有涟漪效果。按钮可以显示文本、图像。扁平按钮和浮动按钮是最常用的两种按钮类型。</p>
                 <p>其他的按钮类型包括：</p>
                 <ul class="lst-kix_cps83lvbp1jm-0 start">
                   <li><strong>底部固定按钮</strong> 为扁平按钮，大多用于页面底部或对话框底部。</li>
@@ -29,7 +29,7 @@
                 <h3>浮动按钮</h3>
                 <p>浮动按钮为矩形按钮。<br>
                   它们可以内嵌在其他组件中。<br>
-                  它们在点击时会改变海拔高度和触发水波纹效果。</p>
+                  它们在点击时会改变海拔高度和触发涟漪效果。</p>
 
                 <h3>海拔高度</h3>
                 <p>扁平按钮：0dp<br>
@@ -92,9 +92,9 @@
             <div>
               <p>有三种标准类型的按钮：</p>
               <ul class="lst-kix_4tql5k8r9fvj-0 start">
-                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变海拔高度和触发水波纹效果。</li>
-                <li>浮动按钮：典型的方形纸片按钮，点击后改变海拔高度和触发水波纹效果。</li>
-                <li>扁平按钮：点击时会有水波纹效果，但不会改变海拔高度。</li>
+                <li><a href="buttons-floating-action-button.html">浮动操作按钮</a>：一个圆形的按钮，在点击时会改变海拔高度和触发涟漪效果。</li>
+                <li>浮动按钮：典型的方形纸片按钮，点击后改变海拔高度和触发涟漪效果。</li>
+                <li>扁平按钮：点击时会有涟漪效果，但不会改变海拔高度。</li>
               </ul>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">

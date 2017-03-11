@@ -113,7 +113,7 @@
                   <div class="module">
                     <p>滑动刷新不应在以下情况下使用：</p>
                     <ul class="lst-kix_ts8d536vx62i-0 start">
-                      <li>抽屉导航</li>
+                      <li>抽屉式导航</li>
                       <li>主屏幕小部件</li>
                       <li>可平移的内容</li>
                     </ul>
@@ -125,7 +125,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>抽屉导航（如果应用中存在的话）应该包含导航的目标，而不是动态内容。</p>
+                        <p>抽屉式导航（如果应用中存在的话）应该包含导航的目标，而不是动态内容。</p>
                       </figcaption>
                     </figure>
                   </div>

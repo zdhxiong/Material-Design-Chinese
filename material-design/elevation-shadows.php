@@ -123,7 +123,7 @@
                       <tr>
                         <td colspan="1" rowspan="1"><p>16</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>抽屉导航</p>
+                          <p>抽屉式导航</p>
                           <p>右侧抽屉</p>
                           <p>底部卡片模态框</p>
                         </td>
@@ -218,7 +218,7 @@
                         <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation4.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>一个带有打开的抽屉导航的应用布局示例，以及 Z 轴海拔高度的剖面图。</p>
+                        <p>一个带有打开的抽屉式导航的应用布局示例，以及 Z 轴海拔高度的剖面图。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -409,7 +409,7 @@
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p><strong>抽屉导航 &amp; 右侧抽屉</strong></p>
+                    <p><strong>抽屉式导航 &amp; 右侧抽屉</strong></p>
                     <p>16dp</p>
                   </div>
                   <div class="figure">
@@ -518,7 +518,7 @@
                     <h2><strong><strong>例外</strong></strong></h2>
                     <p>根元素（例如主要 UI 元素）可以独立移动。例如，浮动操作按钮不随内容滚动。其他元素包括：</p>
                     <ul class="lst-kix_q1k9qrwkv05c-0 start">
-                      <li>应用的抽屉导航</li>
+                      <li>应用的抽屉式导航</li>
                       <li>应用栏</li>
                       <li>对话框</li>
                     </ul>

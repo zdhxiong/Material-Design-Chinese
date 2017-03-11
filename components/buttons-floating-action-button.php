@@ -474,7 +474,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong>触发器</strong></h2>
-                    <p>浮动操作按钮可以只是简单地触发一个操作或是某处的导航。触摸的水波纹动画会作为导致 UI 变化的力向外展开。</p>
+                    <p>浮动操作按钮可以只是简单地触发一个操作或是某处的导航。触摸涟漪动画会作为导致 UI 变化的力向外展开。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">

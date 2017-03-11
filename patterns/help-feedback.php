@@ -66,9 +66,9 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module"><p>方便用户在应用中查找帮助内容。</p>
-                    <p>帮助内容可以有多个入口，其入口已在下方列出。它通常放置在抽屉导航（或弹出菜单）的 “帮助” 或 “发送反馈” 中。</p>
+                    <p>帮助内容可以有多个入口，其入口已在下方列出。它通常放置在抽屉式导航（或弹出菜单）的 “帮助” 或 “发送反馈” 中。</p>
                     <h2>复杂应用</h2>
-                    <p>如果你的应用比较复杂，请在抽屉导航和应用栏中同时放置 “帮助” 入口。</p>
+                    <p>如果你的应用比较复杂，请在抽屉式导航和应用栏中同时放置 “帮助” 入口。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -76,7 +76,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_01_decisiontree.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>为了使用户能轻松获得帮助，特别是你的应用比较复杂的时候，在抽屉导航和应用栏中同时放置 “帮助” 入口。否则，只在抽屉栏、或者弹出菜单中放置 “帮助” 入口。</p>
+                        <p>为了使用户能轻松获得帮助，特别是你的应用比较复杂的时候，在抽屉式导航和应用栏中同时放置 “帮助” 入口。否则，只在抽屉栏、或者弹出菜单中放置 “帮助” 入口。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -85,9 +85,9 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>抽屉导航</h1>
-                    <p>把 “帮助” 作为最后一项放在抽屉导航中，即 “发送反馈” 的下面。</p>
-                    <p>如果抽屉导航中有 “登出”，应该把 “登出” 放在最后一项。</p>
+                    <h1>抽屉式导航</h1>
+                    <p>把 “帮助” 作为最后一项放在抽屉式导航中，即 “发送反馈” 的下面。</p>
+                    <p>如果抽屉式导航中有 “登出”，应该把 “登出” 放在最后一项。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -95,7 +95,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_02_navdrawer.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>抽屉导航中的 “帮助” 和 “发送反馈”</p>
+                        <p>抽屉式导航中的 “帮助” 和 “发送反馈”</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -106,7 +106,7 @@
                 <section class="module-figure-module col-3">
                   <div class="module">
                     <h1>弹出菜单</h1>
-                    <p>当应用没有抽屉导航时，把 “帮助” 和 “反馈”（或 “发送反馈” ）放在弹出菜单中。</p>
+                    <p>当应用没有抽屉式导航时，把 “帮助” 和 “反馈”（或 “发送反馈” ）放在弹出菜单中。</p>
                     <p>如果弹出菜单中有 “登出”，应该把 “登出” 作为菜单中的最后一项。</p>
                   </div>
                   <div class="figure">

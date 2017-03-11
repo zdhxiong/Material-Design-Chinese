@@ -134,7 +134,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>用户输入时会立即出现水波纹，从用户的触点向外扩散。浮动的卡片指示了卡片处于激活状态。</p>
+                        <p>用户输入时会立即出现涟漪，从用户的触点向外扩散。浮动的卡片指示了卡片处于激活状态。</p>
                         <p>更多信息详见<a href="choreography.html#choreography-radial-reaction">径向反映</a>。</p>
                       </figcaption>
                     </figure>
