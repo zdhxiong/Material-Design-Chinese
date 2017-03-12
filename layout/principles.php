@@ -37,7 +37,7 @@
             <div><p>在 Material Design 中，纸片的物理特性被转移到了屏幕中。应用的背景类似于一张平坦、不透明质地的纸片，应用的行为也模仿纸片，可以改变大小、拖动及把多个纸片粘合在一起。</p>
               <p>在本规范中，构成应用的表面被成为材料或材料片。</p>
               <p>应用之外的元素，例如系统状态栏，和应用内容是分开的，不会被视为材料。</p>
-              <p>更多关于材料的细节，详见<a href="../what-is-material/material-properties.html">材料属性</a>。</p>
+              <p>更多关于材料的细节，详见<a href="../material-design/material-properties.html">材料属性</a>。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">

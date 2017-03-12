@@ -41,13 +41,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/elevation-shadows.html#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">海拔高度（Android）</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/elevation-shadows.html#elevation-shadows-elevation-android" data-qp-ui-data-id="qp:1">海拔高度（Android）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/elevation-shadows.html#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">阴影</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/elevation-shadows.html#elevation-shadows-shadows" data-qp-ui-data-id="qp:2">阴影</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/elevation-shadows.html#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">物体关系</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/elevation-shadows.html#elevation-shadows-object-relationships" data-qp-ui-data-id="qp:3">物体关系</a>
           </li>
         </ul>
       </nav>
@@ -105,7 +105,7 @@
                     <p>动态海拔高度偏移是组件从静止状态向目标状态移动的距离。它们确保在不同操作和组件类型下海拔高度的改变保持一致。例如，所有组件在被按下时，所增加的海拔高度是一样的。</p>
                     <p>一旦输入事件完成或取消，组件就会回到静止状态的海拔高度。</p>
                     <h2>避免海拔高度冲突</h2>
-                    <p>有响应式海拔高度的组件，在静止状态和动态海拔高度偏移之间切换时，可能会穿透其他组件。<a href="../what-is-material/material-properties.html#material-properties-physical-properties">材料不能彼此穿透</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
+                    <p>有响应式海拔高度的组件，在静止状态和动态海拔高度偏移之间切换时，可能会穿透其他组件。<a href="../material-design/material-properties.html#material-properties-physical-properties">材料不能彼此穿透</a>，因此可以通过改变冲突组件的布局或整个应用的布局来避免这些冲突。</p>
                     <p>在组件级别上，组件可以在发生冲突之前移动或移除。例如，在用户拾起卡片前，浮动操作按钮可以消失或移动离开屏幕，或者在 snackbar 出现时进行移动。</p>
                     <p>在布局级别上，通过设计应用布局，来最大限度减少造成冲突的可能。例如，将浮动操作按钮定位在卡片流的一侧，这样当用户拾起一张卡片时，不会和浮动操作按钮造成冲突。</p>
                   </div>

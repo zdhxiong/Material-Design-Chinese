@@ -43,13 +43,13 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-physical-properties" data-qp-ui-data-id="qp:1">物理属性</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/material-properties.html#material-properties-physical-properties" data-qp-ui-data-id="qp:1">物理属性</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-transforming-material" data-qp-ui-data-id="qp:2">材料的转换</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/material-properties.html#material-properties-transforming-material" data-qp-ui-data-id="qp:2">材料的转换</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../what-is-material/material-properties.html#material-properties-movement-of-material" data-qp-ui-data-id="qp:3">材料的移动</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../material-design/material-properties.html#material-properties-movement-of-material" data-qp-ui-data-id="qp:3">材料的移动</a>
           </li>
         </ul>
       </nav>

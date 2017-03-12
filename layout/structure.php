@@ -44,7 +44,7 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>为元素在 Z 轴空间的排列提供指导，以使其拥有正确的行为和阴影，见<a href="../material-design/environment.html">环境</a>和<a href="../what-is-material/elevation-shadows.html">海拔高度和阴影</a>章节。</p>
+            <div><p>为元素在 Z 轴空间的排列提供指导，以使其拥有正确的行为和阴影，见<a href="../material-design/environment.html">环境</a>和<a href="../material-design/elevation-shadows.html">海拔高度和阴影</a>章节。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">

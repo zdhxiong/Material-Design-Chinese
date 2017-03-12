@@ -46,25 +46,25 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-usage" data-qp-ui-data-id="qp:1">用法</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-defining-your-navigation" data-qp-ui-data-id="qp:2">定义你的导航</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-defining-your-navigation" data-qp-ui-data-id="qp:2">定义你的导航</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-up-back-buttons" data-qp-ui-data-id="qp:3">向上和返回按钮</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-up-back-buttons" data-qp-ui-data-id="qp:3">向上和返回按钮</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-navigating-between-apps-android" data-qp-ui-data-id="qp:4">应用间导航（Android）</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-navigating-between-apps-android" data-qp-ui-data-id="qp:4">应用间导航（Android）</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-hierarchy" data-qp-ui-data-id="qp:5">层次结构</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-hierarchy" data-qp-ui-data-id="qp:5">层次结构</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-patterns" data-qp-ui-data-id="qp:6">模式</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-patterns" data-qp-ui-data-id="qp:6">模式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="app-structure.html#navigation-combined-patterns" data-qp-ui-data-id="qp:7">组合模式</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="navigation.html#navigation-combined-patterns" data-qp-ui-data-id="qp:7">组合模式</a>
           </li>
         </ul>
       </nav>

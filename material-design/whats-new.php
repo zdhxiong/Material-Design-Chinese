@@ -53,13 +53,13 @@
               </ul>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_3lz88lbtlae2-0 start">
-                <li><a href="../patterns/app-structure.html#navigation-up-back-buttons">Navigation</a> now includes details on how to use the Up and Back buttons as part of your navigation strategy</li>
+                <li><a href="../patterns/navigation.html#navigation-up-back-buttons">Navigation</a> now includes details on how to use the Up and Back buttons as part of your navigation strategy</li>
                 <li>Using <a href="../layout/structure.html#structure-app-bar">full-screen mode</a> for Lean Back, Immersive mode, and Lights out interactions</li>
               </ul>
               <h1>May 2016 </h1>
               <p><strong>New sections</strong></p>
               <ul class="lst-kix_7y6ydy2mkp6e-0 start">
-                <li><a href="../animation/authentic-motion.html">Motion</a> includes detailed examples and specs on material motion principles, duration and easing, transformations, choreography, and customization.</li>
+                <li><a href="../motion/material-motion.html">Motion</a> includes detailed examples and specs on material motion principles, duration and easing, transformations, choreography, and customization.</li>
                 <li><a href="../growth-communications/introduction.html">Growth &amp; communications</a> contains guidance on user engagement, retention, and acquisition.</li>
                 <li><a href="../components/expansion-panels.html">Expansion panels</a> guidance describes lightweight containers used for creating flows and editing content.</li>
               </ul>
@@ -84,7 +84,7 @@
               <h1>December 2015 </h1>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_580rq2stisp2-0">
-                <li><a href="../layout/adaptive-ui.html#responsive-ui-patterns">Responsive UI</a> includes a pattern on positioning and more examples of responsive patterns</li>
+                <li><a href="../layout/responsive-ui.html#responsive-ui-patterns">Responsive UI</a> includes a pattern on positioning and more examples of responsive patterns</li>
                 <li><a href="../components/text-fields.html#text-fields-required-fields">Text fields</a> adds guidance on required text fields</li>
                 <li><a href="../resources/layout-templates.html#layout-templates-tablet">Whiteframes</a> have been added for Sketch</li>
                 <li><a href="../style/writing.html#writing-capitalization-punctuation">Punctuation</a> has new guidance on en dashes and parentheses</li>
@@ -102,7 +102,7 @@
               <h1>September 2015 </h1>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_3f16ovhcxjf-0 start">
-                <li><a href="../patterns/app-structure.html">Navigation</a> adds guidance on navigation hierarchy and structure, new navigation patterns, and combined navigation patterns</li>
+                <li><a href="../patterns/navigation.html">Navigation</a> adds guidance on navigation hierarchy and structure, new navigation patterns, and combined navigation patterns</li>
                 <li><a href="../style/color.html#color-ui-color-application">UI color application</a> describes how transparent text maintains legibility against different background colors</li>
                 <li><a href="../components/buttons.html#buttons-toggle-buttons">Buttons</a> contains guidance on toggle buttons and flat button behaviors</li>
                 <li><a href="../components/tabs.html#tabs-specs">Tabs</a> includes guidance on text sizing in tabs</li>
@@ -132,15 +132,15 @@
               <h1>May 2015 </h1>
               <p><strong>New sections</strong></p>
               <ul class="lst-kix_fjimwhvlh9zv-0 start">
-                <li><a href="../layout/adaptive-ui.html">Adaptive UI</a> includes responsive layout guidance, grids, breakpoints, and patterns</li>
+                <li><a href="../layout/responsive-ui.html">Adaptive UI</a> includes responsive layout guidance, grids, breakpoints, and patterns</li>
                 <li><a href="../patterns/empty-states.html">Empty states</a> contains guidance for states when regular content can’t be shown</li>
                 <li><a href="../patterns/launch-screens.html">Launch screens</a> includes branding and placeholder UI content</li>
-                <li><a href="../patterns/app-structure.html">Navigation</a></li>
+                <li><a href="../patterns/navigation.html">Navigation</a></li>
               </ul>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_aztigdag0qb6-0 start">
-                <li><a href="../what-is-material/elevation-shadows.html">Elevation and shadows</a> has been renamed from “Objects in 3D space,” adding new details about elevation changes</li>
-                <li><a href="../animation/authentic-motion.html">Authentic motion</a> describes easing terms in more detail</li>
+                <li><a href="../material-design/elevation-shadows.html">Elevation and shadows</a> has been renamed from “Objects in 3D space,” adding new details about elevation changes</li>
+                <li><a href="../motion/material-motion.html">Authentic motion</a> describes easing terms in more detail</li>
               </ul>
               <h1>April 2015</h1>
               <p><strong>New sections</strong></p>
@@ -148,7 +148,7 @@
                 <li><a href="../components/data-tables.html">Data tables</a></li>
                 <li><a href="../layout/units-measurements.html">Units and measurements</a></li>
                 <li><a href="../components/buttons-floating-action-button.html">Floating Action Button</a> has been moved into its own section, adding new details about behavior and transitions</li>
-                <li><a href="../patterns/app-structure.html">App structure</a></li>
+                <li><a href="../patterns/navigation.html">App structure</a></li>
                 <li><a href="../resources/sticker-sheets-icons.html">Component sticker sheet</a> for Adobe After Effects</li>
                 <li><a href="../patterns/data-formats.html#data-formats-data-redaction-truncation">Data truncation and redaction</a></li>
                 <li><a href="../patterns/settings.html#settings-writing-guidelines">Writing guidelines</a> for Settings</li>

@@ -34,16 +34,16 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-why-does-motion-matter" data-qp-ui-data-id="qp:1">为什么动效很重要？</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../motion/material-motion.html#material-motion-why-does-motion-matter" data-qp-ui-data-id="qp:1">为什么动效很重要？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-how-does-material-move" data-qp-ui-data-id="qp:2">材料如何移动？</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../motion/material-motion.html#material-motion-how-does-material-move" data-qp-ui-data-id="qp:2">材料如何移动？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-what-makes-a-good-transition" data-qp-ui-data-id="qp:3">什么是好的转换？</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../motion/material-motion.html#material-motion-what-makes-a-good-transition" data-qp-ui-data-id="qp:3">什么是好的转换？</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../animation/authentic-motion.html#material-motion-implications-of-motion" data-qp-ui-data-id="qp:4">动效的影响</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="../motion/material-motion.html#material-motion-implications-of-motion" data-qp-ui-data-id="qp:4">动效的影响</a>
           </li>
         </ul>
       </nav>

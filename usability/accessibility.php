@@ -281,7 +281,7 @@
               </div>
               <h1>动效</h1>
               <p>Material design 使用动效来引导视图之间的焦点，以避免用户分心。把表面转换为焦点以供用户跟踪，并移除不重要的元素。</p>
-              <p>为了使具有运动和视觉敏感性的用户能舒适地使用界面，请遵循 <a href="../animation/authentic-motion.html">Material Design 运动规范</a>，该规范支持 W3C 的以下运动指南：</p>
+              <p>为了使具有运动和视觉敏感性的用户能舒适地使用界面，请遵循 <a href="../motion/material-motion.html">Material Design 运动规范</a>，该规范支持 W3C 的以下运动指南：</p>
               <ul class="lst-kix_1yj07pccvkev-0 start">
                 <li>如果内容持续移动、滚动或闪烁的时间超过 5 秒，则会暂停、停止或隐藏。</li>
                 <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="https://www.google.com/url?q=http://www.w3.org/TR/WCAG20/%23general-thresholddef&amp;sa=D&amp;ust=1481818010688000&amp;usg=AFQjCNGHM4ziWaKFa1JeCr2O_Zn1p7KLKA" target="_blank">闪烁和红色闪烁的阀值</a>。</li>
