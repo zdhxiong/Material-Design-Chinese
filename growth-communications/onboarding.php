@@ -9,7 +9,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>入门是一种虚拟的开箱体验，以帮助用户开始使用应用的 UI。它应该简短，并能促进用户使用应用。</p>
+          <p>导览是一种虚拟的开箱体验，以帮助用户开始使用应用的 UI。它应该简短，并能促进用户使用应用。</p>
         </div>
       </div>
 
@@ -20,7 +20,7 @@
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-usage" data-qp-ui-data-id="qp:1">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-onboarding-models" data-qp-ui-data-id="qp:2">入门模式</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-onboarding-models" data-qp-ui-data-id="qp:2">导览模式</a>
           </li>
           <li>
             <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="onboarding.html#onboarding-self-select" data-qp-ui-data-id="qp:3">自选</a>
@@ -50,7 +50,7 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>应该针对用户对应用的熟悉程度，给出更适合用户的入门。</p>
+                    <p>应该针对用户对应用的熟悉程度，给出更适合用户的导览。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
@@ -86,7 +86,7 @@
 
         <div id="onboarding-onboarding-models" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            入门模式
+            导览模式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -94,12 +94,12 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><p>入门是漫长旅程中的一个点，从应用商店开始，结束于：</p>
+            <div><p>导览是漫长旅程中的一个点，从应用商店开始，结束于：</p>
               <ul class="lst-kix_51ddxjjk56ls-0 start">
                 <li>首次运行（FRE），或者</li>
                 <li>用户的首次使用</li>
               </ul>
-              <p>在设计入门时，需要考虑入门之前的界面和入门之后的界面。</p>
+              <p>在设计导览时，需要考虑导览之前的界面和导览之后的界面。</p>
               <div class="col-list">
                 <section class="figure col-1">
                   <div class="figure">
@@ -108,13 +108,13 @@
                         <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>只为首次使用的用户显示入门，不要向老用户显示。</p>
+                        <p>只为首次使用的用户显示导览，不要向老用户显示。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <p>Material design 包含三种入门模式：</p>
+              <p>Material design 包含三种导览模式：</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
@@ -155,7 +155,7 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <p>最适合你的应用的入门，取决于你的应用是否使用通用的、易于识别的 UI 样式，以及设置是否容易。</p>
+                    <p>最适合你的应用的导览，取决于你的应用是否使用通用的、易于识别的 UI 样式，以及设置是否容易。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
@@ -225,7 +225,7 @@
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_gaj56whasr4f-0 start">
                             <li>不要把最大优势和自选结合使用</li>
-                            <li>你的应用可以在入门结束后显示设置、或把设置作为入门的一部分</li>
+                            <li>你的应用可以在导览结束后显示设置、或把设置作为导览的一部分</li>
                           </ul>
                         </td>
                       </tr>
@@ -278,7 +278,7 @@
                 </section>
               </div>
               <h1>呈现正确的选择</h1>
-              <p>你给用户的选择会影响到你的入门是否成功。</p>
+              <p>你给用户的选择会影响到你的导览是否成功。</p>
               <p>选择可以是：</p>
               <ul class="lst-kix_6m84l7poylne-0 start">
                 <li>有意义的和有显著影响的</li>
@@ -372,7 +372,7 @@
                   </div>
                 </section>
               </div>
-              <p>在设计入门时，请考虑入门过程如何与用户首次体验相衔接。入门后，用户登陆到的界面上可以展示用户刚刚学到的东西。</p>
+              <p>在设计导览时，请考虑导览过程如何与用户首次体验相衔接。导览结束后，用户登陆到的界面上可以展示用户刚刚学到的东西。</p>
               <h1>设计</h1>
               <p>自选屏幕的设计应该和应用的用途相关。专注于内容消费的应用可能会询问感兴趣的话题，而新闻订阅类应用可能会询问需要订阅哪些话题。</p>
               <p>一些常见的自选设计模式包括：</p>
@@ -425,7 +425,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>在快速开始模式中，用户将直接进入 UI 界面，不会显示任何其他的入门模式（登录和设置除外）。</p>
+              <p>在快速开始模式中，用户将直接进入 UI 界面，不会显示任何其他的导览模式（登录和设置除外）。</p>
               <p><strong>快速开始模式：</strong></p>
               <ol class="lst-kix_bnu8mpfh6v9r-0 start" start="1">
                 <li>使用户能快速上手应用的核心功能</li>
@@ -534,7 +534,7 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>最大优势入门模型包含一个简短的自动轮播图或动画，突显使用该应用的最多三个优势。</p>
+              <p>最大优势导览模型包含一个简短的自动轮播图或动画，突显使用该应用的最多三个优势。</p>
               <h1>选择正确的优势</h1>
               <p>最大优势模型应该展示使用该应用的最大优势，优势数量不超过 3 个。这些优势应该要把应用定位成有价值的和人性化的，而不是仅对应用的功能做描述。</p>
               <p>在要确定使用哪些优势时，请考虑：</p>
@@ -674,7 +674,7 @@
                   </div>
                 </section>
               </div>
-              <p>设计成在首次运行时显示入门指导。在入门指导后看到的 UI，应该使用户能更轻松的根据他们刚刚学到的东西进行操作。</p>
+              <p>设计成在首次运行时显示导览指导。在导览指导后看到的 UI，应该使用户能更轻松的根据他们刚刚学到的东西进行操作。</p>
               <h1>设计</h1>
               <p>最大优势的设计应该符合书写规范。如果有一个想法通过字词可以更好的表达出来，那么应该使用文本而不是图片。</p>
               <p>这种布局是为了使具有 1:1 的宽高比的插画能始终适配所有平台。确保背景色和文本颜色满足最低对比度要求，增加可访问性。</p>

@@ -116,7 +116,7 @@ return array(
     'color_name'            => 'cyan',
     'children'              =>  array(
       'introduction'                    =>  '概述',
-      'onboarding'                      =>  '入门',
+      'onboarding'                      =>  '导览',
       'feature-discovery'               =>  '特性探索',
       'gesture-education'               =>  '附加手势'
     )
