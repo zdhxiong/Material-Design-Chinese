@@ -14,14 +14,14 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="adaptive-ui.html#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">断点</a></li>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="responsive-ui.html#responsive-ui-breakpoints" data-qp-ui-data-id="qp:1">断点</a></li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="adaptive-ui.html#responsive-ui-grid" data-qp-ui-data-id="qp:2">网格</a></li>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="responsive-ui.html#responsive-ui-grid" data-qp-ui-data-id="qp:2">网格</a></li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="adaptive-ui.html#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">界面行为</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="responsive-ui.html#responsive-ui-surface-behaviors" data-qp-ui-data-id="qp:3">界面行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="adaptive-ui.html#responsive-ui-patterns" data-qp-ui-data-id="qp:4">模式</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="responsive-ui.html#responsive-ui-patterns" data-qp-ui-data-id="qp:4">模式</a>
           </li>
         </ul>
       </nav>
