@@ -39,6 +39,16 @@
       </DataObject>
   </PageMap>
   -->
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?33d719afc3e48d8a2fbdd886b164d2e4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
 
 <body class="site-material_ext_publish section-material-design first-chapter color-<?php echo $vars['color_name']; ?> qp-ui" data-qp-ui="{ 'Mask': {} }">
@@ -46,7 +56,7 @@
 <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
   <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
     <div class="header-title">
-      <span class="section-title"><?php echo $vars['category']; ?></span>
+      <span class="section-title"><?php echo $vars['category'] ? $vars['category'] : 'Material Design 指南中文版'; ?></span>
       <span class="chapter-title"><?php echo $vars['title'] ? '<span class="title-separator">–</span> '.$vars['title'] : ''; ?></span>
     </div>
   </div>
