@@ -9,29 +9,29 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p><strong>Android only</strong></p>
-          <h1>Notifications provide short, timely, and relevant information about your app when it’s not in use.</h1>
+          <p><strong>仅限 Android</strong></p>
+          <h1>当应用不处于使用中时，通知可以提供简短、即时和相关的信息。</h1>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>Notifications are intended to inform users about events in your app. These two types of notifications are the most effective:</p>
+                <p>通知旨在告知用户应用中的事件。这两种类型的通知是最有效的：</p>
                 <ul class="lst-kix_v2rnvrv35tc9-0 start">
-                  <li>Communication from other users</li>
-                  <li>Well-timed and informative task reminders</li>
+                  <li>与其他用户的通信</li>
+                  <li>适时且内容翔实的任务提醒</li>
                 </ul>
               </div>
               <div class="module">
-                <h3>Notification components</h3>
-                <p>Header area<br>
-                  Content area<br>
-                  Action rail</p>
-                <h3>How notifications may be noticed</h3>
+                <h3>通知组件</h3>
+                <p>头部区域<br>
+                  内容区域<br>
+                  操作轨迹</p>
+                <h3>如何使用户注意到通知</h3>
                 <ul class="lst-kix_u3mgmsnrubnc-0 start">
-                  <li>Showing a status bar icon</li>
-                  <li>Appearing on the lock screen</li>
-                  <li>Pulsing the device's LED</li>
-                  <li>Playing a sound or vibrating</li>
-                  <li>Peeking onto the current screen</li>
+                  <li>显示一个状态栏图标</li>
+                  <li>在锁屏界面显示</li>
+                  <li>闪烁设备的 LED</li>
+                  <li>播放声音或震动</li>
+                  <li>在当前屏幕出现</li>
                 </ul>
               </div>
               <div class="figure">
@@ -50,28 +50,28 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-anatomy-of-a-notification" data-qp-ui-data-id="qp:1">Anatomy of a notification</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-anatomy-of-a-notification" data-qp-ui-data-id="qp:1">剖析通知</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-usage" data-qp-ui-data-id="qp:2">Usage</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-usage" data-qp-ui-data-id="qp:2">用法</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-behavior" data-qp-ui-data-id="qp:3">Behavior</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-behavior" data-qp-ui-data-id="qp:3">行为</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-types-of-notifications" data-qp-ui-data-id="qp:4">Types of notifications</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-types-of-notifications" data-qp-ui-data-id="qp:4">通知类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-settings-priority" data-qp-ui-data-id="qp:5">Settings and priority</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-settings-priority" data-qp-ui-data-id="qp:5">设置和属性</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-lock-screen" data-qp-ui-data-id="qp:6">Lock screen</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-lock-screen" data-qp-ui-data-id="qp:6">锁屏</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-style" data-qp-ui-data-id="qp:7">Style</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-style" data-qp-ui-data-id="qp:7">样式</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-templates" data-qp-ui-data-id="qp:8">Templates</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="notifications.html#notifications-templates" data-qp-ui-data-id="qp:8">模版</a>
           </li>
         </ul>
       </nav>
@@ -80,7 +80,7 @@
 
         <div id="notifications-anatomy-of-a-notification" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            Anatomy of a notification
+            剖析通知
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -92,14 +92,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Android N highlights</h2>
-                    <p>In Android Nougat (Android N), notifications have been designed to make it easier for users to scan and use a notification’s most important elements:</p>
-                    <p><strong>Primary content</strong></p>
-                    <p>Content is the most prominent element of a notification. Secondary information, such as a timestamp, is smaller and consolidated above the primary content.</p>
-                    <p><strong>People</strong></p>
-                    <p>Avatars appear on the right side of a notification.</p>
-                    <p><strong>Actions</strong></p>
-                    <p>Expandable notifications are revealed by tapping an indicator icon. Actions are displayed using text only (which accommodates more characters) on a separate background color and location.</p>
+                    <h2>Android N 高亮</h2>
+                    <p>在 Android Nougat（Android N）中，通知旨在使用户更易于扫视，更易于使用通知中最重要的元素：</p>
+                    <p><strong>主要内容</strong></p>
+                    <p>内容是通知中最重要的元素。次要信息（如时间戳）较小，被合并显示在主要内容的上方。</p>
+                    <p><strong>联系人</strong></p>
+                    <p>头像显示在通知的右侧。</p>
+                    <p><strong>操作</strong></p>
+                    <p>对于可展开的通知，可以点击箭头图标来可以展开通知。操作仅使用文本（可容纳更多字符），显示在单独的背景色或位置上。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -107,11 +107,11 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_comparison.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Collapsed notification on Android M (above) and Android N (below) </p>
-                        <p><strong>Collapsed notification on Android M (top)</strong><br>
-                          The avatar and icon are on the left and the timestamp is on the right.</p>
-                        <p><strong>Collapsed notification on Android N (bottom)</strong><br>
-                          The app icon, app name, timestamp, and expansion indicator icon appear on the top left. The avatar is on the right. </p>
+                        <p>Android M（上）和 Android N（下）的折叠的通知</p>
+                        <p><strong>Android M（上）的折叠的通知</strong><br>
+                          头像和图标位于左侧，时间戳位于右侧。</p>
+                        <p><strong>Android N（下）的折叠的通知</strong><br>
+                          应用图标、应用名称、时间戳和扩展指示图标显示在左上角，头像在右边。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -124,7 +124,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_comparison.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Expanded notification on Android M (above) and Android N (below) </p>
+                        <p>Android M（上） Android N（下）的展开的通知</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -133,13 +133,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Header area</h2>
-                    <p>New for Android N, the header area is comprised of:</p>
-                    <p><strong>1. The app icon:</strong> The app icon is a small two-dimensional representation of your app's identity. It appears in monochrome in the status bar. If your app sends a wide variety of notifications, you may replace your app's identity icon with a symbol that reflects the content type. For example, Google Now uses a cloud icon for weather notifications.</p>
-                    <p><strong>2.The </strong><strong>app name</strong><strong>:</strong> Starting in Android N, the name of the app automatically appears in the notification. </p>
-                    <p><strong>3.</strong><strong>Header text</strong><strong> (optional): </strong>Header text is usually only needed if an app sends notifications from multiple sources, such as the account name for users with multiple accounts.</p>
-                    <p><strong>4. Timestamp (optional):</strong> By default, a timestamp does not appear, but it may be added if it's important to display when a notification was sent, such as the time of a missed call.</p>
-                    <p><strong>5. Expand indicator:</strong> This appears if the notification can be expanded. </p>
+                    <h2>头部区域</h2>
+                    <p>在新的 Android N 上，头部区域包括：</p>
+                    <p><strong>1. 应用图标：</strong>应用图标是一个小的二维图标，用于识别应用。它在状态栏中以单色显示。如果你的应用可以发送多种类型的通知，则可以使用反映内容类型的符号来代替应用图标。例如，Google Now 使用一个云朵的图标来表示天气通知。</p>
+                    <p><strong>2. 应用名称：</strong>从 Android N 开始，应用名称会自动出现在通知中。</p>
+                    <p><strong>3. 标题文本（可选）：</strong>只有当一个应用能从多个来源发送通知时，才使用标题文本，例如用户拥有多个账户，则可以使用账户名作为标题文本。</p>
+                    <p><strong>4. 时间戳（可选）：</strong>默认情况下，时间戳不会出现，但如果时间对通知发送非常重要，则可以添加时间戳，例如未接电话的时间。</p>
+                    <p><strong>5. 扩展指示器：</strong>如果通知可以被展开，就会出现该图标。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -147,18 +147,18 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_header.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The header area is new for Android N. </p>
+                        <p>标题区域是 Android N 的新增内容。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Content area</h2>
-                    <p>The content area is comprised of:</p>
-                    <p><strong>1. A</strong><strong> content title:</strong> A brief headline for the notification</p>
-                    <p><strong>2. Content text:</strong> Supporting information</p>
-                    <p><strong>3. Large icon (optional):</strong> An image may be added to reinforce the notification in a meaningful way, such as a message that includes a photo of the sender</p>
+                    <h2>内容区域</h2>
+                    <p>内容区域包括：</p>
+                    <p><strong>1. 内容标题：</strong>通知的简要标题</p>
+                    <p><strong>2. 内容文本：</strong>通知的内容</p>
+                    <p><strong>3. 大图标（可选）：</strong>可以添加一张图片，以更有意义的方式来强化通知，例如包含消息发送者头像的消息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -166,16 +166,16 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_content.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Android N's notifications are wider, resulting in a less cluttered presentation of the main content.</p>
+                        <p>Android N 的通知更宽，让主要内容显得更加整洁。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Action area</h2>
-                    <p>When expanded, a notification may display up to three actions on a strip at the bottom. </p>
-                    <p>Starting in Android N, actions are shown without icons in order to accommodate more text. An icon should still be provided because devices with earlier versions of the OS continue to rely on it, as will <a href="https://www.google.com/url?q=https://www.google.com/design/spec-wear/patterns/notifications.html&amp;sa=D&amp;ust=1481818002527000&amp;usg=AFQjCNHTcvNhbEF5sbogeUAKiECHKKtqjA" target="_blank">Android Wear</a> and <a href="https://www.google.com/url?q=https://www.google.com/design/spec-auto/system-overview/notifications.html%23&amp;sa=D&amp;ust=1481818002528000&amp;usg=AFQjCNGUKwZCbAiKnvjviZsEs2tb8NwZ7Q" target="_blank">Android Auto</a> devices.</p>
+                    <h2>操作区域</h2>
+                    <p>当通知展开后，最多可以在底部的操作条上显示 3 个操作。</p>
+                    <p>从 Android N 开始，操作不包含图标，以容纳更多的文本。该图标仍然应该提供，因为在早期版本的系统中仍然需要显示图标， <a href="https://www.google.com/url?q=https://www.google.com/design/spec-wear/patterns/notifications.html&amp;sa=D&amp;ust=1481818002527000&amp;usg=AFQjCNHTcvNhbEF5sbogeUAKiECHKKtqjA" target="_blank">Android Wear</a> 和 <a href="https://www.google.com/url?q=https://www.google.com/design/spec-auto/system-overview/notifications.html%23&amp;sa=D&amp;ust=1481818002528000&amp;usg=AFQjCNGUKwZCbAiKnvjviZsEs2tb8NwZ7Q" target="_blank">Android Auto</a> 设备也是如此。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -183,7 +183,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_03_action_area.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>The action area in an Android N notification. </p>
+                        <p>Android N 通知中的操作区域。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -195,7 +195,7 @@
 
         <div id="notifications-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            Usage
+            用法
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -206,15 +206,15 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h1>When not to use a notification</h1>
-                    <p>Notifications should not be the primary communication channel with your users, as frequent interruptions may cause irritation. The following cases do not warrant notification:</p>
+                  <div class="module"><h1>何时不使用通知</h1>
+                    <p>通知不应该是与用户沟通的主要通信渠道，因为太多的干扰可能会让用户恼火。以下案例中不要使用通知：</p>
                     <ul class="lst-kix_qxvcl22jo3yd-0 start">
-                      <li><strong>Cross-promotion</strong>, or advertising another product within a notification, which is strictly prohibited by the Play Store</li>
-                      <li>An app that a user has <strong>never opened</strong></li>
-                      <li>Messages that encourage the user to return to an app, but provide <strong>no direct value</strong>, such as "Haven't seen you in a while"</li>
-                      <li>Requests to <strong>rate an app</strong></li>
-                      <li><strong>Operations </strong>that don't require user involvement, like syncing information</li>
-                      <li><strong>Error states</strong> from which the app may recover without user interaction</li>
+                      <li><strong>交叉宣传</strong>，或在通知中宣传其他产品，这是 Play Store 严格禁止的</li>
+                      <li>用户<strong>从未打开过的</strong>应用</li>
+                      <li>消息鼓励用户返回应用，但不提供<strong>有直接价值的信息</strong>，例如 “有段时间没见到你了”</li>
+                      <li>让用户<strong>对应用评分</strong></li>
+                      <li>无需让用户参与的<strong>操作</strong>，例如同步信息</li>
+                      <li>不需要用户交互，应用可以自己恢复的<strong>错误状态</strong></li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -224,7 +224,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t send holiday or birthday greetings in the form of notifications.</p>
+                        <p>不要以通知的形式发送节日或生日祝福。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -238,7 +238,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t interrupt the user in the middle of a task for the sole purpose of asking if you're doing a good job.</p>
+                        <p>不要在任务期间打断用户，仅仅为了询问用户是否操作顺利。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -250,7 +250,7 @@
 
         <div id="notifications-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            Behavior
+            行为
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -262,13 +262,13 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Notification arrival</h1>
-                    <p>When a notification arrives, it gets added to the notification drawer. You may specify if its delivery includes:</p>
+                    <h1>通知到达</h1>
+                    <p>当通知到达时，它会被添加到通知抽屉。你可以指定通知在推送时是否包括：</p>
                     <ul class="lst-kix_kzmg5f305bqm-0 start">
-                      <li>Making a sound or vibration</li>
-                      <li>Peeking onto the current screen to grab the user's attention</li>
+                      <li>发出声音或震动</li>
+                      <li>显示在当前屏幕上，以获取用户的注意力</li>
                     </ul>
-                    <p>Users may choose to block notifications. Starting in Android N, they may also prevent an app’s notifications from making sounds, vibrating, or peeking. </p>
+                    <p>用户可以选择屏蔽通知。从 Android N 开始，用户还可以阻止应用的通知发出声音、震动或显示在屏幕上。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -282,7 +282,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>When a notification arrives, an icon usually appears in the status bar. This signals to the user that there's something to see in the notification drawer.</p>
+                        <p>当通知到达时，通常会在状态栏出现一个图标。这提醒用户在通知抽屉里有新的消息。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -301,7 +301,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>If it's important to grab a user's attention in the middle of a task, an app can have the notification peek onto the current screen.</p>
+                        <p>如果通知非常重要，需要在任务期间就抓住用户的注意力，可以在当前屏幕上显示通知。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -310,15 +310,15 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Notification drawer</h1>
-                    <p>The notification drawer in Android typically shows notifications in reverse-chronological order, with adjustments influenced by:</p>
+                    <h1>通知抽屉</h1>
+                    <p>Android 中的通知抽屉通常按照时间倒序显示通知，可以根据以下因素做出调整：</p>
                     <ul class="lst-kix_dc5va5pjmtco-0 start">
-                      <li>The app's stated notification priority</li>
-                      <li>Whether the notification recently alerted the user with a sound or vibration</li>
-                      <li>Any people attached to the notification and whether they are starred contacts</li>
+                      <li>应用状态通知的优先级</li>
+                      <li>是否最近通过声音或震动提醒过用户</li>
+                      <li>通知中涉及到的用户，是否是用户的星标联系人</li>
                     </ul>
-                    <p><strong>Stale notifications</strong></p>
-                    <p>The notification drawer is intended to show the user information relevant to this very moment in time. If a notification you sent earlier is no longer relevant, automatically dismiss it. </p>
+                    <p><strong>陈旧的通知</strong></p>
+                    <p>通知抽屉旨在为用户显示与当前时刻相关的信息。如果早前发送的通知，现在已经不再可用，系统会自动将其关闭。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -326,7 +326,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_03_drawer.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>In this notification drawer, a text that just arrived appears at the top. A lower priority notification about the weather appears at the bottom.</p>
+                        <p>在此通知抽屉中，刚刚收到的信息显示在顶部。关于天气的较低优先级的通知出现在底部。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -335,25 +335,25 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Notification interactions</h1>
-                    <p>Users may interact with a notification in the following ways:</p>
+                    <h1>通知交互</h1>
+                    <p>用户可以通过以下方式与通知进行交互：</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h3>1. To navigate to a destination </h3>
-                    <p>To navigate, a user may tap a notification. If the notification appears on a locked screen, the user will need to double-tap it and then enter their PIN, pattern, or password. </p>
-                    <p>When the user taps a notification, they should be taken to a screen in your app that relates directly to that notification and lets them take immediate action. For example, if the notification says it's their turn in a two-player game, tapping the notification should take them directly to that game.</p>
+                    <h3>1. 导航到目标界面</h3>
+                    <p>用户可以点击通知来进行导航。如果通知出现在锁屏界面，用户需要双击通知，然后输入 PIN 码、图案或密码。</p>
+                    <p>当用户点击通知后，应用应该跳转到与该通知直接相关的界面，并让它们立刻执行操作。例如，通知用户在多人游戏中轮到用户了，点击通知应该直接进入游戏。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h3>2. To see an expanded view </h3>
-                    <p>If offered, an expand indicator appears in the header. A user may tap the indicator or swipe down the notification body to expand it.</p>
+                    <h3>2. 查看扩展视图</h3>
+                    <p>如果提供了扩展视图，会在通知的头部显示一个扩展指示符。用户可以点击指示符或者向下滑动通知来展开扩展视图。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -367,16 +367,16 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>An expanded notification</p>
+                        <p>扩展的通知</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h3>3. To dismiss it (if permitted)</h3>
-                    <p>A user may dismiss a notification by swiping it left or right. </p>
-                    <p>Ongoing notifications that indicate a continuing process in the background, such as music playing, may not be dismissed with a swipe.</p>
+                    <h3>3. 忽略（如果允许）</h3>
+                    <p>用户可以通过向左或向右滑动来忽略通知。</p>
+                    <p>通知指示了后台有一个正在进行的进程（例如播放音乐），则可能不能通过滑动来忽略。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -390,15 +390,15 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>A notification being dismissed</p>
+                        <p>被忽略的通知</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h3>4. To choose how similar notifications should be delivered in the future</h3>
-                    <p>A user may adjust how notifications for an app are delivered by touching and holding an individual notification. In Android N, the user may also gently swipe the notification left or right and then tap the settings icon to access these controls.</p>
+                    <h3>4. 选择以后类似的通知如何推送</h3>
+                    <p>用户可以通过触摸并按住某条通知，来调整该应用以后的通知如何推送。在 Android N 中，用户也可以轻轻向左或向右滑动，并触摸设置图标来进行设置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -412,7 +412,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Notification settings</p>
+                        <p>通知设置</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -421,15 +421,15 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2>Multiple notifications </h2>
-                    <p>For apps that may generate multiple notifications of the same type, Android offers two different approaches to represent them: summarizing and bundling.</p>
+                    <h2>多个通知</h2>
+                    <p>对于会产生大量相同类型的通知的应用，Android 提供了两种方式来展示它们：汇总和组合。</p>
                   </div>
                   <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Summarizing</h2>
-                    <p>Instead of displaying multiple notifications, you can create one notification that summarizes them all. For example, a messaging app might have a summary notification that says "3 new messages.” Upon expansion, it could show a snippet for each message.</p>
+                    <h2>汇总</h2>
+                    <p>你可以把所有通知都汇总到一条通知里，而不是推送很多条通知。例如，通讯应用可以显示一个汇总通知：“你有 3 条新消息”。展开后，会显示每个消息的一段内容。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -437,22 +437,22 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Multiple notifications summarized, shown in both collapsed view and expanded view.</p>
+                        <p>汇总了多条通知，折叠视图和展开视图</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Bundling</h2>
-                    <p>Starting in Android N, you may present multiple notifications from your app in a grouped and hierarchical manner:</p>
+                    <h2>组合</h2>
+                    <p>从 Android N 开始，你可以用分组和分层的方式来显示应用中的多个通知：</p>
                     <ul class="lst-kix_k75u8ineafgx-0 start">
-                      <li>A parent notification displays summary information for all child notifications.</li>
-                      <li>If the user expands the parent notification, all child notifications are revealed.</li>
-                      <li>The user may expand a child notification to reveal its entire content.</li>
+                      <li>父通知显示所有子通知的摘要信息。</li>
+                      <li>如果用户展开了父通知，则会显示所有子通知。</li>
+                      <li>用户可以展开某个子通知来显示它的完整内容。</li>
                     </ul>
-                    <p>When child notifications are presented, the system automatically removes any redundant header information. For example, if a child notification's app icon is the same as the parent notification’s app icon, then the child notification's header does not include an icon. </p>
-                    <p>Child notifications should be able to stand on their own because the system may choose to show them outside of the bundle when they arrive.</p>
+                    <p>当子通知出现后，系统会自动移除任何冗余的标题信息。例如，如果子通知的应用图标和父通知的应用图标相同，则子通知的标题中不会包含该图标。</p>
+                    <p>子通知应该能独立存在，因为系统可以选择在通知到达时把它显示在分组外部。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -460,7 +460,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Bundled notifications, shown in both collapsed and expanded views</p>
+                        <p>组合后的通知，折叠视图和展开视图</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -469,8 +469,8 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Expanded views</h1>
-                    <p>You may display more information in a notification through an expanded view, without navigating away from the notification.</p>
+                    <h1>展开视图</h1>
+                    <p>你可以通过展开视图在通知中显示更多信息，而无需离开通知。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -478,7 +478,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Collapsed and expanded notifications</p>
+                        <p>折叠和展开的通知</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -487,7 +487,7 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>A notification may offer up to three actions when expanded. It should not duplicate the action taken from tapping on the notification body. </p>
+                    <p>展开时，通知最多可以提供 3 个操作。且不应与点击通知主体的操作重复。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -496,7 +496,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t include text actions that duplicate the behavior of tapping on the notification body.</p>
+                        <p>文本操作不应和点击通知主体的操作重复。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -510,7 +510,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>When Android's Clock app has a timer running, this notification lets the user pause or add a minute directly from the notification.</p>
+                        <p>当 Android 的时钟应用正在运行计时器时，此通知可以让用户在通知中直接暂停或增加一分钟。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -519,10 +519,10 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>Enable typing into notifications</h1>
-                    <p>In Android N, apps may enable the user to type directly into a notification. Users may type small amounts of text, such replying to a text message or jotting a brief note. </p>
-                    <p>For long-form typing, navigate users to your app, where they benefit from more space to view and edit text.</p>
-                    <p>If you're using this functionality for a messaging app, keep the notification around after the user has sent the reply, and wait until the conversation has reached a lull before automatically dismissing it.</p>
+                    <h1>启用在通知中输入</h1>
+                    <p>在 Android N 中，应用可以让用户直接在通知中输入。用户可以输入少量文本，例如回复消息或记录简短的笔记。</p>
+                    <p>对于长文本的输入，需要将用户导航到你的应用中，在那里他们会有更多空间来浏览和编辑文本。</p>
+                    <p>如果你在一个通讯应用中使用此功能，在用户发送完回复后，需要继续显示该通知，等待一段时间，直到消息送达后，再自动关闭该通知。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -536,7 +536,7 @@
                         </div>
                       </div>
                       <figcaption>
-                        <p>Users of Android's Messenger app can reply directly to any message without leaving the notification</p>
+                        <p>Android 的短信应用允许用户直接在通知中回复消息，无需离开通知</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -548,7 +548,7 @@
 
         <div id="notifications-types-of-notifications" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            Types of notifications
+            通知类型
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -557,55 +557,55 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Notifications are considered either transactional or non-transactional. </p>
+              <p>通知可以是事务性和非事务性的。</p>
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2>Transactional</h2>
-                    <p>Transactional notifications provide content that a user must receive at a specific time in order to do one of the following:</p>
+                    <h2>事务性</h2>
+                    <p>事务性通知提供的内容，用户必须在特定时间内接收，以执行以下之一的操作：</p>
                     <ul class="lst-kix_g5hgxsxhm448-0 start">
-                      <li>Enable human-to-human interaction</li>
-                      <li>Function better in daily life</li>
-                      <li>Control or resolve transient device states</li>
+                      <li>允许人与人之间的交互</li>
+                      <li>有助于改善日常生活的功能</li>
+                      <li>控制或决定设备的临时状态</li>
                     </ul>
-                    <h2>Non-transactional</h2>
-                    <p>If none of the above situations describe your notification, then it is non-transactional.</p>
+                    <h2>非事务性</h2>
+                    <p>如果以上几条都没有描述到你的通知，那它就是非事务性的。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Transactional notifications can help users...</p></td>
-                        <td colspan="1" rowspan="1"><p>Examples</p></td>
+                        <td colspan="1" rowspan="1"><p>事务性通知可以帮助用户...</p></td>
+                        <td colspan="1" rowspan="1"><p>示例</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Enable human-to-human interaction</p></td>
+                        <td colspan="1" rowspan="1"><p>允许人与人之间的交互</p></td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_2pp656d076zo-0 start">
-                            <li>Incoming phone calls or text messages</li>
-                            <li>Notification of a user's turn in a two-player game</li>
+                            <li>接听来电或发送短信</li>
+                            <li>在多人游戏中，通知用户轮到你了</li>
                           </ul>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Function better in daily life</p></td>
+                        <td colspan="1" rowspan="1"><p>有助于改善日常生活的功能</p></td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_2ieqoy7zvd5z-0 start">
-                            <li>Calendar event about to take place</li>
-                            <li>A reminder or alarm set up by the user</li>
-                            <li>Delayed flight</li>
-                            <li>Delivered order</li>
+                            <li>即将发生的日历事件</li>
+                            <li>用户设置的提醒或闹钟</li>
+                            <li>航班延误</li>
+                            <li>交付订单</li>
                           </ul>
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Control or resolve temporary device states</p></td>
+                        <td colspan="1" rowspan="1"><p>控制或决定设备的临时状态</p></td>
                         <td colspan="1" rowspan="1">
                           <ul class="lst-kix_b2yhe2k0443i-0 start">
-                            <li>Music playing</li>
-                            <li>Turn-by-turn navigation</li>
-                            <li>Stopwatch running</li>
-                            <li>Screenshot taken</li>
+                            <li>播放音乐</li>
+                            <li>逐向导航</li>
+                            <li>秒表运行</li>
+                            <li>屏幕截图</li>
                           </ul>
                         </td>
                       </tr>
@@ -617,38 +617,38 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Non-transactional opt-out and opt-in </h1>
-                    <p>Non-transactional notifications should be optional, as they may not appeal to all users. You can  make them optional in one of two ways:</p>
+                    <h1>非事务性可选停用和可选启用</h1>
+                    <p>非事务性通知应该是可选的，因为它们可能不会吸引所有用户。你可以通过下列两者之一的方式将其设置为可选：</p>
                     <ul class="lst-kix_e9ivxnmvtjvc-0 start">
-                      <li><strong>Opt-out:</strong> Users receive opt-out notifications by default, but they may stop receiving them by turning off a setting.</li>
-                      <li><strong>Opt-in:</strong> Users only receive opt-in notifications by turning on a setting in your app.</li>
+                      <li><strong>可选停用：</strong>用户默认会收到可选停用的通知，但是可以通过设置来停止接收。</li>
+                      <li><strong>可选启用：</strong>用户只有在应用中设置启用后才能接收到可选启用的通知。</li>
                     </ul>
                   </div>
                   <div class="module"></div>
                 </section>
                 <section class="module-module col-2">
                   <div class="module">
-                    <h2>Opt-out </h2>
-                    <p>Avoid the opt-out approach unless your notifications meet <strong>both </strong>of the following criteria:</p>
+                    <h2>可选停用</h2>
+                    <p>避免选择可选停用方式，除非你的通知<strong>同时符合</strong>以下两个条件：</p>
                     <ul class="lst-kix_ovhvckqpq2ia-0 start">
-                      <li>They provide concrete value to the user</li>
-                      <li>They clearly relate to the user's context (such as current location, current date or time, past history, or expressed interests)</li>
+                      <li>为用户提供具体的价值</li>
+                      <li>与用户的情境直接相关（例如当前地点、当前日期或时间、过往历史、或用户表达的兴趣）</li>
                     </ul>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Example notification</p></td>
-                        <td colspan="1" rowspan="1"><p>Reason to avoid using opt-out notifications here</p></td>
+                        <td colspan="1" rowspan="1"><p>通知示例</p></td>
+                        <td colspan="1" rowspan="1"><p>避免在此使用可选停用通知的原因</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>A random tip on how to use an app</p></td>
-                        <td colspan="1" rowspan="1"><p>Provides concrete user value but isn't contextual</p></td>
+                        <td colspan="1" rowspan="1"><p>关于如何使用应用的随机提示</p></td>
+                        <td colspan="1" rowspan="1"><p>提供具体的价值，但不符合情境</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>A prompt to rate content recently used in the app</p></td>
-                        <td colspan="1" rowspan="1"><p>Contextual, but doesn't provide concrete user value</p></td>
+                        <td colspan="1" rowspan="1"><p>提示你对最近使用的内容进行评论</p></td>
+                        <td colspan="1" rowspan="1"><p>符合情境，但未给用户带来具体的价值</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -663,15 +663,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_03_optin.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This notification from YouTube takes the opt-out approach. It offers both context (a YouTube channel the user has subscribed to) and value (a new video from that channel). The "Options" action navigates the user to where they can opt out of future notifications for this channel.</p>
+                        <p>来自 YouTube 的此通知使用可选停用的方式。它同时符合情境（用户订阅的 YouTube 频道）和价值（来自该频道的新视频）。 “Options” 操作可以将用户导航到设置界面，用户可以在此选择以后不再接收此频道的视频推送。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Opt-in </h2>
-                    <p>The opt-in approach is more conservative. Because users explicitly choose to receive these notifications, it's more likely they'll be glad to see them. However, they must visit settings to find out how to receive them. You may inform users about these notifications from other places in your app, such as an <a href="../growth-communications/onboarding.html">onboarding flow</a> or a dismissible <a href="../components/cards.html">card</a>.</p>
+                    <h2>可选启用</h2>
+                    <p>可选启用的方式更保守。因为用户明确的选择了接收这些通知，这很可能表明用户很乐意看到这些通知。但是，用户必须访问设置才能了解如何接收这些通知。你可以在应用的其他地方提醒用户启用这些通知，例如<a href="../growth-communications/onboarding.html">导览流程</a>或可忽略的<a href="../components/cards.html">卡片</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -679,7 +679,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_04_optout.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This app takes the opt-in approach. A card at the top of the app lets users know that they can receive notifications for breaking news stories. If the user wants to opt in, they choose Yes. Otherwise, they choose No Thanks and remain opted out. This choice is also available in the app's settings.</p>
+                        <p>该应用使用了可选启用方式。应用顶部的卡片使用户知道他们可以接收突发新闻的通知。如果用户想要接收，它们会选择 “Yes”，否则他们会选择 “No” 并保持不接收这些通知。这些选项同样也可以在应用的设置中进行设置。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -691,7 +691,7 @@
 
         <div id="notifications-settings-priority" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            Settings and priority
+            设置和优先级
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -703,9 +703,9 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Notification settings </h1>
-                    <p>Include a setting in your app for turning all notifications on or off. Additionally, consider offering granular settings, such as letting users choose notification sounds or receiving specific notification types.</p>
-                    <p>Enable users to navigate directly to notification settings from the Android Settings app by creating a link there using the appropriate <a href="https://www.google.com/url?q=https://developer.android.com/reference/android/app/Notification.html%23INTENT_CATEGORY_NOTIFICATION_PREFERENCES&amp;sa=D&amp;ust=1481818002353000&amp;usg=AFQjCNEKwH5cxNulkMWcft1gVRpC9txueA" target="_blank">AndroidManifest tags</a>.</p>
+                    <h1>通知设置</h1>
+                    <p>在应用中加入设置，以开启或关闭所有通知。此外，还可以考虑提供更细节的设置，例如让用户选择通知声音，或接收特定的通知类型。</p>
+                    <p>通过创建一条 <a href="https://www.google.com/url?q=https://developer.android.com/reference/android/app/Notification.html%23INTENT_CATEGORY_NOTIFICATION_PREFERENCES&amp;sa=D&amp;ust=1481818002353000&amp;usg=AFQjCNEKwH5cxNulkMWcft1gVRpC9txueA" target="_blank">AndroidManifest tags</a> 链接，使用户可以从 Android 的系统设置直接导航到应用的通知设置。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -713,37 +713,37 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Assign appropriate priority levels</h1>
-                    <p>Android allows you to assign a priority level to each notification to influence how the Android system will deliver it. The higher the priority, the more interruptive it will be — for example, MAX and HIGH priority notifications will peek onto the user's current screen, no matter what they are doing.</p>
-                    <p>Prioritize with the utmost consideration for the user's time and attention. When an unimportant notification is disguised as urgent, it tricks users into unnecessary anxiety.</p>
-                    <p>To give users relief from overly interruptive notifications, users can quickly silence or block an app's notifications directly on the notification itself.</p>
+                    <h1>分配合理的优先级</h1>
+                    <p>Android 允许你为每条通知分配优先级，以影响系统的推送方式。优先级越高，对用户的打扰也越多，例如，MAX 和 HIGH 级别的优先级的通知会直接显示在用户的当前屏幕上，不管用户当时正在做什么。</p>
+                    <p>优先考虑用户的时间和注意力。当不重要的通知伪装成紧急通知时，会使用户陷入不必要的焦虑。</p>
+                    <p>为了避免用户被通知过度打扰，用户可以直接在通知上快速静音、或阻止应用发送通知。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Priority</p></td>
-                        <td colspan="1" rowspan="1"><p>Use</p></td>
+                        <td colspan="1" rowspan="1"><p>优先级</p></td>
+                        <td colspan="1" rowspan="1"><p>用于</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>MAX</p></td>
-                        <td colspan="1" rowspan="1"><p>For critical and urgent notifications that alert the user to a condition that is time-critical or needs to be resolved before they can continue with a time-critical task.</p></td>
+                        <td colspan="1" rowspan="1"><p>对于至关重要和非常紧急的通知，需要提醒用户必须完成或解决一些条件后，才能继续进行后面的操作。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>HIGH</p></td>
-                        <td colspan="1" rowspan="1"><p>Primarily for important communication, such as messages or chats.</p></td>
+                        <td colspan="1" rowspan="1"><p>主要用于重要的通信，例如短信或聊天。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>DEFAULT</p></td>
-                        <td colspan="1" rowspan="1"><p>For all notifications that don't fall into any of the other priorities described here.</p></td>
+                        <td colspan="1" rowspan="1"><p>不属于其他优先级的所有通知。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>LOW</p></td>
-                        <td colspan="1" rowspan="1"><p>For information and events that are valuable and/or contextually relevant to the user, but aren't urgent or time-critical.</p></td>
+                        <td colspan="1" rowspan="1"><p>与用户价值和/或情境相关，但不紧急或没有时间限制的信息或事件。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>MIN</p></td>
-                        <td colspan="1" rowspan="1"><p>For nice-to-know background information that isn't aimed specifically at the user. For example, weather or nearby places of interest.</p></td>
+                        <td colspan="1" rowspan="1"><p>不是专门针对特定用户推荐的背景信息。例如天气或附近的景点。</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -753,71 +753,71 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Pre-defined categories</h1>
-                    <p>Assign your notification to the most suitable predefined category. Android may use this information to make ranking and filtering decisions.</p>
+                    <h1>预定义类别</h1>
+                    <p>将通知分配到合适的预定义类别中。Android 可以根据此信息进行排序和过滤。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Category</p></td>
-                        <td colspan="1" rowspan="1"><p>Description</p></td>
+                        <td colspan="1" rowspan="1"><p>类别</p></td>
+                        <td colspan="1" rowspan="1"><p>描述</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_CALL</p></td>
-                        <td colspan="1" rowspan="1"><p>Incoming call (voice or video) or similar synchronous communication request</p></td>
+                        <td colspan="1" rowspan="1"><p>来电（语音或视频）或类似的同步通信请求</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_MESSAGE</p></td>
-                        <td colspan="1" rowspan="1"><p>Incoming direct message (SMS, instant message, etc.)</p></td>
+                        <td colspan="1" rowspan="1"><p>直接接收的消息（短信、即时消息等）</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_EMAIL</p></td>
-                        <td colspan="1" rowspan="1"><p>Asynchronous bulk message (email)</p></td>
+                        <td colspan="1" rowspan="1"><p>异步的大量消息（邮件）</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_EVENT</p></td>
-                        <td colspan="1" rowspan="1"><p>Calendar event</p></td>
+                        <td colspan="1" rowspan="1"><p>日历事件</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_PROMO</p></td>
-                        <td colspan="1" rowspan="1"><p>Promotion or advertisement</p></td>
+                        <td colspan="1" rowspan="1"><p>宣传或广告</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_ALARM</p></td>
-                        <td colspan="1" rowspan="1"><p>Alarm or timer</p></td>
+                        <td colspan="1" rowspan="1"><p>闹钟或计时器</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_PROGRESS</p></td>
-                        <td colspan="1" rowspan="1"><p>Progress of a long-running background operation</p></td>
+                        <td colspan="1" rowspan="1"><p>长时间运行的后台操作的进度</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_SOCIAL</p></td>
-                        <td colspan="1" rowspan="1"><p>Social network or sharing update</p></td>
+                        <td colspan="1" rowspan="1"><p>社交网络或分享更新</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_ERROR</p></td>
-                        <td colspan="1" rowspan="1"><p>Error in background operation or authentication status</p></td>
+                        <td colspan="1" rowspan="1"><p>后台操作错误或身份验证状态</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_TRANSPORT</p></td>
-                        <td colspan="1" rowspan="1"><p>Media transport control for playback</p></td>
+                        <td colspan="1" rowspan="1"><p>媒体播放控制器</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_SYSTEM</p></td>
-                        <td colspan="1" rowspan="1"><p>System or device status update. Reserved for system use.</p></td>
+                        <td colspan="1" rowspan="1"><p>系统或设备状态更新。保留仅供系统使用。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_SERVICE</p></td>
-                        <td colspan="1" rowspan="1"><p>Indication of running background service</p></td>
+                        <td colspan="1" rowspan="1"><p>运行后台服务的指示</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_RECOMMENDATION</p></td>
-                        <td colspan="1" rowspan="1"><p>A specific, timely recommendation for a single thing. For example, a news app might recommend a news story the user might want to read next.</p></td>
+                        <td colspan="1" rowspan="1"><p>为单一事件提供的具体的、即时的建议。例如，新闻应用可能会推荐用户想要阅读的新闻报道。</p></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>CATEGORY_STATUS</p></td>
-                        <td colspan="1" rowspan="1"><p>Ongoing information about device or contextual status</p></td>
+                        <td colspan="1" rowspan="1"><p>关于设备或情境状态的行为信息</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -827,12 +827,12 @@
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>Notification sounds</h1>
-                    <p>When you assign a priority of DEFAULT or higher to a notification, you may optionally provide a sound to play when the notification is delivered. However, you should deliver your notification silently unless one or more of the following are true:</p>
+                    <h1>通知声音</h1>
+                    <p>当你为通知分配 DEFAULT 或更高的优先级时，你可以选择在发送通知时播放提示音。但是，尽可能保持通知安静，除非遇到下列情况：</p>
                     <ul class="lst-kix_65s8kiygz7lp-0 start">
-                      <li>The notification helps the user uphold a time-sensitive social expectation, such as an incoming phone call or a reminder for a work meeting in five minutes.</li>
-                      <li>The notification tells the user about something they should do or know at that moment in order to function better in their daily life, such as a notification that a flight is delayed.</li>
-                      <li>The user has explicitly requested that this notification make a sound upon arrival (if offered as an option in settings, and off by default).</li>
+                      <li>该通知帮助用户维持具有时效性的社交要求，例如来电、或提醒 5 分钟后的工作会议。</li>
+                      <li>该通知告诉用户他们应该做什么、或此刻应该知道什么，以便来改善用户的日常生活，例如航班延误的通知。</li>
+                      <li>用户已明确要求此通知在到达时需要发出声音（如果在设置中提供了该选项，且默认处于关闭状态）</li>
                     </ul>
                   </div>
                   <div class="module"></div>
@@ -844,7 +844,7 @@
 
         <div id="notifications-lock-screen" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            Lock screen
+            锁屏
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -856,17 +856,17 @@
               <div class="col-list">
                 <section class="module col-1">
                   <div class="module">
-                    <p>Android evaluates each notification's visibility level to figure out what can safely be shown. A user may choose to show notifications when their screen is locked. They may also conceal any content that an app marks as sensitive. </p>
+                    <p>Android 会评估每个通知的显示级别，以确定哪些内容可以被安全的显示。用户可以选择在锁屏时显示通知。它们也可以隐藏被应用标记为敏感的通知。</p>
                   </div>
                 </section>
               </div>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Sensitive content on lock screens</h1>
-                    <p>Because notifications are visible on the lock screen, user privacy is an important consideration. For each notification you create, set a visibility level to either public, private, or secret. </p>
-                    <p><strong>Public </strong>notifications are fully visible on secure lock screens, while <strong>secret </strong>notifications are hidden.</p>
-                    <p><strong>Private </strong>notifications fall in the middle: they show only basic information about the existence of the notification, including its icon and name of the app that posted it. The content is replaced with a default message that says "Contents hidden.” You can replace this message with a redacted version of the content that is still useful but does not reveal personal information, such as "2 new messages.”</p>
+                    <h1>锁屏界面上的敏感内容</h1>
+                    <p>因为通知在锁屏界面上可见，用户隐私就成了一个非常重要的考虑因素。对于你创建的每个通知，把可见级别设置为公共、私有和机密。</p>
+                    <p><strong>公共</strong>通知在锁屏界面上完全可见，但<strong>机密</strong>通知则完全隐藏。</p>
+                    <p><strong>私有</strong>通知则处于中间：它们只显示通知的基本信息，例如应用的图标和名称。内容则被替换为一段默认消息 “内容已隐藏”。你可以将此信息替换为一些有用的信息，但不能涉及到用户的个人信息，例如 “2 条未读消息”。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -874,7 +874,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_04_lockscreen1.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This user has chosen to show all notification content on the lock screen.</p>
+                        <p>此用户选择在锁屏界面上显示所有通知。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -884,7 +884,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_05_lockscreen2.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>This user has chosen to hide sensitive content from the lock screen. Because these apps gave their notifications a visibility level of "private,” they show "Contents hidden" by default. </p>
+                        <p>此用户选择在锁屏界面上隐藏敏感信息。因为这些应用的通知可见度级别被设定为 “私有”，它们默认显示 “内容已隐藏”。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -896,7 +896,7 @@
 
         <div id="notifications-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            Style
+            样式
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -907,14 +907,14 @@
             <div>
               <div class="col-list">
                 <section class="module-figure col-2">
-                  <div class="module"><h1>Clear and concise text</h1>
-                    <p>Android truncates content titles to a single line (even when expanded). </p>
-                    <p>Content titles should:</p>
+                  <div class="module"><h1>清晰简洁的文本</h1>
+                    <p>Android 会把内容标题截断为一行（即使已展开）。</p>
+                    <p>内容标题应该：</p>
                     <ul class="lst-kix_f762qnwlper4-0 start">
-                      <li>Be under under 30 characters long</li>
-                      <li>Contain the most important information</li>
-                      <li>Avoid variables – unless they contain a number or short text string, or are preceded by static text</li>
-                      <li>Exclude the app's name, which already appears in the header</li>
+                      <li>不超过 30 个字符</li>
+                      <li>包含最重要的信息</li>
+                      <li>避免使用变量 – 除非它们包含数字或短文本，或者前面有静态文本</li>
+                      <li>不要包含应用名称，因为已经显示在了头部</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -924,17 +924,17 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The content title shows the app name, which is redundant with the header area and uses up available characters.</p>
+                        <p>内容标题显示了应用名称，它与头部区域冗余，并且占用了标题中的可用空间。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>Content text should:</p>
+                    <p>内容文本应该：</p>
                     <ul class="lst-kix_x4z8pfid2wez-0 start">
-                      <li>Avoid exceeding the 40-character limit</li>
-                      <li>Not repeat what's in the content title</li>
+                      <li>避免超过 40 个字符的限制</li>
+                      <li>不重复标题中的内容</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -944,7 +944,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The content title shows the most important information.</p>
+                        <p>内容的标题显示了最重要的信息。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -953,14 +953,14 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h1>The large icon</h1>
-                    <p>In Android N, the large icon is only meant for specific situations in which imagery meaningfully reinforces the notification's content, including:</p>
+                    <h1>大图标</h1>
+                    <p>在 Android N 中，大图标只针对特殊的情况，即图像可以通过有意义的方式增强内容，包括：</p>
                     <ul class="lst-kix_bivykmsl728x-0 start">
-                      <li><strong>Communication </strong>from another person, such as the image of someone sending a message</li>
-                      <li>The <strong>source of content</strong> if it's different than the app sending the notification, such as the logo from a YouTube channel to which the user is subscribed</li>
-                      <li><strong>Meaningful symbols</strong> about the notification, such as an arrow symbol for driving directions</li>
+                      <li>与另一个人<strong>通信</strong>时，例如用图片表示发送消息的人</li>
+                      <li><strong>内容的来源</strong>，如果应用发送通知的来源不同时，例如用户订阅的 YouTube 频道的 Logo</li>
+                      <li>关于通知的<strong>有意义的符号</strong>，例如表示驾驶方向的箭头符号</li>
                     </ul>
-                    <p>Large icons should be circular when showing a person, but square in all other cases.</p>
+                    <p>大图标在代表人的时候应该是圆形的，但是其他时候是方形的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -969,7 +969,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>The large icon is not intended for branding.</p>
+                        <p>大图标不适合使用 logo。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -983,7 +983,7 @@
                       </div>
                       <figcaption>
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>The large icon is meant to reinforce the content of the notification in a meaningful way, such as a person's photo attached to a message notification.</p>
+                        <p>大图标旨在以有意义的方式强化应用的内容，例如消息通知中的联系人照片。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -995,7 +995,7 @@
 
         <div id="notifications-templates" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
-            Templates
+            模版
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1004,12 +1004,12 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>Google uses the following notification templates in its suite of Android apps, which you may adapt for your own needs.</p>
+              <p>Google 在其 Android 应用套件中使用以下通知模版，你可以根据自己的需要进行调整。</p>
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Standard</h2>
-                    <p>The standard template works well for most notifications, allowing for a succinct message, a large icon when applicable, and actions.</p>
+                    <h2>标准</h2>
+                    <p>标准模版适用于大多数通知，允许显示简单的消息，必要时可以使用大图标和操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1017,15 +1017,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_01_standard.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Standard template for collapsed and expanded notifications </p>
+                        <p>折叠和展开的通知的标准模版</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Big text</h2>
-                    <p>Use this template when you have longer text to display. It lets the user preview more of the text when the notification is expanded.</p>
+                    <h2>大文本</h2>
+                    <p>当你需要显示较长的文本时，使用此模版。它允许用户在展开通知时预览更多文本。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1033,15 +1033,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_02_big_text.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Big text template for collapsed and expanded notifications</p>
+                        <p>折叠和展开的通知的大文本模版</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Big picture</h2>
-                    <p>Use this template when the notification contains a picture. The large icon offers a thumbnail of the picture, and the user can get a bigger preview by expanding the notification.</p>
+                    <h2>大图片</h2>
+                    <p>当通知包含图片时可以使用此模版。大图标提供了图片的缩略图，用户可以通过展开通知来获得更多预览。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1049,15 +1049,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_03_big_picture.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Big picture template for collapsed and expanded notifications</p>
+                        <p>折叠和展开的通知的大图片模版</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Progress</h2>
-                    <p>Use this template for activities initiated by the user that need time to complete and can be canceled at any time. (Non-cancelable activities don't warrant notifications.)</p>
+                    <h2>进度</h2>
+                    <p>此模版用于由用户启动的需要一些时间才能完成的活动，并且可以随时取消。（不可取消的活动不适用。）</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1065,15 +1065,15 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_04_progress.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Progress template for collapsed and expanded notifications</p>
+                        <p>折叠和展开的通知的进度模版</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
-                    <h2>Media </h2>
-                    <p>Use this template to let the user control media currently playing from your app. The collapsed view displays up to three actions, and the large icon can be used for a related image, such as an album cover. The expanded view displays up to five actions with a larger image, or six actions if no image is displayed.</p>
+                    <h2>多媒体</h2>
+                    <p>使用此模版让用户控制应用中正在播放的媒体。折叠视图最多显示 3 个操作，大图标可以用于显示相关图片，如相册封面。展开的视图最多显示 5 个操作和一个大图片，或者不包含大图片的 6 个操作。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1081,7 +1081,7 @@
                         <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_05_media.png'); ?>"/>
                       </div>
                       <figcaption>
-                        <p>Media template for collapsed and expanded notifications</p>
+                        <p>折叠和展开的通知的媒体模版</p>
                       </figcaption>
                     </figure>
                   </div>
