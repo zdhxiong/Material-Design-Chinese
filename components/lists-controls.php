@@ -34,8 +34,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_lists_controls.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_lists_controls.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -89,10 +91,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_usage.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 49.7368421053%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_usage.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>状态和主操作放在瓦片的左侧。副操作和副信息放在标题的右侧。</p>
                       </figcaption>
                     </figure>
@@ -123,10 +127,12 @@
                     <p>桌面端的复选框应该只在鼠标悬停和获取焦点时显示。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 37.8947368421%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-1" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-1">
                         <p>在这个列表中，复选框是主操作和状态标识符。</p>
                       </figcaption>
                     </figure>
@@ -140,10 +146,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 41.0526315789%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-2" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-2">
                         <p>在这个列表中，复选框是副操作。</p>
                       </figcaption>
                     </figure>
@@ -158,10 +166,12 @@
                     <p>单独可点击</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_switch.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 37.8947368421%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-3" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_switch.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-3">
                         <p>开关是次要操作，单独可点击。</p>
                       </figcaption>
                     </figure>
@@ -178,10 +188,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_reorder.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 41.0526315789%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-4" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_reorder.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-4">
                         <p>重新排序图标是列表项的副操作。</p>
                       </figcaption>
                     </figure>
@@ -198,20 +210,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-5" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-5">
                         <p>触摸列表控件，可以展开列表。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-6" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-6">
                         <p>这个列表已经展开。</p>
                       </figcaption>
                     </figure>
@@ -221,20 +237,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-7" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-7">
                         <p>折叠的单行列表项</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-8" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-8">
                         <p>展开的单行列表项</p>
                       </figcaption>
                     </figure>
@@ -251,20 +271,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-9" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-9">
                         <p>从右向左滑动一个列表项将会显示一个操作图标。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-10" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-list-controls-figure-caption-10">
                         <p>从左向右滑动一个列表项将会显示一个操作图标。</p>
                       </figcaption>
                     </figure>
@@ -296,10 +320,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 37.8947368421%">
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-1" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-menu-controls-figure-caption-1">
                         <p>打勾表示列表项已被选中。</p>
                       </figcaption>
                     </figure>
@@ -314,10 +340,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 37.8947368421%">
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-2" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-menu-controls-figure-caption-2">
                         <p>加粗、斜体和下划线等内联信息提供了快捷键。</p>
                       </figcaption>
                     </figure>
@@ -332,10 +360,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 33.6842105263%">
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-3" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-menu-controls-figure-caption-3">
                         <p>菜单项中的符号表示子菜单会通过鼠标悬停、聚焦、选择等方式弹出。</p>
                       </figcaption>
                     </figure>
