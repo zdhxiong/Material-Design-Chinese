@@ -28,8 +28,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -77,10 +79,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 55.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>含文本的纸片</p>
                         <p><strong>纸片标签</strong></p>
                         <ul class="lst-kix_1wuhlm83l87s-0 start">
@@ -92,10 +96,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 55.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p>含文本和图标的纸片</p>
                       </figcaption>
                     </figure>
@@ -125,16 +131,16 @@
                     <p>纸片可以是可删除的或不可删除的。如果是可删除的，显示删除图标。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 20.0%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>用户可以点击删除图标、或者按键盘上的 “Delete” 键来删除纸片。</p>
                       </figcaption>
                     </figure>
@@ -164,20 +170,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="contact-chips-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="contact-chips-figure-caption-1">
                         <p>用户在联系人纸片上确认邮件接收者的姓名。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="contact-chips-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="contact-chips-figure-caption-2">
                         <p>用户在联系人纸片确认选择哪个邮件地址。</p>
                       </figcaption>
                     </figure>
@@ -189,10 +199,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 145.526315789%">
+                          <img alt="" aria-describedby="contact-chips-figure-caption-3" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="contact-chips-figure-caption-3">
                         <p>联系人纸片有多种不同的状态：正常、聚焦、按下、和激活。</p>
                       </figcaption>
                     </figure>
@@ -220,10 +232,12 @@
                     <h1>单行纸片</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 37.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-1">
                         <p><strong>可删除纸片</strong></p>
                         <p>高度：32dp<br>
                           标签左侧内边距：12dp</p>
@@ -237,10 +251,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 37.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-2">
                         <p><strong>不可删除的纸片</strong></p>
                         <p>高度：32dp<br>
                           标签左右内边距：12dp</p>
@@ -273,10 +289,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 13.3333333333%">
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p>联系人纸片</p>
                         <p>高度：32dp<br>
                           标题顶部、底部、左侧内边距：8dp<br>
@@ -286,10 +304,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-4">
                         <p>聚焦和激活状态的联系人纸片</p>
                         <p>高度：40dp<br>
                           顶部和底部内边距：16dp</p>
