@@ -37,8 +37,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -100,30 +102,36 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="button-types-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-1">
                         <p>浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="button-types-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-2">
                         <p>浮动按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="button-types-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_usage3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-3">
                         <p>扁平按钮</p>
                       </figcaption>
                     </figure>
@@ -134,30 +142,36 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="button-types-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_usage4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-4">
                         <p>浮动操作按钮的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="button-types-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_usage5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-5">
                         <p>浮动按钮的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="button-types-figure-caption-6" src="<?php static_url('../static/media/components/buttons/components_buttons_usage6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="button-types-figure-caption-6">
                         <p>扁平按钮的示例</p>
                       </figcaption>
                     </figure>
@@ -175,8 +189,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_main.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.6315789474%">
+                          <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_main.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -216,11 +232,11 @@
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>内联按钮</p></td>
-                        <td colspan="1" rowspan="1"><p>根据你的布局来选择使用<a href="buttons.html#buttons-raised-buttons">浮动按钮</a>还是<a href="buttons.html#buttons-flat-buttons">扁平按钮</a>。</p></td>
+                        <td colspan="1" rowspan="1"><p>可以使用 <a href="buttons.html#buttons-raised-buttons">浮动按钮</a> 或 <a href="buttons.html#buttons-flat-buttons">扁平按钮</a></p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>底部固定按钮</p></td>
-                        <td colspan="1" rowspan="1"><p>如果需要一个对用户持续可见的功能按钮，可以考虑使用浮动操作按钮，或<a href="buttons.html#buttons-persistent-footer-buttons">底部固定按钮</a>。</p></td>
+                        <td colspan="1" rowspan="1"><p>始终可见</p></td>
+                        <td colspan="1" rowspan="1"><p>如果你的应用需要一个对用户始终可见的功能按钮，可以使用浮动操作按钮，或 <a href="buttons.html#buttons-persistent-footer-buttons">底部固定按钮</a>。</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -291,10 +307,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-1">
                         <p>按钮高度：36dp<br>
                         可触摸目标高度：48dp</p>
                       </figcaption>
@@ -310,10 +328,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_radius.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_radius.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>按钮有 2dp 的圆角半径。</p>
                       </figcaption>
@@ -331,18 +351,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main18.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_main18.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-3">
                         <p>默认按钮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main20.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 24.4444444444%">
+                          <img alt="" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_main20.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-4">
                         <p>按钮文本：14pt Roboto medium<br>
                         按钮高度：36dp<br>
                         按钮左右内边距：16dp<br>
@@ -352,18 +376,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main19.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_main19.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-5">
                         <p>密集型按钮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main21.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 24.4444444444%">
+                          <img alt="" aria-describedby="style-figure-caption-6" src="<?php static_url('../static/media/components/buttons/components_buttons_main21.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-6">
                         <p>按钮文本：13pt Roboto medium<br>
                         按钮高度：32dp<br>
                         按钮左右内边距：16dp<br>
@@ -380,10 +408,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 87.7777777778%">
+                          <img alt="" aria-describedby="style-figure-caption-7" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-7">
                         <p>对话框中的扁平按钮示例</p>
                         <p><strong>扁平按钮</strong><br>
                           高度：36dp<br>
@@ -427,20 +457,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_main9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-1">
                         <p>对话框适合使用扁平按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_main10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-2">
                         <p>扁平按钮能最大限度的把用户焦点聚焦在内容上</p>
                       </figcaption>
                     </figure>
@@ -451,10 +485,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_main11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>扁平按钮的正确使用。</p>
                       </figcaption>
@@ -462,10 +498,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_main12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这些浮动按钮显得太过显眼。</p>
                       </figcaption>
@@ -479,10 +517,12 @@
                     <h1>规格</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main13.png'); ?>"/>
+                      <div class="media" style="max-width: 360px">
+                        <div class="frame " style="padding-top: 116.666666667%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_main13.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-5">
                         <p>扁平按钮亮色主题</p>
                         <p>最小宽度：88dp<br>
                           高度：36dp<br>
@@ -494,10 +534,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main14.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 116.666666667%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-6" src="<?php static_url('../static/media/components/buttons/components_buttons_main14.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-6">
                         <p>扁平按钮暗色主题</p>
                         <p>最小宽度：88dp<br>
                           高度：36dp<br>
@@ -515,10 +557,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.5526315789%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-7" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-7">
                         <p>对话框文本内边距：24dp <br>
                         对话框按钮容器高度：52dp<br>
                         对话框按钮：距离容器边缘 8dp 的边距，右对齐（LTR 语言）</p>
@@ -531,10 +575,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 71.5789473684%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-8" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_dialogs2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-8">
                         <p>对话框中的扁平按钮</p>
                         <p><strong>对话框按钮</strong><br>
                           按钮高度：36dp<br>
@@ -553,10 +599,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_focus_flat.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 54.2105263158%">
+                          <img alt="" aria-describedby="flat-buttons-figure-caption-9" src="<?php static_url('../static/media/components/buttons/components_buttons_focus_flat.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-9">
                         <p>扁平按钮在聚焦时有 12% 的不透明度</p>
                       </figcaption>
                     </figure>
@@ -570,16 +618,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="flat-buttons-figure-caption-10" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-flatbuttons.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-flatbuttons.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="flat-buttons-figure-caption-10">
                         <p>扁平按钮</p>
                       </figcaption>
                     </figure>
@@ -610,20 +658,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.5%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_main5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-1">
                         <p>使用浮动按钮，可以使按钮在有较多内容的布局中更加显眼。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_main6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-2">
                         <p>浮动按钮可以分隔不同的内容项。</p>
                       </figcaption>
                     </figure>
@@ -634,10 +686,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_main7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>浮动按钮比扁平按钮更加显眼。</p>
                       </figcaption>
@@ -645,10 +699,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_main8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>在很难看到扁平按钮的界面上，不要使用扁平按钮。</p>
                       </figcaption>
@@ -663,10 +719,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main15.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 114.444444444%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_main15.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-5">
                         <p>浮动按钮亮色主题</p>
                         <p>最小宽度：88dp <br>
                           高度：36dp <br>
@@ -679,10 +737,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main16.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 114.444444444%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-6" src="<?php static_url('../static/media/components/buttons/components_buttons_main16.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-6">
                         <p>浮动按钮暗色主题</p>
                         <p>最小宽度：88dp <br>
                           高度：36dp <br>
@@ -706,10 +766,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_main17.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 91.1111111111%">
+                          <img alt="" aria-describedby="raised-buttons-figure-caption-7" src="<?php static_url('../static/media/components/buttons/components_buttons_main17.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-7">
                         <p><strong>暗色/亮色</strong> <strong>主题</strong></p>
                         <p>最小宽度：88dp <br>
                           高度：36dp <br>
@@ -729,16 +791,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="raised-buttons-figure-caption-8" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-raisedbuttons.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-raisedbuttons.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="raised-buttons-figure-caption-8">
                         <p>浮动按钮</p>
                       </figcaption>
                     </figure>
@@ -767,20 +829,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 38.0555555556%">
+                          <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-footer-buttons-figure-caption-1">
                         <p>底部固定按钮的高度为 48dp</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-footer-buttons-figure-caption-2">
                         <p>底部固定按钮示例</p>
                       </figcaption>
                     </figure>
@@ -794,10 +860,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 16.3888888889%">
+                          <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_keyline3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-footer-buttons-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -813,20 +881,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-footer-buttons-figure-caption-4">
                         <p>对话框中的底部固定按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_usage_buttons6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-footer-buttons-figure-caption-5">
                         <p>可滚动对话框中的底部固定按钮</p>
                       </figcaption>
                     </figure>
@@ -859,10 +931,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 49.4736842105%">
+                          <img alt="" aria-describedby="dropdown-buttons-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dropdown-buttons-figure-caption-1">
                         <p>关闭状态的下拉按钮、打开状态的下拉菜单、选中状态的下拉菜单</p>
                       </figcaption>
                     </figure>
@@ -874,10 +948,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_mobile2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="dropdown-buttons-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_mobile2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dropdown-buttons-figure-caption-2">
                         <p>带有列表菜单的下拉按钮</p>
                       </figcaption>
                     </figure>
@@ -897,10 +973,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 149.342105263%">
+                          <img alt="" aria-describedby="dropdown-buttons-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dropdown-buttons-figure-caption-3">
                         <p>通用、分段、可编辑下拉按钮，在正常、鼠标悬浮、聚焦、按下和选择状态时的示例</p>
                       </figcaption>
                     </figure>
@@ -912,16 +990,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 111.666666667%">
+                          <video aria-describedby="dropdown-buttons-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dropdown-buttons-figure-caption-4">
                         <p>下拉按钮的动画</p>
                         <p><a href="https://www.google.com/url?q=https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481817981708000&amp;usg=AFQjCNEWD7fWvP4qJ7clYrALLSScllR3Ow" target="_blank"> </a></p>
                       </figcaption>
@@ -939,10 +1017,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 87.1052631579%">
+                          <img alt="" aria-describedby="dropdown-buttons-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_dropdown3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dropdown-buttons-figure-caption-5">
                         <p>桌面端下拉列表</p>
                         <p>上下内边距：16dp<br>
                           左侧内边距：24dp<br>
@@ -991,38 +1071,46 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 15.5555555556%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-1" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-1">
                         <p>同时只能有一个选项被选中</p>
                         <p>文本对齐按钮组提供左对齐、右对齐、居中对齐、左右对齐等选项，同时只能有一个选项被选中。选中一个选项时会取消其他选项的选中状态。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 15.5555555556%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-2" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-2">
                         <p>没有选项被选中</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 15.5555555556%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-3" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-3">
                         <p>多选</p>
                         <p>按逻辑分组的选项，如加粗、斜体、添加下划线等，允许同时选中多个选项。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 15.5555555556%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-4" src="<?php static_url('../static/media/components/buttons/components_buttons_togglebuttons4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-4">
                         <p>一个选项被选中</p>
                       </figcaption>
                     </figure>
@@ -1044,18 +1132,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/components_buttons_other1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 46.3157894737%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-5" src="<?php static_url('../static/media/components/buttons/components_buttons_other1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-5">
                         <p>图标切换的正常、鼠标悬浮、聚焦、按下、和禁用状态</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons/inline-components_buttons_toggleicons.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 26.9736842105%">
+                          <img alt="" aria-describedby="toggle-buttons-figure-caption-6" src="<?php static_url('../static/media/components/buttons/inline-components_buttons_toggleicons.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toggle-buttons-figure-caption-6">
                         <p>图标切换获取焦点时的颜色和不透明度和图标的颜色相关。</p>
                       </figcaption>
                     </figure>
