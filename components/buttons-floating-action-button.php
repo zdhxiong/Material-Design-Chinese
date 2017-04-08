@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_buttons_fab.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_buttons_fab.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -84,20 +86,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-1" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-1">
                         <p>浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-2" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-2">
                         <p>迷你型浮动操作按钮</p>
                       </figcaption>
                     </figure>
@@ -109,10 +115,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-3" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-3">
                         <p>浮动操作按钮</p>
                         <p>内部图标：24 x 24dp<br>
                           浮动操作按钮外圈：56 x 56dp</p>
@@ -121,10 +129,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-4" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-4">
                         <p>迷你型浮动操作按钮</p>
                         <p>内部图标：24 x 24dp<br>
                           浮动操作按钮外圈：40 x 40dp</p>
@@ -138,32 +148,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="floating-action-button-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_01_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-5">
                         <p>浮动操作按钮获得焦点</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="floating-action-button-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab_02_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-6">
                         <p>浮动操作按钮被选中</p>
                       </figcaption>
                     </figure>
@@ -177,10 +187,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-7" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>主要操作是在相册中触摸图片，所以不需要任何按钮。</p>
                       </figcaption>
@@ -188,10 +200,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-8" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-8">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>主要操作是添加文件。</p>
                       </figcaption>
@@ -204,20 +218,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-9" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-9">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-10" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_content4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -232,10 +250,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 34.7368421053%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-11" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-11">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
@@ -255,10 +275,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 50.5263157895%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-12" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-12">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -272,20 +294,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-13" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-13">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-14" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-14">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -297,20 +323,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-15" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="floating-action-button-figure-caption-16" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_qualities8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="floating-action-button-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -340,24 +370,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_01_xhdpi_012.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>浮动操作按钮动画效果</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_02_xhdpi_012.mp4'); ?>" type="video/mp4">
@@ -378,32 +408,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 492px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.642276423%">
+                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_03_xhdpi_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 492px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.642276423%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_04_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
@@ -420,32 +450,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 492px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.642276423%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_05_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 492px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.642276423%">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-behavior_06_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -478,32 +508,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-1">
                         <p>浮动操作按钮可以简单的触发一个操作</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_trigger_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-2">
                         <p>浮动操作按钮让地图视图回到中心位置。</p>
                         <p>App 通常使用单个浮动操作按钮。然而，本例使用了两个浮动操作按钮，因为它们执行的是同等重要但独特的操作。</p>
                       </figcaption>
@@ -517,32 +547,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-3">
                         <p>浮动操作按钮转换为工具栏</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_toolbar_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-4">
                         <p>浮动操作按钮转换为工具栏</p>
                       </figcaption>
                     </figure>
@@ -554,32 +584,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-5">
                         <p>工具栏在滚动时变成一个浮动操作按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_scrolltoolbar_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-6">
                         <p>工具栏在滚动时变成一个浮动操作按钮</p>
                       </figcaption>
                     </figure>
@@ -591,10 +621,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 41.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-7" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在这个例子中，用户可以通过按钮来选择媒体类型进行添加。</p>
                       </figcaption>
@@ -602,10 +634,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 41.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-8" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要包含无关的或混乱不清的操作</p>
                       </figcaption>
@@ -619,32 +653,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-9" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-9">
                         <p>浮动操作按钮可以浮出相关操作</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-10" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_speeddial_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-10">
                         <p>浮动操作按钮可以浮出相关操作</p>
                       </figcaption>
                     </figure>
@@ -656,32 +690,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-11" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-11">
                         <p>一个浮动按钮转换为一张卡片</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-12" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_card_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-12">
                         <p>一个浮动按钮转换为一张卡片</p>
                       </figcaption>
                     </figure>
@@ -694,10 +728,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="transitions-figure-caption-13" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-13">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>浮动操作按钮应该至少弹出三个选项。</p>
                       </figcaption>
@@ -705,10 +741,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="transitions-figure-caption-14" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-14">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>浮动操作按钮应该弹出不超过六个选项。</p>
                       </figcaption>
@@ -721,10 +759,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-15" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>选项应该指明目标页面</p>
                       </figcaption>
@@ -732,10 +772,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-16" src="<?php static_url('../static/media/components/buttons-floating-action-button/components_fab_flyouts_dont4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>选项不应该包含外链菜单</p>
                       </figcaption>
@@ -748,10 +790,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 92.2222222222%">
+                          <img alt="" aria-describedby="transitions-figure-caption-17" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-17">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>外链菜单在工具栏中。</p>
                       </figcaption>
@@ -759,10 +803,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 92.2222222222%">
+                          <img alt="" aria-describedby="transitions-figure-caption-18" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-18">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>外链菜单在工具栏中。</p>
                       </figcaption>
@@ -773,10 +819,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 81.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-19" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-19">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>浮动操作按钮不能弹出菜单。</p>
                       </figcaption>
@@ -784,10 +832,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 81.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-20" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-20">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>浮动操作按钮不能弹出菜单。</p>
                       </figcaption>
@@ -800,10 +850,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 41.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-21" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-21">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>浮动操作按钮可以转换成相关的操作。</p>
                       </figcaption>
@@ -811,8 +863,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 41.1111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-22" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions8.png'); ?>"/>
+                        </div>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -827,10 +881,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions14.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 121.111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-23" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions14.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-23">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>浮动操作按钮可以转换为联系人列表。</p>
                       </figcaption>
@@ -838,10 +894,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions16.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 121.111111111%">
+                          <img alt="" aria-describedby="transitions-figure-caption-24" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_actions16.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-24">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>浮动操作按钮不能转换为不相关的操作。</p>
                       </figcaption>
@@ -857,32 +915,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-25" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-25">
                         <p>浮动操作按钮可以转变为薄片元素，并成为应用结构的一部分。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-26" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_morph_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-26">
                         <p>浮动操作按钮可以转变为薄片元素，并成为应用结构的一部分。</p>
                       </figcaption>
                     </figure>
@@ -896,32 +954,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-27" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-27">
                         <p>浮动操作按钮可以转变成占满整个屏幕的薄片元素。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="transitions-figure-caption-28" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/buttons-floating-action-button/components-buttons-fab-transition_fullscreen_02.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transitions-figure-caption-28">
                         <p>浮动操作按钮可以转变成占满整个屏幕的薄片元素。</p>
                       </figcaption>
                     </figure>
@@ -950,10 +1008,12 @@
                     <p>浮动操作按钮可以附属到一个扩展的应用栏上。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement7.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="large-screens-figure-caption-1" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="large-screens-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
@@ -965,10 +1025,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="large-screens-figure-caption-2" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="large-screens-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
@@ -979,10 +1041,12 @@
                     <p>浮动操作按钮可以被附属到一个薄片元素的边缘。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement9.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="large-screens-figure-caption-3" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="large-screens-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
@@ -993,10 +1057,12 @@
                     <p>在一个屏幕上最多只能有一个浮动操作按钮。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement10.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="large-screens-figure-caption-4" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="large-screens-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -1008,10 +1074,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement12.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="large-screens-figure-caption-5" src="<?php static_url('../static/media/components/buttons-floating-action-button/patterns_actions_fab_placement12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="large-screens-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
