@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -98,20 +100,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_content1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_content1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>对话框示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>全屏对话框示例</p>
                       </figcaption>
                     </figure>
@@ -131,14 +137,16 @@
                     <h2><strong><strong>显示更多内容</strong></strong></h2>
                     <p>要在对话框中显示更多内容，请在内容区域使用可展开的组件，或考虑使用其他能容纳更多内容的组件来代替。</p>
                     <h2><strong><strong>关闭对话框</strong></strong></h2>
-                    <p>可以通过触摸/点击对话框外面的区域、或者使用系统返回按钮（Android）来关闭对话框。另外，可以覆盖对话框的默认行为，使用户必须选择其中一项操作后才能关闭对话框。</p>
+                    <p>可以通过点击对话框外面的区域、或系统的返回按钮（Android）来关闭对话框。另外，可以禁止用户关闭对话框，使用户必须选择其中一个操作后才能继续。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.8947368421%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>将对话框中的可滚动列表的标题固定，以确保标题和被选中的条目可以同时可见。</p>
                       </figcaption>
                     </figure>
@@ -175,10 +183,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_alerts_1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="alerts-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_alerts_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="alerts-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>肯定按钮的文本 “Discard” 清楚地表明了操作的后果。</p>
                       </figcaption>
@@ -186,10 +196,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_alerts_2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="alerts-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_alerts_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="alerts-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>取消按钮的文本 “No” 回答了提问，但没有明确表明之后会发生什么。更好的按钮文本应该是更易理解的“Cancel”和“Delete”。</p>
                       </figcaption>
@@ -208,10 +220,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="alerts-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="alerts-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>此对话框提出了一个具体的问题，简要阐述了其影响，并提供了明确的操作。</p>
                       </figcaption>
@@ -219,10 +233,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_alerts4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="alerts-figure-caption-4" src="<?php static_url('../static/media/components/dialogs/components_dialogs_alerts4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="alerts-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>此对话框提出了一个模糊的问题，无法根据标题知道它的作用。</p>
                       </figcaption>
@@ -254,18 +270,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="simple-menus-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="simple-menus-figure-caption-1">
                         <p>简单菜单示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simplemenu2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -300,23 +320,29 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="simple-dialogs-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="simple-dialogs-figure-caption-1">
                         <p>简单对话框示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="simple-dialogs-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>移动设备上对话框的宽度为单位的倍数。</p>
-                        <p>每个单位是 56dp 的宽度<br>
-                          手机上最小宽度为 56dp * 5 = 280dp</p>
+                      <figcaption id="simple-dialogs-figure-caption-2">
+                        <p>在移动设备上，对话框的宽度为单位的倍数。该单位可以是：</p>
+                        <ul class="lst-kix_8ey30me5qdc3-0 start">
+                          <li>一个 <a href="../layout/metrics-keylines.html#metrics-keylines-sizing-by-increments">增量</a></li>
+                          <li>距离屏幕边缘的距离</li>
+                        </ul>
                       </figcaption>
                     </figure>
                   </div>
@@ -328,10 +354,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="simple-dialogs-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="simple-dialogs-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个简单对话框有一个明确的 “Cancel” 按钮。</p>
                       </figcaption>
@@ -339,10 +367,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="simple-dialogs-figure-caption-4" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="simple-dialogs-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个简单对话框有一个明确的 “Cancel” 按钮。</p>
                       </figcaption>
@@ -365,10 +395,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="simple-dialogs-figure-caption-5" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="simple-dialogs-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>这个简单对话框有不同的行高。</p>
                       </figcaption>
@@ -401,20 +433,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-1">
                         <p>在用户按下 “OK” 按钮前，不会提交对话框中的铃声选择。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-2">
                         <p>文本左侧有控件的确认对话框示例。</p>
                       </figcaption>
                     </figure>
@@ -427,20 +463,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-3">
                         <p>用户通过选择一个日期，并按下 “OK” 按钮来设置日期。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-4" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-4">
                         <p>用户用过移动时钟指针，并按下 “OK” 按钮来设置时间。</p>
                       </figcaption>
                     </figure>
@@ -453,10 +493,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-5" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>提供明确的确认和取消按钮。</p>
                       </figcaption>
@@ -464,10 +506,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation6.png'); ?>"/>
+                      <div class="media" style="max-width: 360px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="confirmation-dialogs-figure-caption-6" src="<?php static_url('../static/media/components/dialogs/components_dialogs_confirmation6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="confirmation-dialogs-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>只有单个对话框按钮使系统的返回操作变得模糊：返回时是取消还是确认？</p>
                       </figcaption>
@@ -507,20 +551,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-1">
                         <p>全屏对话框支持使用简单对话框来选择日期。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-2">
                         <p>从全屏对话框中打开日期选择器</p>
                       </figcaption>
                     </figure>
@@ -542,10 +590,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.638888889%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用模糊的术语，如 “Close” 来确认操作。</p>
                       </figcaption>
@@ -553,10 +603,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-4" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>如果用户进行了更改，则提示用户对丢弃操作进行确认。</p>
                       </figcaption>
@@ -570,20 +622,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-5" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-5">
                         <p>此设置示例中的返回箭头表示任何更改都将在选择后立即保存。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-6" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-6">
                         <p>点击此设置示例中的 “X” 将放弃所有更改，更改只有在点击保存按钮后才会保存。</p>
                       </figcaption>
                     </figure>
@@ -599,10 +655,12 @@
                     <p>如果全屏对话框使用可变长度的标题或长标题（例如，同一个词翻译成不同语言后会变得很长），请将标题文本放在对话框的内容区域，不要放在应用栏中。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.638888889%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-7" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在应用栏中使用可变长度的标题。</p>
                       </figcaption>
@@ -610,10 +668,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.638888889%">
+                          <img alt="" aria-describedby="full-screen-dialogs-figure-caption-8" src="<?php static_url('../static/media/components/dialogs/components_dialogs_fullscreen7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="full-screen-dialogs-figure-caption-8">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在全屏对话框的内容区域放置长标题。</p>
                       </figcaption>
@@ -647,10 +707,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-1">
                         <p>此对话框包含标题、内容和操作。</p>
                       </figcaption>
                     </figure>
@@ -668,10 +730,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_16.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_16.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>取消操作总是放在肯定操作的左侧。</p>
                       </figcaption>
@@ -684,10 +748,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_17.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/dialogs/components_dialogs_swapped_actions_17.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免向用户提供模糊不清的选择。在此示例中， “Cancel” 与标题无关，因为没有指出明确的操作。</p>
                       </figcaption>
@@ -704,10 +770,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/dialogs/components_dialogs_usage5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>“了解更多” 操作会离开此对话框，使其处于不确定的状态。</p>
                       </figcaption>
@@ -728,18 +796,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.6315789474%">
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-5">
                         <p>一致的操作按钮位置、文本颜色有利于把操作和普通文本区分开来，即使操作处于禁用状态。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.6315789474%">
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-6">
                         <p>在做出选择之前，肯定按钮更有可能处于禁用状态。而取消按钮不会被禁用。</p>
                       </figcaption>
                     </figure>
@@ -759,18 +831,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 51.9078947368%">
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-7">
                         <p>内容的间距</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_actions.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 71.5789473684%">
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/dialogs/components_dialogs_actions.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-8">
                         <p>在内容区域中，内容下方的 24dp 的边距有助于将其与操作分隔开。</p>
                         <p>提示框内容底部边距：24dp<br>
                           按钮高度：36dp<br>
@@ -778,10 +854,12 @@
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.8947368421%">
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-9">
                         <p>滚动状态的内容的内边距</p>
                       </figcaption>
                     </figure>
@@ -797,10 +875,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 69.2105263158%">
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-10">
                         <p>按钮的宽度和边距的详细信息</p>
                       </figcaption>
                     </figure>
@@ -816,18 +896,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 34.6052631579%">
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-11">
                         <p>按钮区域的细节</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 43.9473684211%">
+                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/dialogs/components_dialogs_consistent_placement3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-12">
                         <p>滚动状态下，对话框的内容和操作之间的描边。</p>
                       </figcaption>
                     </figure>
@@ -848,10 +932,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_sidebyside.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/dialogs/components_dialogs_sidebyside.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-13">
                         <p>按钮高度：36dp<br>
                         正文和按钮区域之间的间距：24dp<br>
                         按钮四周的边距：8dp</p>
@@ -866,10 +952,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_stacked.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 58.4210526316%">
+                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/dialogs/components_dialogs_stacked.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-14">
                         <p>每个按钮的可触摸高度：48dp<br>
                         正文和触摸目标之间的间距：24dp<br>
                         触摸目标下方和对话框边缘的间距：8dp<br>
@@ -885,10 +973,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.8947368421%">
+                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-15">
                         <p>简单对话框的参考线</p>
                       </figcaption>
                     </figure>
@@ -913,10 +1003,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple-redlines.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.8947368421%">
+                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/dialogs/components_dialogs_simple-redlines.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-16">
                         <p>简单对话框的标注</p>
                       </figcaption>
                     </figure>
@@ -938,10 +1030,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates10.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.2631578947%">
+                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-17">
                         <p>全屏对话框应用栏的详细信息</p>
                       </figcaption>
                     </figure>
@@ -953,20 +1047,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-18">
                         <p>含单行文本应用栏的全屏对话框。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-19" src="<?php static_url('../static/media/components/dialogs/components_dialogs_updates12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-19">
                         <p>请注意，此图片仅供参考。长标题应该放置在全屏对话框的内容区域。</p>
                       </figcaption>
                     </figure>
