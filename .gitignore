@@ -1,6 +1,5 @@
 .idea/
 .vscode/
 build/
-!build/static/css
-!build/static/images
-!build/static/js
+!build/static/default
+!build/static/spec

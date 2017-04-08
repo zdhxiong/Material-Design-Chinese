@@ -148,7 +148,8 @@ return array(
       'devices'                         =>  '设备',
       'layout-templates'                =>  '布局模板',
       'roboto-noto-fonts'               =>  'Roboto & Noto 字体',
-      'sticker-sheets-icons'            =>  '贴片 & 图标'
+      'sticker-sheets-icons'            =>  '贴片 & 图标',
+      'shadows'                         =>  '阴影'
     )
   )
 );

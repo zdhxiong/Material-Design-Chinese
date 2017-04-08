@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottom_sheets.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame" style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottom_sheets.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -90,20 +92,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>模态化的底部卡片从应用内容的上方滑入。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p>固定显示的底部卡片是应用布局的组成部分。</p>
                       </figcaption>
                     </figure>
@@ -137,10 +143,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 149.166666667%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-1">
                         <p>将固定显示的底部卡片引入到布局中，会使得浮动操作按钮（FAB）垂直移动到图片位置。</p>
                       </figcaption>
                     </figure>
@@ -151,20 +159,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-2">
                         <p>固定显示的底部卡片，可以使地图上的位置信息细节保留在屏幕上。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-3">
                         <p>无论用户在主视图中如何导航，播放控件都会显示在固定显示的底部卡片上方</p>
                       </figcaption>
                     </figure>
@@ -179,18 +191,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-4">
                         <p>平板上，与屏幕等宽的固定显示的底部卡片</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame" style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-5">
                         <p>平板上，内嵌式的固定显示的底部卡片</p>
                       </figcaption>
                     </figure>
@@ -202,10 +218,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 64.4736842105%">
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="persistent-bottom-sheets-figure-caption-6">
                         <p>在桌面端，一个固定显示的底部卡片的内容可以移动到一个新的卡片上去。在大屏幕设备中，屏幕左侧的卡片会比底部卡片更为合适。</p>
                       </figcaption>
                     </figure>
@@ -234,20 +252,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 149.166666667%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-1">
                         <p>在列表中包含一系列操作项的模态化底部卡片</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 149.166666667%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-2">
                         <p>在网格中包含一系列操作项的模态化底部卡片</p>
                       </figcaption>
                     </figure>
@@ -267,20 +289,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 149.166666667%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-3">
                         <p>底部卡片可以将图标与菜单项关联。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 148.888888889%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-4">
                         <p>含副文本的菜单项</p>
                       </figcaption>
                     </figure>
@@ -293,10 +319,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 148.888888889%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-5">
                         <p>在深层链接的底部卡片上，可以直接显示一个单词的解释，用户无需打开词典应用。</p>
                       </figcaption>
                     </figure>
@@ -307,10 +335,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal6.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.6315789474%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-6">
                         <p>右侧 app 的底部卡片显示来自左侧 app 的内容。这允许用于在不离开当前 app 的情况下查看来自另一 app 的内容。</p>
                       </figcaption>
                     </figure>
@@ -329,10 +359,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 72.2222222222%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当模态化底部卡片完全展开时，应该在应用栏上显示关闭按钮</p>
                       </figcaption>
@@ -340,10 +372,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 72.2222222222%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>当导航到应用的下一级内容时，应该显示一个返回箭头</p>
                       </figcaption>
@@ -357,19 +391,23 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-9">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>模态化的底部卡片，初始状态不能和应用栏重叠。允许使用点击/滑动的方式进行关闭。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-10">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当显示长列表时，模态化的底部卡片可以在内部进行滚动，并且展开到超过 16:9 的关键点。</p>
                       </figcaption>
@@ -377,19 +415,23 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-11" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-11">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>底部卡片的高度应由其包含的内容的数量决定。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-12" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-12">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>模态化的底部卡片，初始状态不能和应用栏重叠。保留一定的空间，让用户可以点击底部卡片外面的区域来关闭它。</p>
                       </figcaption>
@@ -437,10 +479,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal15.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 82.1052631579%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-13" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal15.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-13">
                         <p>菜单可以使选项和触发它的元素的位置更靠近，不建议将这些菜单项放在底部卡片中。</p>
                       </figcaption>
                     </figure>
@@ -452,18 +496,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal13.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-14" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal13.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-14">
                         <p>平板上的网格列表底部卡片</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal14.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-15" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal14.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="modal-bottom-sheets-figure-caption-15">
                         <p>平板上的长列表底部卡片</p>
                       </figcaption>
                     </figure>
@@ -493,28 +541,34 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 97.2222222222%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>向下滑动底部卡片来关闭</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 97.2222222222%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>点击底部卡片以外的区域来关闭</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 97.5%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>点击 X 关闭</p>
                       </figcaption>
                     </figure>
@@ -563,20 +617,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 83.3333333333%">
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-1">
                         <p>手机端的列表样式的底部卡片的尺寸标注</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 83.3333333333%">
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-2">
                         <p>手机端的列表样式的底部卡片</p>
                       </figcaption>
                     </figure>
@@ -586,7 +644,7 @@
                   <div class="module">
                     <h2><strong><strong>有表头的列表卡片</strong></strong></h2>
                     <p>屏幕左右边距：16dp<br>
-                      第一个列表下方的空间：7dp<br>
+                      第一个列表项下方的空间：7dp<br>
                       分隔线：1dp<br>
                       第二个列表上方的空间：8dp<br>
                       列表项高度：48dp<br>
@@ -596,20 +654,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p>有表头的底部列表尺寸标注</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-4">
                         <p>有表头的底部列表</p>
                       </figcaption>
                     </figure>
@@ -620,29 +682,69 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h2><strong>带图标的网格样式的底部卡片</strong></h2>
-                    <p>屏幕左右边距：24dp<br>
-                      网格列表之间的垂直间距：16dp<br>
-                      网格列表图标：48x48dp，中间垂直对齐，均匀分布在网格上<br>
-                      网格列表标签：16dp 高，图标下方居中<br>
-                      网格下方边距：24dp</p>
+                    <p>网格四周外边距：24dp<br>
+                      网格列表行间距：24dp<br>
+                      网格列表图标：48x48dp，且每一行的间距都相等<br>
+                      网格列表标签高度：16dp，图标下方居中<br>
+                      图标下方外边距：24dp</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-5">
                         <p>网格样式的底部卡片的尺寸标注，其中包含一组跳转到其他应用的操作项</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-6">
                         <p>网格样式的底部卡片，其中包含一组跳转到其他应用的操作项</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h2><strong>带头部的网格样式的底部卡片</strong></h2>
+                    <p>屏幕左右边距：24dp<br>
+                      列表行下方间距：8dp<br>
+                      分隔线：1dp<br>
+                      分隔线上方和下方间距：8dp<br>
+                      列表图标：48x48dp，垂直居中对齐<br>
+                      网格列表标签高度：16dp，图标下方居中<br>
+                      列表标题高度：56dp</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs12.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="specs-figure-caption-7">
+                        <p>含头部的网格样式的底部卡片的尺寸标注</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 110.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs13.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="specs-figure-caption-8">
+                        <p>含头部的网格样式的底部卡片的尺寸标注</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -654,20 +756,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-9">
                         <p>底部卡片的初始高度不应超过 16:9。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 83.3333333333%">
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-10">
                         <p>底部卡片的最小高度和它包含的列表的高度相关联。</p>
                       </figcaption>
                     </figure>
@@ -714,10 +820,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs11.png'); ?>"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 66.724137931%">
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-11">
                         <p>各种桌面屏幕尺寸的断点</p>
                       </figcaption>
                     </figure>

@@ -2,8 +2,8 @@
 <html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}">
 <head>
   <meta charset="utf-8">
-  <link href="<?php url('static/css/main.min.css'); ?>" rel="stylesheet">
-  <link href="<?php url('static/css/fonts.css'); ?>" rel="stylesheet">
+  <link href="<?php url('static/default/css/main.min.css'); ?>" rel="stylesheet">
+  <link href="<?php url('static/default/css/fonts.css'); ?>" rel="stylesheet">
   <meta name="viewport" content="initial-scale=1, width=device-width">
   <title><?php echo $vars['title'] ? $vars['title'].' - ' : ''; ?><?php echo $vars['category'] ? $vars['category'].' - ' : ''; ?>Material design 中文文档，指南，翻译</title>
   <meta itemprop="name" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 指南">
@@ -11,7 +11,10 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?> - Material design 指南">
   <meta itemprop="image" content="<?php url('static/media/public/share.png') ?>">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="<?php echo $vars['title']; ?><?php echo $vars['category']; ?>">
   <meta property="og:site_name" content="Material design 指南">
+  <meta property="og:image" content="<?php url('static/media/public/share.png') ?>">
   <meta property="article:section" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?>">
   <meta name="theme-color" content="<?php echo $vars['theme_color'] ?>">
   <link rel="icon" sizes="192x192" href="<?php url('static/media/public/guidelines-icon-192x192.png') ?>">
@@ -22,23 +25,6 @@
   <link rel="apple-touch-icon" sizes="180x180" href="<?php url('static/media/public/guidelines-icon-180x180.png') ?>">
   <meta name="msapplication-TileImage" content="<?php url('static/media/public/guidelines-icon-144x144.png') ?>">
   <meta name="msapplication-tap-highlight" content="no">
-
-  <!--
-  <PageMap>
-      <DataObject type="document">
-        <Attribute name="uid"></Attribute>
-        <Attribute name="title"><?php echo $vars['title']; ?></Attribute>
-        <Attribute name="keywords"></Attribute>
-        <Attribute name="slug"></Attribute>
-        <Attribute name="description"></Attribute>
-        <Attribute name="section_title"><?php echo $vars['category']; ?></Attribute>
-        <Attribute name="section_slug"><?php echo $vars['category']; ?></Attribute>
-      </DataObject>
-      <DataObject type="thumbnail">
-        <Attribute name="src" value="" />
-      </DataObject>
-  </PageMap>
-  -->
 
   <script>
     var _hmt = _hmt || [];

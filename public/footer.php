@@ -22,7 +22,6 @@
     </div>
   </div>
 </footer>
-<script src="<?php url('static/js/picturefill.min.js'); ?>"></script>
-<script src="<?php url('static/js/main.min.js'); ?>"></script>
+<script src="<?php url('static/default/js/main.min.js'); ?>"></script>
 </body>
 </html>
