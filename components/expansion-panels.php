@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansion_panels.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansion_panels.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -80,10 +82,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 43.2894736842%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>各种扩展面板</p>
                         <table class="s-tag-table">
                           <tbody>
@@ -133,10 +137,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.2368421053%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>折叠的面板示例</p>
                       </figcaption>
                     </figure>
@@ -152,10 +158,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 58.8157894737%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>展开的面板示例</p>
                       </figcaption>
                     </figure>
@@ -171,10 +179,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.2368421053%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p><strong>背景色</strong></p>
                         <p>Grey 200</p>
                         <p><strong>鼠标悬浮和按下时的扩展图标</strong></p>
@@ -215,8 +225,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 61.4473684211%">
+                          <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
