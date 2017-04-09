@@ -31,8 +31,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/lists/components_lists.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/lists/components_lists.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -83,20 +85,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 80.0%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/lists/components_lists_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 80.0%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/lists/components_lists_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p>行和瓦片</p>
                       </figcaption>
                     </figure>
@@ -117,10 +123,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_usage3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 98.0555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/lists/components_lists_usage3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-3">
                         <p>典型列表浏览方式</p>
                       </figcaption>
                     </figure>
@@ -155,10 +163,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_behavior1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 91.3888888889%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/lists/components_lists_behavior1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>按字母排序使信息更容易被找到。</p>
                       </figcaption>
@@ -166,10 +176,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_behavior2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 91.3888888889%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/lists/components_lists_behavior2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要按随机顺序显示信息；如果 UI 不允许用户对列表进行排序，则应该默认使用一种更合理的排序方式。</p>
                       </figcaption>
@@ -200,10 +212,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_content1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/lists/components_lists_content1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-1">
                         <p>把最易分辨的元素放在瓦片左边，不易分辨的元素放在瓦片右边。</p>
                       </figcaption>
                     </figure>
@@ -223,10 +237,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_content2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/components/lists/components_lists_content2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-2">
                         <p>主操作占据了瓦片中大部分空间。辅助操作放在瓦片右侧。</p>
                       </figcaption>
                     </figure>
@@ -286,24 +302,27 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt=""  aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/lists/components_lists_keylines1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>单行列表规格</p>
-                        <p>图标左侧内边距：16dp<br>
+                      <figcaption id="specs-figure-caption-1">
+                        <p><strong>单行列表规格</strong><br>
+                          图标左侧内边距：16dp<br>
                           列表项目左侧内边距：72dp<br>
-                          列表右侧内边距：16dp<br>
-                          列表右侧外边距：56dp</p>
+                          列表项目右侧内边距：16dp</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-52" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-52">
                         <p>单行列表示例</p>
                       </figcaption>
                     </figure>
@@ -317,12 +336,14 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.5555555556%">
+                          <img alt=""  aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/lists/components_lists_keylines3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>两行列表规格</p>
-                        <p>图标左侧内边距：16dp<br>
+                      <figcaption id="specs-figure-caption-2">
+                        <p><strong>两行列表规格</strong><br>
+                          图标左侧内边距：16dp<br>
                           列表项目左侧内边距：72dp<br>
                           列表右侧内边距：16dp</p>
                       </figcaption>
@@ -330,10 +351,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/lists/components_lists_keylines4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p>两行列表示例</p>
                       </figcaption>
                     </figure>
@@ -348,10 +371,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/lists/components_lists_keylines5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-4">
                         <p>三行列表规格</p>
                         <p>图标左侧内边距：16dp<br>
                           列表项目左侧内边距：72dp<br>
@@ -361,10 +386,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/lists/components_lists_keylines6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-5">
                         <p>三行列表示例</p>
                       </figcaption>
                     </figure>
@@ -381,20 +408,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-6">
                         <p>单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-53" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-53">
                         <p>单行列表示例</p>
                       </figcaption>
                     </figure>
@@ -404,10 +435,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-7">
                         <p><strong>单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：48dp<br>
@@ -418,10 +451,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single2_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-8">
                         <p><strong>紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：40dp<br>
@@ -441,20 +476,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.7222222222%">
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-9">
                         <p>含图标的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-54" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-54">
                         <p>含图标的单行列表示例</p>
                       </figcaption>
                     </figure>
@@ -465,10 +504,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-10">
                         <p><strong>含图标的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：48dp<br>
@@ -480,10 +521,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single5_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-11">
                         <p><strong>含图标的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：40dp<br>
@@ -504,20 +547,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-12">
                         <p>含头像的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-13">
                         <p>含头像的单行列表示例</p>
                       </figcaption>
                     </figure>
@@ -528,10 +575,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-14">
                         <p><strong>含头像的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：56dp<br>
@@ -543,10 +592,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single8_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-15">
                         <p><strong>含头像的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：48dp<br>
@@ -568,20 +619,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-16">
                         <p>含头像和图标的单行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-17">
                         <p>含头像和图标的单行列表示例</p>
                       </figcaption>
                     </figure>
@@ -591,10 +646,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-18">
                         <p><strong>含头像和图标的单行列表规格</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：56dp<br>
@@ -607,10 +664,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="" aria-describedby="specs-figure-caption-19" src="<?php static_url('../static/media/components/lists/components_lists_keylines_single11_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-19">
                         <p><strong>含头像和图标的紧凑型单行列表规格</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：48dp<br>
@@ -638,20 +697,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-20" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-20">
                         <p>两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-21" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-21">
                         <p>两行列表示例</p>
                       </figcaption>
                     </figure>
@@ -661,10 +724,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-22" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-22">
                         <p><strong>两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：72dp<br>
@@ -675,10 +740,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-23" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two2_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-23">
                         <p><strong>密集型两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           高度：60dp<br>
@@ -704,20 +771,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-24" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-24">
                         <p>含图标的两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-25" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-25">
                         <p>含图标的两行列表示例</p>
                       </figcaption>
                     </figure>
@@ -727,10 +798,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-26" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-26">
                         <p><strong>含图标的两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           高度：72dp<br>
@@ -743,10 +816,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-27" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two5_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-27">
                         <p><strong>含图标的密集型两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片高度：60dp<br>
@@ -775,20 +850,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-28" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-28">
                         <p>含头像的两行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-29" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-29">
                         <p>含头像的两行列表示例</p>
                       </figcaption>
                     </figure>
@@ -798,10 +877,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-30" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-30">
                         <p><strong>含头像的两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：72dp<br>
@@ -814,10 +895,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-31" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two7_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-31">
                         <p><strong>含头像的密集型两行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片：60dp<br>
@@ -845,20 +928,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-32" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-32">
                         <p>含头像、文本和图标</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-33" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-33">
                         <p>含头像、文本和图标的示例</p>
                       </figcaption>
                     </figure>
@@ -868,10 +955,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 64.4444444444%">
+                          <img alt="" aria-describedby="specs-figure-caption-34" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-34">
                         <p><strong>含头像、文本和图标</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：72dp<br>
@@ -884,10 +973,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 65.0%">
+                          <img alt="" aria-describedby="specs-figure-caption-35" src="<?php static_url('../static/media/components/lists/components_lists_keylines_two10_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-35">
                         <p><strong>含头像、文本和图标的密集型列表</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片高度：60dp<br>
@@ -916,20 +1007,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-36" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-36">
                         <p>三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three12.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-37" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three12.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-37">
                         <p>三行列表示例</p>
                       </figcaption>
                     </figure>
@@ -939,10 +1034,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-38" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-38">
                         <p><strong>三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：88dp<br>
@@ -954,10 +1051,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-39" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three2_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-39">
                         <p><strong>密集型三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片高度：76dp<br>
@@ -986,20 +1085,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-40" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-40">
                         <p>含图标的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-41" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-41">
                         <p>含图标的三行列表示例</p>
                       </figcaption>
                     </figure>
@@ -1010,10 +1113,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-42" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-42">
                         <p><strong>含图标的三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：88dp<br>
@@ -1026,10 +1131,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-43" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three5_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-43">
                         <p><strong>含图标的密集型三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片高度：76dp<br>
@@ -1059,20 +1166,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-44" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-44">
                         <p>含头像的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-45" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-45">
                         <p>含头像的三行列表示例</p>
                       </figcaption>
                     </figure>
@@ -1082,10 +1193,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-46" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-46">
                         <p><strong>含头像的三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：88dp<br>
@@ -1098,10 +1211,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-47" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three7_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-47">
                         <p><strong>含头像的密集型三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<strong><br>
                         </strong>瓦片高度：76dp<br>
@@ -1132,20 +1247,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three9.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-48" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-48">
                         <p>含头像和图标的三行列表</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three11.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-49" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three11.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-49">
                         <p>含头像和图标的三行列表示例</p>
                         <p><br></p>
                       </figcaption>
@@ -1156,10 +1275,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-50" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-50">
                         <p><strong>含头像和图标的三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 16sp<br>
                           瓦片高度：88dp<br>
@@ -1172,10 +1293,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-51" src="<?php static_url('../static/media/components/lists/components_lists_keylines_three10_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-51">
                         <p><strong>含头像和图标的密集型三行列表规格：</strong></p>
                         <p>字体：Roboto Regular 13sp<br>
                           瓦片高度：76dp<br>
