@@ -27,8 +27,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/selection-controls/patterns_selection_controls.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/selection-controls/patterns_selection_controls.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -74,20 +76,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="checkbox-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="checkbox-figure-caption-1">
                         <p>亮色主题</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 44.4%">
+                          <img alt="" aria-describedby="checkbox-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="checkbox-figure-caption-2">
                         <p>暗色主题</p>
                       </figcaption>
                     </figure>
@@ -104,10 +110,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.3157894737%">
+                          <img alt="" aria-describedby="checkbox-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="checkbox-figure-caption-3">
                         <p>亮色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -124,10 +132,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>"/>
+                      <div class="media" style="max-width: 2111px">
+                        <div class="frame " style="padding-top: 36.3334912364%">
+                          <img alt="" aria-describedby="checkbox-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="checkbox-figure-caption-4">
                         <p>暗色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -157,20 +167,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="radio-button-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radio-button-figure-caption-1">
                         <p>亮色主题的单选框</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 44.4%">
+                          <img alt="" aria-describedby="radio-button-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radio-button-figure-caption-2">
                         <p>暗色主题的单选框</p>
                       </figcaption>
                     </figure>
@@ -187,10 +201,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>"/>
+                      <div class="media" style="max-width: 2111px">
+                        <div class="frame " style="padding-top: 36.3334912364%">
+                          <img alt="" aria-describedby="radio-button-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radio-button-figure-caption-3">
                         <p>亮色主题的单选按钮在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -207,10 +223,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>"/>
+                      <div class="media" style="max-width: 2111px">
+                        <div class="frame " style="padding-top: 36.3334912364%">
+                          <img alt="" aria-describedby="radio-button-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radio-button-figure-caption-4">
                         <p>暗色主题的单选框在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -240,20 +258,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="switch-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-1">
                         <p>亮色主题</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 44.4444444444%">
+                          <img alt="" aria-describedby="switch-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-2">
                         <p>暗色主题</p>
                       </figcaption>
                     </figure>
@@ -272,10 +294,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.3157894737%">
+                          <img alt="" aria-describedby="switch-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-3">
                         <p>亮色主题的开关按钮在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -295,10 +319,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.3157894737%">
+                          <img alt="" aria-describedby="switch-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-4">
                         <p>暗色主题的开关按钮在鼠标悬浮、聚焦、按下、禁用，禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -312,20 +338,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 76.6666666667%">
+                          <img alt="" aria-describedby="switch-figure-caption-5" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-5">
                         <p>移动端的动效</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 76.6666666667%">
+                          <img alt="" aria-describedby="switch-figure-caption-6" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="switch-figure-caption-6">
                         <p>在桌面端没有动效</p>
                       </figcaption>
                     </figure>
