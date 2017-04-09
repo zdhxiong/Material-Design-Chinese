@@ -27,8 +27,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/progress-activity/components_progress_and_activity.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/progress-activity/components_progress_and_activity.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -74,16 +76,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 76.3157894737%">
+                          <video aria-describedby="types-of-indicators-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-indicators-figure-caption-1">
                         <p>线性进度指示器</p>
                       </figcaption>
                     </figure>
@@ -95,8 +97,8 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.mp4'); ?>" type="video/mp4">
@@ -110,16 +112,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="types-of-indicators-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-indicators-figure-caption-2">
                         <p>网页上的查询进度指示器</p>
                       </figcaption>
                     </figure>
@@ -132,16 +134,16 @@
                     <h1>圆形进度指示器</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 20.7894736842%">
+                          <video aria-describedby="types-of-indicators-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/061101_Circular_Sheet_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-indicators-figure-caption-3">
                         <p>圆形的确定进度和不确定进度的指示器</p>
                       </figcaption>
                     </figure>
@@ -154,32 +156,32 @@
                     <h2><strong><strong>与其他控件整合的圆形进度指示器</strong></strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="types-of-indicators-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-indicators-figure-caption-4">
                         <p>圆形指示器可以和浮动操作按钮集成。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="types-of-indicators-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-indicators-figure-caption-5">
                         <p>集成的原型指示器的动画</p>
                       </figcaption>
                     </figure>
@@ -207,8 +209,8 @@
                     <p>加载阶段</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005-.mp4'); ?>" type="video/mp4">
@@ -224,16 +226,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: ">
+                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: ">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>双阶段加载</p>
                         <p>先生成一个容器，然后再加载内容（副本和图片）。</p>
                       </figcaption>
@@ -244,32 +246,32 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>第一次加载内容</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>一次性加载完所有内容并显示出来。</p>
                       </figcaption>
                     </figure>
@@ -281,16 +283,16 @@
                   <div class="module"><p><strong>加载额外的内容</strong></p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 73.5526315789%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p>例 1：卡片展开</p>
                         <p>当卡片在一个较大的平面上展开时，比如桌面，推荐使用不确定进度的线性进度指示器。</p>
                       </figcaption>
@@ -303,16 +305,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: ">
+                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: ">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progressactivity-behavior-Loading_Photos_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-5">
                         <p>例 2：上拉加载更多</p>
                         <p>当你想从底部加载列表时，推荐使用不确定进度的圆形进度指示器。</p>
                       </figcaption>
@@ -320,16 +322,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/progress-activity/components-progress-activity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-6">
                         <p>例 3：下拉刷新</p>
                         <p>当你想从上方加载一个列表时，推荐使用不确定进度的圆形进度指示器。</p>
                       </figcaption>
