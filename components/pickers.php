@@ -22,8 +22,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -85,10 +87,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_date1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 84.2105263158%">
+                          <img alt="" aria-describedby="date-pickers-figure-caption-1" src="<?php static_url('../static/media/components/pickers/components_pickers_date1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="date-pickers-figure-caption-1">
                         <p>日期和年份选择器：亮色主题，竖屏</p>
                       </figcaption>
                     </figure>
@@ -102,16 +106,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.333333333%">
+                          <video aria-describedby="date-pickers-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="date-pickers-figure-caption-2">
                         <p>日期选择器</p>
                       </figcaption>
                     </figure>
@@ -126,10 +130,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_date3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 56.8421052632%">
+                          <img alt="" aria-describedby="date-pickers-figure-caption-3" src="<?php static_url('../static/media/components/pickers/components_pickers_date3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="date-pickers-figure-caption-3">
                         <p>日期选择器：亮色主题，横屏</p>
                       </figcaption>
                     </figure>
@@ -141,10 +147,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_date4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 84.2105263158%">
+                          <img alt="" aria-describedby="date-pickers-figure-caption-4" src="<?php static_url('../static/media/components/pickers/components_pickers_date4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="date-pickers-figure-caption-4">
                         <p>日期选择器：暗色主题，竖屏</p>
                       </figcaption>
                     </figure>
@@ -156,10 +164,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_date5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 56.8421052632%">
+                          <img alt="" aria-describedby="date-pickers-figure-caption-5" src="<?php static_url('../static/media/components/pickers/components_pickers_date5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="date-pickers-figure-caption-5">
                         <p>日期选择器：暗色主题，横屏</p>
                       </figcaption>
                     </figure>
@@ -190,10 +200,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_time1.png'); ?>"/>
+                      <div class="media" style="max-width: 1522px">
+                        <div class="frame " style="padding-top: 84.2312746386%">
+                          <img alt="" aria-describedby="time-pickers-figure-caption-1" src="<?php static_url('../static/media/components/pickers/components_pickers_time1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="time-pickers-figure-caption-1">
                         <p>时间选择器：亮色主题，竖屏</p>
                       </figcaption>
                     </figure>
@@ -207,16 +219,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="time-pickers-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/pickers/components_pickers_time_transition.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/pickers/components_pickers_time_transition.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="time-pickers-figure-caption-2">
                         <p>时间选择器</p>
                       </figcaption>
                     </figure>
@@ -231,10 +243,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_time2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 56.9736842105%">
+                          <img alt="" aria-describedby="time-pickers-figure-caption-3" src="<?php static_url('../static/media/components/pickers/components_pickers_time2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="time-pickers-figure-caption-3">
                         <p>时间选择器：亮色主题，横屏</p>
                       </figcaption>
                     </figure>
@@ -246,10 +260,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_time3.png'); ?>"/>
+                      <div class="media" style="max-width: 1522px">
+                        <div class="frame " style="padding-top: 84.2312746386%">
+                          <img alt="" aria-describedby="time-pickers-figure-caption-4" src="<?php static_url('../static/media/components/pickers/components_pickers_time3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="time-pickers-figure-caption-4">
                         <p>时间选择器：暗色主题，竖屏</p>
                       </figcaption>
                     </figure>
@@ -261,10 +277,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers_time4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 56.9736842105%">
+                          <img alt="" aria-describedby="time-pickers-figure-caption-5" src="<?php static_url('../static/media/components/pickers/components_pickers_time4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="time-pickers-figure-caption-5">
                         <p>时间选择器：暗色主题，横屏</p>
                       </figcaption>
                     </figure>
