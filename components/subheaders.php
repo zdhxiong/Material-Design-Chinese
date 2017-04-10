@@ -26,8 +26,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt=""  src="<?php static_url('../static/media/components/subheaders/components_subheaders.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt=""  src="<?php static_url('../static/media/components/subheaders/components_subheaders.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -75,10 +77,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 80.0%">
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="list-subheaders-figure-caption-1">
                         <p>灰色副标题</p>
                         <p>内边距：16dp<br>
                           副标题瓦片高度：48dp</p>
@@ -87,10 +91,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-2" src="<?php static_url('../static/media/components/subheaders/components_subheaders2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="list-subheaders-figure-caption-2">
                         <p>邮件收件箱中的灰色副标题</p>
                       </figcaption>
                     </figure>
@@ -104,10 +110,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 80.0%">
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-3" src="<?php static_url('../static/media/components/subheaders/components_subheaders3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="list-subheaders-figure-caption-3">
                         <p>含有左对齐的浮动操作按钮时，副标题和文本内容对齐。</p>
                         <p>副标题瓦片高度：48dp<br>
                           浮动操作按钮瓦片宽度：72dp</p>
@@ -116,10 +124,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-4" src="<?php static_url('../static/media/components/subheaders/components_subheaders4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="list-subheaders-figure-caption-4">
                         <p>这个副标题使用应用的主色，并且和文本对齐，因为它有一个左对齐的浮动操作按钮。</p>
                       </figcaption>
                     </figure>
@@ -149,20 +159,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="grid-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-subheaders-figure-caption-1">
                         <p>这个副标题和左边缘有 16dp 的间距。网格副标题瓦片的高度是 48dp。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="grid-subheaders-figure-caption-2" src="<?php static_url('../static/media/components/subheaders/components_subheaders6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-subheaders-figure-caption-2">
                         <p>用于表示相册中的月份的网格副标题</p>
                       </figcaption>
                     </figure>
@@ -193,10 +207,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 57.7777777778%">
+                          <img alt="" aria-describedby="menu-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="menu-subheaders-figure-caption-1">
                         <p>菜单副标题规格</p>
                         <p>副标题和左边缘的间距：16dp<br>
                           瓦片高度：48dp</p>
@@ -205,10 +221,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/subheaders/components_subheaders8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="menu-subheaders-figure-caption-2" src="<?php static_url('../static/media/components/subheaders/components_subheaders8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="menu-subheaders-figure-caption-2">
                         <p>菜单副标题示例</p>
                       </figcaption>
                     </figure>
