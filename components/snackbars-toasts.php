@@ -30,8 +30,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -79,20 +81,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 35.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 35.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -106,20 +112,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -132,20 +142,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 35.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 35.5555555556%">
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -158,32 +172,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="usage-figure-caption-7" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="usage-figure-caption-8" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -201,32 +215,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="usage-figure-caption-9" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-9">
                         <p>两个有不同内容的连续的 snackbar。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="usage-figure-caption-10" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-10">
                         <p>两个有相同内容的连续的 snackbar。</p>
                       </figcaption>
                     </figure>
@@ -262,20 +276,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-1">
                         <p>移动端的 snackbar</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-2">
                         <p>移动端的 snackbar</p>
                       </figcaption>
                     </figure>
@@ -285,16 +303,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="specs-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p>移动端的 snackbar 动画</p>
                       </figcaption>
                     </figure>
@@ -307,10 +325,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile3.png'); ?>"/>
+                      <div class="media" style="max-width: 1280px">
+                        <div class="frame " style="padding-top: 56.25%">
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-4">
                         <p>横屏状态下的移动端 snackbar</p>
                       </figcaption>
                     </figure>
@@ -320,10 +340,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 88.1578947368%">
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-5">
                         <p>移动端的 snackbar 的规格</p>
                       </figcaption>
                     </figure>
@@ -347,10 +369,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.9473684211%">
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-6">
                         <p>一个居中对齐的平板/桌面端 snackbar</p>
                       </figcaption>
                     </figure>
@@ -360,10 +384,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.9473684211%">
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-7">
                         <p>一个居中对齐的平板/桌面端 snackbar</p>
                       </figcaption>
                     </figure>
@@ -373,10 +399,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1-left.png'); ?>"/>
+                      <div class="media" style="max-width: 2111px">
+                        <div class="frame " style="padding-top: 28.943628612%">
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1-left.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-8">
                         <p>一个左对齐的平板/桌面端 snackbar</p>
                       </figcaption>
                     </figure>
@@ -386,10 +414,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2-left.png'); ?>"/>
+                      <div class="media" style="max-width: 2111px">
+                        <div class="frame " style="padding-top: 28.943628612%">
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2-left.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-9">
                         <p>一个左对齐的平板/桌面端的 snackbar</p>
                       </figcaption>
                     </figure>
@@ -399,10 +429,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 67.3684210526%">
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-10">
                         <p>平板/桌面端的 snackbar 规格</p>
                         <p>Snackbar 高度：48dp<br>
                           Snackbar 左右内边距：24dp<br>
@@ -416,16 +448,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 73.5526315789%">
+                          <video aria-describedby="specs-figure-caption-11" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-11">
                         <p>平板/桌面端的 snackbar 动画</p>
                       </figcaption>
                     </figure>
