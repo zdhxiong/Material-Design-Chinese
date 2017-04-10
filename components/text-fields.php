@@ -4,34 +4,33 @@
   <section class="grid_outer chapter">
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
-
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
         <div>
-          <p>文本框允许用户输入文本，<a href="../patterns/selection.html">选择文本</a>，和通过自动完成查找数据。</p>
           <div class="col-list">
             <section class="module-module-figure col-3">
               <div class="module">
-                <p>文本框通常出现在表单中。</p>
-                <p>用户可以输入文本、数值或者混合格式的数据。</p>
+                <p>文本框允许用户输入、编辑和选择文本。</p>
+                <p>文本框通常出现在表单中，但也可以出现在其他地方，例如对话框和搜索框。</p>
               </div>
               <div class="module">
-                <h3><strong>文本框类型</strong></h3>
+                <h3>用法</h3>
+                <p>文本框可以对输入进行验证、帮助修复错误的输入、自动完成输入的词、以及提供输入建议。</p>
+                <h3>文本框类型</h3>
                 <p>单行<br>
                   多行<br>
-                  全宽</p>
-                <h3><strong>可用的功能</strong></h3>
-                <p>字数统计<br>
-                  自动完成<br>
-                  搜索过滤<br>
-                  必填字段<br>
-                  密码隐藏</p>
+                  文本区域</p>
+                <h3>输入类型</h3>
+                <p>格式化输入<br>
+                  嵌套菜单 & 选择器</p>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/text-fields/components_text_fields.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="alt-text" src="<?php static_url('../static/media/components/text-fields/components_text_fields.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -44,46 +43,34 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-input" data-qp-ui-data-id="qp:1">输入</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-principles" data-qp-ui-data-id="qp:1">原则</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-labels" data-qp-ui-data-id="qp:2">标签</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-layout" data-qp-ui-data-id="qp:2">布局</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-style" data-qp-ui-data-id="qp:3">样式</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-states" data-qp-ui-data-id="qp:3">状态</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-single-line-text-field" data-qp-ui-data-id="qp:4">单行文本框</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-field-types" data-qp-ui-data-id="qp:4">文本框类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-multi-line-text-field" data-qp-ui-data-id="qp:5">多行文本框</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-input-types" data-qp-ui-data-id="qp:5">输入类型</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-full-width-text-field" data-qp-ui-data-id="qp:6">全宽文本框</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-field-variations" data-qp-ui-data-id="qp:6">文本框变体</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-character-counter" data-qp-ui-data-id="qp:7">字数统计</a>
-          </li>
-          <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-auto-complete-text-field" data-qp-ui-data-id="qp:8">自动完成文本框</a>
-          </li>
-          <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-search-filter" data-qp-ui-data-id="qp:9">搜索过滤</a>
-          </li>
-          <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-required-fields" data-qp-ui-data-id="qp:10">必填字段</a>
-          </li>
-          <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-password-input" data-qp-ui-data-id="qp:11">密码输入</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="text-fields.html#text-fields-text-field-boxes" data-qp-ui-data-id="qp:7">文本字段框</a>
           </li>
         </ul>
       </nav>
 
       <div class="article-list">
 
-        <div id="text-fields-input" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+        <div id="text-fields-principles" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
-            输入
+            原则
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -92,189 +79,18 @@
           </h2>
           <div class="article-content">
             <div>
-              <div class="col-list">
-                <section class="module-figure-module col-3">
-                  <div class="module">
-                    <p>触摸文本框会发生两个操作：</p>
-                    <ul class="lst-kix_wp975o1wwfq0-0 start">
-                      <li>把光标放入文本框</li>
-                      <li>显示键盘</li>
-                    </ul>
-                    <h2>文本框剖析</h2>
-                    <ul class="lst-kix_de6zx7992hd7-0 start">
-                      <li><strong>标签</strong>描述每个字段中需要输入的类型</li>
-                      <li><strong>提示文本</strong>是占位符文本，表明需要的信息的类型，有时在表单中以示例的形式显示</li>
-                      <li><strong>帮助文本</strong>出现在输入字段的下方，用于提供附加的上下文</li>
-                    </ul>
-                    <h2>输入类型</h2>
-                    <p>文本框的类型决定了字段内允许输入什么样的字符。可以针对频繁使用的字符优化虚拟键盘布局。</p>
-                    <p>需要优化的常见输入类型包括：</p>
-                    <ul class="lst-kix_ndp28ou2ow42-0 start">
-                      <li>数值：手机号、信用卡号、PIN</li>
-                      <li>文本：专有名称、用户名、链接</li>
-                      <li>混合格式：邮件地址、街道地址、搜索词</li>
-                    </ul>
-                    <h2>自动大写</h2>
-                    <p>如果语言环境需要、或在适当的时候，文本框中的第一个字母应大写，每个句子的第一个字母也一样。例如，在如下的场景中尤其要注意：</p>
-                    <ul class="lst-kix_6sfpgcsqxyz9-0 start">
-                      <li>用于命名某些内容，例如蓝牙设备，用户，指纹或闹钟</li>
-                      <li>包含像句子一样的消息，例如短信</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_anatomy.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>1. 标签<br>
-                        2. 提示文本<br>
-                        3. 帮助文本</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="module"></div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-labels" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            标签
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <p>当用户使用文本输入框时，浮动内联标签会浮动到字段上方。</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels1.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>浮动内联标签</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>浮动内联标签</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
               <div class="col-list">
                 <section class="module-module col-2">
                   <div class="module">
-                    <h1>标签颜色</h1>
-                    <p>标签颜色应该反映应用的<a href="../style/color.html">配色</a>，同时要有适当的对比度。</p>
+                    <p>文本框应具有以下特征：</p>
                   </div>
-                  <div class="module"></div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
                   <div class="module">
-                    <h1>亮色主题</h1>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels3.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>亮色主题下的浮动内联标签的状态包括：普通状态下含提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module"><h1>暗色主题</h1></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>暗色主题下的浮动内联标签的状态包括：普通状态下的提示文本/标签，聚焦状态，普通状态下输入文本，标签和禁用状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <h1>规格</h1>
-                    <p><strong>浮动标签</strong></p>
-                    <ul class="lst-kix_id4u72goxoo2-0 start">
-                      <li>Roboto Regular 12sp</li>
-                    </ul>
-                    <p><strong>提示和输入文本</strong></p>
-                    <ul class="lst-kix_qvs1r256gftv-0 start">
-                      <li>常规标签：Roboto Regular 16sp</li>
-                      <li>密集型标签：Roboto Regular 13sp</li>
-                    </ul>
-                    <p>在聚焦到输入框之前，浮动标签文本为 16sp（密集型标签为 13sp）。聚焦到输入框后，标签移动到输入框上方，且标签文本变为 12sp（常规和密集型文本都是如此）。</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels5.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p><strong>浮动标签<br>
-                          </strong>瓦片高度：72dp</p>
-                        <p><strong>标签文本</strong><br>
-                          字体大小：12sp<br>
-                          上方边距：16dp<br>
-                          下方边距：8dp<br></p>
-                        <p><strong>提示和输入文本</strong><br>
-                          字体大小：16sp<br>
-                          下方边距：8dp</p>
-                        <p><strong>输入线</strong><br>
-                          下方边距：8dp</p>
-                        <p><br></p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_labels5_dense_2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p><strong>密集型浮动标签<br>
-                          </strong>瓦片高度：60dp<br></p>
-                        <p><strong>标签文本<br>
-                          </strong>字体大小：12sp<br>
-                          上方边距：12dp<br>
-                          下方边距：4dp<br>
-                          <br>
-                          <strong>提示和输入文本</strong><br>
-                          字体大小：13sp<br>
-                          下方边距：12dp<br></p>
-                        <p><strong>输入线</strong><br>
-                          下方边距：4dp</p>
-                      </figcaption>
-                    </figure>
+                    <h1>可识别</h1>
+                    <p>文本框应使用可点击的触摸目标，指示用户可以输入信息。</p>
+                    <h1>容易找到</h1>
+                    <p>应该要能很容易的在其他元素中找到文本框。</p>
+                    <h1>可读的</h1>
+                    <p>文本框应该指明其状态 - 启用还是禁用、为空还是已有文本输入、通过验证还是未通过验证 - 具有清晰的标签、输入框和辅助文本。</p>
                   </div>
                 </section>
               </div>
@@ -282,9 +98,9 @@
           </div>
         </div>
 
-        <div id="text-fields-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            样式
+        <div id="text-fields-layout" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
+            布局
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -293,545 +109,71 @@
           </h2>
           <div class="article-content">
             <div>
-              <div class="col-list">
-                <section class="module col-1">
-                  <div class="module">
-                    <h1>密集型</h1>
-                    <p>当鼠标和键盘作为主要的输入方式时，可以压缩尺寸以适应更密集的布局。</p>
-                  </div>
-                </section>
-                <section class="module col-1">
-                  <div class="module">
-                    <h1>颜色</h1>
-                    <p>文本框应该反映产品的<a href="../style/color.html">色调</a>。推荐使用下列颜色：</p>
-                    <ul class="lst-kix_qlbh83jeu10g-0 start">
-                      <li><strong>文本框和文本光标</strong>：使用调色板中的强调色，或者高对比度的颜色</li>
-                      <li><strong>错误状态</strong>：错误状态使用高对比度的颜色，例如较暖的颜色（如红色或橙色）</li>
-                    </ul>
-                  </div>
-                </section>
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <table class="s-tag-table">
-                      <tbody>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>亮色主题 - 暗色文本（#000000）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>正常状态</p></td>
-                        <td colspan="1" rowspan="1"><p>38%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>鼠标悬停状态</p></td>
-                        <td colspan="1" rowspan="1"><p>54%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>按下状态</p></td>
-                        <td colspan="1" rowspan="1"><p>54%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>聚焦状态</p></td>
-                        <td colspan="1" rowspan="1"><p>87%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>含输入文本的正常状态</p></td>
-                        <td colspan="1" rowspan="1"><p>87%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>错误状态</p></td>
-                        <td colspan="1" rowspan="1"><p>100%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>禁用状态</p></td>
-                        <td colspan="1" rowspan="1"><p>38%</p></td>
-                      </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="module">
-                    <table class="s-tag-table">
-                      <tbody>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>暗色主题 - 亮色文本（#ffffff）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>正常状态</p></td>
-                        <td colspan="1" rowspan="1"><p>50%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>鼠标悬停状态</p></td>
-                        <td colspan="1" rowspan="1"><p>70%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>按下状态</p></td>
-                        <td colspan="1" rowspan="1"><p>70%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>聚焦状态</p></td>
-                        <td colspan="1" rowspan="1"><p>100%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>含输入文本的正常状态</p></td>
-                        <td colspan="1" rowspan="1"><p>100%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>错误状态</p></td>
-                        <td colspan="1" rowspan="1"><p>100%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>禁用状态</p></td>
-                        <td colspan="1" rowspan="1"><p>50%</p></td>
-                      </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="module"></div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-single-line-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
-            单行文本框
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
+              <p>文本框包含以下元素：</p>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>单行文本框</h1>
-                    <p>单行文本框在光标到达输入框右侧边缘时，会自动把文本向左侧滚动。</p>
+                    <h1>标签</h1>
+                    <p>文本框标签显示字段所需的输入类型。每个文本框都应该有一个标签。</p>
+                    <p>标签和输入线对齐，且始终可见。它们可以处于静止状态（当禁用文本框或文本字段为空时）或浮动状态。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single1.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>单行文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>单行文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <p>文本框的颜色应该反映应用的色调。</p>
-                    <h1>亮色主题</h1>
-                    <ul class="lst-kix_qdpl7zkwcukg-0 start">
-                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
-                      <li>瓦片高度：48dp</li>
-                      <li>文本上方和下方边距：16dp</li>
-                      <li>文本框分隔符边距：8dp</li>
-                      <li>按下状态的提示文本：54% 黑色</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>亮色主题的单行文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>暗色主题</h1>
-                    <ul class="lst-kix_qdpl7zkwcukg-0">
-                      <li>按下状态的帮助文本：70% 白色</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single5.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>暗色主题的单行文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single6.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>单行文本框</p>
-                        <p>高度：48dp<br>
-                          文本上下两边边距：16dp<br>
-                          分隔线下方边距：8dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single6_dense.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>密集型单行文本框</p>
-                        <p>提示和输入文本：13sp<br>
-                          高度：40dp<br>
-                          文本上下两边边距：12dp<br>
-                          分隔线下方边距：4dp<br></p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>含图标的亮色主题文本框</h1>
-                    <ul class="lst-kix_e7t6767m6fz9-0 start">
-                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
-                      <li>瓦片高度：48dp</li>
-                      <li>文本上下两边边距：16dp</li>
-                      <li>文本框分隔线边距：8dp</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single7.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>亮色主题下的：普通状态的提示文本、聚焦状态、含输入文本的普通状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>含图标的暗色主题文本框</h1></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single8.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>暗色主题下的：普通状态提示文本、聚焦状态、含输入文本的普通状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single9.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>含图标的单行文本框</p>
-                        <p>高度：48dp<br>
-                          文本上下两边边距：16dp<br>
-                          分隔线下方边距：8dp<br>
-                          图标：24dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_single9_dense.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>含图标的密集型单行文本框</p>
-                        <p>提示和输入文本：13sp<br>
-                          高度：40dp<br>
-                          文本上下两边边距：12dp<br>
-                          分隔线下方边距：4dp<br>
-                          图标：20dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-multi-line-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
-            多行文本框
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
-                <section class="module-figure-module col-3">
-                  <div class="module">
-                    <p>多行文本框会自动把文本换行，当光标到达文本框底部边缘时，会垂直滚动。</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>多行文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="module"></div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <p>文本框的颜色应该体现应用的配色方案。</p>
-                    <h1>亮色主题</h1>
-                    <ul class="lst-kix_5i8cjrynp4k3-0 start">
-                      <li>提示和输入文本字体：Roboto Regular 16sp</li>
-                      <li>标签字体：Roboto Regular 12sp</li>
-                      <li>文本上下两边边距：16dp</li>
-                      <li>文本框分隔线边距：8dp</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline3.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>亮色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>暗色主题</h1></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>暗色主题的多行文本框：含提示文本的普通状态、聚焦状态、含多行输入文本的普通状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline5.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>暗色主题规格：</p>
-                        <p>标签上下两边边距：16dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_multiline5_dense.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>密集型暗色主题规格：</p>
-                        <p>标签和输入文本：13sp<br>
-                          标签文本的上下两边边距：12dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-full-width-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
-            全宽文本框
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <p>全宽文本框用于更深入的任务。</p></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full1.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>全宽文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>全宽文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>单行和多行文本框</h1>
-                    <ul class="lst-kix_3e5kow19847j-0 start">
-                      <li>提示和输入文本：Roboto Regular 16sp</li>
-                      <li>文本的上下两边边距：20dp</li>
-                    </ul>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full3.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>单行和多行文本框的以下状态：普通状态、聚焦状态、含多行输入文本的普通状态</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>全宽单行文本框的规格：</p>
-                        <p>高度：56dp<br>
-                          文本上下两边边距：20dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_full4_dense.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>密集型全宽单行文本框的规格：</p>
-                        <p>提示和输入文本：13sp<br>
-                          高度：48dp<br>
-                          文本上下两边边距：16dp</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-character-counter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
-            字数统计
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div><p>在有字数限制的字段中使用字数统计。</p>
-              <div class="col-list">
-                <section class="module-figure-module col-3">
-                  <div class="module"><h1>含字数统计的单行文本框</h1>
-                    <p>统计文本：Roboto Regular 12sp</p></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter1.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>含字数统计的单行文本框上，如果显示一根绿线，则说明还没有超过字数限制。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="module">
-                    <h3>
-                      <figure class="s-tag-media">
-                        <div class="media">
-                          <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-1" src="<?php static_url('../static/media/components/text-fields/label_resting_redline.png'); ?>"/>
                         </div>
-                      </figure>
-                    </h3>
-                    <p>含字数统计的单行文本框上，如果显示一根红线，则说明超过了字数限制。</p>
-                  </div>
-                </section>
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <h1>含字数统计的多行文本框</h1>
-                    <p>统计文本：Roboto Regular 12sp</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter3.png'); ?>"/>
                       </div>
-                      <figcaption>
-                        <p>含字数统计的多行文本框，如果显示一根绿线，则说明还没有超过字数限制。</p>
+                      <figcaption id="layout-figure-caption-1">
+                        <p><strong>静止状态的标签文本</strong><br>
+                          顶部内边距：16dp<br>
+                          底部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-2" src="<?php static_url('../static/media/components/text-fields/label_floating_redline.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>含字数统计的多行文本框，如果显示一根红线，则说明已经超过了字数限制。</p>
+                      <figcaption id="layout-figure-caption-2">
+                        <p><strong>浮动状态的标签文本</strong><br>
+                          标签上方内边距：16dp<br>
+                          标签下方内边距：8dp<br>
+                          输入框下方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>输入线</h1>
+                    <p>输入线表示输入文本的位置，它位于标签下方。</p>
+                    <p>当文本框处于聚焦状态或包含错误时，输入线的颜色和厚度会有所不同。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-3" src="<?php static_url('../static/media/components/text-fields/label_resting.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-3">
+                        <p>当文本框为空时，标签位于输入线上方静止显示。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/label_floating.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-4">
+                        <p>当文本框处于聚焦状态或有输入的文本时，标签会向上浮动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -840,15 +182,18 @@
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>含字数统计的全宽文本框</h1>
+                    <h1>光标</h1>
+                    <p>光标指示用户当前输入的位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-5" src="<?php static_url('../static/media/components/text-fields/cursor.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>含字数统计的全宽文本框</p>
+                      <figcaption id="layout-figure-caption-5">
+                        <p>光标位于标签边缘，直到用户开始输入时才会移动。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -856,242 +201,1709 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_counter8.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>单行聚焦状态和多行聚焦状态的文本框</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-auto-complete-text-field" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
-            自动完成文本框
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p>使用自动完成文本框可以在下拉框中实时显示输入建议，以便用户更准确、高校地输入信息。</p>
-                    <p>自动完成对于读写能力有限或拼写有困难的用户尤其有用，尤其在使用非母语的情况下。（有些网页没有提供本地语言版，用户只能使用英语浏览）</p>
+                    <h1>输入文本</h1>
+                    <p>向文本框中键入的文本称为输入文本。</p>
+                    <p>输入文本的第一个字母（以及每一个句子的第一个字母）应在适当的时候大写。例如：</p>
+                    <ul class="lst-kix_p64vnct4r9nx-0 start">
+                      <li>命名一些东西，例如一个闹钟</li>
+                      <li>包含短语，例如短信</li>
+                    </ul>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-6" src="<?php static_url('../static/media/components/text-fields/input.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>自动完成文本框</p>
+                      <figcaption id="layout-figure-caption-6">
+                        <p>在聚焦的文本框中的输入文本</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-7" src="<?php static_url('../static/media/components/text-fields/input_redline.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>下拉框中的自动完成文本</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <h1>内嵌式自动完成</h1>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>内嵌式自动完成</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto5.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>内嵌式自动完成</p>
+                      <figcaption id="layout-figure-caption-7">
+                        <p><strong>输入文本</strong><br>
+                          顶部内边距：8dp<br>
+                          底部内边距：8dp</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <h1>全宽的内联自动完成</h1>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto7.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>含提示文本</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto8.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>聚焦且显示建议</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module">
-                    <h1>内联自动完成</h1>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_auto10.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>内联自动完成</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-search-filter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:9">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:9">
-            搜索过滤
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module">
-                    <p>应用栏可以充当文本框。随着用户的输入，下面的内容会跟着被过滤和排序。</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_search1.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>应用栏充当文本输入框。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_search2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>应用栏充当文本输入框，并对下面的内容进行过滤和排序。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="text-fields-required-fields" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:10">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:10">
-            必填字段
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
-              <title>Expand and collapse content</title>
-              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
-              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
-            </svg>
-          </h2>
-          <div class="article-content">
-            <div>
-              <div class="col-list">
                 <section class="module-figure-module col-3">
-                  <div class="module"><p>通过在字段旁显示星号（*），来指明该字段是必填字段。在表单底部添加一个说明，星号表示必填字段。</p>
-                    <p><strong>帮助文本</strong></p>
-                    <p>帮助文本显示在文本框下面，可以永久显示，也可以在聚焦到文本框时显示。</p>
+                  <div class="module">
+                    <p>输入文本可以和自动完成一起使用，以帮助读写能力不好的用户、或使用外语输入的用户。例如自动完成可以：</p>
+                    <ul class="lst-kix_jrzyv6q3498m-0 start">
+                      <li>随着用户输入提供输入建议（每次敲击键盘时都刷新建议）</li>
+                      <li>使用默认的输入文本填充字段</li>
+                    </ul>
+                    <p>按下返回按钮即接受当前自动完成显示的文本。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="<?php static_url('../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/text-fields/forms-supportive-content-v3_xhdpi.mp4'); ?>" type="video/mp4">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-8" src="<?php static_url('../static/media/components/text-fields/autocomplete.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-8">
+                        <p>降低建议文本的不透明度，同时保证输入文本完全不透明。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>占位符文本（提示文本）</h1>
+                    <p>占位符文本位于输入框中，直到用户开始输入文本。它可以显示一个操作或示例，例如一个手机号或邮件地址。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-9" src="<?php static_url('../static/media/components/text-fields/placeholder.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-9">
+                        <p>占位符文本可以在空的文本框中显示，直到用户输入。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/placeholder_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-10">
+                        <p><strong>占位符文本<br>
+                          </strong>标签上方内边距：16dp<br>
+                          占位符文本上方内边距：8dp<br>
+                          占位符文本下方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>帮助文本</h1>
+                    <p>帮助文本提供文本框的有关信息，例如输入的文本会被用在哪里。</p>
+                    <p>它应该持续显示、或只在聚焦时显示。</p>
+                    <p>规格：</p>
+                    <ul class="lst-kix_j55ccbwjwiww-0 start">
+                      <li>左对齐</li>
+                      <li>如果可能的话，尽量保持在单行；有多行文本时，也可以使用换行</li>
+                    </ul>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-11" src="<?php static_url('../static/media/components/text-fields/helper.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-11">
+                        <p>帮助文本可以在文本框下方提供额外的信息。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-12" src="<?php static_url('../static/media/components/text-fields/helper_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-12">
+                        <p><strong>帮助文本<br>
+                          </strong>帮助文本上方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure col-2">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-13" src="<?php static_url('../static/media/components/text-fields/placeholder_helper.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-13">
+                        <p>帮助文本可以借助占位符文本来指导用户进行输入。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>错误信息</h1>
+                    <p>当输入存在错误时，可以在输入线下方显示错误信息，并提供如何修复错误的说明。在错误修复之前，错误信息将代替帮助文本。</p>
+                    <p>如果可能的话，错误信息应尽量显示在一行内。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-14" src="<?php static_url('../static/media/components/text-fields/error.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-14">
+                        <p>错误信息会指导用户修复错误的输入。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-15" src="<?php static_url('../static/media/components/text-fields/error_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-15">
+                        <p><strong>错误信息</strong> <br>
+                          错误信息上方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>错误信息前面带有 “Error” 文本（或者一个错误图标），以使色盲能更清楚的看到错误状态。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-16" src="<?php static_url('../static/media/components/text-fields/error_word.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-16">
+                        <p>在错误信息之前的 “Error:” （包含冒号）</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-17" src="<?php static_url('../static/media/components/text-fields/error_icon.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-17">
+                        <p>错误信息内包含错误图标</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>必填字段</h1>
+                    <p>要指示一个字段是必填的，请在标签旁边显示一个星号（*）。在表单底部，写上星号表示必填字段。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-18" src="<?php static_url('../static/media/components/text-fields/required_resting.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-18">
+                        <p>空的文本框中的必填星号指示符</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-19" src="<?php static_url('../static/media/components/text-fields/required_floating.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-19">
+                        <p>已输入的文本框中的必填星号指示符。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>要指示一个字段是可选的，请在标签旁边添加文本 “可选”。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-20" src="<?php static_url('../static/media/components/text-fields/optional_resting.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-20">
+                        <p>空文本框中指示可选的文本</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-21" src="<?php static_url('../static/media/components/text-fields/optional_floating.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-21">
+                        <p>已输入的文本框中指示可选的文本</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>表单中有少量的必填字段时，指示出所有的必填字段。但是，如果只有少量的可选字段，则指示出所有的可选字段，而不必指示出必填字段。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-34" src="<?php static_url('../static/media/components/text-fields/required_example.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-34">
+                        <p>Name 和 zip code 是表单中仅有的必填字段。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-35" src="<?php static_url('../static/media/components/text-fields/optional_example.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-35">
+                        <p>Description 是表单中唯一的可选字段。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>字符计数器</h1>
+                    <p>文本框有字数限制时，可以使用字符计数器。</p>
+                    <p>规格：</p>
+                    <ul class="lst-kix_bz9scphgshi2-0 start">
+                      <li>右对齐</li>
+                      <li>显示已输入的字符和字符限制之间的比例（格式为：已输入字符 / 字符限制）</li>
+                    </ul>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-22" src="<?php static_url('../static/media/components/text-fields/character_counter.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-22">
+                        <p>字符计数器显示最多可输入 10 个字符，已输入了 5 个。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-23" src="<?php static_url('../static/media/components/text-fields/character_counter_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-23">
+                        <p><strong>字符计数器<br>
+                          </strong>输入线下方内边距：8dp </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>图标符号</h1>
+                    <p>图标描述了文本框需要的输入类型。它们显示在文本框左侧。</p>
+                    <p>图标也可以作为的触摸目标。例如，日历图标可以在触摸时展开日期选择器。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-24" src="<?php static_url('../static/media/components/text-fields/icon.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-24">
+                        <p>日历图标表示此文本框用于输入日期。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-25" src="<?php static_url('../static/media/components/text-fields/icon_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-25">
+                        <p><strong>图标符号<br>
+                          </strong>宽度：24dp<br>
+                          图标符号和标签之间的间距：16dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>语音输入图标</h1>
+                    <p>麦克风图标表示用户可以使用语音输入。</p>
+                    <p>语音输入图标右对齐，始终启用。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-26" src="<?php static_url('../static/media/components/text-fields/voice.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-26">
+                        <p>点击图标后，用户可以使用语音进行输入。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-27" src="<?php static_url('../static/media/components/text-fields/voice_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-27">
+                        <p><strong>语音输入图标<br>
+                          </strong>宽度：24dp<br>
+                          图标下方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>下拉图标</h1>
+                    <p>下拉箭头表示文本框包含一个嵌套的下拉选择。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-28" src="<?php static_url('../static/media/components/text-fields/dropdown.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-28">
+                        <p>点击下拉箭头，可以展开嵌套的下拉选择组件。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-29" src="<?php static_url('../static/media/components/text-fields/dropdown_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-29">
+                        <p><strong>下拉箭头容器<br>
+                          </strong>宽度：24dp<br>
+                          高度：24dp<br>
+                          图标底部内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>清除按钮</h1>
+                    <p>清除按钮可以使用户清空整个输入字段。</p>
+                    <p>它们在文本框中右对齐。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-30" src="<?php static_url('../static/media/components/text-fields/clear.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-30">
+                        <p>当在文本框中输入字符后，清除图标将启用。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-31" src="<?php static_url('../static/media/components/text-fields/clear_redline.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-31">
+                        <p><strong>清除图标<br>
+                          </strong>宽度：24dp<br>
+                          高度：24dp<br>
+                          图标底部内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>在具有很多个字段的表单中，可以缩短文本框。</p>
+                    <p>规格：</p>
+                    <ul class="lst-kix_ier9rsmt4jr4-0 start">
+                      <li>输入文本：13sp</li>
+                      <li>减少标签和输入文本之间的间距</li>
+                      <li>减少输入文本和帮助文本之间的间距，减少到 50%</li>
+                    </ul>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-32" src="<?php static_url('../static/media/components/text-fields/nondense.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-32">
+                        <p><strong>正常间距<br>
+                          </strong>标签上方内边距：16dp<br>
+                          标签下方内边距：8dp<br>
+                          输入线上方内边距：8dp<br>
+                          输入线下方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="layout-figure-caption-33" src="<?php static_url('../static/media/components/text-fields/dense.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="layout-figure-caption-33">
+                        <p><strong>密集型间距<br>
+                          </strong>标签上方内边距：8dp<br>
+                          标签下方内边距：4dp<br>
+                          输入线上方内边距：8dp<br>
+                          输入线下方内边距：4dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="text-fields-states" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+            状态
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+              <title>Expand and collapse content</title>
+              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+            </svg>
+          </h2>
+          <div class="article-content">
+            <div>
+              <div class="col-list">
+                <section class="module-figure col-2">
+                  <div class="module">
+                    <p>文本框有两个主要状态：启用或禁用。</p>
+                    <p>在启用状态下，可以使用这些交互：</p>
+                    <ul class="lst-kix_b2tesfhy8leq-0 start">
+                      <li>闲置</li>
+                      <li>鼠标悬停</li>
+                      <li>按下</li>
+                      <li>聚焦</li>
+                    </ul>
+                    <p>文本框输入可以是：</p>
+                    <ul class="lst-kix_b2tesfhy8leq-0">
+                      <li>为空或已输入</li>
+                      <li>通过验证或不通过验证</li>
+                    </ul>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 141.973684211%">
+                          <img alt="alt-text" aria-describedby="states-figure-caption-1" src="<?php static_url('../static/media/components/text-fields/states.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-1">
+                        <p>在亮色和暗色主题中的文本框状态</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <h1>文本框状态</h1>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>启用</strong></p>
+                    <p>默认情况下，启用的文本框为空。</p>
+                    <p>规格</p>
+                    <ul class="lst-kix_29fz7p8qd6kw-0 start">
+                      <li>标签位于输入线上方，且有 8dp 的间距</li>
+                      <li>标签文本和输入文本字体大小相同</li>
+                    </ul>
+                    <p>无障碍功能</p>
+                    <p>输入线应该具有 3:1 的对比度，以提高可识别性，和大文本相同的 AA 级无障碍标准。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-2" src="<?php static_url('../static/media/components/text-fields/empty_idle_light.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-2">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0 start">
+                          <li>厚度：1dp</li>
+                          <li>颜色：42% 黑色（3:1 的对比度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>类型：Roboto 16sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：16dp 的顶部内边距，8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：16dp 的左侧内边距，8dp 的顶部内边距</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-3" src="<?php static_url('../static/media/components/text-fields/empty_idle_dark.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-3">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：1dp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：16dp 的顶部内边距，8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：16dp 的左侧内边距，8dp 的顶部内边距</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>禁用</strong></p>
+                    <p>禁用的文本框是不能编辑的。它们使用虚线作为输入线，以及使用较低的不透明度，使它们看起来不可点击。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/disabled_light.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-4">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：1dp</li>
+                          <li>颜色：42% 黑色</li>
+                          <li>虚线</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：42% 黑色（3:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：42% 黑色（3:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-5" src="<?php static_url('../static/media/components/text-fields/disabled_dark.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-5">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：1dp</li>
+                          <li>颜色：70% 白色</li>
+                          <li>虚线</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：50% 白色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：50% 白色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <h1>用户交互</h1>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>鼠标悬停</strong></p>
+                    <p>悬停状态给了输入线更多的不透明度，使文本框在桌面端更加醒目。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-6" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-HoverLight-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-HoverLight-01.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
-                        <p>必填字段标有星号。帮助文本可以在聚焦到文本框时显示，也可以永久显示。</p>
+                      <figcaption id="states-figure-caption-6">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：87% 黑色（15:1 的对比度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
                       </figcaption>
                     </figure>
-                  </div>
-                  <div class="module"></div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-module col-3">
-                  <div class="module">
-                    <h1>提示文本</h1>
-                    <p>提示文本应该显示文本框需要的信息类型。它可以以示例的形式显示，例如占位符电话号码或 URL。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_required6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-7" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-HoverDark-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-HoverDark-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>提示文本给出了文本和数字的示例。提示文本也可以是一个下拉菜单，用户可以输入并从中选择、或者直接从中选择。</p>
+                      <figcaption id="states-figure-caption-7">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 白色（13:1 的不透明度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
                       </figcaption>
                     </figure>
                   </div>
-                  <div class="module"></div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>按下</strong></p>
+                    <p>按下时，文本框标签缩小并浮动到字段上方，显示出光标和占位符文本。</p>
+                    <p>为了指示出该字段已被激活，在输入线、标签文本和光标上使用 UI 的主色。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-8" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-PressLight-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-PressLight-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-8">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 主色（暗色 A700）</li>
+                          <li>动效：涟漪</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：87% 主色（暗色 A700）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>占位符文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：42% 黑色（3:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-9" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-PressDark-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-PressDark-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-9">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 主色（亮色 A200）</li>
+                          <li>动效：涟漪</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：100% 主色（亮色 A200）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>占位符文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：50% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>聚焦</strong></p>
+                    <p>当用户在文本框中输入文本时，输入的文本会代替占位符文本。自动完成的文本显示在光标的右侧，且使用和占位符文本相同的字体大小和颜色。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/focus_light.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-10">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 主色（暗色 A700）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：87% 主色（深色 A700）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：87% 黑色（15:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-11" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-FocusDark-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-FocusDark-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-11">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 主色（亮色 A200）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：100% 主色（亮色 A200）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：100% 黑色（13:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <h1>文本框输入</h1>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>闲置和已输入</strong></p>
+                    <p>当用户把焦点切换到另一个元素时，已输入的文本会保持可见。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-12" src="<?php static_url('../static/media/components/text-fields/filled_idle_light.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-12">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：1dp</li>
+                          <li>颜色：42% 黑色（3:1 的对比度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：87% 黑色（15:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：54% 黑色（4.5:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-13" src="<?php static_url('../static/media/components/text-fields/filled_idle_dark.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-13">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：1dp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：100% 黑色（13:1 的对比度）</li>
+                          <li>间距：8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>帮助文本（可选）</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：70% 白色（7:1 的对比度）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <h1>文本框内容</h1>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>错误</strong></p>
+                    <p>如果文本框没有通过验证，当用户将焦点移动到另一个元素时，会显示错误信息。要指示一个错误，可以在输入线和标签上使用较暖色调的颜色，例如红色或橙色。</p>
+                    <p>规格</p>
+                    <ul class="lst-kix_2j02fzonbk0f-0 start">
+                      <li>在文本框下方显示错误信息，代替帮助文本</li>
+                      <li>简要说明错误的原因，以及如何解决错误</li>
+                      <li>在错误信息前添加 “Error”（或者错误图标）</li>
+                      <li>一旦用户修复了错误，就删除错误信息</li>
+                    </ul>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="states-figure-caption-14" src="<?php static_url('../static/media/components/text-fields/error_light.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-14">
+                        <p><strong>亮色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 红色（A400）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：100% 红色（A400）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：87% 黑色（15:1 的对比度）</li>
+                          <li>间距：16dp 的左侧内边距，8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>错误文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：87% 红色（A400）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="states-figure-caption-15" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-ErrorDark-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-ErrorDark-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="states-figure-caption-15">
+                        <p><strong>暗色主题</strong></p>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>厚度：2dp</li>
+                          <li>颜色：100% 红色（A400）</li>
+                        </ul>
+                        <p><strong>标签文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：100% 红色（A400）</li>
+                          <li>间距：16dp 的顶部内边距和 8dp 的底部内边距，和输入线对齐</li>
+                        </ul>
+                        <p><strong>输入文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 16sp</li>
+                          <li>颜色：100% 黑色（13:1 的对比度）</li>
+                          <li>间距：16dp 的左侧内边距，8dp 的底部内边距</li>
+                        </ul>
+                        <p><strong>错误文本</strong></p>
+                        <ul class="lst-kix_p1l194w35jr3-0">
+                          <li>字体：Roboto 12sp</li>
+                          <li>颜色：100% 红色（A400）</li>
+                          <li>间距：8dp 的顶部内边距，和输入线对齐</li>
+                        </ul>
+                      </figcaption>
+                    </figure>
+                  </div>
                 </section>
               </div>
             </div>
           </div>
         </div>
 
-        <div id="text-fields-password-input" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:11">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:11">
-            密码输入
+        <div id="text-fields-field-types" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+            文本框类型
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+              <title>Expand and collapse content</title>
+              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+            </svg>
+          </h2>
+          <div class="article-content">
+            <div>
+              <p>文本框有多种类型：</p>
+              <ul class="lst-kix_vmjlvvlil7xn-0 start">
+                <li>单行</li>
+                <li>多行</li>
+                <li>文本区域</li>
+              </ul>
+              <div class="col-list">
+                <section class="module-figure-module col-3">
+                  <div class="module">
+                    <p><strong>单行文本框</strong></p>
+                    <p>当输入的文本长度超过文本框的长度时，当光标到达文本框右边缘时，它会自动向左滚动。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="field-types-figure-caption-1" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-SingleLine-Long-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-SingleLine-Long-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-1">
+                        <p>当光标达到单行文本框的右侧时，输入文本会向左滚动。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-5" src="<?php static_url('../static/media/components/text-fields/single1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-5">
+                        <p>单行文本框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-6" src="<?php static_url('../static/media/components/text-fields/single2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-6">
+                        <p>单行文本框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-module col-3">
+                  <div class="module">
+                    <p><strong>多行文本框</strong></p>
+                    <p>多行文本框通过扩展文本框的底部，把文本换行到新的一行上，并把屏幕中位于文本框下方的元素向下移动。</p>
+                    <p>多行文本框允许用户一次性看到他们输入的所有内容。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="field-types-figure-caption-2" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-MultiLine-Long-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-MultiLine-Long-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-2">
+                        <p>当光标到达文本框右侧时，输入文本换行到新的一行，并使该文本框增高。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-7" src="<?php static_url('../static/media/components/text-fields/multi2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-7">
+                        <p>多行文本框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-8" src="<?php static_url('../static/media/components/text-fields/multi1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-8">
+                        <p>多行文本框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-module col-3">
+                  <div class="module">
+                    <p><strong>文本区域</strong></p>
+                    <p>文本区域比文本框要高，并可将溢出的文本换行到新行上。当光标到达文本区域的底部时，它们会垂直滚动。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="field-types-figure-caption-3" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-TextArea-01.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-TextArea-01.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-3">
+                        <p>当光标到达文本区域的右下角时，输入文本会向上滚动。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-9" src="<?php static_url('../static/media/components/text-fields/area1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-9">
+                        <p>此消息框是一个文本区域</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/area2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-10">
+                        <p>此消息框是一个文本区域</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure col-2">
+                  <div class="module">
+                    <p>文本区域应该有一个可见的边框，边框颜色和厚度和输入线相同。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 165.263157895%">
+                          <img alt="alt-text" aria-describedby="field-types-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/area_states.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-types-figure-caption-4">
+                        <p>亮色和暗色状态的文本区域</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="text-fields-input-types" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
+            输入类型
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+              <title>Expand and collapse content</title>
+              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+            </svg>
+          </h2>
+          <div class="article-content">
+            <div>
+              <h1>格式化输入</h1>
+              <p>文本框可以通过使用占位符文本、预设布局、和/或字数限制，来表示可以输入的数据类型。只有在按下、聚焦或输入文本时才应显示文本格式。</p>
+              <p>字符可以使用以下方式进行格式化：</p>
+              <ul class="lst-kix_4ic2tdbhbq28-0 start">
+                <li>分组字符</li>
+                <li>前缀和后缀</li>
+                <li>密码编辑</li>
+              </ul>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>分组字符</strong></p>
+                    <p>输入文本可以以不同的方式进行分组，并在适当的位置添加特殊字符，例如添加到电话号码上的连字符。一旦完成第一个特殊字符，光标会自动跳转到下一个分组。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-1" src="<?php static_url('../static/media/components/text-fields/grouped_characters1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-1">
+                        <p>为了表示电话号码，对输入文本进行了分组和格式化</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-2" src="<?php static_url('../static/media/components/text-fields/grouped_characters2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-2">
+                        <p>为了表示信用卡号码，对输入文本进行了分组和格式化</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>前缀 &amp; 后缀</strong></p>
+                    <p>前缀和后缀可用于明确单位、或添加预输入文本。前缀在文本框中左对齐；后缀在文本框中右对齐。文本框可以同时拥有前缀和后缀。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-3" src="<?php static_url('../static/media/components/text-fields/prefix1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-3">
+                        <p>美元前缀</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/suffix1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-4">
+                        <p>重量后缀</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-5" src="<?php static_url('../static/media/components/text-fields/suffix2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-5">
+                        <p>邮箱域名后缀</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-6" src="<?php static_url('../static/media/components/text-fields/suffix3.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-6">
+                        <p>时区后缀</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>密码修改</strong></p>
+                    <p>密码输入默认会隐藏密码。每个密码字符都用一个居中的椭圆表示（例如 •••••••）。</p>
+                    <p>当文本框中显示可见性图标时，它指示该字段输入时候是否可见。可以通过该图标来切换文件框输入的可见性。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-7" src="<?php static_url('../static/media/components/text-fields/password1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-7">
+                        <p>当开启可见性时，可见性图标会显示，且密码字符可见。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-8" src="<?php static_url('../static/media/components/text-fields/password2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-8">
+                        <p>当关闭可见性时，可见性图标会显示，且密码字符会隐藏。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <h1>其他输入</h1>
+              <div class="col-list">
+                <section class="module-figure col-2">
+                  <div class="module">
+                    <p><strong>菜单和选择器</strong></p>
+                    <p>其他组件（如下拉<a href="menus.html">菜单</a>和<a href="pickers.html">选择器</a>）可以嵌套在文本框中，使输入更方便。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 65.6578947368%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-9" src="<?php static_url('../static/media/components/text-fields/dropdown2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-9">
+                        <p>用于选择美国状态的文本框下拉菜单</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure col-2">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 94.0789473684%">
+                          <img alt="alt-text" aria-describedby="input-types-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/picker.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="input-types-figure-caption-10">
+                        <p>用于选择日期的文本框选择器</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="text-fields-field-variations" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
+            文本框变体
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+              <title>Expand and collapse content</title>
+              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+            </svg>
+          </h2>
+          <div class="article-content">
+            <div>
+              <p>使用这些样式的变体来把额外的焦点添加到文本框：</p>
+              <ul class="lst-kix_d8afz3ubi8st-0 start">
+                <li>用标签作为标题</li>
+                <li>单独的文本框</li>
+                <li>全宽文本框</li>
+              </ul>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>用标签作为标题</h1>
+                    <p>当文本框是屏幕上的主要操作时，可以移除它的标签，或者把标签当作标题。</p>
+                    <p>占位符文本在闲置状态会出现，在用户输入文本时，输入的文本会代替占位符文本。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-3" src="<?php static_url('../static/media/components/text-fields/extracted_label1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-3">
+                        <p>标签可以从文本框中移除，并作为标题显示。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/extracted_label2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-4">
+                        <p>标签可以从文本框中移除，并作为对话框中的标题显示。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure col-2">
+                  <div class="module">
+                    <h1>单独的文本框</h1>
+                    <p>当文本框只用于单个操作（如 <a href="../patterns/search.html">搜索</a>）时，文本框可以被提升，并将关联的图标置于文本框中。不需要输入线。</p>
+                    <p>在桌面端，在搜索框右侧应该有一个浮动的搜索按钮。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 2156px">
+                        <div class="frame bordered" style="padding-top: 66.4192949907%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-5" src="<?php static_url('../static/media/components/text-fields/single_action1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-5">
+                        <p>桌面端，浮动文本框形式的搜索操作</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-6" src="<?php static_url('../static/media/components/text-fields/single_action2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-6">
+                        <p>移动端，浮动文本框形式的搜索操作</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-7" src="<?php static_url('../static/media/components/text-fields/single_action4.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-7">
+                        <p>应用栏作为文本输入框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure col-2">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1280px">
+                        <div class="frame bordered" style="padding-top: 66.40625%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-8" src="<?php static_url('../static/media/components/text-fields/single_action6.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-8">
+                        <p>应用栏中有一个嵌套的文本输入框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>全宽文本框</h1>
+                    <p>全宽文本框对于更深入的任务或输入复杂信息会很有用。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-9" src="<?php static_url('../static/media/components/text-fields/full_width1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-9">
+                        <p>全宽文本框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/full_width2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-10">
+                        <p>全宽文本框可以拥有单行或多行文本框的行为</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 16.1111111111%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-1" src="<?php static_url('../static/media/components/text-fields/full_width_redline1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-1">
+                        <p><br>
+                          <strong>普通间距的全宽文本框<br>
+                          </strong>高度：56dp<br>
+                          顶部内边距：20dp<br>
+                          底部内边距：20dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 15.5555555556%">
+                          <img alt="alt-text" aria-describedby="field-variations-figure-caption-2" src="<?php static_url('../static/media/components/text-fields/full_width_redline2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="field-variations-figure-caption-2">
+                        <p><br>
+                          <strong>紧凑型间距的全宽文本框</strong> <br>
+                          高度：48dp<br>
+                          顶部内边距：16dp<br>
+                          底部内边距：16dp<br>
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="text-fields-text-field-boxes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
+            文本字段框
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1103,72 +1915,294 @@
               <div class="col-list">
                 <section class="module-figure col-2">
                   <div class="module">
-                    <p>密码输入默认会隐藏密码。用居中的省略号来表示密码的字符（例如•••••••）。</p>
-                    <h2>启用和禁用密码的可见性</h2>
-                    <p>当可见性图标显示在文本框中时，它会指示该字段的输入是否可见。</p>
-                    <p>一个文本字段的可见性可以通过该图标进行切换：</p>
-                    <p><strong>启用可见性</strong></p>
-                    <p>显示可见图标，并显示密码</p>
-                    <p><strong>禁用可见性</strong></p>
-                    <p>显示不可见图标，密码用居中省略号表示</p>
+                    <p>文本字段框使用透明的矩形包裹住标签和输入文本，以增强文本框的可识别性和可扫描性。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/text-fields/components_textfields_passwordinput.png'); ?>"/>
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 55.7407407407%">
+                          <video aria-describedby="text-field-boxes-figure-caption-1" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-Intro-02.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-Intro-02.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>可见性图标显示在文本框的右侧。</p>
+                      <figcaption id="text-field-boxes-figure-caption-1">
+                        <p>文本字段框使用颜色来使其更容易被发现，同时保留了输入线。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-module col-2">
+              </div>
+              <div class="col-list">
+                <section class="module-figure col-2">
                   <div class="module">
-                    <p>密码文本有以下透明度值：</p>
+                    <h1>状态</h1>
+                    <p>文本字段框使用矩形填充作为主要特征，遮盖住输入线的末端。涟漪动效在鼠标悬停和按下时触发。</p>
                   </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 141.973684211%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-2" src="<?php static_url('../static/media/components/text-fields/discoverable_states.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-2">
+                        <p>包裹着矩形的文本框状态</p>
+                        <p><strong>矩形填充</strong></p>
+                        <ul class="lst-kix_dvmlqropyv8e-0 start">
+                          <li>高度：56dp</li>
+                          <li>圆角半径：4dp</li>
+                          <li>颜色（亮色主题）：6% 黑色</li>
+                          <li>颜色（暗色主题）：10% 白色</li>
+                        </ul>
+                        <p><strong>输入线</strong></p>
+                        <ul class="lst-kix_76cbgx96m8ib-0 start">
+                          <li>厚度：2dp</li>
+                          <li>被矩形的圆角遮住</li>
+                        </ul>
+                        <p><strong>闲置状态 &amp; 为空状态</strong></p>
+                        <ul class="lst-kix_ysb32y2spz2p-0 start">
+                          <li>左侧内边距：16dp</li>
+                          <li>右侧内边距：16dp</li>
+                          <li>标签上方内边距：8dp</li>
+                        </ul>
+                        <p><strong>鼠标悬停</strong></p>
+                        <ul class="lst-kix_5xxxs36fjou1-0 start">
+                          <li>左侧内边距：16dp</li>
+                          <li>标签上方内边距：20dp</li>
+                          <li>标签下方内边距：20dp</li>
+                        </ul>
+                        <p><strong>按下</strong></p>
+                        <ul class="lst-kix_5xxxs36fjou1-0">
+                          <li>标签上方内边距：8dp</li>
+                          <li>标签下方内边距：8dp</li>
+                          <li>占位符下方内边距：8dp</li>
+                        </ul>
+                        <p>聚焦、闲置、已输入、错误和禁用状态的间距和按下状态相同。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
                   <div class="module">
-                    <table class="s-tag-table">
-                      <tbody>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p><strong>含提示文本</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>可见</strong></p></td>
-                        <td colspan="1" rowspan="1"><p><strong>不可见</strong></p></td>
-                        <td colspan="1" rowspan="1"><p>错误</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1">
-                          <p>图标：38%</p>
-                          <p>提示文本：38%</p>
-                          <p>帮助文本：54%</p>
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>图标：54%</p>
-                          <p>浮动提示文本：100%</p>
-                          <p>输入文本：87%</p>
-                          <p>帮助文本：54%</p>
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>图标：54%</p>
-                          <p>浮动提示文本：100%</p>
-                          <p>输入省略号：87%</p>
-                          <p>帮助文本：54%</p>
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>图标：100%</p>
-                          <p>浮动提示文本：100%</p>
-                          <p>输入文本：N/A</p>
-                          <p>帮助文本：100%</p>
-                        </td>
-                      </tr>
-                      </tbody>
-                    </table>
+                    <h1>密集型布局</h1>
+                    <p>文本字段框使密集型布局更容易阅读。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-3" src="<?php static_url('../static/media/components/text-fields/discoverable_nondense.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-3">
+                        <p><strong>普通间距<br>
+                          </strong>高度：56dp<br>
+                          标签上方内边距：8dp<br>
+                          标签下方内边距：8dp<br>
+                          文本框下方内边距：8dp<br>
+                          帮助文本上方内边距：8dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-4" src="<?php static_url('../static/media/components/text-fields/discoverable_dense.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-4">
+                        <p><strong>密集型间距<br>
+                          </strong>高度：44dp<br>
+                          标签上方内边距：8dp<br>
+                          标签下方内边距：4dp<br>
+                          文本框下方内边距：8dp<br>
+                          帮助文本上方内边距：4dp</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>单行文本字段框</h1>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="text-field-boxes-figure-caption-5" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-SingleLine-Long-01-2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-SingleLine-Long-01-2.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-5">
+                        <p>单行文本字段框中的文本滚动行为</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-10" src="<?php static_url('../static/media/components/text-fields/discoverable_extracted_label1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-10">
+                        <p>单行文本字段框，使用标签作为标题</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-module col-3">
+                  <div class="module">
+                    <h1>多行文本字段框</h1>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="text-field-boxes-figure-caption-6" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-MultiLine-Long-01-2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-MultiLine-Long-01-2.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-6">
+                        <p>多行文本字段框中的文本换行和滚动行为</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-11" src="<?php static_url('../static/media/components/text-fields/discoverable_multi1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-11">
+                        <p>按下状态的多行文本字段框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-12" src="<?php static_url('../static/media/components/text-fields/discoverable_multi2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-12">
+                        <p>闲置和已输入状态的多行文本字段框</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-module col-3">
+                  <div class="module">
+                    <h1>文本框区域</h1>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="text-field-boxes-figure-caption-7" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-TextArea-01-2.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/components/text-fields/TextFields-TextArea-01-2.mp4'); ?>" type="video/mp4">
+                            </source></source>
+                          </video>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-7">
+                        <p>文本框区域的文本换行和滚动行为</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-13" src="<?php static_url('../static/media/components/text-fields/discoverable_area1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-13">
+                        <p>为空和闲置的文本区域</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-14" src="<?php static_url('../static/media/components/text-fields/discoverable_area2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-14">
+                        <p>按下状态的文本区域</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure col-2">
+                  <div class="module">
+                    <h1>菜单 &amp; 选择器</h1>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 65.6578947368%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-8" src="<?php static_url('../static/media/components/text-fields/discoverable_dropdown.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-8">
+                        <p>矩形文本框中的下拉列表</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure col-2">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 94.0789473684%">
+                          <img alt="" aria-describedby="text-field-boxes-figure-caption-9" src="<?php static_url('../static/media/components/text-fields/discoverable_picker.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="text-field-boxes-figure-caption-9">
+                        <p>矩形文本框中的图标和日期选择器</p>
+                      </figcaption>
+                    </figure>
                   </div>
                 </section>
               </div>
             </div>
           </div>
         </div>
+
         <div>
         </div>
       </div>
