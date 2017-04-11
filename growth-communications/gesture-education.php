@@ -52,16 +52,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-patterns-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="design-patterns-figure-caption-1">
                         <p>“提示动作” 显示了当执行提示中的手势操作时，卡片移动效果的预览。</p>
                       </figcaption>
                     </figure>
@@ -77,8 +77,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
@@ -187,16 +187,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-writing-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="design-writing-figure-caption-1">
                         <p>这种类型的交互可以用于只影响屏幕中的一部分的手势，例如滑动卡片。</p>
                       </figcaption>
                     </figure>
@@ -216,8 +216,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
