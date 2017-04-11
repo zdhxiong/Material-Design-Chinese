@@ -25,8 +25,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/material-design/environment/what_is_material_environment.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/material-design/environment/what_is_material_environment.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -67,10 +69,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_3d.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="3d-world-figure-caption-1" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_3d.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="3d-world-figure-caption-1">
                         <p>具有 x、y、z 轴的 3D 空间</p>
                       </figcaption>
                     </figure>
@@ -98,30 +102,36 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="light-shadow-figure-caption-1" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="light-shadow-figure-caption-1">
                         <p>直射光投射的阴影</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="light-shadow-figure-caption-2" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="light-shadow-figure-caption-2">
                         <p>环境光投射的阴影</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="light-shadow-figure-caption-3" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="light-shadow-figure-caption-3">
                         <p>直射光和环境光混合投影</p>
                       </figcaption>
                     </figure>
