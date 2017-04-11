@@ -53,10 +53,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_mobile.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_mobile.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-1">
                         <p>手机端结构</p>
                         <p>顶部从左到右：应用栏/主工具栏，内容区域（在应用栏/主工具栏下方），右侧导航<br>
                           底部：底栏</p>
@@ -73,10 +75,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_tablet.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_tablet.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-2">
                         <p>平板端结构</p>
                         <p>顶部从左到右：侧边栏，应用栏/主工具栏，内容区域（在应用栏/主工具栏下方），右侧导航<br>
                           底部：底栏</p>
@@ -94,10 +98,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_desktop.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_desktop.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-3">
                         <p>桌面端结构</p>
                         <p>顶部从左到右：应用栏/主工具栏</p>
                         <p>第二行从左到右：工具栏、次要工具栏、工具栏</p>
@@ -115,20 +121,24 @@
                     <p>定义水平或垂直的主分隔线。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-4" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-4">
                         <p>垂直分隔线</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-5">
                         <p>水平分隔线</p>
                       </figcaption>
                     </figure>
@@ -142,10 +152,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用空白。</p>
                       </figcaption>
@@ -153,10 +165,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-7" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免创建太多区域。</p>
                       </figcaption>
@@ -171,20 +185,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-8" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-8">
                         <p>卡片打破了边界</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-9" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-9">
                         <p>浮动操作按钮打破了边界</p>
                       </figcaption>
                     </figure>
@@ -198,20 +216,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-10" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-10">
                         <p>卡片</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="ui-regions-figure-caption-11" src="<?php static_url('../static/media/layout/structure/layout_structure_regions_guidance8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="ui-regions-figure-caption-11">
                         <p>卡片</p>
                       </figcaption>
                     </figure>
@@ -239,10 +261,12 @@
                     <p>工具栏有多种用途，可以以多种不同的方式使用。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 20.5263157895%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-1">
                         <p>全宽，默认高度的应用栏</p>
                       </figcaption>
                     </figure>
@@ -252,10 +276,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.9473684211%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-2">
                         <p>全宽，扩展了高度的应用栏</p>
                       </figcaption>
                     </figure>
@@ -265,10 +291,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 29.0789473684%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-3">
                         <p>多级层次结构中与列同宽的工具栏</p>
                       </figcaption>
                     </figure>
@@ -278,10 +306,11 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 29.0789473684%">
+                        <img alt="" aria-describedby="toolbars-figure-caption-4" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars4.png'); ?>"/>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-4">
                         <p>弹性工具栏和卡片工具栏</p>
                       </figcaption>
                     </figure>
@@ -291,10 +320,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.9473684211%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-5">
                         <p>浮动工具栏</p>
                       </figcaption>
                     </figure>
@@ -304,10 +335,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars6.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.9736842105%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-6">
                         <p>分离的调色板工具栏</p>
                       </figcaption>
                     </figure>
@@ -317,10 +350,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars7.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 39.4736842105%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-7" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-7">
                         <p>底部工具栏，就像一块隔板，附着在键盘或其他底部组件的顶部。</p>
                       </figcaption>
                     </figure>
@@ -330,10 +365,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 39.4736842105%">
+                          <img alt="" aria-describedby="toolbars-figure-caption-8" src="<?php static_url('../static/media/layout/structure/layout_structure_toolbars8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="toolbars-figure-caption-8">
                         <p>底部隔板工具栏</p>
                       </figcaption>
                     </figure>
@@ -370,10 +407,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 19.2105263158%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-1">
                         <p>应用栏结构</p>
                         <p>左侧：导航图标，标题，筛选图标<br>
                           右侧：操作和菜单图标</p>
@@ -387,20 +426,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-2">
                         <p>亮色</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-3">
                         <p>暗色</p>
                       </figcaption>
                     </figure>
@@ -410,20 +453,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-4" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-4">
                         <p>彩色</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-5">
                         <p>透明</p>
                       </figcaption>
                     </figure>
@@ -439,20 +486,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-6">
                         <p>单一颜色（默认）</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-7" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_structure7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-7">
                         <p>不同的标题颜色</p>
                       </figcaption>
                     </figure>
@@ -471,10 +522,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-8" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-8">
                         <p>应用栏高度：56dp<br>
                         应用栏左右内边距：16dp<br>
                         应用栏图标上、下、左边距：16dp<br>
@@ -485,10 +538,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-9" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-9">
                         <p>为了视觉效果更突出，应用栏大幅地增加了高度</p>
                         <p>应用栏高度：128dp</p>
                       </figcaption>
@@ -499,10 +554,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-10" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-10">
                         <p>操作区域高度：56dp<br>
                         标题区域高度：80dp<br>
                         标题区域下边距：8dp<br>
@@ -519,10 +576,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-11" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-11">
                         <p>增量的关键线被设置为应用栏的高度 64dp，应用栏高度决定了关键线增量。</p>
                         <p><br>
                           应用栏左右内边距：24dp<br>
@@ -535,10 +594,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-12" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-12">
                         <p>扩展后的应用栏高度：128dp<br>
                         应用栏左右图标边距：24dp<br>
                         应用栏内容的左边距：80dp</p>
@@ -553,10 +614,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-13" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics7_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-13">
                         <p><strong>桌面端的密集型应用栏</strong></p>
                         <p>应用栏高度：48dp<br>
                           应用栏左右图标边距：24<br>
@@ -565,10 +628,12 @@
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-14" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_metrics8_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-14">
                         <p><strong>密集型的扩展后的应用栏</strong></p>
                         <p>密集型的扩展后的应用栏高度：96dp<br>
                           应用栏左右图标边距：24dp<br>
@@ -586,20 +651,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-15" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-15">
                         <p>应用栏示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="app-bar-figure-caption-16" src="<?php static_url('../static/media/layout/structure/layout_structure_appbar_menu2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-bar-figure-caption-16">
                         <p>应用栏中的菜单示例</p>
                       </figcaption>
                     </figure>
@@ -629,20 +698,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 6.66666666667%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-1">
                         <p>Android 状态栏</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 8.88888888889%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-2">
                         <p>Chrome 窗口栏</p>
                       </figcaption>
                     </figure>
@@ -658,20 +731,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 24.4444444444%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-3">
                         <p>Android 状态栏在应用栏上方</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 28.8888888889%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-4" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-4">
                         <p>Chrome 窗口栏在应用栏上方</p>
                       </figcaption>
                     </figure>
@@ -682,10 +759,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 20.0%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout_structure_system_status5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-5">
                         <p>Chrome 窗口控件位于应用栏内</p>
                       </figcaption>
                     </figure>
@@ -715,10 +794,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-6">
                         <p>触摸屏幕的任何地方会出现系统栏</p>
                       </figcaption>
                     </figure>
@@ -733,18 +814,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-7" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-7">
                         <p>从屏幕的任何边缘滑动，会使隐藏的系统栏重新显示。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_systembars_fullscreen3.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -756,8 +841,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 49.7222222222%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/layout/structure/layout_structure_system_lightsout.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/layout/structure/layout_structure_system_lightsout.mp4'); ?>" type="video/mp4">
@@ -779,20 +864,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-8" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-8">
                         <p>暗色状态栏的颜色是基于从内容中获取的样本得到的</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-9" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-9">
                         <p>半透明状态栏，20% 黑色 #000000</p>
                       </figcaption>
                     </figure>
@@ -804,20 +893,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-10" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-10">
                         <p>暗色状态栏</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 52.7777777778%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-11" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-11">
                         <p>状态栏颜色色调比应用栏的颜色更深</p>
                       </figcaption>
                     </figure>
@@ -832,20 +925,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-12" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-12">
                         <p>亮色状态栏的颜色是基于从内容中获取的样本得到的</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-13" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-13">
                         <p>半透明的亮色状态栏，70% 白色 #FFFFFF</p>
                       </figcaption>
                     </figure>
@@ -857,20 +954,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color7.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-14" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-14">
                         <p>亮色状态栏，默认背景为 #E0E0E0</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color8.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 53.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-15" src="<?php static_url('../static/media/layout/structure/layout_structure_system_color8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-15">
                         <p>亮色状态栏的颜色色调比亮色应用栏的颜色更深</p>
                       </figcaption>
                     </figure>
@@ -886,20 +987,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 13.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-16" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-16">
                         <p>暗色</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 13.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-17" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-17">
                         <p>亮色</p>
                       </figcaption>
                     </figure>
@@ -914,20 +1019,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-18" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-18">
                         <p>半透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-19" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-19">
                         <p>复杂图片上的半透明导航栏</p>
                       </figcaption>
                     </figure>
@@ -939,20 +1048,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-20" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-20">
                         <p>全透明导航栏</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-21" src="<?php static_url('../static/media/layout/structure/layout_structure_system_android6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-21">
                         <p>纯色图片上的透明导航栏</p>
                       </figcaption>
                     </figure>
@@ -968,10 +1081,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_system_chrome.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 23.0263157895%">
+                          <img alt="" aria-describedby="system-bars-figure-caption-22" src="<?php static_url('../static/media/layout/structure/layout_structure_system_chrome.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-bars-figure-caption-22">
                         <p>Chrome OS 的底架示例</p>
                       </figcaption>
                     </figure>
@@ -1002,20 +1117,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="side-nav-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-1">
                         <p>手机屏幕</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="side-nav-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-2">
                         <p>侧边栏菜单</p>
                       </figcaption>
                     </figure>
@@ -1037,26 +1156,28 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="side-nav-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-3">
                         <p>手机端的左侧导航</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 492px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="side-nav-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/layout/structure/050407_Sidenav_02_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-4">
                         <p>手机端的右侧导航</p>
                       </figcaption>
                     </figure>
@@ -1068,18 +1189,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 66.0526315789%">
+                          <img alt="" aria-describedby="side-nav-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-5">
                         <p>桌面端的左侧导航</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 66.0526315789%">
+                          <img alt="" aria-describedby="side-nav-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout_structure_sidenav_structure4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="side-nav-figure-caption-6">
                         <p>桌面端的右侧导航</p>
                       </figcaption>
                     </figure>
@@ -1109,20 +1234,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_bigtop_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-1" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_bigtop_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-1">
                         <p>展开和折叠的卡片内容</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_calendar_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-2" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_calendar_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-2">
                         <p>覆盖内容的详细信息，专注于桌面应用栏</p>
                       </figcaption>
                     </figure>
@@ -1132,20 +1261,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_gallery_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-3" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_gallery_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-3">
                         <p>桌面端的左侧导航和单向流</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_mail_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-4" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_mail_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-4">
                         <p>资源列表</p>
                       </figcaption>
                     </figure>
@@ -1155,20 +1288,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_maps_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-5" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_maps_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-5">
                         <p>内嵌搜索框和卡片式搜索结果的全屏背景图片</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_music_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="whiteframes-figure-caption-6" src="<?php static_url('../static/media/layout/structure/layout-structure-whiteframe_music_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="whiteframes-figure-caption-6">
                         <p>可展开的底部抽屉</p>
                       </figcaption>
                     </figure>
