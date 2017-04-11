@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/material-design/material-properties/what_is_material_material_properties.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/material-design/material-properties/what_is_material_material_properties.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -72,10 +74,12 @@
                   <div class="module"><p>材料在 <strong>x、y 轴上有不同的尺寸</strong>（计量单位为 dp）和<strong>统一的厚度</strong>（1dp）。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-1" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>材料的长度和宽度是可以改变的。</p>
                       </figcaption>
@@ -83,10 +87,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-2" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>所有材料都是 1dp 的厚度。</p>
                       </figcaption>
@@ -102,16 +108,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="physical-properties-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_01_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>阴影反映了材料的元素之间的相对高度。</p>
                       </figcaption>
@@ -122,16 +128,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="physical-properties-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/inline whatismaterial-materialprop-physicalprop-PaperShadow_02_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>阴影不是通过对材料着色产生的。</p>
                       </figcaption>
@@ -146,16 +152,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="physical-properties-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkDisplay_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>材料可以展示任何形状和颜色。</p>
                       </figcaption>
@@ -170,16 +176,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="physical-properties-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-physicalprop-InkBehavior_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>内容的行为可以和材料的行为互相独立。</p>
                       </figcaption>
@@ -195,10 +201,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-7" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>只有在最前面的材料才会响应输入事件。</p>
                       </figcaption>
@@ -206,10 +214,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-8" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>输入事件不能穿透材料。</p>
                       </figcaption>
@@ -222,10 +232,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-9" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-9">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>利用高度来区分材料元素，以防止多个材料元素同时占用空间中的相同位置。</p>
                       </figcaption>
@@ -233,10 +245,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="physical-properties-figure-caption-10" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>多个材料元素不能同时占用空间中的相同位置。</p>
                       </figcaption>
@@ -252,16 +266,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="physical-properties-figure-caption-11" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical_07_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="physical-properties-figure-caption-11">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>材料之间不能相互交叉。</p>
                       </figcaption>
@@ -291,16 +305,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="transforming-material-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShape_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transforming-material-figure-caption-1">
                         <p>材料可以改变形状。</p>
                       </figcaption>
                     </figure>
@@ -314,16 +328,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="transforming-material-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperShapeLinear_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transforming-material-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>材料只能在当前所在平面内伸缩。</p>
                       </figcaption>
@@ -336,16 +350,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="transforming-material-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperBendFold_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transforming-material-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>材料不能弯曲或折叠。</p>
                       </figcaption>
@@ -360,16 +374,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="transforming-material-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperHeal_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transforming-material-figure-caption-4">
                         <p>多片材料可以组合成一片材料。</p>
                       </figcaption>
                     </figure>
@@ -383,16 +397,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="transforming-material-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-transformingmaterial-PaperSplitHeal_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="transforming-material-figure-caption-5">
                         <p>材料可以被分割和复原。</p>
                       </figcaption>
                     </figure>
@@ -421,16 +435,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="movement-of-material-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperPointExpand_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="movement-of-material-figure-caption-1">
                         <p>材料可以自动创建或销毁。</p>
                       </figcaption>
                     </figure>
@@ -442,16 +456,16 @@
                   <div class="module"><p>材料可以沿着任何轴移动。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="movement-of-material-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-PaperMove_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="movement-of-material-figure-caption-2">
                         <p>材料可以沿着任何轴移动。</p>
                       </figcaption>
                     </figure>
@@ -465,16 +479,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="movement-of-material-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/material-properties/whatismaterial-materialprop-movementmaterial-Material_Response_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="movement-of-material-figure-caption-3">
                         <p>Z 轴的运动是用户和材料交互后产生的。</p>
                       </figcaption>
                     </figure>
