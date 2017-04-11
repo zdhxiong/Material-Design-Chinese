@@ -9,10 +9,12 @@
       <div class="article-content chapter-intro">
         <div>
           <figure class="s-tag-media">
-            <div class="media">
-              <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_introduction.png'); ?>"/>
+            <div class="media" style="max-width: 2320px">
+              <div class="frame " style="padding-top: 53.7931034483%">
+                <img alt="" aria-describedby="introduction-figure-caption-1" src="<?php static_url('../static/media/material-design/introduction/materialdesign_introduction.png'); ?>"/>
+              </div>
             </div>
-            <figcaption>
+            <figcaption id="introduction-figure-caption-1">
               <h1>Material Design 是我们将经典的设计原则和科技、创新相结合而创造的设计语言。这份文档会随着我们对 Material Design 的探索而不断更新。</h1>
             </figcaption>
           </figure>
@@ -52,8 +54,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_language.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_language.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -64,8 +68,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_system.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_system.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -90,10 +96,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_metaphor.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_metaphor.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-1">
                         <h1>Material 是一种隐喻</h1>
                         <p>通过构建系统化的动效和空间合理化利用，并将两个理念合二为一，构成了实体隐喻。与众不同的触感是实体的基础，这一灵感来自我们对纸墨的研究，但是我们相信，随着科技的进步，应用前景将不可估量。</p>
                         <p>实体的表面和边缘提供基于真实效果的视觉体验，熟悉的触感让用户可以快速地理解和认知。实体的多样性可以让我们呈现出更多反映真实世界的设计效果，但同时又绝不会脱离客观的物理规律。</p>
@@ -103,10 +111,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_bold.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_bold.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-2">
                         <h1>鲜明、形象、有意义</h1>
                         <p>新的视觉语言，在基本元素的处理上，借鉴了传统的印刷设计——排版、网格、空间、比例、配色、图像使用——这些基础的平面设计规范。在这些设计基础上下功夫，不但可以愉悦用户，而且能够构建出视觉层级、视觉意义以及视觉聚焦。精心选择色彩、图像、选择合乎比例的字体、留白，力求构建出鲜明、形象的用户界面，让用户沉浸其中。</p>
                         <p>Material Design 设计语言强调根据用户行为凸显核心功能，进而为用户提供操作指引。</p>
@@ -115,10 +125,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_motion.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_motion.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-3">
                         <h1>有意义的动画效果</h1>
                         <p>动画效果(简称动效)可以有效地暗示、指引用户。动效的设计要根据用户行为而定，能够改变整体设计的触感。</p>
                         <p>动效应当在独立的场景呈现。通过动效，让物体的变化以更连续、更平滑的方式呈现给用户，让用户能够充分知晓所发生的变化。</p>
@@ -128,6 +140,8 @@
                   </div>
                 </section>
               </div>
+              <p>本文档中所有的内容和代码都使用 Apache 2.0 协议授权，除非有单独的说明。协议的全文见 <a href="https://www.apache.org/licenses/LICENSE-2.0.html"
+                target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>。</p>
             </div>
           </div>
         </div>
