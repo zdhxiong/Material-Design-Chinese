@@ -41,7 +41,7 @@
             <div><p>为了获得最佳用户体验，Material Design 应该为以下断点适配布局：480、600、840、960、1280、1440、以及 1600dp。</p>
               <div class="modulettes">
                 <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/md.svg'); ?>">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
                   <div class="info">
                     <div class="title">Resizer</div>
                     <span class="subtitle">通过这款工具预览 Material Design 在桌面、手机和平板上的断点。</span>
@@ -53,8 +53,10 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptive_breakpoints_01.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -241,16 +243,16 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ3hsemplb3k0S00/layout_adaptiveUI_grid_01_hero.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATmowU3BOUFR6Wk0/layout_adaptiveUI_grid_01_hero.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 2320px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 44.1379310345%">
+                          <video aria-describedby="grid-figure-caption-1" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-1">
                         <p>此动画展示了界面和面板是如何与 12 列网格对齐的。</p>
                       </figcaption>
                     </figure>
@@ -266,16 +268,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmATEhhSmstQnNLek0/layout_adaptiveUI_grid_02_margins.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAOHhfNWdvdmw1RUE/layout_adaptiveUI_grid_02_margins.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 67.3684210526%">
+                          <video aria-describedby="grid-figure-caption-2" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-2">
                         <p>此动画展示了下列外边距和间隙宽度的变化：</p>
                         <ol class="lst-kix_l8t11msx2rv8-0 start" start="1">
                           <li>8dp 的外边距和间隙</li>
@@ -296,16 +298,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAZ1ptYWI2ZEc4czQ/layout_adaptiveUI_grid_03_width.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmASzY4clJvRmNFZTA/layout_adaptiveUI_grid_03_width.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 67.3684210526%">
+                          <video aria-describedby="grid-figure-caption-3" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-3">
                         <ol class="lst-kix_rij772l0b5s1-0 start" start="1">
                           <li>全宽网格</li>
                           <li>居中网格</li>
@@ -325,16 +327,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAUGNyT2dNT1AwV2M/layout_adaptiveUI_grid_04_behaviorPermanent.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAdlN2bVFjXy1ZUzQ/layout_adaptiveUI_grid_04_behaviorPermanent.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 67.3684210526%">
+                          <video aria-describedby="grid-figure-caption-4" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-4">
                         <p>固定面板对响应式网格的影响</p>
                       </figcaption>
                     </figure>
@@ -351,16 +353,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0RFaV9jWEd4c1k/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAX3VfWTVZZjdpSnc/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 67.3684210526%">
+                          <video aria-describedby="grid-figure-caption-5" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-5">
                         <p>可切换面板对响应式网格的影响</p>
                       </figcaption>
                     </figure>
@@ -373,16 +375,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAY2dNZUVlZnJmT28/layout_adaptiveUI_grid_06_behaviorOverlay.webm" type="video/webm">
-                            <source src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B0nwUo5pqvmAV0Fnc2xLTmljUWc/layout_adaptiveUI_grid_06_behaviorOverlay.mp4" type="video/mp4">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 67.3684210526%">
+                          <video aria-describedby="grid-figure-caption-6" controls="" loop="" preload="metadata">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.webm'); ?>" type="video/webm">
+                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grid-figure-caption-6">
                         <p>临时面板对响应式网格的影响</p>
                       </figcaption>
                     </figure>
@@ -556,10 +558,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPcUUwX1I3bU0zdms/layout_adaptiveUI_patterns_01_reveal.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_01_reveal.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-1">
                         <p>像侧边栏这样的元素可能会变得可见。</p>
                       </figcaption>
                     </figure>
@@ -568,10 +572,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPZ2VYZjhWaF9hZVE/layout_adaptiveUI_patterns_02_reveal.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_02_reveal.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-2">
                         <p>一个简单的 UI 可能会出现更多强大或复杂的选项。</p>
                       </figcaption>
                     </figure>
@@ -580,10 +586,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPS0FXa0ZEZy1TNUU/layout_adaptiveUI_patterns_03_reveal.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_03_reveal.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-3">
                         <p>在小屏幕上，只有点击某个元素才会出现的内容，当屏幕上有更多可用空间时，可能会默认显示。</p>
                       </figcaption>
                     </figure>
@@ -596,10 +604,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ3JwNlkwUkgwVlU/layout_adaptiveUI_patterns_04_transform.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_04_transform.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-4">
                         <p>侧边栏导航可能变形成 Tab 选项卡。</p>
                       </figcaption>
                     </figure>
@@ -608,10 +618,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeUFEVUUwNVpFWjQ/layout_adaptiveUI_patterns_05_transform.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_05_transform.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-5">
                         <p>列表可能变形成网格列表。</p>
                       </figcaption>
                     </figure>
@@ -620,10 +632,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdkFVaHh1elZzUlk/layout_adaptiveUI_patterns_06_transform.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_06_transform.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-6">
                         <p>菜单可能变形成工具栏中的图标。</p>
                       </figcaption>
                     </figure>
@@ -636,10 +650,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPdzR4OGMtZWJtalE/layout_adaptiveUI_patterns_07_divide.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_07_divide.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-7">
                         <p>侧边导航、列表内容、和详细内容被分隔以填满整个视图。</p>
                       </figcaption>
                     </figure>
@@ -648,10 +664,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPTTA4bmtTRlZUZ2M/layout_adaptiveUI_patterns_08_divide.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_08_divide.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-8">
                         <p>随着空间增加，左侧面板、列表内容、和右侧面板被分隔到同一个视图中。</p>
                       </figcaption>
                     </figure>
@@ -660,8 +678,10 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPenZ3SDczaFI1eGc/layout_adaptiveUI_patterns_09_divide.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_09_divide.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                     <p>Tab 栏中的同级内容被分隔到同一个视图中。</p>
@@ -674,10 +694,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPeExEOG1QZzZpcEE/layout_adaptiveUI_patterns_10_reflow.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_10_reflow.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-9">
                         <p>来自单列格式的元素可以重新排列成多种组合来填满内容区。</p>
                       </figcaption>
                     </figure>
@@ -686,10 +708,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPSHZzMXFUejQ0UzQ/layout_adaptiveUI_patterns_11_reflow.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_11_reflow.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-10">
                         <p>水平 Tab 选项卡可以重排成垂直列表。</p>
                       </figcaption>
                     </figure>
@@ -698,10 +722,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPMU43UGlBaWJZYW8/layout_adaptiveUI_patterns_12_reflow.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_12_reflow.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-11">
                         <p>元素可以基于新屏幕的比例或设备方向在组件内部重排。</p>
                       </figcaption>
                     </figure>
@@ -714,10 +740,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQ2wwdE1FQnhQdmM/layout_adaptiveUI_patterns_13_expand.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_13_expand.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-12">
                         <p>内容卡片可以扩展来填充新的空间。</p>
                       </figcaption>
                     </figure>
@@ -726,10 +754,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQXlRX0xFV1ZxOW8/layout_adaptiveUI_patterns_14_expand.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_14_expand.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-13">
                         <p>对话框可以根据内容或特定的增量按比例扩展。</p>
                       </figcaption>
                     </figure>
@@ -742,10 +772,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPQzZOeW1RVmoteDg/layout_adaptiveUI_patterns_15_position.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_15_position.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-14">
                         <p>小屏幕上的底部卡片可能会作为菜单重新定位。</p>
                       </figcaption>
                     </figure>
@@ -754,10 +786,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0B8olV15J7abPOEhNdE5iRnZicXc/layout_adaptiveUI_patterns_16_position.png"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 44.1379310345%">
+                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_16_position.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-15">
                         <p>浮动操作按钮（FAB）可以移动到相对其他元素更显眼的位置。</p>
                       </figcaption>
                     </figure>
