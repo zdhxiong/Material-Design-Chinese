@@ -29,8 +29,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/patterns_fingerprint.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/patterns_fingerprint.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -93,32 +95,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="enrollment-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="enrollment-figure-caption-1">
                         <p>用户可以在登录后立即验证其指纹。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="enrollment-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="enrollment-figure-caption-2">
                         <p>用户可以在创建账号后立即注册他们的指纹。</p>
                       </figcaption>
                     </figure>
@@ -131,10 +133,12 @@
                     <h2><strong><strong>在应用的购买流程中</strong></strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_03_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="enrollment-figure-caption-3" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_03_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="enrollment-figure-caption-3">
                         <p>用户可以在使用现有账户进行购买后，立即验证他们的指纹。</p>
                       </figcaption>
                     </figure>
@@ -146,16 +150,16 @@
                     <h2><strong>在应用的设置中</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.888888889%">
+                          <video aria-describedby="enrollment-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="enrollment-figure-caption-4">
                         <p>用户可以在应用的设置中启用指纹锁定功能。</p>
                       </figcaption>
                     </figure>
@@ -168,16 +172,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="enrollment-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="enrollment-figure-caption-5">
                         <p>注册后，每当需要用户验证时都可以出现指纹对话框。</p>
                       </figcaption>
                     </figure>
@@ -213,10 +217,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_06-.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="authentication-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_06-.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="authentication-figure-caption-1">
                         <p>指纹验证对话框</p>
                       </figcaption>
                     </figure>
@@ -226,10 +232,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_07.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="authentication-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_07.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="authentication-figure-caption-2">
                         <p>指纹验证对话框规格：</p>
                         <p>对话框左右内边距：24dp<br>
                           对话框顶部内边距：24dp<br>
@@ -269,10 +277,12 @@
                     <p>要求用户将他们的手指放在传感器上。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_08.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_08.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>默认状态要求用户将他们的手指放在传感器上</p>
                       </figcaption>
                     </figure>
@@ -296,10 +306,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_09.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_09.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>表示指纹已被识别的成功消息</p>
                       </figcaption>
                     </figure>
@@ -322,10 +334,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_10.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>指出无法识别指纹的错误信息</p>
                       </figcaption>
                     </figure>
@@ -349,7 +363,7 @@
                     <ul class="lst-kix_mj3hmnye60y2-0 start">
                       <li>用户的账号密码</li>
                       <li>应用 PIN</li>
-                      <li><a href="https://www.google.com/url?q=https://developer.android.com/preview/api-overview.html%23confirm-credential&amp;sa=D&amp;ust=1481818027268000&amp;usg=AFQjCNHE1rk2HMXWl_KBmaPpZYFcpxaINw" target="_blank">设备证书</a></li>
+                      <li><a href="https://developer.android.com/preview/api-overview.html#confirm-credential" target="_blank">设备证书</a></li>
                     </ul>
                   </div>
                   <div class="module"></div>
@@ -378,20 +392,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-1">
                         <p>40dp 的圆圈</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-2">
                         <p>24dp 的系统图标</p>
                       </figcaption>
                     </figure>
@@ -411,10 +429,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-3" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-3">
                         <p>默认图标</p>
                       </figcaption>
                     </figure>
@@ -424,10 +444,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-4" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-4">
                         <p>对话框和默认图标</p>
                       </figcaption>
                     </figure>
@@ -442,10 +464,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-5" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-5">
                         <p>有对比度的有色图标</p>
                       </figcaption>
                     </figure>
@@ -457,10 +481,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-6" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用带多种颜色的指纹图标。</p>
                       </figcaption>
@@ -482,10 +508,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-7" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-7">
                         <p>浅色背景下，使用带深色圆圈背景的指纹图标</p>
                       </figcaption>
                     </figure>
@@ -512,10 +540,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-8" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-8">
                         <p>没有圆形背景的图标</p>
                       </figcaption>
                     </figure>
@@ -525,10 +555,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-9" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-9">
                         <p>没有圆形背景图标的对话框</p>
                       </figcaption>
                     </figure>
@@ -541,10 +573,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-10" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="fingerprint-icon-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要倾斜或扭曲指纹图标。</p>
                       </figcaption>
@@ -580,10 +614,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_16-.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="reauthentication-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_16-.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="reauthentication-figure-caption-1">
                         <p>重新验证对话框</p>
                       </figcaption>
                     </figure>
@@ -596,10 +632,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_17-.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="reauthentication-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_17-.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="reauthentication-figure-caption-2">
                         <p>询问用户备用密码的对话框</p>
                       </figcaption>
                     </figure>
