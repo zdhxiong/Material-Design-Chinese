@@ -44,8 +44,8 @@
               <p>主屏幕小部件以统一的形式显示应用的新内容和有趣的内容。它们链接到应用内部的更丰富的细节。</p>
               <p>用户可以移动小部件，如果支持的话，可以在主屏幕上调整小部件的大小。</p>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/appwidgets/index.html&amp;sa=D&amp;ust=1481817989213000&amp;usg=AFQjCNEYogPWPMXxugx8F_BKM54SqwxaRA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="https://developer.android.com/guide/topics/appwidgets/index.html" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">应用小部件</div>
                     <span class="subtitle">如何发布一个应用小部件</span>
@@ -75,10 +75,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_information.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-1" src="<?php static_url('../static/media/components/widgets/components_widgets_types_information.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-widgets-figure-caption-1">
                         <p>一个信息小部件</p>
                       </figcaption>
                     </figure>
@@ -99,18 +101,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 116.666666667%">
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-2" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-widgets-figure-caption-2">
                         <p>集合小部件</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection_list.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 131.111111111%">
+                          <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection_list.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -125,10 +131,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_control.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-3" src="<?php static_url('../static/media/components/widgets/components_widgets_types_control.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-widgets-figure-caption-3">
                         <p>一个控制小部件</p>
                       </figcaption>
                     </figure>
@@ -145,10 +153,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_hybrid.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-4" src="<?php static_url('../static/media/components/widgets/components_widgets_types_hybrid.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-widgets-figure-caption-4">
                         <p>一个混合小部件</p>
                       </figcaption>
                     </figure>
@@ -185,10 +195,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_behavior_01.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/widgets/components_widgets_behavior_01.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>长按之后可调整大小的小部件将进入调整大小模式。用户可以拖动手柄或小部件角度来设置所需的大小。</p>
                       </figcaption>
                     </figure>
