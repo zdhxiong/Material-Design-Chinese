@@ -23,8 +23,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>"/>
+                  <div class="media" style="max-width: 720px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -71,16 +73,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="speed-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="speed-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>动画要足够快，这样用户无需等待动画结束。</p>
                       </figcaption>
@@ -88,16 +90,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="speed-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="speed-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使动画过慢，因为这样会导致不必要的延迟。</p>
                       </figcaption>
@@ -128,16 +130,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="dynamic-durations-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dynamic-durations-figure-caption-1">
                         <p>物体需要移动较长距离、或者面积的变化较大时，需要使用较长的动画时长。</p>
                       </figcaption>
                     </figure>
@@ -147,16 +149,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="dynamic-durations-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="dynamic-durations-figure-caption-2">
                         <p>物体需要移动的距离较短、或者面积的变化较小时，需要使用较短的动效时长，这样动画看起来不会显得很缓慢。</p>
                       </figcaption>
                     </figure>
@@ -197,16 +199,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 71.0526315789%">
+                          <video aria-describedby="common-durations-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="common-durations-figure-caption-1">
                         <p>因为在大屏设备上，元素需要移动更长的距离，所以过渡动画会比小屏设备稍慢一点。</p>
                       </figcaption>
                     </figure>
@@ -223,16 +225,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 57.8947368421%">
+                          <video aria-describedby="common-durations-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="common-durations-figure-caption-2">
                         <p>桌面端的过渡动画会更快。</p>
                       </figcaption>
                     </figure>
@@ -262,8 +264,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.mp4'); ?>" type="video/mp4">
@@ -280,8 +282,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.mp4'); ?>" type="video/mp4">
@@ -309,8 +311,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.mp4'); ?>" type="video/mp4">
@@ -365,8 +367,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.mp4'); ?>" type="video/mp4">
@@ -415,8 +417,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.mp4'); ?>" type="video/mp4">
@@ -466,8 +468,8 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.mp4'); ?>" type="video/mp4">
