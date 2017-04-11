@@ -32,8 +32,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns_gestures.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns_gestures.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -81,10 +83,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-1">
                         <p>触摸</p>
                         <p>单指按下，然后抬起</p>
                         <p><em>示例：选择</em></p>
@@ -93,10 +97,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-2">
                         <p>触摸两下</p>
                         <p>单指按下，然后抬起，然后再按下，再抬起</p>
                         <p><em>示例：放大</em></p>
@@ -105,10 +111,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-3">
                         <p>拖拽、滑动或甩动</p>
                         <p>单指按下，然后移动，然后抬起</p>
                         <p><em>示例：忽略、滚动、快速滚动等</em></p>
@@ -119,10 +127,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-4">
                         <p>长按</p>
                         <p>单指按下，等待片刻，然后抬起</p>
                         <p><em>示例：选择一个元素，比如一个列表项</em></p>
@@ -132,10 +142,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-5">
                         <p>长按并拖拽</p>
                         <p>单指按下，等待片刻后移动手指，然后抬起</p>
                         <p><em>示例：选取并移动，选择多个项目</em></p>
@@ -144,10 +156,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-6">
                         <p>触摸两下并拖拽</p>
                         <p>单指按下，然后抬起，然后再单指按下，然后移动，然后抬起</p>
                         <p><em>示例：放大、缩小</em></p>
@@ -158,10 +172,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-7">
                         <p>双指张开</p>
                         <p>双指按下，然后将手指分开，然后抬起</p>
                         <p><em>示例：放大</em></p>
@@ -170,10 +186,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-8">
                         <p>双指捏合</p>
                         <p>双指按下，然后并拢，然后抬起</p>
                         <p><em>示例：缩小</em></p>
@@ -182,10 +200,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-9">
                         <p>双指触摸</p>
                         <p>双指按下，然后抬起</p>
                         <p><em>示例：缩小</em></p>
@@ -196,10 +216,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-10" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-10">
                         <p>双指滑动、拖拽、甩动</p>
                         <p>双指按下、然后移动，然后抬起</p>
                         <p><em>示例：选择多个项目，然后平移，倾斜</em></p>
@@ -208,10 +230,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-11" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-11">
                         <p>双指长按</p>
                         <p>双指按下，等待片刻后抬起</p>
                         <p><em>示例：无；这个手势不常用</em></p>
@@ -220,10 +244,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-12" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-12">
                         <p>双指长按并拖拽</p>
                         <p>双指按下，等待片刻，然后移动，然后抬起</p>
                         <p><em>示例：选取并移动</em></p>
@@ -236,10 +262,12 @@
                 <section class="figure-figure-module col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-13" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-13">
                         <p>双指触摸两下</p>
                         <p>双指按下，然后抬起，然后再按下，再抬起</p>
                         <p><em>示例：缩小</em></p>
@@ -248,10 +276,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-14" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="touch-mechanics-figure-caption-14">
                         <p>旋转</p>
                         <p>双指按下，同时绕中心点旋转，然后抬起</p>
                         <p><em>示例：旋转内容，比如地图</em></p>
@@ -433,10 +463,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-1">
                         <p>滚动方向示例</p>
                       </figcaption>
                     </figure>
@@ -450,10 +482,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-2">
                         <p>滚动方向示例</p>
                       </figcaption>
                     </figure>
@@ -473,10 +507,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 151.111111111%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-3">
                         <p>平移示例</p>
                       </figcaption>
                     </figure>
@@ -492,10 +528,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-4">
                         <p>忽略手势示例</p>
                       </figcaption>
                     </figure>
@@ -509,10 +547,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-5">
                         <p>滑动刷新手势示例</p>
                       </figcaption>
                     </figure>
@@ -528,10 +568,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-6">
                         <p>边缘滑动示例</p>
                       </figcaption>
                     </figure>
@@ -549,10 +591,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-7">
                         <p>滑动翻页示例</p>
                       </figcaption>
                     </figure>
@@ -567,10 +611,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-8">
                         <p>滚动折叠示例</p>
                       </figcaption>
                     </figure>
@@ -586,10 +632,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-9">
                         <p>菜单打开拖拽示例</p>
                       </figcaption>
                     </figure>
@@ -605,10 +653,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-10" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="drag-swipe-or-fling-details-figure-caption-10">
                         <p>倾斜示例</p>
                       </figcaption>
                     </figure>
