@@ -26,8 +26,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -74,20 +76,24 @@
                     <p>为交互式图像提供工具提示。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 107.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 107.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -101,20 +107,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -165,10 +175,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor_keyline.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 16.6666666667%">
+                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor_keyline.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-desktop-figure-caption-1">
                         <p>光标/键盘工具提示</p>
                         <p>瓦片高度：22dp<br>
                           文本左右内边距：8dp<br>
@@ -184,10 +196,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 10.2631578947%">
+                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-2" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-desktop-figure-caption-2">
                         <p>光标/键盘工具提示示例</p>
                       </figcaption>
                     </figure>
@@ -216,10 +230,12 @@
                     <p>不透明度：90%</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch_keyline.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 23.3333333333%">
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch_keyline.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-mobile-figure-caption-1">
                         <p>触摸元素工具提示</p>
                         <p>瓦片高度：32dp<br>
                           文本左右内边距：16dp<br>
@@ -233,20 +249,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-2" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-mobile-figure-caption-2">
                         <p>触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-3" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-mobile-figure-caption-3">
                         <p>触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
@@ -256,20 +276,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-4" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-mobile-figure-caption-4">
                         <p>普通状态触摸元素工具提示示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 66.6666666667%">
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-5" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="tooltips-mobile-figure-caption-5">
                         <p>按下并持续按住状态的工具提示示例</p>
                       </figcaption>
                     </figure>
