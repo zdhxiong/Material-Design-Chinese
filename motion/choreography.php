@@ -22,8 +22,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/motion/choreography/04-choreography.png'); ?>"/>
+                  <div class="media" style="max-width: 720px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/motion/choreography/04-choreography.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -69,16 +71,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="continuity-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_01_AllShared_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-1">
                         <p>此折叠状态的卡片中的所有元素，组成了展开后的卡片的头部。</p>
                       </figcaption>
                     </figure>
@@ -93,16 +95,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="continuity-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_02_SingleShared_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-2">
                         <p>把不共享的内容固定到单个共享的元素上一起移动。</p>
                       </figcaption>
                     </figure>
@@ -114,16 +116,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="continuity-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_03_NoShared_v7-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-3">
                         <p>把所有的非共享内容固定到扩展元素的表面做纵向运动。</p>
                       </figcaption>
                     </figure>
@@ -147,16 +149,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="continuity-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_04_SharedDo_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用最重要的共享元素把用户的焦点引导到下一个视图。</p>
                       </figcaption>
@@ -164,16 +166,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="continuity-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_05_SharedDont_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免创建没有焦点的场景，例如在转换期间使用大量共享元素、或使元素的路径相互交叉。</p>
                       </figcaption>
@@ -189,16 +191,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="continuity-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_06_LayoutAwareDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在转换期间为尚未加载的元素留出空间，在加载完成后将其优雅的呈现出来。</p>
                       </figcaption>
@@ -206,16 +208,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="continuity-figure-caption-7" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/Continuity_07_LayoutAwareDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="continuity-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在元素加载完后挪动视图，因为那会把用户注意力转移到新加载的元素上。</p>
                       </figcaption>
@@ -246,16 +248,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_01_OriginDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>此菜单从触摸点出现，并将元素绑定到了触摸点。</p>
                       </figcaption>
@@ -263,16 +265,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_02_OriginDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>此菜单从距离触摸点很远的地方出现，破坏了菜单和触摸点之间的关联。</p>
                       </figcaption>
@@ -288,16 +290,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_03_StaggerDo_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>列表项有一个稍微交错的入场效果。网格项的交错效果为从左到右、从上到下。</p>
                       </figcaption>
@@ -305,16 +307,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_04_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>列表项不应该同时一次性地出现。这样无法创造清晰的视觉焦点。</p>
                       </figcaption>
@@ -325,16 +327,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>带有交错入场效果的列表项，不应该以混乱的顺序出现。</p>
                       </figcaption>
@@ -342,16 +344,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_05b_StaggerDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要等前一个项目的动画结束后才开始出现下一个。使用交错入场时，交错的时间间隔不应超过 20ms。</p>
                       </figcaption>
@@ -367,16 +369,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-7" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_06_NewDialogueDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>自主创建的表面应平滑且快速地出现。</p>
                       </figcaption>
@@ -384,16 +386,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="creation-figure-caption-8" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/CreationChoreo_07_NewDialogueDont_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="creation-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>表面创建期间过多的动画会分散用户的注意力。</p>
                       </figcaption>
@@ -424,32 +426,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: ">
+                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: ">
+                          <video aria-describedby="radial-reaction-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/RR_Point_of_Contact_001.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/RR_Point_of_Contact_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radial-reaction-figure-caption-1">
                         <p>使用触摸涟漪把触摸点和屏幕反应关联起来。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-reaction-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/02_SearchRipple-v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/02_SearchRipple-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radial-reaction-figure-caption-2">
                         <p>从触摸点开始，应用栏会随着新颜色向外扩散而改变颜色。</p>
                       </figcaption>
                     </figure>
@@ -459,16 +461,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="radial-reaction-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/choreography/01_GridRipple.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/choreography/01_GridRipple.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="radial-reaction-figure-caption-3">
                         <p>网格中的图片按照从触摸点出现的径向反应淡出。</p>
                       </figcaption>
                     </figure>
