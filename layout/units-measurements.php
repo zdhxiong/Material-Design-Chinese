@@ -55,8 +55,8 @@
                     <p><strong>屏幕密度 = 以像素为单位的屏幕宽度（或高度） / 以英寸为单位的屏幕宽度（或高度）</strong></p>
                     <h4 class="related">相关资源</h4>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/practices/screens_support.html&amp;sa=D&amp;ust=1481817970797000&amp;usg=AFQjCNGwPQDJJd2uu17SB88ySaEwsmZEPw" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">支持多种屏幕</div>
                           <span class="subtitle">为不同屏幕密度的设备优化设计</span>
@@ -65,8 +65,8 @@
                       </a>
                     </div>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/resources/more-resources.html%23Dimension&amp;sa=D&amp;ust=1481817970799000&amp;usg=AFQjCNGSIwsX8PWLOAEIqXA1Gm15wNg5jA" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="http://developer.android.com/guide/topics/resources/more-resources.html#Dimension" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">更多资源类型</div>
                           <span class="subtitle">Android 支持的度量单位。</span>
@@ -77,10 +77,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 68.4210526316%">
+                          <img alt="" aria-describedby="pixel-density-figure-caption-1" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="pixel-density-figure-caption-1">
                         <p><br>
                         高密度屏幕</p>
                       </figcaption>
@@ -91,8 +93,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 68.4210526316%">
+                          <img alt="" aria-describedby="pixel-density-figure-caption-2" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
+                        </div>
                       </div>
                       <figcaption>
                         <p><br>
@@ -125,8 +129,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_dp.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 68.4210526316%">
+                          <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_dp.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
