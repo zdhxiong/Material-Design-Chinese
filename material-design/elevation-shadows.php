@@ -26,8 +26,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/what_is_material_elevation_and_shadows.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/what_is_material_elevation_and_shadows.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -78,10 +80,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="elevation-android-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="elevation-android-figure-caption-1">
                         <p>不同海拔高度的两个物体</p>
                       </figcaption>
                     </figure>
@@ -186,10 +190,12 @@
                     <h1>组件海拔高度对比</h1>
                     <p>下图比较了组件的静止状态的海拔高度和动态海拔高度偏移。</p>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation2.png'); ?>"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 41.3793103448%">
+                          <img alt="" aria-describedby="elevation-android-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="elevation-android-figure-caption-2">
                         <p>在此图中，只有组件的海拔高度和组件的布局是准确的。其他尺寸和总体布局仅用于作图。</p>
                       </figcaption>
                     </figure>
@@ -200,10 +206,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation3.png'); ?>"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 41.3793103448%">
+                          <img alt="" aria-describedby="elevation-android-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="elevation-android-figure-caption-3">
                         <p>包含卡片和浮动操作按钮的应用布局示例，以及 Z 轴海拔高度的剖面图。</p>
                       </figcaption>
                     </figure>
@@ -214,10 +222,12 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation4.png'); ?>"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 41.3793103448%">
+                          <img alt="" aria-describedby="elevation-android-figure-caption-4" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="elevation-android-figure-caption-4">
                         <p>一个带有打开的抽屉式导航的应用布局示例，以及 Z 轴海拔高度的剖面图。</p>
                       </figcaption>
                     </figure>
@@ -244,10 +254,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>没有阴影，无法指示出浮动操作按钮和背景表面是分离的。</p>
                       </figcaption>
@@ -255,10 +267,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>锐利的阴影可以指示出浮动操作按钮和蓝色卡片是独立的元素。但上图中，它们的阴影太过相似，也就暗示了它们处于同一海拔高度。</p>
                       </figcaption>
@@ -266,10 +280,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>更柔和、更大的阴影表示浮动操作按钮的海拔高度高于蓝色卡片。</p>
                       </figcaption>
@@ -282,10 +298,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-4" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>没有阴影指示海拔高度，就不清楚这个正方形是增加了大小还是增加了海拔高度。</p>
                       </figcaption>
@@ -293,10 +311,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-5" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>随着物体的海拔高度增加，阴影会变得更柔和、更大；随着物体海拔高度降低，阴影会变得更锐利、更小。</p>
                       </figcaption>
@@ -304,10 +324,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="shadows-figure-caption-6" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在这个案例中，物体的阴影相同，表示物体正在改变形状，而不是改变海拔高度。</p>
                       </figcaption>
@@ -324,10 +346,12 @@
                     <p>4dp</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component06.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 21.4473684211%">
+                          <img alt="" aria-describedby="shadows-figure-caption-7" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component06.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="shadows-figure-caption-7">
                         <p>应用栏示例</p>
                       </figcaption>
                     </figure>
@@ -345,8 +369,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component02.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.7631578947%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component02.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -359,8 +385,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component08.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.7631578947%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component08.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -374,8 +402,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component03.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.5%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component03.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -388,8 +418,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component09.png'); ?>"/>
+                      <div class="media" style="max-width: 1522px">
+                        <div class="frame " style="padding-top: 87.3850197109%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component09.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -401,8 +433,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component12.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 50.3947368421%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component12.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -414,8 +448,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component10.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 95.1315789474%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component10.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -427,8 +463,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component11.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 42.5%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component11.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -440,8 +478,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component05.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 17.2368421053%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component05.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -454,8 +494,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component04.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 62.1052631579%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component04.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -467,8 +509,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component07.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 21.4473684211%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component07.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -480,8 +524,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component01.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 19.0789473684%">
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component01.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -534,30 +580,30 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="object-relationships-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/elevation-shadows/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_01_RaisedChildButton_001.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/elevation-shadows/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_01_RaisedChildButton_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="object-relationships-figure-caption-1">
                         <p>当父元素滚动时，浮动按钮（子元素）会跟着一起滚动。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 63.1578947368%">
+                          <video aria-describedby="object-relationships-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/material-design/elevation-shadows/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_02_FAB_001.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/material-design/elevation-shadows/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_02_FAB_001.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="object-relationships-figure-caption-2">
                         <p>当卡片集合滚动时，它内部的所有卡片都会跟着一起滚动。但是浮动操作按钮保持在原地，因为它的父元素没有滚动。</p>
                       </figcaption>
                     </figure>
