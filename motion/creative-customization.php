@@ -21,8 +21,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/motion/creative-customization/05-creative-customization.png'); ?>"/>
+                  <div class="media" style="max-width: 720px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/motion/creative-customization/05-creative-customization.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -64,16 +66,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="icons-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Arrow_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-1">
                         <p>菜单图标转换成后退图标，这说明了两个操作是关联的，且两者不会同时出现。必须按下返回按钮后才会回到带有菜单图标的上级视图。</p>
                       </figcaption>
                     </figure>
@@ -84,16 +86,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="icons-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_Play_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-2">
                         <p>播放按钮转换成暂停按钮，说明了两个操作是关联的，按下一个后才会出现另一个。</p>
                       </figcaption>
                     </figure>
@@ -103,16 +105,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="icons-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/DD_Icon_Anim_FAB_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-3">
                         <p>当按下浮动操作按钮时，加号转换成了铅笔。这指明了铅笔是主要的创作方式。</p>
                       </figcaption>
                     </figure>
@@ -127,32 +129,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="icons-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_01_Inbox-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-4">
                         <p>Inbox 的产品图标动画会在用户首次打开应用且需要登陆的时候出现。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="icons-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_03_Calendar-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-5">
                         <p>日历的产品图标动画，会在首次加载用户的日历数据时出现。</p>
                       </figcaption>
                     </figure>
@@ -162,32 +164,32 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="icons-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_02_Photos-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-6">
                         <p>相册的产品图标动画，会在用户首次打开应用时出现，以呈现出热烈的欢迎。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="icons-figure-caption-7" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/ProductIcons_04_Gmail-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="icons-figure-caption-7">
                         <p>Gmail 的产品图标动画有一些有趣的个性，但仍保持了相似的显示效果，同样会在用户首次打开应用且要求登陆时显示图标动画。</p>
                       </figcaption>
                     </figure>
@@ -216,32 +218,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="illustrations-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_01_ErrorState_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="illustrations-figure-caption-1">
                         <p>当出现意外的错误时，可以把它当成一个欣赏动画的机会。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="illustrations-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_02_CalendarGoal_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="illustrations-figure-caption-2">
                         <p>在日历添加任务的等待过程中，自行车动画可以让用户在等待期间保持愉悦。</p>
                       </figcaption>
                     </figure>
@@ -251,32 +253,32 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="illustrations-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_03_ZeroInbox_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="illustrations-figure-caption-3">
                         <p>当用户完成个人目标（如处理完收件箱中的所有邮件）时通过动画奖励用户，可以创建用户和应用功能更深入的互动。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="illustrations-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_04_Maps_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/creative-customization/Illustrations_04_Maps_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="illustrations-figure-caption-4">
                         <p>通过为新功能添加动画插图的形式，来让用户学习产品的功能，会让用户更难忘。</p>
                       </figcaption>
                     </figure>
