@@ -58,10 +58,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 65.7894736842%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>手机上的纵向分屏模式（左图），平板上的横向分屏模式（右图）</p>
                       </figcaption>
                     </figure>
@@ -121,18 +123,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 91.0526315789%">
+                          <img alt="" aria-describedby="layout-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="layout-figure-caption-1">
                         <p>应用可以在手机（左图）和平板（右图）中使用相同的布局。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 91.0526315789%">
+                          <img alt="" aria-describedby="layout-figure-caption-2" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="layout-figure-caption-2">
                         <p>应用可以在手机（左图）和平板（右图）中使用不同的布局。</p>
                       </figcaption>
                     </figure>
@@ -148,20 +154,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="layout-figure-caption-3" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="layout-figure-caption-3">
                         <p>在手机上，当处于分屏模式时，应用竖直方向上的长宽比为 16:9。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 91.0526315789%">
+                          <img alt="" aria-describedby="layout-figure-caption-4" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="layout-figure-caption-4">
                         <p>在平板上，当处于分屏模式时，应用在竖直方向上的长宽比为 34.15%。</p>
                       </figcaption>
                     </figure>
