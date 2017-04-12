@@ -25,8 +25,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -69,10 +71,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 48.9473684211%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>加载图片时推荐使用的不透明度、曝光和饱和度</p>
                         <p>不透明度：0% 开始，100% 结束<br>
                           曝光：Gamma, Black output（针对暗色图片）<br>
@@ -87,20 +91,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 166.666666667%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p>完全不透明和曝光</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 166.666666667%">
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-3">
                         <p>色彩饱和度</p>
                       </figcaption>
                     </figure>
@@ -116,16 +124,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1506px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 66.401062417%">
+                          <video aria-describedby="usage-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-4">
                         <p>动画显示在更大的屏幕上加载 Chrome OS 的系统壁纸</p>
                       </figcaption>
                     </figure>
@@ -156,20 +164,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 90.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 90.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -182,16 +194,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1440px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>加载和过渡动画</p>
                       </figcaption>
                     </figure>
@@ -207,16 +219,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p>视频显示了切换账户时的动画</p>
                       </figcaption>
                     </figure>
