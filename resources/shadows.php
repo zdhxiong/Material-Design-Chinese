@@ -2,7 +2,7 @@
 
 <div id="grid-cont">
   <section class="grid_outer chapter">
-    <h1 class="chapter-title">阴影</h1>
+    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
 
     <div class="chapter-content">
       <div class="article-content chapter-intro">

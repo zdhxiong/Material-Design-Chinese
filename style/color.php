@@ -14,8 +14,8 @@
             <section class="figure col-1">
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                  <div class="media" style="max-width: 1280px">
+                    <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 56.25%">
                       <video controls="" loop="" preload="metadata">
                         <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm'); ?>" type="video/webm">
                         <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4'); ?>" type="video/mp4">
@@ -34,21 +34,98 @@
         <h1>目录</h1>
         <ul>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-palette" data-qp-ui-data-id="qp:1">调色板</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-tool" data-qp-ui-data-id="qp:1">颜色工具</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-schemes" data-qp-ui-data-id="qp:2">配色方案</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-palette" data-qp-ui-data-id="qp:2">调色板</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-text-background-colors" data-qp-ui-data-id="qp:3">文字和背景色</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-color-system" data-qp-ui-data-id="qp:3">颜色系统</a>
           </li>
           <li>
-            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-themes" data-qp-ui-data-id="qp:4">主题</a>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-usability" data-qp-ui-data-id="qp:4">可用性</a>
+          </li>
+          <li>
+            <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="color.html#color-themes" data-qp-ui-data-id="qp:5">主题</a>
           </li>
         </ul>
       </nav>
 
       <div class="article-list">
+
+        <div id="color-color-tool" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+            颜色工具
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+              <title>Expand and collapse content</title>
+              <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+              <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+            </svg>
+          </h2>
+          <div class="article-content">
+            <div>
+              <p><a href="https://material.io/color/" target="_blank">颜色工具</a> 可以帮你创建、分享配色方案、以及把配色方案应用到 UI 中，以及测试颜色组合的可访问性。</p>
+              <div class="col-list">
+                <section class="figure-figure-figure col-3">
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 721px">
+                        <div class="frame " style="padding-top: 99.8613037448%">
+                          <img alt="" aria-describedby="color-tool-figure-caption-1" src="<?php static_url('../static/media/style/color/components.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-tool-figure-caption-1">
+                        <h3><strong>创建配色方案</strong></h3>
+                        <p>创建配色方案，包含主色和辅助色的较深和较浅的变化。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="color-tool-figure-caption-2" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-tool-figure-caption-2"><h3><strong>测试可访问性</strong></h3>
+                        <p>使用 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">Web 内容无障碍指南</a> 的易读性标准，来测试文本在不同的背景色中是否可访问。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 721px">
+                        <div class="frame " style="padding-top: 99.8613037448%">
+                          <img alt="" aria-describedby="color-tool-figure-caption-3" src="<?php static_url('../static/media/style/color/UI.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-tool-figure-caption-3">
+                        <h3><strong>预览 UI 的颜色</strong></h3>
+                        <p>通过一系列的 Material Design 组件，来预览配色方案的效果，并可以在 Codepen 中编辑 HTML、CSS 和 JavaScript。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="modulettes">
+                      <a class="modulette container gd" href="https://material.io/color/" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
+                        <div class="info">
+                          <div class="title">颜色工具</div>
+                          <span class="subtitle">为你的 UI 创建配色方案，并测试颜色的可访问性</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="module"></div>
+                  <div class="module"></div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div id="color-color-palette" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
           <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
             调色板
@@ -60,13 +137,13 @@
           </h2>
           <div class="article-content">
             <div>
-              <p>材料从现代建筑、路标、路面标记和运动场所得到了灵感。颜色应该是充满惊喜和活力的。</p>
+              <h1>调色板</h1>
               <p>该调色板包含了主色和强调色，可以用于插图或开发你的品牌色。这些经过设计的颜色可以灵活的搭配。调色板从主色开始，通过填充光谱为 Android、Web、iOS 创建了完整可用的调色板。Google 建议使用 500 色号的颜色作为主色，其他颜色作为强调色。</p>
               <p>主题通过设置表面阴影、阴影深度和墨迹不透明度来构建统一的应用样式。</p>
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">下载调色板</div>
                       <span class="subtitle">0.02 MB (.zip) </span>
@@ -1290,9 +1367,9 @@
           </div>
         </div>
 
-        <div id="color-color-schemes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
-            配色方案
+        <div id="color-color-system" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+            颜色系统
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1301,210 +1378,143 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>选择调色板</h1>
-              <p>你可以在应用中使用定制的调色板，以适配你的品牌颜色，例如单色、黑白色、多彩色或中性色。或者，你也可以使用 Material Design 的调色板。在不用 UI 元素之间，颜色必须要有足够的对比度。</p>
-              <h4 class="related">相关资源</h4>
+              <h1>选择配色方案</h1>
+              <p>你可以自定义应用的调色板，以适配你的品牌颜色。或者，你可以使用 Material Design 的调色板创建一个全新的配色方案。</p>
+              <p>创建配色方案时：</p>
+              <ul class="lst-kix_4sscl52b7rwh-0 start">
+                <li>使用 <a href="color.html#color-the-color-tool">颜色工具</a> 创建调色板，并在应用中使用</li>
+                <li>确保应用的颜色满足可访问性标准，且元素之间有充分的对比度</li>
+              </ul>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html%23ColorPalette&amp;sa=D&amp;ust=1481817962720000&amp;usg=AFQjCNEYvpgiGPa5xnI2xkHQ0IId58B_pg" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
-                  <div class="info">
-                    <div class="title">定制你的调色板</div>
-                    <span class="subtitle">定义应用的调色板</span>
-                  </div>
+                <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
+                  <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/gd.svg">
+                    <div class="info">
+                      <div class="title">在材料中表现品牌</div>
+                      <span class="subtitle">在 Material Design 中保持品牌化的分步指导</span>
+                    </div>
                   </img>
                 </a>
               </div>
+              <h1>Material Design 的颜色系统</h1>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>使用 Material Design 的调色板</h1>
-                    <p>没有现成的配色方案的应用，可以从 Material Design 的调色板中选择颜色。你可以在主色板选择 3 种颜色，从辅助色板中选择 1 个强调色。</p>
+                    <p>在 Material Design 中，<strong>主色</strong> 应该是应用中出现最频繁的颜色，<strong>辅助色</strong> 则是用来强调 UI 中关键部分的颜色。</p>
+                    <p>使用 Material Design 调色板中的颜色是可选的。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 91.3%">
+                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>示例：从主色板中选择了两种色调的紫色和一种绿色强调色。</p>
+                      <figcaption id="color-system-figure-caption-1">
+                        <p>该配色方案中有一个主色，以及颜色较深和较浅版本的主色，和一个辅助色。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>UI 中颜色应用的示例</p>
+                      <figcaption id="color-system-figure-caption-2">
+                        <p>在使用主色的区域下方，相关信息使用了颜色更浅的主色进行着色。浮动操作按钮使用辅助色进行强调。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 56.7%">
+                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-3">
+                        <p>此配色方案包含主色，和颜色较深和较浅版本的主色。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-4">
+                        <p>主色应用于工具栏和状态栏，同时也被用于强调浮动操作按钮。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
+              <p></p>
+              <h1>主色</h1>
               <div class="col-list">
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h1>主色</h1>
-                    <p>使用调色板中的主色时，该颜色应该是所有屏幕和组件中使用最广泛的。</p>
+                    <p>主色是应用中出现最频繁的颜色。如果没有使用辅助色的话，也可以用主色来强调元素。</p>
+                    <p>要在元素之间创造对比度，可以使用较浅或较深色调的主色。较浅和较深的色调之间的对比度有助于区分不同的表面，例如区分状态栏和工具栏。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
+                      <div class="media" style="max-width: 1500px">
+                        <div class="frame " style="padding-top: 67.8%">
+                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>示例：当需要更暗或更亮的色调时，可以为主色添加不同明暗度的色调。</p>
+                      <figcaption id="color-system-figure-caption-5">
+                        <p>此配色方案包含不同色调的主色，因为需要用到较浅和较深色调的对比度。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="module"></div>
                 </section>
-                <section class="module-figure-module col-3">
-                  <div class="module">
-                    <h1>次要颜色</h1>
-                    <p>次要颜色的调色板可以用于指示相关操作或信息。</p>
-                    <p>次要颜色可以是比主色更亮或更暗的同色系颜色。</p>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>示例：当需要更暗或更亮的色调时，可以为次要颜色添加不同明暗度的色调。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="module"></div>
-                </section>
+              </div>
+              <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>强调色</h1>
-                    <p>强调色应该用于浮动操作按钮和交互性元素中，例如：</p>
-                    <ul class="lst-kix_ghf5dsoviz4m-0 start">
-                      <li>文本框和光标</li>
-                      <li>文本选中状态</li>
+                    <h1>辅助色</h1>
+                    <p>辅助色用于强调 UI 中的选择部分。辅助色可以是和主色互补的，也可以是和主色类似的，但它不应该只是简单的对主色进行加深或变浅。辅助色应该和它周围的元素形成对比，并作为强调，且应谨慎使用。</p>
+                    <p>辅助色最适合用于：</p>
+                    <ul class="lst-kix_s7tyq6hoyjsd-0 start">
+                      <li>按钮、浮动操作按钮、按钮文本</li>
+                      <li>文本框、光标、文本选择</li>
                       <li>进度条</li>
                       <li>选择控件、按钮、滑块</li>
                       <li>链接</li>
+                      <li>标题</li>
                     </ul>
+                    <p>使用辅助色是可选的。如果你使用了主色的变体来强调元素，则不需要辅助色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
+                      <div class="media" style="max-width: 1500px">
+                        <div class="frame " style="padding-top: 67.8%">
+                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>使用强调色的浮动操作按钮</p>
+                      <figcaption id="color-system-figure-caption-6">
+                        <p>具有不同色调的辅助色配色方案。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 67.8%">
+                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>使用强调色的开关</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>文本只有作为网页链接时才使用强调色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>正文文本不要使用强调色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>在主要操作按钮和组件中使用强调色，比如开关和滑块。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>不要在应用栏或其他大面积区域使用强调色。避免在浮动操作按钮和背景色中使用相同的颜色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_appbar.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>应用栏、工具栏以及系统状态栏均可以使用定制的强调色。在本示例中，工具栏使用 500 的靛蓝色，而状态栏使用 700 的靛蓝色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>网页链接和按钮可以使用定制的强调色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"></div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>文本框和选择控件可以使用定制的强调色。</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
-                      </div>
-                      <figcaption>
-                        <p>文本选中状态可以使用定制的强调色。</p>
+                      <figcaption id="color-system-figure-caption-7">
+                        <p>辅助色配色方案不需要有多种颜色。它只需要和周围的元素形成对比，且应在 UI 中谨慎使用。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1514,50 +1524,264 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>替换强调色</h1>
-                    <h2>更深或更浅的色调</h2>
-                    <p>如果你的强调色太亮或太暗，无法和背景色形成充分的对比，请使用更深或更浅的强调色代替。</p>
+                    <h1>在应用中使用颜色</h1>
+                    <p>大型 UI 区域和元素应该使用主色进行着色。辅助色可用于强调较小的区域。如果没有辅助色，则可以在这些区域中使用主色。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>在太亮或太暗的背景色上，使用备用的强调色。</p>
+                      <figcaption id="color-system-figure-caption-8">
+                        <p>浮动操作按钮使用辅助色进行强调，但是电话图标使用了主色。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>如果强调色和背景色没有足够的对比度，就不要使用强调色。</p>
+                      <figcaption id="color-system-figure-caption-9">
+                        <p>开关使用辅助色进行强调。系统栏使用主色，而工具栏使用了较浅的主色。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
+                <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>主色的变化</h2>
-                    <p>另一个强调色的替换方案是：在白色背景上使用 500 的主色。</p>
-                    <p>但是，如果背景色已经是 500 的主色了，可以使用 100% 的白色或 54% 的黑色。</p>
+                    <p>使用主色来强调元素，例如按钮和复选框。</p>
+                    <p>罕见的元素（如警告）应该和其他元素有明显的区分，不能使用主色。</p>
                   </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.4%">
+                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-10">
+                        <p>使用主色作为强调，来表明按钮和复选框已被选中。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-11">
+                        <p>辅助色可以用在有代表性的元素上，例如按钮和链接。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>辅助色，以及其他的用于强调 UI 中某部分的颜色，应该谨慎使用。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-12">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>对某些文本使用强调色，例如链接文本。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-13">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>不要在正文中使用明亮的颜色，即使你的主色或辅助色是明亮的。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p>有关颜色的更多排版易读性的指南，请参阅 <a href="color.html#color-the-color-tool">颜色工具</a>。</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-14">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>你可以使用主色来强调链接。</p>
+                        <p></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-15">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>使用主色或强调色来强调选择较短的文本，如标题。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
                   <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-16">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>在主要操作按钮上使用辅助色。</p>
+                        <p></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-17">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>不要在应用栏、较大的色块区域上使用辅助色。如果浮动操作按钮位于辅助色背景上，则不要在浮动操作按钮上使用辅助色。</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
                   <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-18">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Use a monochromatic color as an accent to let imagery and other colorful elements take
+                          prominence.</p>
+                        <p></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-19">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>You can use your primary color in a different tone on elements that rest on top of a primary
+                          color region (like this floating action button).</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-20">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Text fields and switches can use your secondary color as an accent. </p>
+                        <p></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-21">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Text selection can use your secondary color as an accent.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <p><strong>Alternative secondary colors</strong></p>
+                    <p>If your secondary color is too light or dark to sufficiently contrast with the background color,
+                      use a lighter or darker shade of the secondary color instead.</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-22">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Use a different tone of your secondary color against backgrounds that are very light or very
+                          dark.</p>
+                        <p></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.222222222%">
+                          <img alt="" aria-describedby="color-system-figure-caption-23" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="color-system-figure-caption-23">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>Don’t use a secondary color on top of a background if there is not enough contrast between
+                          the two colors.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
                 </section>
               </div>
+              <p></p>
             </div>
           </div>
         </div>
 
-        <div id="color-text-background-colors" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
-            文本和背景色
+        <div id="color-usability" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+            可用性
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
               <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -1566,50 +1790,281 @@
           </h2>
           <div class="article-content">
             <div>
-              <h1>文本不透明度</h1>
-              <p>文本可以以不同的不透明度显示，以传达某些信息相对于其他信息的重要性。文本的不透明度取决于使用的是暗色背景还是亮色背景。</p>
               <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>Hierarchy</h1>
+                    <p>Hierarchy refers to organizing content according to different levels of importance. Color can
+                      convey how important some content is relative to other content. </p>
+                    <p>For example, a brightly colored button on a colorless background makes that button stand out.
+                      Alternatively, colorless bars and buttons allow bright content to take prominence in a UI.</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-1">
+                        <p>Bold color emphasizes the floating action button
+                          and the toolbar, giving prominence to message creation and navigation. </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1001px">
+                        <div class="frame " style="padding-top: 177.622377622%">
+                          <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-2">
+                        <p>Colorless bars and buttons allow colorful content
+                          to take precedence, deemphasizing the status and navigation bars.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>Meaning</h1>
+                    <p>Color may be used to communicate the meaning of various elements on a screen. A weather app may
+                      display colors that indicate current weather conditions, and a maps app may use color to show
+                      traffic conditions, with roads colored red or green. </p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-3">
+                        <p>A weather app uses color to signal the time of
+                          day.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-4">
+                        <p>A maps app uses color to signal traffic
+                          conditions.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>State</h1>
+                    <p>Color can provide information about: </p>
+                    <ul class="lst-kix_epkga2o278ub-0 start">
+                      <li>An element’s current state, such as if a button is enabled or disabled</li>
+                      <li>An app or element’s change of state</li>
+                    </ul>
+                    <p>Color that indicates a change of state should be noticeable, as subtle differences in color may
+                      be missed. It’s best to indicate a change of state in more than one way, such as displaying an
+                      icon or moving the location of an element. </p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-5">
+                        <p>The red color in the label and helper text indicate
+                          error messages. </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 550px">
+                        <div class="frame " style="padding-top: 36.3636363636%">
+                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-6">
+                        <p>The color changes from blue to red to indicate
+                          different states. </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h1>Contrast </h1>
+                    <p>Your app’s primary and secondary colors should ensure sufficient color contrast between elements
+                      so that all users can see and use your app. </p>
+                    <p>To learn more about color, contrast, and accessibility design, read <a
+                        href="https://material.googleplex.com/usability/accessibility.html#" target="_blank">Material
+                        Design Accessibility. </a></p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-7">
+                        <p>In this UI, red signifies the time of day and green
+                          represents the foggy weather. </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-8">
+                        <p>This is how users with deuteranopia (red/green
+                          color blindness) might see the UI shown to the left. They might not be able to see differences
+                          between text and other elements.<br>
+                          <br>
+                          Additional affordances, beyond color, should be used to convey information.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
+                <section class="module-figure-module col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-9">
+                        <p>Smaller text may be difficult to read for
+                          individuals with cataracts, for whom your UI may appear blurry. Elements without sufficient
+                          contrast get lost in the background.</p>
+                        <p>To accommodate all users, offer enlarged text settings.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="module"></div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <h1>Text on backgrounds </h1>
+                    <p>Text should be legible on the background on which it appears. It is recommended that:</p>
+                    <ul class="lst-kix_4wv31nrzrjta-0 start">
+                      <li>Dark gray text is used on light backgrounds</li>
+                      <li>Light gray text is used on dark backgrounds</li>
+                    </ul>
+                    <p>If your app has both light and dark themes, the text should be available in a contrasting color
+                      against each theme. </p>
+                  </div>
+                  <div class="module"></div>
+                  <div class="module"></div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-figure-figure col-3">
+                  <div class="module">
+                    <h2>Legibility </h2>
+                    <p>Text that appears on colored backgrounds should be legible and meet accessibility standards. Both
+                      backgrounds and text must use colors and opacities that, when used together, meet these standards.
+                      <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+                         target="_blank">The Web Content Accessibility Guidelines (WCAG 2.0)</a> level AA requires a
+                      contrast ratio of 4.5:1 for normal text and a 3:1 ratio for large text.</p>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 22.2222222222%">
+                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-10">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Using opacity instead of shifting colors often creates better contrast and relative
+                          luminance. For example, gray text (#727272) becomes hard to read if the background color
+                          changes to magenta.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 22.2222222222%">
+                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-11">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>Shifting to gray instead of decreasing contrast on black often lowers the relative luminance,
+                          making typography unreadable. </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>亮色背景中的暗色文本</strong></strong></h2>
-                    <p>亮色背景中的暗色文本，使用以下不透明度：</p>
-                    <ul class="lst-kix_buzsh26i37pa-0 start">
-                      <li>最重要的文本不透明度为 87%。</li>
-                      <li>次要文本在视觉上优先级较低，不透明度为 54%。</li>
-                      <li>文本提示（比如文本框和标签中的那些）和禁用状态的文本视觉优先级更低，不透明度为 38%。</li>
+                    <h2><strong>Dark text on light backgrounds</strong></h2>
+                    <p>The level of opacity used for text depends on whether your background is dark or light. For dark
+                      text on light backgrounds, apply the following opacity levels: </p>
+                    <ul class="lst-kix_ljva6phq05b1-0 start">
+                      <li>The <strong>most important text</strong> has an opacity of 87%.</li>
+                      <li><strong>Secondary text</strong>, which is lower in the visual hierarchy, has an opacity of
+                        54%.
+                      </li>
+                      <li><strong>Text hints</strong> (such as text fields and labels) and <strong>disabled
+                          text</strong> have even lower visual prominence with an opacity of 38%.
+                      </li>
                     </ul>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.9444444444%">
+                          <img alt="" src="<?php static_url('../static/media/style/color/style_color_usability_alpha1_161116.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>亮色背景下的暗色文本</p>
-                      </figcaption>
                     </figure>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>暗色文本（#000000）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
+                        <td colspan="1" rowspan="1"><p>Dark text (#000000)</p></td>
+                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>主文本</p></td>
+                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
                         <td colspan="1" rowspan="1"><p>87%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>次要文本</p></td>
+                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本，图标</p></td>
+                        <td colspan="1" rowspan="1"><p>Disabled text, hint text</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>分割线</p></td>
+                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
                       </tr>
                       </tbody>
@@ -1618,17 +2073,19 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong><strong>暗色背景中的白色文本</strong></strong></h2>
-                    <p>表格中的不透明度是相对于暗色背景中的白色文本而言的。</p>
-                    <p>在有颜色的背景中使用白色文本时，其不透明度应为 100%。</p>
+                    <h2><strong>White text on dark backgrounds</strong></h2>
+                    <p>White text appearing on colored backgrounds should do so at an opacity of 100%.</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_textandsymbols_alpha2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.9444444444%">
+                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p>暗色背景中的白色文本</p>
+                      <figcaption id="usability-figure-caption-12">
+                        <p>The table relays relative levels of importance for
+                          white text on dark backgrounds.</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1636,24 +2093,67 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>亮色文本（#FFFFFF）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
+                        <td colspan="1" rowspan="1"><p>Light text (#FFFFFF)</p></td>
+                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>主文本</p></td>
+                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>次要文本</p></td>
+                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
                         <td colspan="1" rowspan="1"><p>70%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本、图标</p></td>
+                        <td colspan="1" rowspan="1"><p>Disabled text, hint text</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>分割线</p></td>
+                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <h2>Icons and other elements</h2>
+                    <p>Elements like icons benefit from having a hex value of black or white at 38% opacity so that they
+                      work on backgrounds of any color.</p>
+                  </div>
+                  <div class="module">
+                    <table class="s-tag-table">
+                      <tbody>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Dark icons (#000000)</p></td>
+                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Active Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>54%</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Inactive Icon</p></td>
+                        <td colspan="1" rowspan="1"><p>38%</p></td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="module">
+                    <table class="s-tag-table">
+                      <tbody>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Light icons (#FFFFFF)</p></td>
+                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Active Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>100%</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>Inactive Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       </tbody>
                     </table>
@@ -1661,74 +2161,70 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2><strong><strong>使用不透明度代替灰色</strong></strong></h2>
-                    <p>使用透明的黑色或白色文本，可以保证在背景色变化时文本依然保持清晰和鲜明。在相同情况下，使用不透明度会比使用灰色更加灵活。</p>
+                    <h2>Colored text and backgrounds </h2>
+                    <p>Use colored text on colored backgrounds sparingly, limiting usage to important text elements.
+                      Colored text should be used to indicate importance and selective emphasis. </p>
+                    <p>See <a href="color.html#color-the-color-tool">the color tool</a> to determine if certain
+                      foreground colors used for typography meet accessibility standards against different background
+                      colors.</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_alpha3.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>如果背景色变成洋红色，灰色文本（十六进制值为 #727272）就变得难以阅读。</p>
+                      <figcaption id="usability-figure-caption-13">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>Use a contrasting color (such as your secondary color) on important text to contrast it
+                          against the background.</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_uiapplication_alpha4.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>将黑色文本的不透明度设置为 0.54，可以保证在新背景中，文本的清晰度和协调性。</p>
+                      <figcaption id="usability-figure-caption-14">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>Avoid placing a large amount of colored text on colored backgrounds. </p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-              </div>
-              <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <h1>图标和其他元素</h1>
-                    <p>像图标这样的元素，受益于在 38% 的不透明度处具有黑色或白色的十六进制值（而不是其他特定颜色），所以它们可以更好的适配任何背景色。</p>
+                <section class="module-figure-figure col-3">
+                  <div class="module"></div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-15">
+                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p>You can use a darker or lighter tone of color to create a monochrome, yet accentuated,
+                          look.</p>
+                      </figcaption>
+                    </figure>
                   </div>
-                  <div class="module">
-                    <table class="s-tag-table">
-                      <tbody>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>暗色图标（#000000）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>激活的图标</p></td>
-                        <td colspan="1" rowspan="1"><p>54%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>未激活的图标</p></td>
-                        <td colspan="1" rowspan="1"><p>38%</p></td>
-                      </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="module">
-                    <table class="s-tag-table">
-                      <tbody>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>亮色图标（#FFFFFF）</p></td>
-                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>激活的图标</p></td>
-                        <td colspan="1" rowspan="1"><p>100%</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>未激活的图标</p></td>
-                        <td colspan="1" rowspan="1"><p>50%</p></td>
-                      </tr>
-                      </tbody>
-                    </table>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 122.2%">
+                          <img alt="" aria-describedby="usability-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>"/>
+                        </div>
+                      </div>
+                      <figcaption id="usability-figure-caption-16">
+                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p>Don’t place low-contrast tones of the same color against each other. It’s difficult to read
+                          text with a low contrast against its background.</p>
+                      </figcaption>
+                    </figure>
                   </div>
                 </section>
               </div>
@@ -1736,8 +2232,8 @@
           </div>
         </div>
 
-        <div id="color-themes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
-          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+        <div id="color-themes" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
+          <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
             主题
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
               <title>Expand and collapse content</title>
@@ -1751,7 +2247,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">下载主题</div>
                       <span class="subtitle">1.23 MB (.ai) </span>
@@ -1770,20 +2266,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="themes-figure-caption-1">
                         <p>亮色主题调色板</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="themes-figure-caption-2">
                         <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
@@ -1799,20 +2299,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 178.055555556%">
+                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="themes-figure-caption-3">
                         <p>暗色主题调色板</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 178.055555556%">
+                          <img alt="" aria-describedby="themes-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="themes-figure-caption-4">
                         <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
@@ -1821,8 +2325,8 @@
               </div>
               <h4 class="related">相关资源</h4>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/training/material/theme.html&amp;sa=D&amp;ust=1481817962520000&amp;usg=AFQjCNHY9FJJrH-7BVQoJaHhHcP_7eFFuA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="http://developer.android.com/training/material/theme.html" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">使用材料主题</div>
                     <span class="subtitle">自定义你的品牌标识。</span>
