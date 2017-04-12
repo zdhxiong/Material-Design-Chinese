@@ -34,8 +34,8 @@
           <div class="article-content">
             <div>
               <div class="modulettes">
-                <a class="modulette container md" href="https://material.io/devices/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/md.svg'); ?>">
+                <a class="modulette container md" href="https://material.io/devices" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
                   <div class="info">
                     <div class="title">设备数据</div>
                     <span class="subtitle">一个包含各种设备的设备尺寸、分辨率等数据的综合性资源。</span>
@@ -61,7 +61,7 @@
               <p>Resizer 是一个交互式查看器，显示数字产品如何响应桌面设备、移动设备和平板电脑上的 Material Design 的断点。</p>
               <div class="modulettes">
                 <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/md.svg'); ?>">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
                   <div class="info">
                     <div class="title">Resizer</div>
                     <span class="subtitle">在不同的 Material Design 断点下预览网站和示例。</span>
