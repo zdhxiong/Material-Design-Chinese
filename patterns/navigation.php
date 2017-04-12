@@ -32,8 +32,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -85,8 +87,8 @@
               <p>应用的导航应该是直观且可预测的。新老用户都应该能轻松的访问应用的各个部分。当用户从一个视图进入下一个视图时，他们会看到包含图像、操作和内容的场景。这些场景组合在一起来讲述它们所包含的内容，强调正确的操作，来引导用户逐步深入。</p>
               <p>更多关于在场景之间转换的信息，请参考<a href="navigational-transitions.html">导航转换</a>。</p>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/training/implementing-navigation/index.html&amp;sa=D&amp;ust=1481817996621000&amp;usg=AFQjCNG9BAni_a8z2Rat7w2AEI3n93mnJg" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="https://developer.android.com/training/implementing-navigation/index.html" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">高效导航的实践</div>
                     <span class="subtitle"></span>
@@ -112,18 +114,20 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>此图通过把邮件分组为：推广、社交、财务，来显示邮件条目之间的关系。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigation/components-buttons-fab-transition_speeddial_02.mp4'); ?>" type="video/mp4">
@@ -135,10 +139,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_structure3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p>当用户的需求很简单时，使用简单的设计和轻量的结构。</p>
                       </figcaption>
                     </figure>
@@ -164,8 +170,10 @@
                 <section class="figure col-1">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_definingyournavigation-alt.png'); ?>"/>
+                      <div class="media" style="max-width: 2320px">
+                        <div class="frame " style="padding-top: 39.6551724138%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_definingyournavigation-alt.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -182,10 +190,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/inventory.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 31.9736842105%">
+                          <img alt="" aria-describedby="defining-your-navigation-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/inventory.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="defining-your-navigation-figure-caption-1">
                         <p>确定你的核心用户和它们可能要执行的用例。</p>
                       </figcaption>
                     </figure>
@@ -199,10 +209,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/prioritize.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 31.9736842105%">
+                          <img alt="" aria-describedby="defining-your-navigation-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/prioritize.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="defining-your-navigation-figure-caption-2">
                         <p>当为餐厅应用设计导航时，高优先级的任务可能包括查看餐厅细节和发现新的餐厅。</p>
                       </figcaption>
                     </figure>
@@ -219,10 +231,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/sequence.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 31.9736842105%">
+                          <img alt="" aria-describedby="defining-your-navigation-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation/sequence.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="defining-your-navigation-figure-caption-3">
                         <p>无论消费者想要找到新餐厅还是查看最喜欢的餐馆，两种路径都会引导用户查看餐厅详情。通过搜索或收藏夹之类的功能使用户更快速地访问常用路径。</p>
                       </figcaption>
                     </figure>
@@ -235,10 +249,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/deconstruct.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 31.9736842105%">
+                          <img alt="" aria-describedby="defining-your-navigation-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation/deconstruct.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="defining-your-navigation-figure-caption-4">
                         <p>“查找餐厅” 是一个较广泛的功能，实际上可以分解为多个较小的功能，例如：浏览附近、按名称搜索、浏览热门餐厅。这些小功能可能更方便用户来进行搜索，应该被整合进导航中。</p>
                       </figcaption>
                     </figure>
@@ -268,20 +284,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="up-back-buttons-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="up-back-buttons-figure-caption-1">
                         <p>向上按钮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="up-back-buttons-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="up-back-buttons-figure-caption-2">
                         <p>相册中的向上按钮</p>
                       </figcaption>
                     </figure>
@@ -299,8 +319,8 @@
                       <li>隐藏屏幕键盘（IME）</li>
                     </ul>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/components/tasks-and-back-stack.html&amp;sa=D&amp;ust=1481817996847000&amp;usg=AFQjCNFn8EsNCS11DfShnDzTgnwhCU_mZw" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="https://developer.android.com/guide/components/tasks-and-back-stack.html" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">任务和返回栈</div>
                           <span class="subtitle">用户执行过的活动按照每个活动打开的顺序排列在堆栈中</span>
@@ -312,20 +332,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="up-back-buttons-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="up-back-buttons-figure-caption-3">
                         <p>返回键</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="up-back-buttons-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_upandback4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="up-back-buttons-figure-caption-4">
                         <p>相册中的返回键</p>
                       </figcaption>
                     </figure>
@@ -367,16 +391,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="navigating-between-apps-android-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_betweenapps1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_betweenapps1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="navigating-between-apps-android-figure-caption-1">
                         <p>从主屏幕启动应用即开始了一个新的<strong>任务</strong>。此任务经过扩展，以包含在相册中导航并浏览照片详情后的 <strong>Activity</strong>。如果用户触发了分享操作，会显示一个底部卡片，其中包含了来自不同应用的分享 Activity（所有之前已注册并用于处理 “分享” 的 <strong>Intent</strong>）。</p>
                       </figcaption>
                     </figure>
@@ -404,10 +428,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_home.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_home.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-1">
                         <h2>主界面</h2>
                         <p><strong>主界面</strong>是应用的入口。它介绍了应用和它的导航。</p>
                         <p>主界面可以改变其显示的内容。<strong>有状态主界面</strong>包含了用户之前与应用交互的记录。</p>
@@ -416,10 +442,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_parent-child.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_parent-child.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-2">
                         <h2>父级和子级</h2>
                         <p>较高级别的导航层称为<strong>父级</strong>，其下面的层级（或多个层级）称为<strong>子级</strong>。</p>
                         <p>例如，主界面是应用中所有其他界面的父级。</p>
@@ -428,10 +456,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_navigation.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_navigation.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-3">
                         <h2>导航</h2>
                         <p>当你导航到应用中更深的层级时，意味着你从应用较高的层级到了较低的层级。</p>
                         <p>从父级进入子级是<strong>下降导航</strong>。从子级进入父级是<strong>上升导航</strong>。</p>
@@ -442,10 +472,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_siblings.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_siblings.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-4">
                         <h2>同级</h2>
                         <p>有相同父级的场景称为<strong>同级</strong>。有多个相同优先级用例的应用，通常包含多个同级场景。<br></p>
                         <p><strong>横向导航</strong>是指在同级之间移动。</p>
@@ -454,10 +486,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_collections.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-5" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_collections.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-5">
                         <h2>集合</h2>
                         <p><strong>集合</strong>包含属于同个父级的多个项目。</p>
                       </figcaption>
@@ -465,10 +499,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_links.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="hierarchy-figure-caption-6" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_hierarchy_links.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-figure-caption-6">
                         <h2>链接</h2>
                         <p>链接可以让用户在两个场景之间快速移动，即使它们在导航结构中不相邻。</p>
                         <p><strong>交链</strong>是应用内部的链接，可以链接到应用内的任何地方。</p>
@@ -516,10 +552,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_embedded1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_embedded1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-1">
                         <p>这是一个移动端的嵌入式导航的示例，常用操作都在非常重要的主视图中执行。</p>
                       </figcaption>
                     </figure>
@@ -544,10 +582,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-2">
                         <p>移动端具有三个选项的选项卡示例</p>
                       </figcaption>
                     </figure>
@@ -558,18 +598,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-3">
                         <p>平板端的居中对齐的选项卡</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.9473684211%">
+                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_tabs3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-4">
                         <p>桌面端，具有标题和扩展头部的左对齐的选项卡示例</p>
                       </figcaption>
                     </figure>
@@ -594,10 +638,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 83.3333333333%">
+                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-5">
                         <p>手机上持续显示标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
@@ -608,10 +654,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-6">
                         <p>平板上持续显示标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
@@ -621,10 +669,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 83.3333333333%">
+                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-7">
                         <p>手机上显示动态标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
@@ -635,10 +685,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_bottomnav4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-8">
                         <p>平板上显示动态标签的底部导航栏示例</p>
                       </figcaption>
                     </figure>
@@ -664,36 +716,44 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-9">
                         <p>手机上关闭的侧边导航示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-10">
                         <p>平板上打开的侧边导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-11">
                         <p>手机上打开的侧边导航示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_navdrawer4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-12">
                         <p>桌面端打开且固定的左侧导航</p>
                       </figcaption>
                     </figure>
@@ -717,10 +777,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_nested1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 104.210526316%">
+                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_nested1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-13">
                         <p>桌面端展开的左侧导航示例</p>
                       </figcaption>
                     </figure>
@@ -733,18 +795,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 220.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-14">
                         <p>桌面端展开的左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 220.0%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_expanding2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -756,18 +822,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 220.0%">
+                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-15">
                         <p>桌面端的级联左侧导航示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 220.0%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterns_cascading2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -786,16 +856,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
+                          <video aria-describedby="patterns-figure-caption-16" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/navigation/Expanding - Overscroll Top.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigation/Expanding - Overscroll Top.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="patterns-figure-caption-16">
                         <p>在 Inbox 中，你可以在一条信息上向下拉动来回到父级视图。</p>
                       </figcaption>
                     </figure>
@@ -844,20 +914,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-1">
                         <p>手机上导航整合进内容的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-2">
                         <p>手机上的向上箭头示例</p>
                       </figcaption>
                     </figure>
@@ -867,18 +941,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-3">
                         <p>平板/桌面端的导航整合进内容的示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-4">
                         <p>平板/桌面端的向上箭头示例</p>
                       </figcaption>
                     </figure>
@@ -894,20 +972,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-5" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-5">
                         <p>手机上的两级导航示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 84.4444444444%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-6" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-6">
                         <p>手机上打开的左侧导航示例</p>
                       </figcaption>
                     </figure>
@@ -919,10 +1001,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-7" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations7.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-7">
                         <p>平板上使用两级导航的示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
@@ -932,10 +1016,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations8.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.1315789474%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-8" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations8.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-8">
                         <p>平板上打开的左侧导航显示在选项卡前面</p>
                       </figcaption>
                     </figure>
@@ -945,10 +1031,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 104.210526316%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-9" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations9.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-9">
                         <p>桌面端使用两级导航的示例：抽屉式导航和选项卡</p>
                       </figcaption>
                     </figure>
@@ -961,10 +1049,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations10.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 104.210526316%">
+                          <img alt="" aria-describedby="combined-patterns-figure-caption-10" src="<?php static_url('../static/media/patterns/navigation/patterns_navigation_patterncombinations10.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="combined-patterns-figure-caption-10">
                         <p>桌面端的嵌套左侧导航和选项卡</p>
                       </figcaption>
                     </figure>
