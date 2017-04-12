@@ -42,8 +42,10 @@
               <p>不同平台之间的设计惯例会不同。这些设计惯例的差异会影响用户对 UI 的理解、或影响用户完成某些任务。在这些情况下，建议只适配特定平台的设计惯例。在设计差异不容易造成混乱的地方，可以选择不进行适配。</p>
               <p>以下准则指示你何时应该适配本机平台的设计惯例，何时可以不进行适配。平台设计惯例在不断的改进，Material Design 也在和它们一起发展，以提高我们的设计模式的质量。</p>
               <figure class="s-tag-media">
-                <div class="media">
-                  <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png'); ?>"/>
+                <div class="media" style="max-width: 2320px">
+                  <div class="frame " style="padding-top: 53.4482758621%">
+                    <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png'); ?>"/>
+                  </div>
                 </div>
               </figure>
             </div>
@@ -70,10 +72,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-1" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-1">
                         <p><strong>Android/Web</strong></p>
                         <p>标题始终左对齐。</p>
                       </figcaption>
@@ -81,10 +85,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-2" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-2">
                         <p><strong>iOS</strong></p>
                         <p>标题默认居中对齐</p>
                       </figcaption>
@@ -95,10 +101,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-3" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-3">
                         <p><strong>Android</strong></p>
                         <p>在工具栏右侧有多个操作，或者甚至没有操作时，工具栏标题始终左对齐。</p>
                       </figcaption>
@@ -106,10 +114,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-4" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-4">
                         <p><strong>iOS</strong></p>
                         <p>在工具栏右侧、或应用的主屏幕上有多个操作按钮时，标题可以左对齐。</p>
                       </figcaption>
@@ -125,10 +135,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-5" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-5">
                         <p><strong>Android/Web</strong></p>
                         <p>后退按钮包含带茎秆的细箭头。</p>
                       </figcaption>
@@ -136,10 +148,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-6" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-6">
                         <p><strong>iOS</strong></p>
                         <p>在 iOS 上，后退箭头更粗，且不带茎秆。</p>
                       </figcaption>
@@ -150,10 +164,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-7" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-7">
                         <p><strong>Android/Web</strong></p>
                         <p>弹出菜单按钮图标（通过 “More” 符号指示）包含三个<strong>垂直的</strong>点。</p>
                       </figcaption>
@@ -161,10 +177,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 71.1111111111%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-8" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-8">
                         <p><strong>iOS</strong></p>
                         <p>弹出菜单按钮图标（通过 “More” 符号指示）包含三个<strong>水平的</strong>点。</p>
                       </figcaption>
@@ -180,10 +198,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-9" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-9">
                         <p><strong>Android</strong></p>
                         <p>使用 Material Design 的开关、复选框和单选按钮。</p>
                       </figcaption>
@@ -191,10 +211,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-10" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-10">
                         <p><strong>iOS </strong></p>
                         <p>本平台的开关仍然可以使用，因为它们有着和 Material Design 的开关相匹配的功能和外观。</p>
                         <p>使用开关代替复选框，使用复选标记列表代替单选按钮，因为这些是 iOS 平台上预定的图案。</p>
@@ -206,10 +228,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-11" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-11">
                         <p><strong>Web</strong></p>
                         <p>可以使用 Material Design 的开关、复选框和单选按钮。</p>
                       </figcaption>
@@ -228,16 +252,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="platform-recommendations-figure-caption-12" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-12">
                         <p><strong>Android</strong></p>
                         <p>当不存在冲突的手势时，可以从左侧使用边缘滑动来显示屏幕外的内容，例如抽屉栏导航。</p>
                       </figcaption>
@@ -245,16 +269,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="platform-recommendations-figure-caption-13" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-13">
                         <p><strong>iOS</strong></p>
                         <p>当不存在冲突的手势时，可以从左侧使用边缘滑动回到应用的上一级界面。</p>
                       </figcaption>
@@ -265,10 +289,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-14" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-14">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p><strong>Web</strong></p>
                         <p>浏览器通常使用边缘滑动进行浏览器的功能设置。所以边缘滑动不应该用在网页上。</p>
@@ -277,10 +303,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-15" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-15">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p><strong>Web</strong></p>
                         <p>边缘滑动不能用在浏览器上。</p>
@@ -298,21 +326,25 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-16" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-16">
                         <p><strong>Android</strong></p>
-                        <p>Android 上默认字体是 Roboto。在 Android 上，应该使用<a href="https://www.google.com/url?q=https://material.google.com/layout/units-measurements.html%23units-measurements-scaleable-pixels-sp&amp;sa=D&amp;ust=1481818028627000&amp;usg=AFQjCNGXhnPOv82E5ryeE8L34rONxByVpA" target="_blank">可伸缩像素</a>的文本大小，以允许用户使用系统辅助功能来调整应用整体的字体大小。</p>
+                        <p>Android 上默认字体是 Roboto。在 Android 上，应该使用<a href="https://material.google.com/layout/units-measurements.html#units-measurements-scaleable-pixels-sp" target="_blank">可伸缩像素</a>的文本大小，以允许用户使用系统辅助功能来调整应用整体的字体大小。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-17" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-17">
                         <p><strong>iOS</strong></p>
                         <p>iOS 上的默认字体是 San Francisco。使用此字体是实现辅助功能（如 “动态类型” ）的最简单的方法。使用其他字体可能需要进行调整后才能获得相同的辅助功能。</p>
                       </figcaption>
@@ -323,13 +355,15 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-18" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="platform-recommendations-figure-caption-18">
                         <p><strong>Web</strong></p>
                         <p>虽然 Arial 是网页上使用最广泛的字体，但是现代浏览器为 Web 字体提供了可访问性和缩放支持。</p>
-                        <p>Material Design 的标准<a href="../style/typography.html#typography-styles">排版指南</a>使用的 Roboto 字体可以帮助简化字体的使用。或者，使用自定义的字体，并建立自己的类型层次结构，以确保易读性。</p>
+                        <p>Material Design 的标准<a href="../style/typography.html#typography-styles">排版指南</a>使用的 Roboto 字体可以帮助简化字体的使用。或者，使用<a href="https://fonts.google.com/" target="_blank">自定义字体</a>，并建立自己的类型层次结构，以确保易读性。</p>
                       </figcaption>
                     </figure>
                   </div>
