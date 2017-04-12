@@ -14,7 +14,7 @@
           <p>
             <div class="modulettes">
               <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/color-palettes/color_swatches.zip'); ?>" title="Color Swatches">
-                <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                 <div class="info">
                   <div class="title">颜色色板</div>
                   <span class="subtitle">0.02 MB (.zip) </span>
