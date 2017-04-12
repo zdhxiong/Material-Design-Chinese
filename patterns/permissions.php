@@ -28,8 +28,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -134,8 +136,8 @@
                     <p>在这些情况下，用户的操作清楚地表明了他们的意图，且不需要弹出权限对话框或进行授权。</p>
                     <p></p>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/components/intents-filters.html&amp;sa=D&amp;ust=1481818002243000&amp;usg=AFQjCNFfT6XSBf74_LqfVqUqBpvFHpJPDA" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="http://developer.android.com/guide/components/intents-filters.html" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">意图和意图过滤器</div>
                           <span class="subtitle"></span>
@@ -170,10 +172,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="runtime-permissions-figure-caption-1" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="runtime-permissions-figure-caption-1">
                         <p>一个应用请求权限的示例</p>
                       </figcaption>
                     </figure>
@@ -202,10 +206,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 68.4210526316%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-1" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-1">
                         <p>应该预先申请关键权限。辅助权限可以在需要时进行申请。</p>
                         <p>无论是预先申请权限，还是在需要时申请权限，对于不明确的权限都应该提供权限内容的说明。</p>
                       </figcaption>
@@ -217,10 +223,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-2" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-2">
                         <h2><strong>在请求权限前先进行指导</strong></h2>
                         <p>如果你的应用有 “热烈欢迎”，可以用它来解释你的应用是做什么的，以及为什么需要申请这些额外的权限。</p>
                       </figcaption>
@@ -228,10 +236,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-3" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-3">
                         <h2><strong>预先申请</strong></h2>
                         <p>在首次启动时，仅申请关键的和明显的权限。</p>
                         <p>因为用户期望短信应用能获取短信权限，因此预先申请这个权限是有意义的。</p>
@@ -240,10 +250,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-4" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-4">
                         <h2><strong>在需要时申请</strong></h2>
                         <p>先等待着，直到调用某项功能时，再申请这项功能所需的权限。</p>
                         <p>当用户想要使用某项功能时，用户会更愿意授予该项功能所需的权限。</p>
@@ -254,10 +266,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-5" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-5">
                         <h2><strong>在需要时进行指导</strong></h2>
                         <p>在需要权限时，对权限进行解释说明，有助于判断用户的兴趣，并加深用户对权限的理解。</p>
                       </figcaption>
@@ -265,10 +279,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="request-patterns-figure-caption-6" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-6">
                         <h2><strong>提供一个直接的福利</strong></h2>
                         <p>提供片刻令人满足的东西，使用户觉得接受权限会更合理。</p>
                       </figcaption>
@@ -276,16 +292,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 540px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.703703704%">
+                          <video aria-describedby="request-patterns-figure-caption-7" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="request-patterns-figure-caption-7">
                         <h2><strong>只请求相关权限</strong></h2>
                         <p>当一个功能需要多个权限时，只请求这些权限，不要请求额外的权限。</p>
                       </figcaption>
@@ -322,10 +338,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="denied-permissions-figure-caption-1" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="denied-permissions-figure-caption-1">
                         <p>为了使用音频功能，snackbar 中显示了需要的权限。</p>
                       </figcaption>
                     </figure>
@@ -339,10 +357,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="denied-permissions-figure-caption-2" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="denied-permissions-figure-caption-2">
                         <p>此屏幕说明了应用需要权限才能运行，并提供了一个指向 “设置” 的链接，以便用户来允许权限。</p>
                       </figcaption>
                     </figure>
