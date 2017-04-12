@@ -30,8 +30,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -85,20 +87,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sidenav.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="placement-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sidenav.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="placement-figure-caption-1">
                         <p>抽屉栏中的设置</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_menu.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="placement-figure-caption-2" src="<?php static_url('../static/media/patterns/settings/patterns_settings_menu.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="placement-figure-caption-2">
                         <p>工具栏菜单中的设置</p>
                       </figcaption>
                     </figure>
@@ -130,10 +136,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sliders.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sliders.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>重要设置显示在列表顶部</p>
                       </figcaption>
                     </figure>
@@ -206,20 +214,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="grouping-settings-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grouping-settings-figure-caption-1">
                         <p>中断的分组设置</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="grouping-settings-figure-caption-2" src="<?php static_url('../static/media/patterns/settings/patterns_settings_subscreen3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="grouping-settings-figure-caption-2">
                         <p>相关设置分组显示在子屏幕下</p>
                       </figcaption>
                     </figure>
@@ -301,20 +313,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/settings_switch1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/settings_switch1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="labels-secondary-text-figure-caption-1">
                         <p>在标签下方，显示开关的状态文本 “开” 或 “关”。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/settings/settings_switch2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 73.3333333333%">
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-2" src="<?php static_url('../static/media/patterns/settings/settings_switch2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="labels-secondary-text-figure-caption-2">
                         <p>将开关本身和更长的描述添加到子屏幕。</p>
                       </figcaption>
                     </figure>
