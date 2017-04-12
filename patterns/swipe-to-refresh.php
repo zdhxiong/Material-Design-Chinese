@@ -15,7 +15,7 @@
               <div class="module">
                 <p>有两种方法可以更新应用内的内容：</p>
                 <ul class="lst-kix_8pwwe96a23b7-0 start">
-                  <li>首选方法是使用<strong><a href="https://www.google.com/url?q=http://developer.android.com/training/sync-adapters/index.html&amp;sa=D&amp;ust=1481818005683000&amp;usg=AFQjCNF0OM5OiZA7B0ZN7-y9JUf28ocN5g" target="_blank">同步功能</a></strong>自动更新内容，这将保持应用内容的自动更新。</li>
+                  <li>首选方法是使用<strong><a href="http://developer.android.com/training/sync-adapters/index.html" target="_blank">同步功能</a></strong>自动更新内容，这将保持应用内容的自动更新。</li>
                   <li><strong>滑动刷新</strong>是一种<a href="gestures.html#gestures-gestures">滑动手势</a>，可以用在按最近更新排序的列表、网格列表、以及卡片集的头部。</li>
                 </ul>
                 <p>手动刷新是对同步功能的补充。它可以保持当前的滚动位置，如在 Gmail 中检查新邮件时。</p>
@@ -33,8 +33,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -81,8 +83,8 @@
                     <p><strong>效果</strong></p>
                     <p>如果一个视图刷新时会导致大量内容更新，那么在该视图中使用刷新手势时，更新可能不会立即显示给用户。例如，刷新可能导致乱序删除、重新排序、修改、插入项目或仅改变离开屏幕的项目。</p>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html&amp;sa=D&amp;ust=1481818005820000&amp;usg=AFQjCNFmsKLzRMsBHOQ8FvmJkvq9uAyz4A" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">滑动刷新布局</div>
                           <span class="subtitle">通过垂直滑动手势刷新视图的内容</span>
@@ -93,16 +95,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="usage-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p>滑动刷新的动画显示</p>
                       </figcaption>
                     </figure>
@@ -120,10 +122,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>抽屉式导航（如果应用中存在的话）应该包含导航的目标，而不是动态内容。</p>
                       </figcaption>
@@ -131,10 +135,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>主屏幕小部件应自动更新内容。</p>
                       </figcaption>
@@ -145,10 +151,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>可平移的内容，例如地图，没有主要方向或内容的来源方向，用户无法推测出滑动刷新手势的方向。</p>
                       </figcaption>
@@ -181,20 +189,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="positioning-figure-caption-1" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="positioning-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="positioning-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="positioning-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -206,10 +218,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="positioning-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="positioning-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -225,20 +239,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="positioning-figure-caption-4" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="positioning-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="positioning-figure-caption-5" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="positioning-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -269,16 +287,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_do_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使刷新指示器停留在视图中，直到刷新动作完成，且提供了刷新动作状态的反馈为止。</p>
                       </figcaption>
@@ -286,16 +304,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-behavior_dont_xhdpi_009.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>滚动时，如果刷新指示器离开屏幕，隐藏了刷新动作的状态，这可能意味着刷新动作和视图内的特定组件（例如卡片）相关联，而不是和整个视图相关联。</p>
                       </figcaption>
@@ -316,16 +334,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_xhdpi_007.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>刷新内容的海拔高度高于其他表面</p>
                       </figcaption>
                     </figure>
@@ -336,48 +354,48 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p>刷新内容和另一个表面处于同一平面</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-5">
                         <p>刷新内容在 Z 轴空间上低于另一个表面</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 720px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh-appbar_refresh_xhdpi_007.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-6">
                         <p>通过应用栏的操作刷新内容</p>
                       </figcaption>
                     </figure>
