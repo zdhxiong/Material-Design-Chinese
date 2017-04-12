@@ -44,7 +44,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile Whiteframe">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">手机端线稿</div>
                       <span class="subtitle">2.23 MB (.ai) </span>
@@ -72,7 +72,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet Whiteframe">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">平板端线稿</div>
                       <span class="subtitle">1.39 MB (.ai) </span>
@@ -100,7 +100,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Whiteframe">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">桌面端线稿</div>
                       <span class="subtitle">89.40 MB (.ai) </span>
@@ -128,7 +128,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/whiteframes.ai'); ?>" title="Whiteframes">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">线稿</div>
                       <span class="subtitle">14.38 MB (.ai) </span>
@@ -140,7 +140,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/whiteframes.sketch'); ?>" title="Whiteframes">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/images/callouts/download.svg'); ?>">
+                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
                     <div class="info">
                       <div class="title">线稿</div>
                       <span class="subtitle">2.92 MB (.sketch) </span>
