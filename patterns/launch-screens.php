@@ -22,8 +22,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns_launch_screens.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns_launch_screens.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -69,20 +71,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-launch-screens-figure-caption-1">
                         <p>品牌启动页</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-2" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-launch-screens-figure-caption-2">
                         <p>占位 UI</p>
                       </figcaption>
                     </figure>
@@ -113,10 +119,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="placeholder-ui-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="placeholder-ui-figure-caption-1">
                         <p>占位 UI 示例</p>
                       </figcaption>
                     </figure>
@@ -148,18 +156,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="branded-launch-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="branded-launch-figure-caption-1">
                         <p>品牌启动页示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-02.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-02.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -170,8 +182,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-04.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-04.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -182,8 +196,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-05.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.0%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-05.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
