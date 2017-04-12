@@ -27,8 +27,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navigation_drawer.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navigation_drawer.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -68,10 +70,12 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-1">
                         <p>排版</p>
                         <ol class="lst-kix_pwmxzo3irtjh-0 start" start="1">
                           <li>名称：Roboto Medium，14sp，#FFFFFF</li>
@@ -85,10 +89,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-2">
                         <p>关键线和边距</p>
                         <p>图标和屏幕左右两边边距：16dp</p>
                         <p>图标颜色值：54% #000000</p>
@@ -101,10 +107,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_metrics3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-3">
                         <p>垂直间距</p>
                         <ol class="lst-kix_t0e6vxld876k-0 start" start="1">
                           <li>状态栏：24dp</li>
@@ -142,10 +150,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_elevation1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 77.7777777778%">
+                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_elevation1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-1">
                         <p>Android 上的抽屉式导航</p>
                       </figcaption>
                     </figure>
@@ -163,52 +173,64 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-2">
                         <p>被选中的列表项</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-3">
                         <p>触摸涟漪/高亮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-4">
                         <p>触摸涟漪/高亮</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-5" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-5">
                         <p>触摸涟漪/高亮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection4.png'); ?>"/>
+                      <div class="media" style="max-width: 360px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-6" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-6">
                         <p>触摸涟漪/高亮</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-7" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_selection6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-7">
                         <p>触摸涟漪/高亮</p>
                       </figcaption>
                     </figure>
@@ -224,20 +246,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-8" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-8">
                         <p>分隔符示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-9" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_dividers2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-9">
                         <p>8dp 的垂直间距</p>
                       </figcaption>
                     </figure>
@@ -253,20 +279,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-10" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-10">
                         <p>滚动前的抽屉式导航</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 120.0%">
+                          <img alt="" aria-describedby="content-figure-caption-11" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_scrolling2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-11">
                         <p>滚动中的抽屉式导航</p>
                       </figcaption>
                     </figure>
@@ -281,10 +311,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_settings1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="content-figure-caption-12" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_settings1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="content-figure-caption-12">
                         <p>滚动时，设置和支持始终位于列表底部。</p>
                       </figcaption>
                     </figure>
@@ -321,8 +353,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 118.421052632%">
+                          <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent1.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -341,20 +375,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>固定显示的、全高的抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>固定显示的、被截断的抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -364,20 +402,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>固定显示的、浮动抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 195.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_permanent5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p>卡片中的固定显示的、浮动的抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -394,20 +436,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-5" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-5">
                         <p>关闭的连续显示的抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-6">
                         <p>打开的连续显示的抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -422,10 +468,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -442,20 +490,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-8">
                         <p>迷你版抽屉的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_persistent5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-9">
                         <p>打开的连续显示的抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -473,20 +525,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-10">
                         <p>手机上的关闭的临时抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="behavior-figure-caption-11" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-11">
                         <p>手机上打开的临时抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -498,20 +554,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-12" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-12">
                         <p>平板上关闭的临时抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 213.333333333%">
+                          <img alt="" aria-describedby="behavior-figure-caption-13" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-13">
                         <p>平板上打开的临时抽屉示例</p>
                       </figcaption>
                     </figure>
@@ -521,20 +581,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 200.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-14" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-14">
                         <p>桌面端关闭的临时抽屉示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 250.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-15" src="<?php static_url('../static/media/patterns/navigation-drawer/patterns_navdrawer_behavior_temporary6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-15">
                         <p>桌面端打开的临时抽屉示例</p>
                       </figcaption>
                     </figure>
