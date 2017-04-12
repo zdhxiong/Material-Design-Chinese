@@ -28,8 +28,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -98,16 +100,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="item-selection-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_entering1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_entering1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-1">
                         <p>在触摸设备上，通过长按选择一个项目。</p>
                       </figcaption>
                     </figure>
@@ -124,32 +126,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="item-selection-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-2">
                         <p>选中一个项目后，点击该项目即可切换其选中状态。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="item-selection-figure-caption-3" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-3">
                         <p>用户可以长按并拖动光标来选择多个项目。</p>
                       </figcaption>
                     </figure>
@@ -162,16 +164,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 76.3157894737%">
+                          <video aria-describedby="item-selection-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_controlling_desktop_click.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-4">
                         <p>在桌面设备上，用户可以通过点击来选择多个项目。</p></figcaption>
                     </figure>
                   </div>
@@ -185,32 +187,32 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="item-selection-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-5">
                         <p>如果图标或头像和项目内容是分隔开的，那么在选中后可以用复选标记替换图标和头像。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 1080px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
+                          <video aria-describedby="item-selection-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/selection/patterns_selection_item_indicating2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="item-selection-figure-caption-6">
                         <p>使用紧凑型复选标记来减少对显示内容的遮盖。</p>
                       </figcaption>
                     </figure>
@@ -278,20 +280,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-1" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-1">
                         <p>文本选择手柄示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-2" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-2">
                         <p>文本选择手柄示例</p>
                       </figcaption>
                     </figure>
@@ -304,14 +310,16 @@
                     <h2><strong>颜色和对比度</strong></h2>
                     <p>文本选择元素可以使用<a href="../style/color.html">调色板</a>中应用的强调色。</p>
                     <p>选中的文本应清晰易读，与背景颜色对比明显。或者，可以通过显示轮廓、文本解释、动画、或复选标记来指示选中的文本。</p>
-                    <p>在<a href="https://www.google.com/url?q=http://webaim.org&amp;sa=D&amp;ust=1481818021002000&amp;usg=AFQjCNE3WHKwrSZnwBOeSuup__9bJ7bklw" target="_blank">webaim.org</a>了解更多有关对比度（或<a href="https://www.google.com/url?q=http://webaim.org/resources/contrastchecker/&amp;sa=D&amp;ust=1481818021000000&amp;usg=AFQjCNHJditsLQxQLnMuBysPOsyFgH3ihg" target="_blank">颜色对比度检查器</a>）的信息。</p>
+                    <p>在<a href="http://webaim.org" target="_blank">webaim.org</a>了解更多有关对比度（或<a href="http://webaim.org/resources/contrastchecker/" target="_blank">颜色对比度检查器</a>）的信息。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 58.8888888889%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-3" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-3">
                         <ol class="lst-kix_xdqkwleg2gie-0 start" start="1">
                           <li>文本选择的颜色</li>
                           <li>文本</li>
@@ -322,10 +330,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 122.5%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-4" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-4">
                         <p>文本选择可使用调色板中的强调色进行自定义。</p>
                       </figcaption>
                     </figure>
@@ -337,10 +347,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.8947368421%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-5" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-5">
                         <p>文本选择 – 亮色主题</p>
                       </figcaption>
                     </figure>
@@ -352,10 +364,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.8947368421%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-6" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-6">
                         <p>文本选择 – 暗色主题</p>
                       </figcaption>
                     </figure>
@@ -371,36 +385,44 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-7" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-7">
                         <p>选择区域上方的工具栏菜单，显示剪切、复制、粘贴和更多操作。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-8" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-8">
                         <p>更多</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-9" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-9">
                         <p>当用户选择更多时，菜单开始转换，以显示弹出菜单项。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-10" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-10">
                         <p>弹出菜单项包括：分享、搜索和翻译</p>
                       </figcaption>
                     </figure>
@@ -410,10 +432,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 43.8888888889%">
+                          <img alt="" aria-describedby="text-selection-figure-caption-11" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="text-selection-figure-caption-11">
                         <p>文本选择</p>
                         <p>工具栏菜单高度：44dp<br>
                           工具栏菜单文本顶部边距：12dp<br>
