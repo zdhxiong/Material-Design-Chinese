@@ -36,8 +36,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns_notifications.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns_notifications.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -103,10 +105,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_comparison.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 50.5263157895%">
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_comparison.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="anatomy-of-a-notification-figure-caption-1">
                         <p>Android M（上）和 Android N（下）的折叠的通知</p>
                         <p><strong>Android M（上）的折叠的通知</strong><br>
                           头像和图标位于左侧，时间戳位于右侧。</p>
@@ -120,10 +124,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_comparison.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 65.2631578947%">
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_comparison.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="anatomy-of-a-notification-figure-caption-2">
                         <p>Android M（上） Android N（下）的展开的通知</p>
                       </figcaption>
                     </figure>
@@ -143,10 +149,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_header.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.3684210526%">
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_01_header.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="anatomy-of-a-notification-figure-caption-3">
                         <p>标题区域是 Android N 的新增内容。</p>
                       </figcaption>
                     </figure>
@@ -162,10 +170,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_content.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.3684210526%">
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_02_content.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="anatomy-of-a-notification-figure-caption-4">
                         <p>Android N 的通知更宽，让主要内容显得更加整洁。</p>
                       </figcaption>
                     </figure>
@@ -175,14 +185,16 @@
                   <div class="module">
                     <h2>操作区域</h2>
                     <p>当通知展开后，最多可以在底部的操作条上显示 3 个操作。</p>
-                    <p>从 Android N 开始，操作不包含图标，以容纳更多的文本。该图标仍然应该提供，因为在早期版本的系统中仍然需要显示图标， <a href="https://www.google.com/url?q=https://www.google.com/design/spec-wear/patterns/notifications.html&amp;sa=D&amp;ust=1481818002527000&amp;usg=AFQjCNHTcvNhbEF5sbogeUAKiECHKKtqjA" target="_blank">Android Wear</a> 和 <a href="https://www.google.com/url?q=https://www.google.com/design/spec-auto/system-overview/notifications.html%23&amp;sa=D&amp;ust=1481818002528000&amp;usg=AFQjCNGUKwZCbAiKnvjviZsEs2tb8NwZ7Q" target="_blank">Android Auto</a> 设备也是如此。</p>
+                    <p>从 Android N 开始，操作不包含图标，以容纳更多的文本。该图标仍然应该提供，因为在早期版本的系统中仍然需要显示图标， <a href="https://www.google.com/design/spec-wear/patterns/notifications.html" target="_blank">Android Wear</a> 和 <a href="https://www.google.com/design/spec-auto/system-overview/notifications.html#" target="_blank">Android Auto</a> 设备也是如此。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_03_action_area.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.3684210526%">
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-5" src="<?php static_url('../static/media/patterns/notifications/notifications_anatomy_03_action_area.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="anatomy-of-a-notification-figure-caption-5">
                         <p>Android N 通知中的操作区域。</p>
                       </figcaption>
                     </figure>
@@ -219,10 +231,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_01_dontA.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_01_dontA.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要以通知的形式发送节日或生日祝福。</p>
                       </figcaption>
@@ -233,10 +247,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_02_dontB.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_02_dontB.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在任务期间打断用户，仅仅为了询问用户是否操作顺利。</p>
                       </figcaption>
@@ -272,16 +288,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_01_status.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_01_status.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-1">
                         <p>当通知到达时，通常会在状态栏出现一个图标。这提醒用户在通知抽屉里有新的消息。</p>
                       </figcaption>
                     </figure>
@@ -291,16 +307,16 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_02_peak.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_02_peak.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-2">
                         <p>如果通知非常重要，需要在任务期间就抓住用户的注意力，可以在当前屏幕上显示通知。</p>
                       </figcaption>
                     </figure>
@@ -322,10 +338,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_03_drawer.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 68.4210526316%">
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_03_drawer.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-3">
                         <p>在此通知抽屉中，刚刚收到的信息显示在顶部。关于天气的较低优先级的通知出现在底部。</p>
                       </figcaption>
                     </figure>
@@ -357,16 +375,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_06_expand.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_06_expand.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-4">
                         <p>扩展的通知</p>
                       </figcaption>
                     </figure>
@@ -380,16 +398,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_07_dismiss.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_07_dismiss.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-5">
                         <p>被忽略的通知</p>
                       </figcaption>
                     </figure>
@@ -402,16 +420,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_08_controls.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_08_controls.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-6">
                         <p>通知设置</p>
                       </figcaption>
                     </figure>
@@ -433,10 +451,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.8947368421%">
+                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-7">
                         <p>汇总了多条通知，折叠视图和展开视图</p>
                       </figcaption>
                     </figure>
@@ -456,10 +476,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 84.2105263158%">
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_05_summary_2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-8">
                         <p>组合后的通知，折叠视图和展开视图</p>
                       </figcaption>
                     </figure>
@@ -474,10 +496,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-9">
                         <p>折叠和展开的通知</p>
                       </figcaption>
                     </figure>
@@ -491,10 +515,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_13_action_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_13_action_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>文本操作不应和点击通知主体的操作重复。</p>
                       </figcaption>
@@ -505,10 +531,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_14_action_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="behavior-figure-caption-11" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_14_action_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-11">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当 Android 的时钟应用正在运行计时器时，此通知可以让用户在通知中直接暂停或增加一分钟。</p>
                       </figcaption>
@@ -526,16 +554,16 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media" style="max-width: 760px">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 68.4210526316%">
+                          <video aria-describedby="behavior-figure-caption-12" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_17_inline.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_17_inline.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="behavior-figure-caption-12">
                         <p>Android 的短信应用允许用户直接在通知中回复消息，无需离开通知</p>
                       </figcaption>
                     </figure>
@@ -659,10 +687,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_03_optin.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_03_optin.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-notifications-figure-caption-1">
                         <p>来自 YouTube 的此通知使用可选停用的方式。它同时符合情境（用户订阅的 YouTube 频道）和价值（来自该频道的新视频）。 “Options” 操作可以将用户导航到设置界面，用户可以在此选择以后不再接收此频道的视频推送。</p>
                       </figcaption>
                     </figure>
@@ -675,10 +705,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_04_optout.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 59.0789473684%">
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_04_optout.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="types-of-notifications-figure-caption-2">
                         <p>该应用使用了可选启用方式。应用顶部的卡片使用户知道他们可以接收突发新闻的通知。如果用户想要接收，它们会选择 “Yes”，否则他们会选择 “No” 并保持不接收这些通知。这些选项同样也可以在应用的设置中进行设置。</p>
                       </figcaption>
                     </figure>
@@ -705,7 +737,7 @@
                   <div class="module">
                     <h1>通知设置</h1>
                     <p>在应用中加入设置，以开启或关闭所有通知。此外，还可以考虑提供更细节的设置，例如让用户选择通知声音，或接收特定的通知类型。</p>
-                    <p>通过创建一条 <a href="https://www.google.com/url?q=https://developer.android.com/reference/android/app/Notification.html%23INTENT_CATEGORY_NOTIFICATION_PREFERENCES&amp;sa=D&amp;ust=1481818002353000&amp;usg=AFQjCNEKwH5cxNulkMWcft1gVRpC9txueA" target="_blank">AndroidManifest tags</a> 链接，使用户可以从 Android 的系统设置直接导航到应用的通知设置。</p>
+                    <p>通过创建一条 <a href="https://developer.android.com/reference/android/app/Notification.html#INTENT_CATEGORY_NOTIFICATION_PREFERENCES" target="_blank">AndroidManifest tags</a> 链接，使用户可以从 Android 的系统设置直接导航到应用的通知设置。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -870,20 +902,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_04_lockscreen1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="lock-screen-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_04_lockscreen1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="lock-screen-figure-caption-1">
                         <p>此用户选择在锁屏界面上显示所有通知。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_05_lockscreen2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="lock-screen-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_behavior_05_lockscreen2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="lock-screen-figure-caption-2">
                         <p>此用户选择在锁屏界面上隐藏敏感信息。因为这些应用的通知可见度级别被设定为 “私有”，它们默认显示 “内容已隐藏”。</p>
                       </figcaption>
                     </figure>
@@ -919,10 +955,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_09_title_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_09_title_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>内容标题显示了应用名称，它与头部区域冗余，并且占用了标题中的可用空间。</p>
                       </figcaption>
@@ -939,10 +977,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_10_title_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_10_title_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>内容的标题显示了最重要的信息。</p>
                       </figcaption>
@@ -964,10 +1004,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_11_large_icon_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_11_large_icon_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>大图标不适合使用 logo。</p>
                       </figcaption>
@@ -978,10 +1020,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_12_large_icon_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 30.5263157895%">
+                          <img alt="" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications_guidelines_12_large_icon_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>大图标旨在以有意义的方式强化应用的内容，例如消息通知中的联系人照片。</p>
                       </figcaption>
@@ -1013,10 +1057,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_01_standard.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="templates-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_01_standard.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="templates-figure-caption-1">
                         <p>折叠和展开的通知的标准模版</p>
                       </figcaption>
                     </figure>
@@ -1029,10 +1075,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_02_big_text.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.2631578947%">
+                          <img alt="" aria-describedby="templates-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_02_big_text.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="templates-figure-caption-2">
                         <p>折叠和展开的通知的大文本模版</p>
                       </figcaption>
                     </figure>
@@ -1045,10 +1093,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_03_big_picture.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 82.6315789474%">
+                          <img alt="" aria-describedby="templates-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_03_big_picture.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="templates-figure-caption-3">
                         <p>折叠和展开的通知的大图片模版</p>
                       </figcaption>
                     </figure>
@@ -1061,10 +1111,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_04_progress.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="templates-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_04_progress.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="templates-figure-caption-4">
                         <p>折叠和展开的通知的进度模版</p>
                       </figcaption>
                     </figure>
@@ -1077,10 +1129,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_05_media.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 57.6315789474%">
+                          <img alt="" aria-describedby="templates-figure-caption-5" src="<?php static_url('../static/media/patterns/notifications/notifications_templates_05_media.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="templates-figure-caption-5">
                         <p>折叠和展开的通知的媒体模版</p>
                       </figcaption>
                     </figure>
