@@ -95,7 +95,7 @@
               </ul>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_3lz88lbtlae2-0 start">
-                <li><a href="../patterns/app-structure.html#navigation-up-back-buttons">Navigation</a> now includes
+                <li><a href="../patterns/navigation.html#navigation-up-back-buttons">Navigation</a> now includes
                   details on how to use the Up and Back buttons as part of your navigation strategy
                 </li>
                 <li>Using <a href="../layout/structure.html#structure-app-bar">full-screen mode</a> for Lean Back,
@@ -105,7 +105,7 @@
               <h1>May 2016 </h1>
               <p><strong>New sections</strong></p>
               <ul class="lst-kix_7y6ydy2mkp6e-0 start">
-                <li><a href="../animation/authentic-motion.html">Motion</a> includes detailed examples and specs on
+                <li><a href="../motion/material-motion.html">Motion</a> includes detailed examples and specs on
                   material motion principles, duration and easing, transformations, choreography, and customization.
                 </li>
                 <li><a href="../growth-communications/introduction.html">Growth &amp; communications</a> contains
@@ -151,7 +151,7 @@
               <h1>December 2015 </h1>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_580rq2stisp2-0">
-                <li><a href="../layout/adaptive-ui.html#responsive-ui-patterns">Responsive UI</a> includes a pattern on
+                <li><a href="../layout/responsive-ui.html#responsive-ui-patterns">Responsive UI</a> includes a pattern on
                   positioning and more examples of responsive patterns
                 </li>
                 <li><a href="../components/text-fields.html#text-fields-required-fields">Text fields</a> adds guidance
@@ -181,7 +181,7 @@
               <h1>September 2015 </h1>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_3f16ovhcxjf-0 start">
-                <li><a href="../patterns/app-structure.html">Navigation</a> adds guidance on navigation hierarchy and
+                <li><a href="../patterns/navigation.html">Navigation</a> adds guidance on navigation hierarchy and
                   structure, new navigation patterns, and combined navigation patterns
                 </li>
                 <li><a href="../style/color.html#color-ui-color-application">UI color application</a> describes how
@@ -231,7 +231,7 @@
               <h1>May 2015 </h1>
               <p><strong>New sections</strong></p>
               <ul class="lst-kix_fjimwhvlh9zv-0 start">
-                <li><a href="../layout/adaptive-ui.html">Adaptive UI</a> includes responsive layout guidance, grids,
+                <li><a href="../layout/responsive-ui.html">Adaptive UI</a> includes responsive layout guidance, grids,
                   breakpoints, and patterns
                 </li>
                 <li><a href="../patterns/empty-states.html">Empty states</a> contains guidance for states when regular
@@ -240,14 +240,14 @@
                 <li><a href="../patterns/launch-screens.html">Launch screens</a> includes branding and placeholder UI
                   content
                 </li>
-                <li><a href="../patterns/app-structure.html">Navigation</a></li>
+                <li><a href="../patterns/navigation.html">Navigation</a></li>
               </ul>
               <p><strong>Significant updates</strong></p>
               <ul class="lst-kix_aztigdag0qb6-0 start">
-                <li><a href="../what-is-material/elevation-shadows.html">Elevation and shadows</a> has been renamed from
+                <li><a href="../material-design/elevation-shadows.html">Elevation and shadows</a> has been renamed from
                   “Objects in 3D space,” adding new details about elevation changes
                 </li>
-                <li><a href="../animation/authentic-motion.html">Authentic motion</a> describes easing terms in more
+                <li><a href="../motion/material-motion.html">Authentic motion</a> describes easing terms in more
                   detail
                 </li>
               </ul>
@@ -259,7 +259,7 @@
                 <li><a href="../components/buttons-floating-action-button.html">Floating Action Button</a> has been
                   moved into its own section, adding new details about behavior and transitions
                 </li>
-                <li><a href="../patterns/app-structure.html">App structure</a></li>
+                <li><a href="../patterns/navigation.html">App structure</a></li>
                 <li><a href="../resources/sticker-sheets-icons.html">Component sticker sheet</a> for Adobe After Effects
                 </li>
                 <li><a href="../patterns/data-formats.html#data-formats-data-redaction-truncation">Data truncation and
