@@ -17,43 +17,57 @@
                 <p><strong>系统图标</strong>代表一个命令、文件、设备、目录或一般性操作。</p>
               </div>
               <div class="module">
-                <h3><strong>尺寸</strong></h3>
-                <p>产品图标为 48dp，包含 1dp 的边缘<br>
-                  系统图标为 24dp</p>
+                <h3>尺寸</h3>
+                <p>产品图标为 48dp；系统图标为 24dp</p>
+                <h3>亮色背景中的图标</h3>
                 <table class="s-tag-table">
                   <tbody>
                   <tr>
+                    <td colspan="1" rowspan="1"><p><strong>图标状态</strong></p></td>
                     <td colspan="1" rowspan="1"><p><strong>不透明度</strong></p></td>
-                    <td colspan="1" rowspan="1"><p><strong>图标</strong></p></td>
-                    <td colspan="1" rowspan="1"><p><strong>背景色</strong></p></td>
                   </tr>
                   <tr>
+                    <td colspan="1" rowspan="1"><p>激活 + 聚焦</p></td>
+                    <td colspan="1" rowspan="1"><p>87%</p></td>
+                  </tr>
+                  <tr>
+                    <td colspan="1" rowspan="1"><p>激活 + 未聚焦</p></td>
                     <td colspan="1" rowspan="1"><p>54%</p></td>
-                    <td colspan="1" rowspan="1"><p>激活的图标</p></td>
-                    <td colspan="1" rowspan="1"><p>亮色</p></td>
                   </tr>
                   <tr>
-                    <td colspan="1" rowspan="1"><p>26%</p></td>
-                    <td colspan="1" rowspan="1"><p>非激活的图标</p></td>
-                    <td colspan="1" rowspan="1"><p>亮色</p></td>
+                    <td colspan="1" rowspan="1"><p>禁用</p></td>
+                    <td colspan="1" rowspan="1"><p>38%</p></td>
+                  </tr>
+                  </tbody>
+                </table>
+                <h3>暗色背景中的图标</h3>
+                <table class="s-tag-table">
+                  <tbody>
+                  <tr>
+                    <td colspan="1" rowspan="1"><p><strong>图标状态</strong></p></td>
+                    <td colspan="1" rowspan="1"><p><strong>不透明度</strong></p></td>
                   </tr>
                   <tr>
+                    <td colspan="1" rowspan="1"><p>激活 + 聚焦</p></td>
                     <td colspan="1" rowspan="1"><p>100%</p></td>
-                    <td colspan="1" rowspan="1"><p>激活的图标</p></td>
-                    <td colspan="1" rowspan="1"><p>暗色</p></td>
                   </tr>
                   <tr>
-                    <td colspan="1" rowspan="1"><p>30%</p></td>
-                    <td colspan="1" rowspan="1"><p>非激活的图标</p></td>
-                    <td colspan="1" rowspan="1"><p>暗色</p></td>
+                    <td colspan="1" rowspan="1"><p>激活 + 未聚焦</p></td>
+                    <td colspan="1" rowspan="1"><p>70%</p></td>
+                  </tr>
+                  <tr>
+                    <td colspan="1" rowspan="1"><p>禁用</p></td>
+                    <td colspan="1" rowspan="1"><p>50%</p></td>
                   </tr>
                   </tbody>
                 </table>
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/style/icon/style_icons.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/style/icon/style_icons.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -96,11 +110,11 @@
                     <p>产品图标是一个品牌的产品、服务和工具的视觉表现。简单、大胆、友好，它们传达了产品的核心理念和意图。虽然每个产品图标在视觉上不同，但特定品牌的所有产品图标应该通过理念和实践来统一。</p>
                     <p>参照下文的指导规范，来确保产品图标的颜色和核心元素可以反映出你的品牌标识。</p>
                     <div class="modulettes">
-                      <a class="modulette container default" href="https://www.google.com/url?q=https://design.google.com/icons/&amp;sa=D&amp;ust=1481817966474000&amp;usg=AFQjCNHwlr9zCKtdz3f1PJvpLh3cPz-_Gg" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
+                      <a class="modulette container default" href="https://design.google.com/icons/" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>">
                         <div class="info">
                           <div class="title">材料图标</div>
-                          <span class="subtitle"材料图标可以轻易的使用在 Web、Android 和 iOS 项目中。</span>
+                          <span class="subtitle">材料图标可以轻易的使用在 Web、Android 和 iOS 项目中。</span>
                         </div>
                         </img>
                       </a>
@@ -108,8 +122,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_definition.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_definition.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -123,20 +139,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-1">
                         <p>物理原型</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-2">
                         <p>光线研究</p>
                       </figcaption>
                     </figure>
@@ -146,20 +166,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-3" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-3">
                         <p>材料属性</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-4">
                         <p>颜色研究</p>
                       </figcaption>
                     </figure>
@@ -174,20 +198,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-5">
                         <p>网格</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-6">
                         <p>关键线</p>
                       </figcaption>
                     </figure>
@@ -202,10 +230,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-7">
                         <p>正方形</p>
                         <p>高度：152dp<br>
                           宽度：152dp</p>
@@ -214,10 +244,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-8">
                         <p>圆形</p>
                         <p>直径：176dp</p>
                       </figcaption>
@@ -228,10 +260,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-9">
                         <p>纵向矩形</p>
                         <p>高度：176dp<br>
                           宽度：128dp</p>
@@ -240,10 +274,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-10">
                         <p>水平矩形</p>
                         <p>高度：128dp<br>
                           宽度：176dp</p>
@@ -261,20 +297,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-11">
                         <p>1:1 单位网格</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-12" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-12">
                         <p>4:1 单位网格</p>
                       </figcaption>
                     </figure>
@@ -289,15 +329,19 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry1.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -306,15 +350,19 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry3.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry4.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -333,10 +381,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-13" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-13">
                         <p>组件</p>
                         <p>每一个组件都位于前一个组件的上方，并且永远保持垂直视角。</p>
                       </figcaption>
@@ -344,10 +394,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-14" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-14">
                         <p>结构透视</p>
                         <p>logo 结构中的每个组件的分解透视示例。</p>
                       </figcaption>
@@ -358,10 +410,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-15" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-15">
                         <p>材料背景</p>
                         <p>处于最底层的材料元素</p>
                       </figcaption>
@@ -369,10 +423,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-16" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-16">
                         <p>材料前景</p>
                         <p>浮起的材料元素，会在材料背景上投射出阴影。</p>
                       </figcaption>
@@ -383,10 +439,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-17" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-17">
                         <p>斑点色</p>
                         <p>应用于元素中的一小部分的颜色。</p>
                       </figcaption>
@@ -394,10 +452,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-18" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-18">
                         <p>填充色</p>
                         <p>应用到整个元素的颜色，包括从一个边缘到另一个边缘。</p>
                       </figcaption>
@@ -408,10 +468,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-19" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-19">
                         <p>有色浅色边缘</p>
                         <p>材料元素的顶部边缘。使用指定颜色和白色混合后的颜色，比原来的颜色更淡。</p>
                       </figcaption>
@@ -419,10 +481,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-20" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-20">
                         <p>有色深色边缘</p>
                         <p>材料元素的底部边缘。使用指定颜色和一种暗色混合后的色调，比原来的颜色更深。</p>
                       </figcaption>
@@ -433,10 +497,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-21" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-21">
                         <p>接触阴影</p>
                         <p>浮动元素周围的柔和的阴影。</p>
                       </figcaption>
@@ -444,10 +510,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-22" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-22">
                         <p>抛光</p>
                         <p>所有元素上方的一层柔和的浅色色调，为表面布光，从左上角淡入，右下角淡出。</p>
                       </figcaption>
@@ -464,20 +532,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-23" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-23">
                         <p>顶部</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-24" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-24">
                         <p>45º 角</p>
                       </figcaption>
                     </figure>
@@ -492,10 +564,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>"/>
+                      <div class="media" style="max-width: 722px">
+                        <div class="frame " style="padding-top: 99.7229916898%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-25" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-25">
                         <p>阴影指标</p>
                         <p>模式：普通<br>
                           不透明度：20%<br>
@@ -521,10 +595,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-26" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-26">
                         <p>浅色边缘</p>
                         <p>高度：1dp<br>
                           不透明度：20%<br>
@@ -534,10 +610,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-27" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-27">
                         <p>深色边缘</p>
                         <p>高度：1dp<br>
                           不透明度：20%<br>
@@ -555,10 +633,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-28" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-28">
                         <p>渐变指标</p>
                         <p>类型：径向渐变<br>
                           角度：45º<br>
@@ -586,8 +666,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_cool.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_cool.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -596,8 +678,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_fresh.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 52.6315789474%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_fresh.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -606,8 +690,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_warm.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 31.5789473684%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_warm.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -616,8 +702,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_hot.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.8421052632%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_hot.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -626,8 +714,10 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_neutral.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_neutral.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -643,20 +733,24 @@
                     <p>不要使用任何边缘或阴影来装饰颜色元素。</p></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-29" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-29">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-30" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-30">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -670,20 +764,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-31" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-31">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-32" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-32">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -697,20 +795,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-33" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-33">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-34" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-34">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -724,20 +826,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-35" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-35">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-36" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-36">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -750,20 +856,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-37" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-37">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-38" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-38">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -777,20 +887,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-39" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-39">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-40" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-40">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -804,20 +918,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-41" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-41">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-42" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-42">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -830,20 +948,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-43" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-43">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-44" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-44">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
@@ -858,20 +980,24 @@
                     <h2><strong>构成</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-45" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-45">
                         <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-46" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-46">
                         <p>对齐关键线</p>
                       </figcaption>
                     </figure>
@@ -882,20 +1008,24 @@
                     <h2><strong>关键线形状</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-47" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-47">
                         <p>正方形</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-48" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-48">
                         <p>圆形</p>
                       </figcaption>
                     </figure>
@@ -905,20 +1035,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-49" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-49">
                         <p>纵向矩形</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-50" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-50">
                         <p>横向矩形</p>
                       </figcaption>
                     </figure>
@@ -929,20 +1063,24 @@
                     <h2><strong>纸片 vs 颜色</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-51" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-51">
                         <p>纸片</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-52" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-52">
                         <p>颜色</p>
                       </figcaption>
                     </figure>
@@ -954,20 +1092,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-53" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-53">
                         <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-54" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-54">
                         <p>成品</p>
                       </figcaption>
                     </figure>
@@ -978,10 +1120,12 @@
                     <h2><strong>人物图标规范</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-55" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-55">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用简单的形状作为背景轮廓。</p>
                       </figcaption>
@@ -989,10 +1133,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-56" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-56">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用复杂的形状作为背景轮廓。</p>
                       </figcaption>
@@ -1003,10 +1149,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-57" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-57">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>始终使用正确且一致的人物形象。</p>
                       </figcaption>
@@ -1014,10 +1162,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-58" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-58">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用不正确的人物形象，或添加复杂的细节。</p>
                       </figcaption>
@@ -1028,10 +1178,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-59" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-59">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用直线和曲线边缘来平衡视觉效果。</p>
                       </figcaption>
@@ -1039,10 +1191,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="product-icons-figure-caption-60" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="product-icons-figure-caption-60">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在手臂的尾部使用圆形，也不要裁剪手臂。</p>
                       </figcaption>
@@ -1071,8 +1225,8 @@
                     <p>系统图标、或者 UI 图标表示一个命令、文件、设备或目录。系统图标也用于表示常见操作，如删除、打印、保存。</p>
                     <p>系统图标的设计应简洁、现代化、友好，有时也要有点趣味。图标在能表达其本意的前提下应尽可能的精简。这种设计确保了即使在小尺寸下也有很好的可读性和清晰度。</p>
                     <div class="modulettes">
-                      <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/design/icons/&amp;sa=D&amp;ust=1481817966568000&amp;usg=AFQjCNFijbXpQjCvaR-U8dJCj3ER3TByfQ" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
+                      <a class="modulette container default" href="https://www.google.com/design/icons/" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>">
                         <div class="info">
                           <div class="title">Material design 图标</div>
                           <span class="subtitle">下载我们的系统图标</span>
@@ -1083,8 +1237,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 48.0263157895%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1099,20 +1255,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-1">
                         <p>简洁</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-2">
                         <p>直观</p>
                       </figcaption>
                     </figure>
@@ -1122,20 +1282,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-3" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-3">
                         <p>可操作性</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-4">
                         <p>一致性</p>
                       </figcaption>
                     </figure>
@@ -1152,36 +1316,44 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-5">
                         <p>100% 比例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-6">
                         <p>20dp 的紧凑型网格，100% 比例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-7">
                         <p>800% 比例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-8">
                         <p>20dp 的紧凑型网格，800% 比例</p>
                       </figcaption>
                     </figure>
@@ -1194,20 +1366,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-9">
                         <p>网格</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-10">
                         <p>关键线</p>
                       </figcaption>
                     </figure>
@@ -1224,8 +1400,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>"/>
+                        </div>
                       </div>
                       <figcaption>
                         <p>安全区域</p>
@@ -1233,10 +1411,12 @@
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-12" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-12">
                         <p>密集型安全区域</p>
                         <p>图标内容被限制在 16dp x 16dp 的安全区域内，周围有 2dp 的边距。</p>
                       </figcaption>
@@ -1244,19 +1424,23 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-13" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-13">
                         <p>内边距</p>
                         <p>4dp 的空白区域构成了内边距，围绕着 20dp x 20dp 的安全区域。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-14" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-14">
                         <p>密集型内边距</p>
                         <p>2dp 的内边距围绕着安全区域。</p>
                       </figcaption>
@@ -1270,10 +1454,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-15" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-15">
                         <p>正方形</p>
                         <p>高度：18dp<br>
                           宽度：18dp</p>
@@ -1282,10 +1468,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-16" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-16">
                         <p>圆形</p>
                         <p>直径：20dp</p>
                       </figcaption>
@@ -1296,10 +1484,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-17" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-17">
                         <p>纵向矩形</p>
                         <p>高度：20dp<br>
                           宽度：16dp</p>
@@ -1308,10 +1498,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-18" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-18">
                         <p>横向矩形</p>
                         <p>高度：16dp<br>
                           宽度：20dp</p>
@@ -1326,20 +1518,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-19" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-19">
                         <p>结构</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-20" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-20">
                         <p>成品</p>
                       </figcaption>
                     </figure>
@@ -1359,8 +1555,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1374,20 +1572,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-21" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-21">
                         <p>2dp 圆角的外部拐角</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-22" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-22">
                         <p>内部拐角</p>
                       </figcaption>
                     </figure>
@@ -1400,20 +1602,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-23" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-23">
                         <p>一致性</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-24" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-24">
                         <p>曲线和斜线</p>
                       </figcaption>
                     </figure>
@@ -1423,20 +1629,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-25" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-25">
                         <p>笔画末端</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-26" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-26">
                         <p>内部笔画</p>
                       </figcaption>
                     </figure>
@@ -1450,10 +1660,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-27" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-27">
                         <p>复杂</p>
                         <p>此示例中，回形针图标仅用了原本 2dp 的笔画区域中的 1.5dp，以便在 24 x 24dp 的空间内适应多个弯角。</p>
                       </figcaption>
@@ -1461,10 +1673,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-28" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-28">
                         <p>缩小比例</p>
                         <p>此示例中，麦克风图标使用 1.5dp 的笔画来表示 24 x 24dp 的空间内的麦克风声波。</p>
                       </figcaption>
@@ -1479,20 +1693,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_area.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-29" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_area.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-29">
                         <p>间隙区域</p>
                         <p>图标：24dp<br>
                           触摸范围：48dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-30" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-30">
                         <p>紧凑型图标的间隙区域</p>
                         <p>图标：20dp<br>
                           触摸区域：40dp</p>
@@ -1501,10 +1719,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-31" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-31">
                         <p>放置</p>
                       </figcaption>
                     </figure>
@@ -1519,10 +1739,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-32" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-32">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用一致的笔画粗细和方形的笔画末端。</p>
                       </figcaption>
@@ -1530,10 +1752,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-33" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-33">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用不一致的笔画粗细或圆形的笔画末端。</p>
                       </figcaption>
@@ -1544,10 +1768,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-34" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-34">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>显示图标的正前方，使其显得更稳固。</p>
                       </figcaption>
@@ -1555,10 +1781,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-35" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-35">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要倾斜、旋转、或使图标看起来很立体。</p>
                       </figcaption>
@@ -1569,10 +1797,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-36" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-36">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>简化图标以提高清晰度和可读性。</p>
                       </figcaption>
@@ -1580,10 +1810,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-37" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-37">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要过度拟物化。避免复杂的图标。</p>
                       </figcaption>
@@ -1594,10 +1826,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-38" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-38">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>图标要生动大胆。</p>
                       </figcaption>
@@ -1605,10 +1839,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-39" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-39">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用柔和、纤细的笔画。</p>
                       </figcaption>
@@ -1619,10 +1855,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-40" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-40">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用一致的几何形状。</p>
                       </figcaption>
@@ -1630,10 +1868,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-41" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-41">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用手势或松散的几何形状。</p>
                       </figcaption>
@@ -1644,10 +1884,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 136.666666667%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-42" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-42">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>图标的位置与像素对齐 – 意味着 X 和 Y 轴的坐标都应该为整数，不出现小数。</p>
                         <p>图标的宽度和高度应该相等（例如 24x24），避免使图标变形。</p>
@@ -1656,10 +1898,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont6.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 136.666666667%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-43" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont6.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-43">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要把图标放在不是整数像素值的坐标上。</p>
                         <p>不要通过给图标不一样的宽度和高度来扭曲图标。</p>
@@ -1681,20 +1925,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-44" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-44">
                         <p>全身</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-45" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-45">
                         <p>上半身</p>
                       </figcaption>
                     </figure>
@@ -1705,20 +1953,24 @@
                     <h2><strong>构成</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-46" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-46">
                         <p>全身示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-47" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-47">
                         <p>上半身示例</p>
                       </figcaption>
                     </figure>
@@ -1728,20 +1980,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-48" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-48">
                         <p>有边框的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-49" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-49">
                         <p>肢体细节示例</p>
                       </figcaption>
                     </figure>
@@ -1752,18 +2008,22 @@
                     <h2><strong>全身</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-50" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-50">
                         <p>全身示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1772,10 +2032,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-51" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-51">
                         <p>视觉对齐</p>
                       </figcaption>
                     </figure>
@@ -1787,18 +2049,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-52" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-52">
                         <p>上半身示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1807,10 +2073,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-53" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-53">
                         <p>视觉对齐</p>
                       </figcaption>
                     </figure>
@@ -1822,18 +2090,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-54" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-54">
                         <p>有边框的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1843,18 +2115,22 @@
                     <h2><strong>肢体细节</strong></h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-55" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-55">
                         <p>肢体细节示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -1865,10 +2141,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-56" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-56">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用一致的笔画粗细，以及在手臂/腿部末端使用直角。</p>
                       </figcaption>
@@ -1876,10 +2154,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-57" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-57">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用不一致的笔画粗细和圆角的手臂/腿部末端。</p>
                       </figcaption>
@@ -1890,10 +2170,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-58" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-58">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>为了清晰可见，请对齐元素以简化轮廓。</p>
                       </figcaption>
@@ -1901,10 +2183,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-59" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-59">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要裁剪手臂/腿的部分</p>
                       </figcaption>
@@ -1915,10 +2199,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-60" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-60">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在需要包含时，把元素完全嵌入容器内。</p>
                       </figcaption>
@@ -1926,10 +2212,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-61" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-61">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要让元素破坏容器边界。</p>
                       </figcaption>
@@ -1940,10 +2228,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-62" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-62">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当人物可以帮助增强图标的含义时，请在图标中添加人物。</p>
                       </figcaption>
@@ -1951,10 +2241,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-63" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-63">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>当人物会增加图标的复杂性时，不要添加人物。</p>
                       </figcaption>
@@ -1965,10 +2257,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-64" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-64">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用最简单的形状来表示人物特征。</p>
                       </figcaption>
@@ -1976,10 +2270,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont5.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="system-icons-figure-caption-65" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="system-icons-figure-caption-65">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要把人物特征应用到一个没有生命的物体中。</p>
                       </figcaption>
@@ -1996,15 +2292,19 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.6666666667%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color1.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.6666666667%">
+                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -2034,10 +2334,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-1">
                         <p>每次最多显示 4 个快捷操作。你可以自己定义快捷操作的顺序。</p>
                       </figcaption>
                     </figure>
@@ -2062,10 +2364,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-2">
                         <p><strong>安全区域</strong></p>
                         <p>所有图标内容应该保持在 44dp 的安全区域内，背景颜色使用 Material Grey 100 （或 #F5F5F5）填充。</p>
                       </figcaption>
@@ -2073,10 +2377,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-3" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-3">
                         <p><strong>整体区域</strong></p>
                         <p>安全区域周围必须有 2dp 的内边距，使整个图标尺寸为 48dp。</p>
                       </figcaption>
@@ -2098,15 +2404,17 @@
                     <p><strong>颜色</strong><br>
                       系统图标的颜色应该和应用的主色或应用的图标颜色保持一致（和圆形背景有足够的对比度）。</p>
                     <p><strong>文件格式</strong><br>
-                      标准的图标应该以 SVG 格式提供，这个格式使图标可以自由缩放。你也可以使用矢量图、位图或<a href="https://www.google.com/url?q=https://developer.android.com/guide/topics/resources/drawable-resource.html%23LayerList&amp;sa=D&amp;ust=1481817966791000&amp;usg=AFQjCNFL2E3DG69vOuZ743mYbT7t1NgaaQ" target="_blank">图层列表</a>。</p>
+                      标准的图标应该以 SVG 格式提供，这个格式使图标可以自由缩放。你也可以使用矢量图、位图或<a href="https://developer.android.com/guide/topics/resources/drawable-resource.html#LayerList" target="_blank">图层列表</a>。</p>
                     <p>不要使用非矢量图形，因为它们有特定的尺寸，无法进行缩放。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-4">
                         <p><strong>系统图标尺寸</strong></p>
                         <p>系统图标应该有相同的宽度和高度：24x24dp.</p>
                       </figcaption>
@@ -2114,10 +2422,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-5">
                         <p><strong>在圆形安全区域中的位置</strong></p>
                         <p>24dp 的图标应该在圆形安全区域中垂直水平居中对齐。</p>
                       </figcaption>
@@ -2128,10 +2438,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>图标的颜色需要和 Material Grey 100 的背景色有足够的对比度。</p>
                       </figcaption>
@@ -2139,8 +2451,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png'); ?>"/>
+                        </div>
                       </div>
                       <figcaption>
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
@@ -2166,10 +2480,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-8">
                         <p><strong>圆形的安全区域</strong><strong> &amp; 头像区域</strong></p>
                         <p>头像应该填满整个圆形安全区域。这些图片必须在 XXXHPDI 中创建。</p>
                       </figcaption>
@@ -2177,10 +2493,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-9">
                         <p><strong>整体区域</strong></p>
                         <p>44dp 的安全区域周围必须有 2dp 的内边距，且整体区域为 48dp。</p>
                       </figcaption>
@@ -2206,10 +2524,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-10">
                         <p><strong>圆形的安全区域</strong></p>
                         <p>圆形安全区域的背景色为 Material Grey 100 （#F5F5F5）。</p>
                         <p></p>
@@ -2219,10 +2539,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-11">
                         <p><strong>头像区域</strong></p>
                         <p>头像必须适配 30x30dp 的空间，并且在安全区域内垂直水平居中。</p>
                       </figcaption>
@@ -2233,10 +2555,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-12" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="app-shortcut-icons-figure-caption-12">
                         <p><strong>整体区域</strong></p>
                         <p>44dp 的安全区域周围必须有 2dp 的内边距，且整体区域为 48dp。</p>
                       </figcaption>
