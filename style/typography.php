@@ -43,8 +43,10 @@
               </div>
               <div class="figure">
                 <figure class="s-tag-media">
-                  <div class="media">
-                    <img alt="" src="<?php static_url('../static/media/style/typography/style_typography.png'); ?>"/>
+                  <div class="media" style="max-width: 3000px">
+                    <div class="frame " style="padding-top: 100.0%">
+                      <img alt="" src="<?php static_url('../static/media/style/typography/style_typography.png'); ?>"/>
+                    </div>
                   </div>
                 </figure>
               </div>
@@ -119,10 +121,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_roboto1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 109.473684211%">
+                          <img alt="" aria-describedby="typeface-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_roboto1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-1">
                         <p>Roboto 示例</p>
                       </figcaption>
                     </figure>
@@ -132,10 +136,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_roboto2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="typeface-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_roboto2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-2">
                         <p>Roboto A-Z 和数字</p>
                       </figcaption>
                     </figure>
@@ -150,10 +156,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weights1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="typeface-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_weights1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-3">
                         <p>Roboto 字体粗细</p>
                       </figcaption>
                     </figure>
@@ -168,10 +176,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_noto1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 73.6842105263%">
+                          <img alt="" aria-describedby="typeface-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_noto1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-4">
                         <p>英文和 CJK（中文、日文和韩文）的 Noto Sans 示例</p>
                       </figcaption>
                     </figure>
@@ -181,10 +191,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_noto2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 87.8947368421%">
+                          <img alt="" aria-describedby="typeface-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_noto2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-5">
                         <p>泰文和印地文（梵文）的 Noto Sans 示例</p>
                       </figcaption>
                     </figure>
@@ -199,10 +211,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weight1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="typeface-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_weight1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-6">
                         <p>Noto Sans CJK 字体粗细</p>
                       </figcaption>
                     </figure>
@@ -214,10 +228,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_weight2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 49.4736842105%">
+                          <img alt="" aria-describedby="typeface-figure-caption-7" src="<?php static_url('../static/media/style/typography/style_typography_weight2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="typeface-figure-caption-7">
                         <p>泰文和印地文（梵文）的 Noto Sans 字体粗细</p>
                       </figcaption>
                     </figure>
@@ -225,7 +241,7 @@
                 </section>
               </div>
               <div class="modulettes">
-                <a class="modulette container default" href="https://www.google.com/url?q=https://www.google.com/fonts&amp;sa=D&amp;ust=1481817971067000&amp;usg=AFQjCNFzeRUNQKxis0ia4IFE32tRJPSBGQ" target="_blank">
+                <a class="modulette container default" href="https://www.google.com/fonts" target="_blank">
                   <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">Google 字体库</div>
@@ -269,8 +285,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_scale.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 74.7368421053%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_scale.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -281,18 +299,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_01_display1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_01_display1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-1">
                         <p>英文的 Display 样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_02_display2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_02_display2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -301,18 +323,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_03_headline1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_03_headline1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-2">
                         <p>英文的 Headline 样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_04_headline2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_04_headline2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -323,18 +349,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_05_title1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_styles_05_title1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-3">
                         <p>英文的标题（Title）样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_06_title2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_06_title2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -345,18 +375,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_07_subhead1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_styles_07_subhead1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-4">
                         <p>英文的副标题（Subheading）样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_08_subhead2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_08_subhead2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -365,18 +399,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_09_body-1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_styles_09_body-1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-5">
                         <p>英文的正文（Body）样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_10_body2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_10_body2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -385,18 +423,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_11_body3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_styles_11_body3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-6">
                         <p>英文的正文（Body）样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_12_body4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_12_body4.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -407,18 +449,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_13_button1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-7" src="<?php static_url('../static/media/style/typography/style_typography_styles_13_button1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-7">
                         <p>英文的按钮样式示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_14_button2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_14_button2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -434,8 +480,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 74.6052631579%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style1.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -444,10 +492,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.4210526316%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-8">
                         <p>方块字示例</p>
                       </figcaption>
                     </figure>
@@ -459,20 +509,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-9" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-9">
                         <p>日文副标题（Subheading）示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-10" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-10">
                         <p>日文的正文（Body）样式</p>
                       </figcaption>
                     </figure>
@@ -482,20 +536,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-11" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-11">
                         <p>日文的正文（Body 1）的样式</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-12" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-12">
                         <p>繁体中文的副标题（subheading）示例</p>
                       </figcaption>
                     </figure>
@@ -505,20 +563,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-13" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-13">
                         <p>繁体中文的正文（Body）示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-14" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-14">
                         <p>繁体中文的正文（Body 1）示例</p>
                       </figcaption>
                     </figure>
@@ -535,8 +597,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 75.3947368421%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style3.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -545,10 +609,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style4.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 28.4210526316%">
+                          <img alt="" aria-describedby="styles-figure-caption-15" src="<?php static_url('../static/media/style/typography/style_typography_style4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-15">
                         <p>其他语言示例</p>
                       </figcaption>
                     </figure>
@@ -560,20 +626,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-16" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-16">
                         <p>印地文的副标题（subheading）示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-17" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-17">
                         <p>印地文的正文（Body）示例</p>
                       </figcaption>
                     </figure>
@@ -583,20 +653,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-18" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-18">
                         <p>印地文的正文（Body1）示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-19" src="<?php static_url('../static/media/style/typography/style_typography_example_thai1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-19">
                         <p>泰文的副标题（subheading）示例</p>
                       </figcaption>
                     </figure>
@@ -606,20 +680,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-20" src="<?php static_url('../static/media/style/typography/style_typography_example_thai2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-20">
                         <p>泰文的正文（Body）示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_example_thai3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="styles-figure-caption-21" src="<?php static_url('../static/media/style/typography/style_typography_example_thai3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="styles-figure-caption-21">
                         <p>泰文的正文（Body1）示例</p>
                       </figcaption>
                     </figure>
@@ -649,10 +727,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="line-height-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-1">
                         <p>英文和类英文的样式和行高</p>
                       </figcaption>
                     </figure>
@@ -662,10 +742,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 60.0%">
+                          <img alt="" aria-describedby="line-height-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-2">
                         <p>组合示例</p>
                       </figcaption>
                     </figure>
@@ -675,10 +757,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight3.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.3684210526%">
+                          <img alt="" aria-describedby="line-height-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-3">
                         <p>单独的示例 - 增加行高</p>
                       </figcaption>
                     </figure>
@@ -693,18 +777,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 40.0%">
+                          <img alt="" aria-describedby="line-height-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-4">
                         <p>方块字和其他文字的行高</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 36.4473684211%">
+                          <img alt="" aria-describedby="line-height-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-5">
                         <p>泰文和印地文的行高示例</p>
                       </figcaption>
                     </figure>
@@ -714,10 +802,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_dense2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 27.2368421053%">
+                          <img alt="" aria-describedby="line-height-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_dense2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="line-height-figure-caption-6">
                         <p>中文和日文的行高示例</p>
                       </figcaption>
                     </figure>
@@ -749,8 +839,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_contrast.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 80.0%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_contrast.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -761,20 +853,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_15_contrast1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_15_contrast1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-1">
                         <p>浅色背景中的对比度</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_16_contrast2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_16_contrast2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-2">
                         <p>深色背景中的对比度</p>
                       </figcaption>
                     </figure>
@@ -786,20 +882,24 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_17_contrast3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_styles_17_contrast3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-3">
                         <p>图片上的对比度</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_18_contrast4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 75.5555555556%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_styles_18_contrast4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-4">
                         <p>插画上的对比度</p>
                       </figcaption>
                     </figure>
@@ -816,18 +916,22 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_19_dynamic1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 111.111111111%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_styles_19_dynamic1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-5">
                         <p>动态字体示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_20_dynamic2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 111.111111111%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_20_dynamic2.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -838,18 +942,22 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_21_dynamic3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_styles_21_dynamic3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-6">
                         <p>UI 中的动态字体</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_22_dynamic4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_22_dynamic4.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -863,20 +971,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 162.222222222%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-7" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 163.611111111%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-8" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在一行中留出太大的空隙。尽量不要在一行的末尾留下很短的词，如介词。精心考虑的换行可以避免使用连字符。</p>
                       </figcaption>
@@ -891,8 +1003,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_tracking.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 74.2105263158%">
+                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_tracking.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                   </div>
@@ -907,22 +1021,26 @@
                     <p>“太宽 – 如果一行文本太长，用户的眼睛会很难专注于文本。因为太长的一行文字让用户很难判断哪里是一行的开始和结束。此外，从一大块文本中正确的找到下一行也变得极为困难。”</p>
                     <p>“太窄 – 如果一行文本太短，用户的眼睛必须频繁来回移动，打乱了读者的阅读节奏。太短的行也会给用户带来压力，使用户在还没看完当前行时直接看到了下一行（可能跳过一些关键的文字）。”</p>
                     <p>原文： “Readability: the Optimal Line Length,”</p>
-                    <p><a href="https://www.google.com/url?q=http://baymard.com/blog/line-length-readability&amp;sa=D&amp;ust=1481817971186000&amp;usg=AFQjCNH2N5LAy8Z7hOfvaHKRRt4ewTy1Vg" target="_blank">http://baymard.com/blog/line-length-readability</a></p>
+                    <p><a href="http://baymard.com/blog/line-length-readability" target="_blank">http://baymard.com/blog/line-length-readability</a></p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths1.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 53.6842105263%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-9" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-9">
                         <p>英文正文的理想行长度。数字表示每行的字符数。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths2.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 37.8947368421%">
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-10" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="other-typographic-guidelines-figure-caption-10">
                         <p>英文短文本的理想行长度。数字表示每行的字符数。</p>
                       </figcaption>
                     </figure>
