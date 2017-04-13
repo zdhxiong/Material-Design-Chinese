@@ -654,7 +654,7 @@
                 <section class="module-module-module col-3">
                   <div class="module">
                     <h1>使用句式的大小写</h1>
-                    <p>所有的标题、标签、菜单项都使用句式大小写 – 其他地方则考虑使用 “标题式大小写” 。</p>
+                    <p>标题、标签、菜单项应该使用句式大小写（只大写句子中的第一个字母）。</p>
                     <p>除了材料规范的需要之外（例如按钮样式），避免所有字母都用大写。</p>
                   </div>
                   <div class="module">
@@ -684,7 +684,7 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>省略句号和其他不必要的标点符号</h1>
+                    <h1>省略句号和不必要的标点符号</h1>
                     <p>为了帮助读者快速扫视文本，避免使用句号和其他不必要的标点符号。</p>
                   </div>
                   <div class="module"></div>
@@ -703,7 +703,7 @@
                     </ul>
                     <p>句号应该用于：</p>
                     <ul class="lst-kix_qvj10667l85r-0 start">
-                      <li>有多个句子的列表或对话框中</li>
+                      <li>有多个句子的文本（包含列表）</li>
                       <li>超链接之前的句子</li>
                     </ul>
                   </div>
@@ -1052,20 +1052,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="global-writing-figure-caption-1">
                         <p>日文书写示例</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="global-writing-figure-caption-2">
                         <p>泰文书写示例</p>
                       </figcaption>
                     </figure>
@@ -1080,20 +1084,24 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="global-writing-figure-caption-3">
                         <p>在这个例子中，从右到左语言（RTL）的阿拉伯文界面，是根据英文版界面做了镜像处理的。</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="global-writing-figure-caption-4" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="global-writing-figure-caption-4">
                         <p>英文界面的从左到右（LTR）的示例</p>
                       </figcaption>
                     </figure>
