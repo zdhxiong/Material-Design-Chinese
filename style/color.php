@@ -1383,7 +1383,7 @@
               <p>创建配色方案时：</p>
               <ul class="lst-kix_4sscl52b7rwh-0 start">
                 <li>使用 <a href="color.html#color-the-color-tool">颜色工具</a> 创建调色板，并在应用中使用</li>
-                <li>确保应用的颜色满足可访问性标准，且元素之间有充分的对比度</li>
+                <li>确保应用的颜色满足无障碍标准，且元素之间有充分的对比度</li>
               </ul>
               <div class="modulettes">
                 <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
@@ -1471,7 +1471,7 @@
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-5">
-                        <p>此配色方案包含不同色调的主色，因为需要用到较浅和较深色调的对比度。</p>
+                        <p>此配色方案包含不同色调的主色，因为需要用到较浅和较深色调之间的对比度。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1640,7 +1640,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>使用主色或强调色来强调选择较短的文本，如标题。</p>
+                        <p>使用主色或强调色来强调较短的文本，如标题。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1686,8 +1686,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-18">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a monochromatic color as an accent to let imagery and other colorful elements take
-                          prominence.</p>
+                        <p>使用单色作为强调色，使图像和其他彩色的元素更加突出。</p>
                         <p></p>
                       </figcaption>
                     </figure>
@@ -1701,8 +1700,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-19">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>You can use your primary color in a different tone on elements that rest on top of a primary
-                          color region (like this floating action button).</p>
+                        <p>在主色区域上的元素，可以使用不同色调的主色（例如这个浮动操作按钮）。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1718,7 +1716,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-20">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Text fields and switches can use your secondary color as an accent. </p>
+                        <p>文本框和开关可以使用辅助色作为强调。</p>
                         <p></p>
                       </figcaption>
                     </figure>
@@ -1732,16 +1730,15 @@
                       </div>
                       <figcaption id="color-system-figure-caption-21">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Text selection can use your secondary color as an accent.</p>
+                        <p>文本选择可以使用辅助色作为强调。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <p><strong>Alternative secondary colors</strong></p>
-                    <p>If your secondary color is too light or dark to sufficiently contrast with the background color,
-                      use a lighter or darker shade of the secondary color instead.</p>
+                    <p><strong>替代辅助色</strong></p>
+                    <p>如果你的辅助色太浅或太深，不足以与背景色形成充分对比，请使用较浅或较深的辅助色代替。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1752,8 +1749,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-22">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a different tone of your secondary color against backgrounds that are very light or very
-                          dark.</p>
+                        <p>在很深或很浅的背景色中，使用不同色调的辅助色。</p>
                         <p></p>
                       </figcaption>
                     </figure>
@@ -1767,8 +1763,7 @@
                       </div>
                       <figcaption id="color-system-figure-caption-23">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t use a secondary color on top of a background if there is not enough contrast between
-                          the two colors.</p>
+                        <p>如果主色和辅助色没有足够的对比度，不要在主色背景上使用辅助色。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1793,11 +1788,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Hierarchy</h1>
-                    <p>Hierarchy refers to organizing content according to different levels of importance. Color can
-                      convey how important some content is relative to other content. </p>
-                    <p>For example, a brightly colored button on a colorless background makes that button stand out.
-                      Alternatively, colorless bars and buttons allow bright content to take prominence in a UI.</p>
+                    <h1>层次结构</h1>
+                    <p>层次结构是指根据重要性级别来组织内容。颜色可以表达出一些内容相对与其他内容的重要性。</p>
+                    <p>例如，无色背景上的亮色按钮，会使该按钮更突出。或者，无色的应用栏和按钮使 UI 中明亮的内容更突出。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1807,8 +1800,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-1">
-                        <p>Bold color emphasizes the floating action button
-                          and the toolbar, giving prominence to message creation and navigation. </p>
+                        <p>大胆的颜色强调了浮动操作按钮和工具栏，使信息的创建和导航更突出。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1820,8 +1812,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-2">
-                        <p>Colorless bars and buttons allow colorful content
-                          to take precedence, deemphasizing the status and navigation bars.</p>
+                        <p>无色的应用栏和按钮使亮色的内容更突出，不强调状态栏和导航栏。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1830,10 +1821,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Meaning</h1>
-                    <p>Color may be used to communicate the meaning of various elements on a screen. A weather app may
-                      display colors that indicate current weather conditions, and a maps app may use color to show
-                      traffic conditions, with roads colored red or green. </p>
+                    <h1>含义</h1>
+                    <p>颜色可以用来表达屏幕中不同元素的含义。天气应用可能会使用表示当前天气状况的颜色，地图应用可能会用红色或绿色的道路颜色，来表示交通状况。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1843,8 +1832,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-3">
-                        <p>A weather app uses color to signal the time of
-                          day.</p>
+                        <p>天气应用使用颜色来表示一天中的时间。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1856,8 +1844,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-4">
-                        <p>A maps app uses color to signal traffic
-                          conditions.</p>
+                        <p>地图应用使用颜色来表示交通状况。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1866,15 +1853,13 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>State</h1>
-                    <p>Color can provide information about: </p>
+                    <h1>状态</h1>
+                    <p>颜色可以提供以下信息：</p>
                     <ul class="lst-kix_epkga2o278ub-0 start">
-                      <li>An element’s current state, such as if a button is enabled or disabled</li>
-                      <li>An app or element’s change of state</li>
+                      <li>元素的当前状态，例如按钮的启用或禁用状态</li>
+                      <li>应用或元素的状态改变</li>
                     </ul>
-                    <p>Color that indicates a change of state should be noticeable, as subtle differences in color may
-                      be missed. It’s best to indicate a change of state in more than one way, such as displaying an
-                      icon or moving the location of an element. </p>
+                    <p>表示状态变化的颜色应该是明显的，因为只有细微差异的颜色可能会被用户忽视。最好能以多种方式来表示状态的变化，例如显示一个图标、或移动元素的位置。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1884,8 +1869,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-5">
-                        <p>The red color in the label and helper text indicate
-                          error messages. </p>
+                        <p>红色的标签和帮助文本表示错误信息。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1897,8 +1881,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-6">
-                        <p>The color changes from blue to red to indicate
-                          different states. </p>
+                        <p>颜色从蓝色变为红色，以表示不同的状态。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1907,12 +1890,9 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h1>Contrast </h1>
-                    <p>Your app’s primary and secondary colors should ensure sufficient color contrast between elements
-                      so that all users can see and use your app. </p>
-                    <p>To learn more about color, contrast, and accessibility design, read <a
-                        href="https://material.googleplex.com/usability/accessibility.html#" target="_blank">Material
-                        Design Accessibility. </a></p>
+                    <h1>对比</h1>
+                    <p>应用的主色和辅助色应该确保元素之间能有足够的对比度，以便所有用户都能看到和使用你的应用。</p>
+                    <p>要了解更多有关颜色、对比度和无障碍设计相关的内容，请阅读 <a href="https://material.googleplex.com/usability/accessibility.html#" target="_blank">Material Design 无障碍</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1922,8 +1902,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-7">
-                        <p>In this UI, red signifies the time of day and green
-                          represents the foggy weather. </p>
+                        <p>在这个 UI 中，红色表示一天中的时间，绿色表示有雾的天气。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1935,11 +1914,9 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-8">
-                        <p>This is how users with deuteranopia (red/green
-                          color blindness) might see the UI shown to the left. They might not be able to see differences
-                          between text and other elements.<br>
+                        <p>这是红绿色盲看到的左侧的 UI。它们可能无法看到文本和其他元素之间的差异。<br>
                           <br>
-                          Additional affordances, beyond color, should be used to convey information.</p>
+                          还应该使用除颜色以外的功能来传达信息。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1954,10 +1931,8 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-9">
-                        <p>Smaller text may be difficult to read for
-                          individuals with cataracts, for whom your UI may appear blurry. Elements without sufficient
-                          contrast get lost in the background.</p>
-                        <p>To accommodate all users, offer enlarged text settings.</p>
+                        <p>较小的文字对于白内障用户可能会难以阅读，在他们眼中，你的 UI 可能会变得模糊。没有足够对比度的元素会被淹没在背景中。</p>
+                        <p>为了适应所有用户，可以提供放大文本的选项。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -1967,14 +1942,13 @@
               <div class="col-list">
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h1>Text on backgrounds </h1>
-                    <p>Text should be legible on the background on which it appears. It is recommended that:</p>
+                    <h1>背景中的文本</h1>
+                    <p>文本应该在其背景中清晰可见。建议：</p>
                     <ul class="lst-kix_4wv31nrzrjta-0 start">
-                      <li>Dark gray text is used on light backgrounds</li>
-                      <li>Light gray text is used on dark backgrounds</li>
+                      <li>深灰色文本用于浅色背景</li>
+                      <li>浅灰色文本用于深色背景</li>
                     </ul>
-                    <p>If your app has both light and dark themes, the text should be available in a contrasting color
-                      against each theme. </p>
+                    <p>如果你的应用同时含有亮色和暗色主题，文本颜色应该要和每个主题都有足够的对比度。</p>
                   </div>
                   <div class="module"></div>
                   <div class="module"></div>
@@ -1983,12 +1957,8 @@
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Legibility </h2>
-                    <p>Text that appears on colored backgrounds should be legible and meet accessibility standards. Both
-                      backgrounds and text must use colors and opacities that, when used together, meet these standards.
-                      <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
-                         target="_blank">The Web Content Accessibility Guidelines (WCAG 2.0)</a> level AA requires a
-                      contrast ratio of 4.5:1 for normal text and a 3:1 ratio for large text.</p>
+                    <h2>可读性</h2>
+                    <p>彩色背景上的文本需要保证清晰可读，以符合无障碍标准。在背景色和文本色上同时使用不透明度，可以满足此标准。 AA 级的 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">Web 内容无障碍指南（WCAG 2.0）</a> 要求普通文本的对比度为 4.5:1，大文本的对比度为 3:1。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -1999,9 +1969,7 @@
                       </div>
                       <figcaption id="usability-figure-caption-10">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Using opacity instead of shifting colors often creates better contrast and relative
-                          luminance. For example, gray text (#727272) becomes hard to read if the background color
-                          changes to magenta.</p>
+                        <p>使用不透明度，而不是改变颜色，通常能创造更好的对比度和相对亮度。例如，如果背景色变为洋红色，则其中的灰色文字（#727272）会变得难以阅读。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2014,25 +1982,19 @@
                       </div>
                       <figcaption id="usability-figure-caption-11">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Shifting to gray instead of decreasing contrast on black often lowers the relative luminance,
-                          making typography unreadable. </p>
+                        <p>转换为灰色，而不是降低了对比度的黑色，通常会降低相对亮度，使文本不可读。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>Dark text on light backgrounds</strong></h2>
-                    <p>The level of opacity used for text depends on whether your background is dark or light. For dark
-                      text on light backgrounds, apply the following opacity levels: </p>
+                    <h2><strong>浅色背景中的深色文本</strong></h2>
+                    <p>文本的不透明度取决于背景色是深色还是浅色的。对于浅色背景中的深色文本，使用以下不透明度：</p>
                     <ul class="lst-kix_ljva6phq05b1-0 start">
-                      <li>The <strong>most important text</strong> has an opacity of 87%.</li>
-                      <li><strong>Secondary text</strong>, which is lower in the visual hierarchy, has an opacity of
-                        54%.
-                      </li>
-                      <li><strong>Text hints</strong> (such as text fields and labels) and <strong>disabled
-                          text</strong> have even lower visual prominence with an opacity of 38%.
-                      </li>
+                      <li><strong>最重要的文本</strong>使用 87% 的不透明度。</li>
+                      <li>在视觉层次结构中较低的<strong>辅助文本</strong>使用 54% 的不透明度。</li>
+                      <li><strong>文本提示</strong>（例如文本框和标签）、<strong>禁用状态的文本</strong>的视觉层次更低，使用 38% 的不透明度。</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -2048,23 +2010,23 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dark text (#000000)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>暗色文本（#000000）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
+                        <td colspan="1" rowspan="1"><p>主文本</p></td>
                         <td colspan="1" rowspan="1"><p>87%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
+                        <td colspan="1" rowspan="1"><p>辅助文本</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled text, hint text</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
+                        <td colspan="1" rowspan="1"><p>分隔线</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
                       </tr>
                       </tbody>
@@ -2073,8 +2035,8 @@
                 </section>
                 <section class="module-figure-module col-3">
                   <div class="module">
-                    <h2><strong>White text on dark backgrounds</strong></h2>
-                    <p>White text appearing on colored backgrounds should do so at an opacity of 100%.</p>
+                    <h2><strong>暗色背景上的白色文本</strong></h2>
+                    <p>彩色背景上的白色文本应该使用 100% 的不透明度。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2084,8 +2046,7 @@
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-12">
-                        <p>The table relays relative levels of importance for
-                          white text on dark backgrounds.</p>
+                        <p>此表格显示了深色背景中的白色文本的相对重要性。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2093,23 +2054,23 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Light text (#FFFFFF)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>亮色文本（#FFFFFF）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Primary text </p></td>
+                        <td colspan="1" rowspan="1"><p>主文本</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Secondary text</p></td>
+                        <td colspan="1" rowspan="1"><p>辅助文本</p></td>
                         <td colspan="1" rowspan="1"><p>70%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Disabled text, hint text</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用状态的文本、提示文本</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dividers</p></td>
+                        <td colspan="1" rowspan="1"><p>分隔线</p></td>
                         <td colspan="1" rowspan="1"><p>12%</p></td>
                       </tr>
                       </tbody>
@@ -2118,23 +2079,22 @@
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <h2>Icons and other elements</h2>
-                    <p>Elements like icons benefit from having a hex value of black or white at 38% opacity so that they
-                      work on backgrounds of any color.</p>
+                    <h2>图标等元素</h2>
+                    <p>图标之类的元素使用具有 38% 不透明度的白色或黑色，以使它们能在任何颜色的背景上使用。</p>
                   </div>
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Dark icons (#000000)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>深色图标（#000000）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Active Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>可用的图标</p></td>
                         <td colspan="1" rowspan="1"><p>54%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Inactive Icon</p></td>
+                        <td colspan="1" rowspan="1"><p>禁用的图标</p></td>
                         <td colspan="1" rowspan="1"><p>38%</p></td>
                       </tr>
                       </tbody>
@@ -2144,15 +2104,15 @@
                     <table class="s-tag-table">
                       <tbody>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Light icons (#FFFFFF)</p></td>
-                        <td colspan="1" rowspan="1"><p>Opacity</p></td>
+                        <td colspan="1" rowspan="1"><p>亮色图标（#FFFFFF）</p></td>
+                        <td colspan="1" rowspan="1"><p>不透明度</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Active Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>可用的图标</p></td>
                         <td colspan="1" rowspan="1"><p>100%</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>Inactive Icon </p></td>
+                        <td colspan="1" rowspan="1"><p>禁用的图标</p></td>
                         <td colspan="1" rowspan="1"><p>50%</p></td>
                       </tr>
                       </tbody>
@@ -2161,12 +2121,9 @@
                 </section>
                 <section class="module-figure-figure col-3">
                   <div class="module">
-                    <h2>Colored text and backgrounds </h2>
-                    <p>Use colored text on colored backgrounds sparingly, limiting usage to important text elements.
-                      Colored text should be used to indicate importance and selective emphasis. </p>
-                    <p>See <a href="color.html#color-the-color-tool">the color tool</a> to determine if certain
-                      foreground colors used for typography meet accessibility standards against different background
-                      colors.</p>
+                    <h2>彩色的文本和背景</h2>
+                    <p>谨慎的在彩色背景上使用彩色文本，在重要的文本元素上应该有限制的使用。彩色的文本应该用于表示重要性、和强调已选择状态。</p>
+                    <p>查看<a href="color.html#color-the-color-tool">颜色工具</a>，来确定不同背景色中的某些前景色是否符合无障碍标准。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -2177,8 +2134,7 @@
                       </div>
                       <figcaption id="usability-figure-caption-13">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>Use a contrasting color (such as your secondary color) on important text to contrast it
-                          against the background.</p>
+                        <p>在重要的文本上使用有对比度的颜色（例如你的辅助色），使其与背景色产生对比。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2191,7 +2147,7 @@
                       </div>
                       <figcaption id="usability-figure-caption-14">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Avoid placing a large amount of colored text on colored backgrounds. </p>
+                        <p>避免在彩色背景上放置大量彩色文本。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2207,8 +2163,7 @@
                       </div>
                       <figcaption id="usability-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                        <p>You can use a darker or lighter tone of color to create a monochrome, yet accentuated,
-                          look.</p>
+                        <p>你可以使用更深或更浅的色调来创建单色，也能突出外观。</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -2221,8 +2176,7 @@
                       </div>
                       <figcaption id="usability-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>Don’t place low-contrast tones of the same color against each other. It’s difficult to read
-                          text with a low contrast against its background.</p>
+                        <p>不要使用相同颜色的不同色调的颜色进行对比。与背景色对比度很低的文本会很难阅读。</p>
                       </figcaption>
                     </figure>
                   </div>
