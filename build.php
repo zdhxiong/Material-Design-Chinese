@@ -16,6 +16,11 @@ define('BUILD_PATH', __DIR__ . '/build');
 // 例如你希望把静态文件托管到 CDN，CDN 地址为http://cdn.mdui.org，只需把 static 目录下的文件全部放到 CDN 中，然后修改此地址为 CDN 地址。
 define('STATIC_PATH', '');
 
+// 广告
+$adsense = array(
+  '<div class="gas-h1-bottom"></div>' => ''
+);
+
 // 公共翻译
 $translate = array(
     'do' => '正确示例',
@@ -284,10 +289,15 @@ foreach ($files as $file) {
         'next_path' => $next ? $next['folder'] . '/' . $next['file'] : ''
     );
 
-    // 写入文件
+    // 读取文件
     ob_start();
     include SRC_PATH . '/' . $file['folder'] . '/' . $file['file'] . '.php';
     $file_content = ob_get_contents();
+
+    // 替换广告
+    $file_content = str_replace(array_keys($adsense), array_values($adsense), $file_content);
+
+    // 写入文件
     file_put_contents(BUILD_PATH . '/' . $file['folder'] . '/' . $file['file'] . '.html', $file_content);
     ob_end_clean();
 }

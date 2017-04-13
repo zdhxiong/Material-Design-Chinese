@@ -104,3 +104,24 @@ code {
 .cse-result-container .gs-visibleUrl-long, .cse-result-container .gsc-table-cell-snippet-close {
   font-size: 14px;
 }
+
+/* 样式修改 - 用于 adsense */
+#grid-cont section.grid_outer {
+  position: relative;
+}
+
+.gas-h1-bottom {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .gas-h1-bottom {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: -22px auto 20px auto;
+    text-align: center;
+  }
+}
