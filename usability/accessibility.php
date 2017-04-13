@@ -54,15 +54,17 @@
           <div class="article-content">
             <div>
               <p>一款设计良好的产品可供所有能力的用户使用，包括视力低下、失明、听力障碍、认知障碍或运动障碍的用户。改进产品的无障碍功能可以增强所有用户的可用性，这是非常值得做的事情。</p>
-              <p>Material design 的内置的无障碍功能将帮助你的应用适应所有用户。本节内容主要适用于移动端 UI 设计。有关设计和开发完全无障碍的产品的详情，请访问<a href="https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNGE9U9SjxQHorwXVWWB6-shsgj6IQ" target="_blank">Google 无障碍网站</a>。</p>
+              <p>Material design 的内置的无障碍功能将帮助你的应用适应所有用户。本节内容主要适用于移动端 UI 设计。有关设计和开发完全无障碍的产品的详情，请访问<a href="https://www.google.com/accessibility/" target="_blank">Google 无障碍网站</a>。</p>
               <div class="col-list">
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-1">
                         <h1>明确的</h1>
                         <p>通过使用清晰的布局设计、功能明确的操作，来帮助用户浏览你的应用。每添加一个按钮、图片或一行文本都会使界面变得更加复杂，可以通过以下方式简化你的应用：</p>
                         <ul class="lst-kix_k028nm5n1mm4-0 start">
@@ -76,10 +78,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-2">
                         <h1>健全的</h1>
                         <p>使你的应用能适应各种用户。用户可能只有短暂的注意力，对你的产品不熟悉，或使用纯文本<strong>屏幕阅读器</strong>（使用语音合成器朗读文本或使用盲文显示器产生触觉）。你的应用应该方便每位用户来：</p>
                         <ul class="lst-kix_3clj5zpaz4lj-0 start">
@@ -92,12 +96,14 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="principles-figure-caption-3">
                         <h1>具体的</h1>
-                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以和 Google 的屏幕阅读器 “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>” 配合使用。</p>
+                        <p>支持特定平台的辅助技术，就像支持触摸、键盘和鼠标的输入方式一样。例如，确保您的 Android 应用可以和 Google 的屏幕阅读器 “<a href="https://support.google.com/accessibility/android/answer/6283677?hl=en&amp;ref_topic=3529932" target="_blank">TalkBack</a>” 配合使用。</p>
                         <p><strong>辅助技术</strong>通过屏幕阅读器、放大设备、轮椅、助听器或记忆辅助设备等设备帮助增强、维持或改善残疾人的能力。</p>
                       </figcaption>
                     </figure>
@@ -126,7 +132,7 @@
                 <section class="module-figure-figure col-3">
                   <div class="module">
                     <h1>对比度</h1>
-                    <p>基于亮度或发光强度，颜色和它的背景色的对比度范围为 1 - 21，和<a href="https://www.google.com/url?q=https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&amp;sa=D&amp;ust=1481818010600000&amp;usg=AFQjCNGms-qT2N209tGSJg7ILk2-OCsYyA" target="_blank">万维网联盟（W3C）</a>一致。</p>
+                    <p>基于亮度或发光强度，颜色和它的背景色的对比度范围为 1 - 21，和<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">万维网联盟（W3C）</a>一致。</p>
                     <p>对比度表示两种颜色之间的差异程度，通常写为 1:1 或 21:1。两个数之间的比值越高，颜色之间的相对亮度就越大。</p>
                     <p>W3C 推荐在正文文本和图片中使用以下对比度：</p>
                     <ul class="lst-kix_c2xsypf5z28r-0 start">
@@ -136,10 +142,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.1111111111%">
+                          <img alt="" aria-describedby="color-contrast-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>这些文本遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
@@ -147,10 +155,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 56.1111111111%">
+                          <img alt="" aria-describedby="color-contrast-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这些文本没有遵循合颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
@@ -163,10 +173,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 50.2777777778%">
+                          <img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>这些图标遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
@@ -174,10 +186,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 50.2777777778%">
+                          <img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这些图标没有遵循颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
@@ -193,10 +207,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>有辨识度的装饰性元素不需要满足对比度建议。</p>
                       </figcaption>
@@ -204,10 +220,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 100.0%">
+                          <img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>没有必要扭曲你的 Logo 来满足对比度建议。</p>
                       </figcaption>
@@ -224,10 +242,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-7" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-7">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>文本字段的错误状态使用了多个提示来传达：标题颜色、文本字段下划线、字段下面的错误提示。</p>
                       </figcaption>
@@ -235,10 +255,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 51.1111111111%">
+                          <img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-8" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="color-contrast-figure-caption-8">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个文本字段的错误状态仅使用了彩色下划线，可能会被色弱的用户忽略。</p>
                       </figcaption>
@@ -263,15 +285,15 @@
             <div>
               <h1>声音</h1>
               <p>给视觉元素添加声音作为替代方案，反之亦然。添加可隐藏的字幕，或其他视觉元素来作为重要声音元素和声音警报的替代方案。</p>
-              <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如 “TalkBack” ），并通过<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">触摸板</a>导航时，在用户指尖触摸到 UI 元素时，会大声读出标签上的文本。</p>
+              <p>通过在 UI 元素上添加描述性的标签，使用户可以通过声音在应用中导航。当使用屏幕阅读器（如 “TalkBack” ），并通过<a href="https://support.google.com/accessibility/android/answer/6006598?hl=en" target="_blank">触摸板</a>导航时，在用户指尖触摸到 UI 元素时，会大声读出标签上的文本。</p>
               <p>应避免使用以下声音：</p>
               <ul class="lst-kix_8rfeeey1j8st-0 start">
                 <li>通过屏幕阅读器播放不必要的声音，例如打开网页时自动播放的背景音乐。如果有背景音乐，请确保用户可以安全的暂停或停止背景音乐。</li>
                 <li>添加到原生元素上的额外的声音（屏幕阅读器能够正确的翻译原生元素）。</li>
               </ul>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010682000&amp;usg=AFQjCNEMSxp0z9UzKoL1jiMkdv21RVe3cA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">标记用户界面元素</div>
                     <span class="subtitle">给输入控件和其他元素添加描述，供屏幕阅读器等设备可以进行朗读</span>
@@ -284,8 +306,8 @@
               <p>为了使具有运动和视觉敏感性的用户能舒适地使用界面，请遵循 <a href="../motion/material-motion.html">Material Design 运动规范</a>，该规范支持 W3C 的以下运动指南：</p>
               <ul class="lst-kix_1yj07pccvkev-0 start">
                 <li>如果内容持续移动、滚动或闪烁的时间超过 5 秒，则会暂停、停止或隐藏。</li>
-                <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="https://www.google.com/url?q=http://www.w3.org/TR/WCAG20/%23general-thresholddef&amp;sa=D&amp;ust=1481818010688000&amp;usg=AFQjCNGHM4ziWaKFa1JeCr2O_Zn1p7KLKA" target="_blank">闪烁和红色闪烁的阀值</a>。</li>
-                <li>避免<a href="https://www.google.com/url?q=https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNH3h8LNSO-6Q9cl06MWh9Nx9ocdTg" target="_blank">闪烁屏幕中较大的中心区域</a>。</li>
+                <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="http://www.w3.org/TR/WCAG20/#general-thresholddef" target="_blank">闪烁和红色闪烁的阀值</a>。</li>
+                <li>避免<a href="https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176" target="_blank">闪烁屏幕中较大的中心区域</a>。</li>
               </ul>
               <h1>定时控件</h1>
               <p>应用中的控件可以设置为在一定时间后消失。例如，播放视频 5 秒后，播放按钮控件可能会从屏幕上淡出。</p>
@@ -293,8 +315,8 @@
                 </strong>避免在有高优先级功能的控件上使用定时器，因为如果这些控件消失的太快，用户可能不会注意到这些控件。例如，当焦点聚焦到控件上时， TalkBack 会大声朗读出控件，如果为其加上了定时器，可能会阻止控件完成某些任务。</p>
               <p>对于有其他重要功能的控件，请确保用户可以再次启用控件、或可以通过其他途径执行相同的功能，在<a href="accessibility.html#accessibility-hierarchy-focus">层次和焦点</a>中了解更多。</p>
               <div class="modulettes">
-                <a class="modulette container default" href="https://www.google.com/url?q=https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index%3D..%252F..%252Findex%236&amp;sa=D&amp;ust=1481818010699000&amp;usg=AFQjCNEbRXnLu995smOan2sqOXJ1dO7YNw" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
+                <a class="modulette container default" href="https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index=..%2F..%2Findex#6" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">自动朗读文本</div>
                     <span class="subtitle">阅读关于在活跃区域放置文本的信息。</span>
@@ -330,10 +352,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Touch target specs" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-1">
                         <p>头像：40dp <br>
                         图标：24dp<br>
                         两者的触摸目标：48dp</p>
@@ -342,10 +366,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Examples" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-2">
                         <p>触摸目标示例</p>
                       </figcaption>
                     </figure>
@@ -355,10 +381,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Touch target height" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-3">
                         <p>触摸目标高度：48dp <br>
                         按钮高度：36dp</p>
                       </figcaption>
@@ -366,10 +394,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Examples" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="style-figure-caption-4">
                         <p>触摸目标和按钮示例</p>
                       </figcaption>
                     </figure>
@@ -382,8 +412,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Correct slider value example" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                     <div class="text-box"></div>
@@ -394,8 +426,10 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 177.777777778%">
+                          <img alt="Incorrect slider value" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>"/>
+                        </div>
                       </div>
                     </figure>
                     <div class="text-box"></div>
@@ -427,8 +461,8 @@
               <p>应用应该给用户反馈，并使用户了解他们在应用中的位置。导航控件应该便于定位，且书写清晰易懂。视觉反馈（如标签、颜色和图标）和触摸反馈向用户显示了可用的 UI。</p>
               <p>导航应该具有清晰的任务流程，和最少的步骤。在频繁使用的任务上，应该实现聚焦控制、或控制键盘和读取焦点的功能。</p>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23focus-nav&amp;sa=D&amp;ust=1481818010784000&amp;usg=AFQjCNGcVcgx9-v7WOQibv-e8P2-XXKniA" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#focus-nav" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">启用焦点导航</div>
                     <span class="subtitle">使用焦点控制导航</span>
@@ -439,7 +473,7 @@
               <h1>屏幕阅读器</h1>
               <p>屏幕阅读器为用户提供了多种屏幕导航的方法，包括：</p>
               <ul class="lst-kix_2jhifpytt1is-0 start">
-                <li>屏幕阅读器的触摸界面允许用户<strong>在屏幕上移动手指</strong>，以听到手指正下方的内容。这使用户能快速了解整个界面。或者用户可以凭借肌肉记忆快速移动到指定 UI 元素。在 TalkBack 中，此功能被称为 “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010787000&amp;usg=AFQjCNFZvMJlR6Y60uh3CX7UBDebkjBgdA" target="_blank">通过触摸浏览</a>” 。用户必须双击才能选择一个项目。</li>
+                <li>屏幕阅读器的触摸界面允许用户<strong>在屏幕上移动手指</strong>，以听到手指正下方的内容。这使用户能快速了解整个界面。或者用户可以凭借肌肉记忆快速移动到指定 UI 元素。在 TalkBack 中，此功能被称为 “<a href="https://support.google.com/accessibility/android/answer/6006598?hl=en" target="_blank">通过触摸浏览</a>” 。用户必须双击才能选择一个项目。</li>
                 <li>用户也可以在屏幕上向前或向后<strong>滑动来移动焦点</strong>，来从上到下线性地阅读页面。这允许用户在某些元素上进行训练。在 TalkBack 中，这称为<strong>线性导航</strong>。</li>
               </ul>
               <p>用户可以在 “通过触摸浏览” 和 “线性导航” 模式之间切换。当页面使用合适的语义化标签时，一些无障碍技术允许用户在页面的这些标记（例如标题）之间导航。</p>
@@ -456,19 +490,23 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-focus-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>通过把重要的操作放在屏幕顶部，使它们在层次结构中显得更重要。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-focus-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>当把重要的操作嵌入到其他内容中时，就不清楚什么是页面中最重要的元素。</p>
                       </figcaption>
@@ -493,10 +531,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>"/>
+                      <div class="media" style="max-width: 1522px">
+                        <div class="frame " style="padding-top: 103.810775296%">
+                          <img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="hierarchy-focus-figure-caption-3">
                         <p>绿色圆圈表示屏幕中的元素接收焦点的顺序。</p>
                       </figcaption>
                     </figure>
@@ -526,10 +566,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>此屏幕使用了标准平台的对话框。</p>
                       </figcaption>
@@ -537,10 +579,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>此屏幕使用非标准平台的对话框来执行一个标准的对话框任务。这种实现会需要额外的编码和测试，以使这种非标准控件和无障碍技术相兼容。</p>
                       </figcaption>
@@ -559,19 +603,23 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="Example of scalable text" aria-describedby="implementation-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>这个 UI 已经过缩放，能很好的和放大倍数的界面以及大文字适配。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个 UI 没有经过缩放，不能和放大倍数的界面以及大文字适配。部分内容被重叠或截断。</p>
                       </figcaption>
@@ -585,8 +633,8 @@
                     <h1>使 UI 元素的标签可视化</h1>
                     <p>屏幕阅读器用户需要知道屏幕中哪些元素是可以点击的。要使屏幕阅读器大声朗读出组件的名称，请向组件（如按钮、图标、仅含图标不含可见文本的 Tab 选项卡）添加 <strong>contentDescription</strong> 属性。</p>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010756000&amp;usg=AFQjCNH5Ns3rByzXYss4-XDz58sFR8gNsg" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="http://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">标签化 UI 元素</div>
                           <span class="subtitle">使用 contentDescription 属性来设置标签。</span>
@@ -597,10 +645,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="implementation-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-5">
                         <p>1. 标记搜索图标<br>
                         2. 标记麦克风图标</p>
                       </figcaption>
@@ -608,10 +658,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>"/>
+                      <div class="media" style="max-width: 1000px">
+                        <div class="frame " style="padding-top: 177.8%">
+                          <img alt="" aria-describedby="implementation-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-6">
                         <p>1. 标记编辑图标<br>
                         2. 标记聊天图标</p>
                       </figcaption>
@@ -623,7 +675,7 @@
                 <section class="module-module col-2">
                   <div class="module">
                     <h1>帮助文档</h1>
-                    <p>任何具有特殊无障碍功能的功能都应包含在帮助文档中。确保帮助文档的相关性、可访问性和可发现性。例如，查看本指南，了解如何在 <a href="https://www.google.com/url?q=https://support.google.com/drive/answer/6034939?hl%3Den&amp;sa=D&amp;ust=1481818010764000&amp;usg=AFQjCNG73FZbJRcgaQsZ0qD4BJcT-spiKw" target="_blank">Google Drive</a> 中使用屏幕阅读器。</p>
+                    <p>任何具有特殊无障碍功能的功能都应包含在帮助文档中。确保帮助文档的相关性、可访问性和可发现性。例如，查看本指南，了解如何在 <a href="https://support.google.com/drive/answer/6034939?hl=en" target="_blank">Google Drive</a> 中使用屏幕阅读器。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -641,10 +693,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>"/>
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 63.1578947368%">
+                          <img alt="" aria-describedby="implementation-figure-caption-7" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="implementation-figure-caption-7">
                         <p>人们以不同的方式使用无障碍技术。</p>
                       </figcaption>
                     </figure>
@@ -721,11 +775,11 @@
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
-                    <p><strong>开发人员注释</strong>：如果控件类型和状态没有被正确读取，则可能是控件的无障碍角色设置不正确，或者是一个自定义控件。网站上的每个元素都应该有一个相关的无障碍角色，或者通过代码为其声明一个角色。这意味着按钮应该设置成按钮、复选框应该设置成复选框，以便将控件的类型和状态正确传达给用户。如果一个元素是从一个原生的 UI 元素上扩展或继承的，他会获得父元素的角色。如果不是，你可以在每个平台上为无障碍重写这些信息（用于 Web 的 <a href="https://www.google.com/url?q=https://www.w3.org/WAI/intro/aria&amp;sa=D&amp;ust=1481818010714000&amp;usg=AFQjCNEQMr5NDvLBa9da-xfE9WfQWw4GwA" target="_blank">ARIA</a>，用于 Android 的 <a href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html&amp;sa=D&amp;ust=1481818010715000&amp;usg=AFQjCNG1cz2ubEf3BM2zy2s1vu9CxyYMlA" target="_blank">AccessibilityNodeInfo</a>）。</p>
+                    <p><strong>开发人员注释</strong>：如果控件类型和状态没有被正确读取，则可能是控件的无障碍角色设置不正确，或者是一个自定义控件。网站上的每个元素都应该有一个相关的无障碍角色，或者通过代码为其声明一个角色。这意味着按钮应该设置成按钮、复选框应该设置成复选框，以便将控件的类型和状态正确传达给用户。如果一个元素是从一个原生的 UI 元素上扩展或继承的，他会获得父元素的角色。如果不是，你可以在每个平台上为无障碍重写这些信息（用于 Web 的 <a href="https://www.w3.org/WAI/intro/aria" target="_blank">ARIA</a>，用于 Android 的 <a href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html" target="_blank">AccessibilityNodeInfo</a>）。</p>
                     <p>在 Android，将控件的 AccessibilityNodeInfo 类名字段设置为 “android.widget.Button”。</p>
                     <div class="modulettes">
-                      <a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23custom-views&amp;sa=D&amp;ust=1481818010719000&amp;usg=AFQjCNH1OZWUJCKsBHDScGoKuJr4ZCO75g" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                      <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                         <div class="info">
                           <div class="title">构建无障碍的自定义视图</div>
                           <span class="subtitle"></span>
@@ -767,10 +821,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Action verb example" aria-describedby="writing-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>朗读的描述指明了由图标表示的操作。</p>
                       </figcaption>
@@ -778,10 +834,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>描述图标的外观无法清楚的表明操作的作用。</p>
                       </figcaption>
@@ -792,10 +850,12 @@
                   <div class="module"></div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>导航菜单的无障碍文本可以是 “显示/隐藏导航菜单” （首选）或者 “显示/隐藏主菜单” （可接受）。</p>
                       </figcaption>
@@ -803,10 +863,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>朗读时，文本 “侧面抽屉” 无法指明会发生什么操作。</p>
                       </figcaption>
@@ -835,10 +897,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Correct example of a command." aria-describedby="writing-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>此命令 “语音搜索” 描述和用户输入法（语音）相匹配的任务（搜索）。</p>
                       </figcaption>
@@ -846,10 +910,12 @@
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media">
-                        <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>"/>
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame " style="padding-top: 33.3333333333%">
+                          <img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>"/>
+                        </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="writing-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>此命令 “点击” 是不准确的，因为这不是激活此控件的唯一方式（它也可以通过按下键盘、开关切换或盲文显示来激活）。由于本例中用户的主要任务是搜索，所以操作应该使用如上文所提到的文字，而不应该使用 “说话”。</p>
                       </figcaption>
@@ -863,8 +929,8 @@
               <h1>提供提示语音</h1>
               <p>提示语音为不明确的操作提供额外的信息。例如，Android 的 “双击以选择” 功能提示用户在选择一个项目时需要点击两次。Android 的 TalkBack 也会提醒和元素相关联的任何自定义操作。谨慎使用提示语音，确保只在复杂的 UI 上使用提示语音。</p>
               <div class="modulettes">
-                <a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html%23addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)&amp;sa=D&amp;ust=1481818010766000&amp;usg=AFQjCNE_U-MDUDvIwn8hceWHW36IGykFbQ" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/android.svg'); ?>">
+                <a class="modulette container android" href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html#addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)" target="_blank">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
                   <div class="info">
                     <div class="title">Android 自定义操作</div>
                     <span class="subtitle"></span>
