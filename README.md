@@ -21,3 +21,11 @@ Material Design 指南的中文翻译
 我们使用 PHP 来生成文档，直接在项目根目录下执行: `php build.php` 即可生成 HTML 格式的文档，生成后的文档位于 `build` 目录下。
 
 由于文档中的图片和视频太过庞大，此仓库不包含图片和视频。
+
+## 赞助
+
+赞助以帮助作者持续完善翻译
+
+![通过支付宝赞助](http://ww1.sinaimg.cn/large/63f511e3gy1ffhw0jj5n4j206o089dge.jpg)
+![通过微信赞助](http://ww1.sinaimg.cn/large/63f511e3gy1ffhw0vkaeaj206o0890ta.jpg)
+[![通过 Paypal 赞助](http://ww1.sinaimg.cn/large/63f511e3gy1fff6937xzbj203w00y3yc.jpg)](https://www.paypal.me/zdhxiong/5)
