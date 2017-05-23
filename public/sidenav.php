@@ -25,7 +25,7 @@
         <ul>
           <li><a href="http://www.google.com/policies/privacy/" target="_blank">Privacy</a></li>
           <li><a href="http://www.google.com/policies/terms/" target="_blank">Terms</a></li>
-          <li><a href="http://www.mdui.org/" target="_blank">MDUI</a></li>
+          <li><a href="https://www.mdui.org/" target="_blank">MDUI</a></li>
         </ul>
       </div>
     </div>

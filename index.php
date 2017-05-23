@@ -38,7 +38,7 @@
           <div class="article-content">
             <div>
               <p>英文版官方文档：<a href="https://material.io/guidelines/" target="_blank">https://material.io/guidelines/</a></p>
-              <p>中文翻译网站：<a href="http://www.mdui.org/design" target="_blank">http://www.mdui.org/design</a></p>
+              <p>中文翻译网站：<a href="https://www.mdui.org/design" target="_blank">https://www.mdui.org/design</a></p>
               <p>中文版 Github 仓库：<a href="https://github.com/zdhxiong/Material-Design-Chinese" target="_blank">https://github.com/zdhxiong/Material-Design-Chinese</a></p>
             </div>
           </div>
@@ -63,14 +63,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="http://ww1.sinaimg.cn/large/63f511e3gy1ffhx0it64wj206o089dge.jpg"/>
+                        <img alt="" src="//ww1.sinaimg.cn/large/63f511e3gy1ffhx0it64wj206o089dge.jpg"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="http://ww1.sinaimg.cn/large/63f511e3gy1ffhx0q42oyj206o0890ta.jpg"/>
+                        <img alt="" src="//ww1.sinaimg.cn/large/63f511e3gy1ffhx0q42oyj206o0890ta.jpg"/>
                       </div>
                     </figure>
                   </div>
