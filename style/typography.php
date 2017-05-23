@@ -243,7 +243,7 @@
               </div>
               <div class="modulettes">
                 <a class="modulette container default" href="https://www.google.com/fonts" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/images/callouts/default.svg'); ?>">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>">
                   <div class="info">
                     <div class="title">Google 字体库</div>
                     <span class="subtitle">一个开源的网络字体库</span>
