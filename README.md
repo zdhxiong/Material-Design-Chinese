@@ -26,6 +26,6 @@ Material Design 指南的中文翻译
 
 赞助以帮助作者持续完善翻译
 
-![通过支付宝赞助](//ww1.sinaimg.cn/large/63f511e3gy1ffhw0jj5n4j206o089dge.jpg)
-![通过微信赞助](//ww1.sinaimg.cn/large/63f511e3gy1ffhw0vkaeaj206o0890ta.jpg)
-[![通过 Paypal 赞助](//ww1.sinaimg.cn/large/63f511e3gy1fff6937xzbj203w00y3yc.jpg)](https://www.paypal.me/zdhxiong/5)
+![通过支付宝赞助](https://ww1.sinaimg.cn/large/63f511e3gy1ffhw0jj5n4j206o089dge.jpg)
+![通过微信赞助](https://ww1.sinaimg.cn/large/63f511e3gy1ffhw0vkaeaj206o0890ta.jpg)
+[![通过 Paypal 赞助](https://ww1.sinaimg.cn/large/63f511e3gy1fff6937xzbj203w00y3yc.jpg)](https://www.paypal.me/zdhxiong/5)
