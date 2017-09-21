@@ -12,22 +12,22 @@
         <div>
           <h1>通过单击底部导航栏，你能轻松地在应用的不同视图之间切换。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>点击底部导航图标，可以直接进入对应视图、或者刷新当前视图。</p>
                 <p>底部导航主要用于移动设备。如果要在桌面设备上实现类似效果，请使用侧边栏导航。</p>
               </div>
               <div class="module">
-                <h3><strong>用法</strong></h3>
+                <h3>用法</h3>
                 <ul class="lst-kix_nsiz2v434hok-0 start">
                   <li>有 3 - 5 个顶级视图</li>
                   <li>对应的视图要可以直接访问</li>
                 </ul>
 
-                <h3><strong>颜色</strong></h3>
+                <h3>颜色</h3>
                 <p>激活状态的导航项的图标和文字使用主色。如果底部导航栏有背景色，则使用白色或黑色的图标和文字。</p>
 
-                <h3><strong>规格</strong></h3>
+                <h3>规格</h3>
                 <ul class="lst-kix_tbzxxvnm6c5s-0 start">
                   <li>导航项的宽度: 视图的宽度除以导航项的数量 (最大 168dp、最小 80dp)</li>
                   <li>高度: 56dp</li>
@@ -89,10 +89,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>移动端的底部导航</p>
                       </figcaption>
                     </figure>
@@ -101,10 +101,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 195.0%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p>在较大的显示器上（如平板和桌面端）的左侧导航</p>
                       </figcaption>
                     </figure>
@@ -112,7 +112,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>使用场景</h1>
                     <p>底部导航用于：</p>
@@ -127,10 +127,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-3">
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>底部导航栏显示 3 - 5 个导航项。</p>
                       </figcaption>
@@ -140,10 +140,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-4">
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>如果只有 3 个以下的视图需要切换，考虑使用标签进行代替。</p>
                       </figcaption>
@@ -158,10 +158,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-5">
+                      <figcaption id="usage-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>视图固定在底部导航栏中。</p>
                       </figcaption>
@@ -171,10 +171,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-6">
+                      <figcaption id="usage-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在底部导航栏中出现滚动条。</p>
                       </figcaption>
@@ -187,10 +187,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage7.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-7">
+                      <figcaption id="usage-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在底部导航中有 5 个导航项。</p>
                       </figcaption>
@@ -200,17 +200,17 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-8" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage8.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_usage8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-8">
+                      <figcaption id="usage-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>底部导航的导航项数量不要超过 5 个，否则它们之间的间距会过小。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h2-spacing">
                   <div class="module">
                     <h2>底部导航和标签</h2>
                     <p>尽量不要同时使用底部导航和标签，因为同时使用它们可能会导致导航的混乱。例如，两个对应同一内容的底部导航和标签，在点击时，会混合显示不同过渡效果。</p>
@@ -243,7 +243,7 @@
                 <li>当有 <strong>4 个或 5 个</strong>导航项时，在不激活时只显示图标。</li>
               </ul>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>颜色</h1>
                     <p>激活状态的导航项的图标和文本需要使用主色。</p>
@@ -252,10 +252,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style5.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-1">
+                      <figcaption id="style-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用主色来表明激活状态。</p>
                       </figcaption>
@@ -265,10 +265,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style6.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-2">
+                      <figcaption id="style-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用不同颜色的图标和文字。</p>
                       </figcaption>
@@ -283,10 +283,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                        <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style7.png'); ?>"/>
+                        <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-3">
+                      <figcaption id="style-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>如果底部导航栏已有背景色，使用黑色或白色的图标和文本。</p>
                       </figcaption>
@@ -296,10 +296,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style8.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-4">
+                      <figcaption id="style-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在有背景色的底部导航栏上使用其他颜色的图标和文本。</p>
                       </figcaption>
@@ -308,7 +308,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>文本标签</h1>
                     <p>文本标签是对导航项图标的简短说明。这些文本不会被截断或换行，所以应避免使用长文本。</p>
@@ -317,10 +317,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style1.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-5">
+                      <figcaption id="style-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用短文本</p>
                       </figcaption>
@@ -330,10 +330,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style2.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-6">
+                      <figcaption id="style-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用多行文本</p>
                       </figcaption>
@@ -346,10 +346,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style3.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-7">
+                      <figcaption id="style-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免截断文本，因为这样会导致理解困难。</p>
                       </figcaption>
@@ -359,10 +359,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="style-figure-caption-8" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style4.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_style4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="style-figure-caption-8">
+                      <figcaption id="style-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免为了使文本在单行显示而缩小文本。</p>
                       </figcaption>
@@ -385,25 +385,31 @@
           </h2>
           <div class="article-content">
             <div>
+              <p>使用底部导航栏，可以从一个主题的较深层级快速进入另一个主题的顶部。用户在不同层级间切换时，应使底部导航栏始终显示、或者在滚动时显示或隐藏，来使底部导航栏始终可用。</p>
+              <p>底部导航栏不能用于：</p>
+              <ul class="lst-kix_di7sjnes8zda-0 start">
+                <li>侧重于单个任务的视图，例如电子邮件的“撰写”界面</li>
+                <li>包含用户首选项或设置的视图</li>
+              </ul>
+              <p>在 Android 上，不能通过点击后退按钮来切换底部的导航项。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
-                    <p>点击底部导航的图标将直接进入相应视图，或刷新当前激活的视图。</p>
-                    <p>每一个底部导航的图标都必须指向一个目标视图，不能打开菜单或跳转到其他窗口。</p>
-                    <p>在 Android 上，点击后退按钮不能在不同的底部导航项之间切换。</p>
+                    <h1>底部导航图标</h1>
+                    <p>点击底部导航的图标将直接进入相应视图，或刷新当前激活的视图。每个图标都必须指向一个目标视图，不能打开菜单或对话框。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_backtotop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-1">
+                      <figcaption id="behavior-figure-caption-0">
                         <p>点击当前激活的底部导航项，将跳转到对应视图的顶部。</p>
                       </figcaption>
                     </figure>
@@ -411,22 +417,23 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_wipestack.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-2">
+                      <figcaption id="behavior-figure-caption-1">
                         <p>在不同的底部导航项之间切换时，对应的视图会被刷新。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
+                    <h1>滚动</h1>
                     <p>底部导航栏会随着界面的滚动而显示或隐藏：</p>
                     <ul class="lst-kix_2nqrf2xs0bt2-0 start">
                       <li>向下滚动时隐藏底部导航栏</li>
@@ -436,15 +443,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_scroll.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-3">
+                      <figcaption id="behavior-figure-caption-2">
                         <p>底部导航栏可以自动隐藏和显示，以带给用户沉浸式的浏览体验。</p>
                       </figcaption>
                     </figure>
@@ -452,15 +459,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_hierarchy.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-4">
+                      <figcaption id="behavior-figure-caption-3">
                         <p>在应用的层次级页面之间切换时，底部导航栏应保持可见。</p>
                       </figcaption>
                     </figure>
@@ -473,15 +480,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_crossfade.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-5">
+                      <figcaption id="behavior-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在不同视图中切换时使用淡入淡出的过渡效果。</p>
                       </figcaption>
@@ -490,15 +497,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_behavior_sibling.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-6">
+                      <figcaption id="behavior-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免使用横向滑动来切换视图。</p>
                       </figcaption>
@@ -522,7 +529,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module"><h1>固定状态的底部导航栏</h1>
                     <p>用底部导航栏的宽度除以导航项的个数，就是每个导航项的宽度：</p>
                     <p>导航项的宽度 = 导航栏宽度 / 导航项数量</p>
@@ -534,10 +541,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>移动设备上，固定状态的底部导航栏</p>
                       </figcaption>
                     </figure>
@@ -545,15 +552,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 83.3333333333%">
-                          <video aria-describedby="specs-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 83.3333333333%">
+                          <video aria-describedby="specs-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixedbottomnav.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-2">
+                      <figcaption id="specs-figure-caption-1">
                         <p>移动设备上，固定状态的底部导航栏</p>
                       </figcaption>
                     </figure>
@@ -585,20 +592,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed2.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3">
+                      <figcaption id="specs-figure-caption-2">
                         <p>最小宽度 80dp<br>内边距 12dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-4">
+                      <figcaption id="specs-figure-caption-3">
                         <p>高度 56dp<br>
                           文本的左右内边距 12dp<br>
                           文本下方内边距 10dp</p>
@@ -609,10 +616,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-5">
+                      <figcaption id="specs-figure-caption-4">
                         <p>最大宽度 168dp<br>
                           内边距 12dp</p>
                       </figcaption>
@@ -620,10 +627,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed5.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-6">
+                      <figcaption id="specs-figure-caption-5">
                         <p>底部导航栏示例</p>
                       </figcaption>
                     </figure>
@@ -637,10 +644,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed6.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-7">
+                      <figcaption id="specs-figure-caption-6">
                         <p>大屏幕移动设备上，固定状态的底部导航栏。</p>
                         <p>高度 56dp<br>
                           图标大小 24 x 24dp<br>
@@ -657,10 +664,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed7.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_fixed7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-8">
+                      <figcaption id="specs-figure-caption-7">
                         <p>平板设备上，固定状态的底部导航栏<br>
                           高度 56dp<br>
                           图标大小 24 x 24dp<br>
@@ -673,7 +680,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>可切换的底部导航栏</h1>
                     <p>最小宽度和最大宽度（包含内边距）：</p>
@@ -705,10 +712,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-9">
+                      <figcaption id="specs-figure-caption-8">
                         <p>移动设备上，可切换的底部导航栏<br>
                           高度 56dp<br>
                           图标大小 24 x 24dp<br>
@@ -722,15 +729,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }"  style="padding-top: 83.3333333333%">
-                          <video aria-describedby="specs-figure-caption-10" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button"  style="padding-top: 83.3333333333%">
+                          <video aria-describedby="specs-figure-caption-9" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shiftingbottomnav.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-10">
+                      <figcaption id="specs-figure-caption-9">
                         <p>移动设备上，可切换的底部导航栏</p>
                       </figcaption>
                     </figure>
@@ -742,30 +749,30 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting2.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-11">
+                      <figcaption id="specs-figure-caption-10">
                         <p>激活状态：最小宽度 96dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-12">
+                      <figcaption id="specs-figure-caption-11">
                         <p>不激活状态：最小宽度 56dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting6-.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting6-.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-13">
+                      <figcaption id="specs-figure-caption-12">
                         <p>激活的导航项上的文本标签可以使用最大宽度。</p>
                       </figcaption>
                     </figure>
@@ -774,30 +781,30 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-14">
+                      <figcaption id="specs-figure-caption-13">
                         <p>激活状态：最大宽度 168dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 43.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting5.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-15">
+                      <figcaption id="specs-figure-caption-14">
                         <p>不激活状态：最大宽度 96dp</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting7.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-16">
+                      <figcaption id="specs-figure-caption-15">
                         <p>激活的导航项上的文本标签可以使用最大宽度。</p>
                       </figcaption>
                     </figure>
@@ -811,10 +818,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting8.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-17">
+                      <figcaption id="specs-figure-caption-16">
                         <p>大屏移动设备上的可切换底部导航栏<br>
                           高度 56dp<br>
                           图标大小 24 x 24dp<br>
@@ -832,10 +839,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting9.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_shifting9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-18">
+                      <figcaption id="specs-figure-caption-17">
                         <p>在平板上的可切换底部导航栏<br>
                           高度 56dp<br>
                           图标大小 24 x 24dp<br>
@@ -849,7 +856,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>层级</h1>
                     <p>因为 Snackbar 的层级高度为 6dp，而底部导航栏的层级高度为 8dp，所以 Snackbar 会显示在底部导航栏的后面。</p>
@@ -859,10 +866,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-19" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-19">
+                      <figcaption id="specs-figure-caption-18">
                         <p>Snackbar 在底部导航栏后面。</p>
                       </figcaption>
                     </figure>
@@ -870,15 +877,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 110.0%">
-                          <video aria-describedby="specs-figure-caption-20" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 110.0%">
+                          <video aria-describedby="specs-figure-caption-19" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-20">
+                      <figcaption id="specs-figure-caption-19">
                         <p>Bottom sheets 和 keyboards 在底部导航栏前面，完全覆盖住底部导航栏。</p>
                       </figcaption>
                     </figure>
@@ -892,10 +899,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 65.7894736842%">
-                          <img alt="" aria-describedby="specs-figure-caption-21" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation3-.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-20" src="<?php static_url('../static/media/components/bottom-navigation/components_bottomnavigation_spec_elevation3-.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-21">
+                      <figcaption id="specs-figure-caption-20">
                         <p>应用结构的正交视图。</p>
                       </figcaption>
                     </figure>

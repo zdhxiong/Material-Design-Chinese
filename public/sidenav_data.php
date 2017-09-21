@@ -102,6 +102,7 @@ return array(
       'navigation-drawer'               =>  '抽屉式导航',
       'navigational-transitions'        =>  '导航转换',
       'notifications'                   =>  '通知',
+      'offline-states'                  =>  '离线状态',
       'permissions'                     =>  '权限',
       'scrolling-techniques'            =>  '滚动技术',
       'search'                          =>  '搜索',
