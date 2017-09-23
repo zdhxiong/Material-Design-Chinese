@@ -10,9 +10,9 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>数据表格显示原始的数据集。它们通常出现在桌面端的企业产品中。</p>
+          <h1>数据表格显示原始的数据集。它们通常出现在桌面端的企业产品中。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>数据表格可以嵌入到其他元素中，例如卡片。它们可以包含：</p>
                 <ul class="lst-kix_apo1zqlnbkhv-0 start">
@@ -22,7 +22,7 @@
                 <p>卡片中的数据表格，可以在顶部和底部显示导航和数据操作工具。</p>
               </div>
               <div class="module">
-                <h3><strong>支持的交互功能</strong></h3>
+                <h3>支持的交互功能</h3>
                 <p>鼠标悬停在行上（桌面端）<br>
                   行选择<br>
                   列排序<br>
@@ -30,7 +30,7 @@
                   长标题<br>
                   文本编辑<br>
                   菜单</p>
-                <h3><strong>相关组件</strong></h3>
+                <h3>相关组件</h3>
                 <p><a href="cards.html">卡片</a></p>
               </div>
               <div class="figure">
@@ -95,10 +95,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 56.5517241379%">
-                          <img alt="" aria-describedby="structure-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_structure_basictable.png'); ?>"/>
+                          <img alt="" aria-describedby="structure-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_structure_basictable.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="structure-figure-caption-1">
+                      <figcaption id="structure-figure-caption-0">
                         <p>基本的数据表格</p>
                         <p><strong>表格内容</strong></p>
                         <p>13sp Roboto Regular<br>
@@ -130,7 +130,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>鼠标悬停在行上（桌面端）</h1>
                     <p>当鼠标悬停在行上时，在该行上显示背景色。如果个别的单元格有特殊的悬停状态，同时显示单元格和行的状态。</p>
@@ -143,10 +143,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_rowhover.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_rowhover.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-1">
+                      <figcaption id="interaction-figure-caption-0">
                         <p>鼠标悬停在行上</p>
                       </figcaption>
                     </figure>
@@ -154,7 +154,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>行选择</h1>
                     <p>当数据行被选中时，在该行上显示一个背景色。</p>
@@ -171,10 +171,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_selectedrow.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_selectedrow.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-2">
+                      <figcaption id="interaction-figure-caption-1">
                         <p>选中的行</p>
                       </figcaption>
                     </figure>
@@ -182,7 +182,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>列排序</h1>
                     <p>如果启用了列排序，默认对最重要的数据进行排序，并在列头部显示已排序的状态。如果用户点击一个已排序的列，则反转排序顺序、并旋转排序图标。</p>
@@ -201,10 +201,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-3" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-3">
+                      <figcaption id="interaction-figure-caption-2">
                         <p>带有正排序的列</p>
                       </figcaption>
                     </figure>
@@ -212,7 +212,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>鼠标悬停状态的列名称（桌面端）</h1>
                     <p>如果要对列标题提供更详细的解释，请在鼠标悬停时显示一个工具提示。如果启用了排序，在鼠标悬停时显示一个排序图标，以表明该列是可以排序的。</p>
@@ -230,10 +230,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="interaction-figure-caption-4" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_tooltip.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-3" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_tooltip.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-4">
+                      <figcaption id="interaction-figure-caption-3">
                         <p>鼠标悬停在列名称上</p>
                       </figcaption>
                     </figure>
@@ -241,33 +241,33 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>较长的表头文本</h1>
                     <p>有时，列之间使用推荐的 56dp 内边距时，列名称在容器中并不合适。有两个办法来处理这种情况：</p>
                     <ol class="lst-kix_hcn9jmdi07bx-0 start" start="1">
-                      <li>显示完整的列名称，并在表格内使用水平滚动。</li>
-                      <li>显示缩短的列名称，并在鼠标悬停时显示完整列名称。</li>
+                      <li>显示完整的列名称，并在表格内使用水平滚动</li>
+                      <li>显示缩短的列名称，并在鼠标悬停时显示完整列名称</li>
                     </ol>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-5" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle1.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-4" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-5">
+                      <figcaption id="interaction-figure-caption-4">
                         <p>对太长的列名称进行截断，并用省略号代替</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-6" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-5" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-6">
+                      <figcaption id="interaction-figure-caption-5">
                         <p>鼠标悬停在截断的列名称上</p>
                       </figcaption>
                     </figure>
@@ -275,7 +275,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>单元格文本编辑</h1>
                     <p>表格可能需要基本的文本编辑功能（例如，编辑已有的文本内容，或添加评论）。在表格中包含可编辑字段，并通过占位符文本进行提示。可以在点击时显示一个只含文本框的小型编辑框，或者显示一个完整的对话框组件。</p>
@@ -286,17 +286,20 @@
                       <li>文本框中没有分隔线</li>
                     </ul>
                   </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 37.1052631579%">
-                          <img alt="" aria-describedby="interaction-figure-caption-7" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing1.png'); ?>"/>
+                  <div class="module">
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1520px">
+                          <div class="frame " style="padding-top: 37.1052631579%">
+                            <img alt="" aria-describedby="interaction-figure-caption-6" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing1.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="interaction-figure-caption-7"><br>
-                      </figcaption>
-                    </figure>
-                    一个含占位符的可编辑单元格
+                        <figcaption id="interaction-figure-caption-6">
+                          <p>一个含占位符的可编辑单元格</p>
+                        </figcaption>
+                      </figure>
+                      <br>
+                    </p>
                   </div>
                 </section>
                 <section class="module-figure col-2">
@@ -313,10 +316,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="interaction-figure-caption-8" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-7" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-8">
+                      <figcaption id="interaction-figure-caption-7">
                         <p>一个简单的、含单个文本框的编辑框</p>
                       </figcaption>
                     </figure>
@@ -335,10 +338,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.1842105263%">
-                          <img alt="" aria-describedby="interaction-figure-caption-9" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing3.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-8" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-9">
+                      <figcaption id="interaction-figure-caption-8">
                         <p>一个复杂、灵活的编辑框</p>
                       </figcaption>
                     </figure>
@@ -356,10 +359,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 35.0%">
-                          <img alt="" aria-describedby="interaction-figure-caption-10" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing4.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-9" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-10">
+                      <figcaption id="interaction-figure-caption-9">
                         <p>（可选）使用图标进行编辑提示。在单元格的内容的反方向使用图标。</p>
                       </figcaption>
                     </figure>
@@ -367,7 +370,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>单元格内的菜单</h1>
                     <p>除了编辑文本，用户可能还需要从下拉菜单中选择选项，在这种情况下，可以将菜单组件直接嵌入到表格中。</p>
@@ -382,20 +385,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.1842105263%">
-                          <img alt="" aria-describedby="interaction-figure-caption-11" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-10" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-11">
+                      <figcaption id="interaction-figure-caption-10">
                         <p>含菜单的表格</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.3157894737%">
-                          <img alt="" aria-describedby="interaction-figure-caption-12" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-11" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="interaction-figure-caption-12">
+                      <figcaption id="interaction-figure-caption-11">
                         <p>一个打开了菜单的表格</p>
                       </figcaption>
                     </figure>
@@ -428,10 +431,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 66.2068965517%">
-                          <img alt="" aria-describedby="tables-within-cards-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_tablecard.png'); ?>"/>
+                          <img alt="" aria-describedby="tables-within-cards-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_tablecard.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="tables-within-cards-figure-caption-1">
+                      <figcaption id="tables-within-cards-figure-caption-0">
                         <p>具有头部和底部的表格卡片</p>
                         <p><strong>卡片标题</strong></p>
                         <p>20sp Roboto Regular<br>
@@ -448,7 +451,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="figure col-1">
+                <section class="figure col-1 h1-spacing">
                   <div class="figure">
                     <h1>替换头部</h1>
                     <p>有些表格卡片可能需要带有操作的头部，而不需要带标题的头部。这种情况下，你可以：</p>
@@ -459,10 +462,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 45.4310344828%">
-                          <img alt="" aria-describedby="tables-within-cards-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_altheaders.png'); ?>"/>
+                          <img alt="" aria-describedby="tables-within-cards-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_altheaders.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="tables-within-cards-figure-caption-2">
+                      <figcaption id="tables-within-cards-figure-caption-1">
                         <p>表格卡片中的替换头部</p>
                         <p><strong>操作按钮</strong></p>
                         <p>使用无边框的按钮<br>
@@ -492,16 +495,16 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="figure col-1">
+                <section class="figure col-1 h1-spacing">
                   <div class="figure">
                     <h1>垂直间距</h1>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 40.9482758621%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_verticalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_verticalspacing.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>数据表格卡片的垂直间距以及它的最后一行</p>
                       </figcaption>
                     </figure>
@@ -518,16 +521,16 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="figure col-1">
+                <section class="figure col-1 h1-spacing">
                   <div class="figure">
                     <h1>头部和底部内边距</h1>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 40.5172413793%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-2">
+                      <figcaption id="specs-figure-caption-1">
                         <p>表格卡片中元素之间的水平间距</p>
                       </figcaption>
                     </figure>
@@ -544,16 +547,16 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="figure col-1">
+                <section class="figure col-1 h1-spacing">
                   <div class="figure">
                     <h1>列的内边距</h1>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 56.5517241379%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3">
+                      <figcaption id="specs-figure-caption-2">
                         <p>列之间的内边距</p>
                       </figcaption>
                     </figure>
