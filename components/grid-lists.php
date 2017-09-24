@@ -9,22 +9,23 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><p>网格列表是一个标准列表的替代方案。</p>
+        <div>
+          <h1>网格列表是一个标准列表的替代方案。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>网格列表是由一组重复样式的单元格以垂直和水平方式进行排列组成的。</p>
                 <p>网格列表最适合用于相似的数据类型。这有助于增强对它所包含的内容的视觉理解。</p>
               </div>
               <div class="module">
-                <h3><strong>类型</strong></h3>
+                <h3>类型</h3>
                 <p>只含图片<br>
                   单行文本（或含图标）<br>
                   两行文本（或含图标）</p>
-                <h3><strong>操作</strong></h3>
+                <h3>操作</h3>
                 <p>垂直滚动<br>
                   过滤</p>
-                <h3><strong>替代方案</strong></h3>
+                <h3>替代方案</h3>
                 <p><a href="lists.html">列表</a><br>
                   <a href="cards.html">卡片</a></p>
               </div>
@@ -82,10 +83,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 98.0555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>网格列表示例</p>
                       </figcaption>
                     </figure>
@@ -103,10 +104,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p>网格列表示例</p>
                       </figcaption>
                     </figure>
@@ -115,10 +116,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_usage3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-3">
+                      <figcaption id="usage-figure-caption-2">
                         <p>单元格和瓦片示例</p>
                       </figcaption>
                     </figure>
@@ -144,7 +145,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>瓦片中的内容</h1>
                     <p>瓦片的内容由主内容和副内容组成。主内容是最容易分辨的元素，通常是图片。副内容可以是操作或文本。</p>
@@ -154,10 +155,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 206.666666667%">
-                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_content1.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-0" src="<?php static_url('../static/media/components/grid-lists/components_grids_content1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-1">
+                      <figcaption id="content-figure-caption-0">
                         <p>包含主内容和副操作的瓦片内容示例</p>
                       </figcaption>
                     </figure>
@@ -166,17 +167,17 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>瓦片中的操作</h1>
                     <p>主内容和副内容中的操作（例如播放、放大、删除或选择）都是即时生效的，并且通常不会在网格列表中弹出子菜单。</p>
                     <p>操作可以打开一个后续视图，例如卡片。</p>
-                    <h2><strong>主操作</strong></h2>
+                    <h2>主操作</h2>
                     <ul class="lst-kix_xefhha8lrhq7-0 start">
                       <li>充满整个瓦片，因此不通过图标或文本来展现。</li>
                       <li>在特定网格列表的所有瓦片中都保持一致。例如一个网格列表中的所有瓦片的主要操作都是查看图片的详细信息。</li>
                     </ul>
-                    <h2><strong>副操作或内容</strong></h2>
+                    <h2>副操作或内容</h2>
                     <ul class="lst-kix_xzaw6cp8x2bi-0 start">
                       <li>在瓦片中以图标或文本的形式展现。</li>
                       <li>在特定网格列表的所有瓦片中都保持一致。</li>
@@ -187,10 +188,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 206.666666667%">
-                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_content2.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_content2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-2">
+                      <figcaption id="content-figure-caption-1">
                         <p>副操作的操作和文本的位置示例</p>
                       </figcaption>
                     </figure>
@@ -214,7 +215,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>滚动</h1>
                     <p>网格列表通常只能垂直滚动。</p>
@@ -225,10 +226,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 98.0555555556%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior1.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-1">
+                      <figcaption id="behavior-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>通过切断网格瓦片来表明网格列表的内容超出了视图。</p>
                       </figcaption>
@@ -238,10 +239,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 98.0555555556%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_behavior2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-2">
+                      <figcaption id="behavior-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在视图的初始滚动位置把网格瓦片和视图边缘对齐。这种情况不能有效的表达列表中还有更多的内容。</p>
                       </figcaption>
@@ -277,53 +278,59 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>网格列表头部/底部</h1>
-                    <h2><strong>单行头部/底部</strong></h2>
+                    <h2>单行头部/底部</h2>
                     <p>高度：48dp<br>
                       文本内边距：16dp<br>
                       默认字体大小：16sp<br>
                       副操作与页脚右对齐。</p>
-                    <h2><strong>两行头部/底部</strong></h2>
+                    <h2>两行头部/底部</h2>
                     <p>高度：68dp<br>
                       文本内边距：16dp<br>
                       每行的默认字体大小：16sp/12sp 或 14sp/14sp</p>
                   </div>
                   <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 89.4736842105%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs1.png'); ?>"/>
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1520px">
+                          <div class="frame " style="padding-top: 89.4736842105%">
+                            <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs1.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="specs-figure-caption-1"><br>
-                        <p>字体大小 14/14 <br>
-                          两行文本（含图标）高度：68dp<br>
-                          两行文本高度：68dp<br>
-                          单行文本高度：48dp</p>
-                      </figcaption>
-                    </figure>
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 89.4736842105%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs2.png'); ?>"/>
+                        <figcaption id="specs-figure-caption-0"><br>
+                          <p>字体大小 14/14 <br>
+                            两行文本（含图标）高度：68dp<br>
+                            两行文本高度：68dp<br>
+                            单行文本高度：48dp</p>
+                        </figcaption>
+                      </figure>
+                      <br/>
+                    </p>
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1520px">
+                          <div class="frame " style="padding-top: 89.4736842105%">
+                            <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs2.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="specs-figure-caption-2"><br>
-                        <p>字体大小 16/12 <br>
-                          两行文本（含图标）高度：68dp<br>
-                          两行文本高度：68dp<br>
-                          单行文本高度：48dp</p>
-                      </figcaption>
-                    </figure>
+                        <figcaption id="specs-figure-caption-1"><br>
+                          <p>字体大小 16/12 <br>
+                            两行文本（含图标）高度：68dp<br>
+                            两行文本高度：68dp<br>
+                            单行文本高度：48dp</p>
+                        </figcaption>
+                      </figure>
+                      <br/>
+                    </p>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 33.9473684211%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs22.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs22.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3">
+                      <figcaption id="specs-figure-caption-2">
                         <p>头部/底部中的文本截断。</p>
                       </figcaption>
                     </figure>
@@ -331,7 +338,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>仅含图片的网格列表</h1>
                     <p>网格列表的间距：4dp 或 1dp</p>
@@ -342,10 +349,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-4">
+                      <figcaption id="specs-figure-caption-3">
                         <p>仅含图片的网格列表</p>
                       </figcaption>
                     </figure>
@@ -354,10 +361,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-5">
+                      <figcaption id="specs-figure-caption-4">
                         <p>仅含图片的网格列表相册</p>
                       </figcaption>
                     </figure>
@@ -365,10 +372,10 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>单行网格列表</h1>
-                    <h2><strong>仅文本</strong></h2>
+                    <h2>仅文本</h2>
                     <p>高度：48dp<br>
                       文本内边距：16dp<br>
                       默认字体大小：16sp<br>
@@ -378,20 +385,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs5.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="specs-figure-caption-5">
                         <p>单行网格列表底部含 16dp 的内边距</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs7.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-7">
+                      <figcaption id="specs-figure-caption-6">
                         <p>单行网格列表头部含 16dp 的内边距</p>
                       </figcaption>
                     </figure>
@@ -400,10 +407,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs6.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-8">
+                      <figcaption id="specs-figure-caption-7">
                         <p>单行网格列表相册</p>
                       </figcaption>
                     </figure>
@@ -411,9 +418,9 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>含图标的文本</strong></h2>
+                    <h2>含图标的文本</h2>
                     <p>高度：48dp<br>
                       文本内边距：16dp<br>
                       默认字体大小：16sp<br>
@@ -424,30 +431,30 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs8.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-9">
+                      <figcaption id="specs-figure-caption-8">
                         <p>底部含 16dp 的内边距和图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs10.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs10.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-10">
+                      <figcaption id="specs-figure-caption-9">
                         <p>头部含 16dp 的内边距和图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs12.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs12.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-11">
+                      <figcaption id="specs-figure-caption-10">
                         <p>底部含图标单行网格列表相册</p>
                       </figcaption>
                     </figure>
@@ -456,20 +463,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs9.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-12">
+                      <figcaption id="specs-figure-caption-11">
                         <p>底部含图标的单行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs11.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs11.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-13">
+                      <figcaption id="specs-figure-caption-12">
                         <p>头部含图标的单行网格列表</p>
                       </figcaption>
                     </figure>
@@ -477,10 +484,10 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>两行网格列表</h1>
-                    <h2><strong>仅文本</strong></h2>
+                    <h2>仅文本</h2>
                     <p>高度：68dp<br>
                       文本内边距：16dp<br>
                       每一行的默认字体大小：16sp/12sp 或 14sp/14sp<br>
@@ -490,20 +497,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs13.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-13" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs13.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-14">
+                      <figcaption id="specs-figure-caption-13">
                         <p>底部含 16dp 内边距的两行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs15.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-14" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs15.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-15">
+                      <figcaption id="specs-figure-caption-14">
                         <p>两行网格列表，4dp 间距示例</p>
                       </figcaption>
                     </figure>
@@ -512,20 +519,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs14.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-15" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs14.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-16">
+                      <figcaption id="specs-figure-caption-15">
                         <p>头部含 16dp 内边距的两行网格列表</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs16.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-16" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs16.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-17">
+                      <figcaption id="specs-figure-caption-16">
                         <p>两行网格列表，1dp 间距示例</p>
                       </figcaption>
                     </figure>
@@ -533,9 +540,9 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>含图标的文本</strong></h2>
+                    <h2>含图标的文本</h2>
                     <p>高度：68dp<br>
                       文本内边距：16dp<br>
                       每一行的默认字体大小：16sp/12sp 或 14sp/14sp</p>
@@ -546,10 +553,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.0555555556%">
-                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs17.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-17" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs17.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-18">
+                      <figcaption id="specs-figure-caption-17">
                         <p>底部含两行文本和图标</p>
                         <p>文本内边距：16dp</p>
                       </figcaption>
@@ -557,10 +564,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-19" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs19.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-18" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs19.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-19">
+                      <figcaption id="specs-figure-caption-18">
                         <p>头部含两行文本和图标</p>
                         <p>文本内边距：16dp</p>
                       </figcaption>
@@ -568,10 +575,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-20" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs21.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-19" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs21.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-20">
+                      <figcaption id="specs-figure-caption-19">
                         <p>含图标的文本示例</p>
                       </figcaption>
                     </figure>
@@ -580,20 +587,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-21" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs18.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-20" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs18.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-21">
+                      <figcaption id="specs-figure-caption-20">
                         <p>含图标的两行文本示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 68.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-22" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs20.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-21" src="<?php static_url('../static/media/components/grid-lists/components_grids_specs20.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-22">
+                      <figcaption id="specs-figure-caption-21">
                         <p>含图标的两行文本示例</p>
                       </figcaption>
                     </figure>
