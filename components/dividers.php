@@ -10,9 +10,9 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>分隔线是一个细长、轻量的元素，用于对列表和页面布局中的内容进行分组。</p>
+          <h1>分隔线是一个细长、轻量的元素，用于对列表和页面布局中的内容进行分组。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>分隔线把页面内容和层次结构组织成单独的块。</p>
                 <p>全出血分隔线强调了需要更多视觉分隔的独立的内容区域。全出血分隔线的替代方案包括空白、副标题、或内嵌分隔线。</p>
@@ -83,19 +83,19 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>没有锚点的项目</strong></h2>
+                    <h2>没有锚点的项目</h2>
                     <p>当列表没有锚元素（如头像或图标）时，仅通过间距不足以分隔内容块。在这种情况下，全出血分隔线可以帮助创建一种规律来分隔单独的内容块。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_usage1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_usage1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>全出血分隔线分隔邮件的摘要。</p>
                         <p></p>
                       </figcaption>
@@ -105,10 +105,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_usage2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_usage2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p>全出血分隔线分隔邮件中的发件人、收件人、主题和正文部分。</p>
                       </figcaption>
                     </figure>
@@ -116,7 +116,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
                     <h2><strong>基于图片的内容</strong></h2>
                     <p>因为网格本身会创造视觉差异，网格列表不需要使用分隔线来从内容中分离副标题。在这种情况下，空白和副标题会充分的分隔这些部分。</p>
@@ -125,10 +125,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_usage3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_usage3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-3">
+                      <figcaption id="usage-figure-caption-2">
                         <p>空白和副标题分隔了这些照片。</p>
                       </figcaption>
                     </figure>
@@ -143,10 +143,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_usage6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_usage6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-4">
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>合理的使用内嵌分隔线分隔内容的主要部分。</p>
                       </figcaption>
@@ -156,10 +156,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_type1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_type1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-5">
+                      <figcaption id="usage-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>同时使用内嵌分隔线和锚元素（如头像）。</p>
                       </figcaption>
@@ -172,10 +172,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/dividers/components_dividers_usage4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_usage4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-6">
+                      <figcaption id="usage-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>过度使用全出血分隔线会造成视觉干扰，并最终减弱分隔线的作用。</p>
                       </figcaption>
@@ -185,10 +185,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/dividers/components_dividers_usage5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/dividers/components_dividers_usage5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-7">
+                      <figcaption id="usage-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>内嵌型分隔线有助于减少视觉干扰，应该和锚元素一起使用，但过度使用会减弱分隔线的作用。</p>
                       </figcaption>
@@ -212,7 +212,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>全出血分隔线</h1>
                     <p>全出血分隔线可以用于分隔明显不同的内容（例如：联系人信息中的详细介绍），或列表和页面布局中不同的元素（如列表项）。</p>
@@ -221,10 +221,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_fullbleed1.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_fullbleed1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-1">
+                      <figcaption id="types-of-dividers-figure-caption-0">
                         <p>全出血分隔线示例</p>
                       </figcaption>
                     </figure>
@@ -233,10 +233,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_type2.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_type2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-2">
+                      <figcaption id="types-of-dividers-figure-caption-1">
                         <p>全出血分隔线示例</p>
                       </figcaption>
                     </figure>
@@ -244,7 +244,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>内嵌型分隔线</h1>
                     <p>内嵌型分隔线用于分隔相关的内容，例如联系人列表中的一部分，或邮件中的对话。</p>
@@ -254,10 +254,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_type3.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_type3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-3">
+                      <figcaption id="types-of-dividers-figure-caption-2">
                         <p>内嵌型分隔线示例</p>
                       </figcaption>
                     </figure>
@@ -266,10 +266,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_type4.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_type4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-4">
+                      <figcaption id="types-of-dividers-figure-caption-3">
                         <p>内嵌型分隔线示例</p>
                       </figcaption>
                     </figure>
@@ -277,7 +277,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>副标题和分隔线</h1>
                     <p>当分隔线和副标题一起使用时，把分隔线放在副标题上方，以加强副标题和内容的联系。</p>
@@ -286,10 +286,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_type5.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_type5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-5">
+                      <figcaption id="types-of-dividers-figure-caption-4">
                         <p>副标题上的分隔线示例</p>
                       </figcaption>
                     </figure>
@@ -298,10 +298,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-6" src="<?php static_url('../static/media/components/dividers/components_dividers_type6.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_type6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-dividers-figure-caption-6">
+                      <figcaption id="types-of-dividers-figure-caption-5">
                         <p>副标题上的分割线示例</p>
                       </figcaption>
                     </figure>
@@ -333,10 +333,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_specs.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_specs.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>分隔线位于内容块的基线内。</p>
                       </figcaption>
                     </figure>
