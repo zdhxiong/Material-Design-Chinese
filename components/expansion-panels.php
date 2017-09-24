@@ -10,9 +10,9 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>扩展面板的功能包括创建流程、进行简单的编辑。</p>
+          <h1>扩展面板的功能包括创建流程、进行简单的编辑。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module"><p>扩展面板是一个轻量级的容器，可以单独存在，也可以连接到一个更大的平面上，比如卡片。</p>
                 <p>它可以用于不同的任务，例如：</p>
                 <ul class="lst-kix_nmfkwyszolh9-0 start">
@@ -21,10 +21,10 @@
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>用法</strong></h3>
+                <h3>用法</h3>
                 <p>编辑<br>
                   创建流程</p>
-                <h3><strong>行为</strong></h3>
+                <h3>行为</h3>
                 <p>展开<br>
                   折叠<br>
                   聚焦</p>
@@ -86,33 +86,33 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>各种扩展面板</p>
-                        <table class="s-tag-table">
-                          <tbody>
-                          <tr>
-                            <td colspan="1" rowspan="1"><p><strong>列表内容</strong></p>
-                              <p>15sp Roboto Regular<br>
-                                87% black</p>
-                              <p><strong>副内容</strong></p>
-                              <p>12sp Roboto Regular<br>
-                                54% black</p></td>
-                            <td colspan="1" rowspan="1">
-                              <p><strong>分隔线</strong></p>
-                              <p>1dp border<br>
-                                12% black</p>
-                              <p><strong>扩展图标</strong></p>
-                              <p>24dp x 24dp<br>
-                                38% black</p>
-                            </td>
-                          </tr>
-                          </tbody>
-                        </table>
                       </figcaption>
                     </figure>
+                    <table class="s-tag-table">
+                      <tbody>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p><strong>列表内容</strong></p>
+                          <p>15sp Roboto Regular<br>
+                            87% black</p>
+                          <p><strong>副内容</strong></p>
+                          <p>12sp Roboto Regular<br>
+                            54% black</p></td>
+                        <td colspan="1" rowspan="1">
+                          <p><strong>分隔线</strong></p>
+                          <p>1dp border<br>
+                            12% black</p>
+                          <p><strong>扩展图标</strong></p>
+                          <p>24dp x 24dp<br>
+                            38% black</p>
+                        </td>
+                      </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </section>
               </div>
@@ -132,7 +132,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>折叠的面板</h1>
                     <p>折叠的面板只显示摘要信息。选择一个折叠的面板后，它会展开以显示完整的扩展面板。</p>
@@ -141,10 +141,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.2368421053%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-1">
+                      <figcaption id="behavior-figure-caption-0">
                         <p>折叠的面板示例</p>
                       </figcaption>
                     </figure>
@@ -152,7 +152,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>展开的面板</h1>
                     <p>折叠的面板被选择后会展开，允许用户添加或编辑信息。</p>
@@ -162,10 +162,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 58.8157894737%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-2">
+                      <figcaption id="behavior-figure-caption-1">
                         <p>展开的面板示例</p>
                       </figcaption>
                     </figure>
@@ -173,7 +173,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>聚焦状态</h1>
                     <p>扩展面板可以使用聚焦状态（在列表项上添加灰色背景）来为单个列表项提供焦点。</p>
@@ -183,10 +183,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.2368421053%">
-                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-3">
+                      <figcaption id="behavior-figure-caption-2">
                         <p><strong>背景色</strong></p>
                         <p>Grey 200</p>
                         <p><strong>鼠标悬浮和按下时的扩展图标</strong></p>
