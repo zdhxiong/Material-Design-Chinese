@@ -9,20 +9,21 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><p>步进器通过对步骤进行编号以表达进展。</p>
+        <div>
+          <h1>步进器通过对步骤进行编号以表达进展。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>步进器通过按顺序进行的逻辑步骤和对步骤进行编号来显示进度。它们也可以用于导航。</p>
                 <p>步进器可以在保存一步操作后显示短暂的反馈信息。</p>
               </div>
               <div class="module">
-                <h3><strong>步骤类型</strong></h3>
+                <h3>步骤类型</h3>
                 <p>可编辑<br>
                   不可编辑<br>
                   移动端<br>
                   可选</p>
-                <h3><strong>步进器类型</strong></h3>
+                <h3>步进器类型</h3>
                 <p>水平<br>
                   垂直<br>
                   线性<br>
@@ -82,10 +83,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 77.8947368421%">
-                          <img aria-describedby="usage-figure-caption-1" alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep.png'); ?>"/>
+                          <img aria-describedby="usage-figure-caption-0" alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>步进器适用于一个步骤后面紧跟着另一个步骤的情况。</p>
                       </figcaption>
                     </figure>
@@ -139,10 +140,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 89.4736842105%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_avoid.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_avoid.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在步进器中嵌套步进器，或者在一个页面中使用多个步进器。</p>
                       </figcaption>
@@ -166,27 +167,27 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>可编辑步骤</strong></strong></h2>
+                    <h2>可编辑步骤</h2>
                     <p>可编辑步骤允许用户在稍后返回到之前的步骤重新编辑。最适合用于需要在同一个会话中编辑步骤的情况。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 18.8157894737%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_editable.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_editable.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-1">
+                      <figcaption id="types-of-steps-figure-caption-0">
                         <p>可编辑步骤可以在同一个会话中进行编辑。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong>不可编辑步骤</strong></h2>
+                    <h2>不可编辑步骤</h2>
                     <p>不可编辑步骤适用于：</p>
                     <ul class="lst-kix_psvkwd8f6atv-0 start">
                       <li>不允许用户在之后返回到前面的步骤进行编辑</li>
@@ -197,10 +198,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 18.8157894737%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_noneditable.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_noneditable.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-2">
+                      <figcaption id="types-of-steps-figure-caption-1">
                         <p>不可编辑步骤一旦完成后就不允许修改。</p>
                       </figcaption>
                     </figure>
@@ -208,18 +209,18 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>移动端步骤</strong></strong></h2>
+                    <h2>移动端步骤</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbltypog.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbltypog.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-3">
+                      <figcaption id="types-of-steps-figure-caption-2">
                         <p><strong>移动端步骤的文本</strong></p>
                         <p>步骤以文本的形式显示在顶部</p>
                       </figcaption>
@@ -229,10 +230,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbldots.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbldots.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-4">
+                      <figcaption id="types-of-steps-figure-caption-3">
                         <p><strong>移动端步骤点</strong></p>
                         <p>当步骤数量不大时使用点。</p>
                       </figcaption>
@@ -245,10 +246,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-5">
+                      <figcaption id="types-of-steps-figure-caption-4">
                         <p><strong>移动端步骤进度条</strong></p>
                         <p>如果有很多步骤，或者在过程中需要插入一些步骤（基于对前一个步骤的响应），请使用进度条。</p>
                       </figcaption>
@@ -258,27 +259,27 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>可选步骤</strong></strong></h2>
+                    <h2>可选步骤</h2>
                     <p>线性流中的可选步骤应标记为可选。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstps.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstps.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steps-figure-caption-6">
+                      <figcaption id="types-of-steps-figure-caption-5">
                         <p>线性流中的可选步骤标记为可选。</p>
                         <p><strong>可选步骤</strong></p>
-                        <ul class="lst-kix_n1qevcx668i1-0 start">
-                          <li>12sp Roboto Regular</li>
-                          <li>54% 黑色</li>
-                        </ul>
                       </figcaption>
                     </figure>
+                    <ul class="lst-kix_n1qevcx668i1-0 start">
+                      <li>12sp Roboto Regular</li>
+                      <li>54% 黑色</li>
+                    </ul>
                   </div>
                 </section>
               </div>
@@ -298,7 +299,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module"><h1>水平步进器</h1>
                     <p>当一个步骤的内容取决于前一个步骤时，适合使用水平步进器。</p>
                     <p>避免在水平步进器中使用较长的步骤名。</p></div>
@@ -306,10 +307,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_horizstep.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_horizstep.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-1">
+                      <figcaption id="types-of-steppers-figure-caption-0">
                         <p>在水平步进器上，步骤名称和数值显示在水平条上，在页面向下滚动时，可以将其固定在页面顶部。</p>
                       </figcaption>
                     </figure>
@@ -317,7 +318,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>垂直步进器</h1>
                     <p>垂直步进器是为窄屏幕设计的。适合用于移动端。</p>
@@ -326,10 +327,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblvertinpg.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblvertinpg.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-2">
+                      <figcaption id="types-of-steppers-figure-caption-1">
                         <p>垂直步进器可以在移动端使用。只需确保每个步骤的内容是响应式的。</p>
                       </figcaption>
                     </figure>
@@ -338,7 +339,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>线性步进器</h1>
                     <p>线性步进器需要用户完成一个步骤后才能移动到下一步。</p>
@@ -347,16 +348,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.4736842105%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_linear.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_linear.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-3">
+                      <figcaption id="types-of-steppers-figure-caption-2">
                         <p>每一个线性步骤都必须完成后才能继续下一个步骤。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>非线性步进器</h1>
                     <p>非线性步进器允许用户直接跳到任意一个步骤。</p>
@@ -365,30 +366,30 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.4736842105%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_nonlinear.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_nonlinear.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-4">
+                      <figcaption id="types-of-steppers-figure-caption-3">
                         <p>非线性步进器可以以任意顺序完成。</p>
                         <p><strong>未激活的步进圈</strong></p>
-                        <ul class="lst-kix_j3o0stqjcpw-0 start">
-                          <li>24dp x 24dp</li>
-                          <li>12sp Roboto Regular</li>
-                          <li>文本 100% 白色</li>
-                          <li>38% 黑色</li>
-                        </ul>
-                        <p><strong>未激活的步骤</strong></p>
-                        <ul class="lst-kix_weogx73pm4gg-0 start">
-                          <li>14sp Roboto Regular</li>
-                          <li>54% 黑色</li>
-                        </ul>
                       </figcaption>
                     </figure>
+                    <ul class="lst-kix_j3o0stqjcpw-0 start">
+                      <li>24dp x 24dp</li>
+                      <li>12sp Roboto Regular</li>
+                      <li>文本 100% 白色</li>
+                      <li>38% 黑色</li>
+                    </ul>
+                    <p><strong>未激活的步骤</strong></p>
+                    <ul class="lst-kix_weogx73pm4gg-0 start">
+                      <li>14sp Roboto Regular</li>
+                      <li>54% 黑色</li>
+                    </ul>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>另类的标签</h1>
                   </div>
@@ -396,10 +397,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 31.5789473684%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-5">
+                      <figcaption id="types-of-steppers-figure-caption-4">
                         <p>另类的标签位置</p>
                       </figcaption>
                     </figure>
@@ -411,10 +412,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 33.6842105263%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-6">
+                      <figcaption id="types-of-steppers-figure-caption-5">
                         <p>包含一个可选步骤的另类标签位置</p>
                       </figcaption>
                     </figure>
@@ -422,7 +423,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>步进器反馈</h1>
                     <p>步进器可以在一个步骤保存后显示一个短暂的反馈信息。只有在步骤之间存在较长延时时，才应使用步进器反馈。</p>
@@ -430,15 +431,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 59.6052631579%">
-                          <video aria-describedby="types-of-steppers-figure-caption-7" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 59.6052631579%">
+                          <video aria-describedby="types-of-steppers-figure-caption-6" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/steppers/components_acux_stepper_feedback.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/steppers/components_acux_stepper_feedback.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="types-of-steppers-figure-caption-7">
+                      <figcaption id="types-of-steppers-figure-caption-6">
                         <p>该步进器在一个步骤保存后会显示短暂的反馈信息。</p>
                       </figcaption>
                     </figure>
@@ -461,17 +462,17 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>标准步进器</strong></strong></h2></div>
+                    <h2>标准步进器</h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 24.2105263158%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_standard_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_standard_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>步进器高度：72dp<br>
                         图标上、下、左侧的边距：24dp<br>
                         图标右侧边距：8dp</p>
@@ -479,18 +480,18 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>可选步骤</strong></strong></h2>
+                    <h2>可选步骤</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 24.2105263158%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstp_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-2">
+                      <figcaption id="specs-figure-caption-1">
                         <p>步骤高度：72dp<br>
                         图标左右两侧边距：8dp<br>
                         标签右侧边距：8dp</p>
@@ -498,9 +499,9 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>多行错误状态</strong></strong></h2>
+                    <h2>多行错误状态</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
@@ -512,7 +513,7 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2><strong>另类标签</strong></h2>
                   </div>
@@ -520,10 +521,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3">
+                      <figcaption id="specs-figure-caption-2">
                         <p>步骤高度：104dp</p>
                         <p>图标左右两侧边距：8dp<br>
                           标签顶部边距：16dp<br>
@@ -538,10 +539,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-4">
+                      <figcaption id="specs-figure-caption-3">
                         <p>含可选步骤的另类标签</p>
                         <p>图标左右两侧边距：8dp<br>
                           步骤左右两侧边距：16dp<br>
@@ -557,10 +558,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-5">
+                      <figcaption id="specs-figure-caption-4">
                         <p>另类标签位置的错误状态</p>
                       </figcaption>
                     </figure>
@@ -568,29 +569,29 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>非线性步进器</strong></strong></h2>
+                    <h2>非线性步进器</h2>
                     <p>鼠标悬停和按下状态</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.0526315789%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrhoriz.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrhoriz.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-6">
+                      <figcaption id="specs-figure-caption-5">
                         <p>鼠标悬停</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrvert.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrvert.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-7">
+                      <figcaption id="specs-figure-caption-6">
                         <p>鼠标悬停</p>
                       </figcaption>
                     </figure>
@@ -602,50 +603,50 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.0526315789%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdhoriz.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdhoriz.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-8">
+                      <figcaption id="specs-figure-caption-7">
                         <p>按下</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdvert.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdvert.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-9">
+                      <figcaption id="specs-figure-caption-8">
                         <p>按下</p>
                         <p><strong>背景色</strong></p>
-                        <ul class="lst-kix_w0e4wwuafr9-0 start">
-                          <li>6% 黑色</li>
-                        </ul>
-                        <p><strong>步进圈</strong></p>
-                        <ul class="lst-kix_lewiviymex53-0 start">
-                          <li>24dp x 24dp</li>
-                          <li>12sp Roboto Regular</li>
-                          <li>文本 100% 白色</li>
-                          <li>38% 黑色</li>
-                        </ul>
                       </figcaption>
                     </figure>
+                    <ul class="lst-kix_w0e4wwuafr9-0 start">
+                      <li>6% 黑色</li>
+                    </ul>
+                    <p><strong>步进圈</strong></p>
+                    <ul class="lst-kix_lewiviymex53-0 start">
+                      <li>24dp x 24dp</li>
+                      <li>12sp Roboto Regular</li>
+                      <li>文本 100% 白色</li>
+                      <li>38% 黑色</li>
+                    </ul>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>垂直步进器</strong></strong></h2>
+                    <h2>垂直步进器</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 67.3684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-10">
+                      <figcaption id="specs-figure-caption-9">
                         <p>垂直步进器，具有子步骤<br>
                         图标左侧边距：24dp<br>
                         图标和文本对齐方式：垂直居中对齐<br>
@@ -665,10 +666,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-11">
+                      <figcaption id="specs-figure-caption-10">
                         <p>垂直步进器示例</p>
                       </figcaption>
                     </figure>
@@ -676,18 +677,18 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong><strong>移动端步进器</strong></strong></h2>
+                    <h2>移动端步进器</h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 147.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-12">
+                      <figcaption id="specs-figure-caption-11">
                         <p>图标上下两侧边距：8dp<br>
                         标签顶部边距：24dp<br>
                         标签按钮边距（不含子标签）：16dp<br>
