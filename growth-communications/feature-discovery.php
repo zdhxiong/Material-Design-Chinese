@@ -46,7 +46,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>单步操作</h1>
                     <p>提示用户去尝试那些通过单击就能完成的功能，例如在地图应用中保存一个位置。</p>
@@ -54,15 +54,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-patterns-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-patterns-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-patterns-figure-caption-1">
+                      <figcaption id="design-patterns-figure-caption-0">
                         <p>点击目标</p>
                       </figcaption>
                     </figure>
@@ -70,11 +70,11 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-patterns-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="design-patterns-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-patterns-figure-caption-2">
+                      <figcaption id="design-patterns-figure-caption-1">
                         <p>提示文本</p>
                       </figcaption>
                     </figure>
@@ -82,7 +82,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>多步操作</h1>
                     <p>提示用户去尝试那些需要多次点击才能完成的功能，例如在照片应用中启用自动备份功能。</p>
@@ -90,16 +90,19 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-patterns-figure-caption-2" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="design-patterns-figure-caption-2">
+                        <p></p>
+                        <p>引导流程</p>
+                      </figcaption>
                     </figure>
-                    <p>引导流程</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -246,7 +249,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>特性探索场景</h1>
                     <p>特性探索场景和应用 UI 有特定的 Material Design 组件。</p>
@@ -274,7 +277,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>点击目标</h1>
                     <p>特性探索提示把用户的注意力集中到特定的 UI 元素上。包括在圆形点击目标的外围，包裹一个较大的有不同背景色的区域。</p>
@@ -285,10 +288,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-0" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-1">
+                      <figcaption id="design-figure-caption-0">
                         <p>特性探索提示包含一个被大背景区域包裹的点击目标，该大背景区域使用应用的主色。</p>
                       </figcaption>
                     </figure>
@@ -297,7 +300,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>移动端</h1>
                     <p>可以修改提示来适应不同的屏幕位置和显示尺寸。</p>
@@ -307,10 +310,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-2">
+                      <figcaption id="design-figure-caption-1">
                         <p>当提示操作的点击目标位于屏幕顶部或底部的 88dp 之内时（不包括状态栏和导航栏），将点击目标直接放在提示操作上面。</p>
                       </figcaption>
                     </figure>
@@ -322,23 +325,23 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-3" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-3">
+                      <figcaption id="design-figure-caption-2">
                         <p>当提示操作位于屏幕中心时，提示背景应做如下调整：</p>
-                        <ul class="lst-kix_utdacjkuquwf-0 start">
-                          <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
-                          <li>点击目标位于屏幕中心左侧时：提示背景应向右偏移 20dp</li>
-                          <li>点击目标位于屏幕中心时：提示背景将根据语言自动向左或向右偏移</li>
-                        </ul>
                       </figcaption>
                     </figure>
+                    <ul class="lst-kix_utdacjkuquwf-0 start">
+                      <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
+                      <li>点击目标位于屏幕中心左侧时：提示背景应向右偏移 20dp</li>
+                      <li>点击目标位于屏幕中心时：提示背景将根据语言自动向左或向右偏移</li>
+                    </ul>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>桌面端和平板端</h1>
                     <p>在较大的屏幕上，特性探索提示通常限定在点击目标所在的表面，例如卡片。点击目标的大小应该是可点击表面的大小。</p>
@@ -349,10 +352,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-4" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-3" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-4">
+                      <figcaption id="design-figure-caption-3">
                         <p>点击目标位于距离表面边缘 88dp 以内时，提示背景应该以点击目标为中心进行环绕。</p>
                         <p>点击目标位于屏幕中心时，将提示背景偏移 20dp。</p>
                         <p>对于所有其他点击目标，将提示背景放在适合屏幕上其他元素的地方。</p>
@@ -366,10 +369,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-5" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-4" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-5">
+                      <figcaption id="design-figure-caption-4">
                         <p>当点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）以内时，将提示背景以点击目标为中心进行环绕，并在其他元素的上方。</p>
                       </figcaption>
                     </figure>
@@ -383,24 +386,25 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-6" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-5" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-6">
+                      <figcaption id="design-figure-caption-5">
                         <p>在较小的表面上，点击目标位于距离屏幕边缘上下（144dp）或左右（200dp）之外的区域时，提示背景可以不限制在点击目标所在的表面。</p>
-                        <ul class="lst-kix_utdacjkuquwf-0">
-                          <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
-                          <li>点击目标位于屏幕中心左侧时，提示背景应向右偏移 20dp</li>
-                          <li>如果点击目标位于屏幕中心：提示背景将根据语言自动向右或向左偏移</li>
-                        </ul>
                       </figcaption>
                     </figure>
+                    <ul class="lst-kix_utdacjkuquwf-0">
+                      <li>点击目标位于屏幕中心右侧时：提示背景应向左偏移 20dp</li>
+                      <li>点击目标位于屏幕中心左侧时，提示背景应向右偏移 20dp</li>
+                      <li>如果点击目标位于屏幕中心：提示背景将根据语言自动向右或向左偏移</li>
+                    </ul>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"><h1>颜色</h1>
+                <section class="module-figure-figure col-3 h1-spacing">
+                  <div class="module">
+                    <h1>颜色</h1>
                     <p>点击目标可以使用应用或工具栏的主色。</p>
                     <p>点击目标的背景有 96% 的不透明度。</p>
                   </div>
@@ -408,10 +412,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 177.56232687%">
-                          <img alt="" aria-describedby="design-figure-caption-7" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-6" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-7">
+                      <figcaption id="design-figure-caption-6">
                         <p>点击目标的背景使用了主色。</p>
                       </figcaption>
                     </figure>
@@ -420,10 +424,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 177.348066298%">
-                          <img alt="" aria-describedby="design-figure-caption-8" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-7" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-8">
+                      <figcaption id="design-figure-caption-7">
                         <p>点击目标的背景使用了强调色。</p>
                       </figcaption>
                     </figure>
@@ -447,15 +451,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-figure-caption-9" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-figure-caption-8" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-9">
+                      <figcaption id="design-figure-caption-8">
                         <p>出现、出现后和交互的动效</p>
                       </figcaption>
                     </figure>
@@ -463,15 +467,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-figure-caption-10" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-figure-caption-9" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-10">
+                      <figcaption id="design-figure-caption-9">
                         <p>出现、出现后和忽视的动效</p>
                       </figcaption>
                     </figure>
@@ -487,15 +491,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-figure-caption-11" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-figure-caption-10" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-figure-caption-11">
+                      <figcaption id="design-figure-caption-10">
                         <p>引导流程</p>
                       </figcaption>
                     </figure>
@@ -524,23 +528,26 @@
                 <section class="figure-figure-figure col-3">
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media" style="max-width: ">
-                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: ">
-                          <video controls="" loop="" preload="metadata">
+                      <div class="media">
+                        <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" role="button">
+                          <video aria-describedby="design-figure-caption-11" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="design-figure-caption-11">
+                        <p></p>
+                        <p>点击目标用于引出引导流程。</p>
+                      </figcaption>
                     </figure>
-                    <p>点击目标用于引出引导流程。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-figure-caption-12" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-figure-caption-12" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -555,8 +562,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-figure-caption-13" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-figure-caption-13" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.mp4'); ?>" type="video/mp4">
                             </source></source>
