@@ -10,21 +10,21 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>Tab 选项卡可以方便地在不同视图间浏览和切换。</p>
+          <h1>Tab 选项卡可以方便地在不同视图间浏览和切换。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>选项卡可以在高级别组织内容，例如在视图、数据集或应用的功能方面切换。</p>
                 <p>选项卡显示为其关联内容上方的单行元素。选项卡标签应简明扼要地描述其中的内容。</p>
                 <p>因为滑动手势被用于切换选项卡，所以不要在选项卡的内容中包含支持滑动手势的控件，以免手势产生冲突。</p>
               </div>
               <div class="module">
-                <h3><strong>类型</strong></h3>
+                <h3>类型</h3>
                 <p>固定<br>
                   可滚动</p>
-                <h3><strong>选项卡标签</strong></h3>
+                <h3>选项卡标签</h3>
                 <p>选项卡标签可以包含图标和文本。</p>
-                <h3><strong>颜色</strong></h3>
+                <h3>颜色</h3>
                 <p>使用应用的强调色、或和文本对比度较高的颜色。</p>
               </div>
               <div class="figure">
@@ -80,10 +80,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>默认应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -92,10 +92,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p>展开的应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -104,10 +104,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-3">
+                      <figcaption id="usage-figure-caption-2">
                         <p>在滚动内容时选项卡固定在页面顶部</p>
                       </figcaption>
                     </figure>
@@ -118,10 +118,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-4">
+                      <figcaption id="usage-figure-caption-3">
                         <p>内嵌搜索，应用栏和固定选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -130,10 +130,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-5">
+                      <figcaption id="usage-figure-caption-4">
                         <p>默认应用栏和可滚动选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -142,10 +142,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-6">
+                      <figcaption id="usage-figure-caption-5">
                         <p>文本颜色和选项卡指示器颜色相同。</p>
                       </figcaption>
                     </figure>
@@ -156,10 +156,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile7.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-7">
+                      <figcaption id="usage-figure-caption-6">
                         <p>默认应用栏和含图标的固定选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -168,10 +168,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile8.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-8">
+                      <figcaption id="usage-figure-caption-7">
                         <p>图标颜色和选项卡指示器相同。</p>
                       </figcaption>
                     </figure>
@@ -180,7 +180,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>桌面端的选项卡</h1>
                   </div>
@@ -188,10 +188,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-9">
+                      <figcaption id="usage-figure-caption-8">
                         <p>默认应用栏和选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -203,10 +203,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-10">
+                      <figcaption id="usage-figure-caption-9">
                         <p>含下拉菜单的选项卡栏</p>
                       </figcaption>
                     </figure>
@@ -218,10 +218,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 44.7368421053%">
-                          <img alt="" aria-describedby="usage-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-11">
+                      <figcaption id="usage-figure-caption-10">
                         <p>已打开下拉菜单的选项卡</p>
                       </figcaption>
                     </figure>
@@ -233,10 +233,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-12" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-12">
+                      <figcaption id="usage-figure-caption-11">
                         <p>已从下拉菜单中选中了 Books 的选项卡</p>
                       </figcaption>
                     </figure>
@@ -248,10 +248,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-13" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-12" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-13">
+                      <figcaption id="usage-figure-caption-12">
                         <p>含翻页的选项卡</p>
                       </figcaption>
                     </figure>
@@ -263,10 +263,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-14" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-13" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-14">
+                      <figcaption id="usage-figure-caption-13">
                         <p>带翻页的选项卡滚动后</p>
                       </figcaption>
                     </figure>
@@ -278,10 +278,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-15" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop7.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-14" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-15">
+                      <figcaption id="usage-figure-caption-14">
                         <p>居中的选项卡</p>
                       </figcaption>
                     </figure>
@@ -289,7 +289,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>何时使用</h1>
                     <p>使用选项卡可以在高级别组织内容，例如，显示报纸的不同部分。不要把选项卡用于轮播内容或进行内容分页。这些用例涉及查看内容，而不是在内容组之间导航。</p>
@@ -301,10 +301,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-16" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-15" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-16">
+                      <figcaption id="usage-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>选项卡在含同等重要的内容的选项之间切换。</p>
                       </figcaption>
@@ -314,10 +314,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-17" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-16" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-17">
+                      <figcaption id="usage-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个选项卡在含不同等重要的内容的选项之间切换。</p>
                       </figcaption>
@@ -326,7 +326,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>选项卡特性</h1>
                     <p>选项卡使内容在统一的位置显示。</p>
@@ -343,10 +343,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-18" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-17" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-18">
+                      <figcaption id="usage-figure-caption-17">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>选项卡显示成单行。</p>
                       </figcaption>
@@ -356,10 +356,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-19" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-18" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="usage-figure-caption-18">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>选项卡没有显示成单行。</p>
                       </figcaption>
@@ -372,10 +372,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-20" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-19" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-20">
+                      <figcaption id="usage-figure-caption-19">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用内容层次结构，使选项卡与当前显示的内容相关。</p>
                       </figcaption>
@@ -385,10 +385,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-21" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-20" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-21">
+                      <figcaption id="usage-figure-caption-20">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>选项卡不能嵌套。</p>
                       </figcaption>
@@ -423,10 +423,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content1.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-1">
+                      <figcaption id="content-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>超过选项卡最大长度的长标签可以在被截断之前换行到第二行。</p>
                       </figcaption>
@@ -434,10 +434,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content3.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-2">
+                      <figcaption id="content-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要调整单行标签的大小。如果标签太长，请将文本跨两行或使用可滚动选项卡。</p>
                       </figcaption>
@@ -447,10 +447,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content2.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-3">
+                      <figcaption id="content-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>在截断标签之前可以对标签进行换行。过早截断标签会妨碍理解。</p>
                       </figcaption>
@@ -458,10 +458,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content4.png'); ?>"/>
+                          <img alt="" aria-describedby="content-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="content-figure-caption-4">
+                      <figcaption id="content-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要把文本标签和图标混合使用。全部使用文本标签、或全部使用图标标签。</p>
                       </figcaption>
@@ -486,7 +486,7 @@
             <div>
               <p>根据平台和使用环境，选项卡内容可以表现为固定选项卡或可滚动选项卡。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>固定选项卡</h1>
                     <p>固定选项卡同时显示所有的选项卡，适合用于需要在固定的位置快速切换选项卡的场景，例如在 Google 地图中切换路线的交通方式。</p>
@@ -496,10 +496,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile1.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-tabs-figure-caption-1">
+                      <figcaption id="types-of-tabs-figure-caption-0">
                         <p>移动设备上的固定选项卡</p>
                       </figcaption>
                     </figure>
@@ -508,10 +508,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile2.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-tabs-figure-caption-2">
+                      <figcaption id="types-of-tabs-figure-caption-1">
                         <p>移动设备上的固定选项卡</p>
                       </figcaption>
                     </figure>
@@ -519,7 +519,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>可滚动选项卡</h1>
                     <p>可滚动选项卡在任何时刻都只能显示选项卡集的一部分。它们可以包含更长的选项卡标签和更多的选项卡数量。可滚动选项卡最适合用于用户不需要直接对不同的选项卡进行比较，可以直接通过滑动的方式浏览不同选项卡的内容。</p>
@@ -528,15 +528,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="types-of-tabs-figure-caption-3" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="types-of-tabs-figure-caption-2" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="types-of-tabs-figure-caption-3">
+                      <figcaption id="types-of-tabs-figure-caption-2">
                         <p>移动端的可滚动选项卡</p>
                       </figcaption>
                     </figure>
@@ -558,10 +558,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-tabs-figure-caption-4">
+                      <figcaption id="types-of-tabs-figure-caption-3">
                         <p>可滚动选项卡示例</p>
                       </figcaption>
                     </figure>
@@ -584,8 +584,9 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"><h1>固定选项卡</h1>
+                <section class="module-figure-figure col-3 h1-spacing">
+                  <div class="module">
+                    <h1>固定选项卡</h1>
                     <p>视图的宽度除以选项卡的数量，可以计算出每个选项卡的宽度。或者，使每个选项卡的宽度都等于最宽的那个选项卡的宽度。</p>
                     <p>如果选项卡边缘和视图边缘之间的间距小于等于 16dp，使用全宽选项卡代替居中选项卡。</p>
                     <p>最小和最大宽度（包括边距）</p>
@@ -617,10 +618,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>移动设备上的固定选项卡，仅文本，纵向</p>
                       </figcaption>
                     </figure>
@@ -629,10 +630,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-2">
+                      <figcaption id="specs-figure-caption-1">
                         <p>移动设备上的固定选项卡，仅文本，纵向</p>
                       </figcaption>
                     </figure>
@@ -657,20 +658,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs5.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3">
+                      <figcaption id="specs-figure-caption-2">
                         <p>移动设备上横屏时，选项卡左对齐的示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-4">
+                      <figcaption id="specs-figure-caption-3">
                         <p>移动设备上横屏时，选项卡居中对齐的示例</p>
                       </figcaption>
                     </figure>
@@ -703,10 +704,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs7.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-5">
+                      <figcaption id="specs-figure-caption-4">
                         <p>移动设备上的固定选项卡，含图标和文本</p>
                       </figcaption>
                     </figure>
@@ -715,10 +716,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs8.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-6">
+                      <figcaption id="specs-figure-caption-5">
                         <p>移动设备上的固定选项卡，含图标和文本</p>
                       </figcaption>
                     </figure>
@@ -748,10 +749,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs9.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-7">
+                      <figcaption id="specs-figure-caption-6">
                         <p>移动设备上的固定选项卡，仅含图标</p>
                       </figcaption>
                     </figure>
@@ -760,10 +761,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs10.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs10.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-8">
+                      <figcaption id="specs-figure-caption-7">
                         <p>移动设备上的固定选项卡，仅含图标</p>
                       </figcaption>
                     </figure>
@@ -771,7 +772,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>可滚动选项卡</h1>
                     <p>最左侧的选项卡内容和关键线对齐。在横屏和竖屏时，对齐的关键线会不同。</p>
@@ -800,10 +801,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs11.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs11.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-9">
+                      <figcaption id="specs-figure-caption-8">
                         <p>可滚动选项卡</p>
                       </figcaption>
                     </figure>
@@ -812,10 +813,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs12.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs12.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-10">
+                      <figcaption id="specs-figure-caption-9">
                         <p>避免过长的选项卡标签，如此处所示。可滚动选项卡的最大宽度包含了换行的文本。</p>
                       </figcaption>
                     </figure>
@@ -839,10 +840,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs6.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-11">
+                      <figcaption id="specs-figure-caption-10">
                         <p>避免过长的选项卡标签，如此处所示。在移动端横屏模式下，这些最大宽度的选项卡和左侧的关键线对齐。</p>
                       </figcaption>
                     </figure>
@@ -850,7 +851,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>桌面端</h1>
                     <p>最小宽度和最大宽度（包含边距）</p>
@@ -891,10 +892,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="specs-figure-caption-12" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs13.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs13.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-12">
+                      <figcaption id="specs-figure-caption-11">
                         <p>桌面端的选项卡</p>
                       </figcaption>
                     </figure>
@@ -902,7 +903,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>触摸选项卡的动画</h1>
                     <p>注意：此组件的实现可能因平台而异。通过使用标准平台实现，您将收到任何相关的进一步改进。</p>
@@ -910,15 +911,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 912px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 25.2192982456%">
-                          <video aria-describedby="specs-figure-caption-13" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 25.2192982456%">
+                          <video aria-describedby="specs-figure-caption-12" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-13">
+                      <figcaption id="specs-figure-caption-12">
                         <p>触摸选项卡时的动画。</p>
                       </figcaption>
                     </figure>
