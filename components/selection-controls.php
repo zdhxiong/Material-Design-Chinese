@@ -9,9 +9,10 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><p>选择控件允许用户对选项进行选择。</p>
+        <div>
+          <h1>选择控件允许用户对选项进行选择。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>本指南包含了三种类型的选择控件。</p>
                 <ul class="lst-kix_5laryictleob-0 start">
@@ -21,9 +22,9 @@
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>颜色</strong></h3>
+                <h3>颜色</h3>
                 <p>选择控件使用应用的<a href="../style/color.html#color-color-schemes">强调色</a>.</p>
-                <h3><strong>主题</strong></h3>
+                <h3>主题</h3>
                 <p>选择控件在暗色和亮色主题下都可以使用。</p>
               </div>
               <div class="figure">
@@ -79,10 +80,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="checkbox-figure-caption-1">
+                      <figcaption id="checkbox-figure-caption-0">
                         <p>亮色主题</p>
                       </figcaption>
                     </figure>
@@ -91,10 +92,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 44.4%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="checkbox-figure-caption-2">
+                      <figcaption id="checkbox-figure-caption-1">
                         <p>暗色主题</p>
                       </figcaption>
                     </figure>
@@ -102,7 +103,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>亮色主题</h1>
                     <p>开：Swatch 500，不透明度 100%<br>
@@ -113,10 +114,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="checkbox-figure-caption-3">
+                      <figcaption id="checkbox-figure-caption-2">
                         <p>亮色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -124,7 +125,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>暗色主题</h1>
                     <p>开：Swatch 500，不透明度 100%<br>
@@ -135,10 +136,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="checkbox-figure-caption-4">
+                      <figcaption id="checkbox-figure-caption-3">
                         <p>暗色主题的复选框在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -170,10 +171,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="radio-button-figure-caption-1">
+                      <figcaption id="radio-button-figure-caption-0">
                         <p>亮色主题的单选框</p>
                       </figcaption>
                     </figure>
@@ -182,10 +183,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 44.4%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="radio-button-figure-caption-2">
+                      <figcaption id="radio-button-figure-caption-1">
                         <p>暗色主题的单选框</p>
                       </figcaption>
                     </figure>
@@ -193,7 +194,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>亮色主题</h1>
                     <p>开：Swatch 500，不透明度 100%<br>
@@ -204,10 +205,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="radio-button-figure-caption-3">
+                      <figcaption id="radio-button-figure-caption-2">
                         <p>亮色主题的单选按钮在鼠标悬停、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -215,7 +216,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>暗色主题</h1>
                     <p>开：Swatch 500, 不透明度 100%<br>
@@ -226,10 +227,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="radio-button-figure-caption-4">
+                      <figcaption id="radio-button-figure-caption-3">
                         <p>暗色主题的单选框在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -261,10 +262,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="switch-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-1">
+                      <figcaption id="switch-figure-caption-0">
                         <p>亮色主题</p>
                       </figcaption>
                     </figure>
@@ -273,10 +274,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="switch-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-2">
+                      <figcaption id="switch-figure-caption-1">
                         <p>暗色主题</p>
                       </figcaption>
                     </figure>
@@ -284,7 +285,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module"><h1>亮色主题</h1>
                     <p>打开时的滑块：Swatch 500，不透明度 100%<br>
                       打开时的轨道：Swatch 500，不透明度 50%</p>
@@ -297,10 +298,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="switch-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-3">
+                      <figcaption id="switch-figure-caption-2">
                         <p>亮色主题的开关按钮在鼠标悬浮、聚焦、按下、禁用以及禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -308,7 +309,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>暗色主题</h1>
                     <p>打开时的滑块：Swatch 200，不透明度 100%<br>
@@ -322,10 +323,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="switch-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-4">
+                      <figcaption id="switch-figure-caption-3">
                         <p>暗色主题的开关按钮在鼠标悬浮、聚焦、按下、禁用，禁用且聚焦时的状态。</p>
                       </figcaption>
                     </figure>
@@ -341,10 +342,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 76.6666666667%">
-                          <img alt="" aria-describedby="switch-figure-caption-5" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-5">
+                      <figcaption id="switch-figure-caption-4">
                         <p>移动端的动效</p>
                       </figcaption>
                     </figure>
@@ -353,10 +354,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 76.6666666667%">
-                          <img alt="" aria-describedby="switch-figure-caption-6" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>"/>
+                          <img alt="" aria-describedby="switch-figure-caption-5" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="switch-figure-caption-6">
+                      <figcaption id="switch-figure-caption-5">
                         <p>在桌面端没有动效</p>
                       </figcaption>
                     </figure>
