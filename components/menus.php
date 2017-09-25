@@ -10,9 +10,9 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>菜单在一个短暂出现的材料上显示一列选项。</p>
+          <h1>菜单在一个短暂出现的材料上显示一列选项。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>用户单击按钮、操作图标或其他控件可以打开菜单。菜单上显示一系列的选项，每行显示一个选项。</p>
                 <p>如果不适用于特定的页面内容，菜单项可能被禁用。与页面内容相关的菜单将根据当前应用状态动态改变可用的菜单项。</p>
@@ -87,10 +87,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_usage1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_usage1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>应用栏中的操作按钮会触发菜单。</p>
                       </figcaption>
                     </figure>
@@ -99,10 +99,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_usage2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_usage2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-2">
+                      <figcaption id="usage-figure-caption-1">
                         <p>此操作触发的菜单包含 5 个菜单项： “Refresh” ， “Settings” ， “Send feedback” ， “Help” 和 “Sign out” 。</p>
                       </figcaption>
                     </figure>
@@ -110,7 +110,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>菜单标签</h2>
                     <p>按钮或控件的标签应该简明、准确的反映出菜单中的菜单项。菜单栏通常使用一个单词作为标签，像 “文件” 、 “格式” 、 “编辑” 和 “视图” 。其他内容可能会有更长的标签。</p>
@@ -121,10 +121,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 66.3157894737%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_usage3do.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_usage3do.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-3">
+                      <figcaption id="usage-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>标题 “视图” 准确地描述了其包含的菜单项的统一特性。</p>
                       </figcaption>
@@ -137,10 +137,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 66.3157894737%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_usage3dont.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_usage3dont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-4">
+                      <figcaption id="usage-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>标题 “Stuff” 不是描述性的，无法帮助用户预测他们将在 “Stuff” 菜单中找到什么菜单项。</p>
                       </figcaption>
@@ -149,7 +149,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>上下文菜单</h2>
                     <p>上下文菜单能够根据应用的当前状态动态的改变可用的菜单项。</p>
@@ -173,10 +173,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 172.5%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_usage4b.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_usage4b.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-5">
+                      <figcaption id="usage-figure-caption-4">
                         <p>上下文菜单</p>
                       </figcaption>
                     </figure>
@@ -184,7 +184,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>菜单可以滚动</h2>
                     <p>如果菜单的高度不足以显示所有的菜单项，那么菜单可以内部滚动。一个典型的例子是在手机横屏状态下查看菜单。</p>
@@ -193,16 +193,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 103.421052632%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_menus_usage6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_usage6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-6">
+                      <figcaption id="usage-figure-caption-5">
                         <p>内部滚动菜单</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>级联菜单（仅适用于桌面端）</h2>
                     <p>对于级联菜单，根据其与屏幕边缘的距离，垂直和水平地定位菜单。</p>
@@ -212,10 +212,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 103.421052632%">
-                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/menus/components_menus_usage7.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_menus_usage7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-7">
+                      <figcaption id="usage-figure-caption-6">
                         <p>桌面端的级联菜单</p>
                       </figcaption>
                     </figure>
@@ -226,16 +226,18 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1480px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 75.0%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 75.0%">
+                          <video aria-describedby="usage-figure-caption-7" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="usage-figure-caption-7"><p></p>
+                        <p>桌面端的级联下拉菜单</p>
+                      </figcaption>
                     </figure>
-                    <p>桌面端的级联下拉菜单</p>
                   </div>
                 </section>
               </div>
@@ -245,8 +247,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 111.666666667%">
-                          <video aria-describedby="usage-figure-caption-8" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 111.666666667%">
+                          <video aria-describedby="usage-figure-caption-8" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -261,16 +263,18 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="usage-figure-caption-9" controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="usage-figure-caption-9"><p></p>
+                        <p>应用栏弹出菜单</p>
+                      </figcaption>
                     </figure>
-                    <p>应用栏弹出菜单</p></div>
                 </section>
               </div>
             </div>
@@ -289,7 +293,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module"><h2>单行显示</h2>
                     <p>每一个菜单项都只能使用单行文本（一个单词或短语）来描述被选中时执行的操作。</p>
                     <p>菜单项还可以包括：</p>
@@ -307,10 +311,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 108.684210526%">
-                          <img alt="" aria-describedby="menu-items-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_items1.png'); ?>"/>
+                          <img alt="" aria-describedby="menu-items-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_items1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="menu-items-figure-caption-1">
+                      <figcaption id="menu-items-figure-caption-0">
                         <p>菜单项示例</p>
                       </figcaption>
                     </figure>
@@ -318,7 +322,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>禁用菜单项</h2>
                     <p>将菜单项禁用，而不是移除，这样可以让用户知道在正确的条件下它们是可用的。</p>
@@ -328,10 +332,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="menu-items-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_items2.png'); ?>"/>
+                          <img alt="" aria-describedby="menu-items-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_items2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="menu-items-figure-caption-2">
+                      <figcaption id="menu-items-figure-caption-1">
                         <p>禁用菜单项示例</p>
                       </figcaption>
                     </figure>
@@ -354,7 +358,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module"><h1>位置</h1>
                     <p>菜单出现在所有其他应用内部的 UI 元素上面。</p>
                   </div>
@@ -362,10 +366,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_behavior1.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_behavior1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-1">
+                      <figcaption id="behavior-figure-caption-0">
                         <p>菜单出现在所有其他应用内部的 UI 元素上面的示例。</p>
                       </figcaption>
                     </figure>
@@ -379,10 +383,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_behavior2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_behavior2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-2">
+                      <figcaption id="behavior-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当前选中的菜单项出现在触发它的元素上面。</p>
                       </figcaption>
@@ -397,10 +401,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_behavior3.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_behavior3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-3">
+                      <figcaption id="behavior-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要重复显示已选中的菜单项。</p>
                       </figcaption>
@@ -415,10 +419,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_behavior4.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_behavior4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-4">
+                      <figcaption id="behavior-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>菜单不要放在触发它的元素的下面。</p>
                       </figcaption>
@@ -427,7 +431,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>关闭菜单</h1>
                     <p>触摸菜单外部或触发菜单的元素可以关闭菜单。</p>
@@ -457,7 +461,7 @@
               <p>当靠近屏幕边缘时，简单菜单垂直对齐，使所有菜单项完全可见。</p>
               <p><strong>消除歧义：</strong>与简单菜单相反，<a href="dialogs.html#dialogs-simple-dialogs">简单对话框</a>可以呈现与可用列表项相关的附加细节，或提供与主要任务相关的导航或正交操作。尽管它们可以显示相同的内容，但是简单菜单比简单对话框更好，因为简单菜单对用户的当前上下文干扰较小。</p>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module"><h2>选择选项</h2>
                     <p>选择一个选项将立即提交该选项并关闭菜单。</p>
                     <h2>取消选择</h2>
@@ -467,10 +471,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus1.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-1">
+                      <figcaption id="simple-menus-figure-caption-0">
                         <p>简单菜单示例</p>
                       </figcaption>
                     </figure>
@@ -484,10 +488,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus2.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-2">
+                      <figcaption id="simple-menus-figure-caption-1">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
@@ -500,10 +504,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus3.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-3">
+                      <figcaption id="simple-menus-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
@@ -518,10 +522,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus5.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-4">
+                      <figcaption id="simple-menus-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>第一个菜单项被随意地放在了列表项上，而不管当前选择的菜单项。</p>
                       </figcaption>
@@ -536,10 +540,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus4.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-5">
+                      <figcaption id="simple-menus-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>当前选择的菜单项通常位于列表项之上，但是在这种情况下，这样做会导致菜单的一部分出现在屏幕外面，所以整个菜单被垂直地重新定位。</p>
                       </figcaption>
@@ -554,10 +558,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.7368421053%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus6.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-6">
+                      <figcaption id="simple-menus-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>简单菜单出现在触发它的元素上。</p>
                       </figcaption>
@@ -570,10 +574,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 38.6842105263%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-7" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus7.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-7">
+                      <figcaption id="simple-menus-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>简单菜单不会出现在触发它的元素下面。</p>
                       </figcaption>
@@ -591,10 +595,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-8" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus8.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-7" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-8">
+                      <figcaption id="simple-menus-figure-caption-7">
                         <p>简单菜单具有 16dp 的外边距。</p>
                         <p>每个单位的宽是 56dp。</p>
                         <p>移动设备上最小宽度 = 2 * 56dp = 112dp</p>
@@ -605,10 +609,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-9" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus9.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-8" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-9">
+                      <figcaption id="simple-menus-figure-caption-8">
                         <p>简单菜单左右均有 16dp 的外边距。</p>
                         <p>每个单位的宽是 56dp。</p>
                         <p>在移动设备上的最大宽度（纵向和横向） = 5 * 56dp = 280dp</p>
@@ -624,10 +628,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-10" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus10.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-9" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus10.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-10">
+                      <figcaption id="simple-menus-figure-caption-9">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>如果简单菜单中的任意文本产生了换行，请改用简单对话框。</p>
                       </figcaption>
@@ -637,10 +641,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-11" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus11.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-10" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus11.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-11">
+                      <figcaption id="simple-menus-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在简单菜单中截断文本。使用简单对话框代替。</p>
                       </figcaption>
@@ -656,10 +660,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-12" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus12.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-11" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus12.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-12">
+                      <figcaption id="simple-menus-figure-caption-11">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>默认显示可滚动内容的滚动条。</p>
                       </figcaption>
@@ -669,10 +673,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-13" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus13.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-12" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus13.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-13">
+                      <figcaption id="simple-menus-figure-caption-12">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>没有滚动条，就不清楚是否有其他菜单项可用。</p>
                       </figcaption>
@@ -687,10 +691,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-14" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus14.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-13" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus14.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-14">
+                      <figcaption id="simple-menus-figure-caption-13">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>每个菜单项只出现一次。</p>
                       </figcaption>
@@ -700,10 +704,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-15" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus15.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-14" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus15.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-15">
+                      <figcaption id="simple-menus-figure-caption-14">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要重复显示菜单项。</p>
                       </figcaption>
@@ -720,10 +724,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-16" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus16.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-15" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus16.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-16">
+                      <figcaption id="simple-menus-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>简单菜单左对齐，无论触摸位置如何。</p>
                       </figcaption>
@@ -736,10 +740,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-17" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus17.png'); ?>"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-16" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus17.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="simple-menus-figure-caption-17">
+                      <figcaption id="simple-menus-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>简单菜单不根据触摸位置重新定位。</p>
                       </figcaption>
@@ -767,7 +771,7 @@
               <p>默认情况下，菜单使用：16sp（移动设备上），15sp（桌面端）<br>
                  密集型界面上使用：14sp（移动设备上），13sp（桌面端）</p>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>手机端</h1>
                   </div>
@@ -775,10 +779,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_specs1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_specs1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-1">
+                      <figcaption id="specs-figure-caption-0">
                         <p>菜单项高度：48dp<br>
                         菜单项文本左侧内边距：16dp<br>
                         菜单项文本底部内边距：20dp<br>
@@ -789,7 +793,7 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>不同宽度</h1>
                   </div>
@@ -797,25 +801,25 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 76.3157894737%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_specs2.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_specs2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-2">
+                      <figcaption id="specs-figure-caption-1">
                         <p>不同宽度的菜单：最小宽度 1.5x，3x，6x 和 7x</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module"><h1>桌面端</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-3"><p><strong>默认的桌面端菜单<br>
+                      <figcaption id="specs-figure-caption-2"><p><strong>默认的桌面端菜单<br>
                           </strong>菜单项高度：32px<br>
                           菜单项文本左侧内边距：24px<br>
                           顶部内边距：8px<br>
@@ -825,10 +829,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop-dense.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop-dense.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-4"><p><strong>密集型桌面端菜单<br>
+                      <figcaption id="specs-figure-caption-3"><p><strong>密集型桌面端菜单<br>
                           </strong>菜单项高度：24px<br>
                           菜单项文本左侧内边距：24px<br>
                           顶部内边距：4px<br>
@@ -837,7 +841,7 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>级联菜单</h1>
                   </div>
@@ -845,16 +849,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 87.3684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_specs3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_specs3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-5">
+                      <figcaption id="specs-figure-caption-4">
                         <p>桌面端的级联菜单</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>级联菜单的红线标注</h1>
                   </div>
@@ -862,10 +866,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 92.8947368421%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_menus_specs4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_specs4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="specs-figure-caption-6">
+                      <figcaption id="specs-figure-caption-5">
                         <p>级联菜单顶部内边距：16px<br>
                         级联菜单左侧内边距：24px<br>
                         级联菜单项高度：32px<br>
