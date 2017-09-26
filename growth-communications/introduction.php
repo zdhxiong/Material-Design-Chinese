@@ -26,10 +26,10 @@
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2322px">
               <div class="frame " style="padding-top: 50.9905254091%">
-                <img alt="" aria-describedby="intro-figure-caption-1" src="<?php static_url('../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png'); ?>"/>
+                <img alt="" aria-describedby="intro-figure-caption-0" src="<?php static_url('../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png'); ?>"/>
               </div>
             </div>
-            <figcaption id="intro-figure-caption-1">
+            <figcaption id="intro-figure-caption-0">
               <p><strong>前七天</strong></p>
               <p>导览：自选模型<br>
                 用户教育：指导用户如何使用应用</p>
