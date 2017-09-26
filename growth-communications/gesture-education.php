@@ -46,7 +46,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>屏幕中的一部分</h1>
                     <p>提示用户执行一个手势，这个手势可以影响屏幕中的一部分，例如滑动卡片。</p>
@@ -54,15 +54,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-patterns-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-patterns-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-patterns-figure-caption-1">
+                      <figcaption id="design-patterns-figure-caption-0">
                         <p>“提示动作” 显示了当执行提示中的手势操作时，卡片移动效果的预览。</p>
                       </figcaption>
                     </figure>
@@ -71,7 +71,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>整个屏幕</h1>
                     <p>提示用户执行一个手势，这个手势会影响到整个屏幕，例如双指缩放。</p>
@@ -79,16 +79,19 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-patterns-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="design-patterns-figure-caption-1">
+                        <p></p>
+                        <p>这个 snackbar 使用文本来描述滑动动作会触发标签之间的切换。手势指示器使手势动作可视化，提示动作本身会直接执行一部分动作。</p>
+                      </figcaption>
                     </figure>
-                    <p>这个 snackbar 使用文本来描述滑动动作会触发标签之间的切换。手势指示器使手势动作可视化，提示动作本身会直接执行一部分动作。</p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -189,15 +192,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="design-writing-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-writing-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="design-writing-figure-caption-1">
+                      <figcaption id="design-writing-figure-caption-0">
                         <p>这种类型的交互可以用于只影响屏幕中的一部分的手势，例如滑动卡片。</p>
                       </figcaption>
                     </figure>
@@ -206,7 +209,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>示例手势</h1>
                     <p><strong>设计</strong></p>
@@ -218,16 +221,19 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="design-writing-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
+                      <figcaption id="design-writing-figure-caption-1">
+                        <p></p>
+                        <p>这种类型的交互可以用于影响整个屏幕的手势，例如缩放。</p>
+                      </figcaption>
                     </figure>
-                    <p>这种类型的交互可以用于影响整个屏幕的手势，例如缩放。</p>
                   </div>
                   <div class="module"></div>
                 </section>
