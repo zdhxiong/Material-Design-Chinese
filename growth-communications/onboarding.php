@@ -10,7 +10,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>导览是一种虚拟的开箱体验，以帮助用户开始使用应用的 UI。它应该简短，并能促进用户使用应用。</p>
+          <h1>导览，通常表示“热烈欢迎”，是用户使用应用时的开箱体验。使用下面其中一种模式来为用户注入导览。</h1>
         </div>
       </div>
 
@@ -107,10 +107,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2321px">
                         <div class="frame " style="padding-top: 54.3300301594%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="onboarding-models-figure-caption-1">
+                      <figcaption id="onboarding-models-figure-caption-0">
                         <p>只为首次使用的用户显示导览，不要向老用户显示。</p>
                       </figcaption>
                     </figure>
@@ -124,10 +124,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="onboarding-models-figure-caption-2">
+                      <figcaption id="onboarding-models-figure-caption-1">
                         <p>1. <a href="onboarding.html#onboarding-self-select">自选</a></p>
                         <p>允许用户自定义他们的体验。</p>
                       </figcaption>
@@ -137,10 +137,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="onboarding-models-figure-caption-3">
+                      <figcaption id="onboarding-models-figure-caption-2">
                         <p>2. <a href="onboarding.html#onboarding-quickstart">快速开始</a></p>
                         <p>在应用中直接开始。</p>
                       </figcaption>
@@ -150,10 +150,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="onboarding-models-figure-caption-4">
+                      <figcaption id="onboarding-models-figure-caption-3">
                         <p>3. <a href="onboarding.html#onboarding-top-user-benefits">最大优势</a></p>
                         <p>显示一个简短的自动轮播（或动画），突出应用的最多三个优势。</p>
                       </figcaption>
@@ -268,10 +268,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-1">
+                      <figcaption id="self-select-figure-caption-0">
                         <p>登录界面</p>
                       </figcaption>
                     </figure>
@@ -280,10 +280,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-2">
+                      <figcaption id="self-select-figure-caption-1">
                         <p>自选模式</p>
                       </figcaption>
                     </figure>
@@ -299,7 +299,7 @@
                 <li>简短的</li>
               </ul>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>有意义的和有显著影响的</h2>
                     <p>提供对用户体验有意义和有显著影响的选择。这些选择隐式地教导了用户如何与你的 UI 交互。</p>
@@ -308,10 +308,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-3">
+                      <figcaption id="self-select-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>选择绑定哪些内容会对用户体验产生有意义的影响。</p>
                       </figcaption>
@@ -321,17 +321,17 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-4">
+                      <figcaption id="self-select-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>了解用户检查数据流的频率对提高用户体验没有帮助。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>询问你无法得知的数据</h2>
                     <p>不要询问可以从正常使用中获取的偏好设置。</p>
@@ -340,10 +340,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-5">
+                      <figcaption id="self-select-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>从正常使用中无法清楚的得知用户想要绑定的内容。向用户询问他们的偏好是有价值的。</p>
                       </figcaption>
@@ -353,17 +353,17 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-6">
+                      <figcaption id="self-select-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>对于正常使用应用过程中可以得知的数据，不要要求用户做出选择，那不会改进用户的首次体验。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>保持简短</h2>
                     <p>把选项限制在一个屏幕内，或使多个屏幕看起来彼此相连。</p>
@@ -373,10 +373,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-7">
+                      <figcaption id="self-select-figure-caption-6">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>单个自选屏幕</p>
                       </figcaption>
@@ -386,10 +386,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-8">
+                      <figcaption id="self-select-figure-caption-7">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>很多个自选屏幕</p>
                       </figcaption>
@@ -407,10 +407,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-9">
+                      <figcaption id="self-select-figure-caption-8">
                         <p>绑定列表</p>
                       </figcaption>
                     </figure>
@@ -419,10 +419,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-10">
+                      <figcaption id="self-select-figure-caption-9">
                         <p>网格视图</p>
                       </figcaption>
                     </figure>
@@ -431,10 +431,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-11" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="self-select-figure-caption-11">
+                      <figcaption id="self-select-figure-caption-10">
                         <p>列表</p>
                       </figcaption>
                     </figure>
@@ -463,7 +463,7 @@
                 <li>通常优先处理最关键的操作</li>
                 <li>也可以提供一个可选的了解更多或寻求帮助的途径</li>
               </ol>
-              <h2><strong>最佳实践</strong></h2>
+              <h2>最佳实践</h2>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
                   <div class="module">
@@ -474,10 +474,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-1">
+                      <figcaption id="quickstart-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>提供给用户一些选项。</p>
                       </figcaption>
@@ -487,10 +487,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-2">
+                      <figcaption id="quickstart-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要让用户没事可做。</p>
                       </figcaption>
@@ -506,10 +506,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-3">
+                      <figcaption id="quickstart-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>给用户提供更多学习使用应用的机会。</p>
                       </figcaption>
@@ -519,10 +519,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-4">
+                      <figcaption id="quickstart-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要强迫用户。</p>
                       </figcaption>
@@ -538,10 +538,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-5">
+                      <figcaption id="quickstart-figure-caption-4">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>鼓励用户去进行最关键的操作。</p>
                       </figcaption>
@@ -551,10 +551,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="quickstart-figure-caption-6">
+                      <figcaption id="quickstart-figure-caption-5">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要让用户没事可做。</p>
                       </figcaption>
@@ -587,7 +587,7 @@
                 <li>应用的 “牙刷特性” （意思是，你每天会使用一次或两次的功能）</li>
               </ul>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>集成选项</h1>
                     <p><strong>自动轮播</strong></p>
@@ -598,15 +598,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="top-user-benefits-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="top-user-benefits-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_rotate_carousel.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-1">
+                      <figcaption id="top-user-benefits-figure-caption-0">
                         <p>按钮和分页导航是固定显示的。文字排版是动态的，并且在一个单独的区域，不和插图混在一起，但是和插图有相同的海拔高度。</p>
                       </figcaption>
                     </figure>
@@ -622,15 +622,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 480px">
-                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="top-user-benefits-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="top-user-benefits-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/growth-communications/onboarding/00_OBEE_optimization_full-small.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-2">
+                      <figcaption id="top-user-benefits-figure-caption-1">
                         <p>视频的实现</p>
                       </figcaption>
                     </figure>
@@ -639,7 +639,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>最佳实践</h1>
                     <p><strong>保持视觉的连续性</strong></p>
@@ -649,10 +649,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 56.689453125%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-3">
+                      <figcaption id="top-user-benefits-figure-caption-2">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在整个过程中使用一致的视觉效果和颜色，通过为按钮和分页导航创造统一的背景图来统一整个过程。</p>
                       </figcaption>
@@ -670,10 +670,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-5.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-4">
+                      <figcaption id="top-user-benefits-figure-caption-3">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>直观的表达出了将文件保存到云的寓意。</p>
                       </figcaption>
@@ -683,10 +683,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-5">
+                      <figcaption id="top-user-benefits-figure-caption-4">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>这个图片没有重点。</p>
                       </figcaption>
@@ -703,10 +703,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 177.56232687%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-7.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-6">
+                      <figcaption id="top-user-benefits-figure-caption-5">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>这个插图表达了这种用法的优势。</p>
                       </figcaption>
@@ -716,10 +716,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-3.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-7">
+                      <figcaption id="top-user-benefits-figure-caption-6">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>显示实际的 UI 元素，会使用户不清楚图片是一个插画还是一个交互元素。</p>
                       </figcaption>
@@ -739,10 +739,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-8">
+                      <figcaption id="top-user-benefits-figure-caption-7">
                         <p>竖向的手机端</p>
                       </figcaption>
                     </figure>
@@ -751,10 +751,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1140px">
                         <div class="frame " style="padding-top: 133.333333333%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-9">
+                      <figcaption id="top-user-benefits-figure-caption-8">
                         <p>竖向的平板端</p>
                       </figcaption>
                     </figure>
@@ -771,10 +771,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1280px">
                         <div class="frame " style="padding-top: 56.25%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-10">
+                      <figcaption id="top-user-benefits-figure-caption-9">
                         <p>横屏的手机端</p>
                       </figcaption>
                     </figure>
@@ -783,10 +783,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-11" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-11">
+                      <figcaption id="top-user-benefits-figure-caption-10">
                         <p>横屏的平板端</p>
                       </figcaption>
                     </figure>
@@ -803,10 +803,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1920px">
                         <div class="frame " style="padding-top: 56.25%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-12" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-11" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="top-user-benefits-figure-caption-12">
+                      <figcaption id="top-user-benefits-figure-caption-11">
                         <p>桌面端</p>
                       </figcaption>
                     </figure>
