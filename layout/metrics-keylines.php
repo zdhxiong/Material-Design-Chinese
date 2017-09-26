@@ -53,10 +53,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.388888889%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="baseline-grids-figure-caption-1">
+                      <figcaption id="baseline-grids-figure-caption-0">
                         <p>基准网格示例</p>
                       </figcaption>
                     </figure>
@@ -65,10 +65,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.388888889%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="baseline-grids-figure-caption-2">
+                      <figcaption id="baseline-grids-figure-caption-1">
                         <p>基准网格示例</p>
                       </figcaption>
                     </figure>
@@ -84,10 +84,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 39.0517241379%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="baseline-grids-figure-caption-3">
+                      <figcaption id="baseline-grids-figure-caption-2">
                         <p>基准网格中的排版示例</p>
                       </figcaption>
                     </figure>
@@ -111,42 +111,36 @@
             <div>
               <p>以下模板包含移动端、平板端和桌面端的元素的关键线、间距指南和示例界面。</p>
               <h1>模板</h1>
-              <p>
-                <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile layout template">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                    <div class="info">
-                      <div class="title">移动端布局模版</div>
-                      <span class="subtitle">2.23 MB (.ai) </span>
-                    </div>
-                    </img>
-                  </a>
-                </div>
-              </p>
-              <p>
-                <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet layout template">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                    <div class="info">
-                      <div class="title">平板端布局模版</div>
-                      <span class="subtitle">1.39 MB (.ai) </span>
-                    </div>
-                    </img>
-                  </a>
-                </div>
-              </p>
-              <p>
-                <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Layout Template">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                    <div class="info">
-                      <div class="title">桌面端布局模版</div>
-                      <span class="subtitle">89.40 MB (.ai) </span>
-                    </div>
-                    </img>
-                  </a>
-                </div>
-              </p>
+              <div class="modulettes">
+                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile layout template">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <div class="info">
+                    <div class="title">移动端布局模版</div>
+                    <span class="subtitle">2.23 MB (.ai) </span>
+                  </div>
+                  </img>
+                </a>
+              </div>
+              <div class="modulettes">
+                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet layout template">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <div class="info">
+                    <div class="title">平板端布局模版</div>
+                    <span class="subtitle">1.39 MB (.ai) </span>
+                  </div>
+                  </img>
+                </a>
+              </div>
+              <div class="modulettes">
+                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Layout Template">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <div class="info">
+                    <div class="title">桌面端布局模版</div>
+                    <span class="subtitle">89.40 MB (.ai) </span>
+                  </div>
+                  </img>
+                </a>
+              </div>
               <h1>移动端</h1>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
@@ -158,10 +152,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-1">
+                      <figcaption id="keylines-spacing-figure-caption-0">
                         <p>关键线和边距</p>
                         <p>屏幕边缘的左右边距：16dp<br>
                           与图标或头像相关联的内容的左边距：72dp<br>
@@ -173,19 +167,19 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-2">
+                      <figcaption id="keylines-spacing-figure-caption-1">
                         <p>垂直间距</p>
-                        <ol class="lst-kix_9b5cwq3ltnu1-0 start" start="1">
-                          <li>状态栏：24dp</li>
-                          <li>工具栏：56dp</li>
-                          <li>副标题：48dp</li>
-                          <li>列表项：72dp</li>
-                        </ol>
                       </figcaption>
                     </figure>
+                    <ol class="lst-kix_9b5cwq3ltnu1-0 start" start="1">
+                      <li>状态栏：24dp</li>
+                      <li>工具栏：56dp</li>
+                      <li>副标题：48dp</li>
+                      <li>列表项：72dp</li>
+                    </ol>
                   </div>
                 </section>
               </div>
@@ -196,10 +190,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-3">
+                      <figcaption id="keylines-spacing-figure-caption-2">
                         <p>关键线和边距</p>
                         <p>屏幕边缘的左右边距：16dp<br>
                           内容与屏幕左边缘的间距：72dp</p>
@@ -210,20 +204,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-4">
+                      <figcaption id="keylines-spacing-figure-caption-3">
                         <p>垂直间距</p>
-                        <ol class="lst-kix_9is1l1vcq9ji-0 start" start="1">
-                          <li>状态栏：24dp</li>
-                          <li>工具栏：56dp</li>
-                          <li>标题和列表项：72dp</li>
-                          <li>副标题：48dp</li>
-                          <li>内容区域之间的间距：8dp</li>
-                        </ol>
                       </figcaption>
                     </figure>
+                    <ol class="lst-kix_9is1l1vcq9ji-0 start" start="1">
+                      <li>状态栏：24dp</li>
+                      <li>工具栏：56dp</li>
+                      <li>标题和列表项：72dp</li>
+                      <li>副标题：48dp</li>
+                      <li>内容区域之间的间距：8dp</li>
+                    </ol>
                   </div>
                 </section>
               </div>
@@ -236,10 +230,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-5" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-5">
+                      <figcaption id="keylines-spacing-figure-caption-4">
                         <p>关键线和边距</p>
                         <p>屏幕边缘的左右边距：16dp<br>
                           内容与屏幕左边缘的间距：72dp<br>
@@ -252,24 +246,24 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-6" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-5" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-6">
+                      <figcaption id="keylines-spacing-figure-caption-5">
                         <p>垂直空间</p>
-                        <ol class="lst-kix_xmui2mjw0eb4-0 start" start="1">
-                          <li>状态栏：24dp</li>
-                          <li>工具栏：56dp</li>
-                          <li>内容区域之间的间距：8dp</li>
-                          <li>列表项：72dp</li>
-                        </ol>
                       </figcaption>
                     </figure>
+                    <ol class="lst-kix_xmui2mjw0eb4-0 start" start="1">
+                      <li>状态栏：24dp</li>
+                      <li>工具栏：56dp</li>
+                      <li>内容区域之间的间距：8dp</li>
+                      <li>列表项：72dp</li>
+                    </ol>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-figure col-3">
                   <div class="module">
                     <p><strong>抽屉式导航</strong></p>
                     <p>一个侧边栏的导航菜单，包含图标、头像、和左对齐的文本。其他图标右对齐。</p>
@@ -278,10 +272,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-7" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-6" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="keylines-spacing-figure-caption-7">
+                      <figcaption id="keylines-spacing-figure-caption-6">
                         <p>关键线和边距</p>
                         <p>屏幕边缘的左右边距：16dp<br>
                           为了与图标和头像相协调，内容的左边距为：72dp<br>
@@ -289,19 +283,17 @@
                       </figcaption>
                     </figure>
                   </div>
-                  <div class="module">
-                    <h2>
-                      <figure class="s-tag-media">
-                        <div class="media" style="max-width: 720px">
-                          <div class="frame " style="padding-top: 177.777777778%">
-                            <img alt="" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png'); ?>"/>
-                          </div>
+                  <div class="figure">
+                    <figure class="s-tag-media">
+                      <div class="media" style="max-width: 720px">
+                        <div class="frame" style="padding-top: 177.777777778%">
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-7" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png'); ?>"/>
                         </div>
-                      </figure>
-                    </h2>
-                    <p>
-                      <figcaption>垂直空间</figcaption>
-                    </p>
+                      </div>
+                      <figcaption id="keylines-spacing-figure-caption-7">
+                        <p>垂直空间</p>
+                      </figcaption>
+                    </figure>
                     <ol class="lst-kix_wza18d9k4k2q-0 start" start="1">
                       <li>帐号菜单和列表项：48dp</li>
                       <li>内容区域之间的间距：8dp</li>
@@ -345,14 +337,14 @@
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-9">
                         <p>垂直空间</p>
-                        <ol class="lst-kix_qacmrwughh6w-0 start" start="1">
-                          <li>状态栏和列表顶部间距：24dp</li>
-                          <li>列表项：64dp</li>
-                          <li>内容区域之间的间距：8dp</li>
-                          <li>列表项：72dp</li>
-                        </ol>
                       </figcaption>
                     </figure>
+                    <ol class="lst-kix_qacmrwughh6w-0 start" start="1">
+                      <li>状态栏和列表顶部间距：24dp</li>
+                      <li>列表项：64dp</li>
+                      <li>内容区域之间的间距：8dp</li>
+                      <li>列表项：72dp</li>
+                    </ol>
                   </div>
                 </section>
                 <section class="module-figure col-2">
@@ -390,15 +382,15 @@
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-11">
                         <p>垂直空间</p>
-                        <ol class="lst-kix_o4su4vbde70q-0 start" start="1">
-                          <li>状态栏：24dp</li>
-                          <li>工具栏和列表项：64dp</li>
-                          <li>内容区域之间的间距：8dp</li>
-                          <li>副标题、列表项和滑块：48dp</li>
-                          <li>标题：80dp</li>
-                        </ol>
                       </figcaption>
                     </figure>
+                    <ol class="lst-kix_o4su4vbde70q-0 start" start="1">
+                      <li>状态栏：24dp</li>
+                      <li>工具栏和列表项：64dp</li>
+                      <li>内容区域之间的间距：8dp</li>
+                      <li>副标题、列表项和滑块：48dp</li>
+                      <li>标题：80dp</li>
+                    </ol>
                   </div>
                 </section>
               </div>
@@ -481,8 +473,8 @@
                     </ul>
                     <p>例如：</p>
                     <ul class="lst-kix_hc7d1myqxv1l-0 start">
-                      <li>1:1 的宽高比说明元素有相同的宽度和高度。</li>
-                      <li>2:3 宽高比的图片，宽度为 360dp 时，高度为 540dp。</li>
+                      <li>1:1 的宽高比说明元素有相同的宽度和高度</li>
+                      <li>2:3 宽高比的图片，宽度为 360dp 时，高度为 540dp</li>
                     </ul>
                     <p>使用以下公式，根据宽高比来确定元素的宽度或高度。宽高比总是用分数表示。例如，3:2 会被视为 3/2。</p>
                     <p>宽度 = 宽高比 * 高度 </p>
@@ -492,10 +484,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="ratio-keylines-figure-caption-1">
+                      <figcaption id="ratio-keylines-figure-caption-0">
                         <p>屏幕宽度</p>
                         <p></p>
                       </figcaption>
@@ -505,10 +497,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="ratio-keylines-figure-caption-2">
+                      <figcaption id="ratio-keylines-figure-caption-1">
                         <p>移动端的屏幕宽度示例</p>
                       </figcaption>
                     </figure>
@@ -520,10 +512,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="ratio-keylines-figure-caption-3">
+                      <figcaption id="ratio-keylines-figure-caption-2">
                         <p>元素宽度</p>
                       </figcaption>
                     </figure>
@@ -532,10 +524,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="ratio-keylines-figure-caption-4">
+                      <figcaption id="ratio-keylines-figure-caption-3">
                         <p>移动端的元素宽度示例</p>
                       </figcaption>
                     </figure>
@@ -569,30 +561,30 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>"/>
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="sizing-by-increments-figure-caption-1">
+                      <figcaption id="sizing-by-increments-figure-caption-0">
                         <p>该示例中的卡片宽度是 8x 的水平增量。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>"/>
+                        <div class="frame" style="padding-top: 47.3684210526%">
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="sizing-by-increments-figure-caption-2">
+                      <figcaption id="sizing-by-increments-figure-caption-1">
                         <p>该示例中的应用栏扩展后的高度为 2x 的增量，右侧面板的宽度为 5x 的增量。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>"/>
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="sizing-by-increments-figure-caption-3">
+                      <figcaption id="sizing-by-increments-figure-caption-2">
                         <p>在 Material Design 的 UI 中，增量可以在很多元素上使用。</p>
                       </figcaption>
                     </figure>
@@ -624,10 +616,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="touch-target-size-figure-caption-1">
+                      <figcaption id="touch-target-size-figure-caption-0">
                         <p>头像尺寸：40dp <br>
                         图标尺寸：24dp<br>
                         触摸目标尺寸均为：48dp</p>
@@ -636,10 +628,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="touch-target-size-figure-caption-2">
+                      <figcaption id="touch-target-size-figure-caption-1">
                         <p>触摸目标高度：48dp <br>
                         按钮高度：36dp</p>
                       </figcaption>
@@ -649,20 +641,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="touch-target-size-figure-caption-3">
+                      <figcaption id="touch-target-size-figure-caption-2">
                         <p>触摸目标示例</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="touch-target-size-figure-caption-4">
+                      <figcaption id="touch-target-size-figure-caption-3">
                         <p>触摸目标和按钮示例</p>
                       </figcaption>
                     </figure>
