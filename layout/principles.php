@@ -9,7 +9,9 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><h1>Material Design 指南通过源自印刷领域的设计元素 – 例如排版、网格、空白、缩放、颜色，和图像 – 来建立层次结构和传达所要表达的含义，并专注于带给用户沉浸式的体验。Material Design 采用来自印刷设计领域的工具，如基准网格和结构模版，通过重复视觉元素，结构网格以及跨平台和屏幕尺寸的间距，促进不同环境下设计的一致性。这些布局可通过缩放来适应任何屏幕大小，这简化了创建可扩展应用的过程。</h1></div>
+        <div>
+          <h1>Material Design 指南通过源自印刷领域的设计元素 – 例如排版、网格、空白、缩放、颜色，和图像 – 来建立层次结构和传达所要表达的含义，并专注于带给用户沉浸式的体验。Material Design 采用来自印刷设计领域的工具，如基准网格和结构模版，通过重复视觉元素，结构网格以及跨平台和屏幕尺寸的间距，促进不同环境下设计的一致性。这些布局可通过缩放来适应任何屏幕大小，这简化了创建可扩展应用的过程。</h1>
+        </div>
       </div>
 
       <nav class="chapter-toc">
@@ -41,7 +43,7 @@
               <p>应用之外的元素，例如系统状态栏，和应用内容是分开的，不会被视为材料。</p>
               <p>更多关于材料的细节，详见<a href="../material-design/material-properties.html">材料属性</a>。</p>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>接缝</h1>
                     <p>两片材料的公共边缘被成为<strong>接缝</strong>。当通过接缝连接时，它们会一起移动。</p>
@@ -50,10 +52,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="how-paper-works-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper1.png'); ?>"/>
+                          <img alt="" aria-describedby="how-paper-works-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="how-paper-works-figure-caption-1">
+                      <figcaption id="how-paper-works-figure-caption-0">
                         <p>两片材料的接缝</p>
                       </figcaption>
                     </figure>
@@ -61,7 +63,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>阶层</h1>
                     <p>两个 Z 轴位置不同的材料片重叠时，会形成<strong>阶层</strong>。这两个材料会相互独立移动。</p>
@@ -70,10 +72,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="how-paper-works-figure-caption-2" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper2.png'); ?>"/>
+                          <img alt="" aria-describedby="how-paper-works-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="how-paper-works-figure-caption-2">
+                      <figcaption id="how-paper-works-figure-caption-1">
                         <p>两片重叠的材料构成的阶层</p>
                       </figcaption>
                     </figure>
@@ -96,43 +98,49 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>浮动操作按钮</h1>
                     <p><strong>浮动操作按钮</strong>是和工具栏分离的圆形纸片。它表示单个被提升的操作。</p>
                     <p>如果它和阶层中的内容创建有关，则可以跨越一个阶层。</p>
                   </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="floating-action-button-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions1.png'); ?>"/>
+                  <div class="module">
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1520px">
+                          <div class="frame" style="padding-top: 47.3684210526%">
+                            <img alt="" aria-describedby="floating-action-button-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions1.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="floating-action-button-figure-caption-1"><br>
-                        <p>跨阶层的浮动操作按钮</p>
-                      </figcaption>
-                    </figure>
+                        <figcaption id="floating-action-button-figure-caption-0"><br>
+                          <p>跨阶层的浮动操作按钮</p>
+                        </figcaption>
+                      </figure>
+                    <br/>
+                    </p>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-module col-2">
                   <div class="module">
                     <p>如果浮动操作按钮与两个材料的内容都有关，则可以跨越接缝。</p>
                     <p>不要引入一个装饰用的接缝，来为浮动操作按钮提供锚点。</p>
                   </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1520px">
-                        <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="floating-action-button-figure-caption-2" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions2.png'); ?>"/>
+                  <div class="module">
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1520px">
+                          <div class="frame " style="padding-top: 47.3684210526%">
+                            <img alt="" aria-describedby="floating-action-button-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions2.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="floating-action-button-figure-caption-2"><br>
-                        <p>跨接缝的浮动操作按钮</p>
-                      </figcaption>
-                    </figure>
+                        <figcaption id="floating-action-button-figure-caption-1"><br>
+                          <p>跨接缝的浮动操作按钮</p>
+                        </figcaption>
+                      </figure>
+                      <br/>
+                    </p>
                   </div>
                 </section>
               </div>
