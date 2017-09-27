@@ -10,7 +10,7 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <h2><strong>仅支持 Android</strong></h2>
+          <h2>仅支持 Android</h2>
           <h1>分屏模式支持在屏幕上同时显示两个活动。</h1>
         </div>
       </div>
@@ -47,7 +47,7 @@
               <h1>需要用户主动激活</h1>
               <p>应用不能自行进入分屏模式；必须由用户主动激活。</p>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>启动新的活动</h1>
                     <p>当应用启动新的活动时，默认会显示在<strong>屏幕中的相同部分</strong>。应用将根据需要重新调整尺寸以适应分屏视图（除非你的应用不兼容分屏模式）。</p>
@@ -62,10 +62,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 65.7894736842%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usage-figure-caption-1">
+                      <figcaption id="usage-figure-caption-0">
                         <p>手机上的纵向分屏模式（左图），平板上的横向分屏模式（右图）</p>
                       </figcaption>
                     </figure>
@@ -112,7 +112,7 @@
               <p>为了支持分屏模式的使用，可见内容应该缩放到适当的大小和密度。</p>
               <p>主操作需要适配分屏模式。例如，导航标签可以折叠到菜单中。</p>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>响应式 UI</h1>
                     <p>分屏模式下的应用应优先根据设备尺寸和方向来调整。</p>
@@ -127,20 +127,20 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
+                          <img alt="" aria-describedby="layout-figure-caption-0" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="layout-figure-caption-1">
+                      <figcaption id="layout-figure-caption-0">
                         <p>应用可以在手机（左图）和平板（右图）中使用相同的布局。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-2" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
+                          <img alt="" aria-describedby="layout-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="layout-figure-caption-2">
+                      <figcaption id="layout-figure-caption-1">
                         <p>应用可以在手机（左图）和平板（右图）中使用不同的布局。</p>
                       </figcaption>
                     </figure>
@@ -148,7 +148,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>为小尺寸设计</h1>
                     <p>为了使应用更方便的设配各种尺寸的分屏模式，建议首先为最小尺寸做设计。</p>
@@ -158,10 +158,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="layout-figure-caption-3" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
+                          <img alt="" aria-describedby="layout-figure-caption-2" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="layout-figure-caption-3">
+                      <figcaption id="layout-figure-caption-2">
                         <p>在手机上，当处于分屏模式时，应用竖直方向上的长宽比为 16:9。</p>
                       </figcaption>
                     </figure>
@@ -170,10 +170,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-4" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
+                          <img alt="" aria-describedby="layout-figure-caption-3" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="layout-figure-caption-4">
+                      <figcaption id="layout-figure-caption-3">
                         <p>在平板上，当处于分屏模式时，应用在竖直方向上的长宽比为 34.15%。</p>
                       </figcaption>
                     </figure>
