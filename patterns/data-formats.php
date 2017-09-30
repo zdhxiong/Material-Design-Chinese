@@ -12,13 +12,13 @@
         <div>
           <h1>使用格式化的数据，来表示不同类型的数值和语言。</h1>
           <div class="col-list">
-            <section class="module-module-module col-3">
+            <section class="module-module-module col-3 h3-spacing">
               <div class="module">
                 <p><strong>日期和时间</strong>可以格式化，用于表示时间范围、时区、缩写等适合用户所处情境的格式。</p>
                 <p><strong>数据修订和截断</strong>指南介绍了如何表示截断的数字，以及如何对敏感数据进行伪装。</p>
               </div>
               <div class="module">
-                <h3><strong>格式包括</strong></h3>
+                <h3>格式包括</h3>
                 <p>时间<br>
                   月，日，年<br>
                   大致时间<br>
@@ -66,7 +66,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>日期和时间</h1>
                     <p>如何格式化日期和时间取决于以下几个因素：</p>
@@ -111,7 +111,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>时间和日期范围</h1>
                     <p>日期和时间范围根据下列几个因素进行格式化：</p>
@@ -148,7 +148,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>时区</h1>
                     <p>因为不同地区的时区不同，使用时区时，要确保目的明确和有意义。</p>
@@ -182,7 +182,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>根据用户所处情境修改日期和时间</h1>
                     <p>根据所处情境，显示日期或时间，或同时显示日期和时间。</p></div>
@@ -227,7 +227,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>缩写</h1>
                     <p>如果空间有限，月和日部分可以使用缩写</p>
@@ -295,8 +295,9 @@
               <h1>截断数值</h1>
               <p>居中的椭圆[• • •]是隐藏部分敏感数据的符号字符。它们指示何时数字是不完全可见的（例如信用卡或社保号码）。</p>
               <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module"><h3><strong>何时使用 3 个点的居中椭圆</strong></h3>
+                <section class="module-module-module col-3 h3-spacing">
+                  <div class="module">
+                    <h3>何时使用 3 个点的居中椭圆</h3>
                     <p>要隐藏大部分数字，例如社保号码，请使用三个点的居中椭圆[• • •]。</p>
                     <p>你可以跨字体和平台使用此格式：<br>
                       1. 在第一个椭圆之前放置两个空格<br>
@@ -311,9 +312,9 @@
                   </div>
                   <div class="module"></div>
                 </section>
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h3-spacing">
                   <div class="module">
-                    <h3><strong><strong>何时使用 4 个居中椭圆</strong></strong></h3>
+                    <h3>何时使用 4 个居中椭圆</h3>
                     <p>信用卡和借记卡数据必须使用 4 个居中椭圆进行隐藏 [• • • •].</p>
                     <p>用 Unicode 表示：<br>
                       U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006,U2022,U2006</p>
@@ -329,11 +330,11 @@
                   </div>
                   <div class="module"></div>
                 </section>
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>减少字母</h1>
                     <p>底线椭圆[...]表示未显示的字母、单词或短语。它们还可以表示名称或邮件地址仅部分可见。</p>
-                    <h3><strong><strong>用法</strong></strong></h3>
+                    <h3>用法</h3>
                     <p>在显示的最后一个字母后面输入三个点号（或者 Unicode 字符 U2026）。</p>
                   </div>
                   <div class="module">
