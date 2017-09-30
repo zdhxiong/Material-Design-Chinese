@@ -73,10 +73,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="confirmation-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png'); ?>"/>
+                          <img alt="" aria-describedby="confirmation-figure-caption-0" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="confirmation-figure-caption-1">
+                      <figcaption id="confirmation-figure-caption-0">
                         <p>用户请求从库中删除一个相册，会显示一个<a href="https://developer.android.com/design/building-blocks/dialogs.html#alerts" target="_blank">警告框</a>来确认此操作，并告知用户此相册在任何设备上都将不能使用。</p>
                       </figcaption>
                     </figure>
@@ -85,10 +85,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="confirmation-figure-caption-2" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png'); ?>"/>
+                          <img alt="" aria-describedby="confirmation-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="confirmation-figure-caption-2">
+                      <figcaption id="confirmation-figure-caption-1">
                         <p>启用 Android Beam 后，系统会提示用户触摸要共享的内容。如果用户决定不共享了，只需把手机移开即可。</p>
                       </figcaption>
                     </figure>
@@ -119,10 +119,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="acknowledgement-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png'); ?>"/>
+                          <img alt="" aria-describedby="acknowledgement-figure-caption-0" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="acknowledgement-figure-caption-1">
+                      <figcaption id="acknowledgement-figure-caption-0">
                         <p>如果用户从撰写界面向后或向上导航，则会保存电子邮件的草稿，一个 toast 形式的确知出现，然后几秒钟后淡出。</p>
                       </figcaption>
                     </figure>
@@ -131,10 +131,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="acknowledgement-figure-caption-2" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png'); ?>"/>
+                          <img alt="" aria-describedby="acknowledgement-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="acknowledgement-figure-caption-2">
+                      <figcaption id="acknowledgement-figure-caption-1">
                         <p>在用户从列表视图中删除一个会话后，将出现一个带有撤销选项的确认。它会持续显示，直到用户采取了不相关的操作，例如滚动列表。</p>
                       </figcaption>
                     </figure>
