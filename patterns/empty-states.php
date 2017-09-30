@@ -12,7 +12,7 @@
         <div>
           <h1>无法显示项目的内容时会显示空状态。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>不包含任何项目的列表，或不包含任何结果的搜索，都是空状态的例子。虽然这些状态并不具有代表性，但它们也应该被设计成防止用户混淆。</p>
                 <p>对于由于系统故障而无法显示的内容，请参阅<a href="errors.html#errors-app-errors">应用错误</a>。</p>
@@ -84,10 +84,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="displaying-empty-states-figure-caption-1">
+                      <figcaption id="displaying-empty-states-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>图像应该是素净的，视觉上能成为背景的一部分。标语应该传达应用的用途，而不要让用户去执行某项操作。</p>
                       </figcaption>
@@ -97,10 +97,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="displaying-empty-states-figure-caption-2">
+                      <figcaption id="displaying-empty-states-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>图像太过鲜明，标语不应该使用号召性的文字，这可能会导致用户去触摸图像或标语来开始视频聊天。</p>
                       </figcaption>
@@ -131,19 +131,19 @@
                     <p>使新用户学习使用并对应用感兴趣的最有效的途径是让用户使用它。考虑提供一个启动器内容，以便用户能立即浏览你的应用。</p>
                     <p>建议：</p>
                     <ul class="lst-kix_49cmhgvnnhb4-0 start">
-                      <li>使用具有显著吸引力并展示主要功能的内容。</li>
-                      <li>使用户能删除和替换此内容。</li>
-                      <li>如果有可能，提供个性化的内容。</li>
+                      <li>使用具有显著吸引力并展示主要功能的内容</li>
+                      <li>使用户能删除和替换此内容</li>
+                      <li>如果有可能，提供个性化的内容</li>
                     </ul>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="avoiding-completely-empty-states-figure-caption-1">
+                      <figcaption id="avoiding-completely-empty-states-figure-caption-0">
                         <p>一个图书阅读应用可以为所有用户提供几本免费流行的书籍，以便用户可以立即开始探索该应用。</p>
                       </figcaption>
                     </figure>
@@ -158,19 +158,19 @@
                     <p>如果屏幕的目的不易通过图片和标语来传达，请考虑显示教育性的内容。</p>
                     <p>建议：</p>
                     <ul class="lst-kix_6zm2x7h92bnt-0 start">
-                      <li>帮助用户了解在此屏幕上有新内容后，他们能在此屏幕上执行哪些操作。</li>
-                      <li>可以关闭或跳过此内容。</li>
-                      <li>保持简短。</li>
+                      <li>帮助用户了解在此屏幕上有新内容后，他们能在此屏幕上执行哪些操作</li>
+                      <li>可以关闭或跳过此内容</li>
+                      <li>保持简短</li>
                     </ul>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="avoiding-completely-empty-states-figure-caption-2">
+                      <figcaption id="avoiding-completely-empty-states-figure-caption-1">
                         <p>用户在一个电影应用中观看视频之前，显示一个可移除的卡片，以说明服务的功能和优点。</p>
                       </figcaption>
                     </figure>
@@ -189,10 +189,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="avoiding-completely-empty-states-figure-caption-3">
+                      <figcaption id="avoiding-completely-empty-states-figure-caption-2">
                         <p>最佳匹配示例</p>
                       </figcaption>
                     </figure>
@@ -201,10 +201,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-4" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="avoiding-completely-empty-states-figure-caption-4">
+                      <figcaption id="avoiding-completely-empty-states-figure-caption-3">
                         <p>提供最佳匹配是一个处理用户拼写错误，且不把责任推给用户的好方法。</p>
                       </figcaption>
                     </figure>
