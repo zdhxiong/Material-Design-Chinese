@@ -12,13 +12,13 @@
         <div>
           <h1>启动页是用户对应用的第一个体验。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p><strong>占位 UI</strong> 会显示应用的核心结构元素，例如状态栏和应用栏，直到应用内容加载完成。</p>
                 <p><strong>品牌启动页</strong>显示你的 Logo 或其他元素，以提高品牌认知度。</p>
               </div>
               <div class="module">
-                <h3><strong>用法</strong></h3>
+                <h3>用法</h3>
                 <p>占位 UI 适用于加载时间非常短的应用。</p>
               </div>
               <div class="figure">
@@ -74,10 +74,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-launch-screens-figure-caption-1">
+                      <figcaption id="types-of-launch-screens-figure-caption-0">
                         <p>品牌启动页</p>
                       </figcaption>
                     </figure>
@@ -86,10 +86,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-2" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="types-of-launch-screens-figure-caption-2">
+                      <figcaption id="types-of-launch-screens-figure-caption-1">
                         <p>占位 UI</p>
                       </figcaption>
                     </figure>
@@ -116,16 +116,16 @@
                   <div class="module">
                     <p>当应用的加载时间非常短，或没有强烈的品牌需求时，使用占位 UI 可以显示尽可能少的过渡效果，和提供最快的响应速度。</p>
                     <p>启动时，核心结构元素（例如状态栏、应用栏和底部卡片）将在没有内容的情况下显示，直至应用内容加载完毕。</p>
-                    <h2><strong> </strong></h2>
+                    <h2></h2>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placeholder-ui-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
+                          <img alt="" aria-describedby="placeholder-ui-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="placeholder-ui-figure-caption-1">
+                      <figcaption id="placeholder-ui-figure-caption-0">
                         <p>占位 UI 示例</p>
                       </figcaption>
                     </figure>
@@ -150,19 +150,19 @@
             <div>
               <p>品牌启动页可以在应用加载内容时展示品牌形象，利用加载时间来显示 Logo 或其他元素，来提高品牌识别度。避免在此屏幕上使用文字，但你的 Logo 和标语（适用的话）除外。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>品牌启动页</strong></h2>
+                    <h2>品牌启动页</h2>
                     <p>启动页应该用于初始化、从主屏幕冷启动，如果应用正在运行、或应用是从其他应用中启动的，则不显示启动页。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="branded-launch-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                          <img alt="" aria-describedby="branded-launch-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="branded-launch-figure-caption-1">
+                      <figcaption id="branded-launch-figure-caption-0">
                         <p>品牌启动页示例</p>
                       </figcaption>
                     </figure>
