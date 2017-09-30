@@ -12,7 +12,7 @@
         <div>
           <h1>应用无法完成预期操作时会发生错误。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>一些错误示例包括：</p>
                 <ul class="lst-kix_29eeo766e8cf-0 start">
@@ -22,11 +22,11 @@
                 </ul>
               </div>
               <div class="module">
-                <h3><strong>错误类型</strong></h3>
+                <h3>错误类型</h3>
                 <p>用户输入错误<br>
                   应用错误<br>
                   不兼容的状态错误</p>
-                <h3><strong>具体的错误模式</strong></h3>
+                <h3>具体的错误模式</h3>
                 <p>表单<br>
                   普通使用错误<br>
                   同步错误<br>
@@ -107,7 +107,7 @@
             <div>
               <p>在监测到用户输入错误后立即帮助用户进行修复。如果监测到错误，则禁用提交表单功能，如果仅在提交表单后才能监测到错误，清楚地说明错误原因和修复方式。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module"><h1>文本字段输入</h1>
                     <p><strong>帮助文本</strong>可以包含在用户与表单上的每个字段交互之前、期间和之后。</p>
                     <p>仅在用户与输入字段交互之后才显示<strong>错误文本</strong>。如果用户输入了不正确的数据，帮助文本可能会转换为错误文本。</p>
@@ -119,10 +119,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput1.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-1">
+                      <figcaption id="user-input-errors-figure-caption-0">
                         <p>文本输入框示例</p>
                       </figcaption>
                     </figure>
@@ -131,10 +131,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput2.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-2">
+                      <figcaption id="user-input-errors-figure-caption-1">
                         <p>带有错误文本的文本输入框示例</p>
                       </figcaption>
                     </figure>
@@ -142,7 +142,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>表单提交</h1>
                     <p>默认情况下，提交按钮应处于启用状态。</p>
@@ -152,7 +152,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>颜色</h1>
                     <p>错误文本应该反映产品的<a href="../style/color.html">色调</a>。建议对错误状态使用对比度较高的颜色，例如像红色或橙色之类的暖色调。</p>
@@ -161,7 +161,7 @@
                   </div>
                   <div class="module"></div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>浅色背景下的字体</h2>
                     <ul class="lst-kix_ok30zaagthgs-0 start">
@@ -173,16 +173,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 55.7894736842%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput3.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-3">
+                      <figcaption id="user-input-errors-figure-caption-2">
                         <p>浅色主题下的这些状态：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>深色背景下的字体</h2>
                     <ul class="lst-kix_ok30zaagthgs-0">
@@ -194,10 +194,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 55.7894736842%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput4.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-4">
+                      <figcaption id="user-input-errors-figure-caption-3">
                         <p>深色主题下的这些状态：带提示文本的正常状态，带错误文本的正常状态，带帮助文本的正常状态，带帮助文本和错误文本的正常状态</p>
                       </figcaption>
                     </figure>
@@ -205,7 +205,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>帮助和错误文本</h2>
                   </div>
@@ -213,10 +213,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-5" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput5.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-5">
+                      <figcaption id="user-input-errors-figure-caption-4">
                         <p>帮助文本示例</p>
                       </figcaption>
                     </figure>
@@ -225,10 +225,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-6" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput6.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-5" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-6">
+                      <figcaption id="user-input-errors-figure-caption-5">
                         <p>错误文本示例</p>
                       </figcaption>
                     </figure>
@@ -240,10 +240,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-7" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput7.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-6" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput7.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-7">
+                      <figcaption id="user-input-errors-figure-caption-6">
                         <p>帮助文本示例</p>
                       </figcaption>
                     </figure>
@@ -252,10 +252,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-8" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput8.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-7" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput8.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-8">
+                      <figcaption id="user-input-errors-figure-caption-7">
                         <p>错误文本示例</p>
                       </figcaption>
                     </figure>
@@ -269,10 +269,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-9" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput9.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-8" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput9.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-9">
+                      <figcaption id="user-input-errors-figure-caption-8">
                         <p>带帮助文本的正常状态，和带帮助文本和错误文本的正常状态示例</p>
                       </figcaption>
                     </figure>
@@ -286,10 +286,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 17.7777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-10" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline1.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-9" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-10">
+                      <figcaption id="user-input-errors-figure-caption-9">
                         <p>输入文本和错误文本</p>
                         <p>瓦片高度：64dp<br>
                           输入文本上方边距：16dp<br>
@@ -302,7 +302,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>带浮动文本标签的错误文本</h2>
                   </div>
@@ -310,10 +310,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-11" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput10.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-10" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput10.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-11">
+                      <figcaption id="user-input-errors-figure-caption-10">
                         <p>已有输入文字的浮动文本标签示例</p>
                       </figcaption>
                     </figure>
@@ -322,10 +322,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-12" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput11.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-11" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput11.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-12">
+                      <figcaption id="user-input-errors-figure-caption-11">
                         <p>有错误文本的浮动文本标签示例</p>
                       </figcaption>
                     </figure>
@@ -339,10 +339,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-13" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput12.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-12" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput12.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-13">
+                      <figcaption id="user-input-errors-figure-caption-12">
                         <p>带提示文本的正常状态，带输入文本，标签和错误文本的正常状态示例</p>
                       </figcaption>
                     </figure>
@@ -356,10 +356,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-14" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline2.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-13" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-14">
+                      <figcaption id="user-input-errors-figure-caption-13">
                         <p>浮动文本标签规格</p>
                         <p>瓦片高度：80dp<br>
                           标签文本上方边距：8dp<br>
@@ -378,7 +378,7 @@
                 <li>计数器字段有 16dp 的额外的底部边距</li>
               </ul>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>带字符计数器的单行输入框</h2>
                   </div>
@@ -386,10 +386,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-15" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput13.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-14" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput13.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-15">
+                      <figcaption id="user-input-errors-figure-caption-14">
                         <p>带有字符计数器和输入文本的单行输入框示例</p>
                       </figcaption>
                     </figure>
@@ -398,26 +398,26 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-16" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput14.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-15" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput14.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-16">
+                      <figcaption id="user-input-errors-figure-caption-15">
                         <p>带字符计数器和错误文本的单行输入框示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>带字符计数器的多行输入框</h2></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-17" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput15.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-16" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput15.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-17">
+                      <figcaption id="user-input-errors-figure-caption-16">
                         <p>带有字符计数器和已输入的文本的多行文本框示例</p>
                       </figcaption>
                     </figure>
@@ -426,10 +426,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-18" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput16.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-17" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput16.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-18">
+                      <figcaption id="user-input-errors-figure-caption-17">
                         <p>带有字符计数器和错误文本的多行输入框示例</p>
                       </figcaption>
                     </figure>
@@ -443,10 +443,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 80.0%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-19" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput17.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-18" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput17.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-19">
+                      <figcaption id="user-input-errors-figure-caption-18">
                         <p>这些状态的示例：含已输入的文本的单行输入框，含错误文本的单行输入框，含已输入文本的多行输入框，含错误文本的多行输入框</p>
                       </figcaption>
                     </figure>
@@ -460,10 +460,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 24.4444444444%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-20" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline3.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-19" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-20">
+                      <figcaption id="user-input-errors-figure-caption-19">
                         <p>文本框输入</p>
                         <p>整个输入区域高度：88dp</p>
                         <p>单行文本框标签顶部边距：16dp<br>
@@ -476,7 +476,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>不兼容的值</h1>
                     <p>在用户与文本字段交互期间或之后显示不兼容值的错误。</p>
@@ -492,10 +492,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-21" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput18.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-20" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput18.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-21">
+                      <figcaption id="user-input-errors-figure-caption-20">
                         <p>表单示例</p>
                       </figcaption>
                     </figure>
@@ -504,16 +504,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-22" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput19.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-21" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput19.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-22">
+                      <figcaption id="user-input-errors-figure-caption-21">
                         <p>提交表单后检测到错误的示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>未完成的表单</h1>
                     <p>空的表单字段应该用文本框下面的错误文本指示。</p>
@@ -525,10 +525,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-23" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput21.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-22" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput21.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-23">
+                      <figcaption id="user-input-errors-figure-caption-22">
                         <p>表单示例</p>
                       </figcaption>
                     </figure>
@@ -537,26 +537,26 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-24" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput22.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-23" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput22.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-24">
+                      <figcaption id="user-input-errors-figure-caption-23">
                         <p>未完成的表单示例</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h1-spacing">
                   <div class="module">
                     <h1>单行列表错误</h1></div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-25" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput23.png'); ?>"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-24" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput23.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="user-input-errors-figure-caption-25">
+                      <figcaption id="user-input-errors-figure-caption-24">
                         <p>单行列表错误示例</p>
                       </figcaption>
                     </figure>
@@ -581,8 +581,9 @@
             <div>
               <p>应用错误和用户的输入无关。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"><h1>一般的应用错误</h1>
+                <section class="module-figure-figure col-3 h1-spacing">
+                  <div class="module">
+                    <h1>一般的应用错误</h1>
                     <p>当出现错误时，在显示错误消息之前应显示加载提示符。</p>
                     <p>不可用的功能可以在 UI 中用禁用状态表示。例如，按钮可能不能以禁用状态显示，则需要用匹配的文本来说明按钮不可用。不是每个错误都需要弹出一个新的组件。</p>
                     <p>如果有可能，请为用户提供一个操作，以帮助他们解决错误。</p>
@@ -591,10 +592,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app1.png'); ?>"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="app-errors-figure-caption-1">
+                      <figcaption id="app-errors-figure-caption-0">
                         <p>警告框：阻止了正常操作的错误，使用警告框来作为反馈</p>
                       </figcaption>
                     </figure>
@@ -603,14 +604,17 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app2.png'); ?>"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app2.png'); ?>"/>
                         </div>
                       </div>
+                      <figcaption id="app-errors-figure-caption-1">
+                        <p></p>
+                        <p>snackbar 可以显示次要的错误。Snackbars 是短暂显示的。不要把 snackbar 用于重要的、需要持续显示的、或大量的错误。</p>
+                      </figcaption>
                     </figure>
-                    <p>snackbar 可以显示次要的错误。Snackbars 是短暂显示的。不要把 snackbar 用于重要的、需要持续显示的、或大量的错误。</p>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>同步错误/加载失败</h1>
                     <p>当遇到同步错误或加载失败时，应该让用户尽可能可以和应用的其余部分进行交互。</p>
@@ -640,7 +644,7 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>网络连接</h1>
                     <p>当连接断开时，用户应该尽可能多的能和应用的其余部分进行交互。</p>
@@ -650,20 +654,23 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app5.png'); ?>"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app5.png'); ?>"/>
                         </div>
                       </div>
+                      <figcaption id="app-errors-figure-caption-4">
+                        <p></p>
+                        <p>带操作的 Snackbar 来重试</p>
+                      </figcaption>
                     </figure>
-                    <p>带操作的 Snackbar 来重试</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app6.png'); ?>"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-5" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="app-errors-figure-caption-4">
+                      <figcaption id="app-errors-figure-caption-5">
                         <p>只有在线状态才可用时，显示的空状态</p>
                       </figcaption>
                     </figure>
@@ -687,9 +694,9 @@
             <div>
               <p>当用户试图进行不兼容的操作时，会发生不兼容的状态错误，例如，在飞行模式下打电话、或在受限模式下进行截屏。让用户清楚的知道他们所选择的状态以及会造成的影响，以避免用户进入这些状态。当这些错误被触发时，并不代表是用户的错误。</p>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>一般的不兼容</strong></h2>
+                    <h2>一般的不兼容</h2>
                     <p>澄清产生错误的原因。</p>
                     <p>例如，在受限模式下，不允许使用截屏和高级功能。</p>
                   </div>
@@ -697,19 +704,19 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state1.png'); ?>"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="incompatible-state-errors-figure-caption-1">
+                      <figcaption id="incompatible-state-errors-figure-caption-0">
                         <p>Snackbar + 特定模式的指示器</p>
                       </figcaption>
                     </figure>
                   </div>
                   <div class="module"></div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>离线状态</strong></h2>
+                    <h2>离线状态</h2>
                     <p>当用户处于离线状态，但尝试执行需要联网的任务时，显示一个持续显示的、不显眼的指示符。</p>
                     <p>示例：</p>
                     <ul class="lst-kix_jj4uoi73ffco-0 start">
@@ -721,10 +728,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state2.png'); ?>"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="incompatible-state-errors-figure-caption-2">
+                      <figcaption id="incompatible-state-errors-figure-caption-1">
                         <p>Snackbar</p>
                       </figcaption>
                     </figure>
@@ -733,34 +740,34 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state3.png'); ?>"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="incompatible-state-errors-figure-caption-3">
+                      <figcaption id="incompatible-state-errors-figure-caption-2">
                         <p>指示设备已处于飞行模式。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>请求权限</strong></h2>
+                    <h2>请求权限</h2>
                     <p>如果你的应用需要用户授予权限才能继续操作，请在应用流程中包含权限申请，而不是将其视为错误。</p>
                     <p>如果在首次运行应用之前需要获取权限，请考虑将请求权限的操作包含在应用的首次运行体验中。</p>
                     <p>示例：</p>
                     <ul class="lst-kix_jj4uoi73ffco-0">
-                      <li>应用的权限已变更。</li>
-                      <li>应用内购买已停用。</li>
+                      <li>应用的权限已变更</li>
+                      <li>应用内购买已停用</li>
                     </ul>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state4.png'); ?>"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="incompatible-state-errors-figure-caption-4">
+                      <figcaption id="incompatible-state-errors-figure-caption-3">
                         <p>对话框</p>
                       </figcaption>
                     </figure>
