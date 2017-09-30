@@ -55,36 +55,40 @@
                   <div class="module">
                     <p>屏幕分辨率则是屏幕内的像素总数。</p>
                     <p><strong>屏幕密度 = 以像素为单位的屏幕宽度（或高度） / 以英寸为单位的屏幕宽度（或高度）</strong></p>
-                    <h4 class="related">相关资源</h4>
-                    <div class="modulettes">
-                      <a class="modulette container android" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
-                        <div class="info">
-                          <div class="title">支持多种屏幕</div>
-                          <span class="subtitle">为不同屏幕密度的设备优化设计</span>
-                        </div>
-                        </img>
-                      </a>
-                    </div>
-                    <div class="modulettes">
-                      <a class="modulette container android" href="http://developer.android.com/guide/topics/resources/more-resources.html#Dimension" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
-                        <div class="info">
-                          <div class="title">更多资源类型</div>
-                          <span class="subtitle">Android 支持的度量单位。</span>
-                        </div>
-                        </img>
-                      </a>
-                    </div>
+                    <p><h4 class="related">相关资源</h4></p>
+                    <p>
+                      <div class="modulettes">
+                        <a class="modulette container android" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                          <div class="info">
+                            <div class="title">支持多种屏幕</div>
+                          </div>
+                          </img>
+                        </a>
+                      </div>
+                    为不同屏幕密度的设备优化设计
+                    </p>
+                    <p>
+                      <div class="modulettes">
+                        <a class="modulette container android" href="http://developer.android.com/guide/topics/resources/more-resources.html#Dimension" target="_blank">
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                          <div class="info">
+                            <div class="title">更多资源类型</div>
+                          </div>
+                          </img>
+                        </a>
+                      </div>
+                    Android 支持的度量单位。
+                    </p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="pixel-density-figure-caption-1" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
+                          <img alt="" aria-describedby="pixel-density-figure-caption-0" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="pixel-density-figure-caption-1">
+                      <figcaption id="pixel-density-figure-caption-0">
                         <p><br>
                         高密度屏幕</p>
                       </figcaption>
@@ -97,10 +101,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="pixel-density-figure-caption-2" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
+                          <img alt="" aria-describedby="pixel-density-figure-caption-1" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption>
+                      <figcaption id="pixel-density-figure-caption-1">
                         <p><br>
                         低密度屏幕</p>
                       </figcaption>
