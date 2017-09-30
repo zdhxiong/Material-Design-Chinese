@@ -11,15 +11,15 @@
       <div class="article-content chapter-intro">
         <div>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>材料可以通过合并和分割、改变形状和尺寸，来使材料表面更富生命力。</p>
               </div>
               <div class="module">
-                <h3><strong>矩形转换</strong></h3>
+                <h3>矩形转换</h3>
                 <p>不对称转换<br>
                   对称转换</p>
-                <h3><strong>径向转换</strong></h3>
+                <h3>径向转换</h3>
                 <p>对称和圆形</p>
               </div>
               <div class="figure">
@@ -67,23 +67,24 @@
               <p>当材料改变形状和尺寸时，它的宽度和高度也会沿着运动曲线异步变化。这些改变是和内部与周围的元素经过<a href="choreography.html">编排</a>的。</p>
               <p>在屏幕上发生的所有表面转换，比如以下这些，都使用<a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a>。</p>
               <div class="col-list">
-                <section class="module-figure col-2">
-                  <div class="module"><h1>宽度和高度的转换</h1>
+                <section class="module-figure col-2 h1-spacing">
+                  <div class="module">
+                    <h1>宽度和高度的转换</h1>
                     <p>可以通过对称或不对称的宽度和高度变化来展开或折叠元素。</p>
                     <p><strong>不对称转换</strong>需要宽度和高度以不同的速率变化。当需要改变多个元素的的属性或位置时，最适合使用不对称转换。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-                          <video aria-describedby="rectangular-transformation-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="rectangular-transformation-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="rectangular-transformation-figure-caption-1">
+                      <figcaption id="rectangular-transformation-figure-caption-0">
                         <p>不对称转换</p>
                         <p>要扩展元素的尺寸，请在转换高度之前先稍微转换一下元素的宽度。要折叠元素的尺寸，请在转换宽度之前先稍微转换一下元素的高度。</p>
                       </figcaption>
@@ -97,15 +98,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-                          <video aria-describedby="rectangular-transformation-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="rectangular-transformation-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="rectangular-transformation-figure-caption-2">
+                      <figcaption id="rectangular-transformation-figure-caption-1">
                         <p>对称转换</p>
                         <p>同时变换宽度和高度是一种不太细致的变换方法，最适合简单的形状变更。这些变换比非对称变换的持续时间稍短。</p>
                       </figcaption>
@@ -121,15 +122,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="rectangular-transformation-figure-caption-3" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="rectangular-transformation-figure-caption-2" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="rectangular-transformation-figure-caption-3">
+                      <figcaption id="rectangular-transformation-figure-caption-2">
                         <p>内容（例如全宽的图片）会按恒定的宽高比进行转换，即使它的容器（例如较大的卡片）是沿着运动曲线异步变换的。</p>
                       </figcaption>
                     </figure>
@@ -137,15 +138,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="rectangular-transformation-figure-caption-4" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="rectangular-transformation-figure-caption-3" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="rectangular-transformation-figure-caption-4">
+                      <figcaption id="rectangular-transformation-figure-caption-3">
                         <p>含全出血内容的容器（例如全出血图片）也可以同步展开。</p>
                       </figcaption>
                     </figure>
@@ -175,15 +176,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-1">
+                      <figcaption id="radial-transformation-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>径向转换应该用在圆形表面上，用于转换成矩形表面、或者从输入点创建一个新表面。</p>
                       </figcaption>
@@ -192,15 +193,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-2">
+                      <figcaption id="radial-transformation-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>在两个矩形之间转换时，请不要使用径向转换。</p>
                       </figcaption>
@@ -212,15 +213,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-3" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-2" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-3">
+                      <figcaption id="radial-transformation-figure-caption-2">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要对圆形的宽度和高度使用异步转换。</p>
                       </figcaption>
@@ -229,15 +230,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-4" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-3" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-4">
+                      <figcaption id="radial-transformation-figure-caption-3">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要转换复杂的形状。</p>
                       </figcaption>
@@ -251,15 +252,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-5" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-4" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-5">
+                      <figcaption id="radial-transformation-figure-caption-4">
                         <p>在扩展期间，浮动操作按钮沿着一条弧线向目的地移动，并最终扩展成一张卡片。</p>
                       </figcaption>
                     </figure>
@@ -267,15 +268,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="radial-transformation-figure-caption-6" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="radial-transformation-figure-caption-5" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="radial-transformation-figure-caption-6">
+                      <figcaption id="radial-transformation-figure-caption-5">
                         <p>在转换期间，浮动操作按钮的中心保持在原来的位置，创造了一种更微妙的扩展效果。</p>
                       </figcaption>
                     </figure>
@@ -298,7 +299,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
                     <h2>合并</h2>
                     <p>材料可以合并到其他元素中，或者分割成多个部分。当两片材料彼此接近时，在完成移动前，它们的边缘会相遇且重叠。</p>
@@ -310,15 +311,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="joining-dividing-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="joining-dividing-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="joining-dividing-figure-caption-1">
+                      <figcaption id="joining-dividing-figure-caption-0">
                         <p>材料合并和分离的示例</p>
                       </figcaption>
                     </figure>
