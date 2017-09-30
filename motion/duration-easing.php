@@ -11,7 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>材料的动画灵敏且自然。使用这些缓动曲线和持续时间模式来创建平滑连贯的动效。</p>
               </div>
@@ -75,15 +75,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="speed-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="speed-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="speed-figure-caption-1">
+                      <figcaption id="speed-figure-caption-0">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>动画要足够快，这样用户无需等待动画结束。</p>
                       </figcaption>
@@ -92,15 +92,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 100.0%">
-                          <video aria-describedby="speed-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
+                          <video aria-describedby="speed-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="speed-figure-caption-2">
+                      <figcaption id="speed-figure-caption-1">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使动画过慢，因为这样会导致不必要的延迟。</p>
                       </figcaption>
@@ -132,15 +132,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video aria-describedby="dynamic-durations-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="dynamic-durations-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="dynamic-durations-figure-caption-1">
+                      <figcaption id="dynamic-durations-figure-caption-0">
                         <p>物体需要移动较长距离、或者面积的变化较大时，需要使用较长的动画时长。</p>
                       </figcaption>
                     </figure>
@@ -151,15 +151,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video aria-describedby="dynamic-durations-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video aria-describedby="dynamic-durations-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="dynamic-durations-figure-caption-2">
+                      <figcaption id="dynamic-durations-figure-caption-1">
                         <p>物体需要移动的距离较短、或者面积的变化较小时，需要使用较短的动效时长，这样动画看起来不会显得很缓慢。</p>
                       </figcaption>
                     </figure>
@@ -182,7 +182,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module"><h2>移动端</h2>
                     <p>移动端的过渡时长通常在 300ms 内，根据情况可做如下调整：</p>
                     <ul class="lst-kix_j29t0uw7155t-0 start">
@@ -201,15 +201,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 71.0526315789%">
-                          <video aria-describedby="common-durations-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 71.0526315789%">
+                          <video aria-describedby="common-durations-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="common-durations-figure-caption-1">
+                      <figcaption id="common-durations-figure-caption-0">
                         <p>因为在大屏设备上，元素需要移动更长的距离，所以过渡动画会比小屏设备稍慢一点。</p>
                       </figcaption>
                     </figure>
@@ -217,7 +217,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h2-spacing">
                   <div class="module">
                     <h2>桌面端</h2>
                     <p>桌面端的动画应该比手机端更快、更简单。动画的持续时间应保持在 150ms 到 200ms 之间。</p>
@@ -227,15 +227,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 57.8947368421%">
-                          <video aria-describedby="common-durations-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 57.8947368421%">
+                          <video aria-describedby="common-durations-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="common-durations-figure-caption-2">
+                      <figcaption id="common-durations-figure-caption-1">
                         <p>桌面端的过渡动画会更快。</p>
                       </figcaption>
                     </figure>
@@ -266,8 +266,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -284,8 +284,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -297,14 +297,15 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module col-1">
-                  <div class="module"><h1>缓动曲线</h1>
+                <section class="module col-1 h1-spacing">
+                  <div class="module">
+                    <h1>缓动曲线</h1>
                     <p>根据所使用的平台或软件不同，缓动曲线会有不同的命名。这份指南把它们称为标准曲线、减速曲线、加速曲线和夏普曲线。</p>
                   </div>
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>标准曲线</h1>
                     <p>标准曲线（也称为 “ease in out” ）是最常见的缓动曲线。元素会在屏幕上的位置之间快速加速，缓慢减速。它主要用于材料变大变小，以及其他属性改变的动画。</p>
@@ -313,7 +314,7 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.mp4'); ?>" type="video/mp4">
@@ -359,7 +360,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>减速曲线</h1>
                     <p>使用减速曲线（也称为 “ease out” ）时，元素会全速进入屏幕，然后缓慢减速到目标位置。</p>
@@ -369,8 +370,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -409,7 +410,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module">
                     <h1>加速曲线</h1>
                     <p>使用加速曲线（也称为 “ease in” ）时，元素会全速离开屏幕。离开屏幕时不会减速。</p>
@@ -419,8 +420,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
@@ -460,7 +461,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-figure col-2">
+                <section class="module-figure col-2 h1-spacing">
                   <div class="module"><h1>夏普曲线<br>
                   </h1>
                     <p>使用夏普曲线（也称为 “ease in out” ）时，元素会很快的加速和减速。主要用在已有的元素离开屏幕后重新返回时。</p>
@@ -470,8 +471,8 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 46.0526315789%">
-                          <video controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
+                          <video controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
