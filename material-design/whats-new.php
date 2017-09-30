@@ -9,25 +9,25 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><h1>April 2017</h1>
-          <p><strong>Significant updates</strong></p>
+        <div><h1>September 2017</h1>
+          <p><strong>New sections</strong></p>
           <ul class="lst-kix_7b172x40bap-0 start">
-            <li>Updated guidance on the <a href="../style/color.html#color-color-system">Material Design color
-                system</a>, usability, and a brand new <a href="../style/color.html#color-color-tool">Color Tool</a> for
-              creating color palettes and testing accessibility
+            <li><a href="../patterns/offline-states.html">Offline states</a> describes how to customize apps for users
+              without internet access
             </li>
-            <li><a href="../components/text-fields.html">Text fields</a> expands on usage basics and introduces <a
-                href="../components/text-fields.html#text-fields-text-field-boxes">text field boxes</a> for increasing
-              text field discoverability
-            </li>
-            <li><a
-                href="../usability/bidirectionality.html#bidirectionality-rtl-mirroring-guidelines">Bidirectionality</a>
-              has added resource links to developer guidance on right-to-left (RTL) icons
+          </ul>
+          <p><strong>Updates for Android O</strong></p>
+          <ul class="lst-kix_7b172x40bap-0">
+            <li>Updated guidance on categorizing <a href="../patterns/notifications.html">notifications</a> into <a
+                href="../patterns/notifications.html#notifications-settings">channels</a> and a new <a
+                href="../patterns/notifications.html#notifications-templates">messaging template</a></li>
+            <li>How to create <a href="../style/icons.html#icons-icons-for-android">icons for Android O</a></li>
+            <li>Simplified guidance on how <a href="../patterns/settings.html#settings-grouping-settings">settings</a>
+              are grouped, titled, and styled
             </li>
           </ul>
         </div>
       </div>
-
 
       <nav class="chapter-toc">
         <h1>Contents</h1>
@@ -55,7 +55,22 @@
             </svg>
           </h2>
           <div class="article-content">
-            <div><h1>December 2016 </h1>
+            <div><h1>April 2017</h1>
+              <p><strong>Significant updates</strong></p>
+              <ul class="lst-kix_udpl2y3stxm0-0 start">
+                <li>Updated guidance on the <a href="../style/color.html#color-color-system">Material Design color
+                    system</a>, usability, and a brand new <a href="../style/color.html#color-color-tool">Color Tool</a>
+                  for creating color palettes and testing accessibility
+                </li>
+                <li><a href="../components/text-fields.html">Text fields</a> expands on usage basics and introduces <a
+                    href="../components/text-fields.html#text-fields-text-field-boxes">text field boxes</a> for increasing
+                  text field discoverability
+                </li>
+                <li><a href="../usability/bidirectionality.html#bidirectionality-rtl-mirroring-guidelines">Bidirectionality</a>
+                  has added resource links to developer guidance on right-to-left (RTL) icons
+                </li>
+              </ul>
+              <h1>December 2016 </h1>
               <p><strong>New sections</strong></p>
               <ul class="lst-kix_g4h3ukchmgfo-0 start">
                 <li><a href="../platforms/platform-adaptation.html">Platforms</a> discusses when and how to adapt apps
