@@ -12,12 +12,12 @@
         <div>
           <h1>导航转换是在应用的不同状态间移动，例如从高级视图进入详细视图。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>大多数（但不是全部）转换都在自然的层次之间。这些时刻应该通过应用的不同状态来反应出用户的前进方向。</p>
               </div>
               <div class="module">
-                <h3><strong>层次结构和海拔高度</strong></h3>
+                <h3>层次结构和海拔高度</h3>
                 <p>当元素升高并展开，海拔高度的改变指示出了焦点从<strong>父级移动到了子级</strong>。</p>
                 <p><strong>同级转换</strong>出现在处于同一层次结构的元素之间，没有海拔高度的变化。</p>
               </div>
@@ -71,15 +71,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 684px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-                          <video aria-describedby="parent-to-child-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="parent-to-child-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="parent-to-child-figure-caption-1">
+                      <figcaption id="parent-to-child-figure-caption-0">
                         <p>父级到子级的转换动画</p>
                       </figcaption>
                     </figure>
@@ -90,15 +90,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-                          <video aria-describedby="parent-to-child-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="parent-to-child-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="parent-to-child-figure-caption-2">
+                      <figcaption id="parent-to-child-figure-caption-1">
                         <p>父级到子级的转换动画</p>
                       </figcaption>
                     </figure>
@@ -130,15 +130,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-                          <video aria-describedby="sibling-to-sibling-figure-caption-1" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+                          <video aria-describedby="sibling-to-sibling-figure-caption-0" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="sibling-to-sibling-figure-caption-1">
+                      <figcaption id="sibling-to-sibling-figure-caption-0">
                         <p>同级转换</p>
                       </figcaption>
                     </figure>
@@ -149,15 +149,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 173.611111111%">
-                          <video aria-describedby="sibling-to-sibling-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
+                          <video aria-describedby="sibling-to-sibling-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/navigational-transitions/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="sibling-to-sibling-figure-caption-2">
+                      <figcaption id="sibling-to-sibling-figure-caption-1">
                         <p>同级转换的动画</p>
                       </figcaption>
                     </figure>
