@@ -12,12 +12,12 @@
         <div>
           <h1>滚动技术影响内容相对于应用栏滚动的方式。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>下列这些模式描述了滚动内容的海拔高度，如何调整弹性区域，以及何时固定指定元素。</p>
               </div>
               <div class="module">
-                <h3><strong>应用栏滚动区域</strong></h3>
+                <h3>应用栏滚动区域</h3>
                 <p>状态栏<br>
                   工具栏<br>
                   选项卡栏/搜索栏<br>
@@ -76,10 +76,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="app-bar-scrollable-regions-figure-caption-1">
+                      <figcaption id="app-bar-scrollable-regions-figure-caption-0">
                         <p>应用栏组件可以包括：状态栏、导航栏、选项卡栏/搜索栏、弹性区域</p>
                       </figcaption>
                     </figure>
@@ -88,10 +88,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-2" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="app-bar-scrollable-regions-figure-caption-2">
+                      <figcaption id="app-bar-scrollable-regions-figure-caption-1">
                         <p>状态栏、导航栏、选项卡栏/搜索栏、弹性区域示例</p>
                       </figcaption>
                     </figure>
@@ -114,25 +114,25 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>标准应用栏</h1>
                     <p>规格：</p>
                     <p>标准应用栏在手机上为 56dp，在更大屏幕的设备上为 64dp。</p>
                     <p>应用栏有两个滚动选项：</p>
                     <ol class="lst-kix_xragy2uut2tp-0 start" start="1">
-                      <li>应用栏可以和内容一起<strong>滚动离开屏幕</strong>，并在用户反向滚动时重新回到屏幕。</li>
-                      <li>应用栏可以<strong>固定在屏幕顶部</strong>，内容可以在其下方滚动。</li>
+                      <li>应用栏可以和内容一起<strong>滚动离开屏幕</strong>，并在用户反向滚动时重新回到屏幕</li>
+                      <li>应用栏可以<strong>固定在屏幕顶部</strong>，内容可以在其下方滚动</li>
                     </ol>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-1">
+                      <figcaption id="behavior-figure-caption-0">
                         <p>标准应用栏</p>
                         <p>状态栏高度：24dp<br>
                           工具栏高度：56dp / 64dp</p>
@@ -142,15 +142,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-2">
+                      <figcaption id="behavior-figure-caption-1">
                         <p>滚动时应用栏离开屏幕的动画</p>
                       </figcaption>
                     </figure>
@@ -158,25 +158,25 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>含选项卡的应用栏</h1>
                     <p><a href="http://www.google.com/design/spec/layout/structure.html#structure-app-bar" target="_blank">标准应用栏</a>组件可以包含以下块：工具栏、选项卡栏、弹性区域。</p>
                     <p>选项卡可以具有以下之一的行为：</p>
                     <ol class="lst-kix_cviczu2dcsqt-0 start" start="1">
-                      <li>当滚动时，工具栏离开屏幕时，选项卡栏可以<strong>固定在屏幕顶部</strong>。</li>
-                      <li>应用栏始终固定在屏幕顶部，<strong>内容在应用栏下方滚动</strong>。</li>
-                      <li>工具栏和选项卡栏都会<strong>随着内容一起滚动离开屏幕</strong>。选项卡栏会在反向滚动时重新回到屏幕，工具栏会在完成反向滚动后回到屏幕。</li>
+                      <li>当滚动时，工具栏离开屏幕时，选项卡栏可以<strong>固定在屏幕顶部</strong></li>
+                      <li>应用栏始终固定在屏幕顶部，<strong>内容在应用栏下方滚动</strong></li>
+                      <li>工具栏和选项卡栏都会<strong>随着内容一起滚动离开屏幕</strong>。选项卡栏会在反向滚动时重新回到屏幕，工具栏会在完成反向滚动后回到屏幕</li>
                     </ol>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-3">
+                      <figcaption id="behavior-figure-caption-2">
                         <p>状态栏、工具栏、选项卡栏</p>
                         <p>状态栏高度：24dp<br>
                           工具栏高度：56dp / 64dp<br>
@@ -187,15 +187,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 176.388888889%">
-                          <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 176.388888889%">
+                          <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-4">
+                      <figcaption id="behavior-figure-caption-3">
                         <p>动画显示工具栏滚动时离开屏幕，选项卡栏和应用栏固定在一个地方。</p>
                       </figcaption>
                     </figure>
@@ -203,7 +203,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>弹性区域</h1>
                     <p>因为应用栏是弹性的，它可以扩展以适应更大的排版或图片。要扩展应用栏，请添加一个弹性区域块。</p>
@@ -217,10 +217,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.1666666667%">
-                          <img alt="" aria-describedby="behavior-figure-caption-5" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-5">
+                      <figcaption id="behavior-figure-caption-4">
                         <p>状态栏、工具栏、弹性区域</p>
                         <p>状态栏高度：24dp<br>
                           工具栏高度：56dp / 64dp<br></p>
@@ -230,15 +230,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-6">
+                      <figcaption id="behavior-figure-caption-5">
                         <p>动画显示滚动时的弹性区域</p>
                       </figcaption>
                     </figure>
@@ -246,7 +246,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>含图片的弹性区域</h1>
                     <p>使用弹性区域来容纳应用栏中具有所需宽高比的图片。</p>
@@ -256,10 +256,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-7">
+                      <figcaption id="behavior-figure-caption-6">
                         <p>状态栏、工具栏、弹性区域</p>
                         <p>状态栏高度：24dp<br>
                           工具栏高度：56dp / 64dp<br></p>
@@ -269,15 +269,15 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-8" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-7" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-8">
+                      <figcaption id="behavior-figure-caption-7">
                         <p>动画显示滚动时的弹性区域和图片</p>
                       </figcaption>
                     </figure>
@@ -285,7 +285,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>具有重叠内容的弹性区域</h1>
                     <p>内容可以与应用栏重叠。</p>
@@ -302,10 +302,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-9">
+                      <figcaption id="behavior-figure-caption-8">
                         <p>弹性区域</p>
                         <p>状态栏：24dp<br>
                           工具栏：56dp/64dp</p>
@@ -315,29 +315,29 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-                          <video aria-describedby="behavior-figure-caption-10" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+                          <video aria-describedby="behavior-figure-caption-9" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-10">
+                      <figcaption id="behavior-figure-caption-9">
                         <p>动画显示滚动时的弹性区域和覆盖应用栏的内容</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
-                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 31.9444444444%">
-                          <video aria-describedby="behavior-figure-caption-11" controls="" loop="" preload="metadata">
+                        <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 31.9444444444%">
+                          <video aria-describedby="behavior-figure-caption-10" controls="" loop="" preload="auto">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.webm'); ?>" type="video/webm">
                             <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
-                      <figcaption id="behavior-figure-caption-11">
+                      <figcaption id="behavior-figure-caption-10">
                         <p>Z 轴方向的空间图，侧视图</p>
                       </figcaption>
                     </figure>
