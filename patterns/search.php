@@ -12,16 +12,16 @@
         <div>
           <h1>搜索可以使用户快速查找应用内容。</h1>
           <div class="col-list">
-            <section class="module-module-figure col-3">
+            <section class="module-module-figure col-3 h3-spacing">
               <div class="module">
                 <p>当应用支持大量的内容时，用户应该要能通过搜索功能快速查找内容。</p>
               </div>
               <div class="module">
-                <h3><strong>搜索选项</strong></h3>
+                <h3>搜索选项</h3>
                 <p>语音搜索<br>
                   搜索建议<br>
                   自动完成</p>
-                <h3><strong>搜索类型</strong></h3>
+                <h3>搜索类型</h3>
                 <p>固定显示的搜索<br>
                   可展开搜索</p>
               </div>
@@ -75,8 +75,9 @@
               </ul>
               <p>应用内搜索有两种主要模式：<strong>固定显示的搜索</strong>和<strong>可展开搜索</strong>。</p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
-                  <div class="module"><h1><strong>固定显示的搜索</strong></h1>
+                <section class="module-figure-figure col-3 h1-spacing">
+                  <div class="module">
+                    <h1>固定显示的搜索</h1>
                     <p>当搜索是应用的主焦点时，使用固定显示的搜索。</p>
                     <p>行为：</p>
                     <p>搜索文本字段嵌入在搜索框内，随时准备获得焦点。用户可以触摸麦克风图标来启用语音搜索。</p>
@@ -87,10 +88,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-1" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-0" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-1">
+                      <figcaption id="in-app-search-figure-caption-0">
                         <p>固定显示的搜索框</p>
                       </figcaption>
                     </figure>
@@ -99,10 +100,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-2" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-1" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-2">
+                      <figcaption id="in-app-search-figure-caption-1">
                         <p>聚焦状态的固定显示的搜索框</p>
                       </figcaption>
                     </figure>
@@ -121,10 +122,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-3" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-2" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-3">
+                      <figcaption id="in-app-search-figure-caption-2">
                         <p>自动完成<br>
                       </p></figcaption>
                     </figure>
@@ -133,10 +134,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-4" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-3" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-4">
+                      <figcaption id="in-app-search-figure-caption-3">
                         <p>搜索结果</p>
                       </figcaption>
                     </figure>
@@ -144,9 +145,9 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
-                    <h1><strong>可展开搜索</strong></h1>
+                    <h1>可展开搜索</h1>
                     <p>当搜索不是应用的主焦点时，使用可展开搜索。</p>
                     <p>行为：</p>
                     <p>在工具栏中显示一个放大镜图标，而不是搜索文本框。</p>
@@ -158,10 +159,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-5" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-4" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-5">
+                      <figcaption id="in-app-search-figure-caption-4">
                         <p>可展开搜索</p>
                       </figcaption>
                     </figure>
@@ -170,10 +171,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-6" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-5" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-6">
+                      <figcaption id="in-app-search-figure-caption-5">
                         <p>聚焦状态的搜索文本框</p>
                       </figcaption>
                     </figure>
@@ -192,10 +193,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-7" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-6" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-7">
+                      <figcaption id="in-app-search-figure-caption-6">
                         <p>自动完成<br></p>
                       </figcaption>
                     </figure>
@@ -204,10 +205,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-8" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-7" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="in-app-search-figure-caption-8">
+                      <figcaption id="in-app-search-figure-caption-7">
                         <p>搜索结果</p>
                       </figcaption>
                     </figure>
