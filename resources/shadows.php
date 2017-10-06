@@ -12,26 +12,30 @@
           <p>阴影提供了关于材料深度和运动方向的重要视觉线索。材料的海拔高度决定了阴影的外观。有关 Material Design 中视图的海拔高度和阴影的说明，请参阅设计指南中的 <a href="../material-design/elevation-shadows.html#elevation-shadows-shadows">阴影和海拔高度</a>。</p>
           <p>Android 和 Polymer 中关于阴影的开发文档：</p>
           <p></p>
-          <div class="modulettes">
-            <a class="modulette container android" href="https://developer.android.com/training/material/shadows-clipping.html" target="_blank">
-              <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
-                <div class="info">
-                  <div class="title">定义阴影和裁剪视图</div>
-                  <span class="subtitle">阴影由父元素进行绘制和裁剪</span>
-                </div>
-              </img>
-            </a>
-          </div>
-          <div class="modulettes">
-            <a class="modulette container polymer" href="https://docs-05-dot-polymer-project.appspot.com/0.5/docs/elements/paper-shadow.html" target="_blank">
-              <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/polymer.svg'); ?>">
-                <div class="info">
-                  <div class="title">纸片阴影</div>
-                  <span class="subtitle">在两个层次中创建阴影，以创造一个比较逼真的效果</span>
-                </div>
-              </img>
-            </a>
-          </div>
+          <p>
+            <div class="modulettes">
+              <a class="modulette container android" href="https://developer.android.com/training/material/shadows-clipping.html" target="_blank">
+                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                  <div class="info">
+                    <div class="title">定义阴影和裁剪视图</div>
+                  </div>
+                </img>
+              </a>
+            </div>
+          阴影由父元素进行绘制和裁剪
+          </p>
+          <p>
+            <div class="modulettes">
+              <a class="modulette container polymer" href="https://docs-05-dot-polymer-project.appspot.com/0.5/docs/elements/paper-shadow.html" target="_blank">
+                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/polymer.svg'); ?>">
+                  <div class="info">
+                    <div class="title">纸片阴影</div>
+                  </div>
+                </img>
+              </a>
+            </div>
+          在两个层次中创建阴影，以创造一个比较逼真的效果
+          </p>
         </div>
       </div>
 
@@ -63,21 +67,20 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module col-2">
-                  <div class="module"><h1>Sketch 材料的海拔高度</h1>
+                <section class="module-module col-2 h1-spacing">
+                  <div class="module">
+                    <h1>Sketch 材料的海拔高度</h1>
                     <p>右侧表格是用于 Sketch 的阴影值列表。</p>
-                    <p>
-                      <div class="modulettes">
-                        <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.sketch'); ?>" title="Shadows in Sketch">
-                          <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                            <div class="info">
-                              <div class="title">Sketch 中的阴影</div>
-                              <span class="subtitle">0.07 MB (.sketch) </span>
-                            </div>
-                          </img>
-                        </a>
-                      </div>
-                    </p>
+                    <div class="modulettes">
+                      <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.sketch'); ?>" title="Shadows in Sketch">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                          <div class="info">
+                            <div class="title">Sketch 中的阴影</div>
+                            <span class="subtitle">0.07 MB (.sketch) </span>
+                          </div>
+                        </img>
+                      </a>
+                    </div>
                   </div>
                   <div class="module">
 
@@ -620,21 +623,19 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module"><h1>Illustrator 材料的海拔高度</h1>
                     <p>右侧表格是用于 Illustrator 的阴影值列表。</p>
-                    <p>
-                      <div class="modulettes">
-                        <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.ai'); ?>" title="Shadows in Illustrator">
-                          <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                            <div class="info">
-                              <div class="title">Illustrator 中的阴影</div>
-                              <span class="subtitle">1.65 MB (.ai) </span>
-                            </div>
-                          </img>
-                        </a>
-                      </div>
-                    </p>
+                    <div class="modulettes">
+                      <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.ai'); ?>" title="Shadows in Illustrator">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                          <div class="info">
+                            <div class="title">Illustrator 中的阴影</div>
+                            <span class="subtitle">1.65 MB (.ai) </span>
+                          </div>
+                        </img>
+                      </a>
+                    </div>
                   </div>
                   <div class="module">
 
@@ -997,22 +998,20 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>Photoshop 材料的海拔高度</h1>
                     <p>右侧表格是用于 Photoshop 的阴影值列表。</p>
-                    <p>
-                      <div class="modulettes">
-                        <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.psd'); ?>" title="Shadows in Photoshop">
-                          <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                            <div class="info">
-                              <div class="title">Photoshop 中的阴影</div>
-                              <span class="subtitle">1.09 MB (.psd) </span>
-                            </div>
-                          </img>
-                        </a>
-                      </div>
-                    </p>
+                    <div class="modulettes">
+                      <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.psd'); ?>" title="Shadows in Photoshop">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                          <div class="info">
+                            <div class="title">Photoshop 中的阴影</div>
+                            <span class="subtitle">1.09 MB (.psd) </span>
+                          </div>
+                        </img>
+                      </a>
+                    </div>
                   </div>
                   <div class="module">
 
