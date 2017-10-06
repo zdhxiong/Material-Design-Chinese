@@ -17,6 +17,7 @@
             <li><a href="../components/snackbars-toasts.html">Snackbars and toasts</a></li>
             <li><a href="../patterns/fingerprint.html">指纹</a></li>
             <li><a href="../layout/split-screen.html">分屏</a></li>
+            <li><a href="../style/icons.html">启动器图标</a></li>
           </ul>
         </div>
       </div>
