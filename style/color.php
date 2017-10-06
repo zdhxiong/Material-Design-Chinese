@@ -16,8 +16,8 @@
               <div class="figure">
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 1280px">
-                    <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 56.25%">
-                      <video controls="" loop="" preload="metadata">
+                    <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 56.25%">
+                      <video controls="" loop="" preload="auto">
                         <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm'); ?>" type="video/webm">
                         <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4'); ?>" type="video/mp4">
                         </source></source>
@@ -72,46 +72,41 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" aria-describedby="color-tool-figure-caption-1" src="<?php static_url('../static/media/style/color/components.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/components.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-tool-figure-caption-1">
-                        <h3><strong>创建配色方案</strong></h3>
-                        <p>创建配色方案，包含主色和辅助色的较深和较浅的变化。</p>
-                      </figcaption>
                     </figure>
+                    <h3><strong>创建配色方案</strong></h3>
+                    <p>创建配色方案，包含主色和辅助色的较深和较浅的变化。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="color-tool-figure-caption-2" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-tool-figure-caption-2"><h3><strong>测试可访问性</strong></h3>
-                        <p>使用 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">Web 内容无障碍指南</a> 的易读性标准，来测试文本在不同的背景色中是否可访问。</p>
-                      </figcaption>
                     </figure>
+                    <h3><strong>测试可访问性</strong></h3>
+                    <p>使用 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">Web 内容无障碍指南</a> 的易读性标准，来测试文本在不同的背景色中是否可访问。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" aria-describedby="color-tool-figure-caption-3" src="<?php static_url('../static/media/style/color/UI.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/UI.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-tool-figure-caption-3">
-                        <h3><strong>预览 UI 的颜色</strong></h3>
-                        <p>通过一系列的 Material Design 组件，来预览配色方案的效果，并可以在 Codepen 中编辑 HTML、CSS 和 JavaScript。</p>
-                      </figcaption>
                     </figure>
+                    <h3><strong>预览 UI 的颜色</strong></h3>
+                    <p>通过一系列的 Material Design 组件，来预览配色方案的效果，并可以在 Codepen 中编辑 HTML、CSS 和 JavaScript。</p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
                   <div class="module">
                     <div class="modulettes">
-                      <a class="modulette container gd" href="https://material.io/color/" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
+                      <a class="modulette container md" href="https://material.io/color/" target="_blank">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>"/>
                         <div class="info">
                           <div class="title">颜色工具</div>
                           <span class="subtitle">为你的 UI 创建配色方案，并测试颜色的可访问性</span>
@@ -141,1227 +136,1741 @@
               <h1>调色板</h1>
               <p>该调色板包含了主色和强调色，可以用于插图或开发你的品牌色。这些经过设计的颜色可以灵活的搭配。调色板从主色开始，通过填充光谱为 Android、Web、iOS 创建了完整可用的调色板。Google 建议使用 500 色号的颜色作为主色，其他颜色作为强调色。</p>
               <p>主题通过设置表面阴影、阴影深度和墨迹不透明度来构建统一的应用样式。</p>
-              <p>
-                <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                    <div class="info">
-                      <div class="title">下载调色板</div>
-                      <span class="subtitle">0.02 MB (.zip) </span>
-                    </div>
-                    </img>
-                  </a>
-                </div>
-              </p>
+              <div class="modulettes">
+                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <div class="info">
+                    <div class="title">下载调色板</div>
+                    <span class="subtitle">0.02 MB (.zip) </span>
+                  </div>
+                  </img>
+                </a>
+              </div>
               <div class="col-list">
-                <section class="module col-1">
-                  <div class="module"><p>
-                    <div>
-                      <div class="color-palette">
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #f44336;">
-                              <span class="name light-strong">Red</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#f44336</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffebee;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#ffebee</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffcdd2;">
-                              <span class="shade">100</span>
-                              <span class="hex">#ffcdd2</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ef9a9a">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#ef9a9a</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e57373;">
-                              <span class="shade">300</span>
-                              <span class="hex">#e57373</span>
-                            </li>
-                            <li class="color" style="background-color: #ef5350;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ef5350</span>
-                            </li>
-                            <li class="color" style="background-color: #f44336;">
-                              <span class="shade">500</span><span
-                              class="hex">#f44336</span>
-                            </li>
-                            <li class="color" style="background-color: #e53935;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#e53935</span>
-                            </li>
-                            <li class="color" style="background-color: #d32f2f;">
-                              <span class="shade">700</span>
-                              <span class="hex">#d32f2f</span>
-                            </li>
-                            <li class="color" style="background-color: #c62828;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#c62828</span>
-                            </li>
-                            <li class="color" style="background-color: #b71c1c;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#b71c1c</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ff8a80;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ff8a80</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ff5252;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ff5252</span>
-                            </li>
-                            <li class="color" style="background-color: #ff1744;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#ff1744</span>
-                            </li>
-                            <li class="color" style="background-color: #d50000;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#d50000</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #E91E63;">
-                              <span class="name light-strong">Pink</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#e91e63</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fce4ec;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fce4ec</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f8bbd0;">
-                              <span class="shade">100</span>
-                              <span class="hex">#f8bbd0</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f48fb1;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#f48fb1</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #f06292;">
-                              <span class="shade">300</span>
-                              <span class="hex">#f06292</span>
-                            </li>
-                            <li class="color " style="background-color: #ec407a;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ec407a</span>
-                            </li>
-                            <li class="color" style="background-color: #e91e63;">
-                              <span class="shade">500</span>
-                              <span class="hex">#e91e63</span>
-                            </li>
-                            <li class="color" style="background-color: #d81b60;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#d81b60</span>
-                            </li>
-                            <li class="color" style="background-color: #c2185b;">
-                              <span class="shade">700</span>
-                              <span class="hex">#c2185b</span>
-                            </li>
-                            <li class="color" style="background-color: #ad1457;">
-                              <span class="shade">800</span>
-                              <span class="hex">#ad1457</span>
-                            </li>
-                            <li class="color" style="background-color: #880e4f;">
-                              <span class="shade">900</span>
-                              <span class="hex">#880e4f</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ff80ab;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ff80ab</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ff4081;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ff4081</span>
-                            </li>
-                            <li class="color" style="background-color: #f50057;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#f50057</span>
-                            </li>
-                            <li class="color" style="background-color: #c51162;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#c51162</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #9c27b0;">
-                              <span class="name">Purple</span>
-                              <span class="shade">500</span>
-                              <span class="hex">#9c27b0</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f3e5f5;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#f3e5f5</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e1bee7;">
-                              <span class="shade">100</span>
-                              <span class="hex">#e1bee7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ce93d8;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#ce93d8</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ba68c8;">
-                              <span class="shade">300</span>
-                              <span class="hex">#ba68c8</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ab47bc;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ab47bc</span>
-                            </li>
-                            <li class="color" style="background-color: #9c27b0;">
-                              <span class="shade">500</span>
-                              <span class="hex">#9c27b0</span>
-                            </li>
-                            <li class="color" style="background-color: #8e24aa;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#8e24aa</span>
-                            </li>
-                            <li class="color" style="background-color: #7b1fa2;">
-                              <span class="shade">700</span>
-                              <span class="hex">#7b1fa2</span>
-                            </li>
-                            <li class="color" style="background-color: #6a1b9a;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#6a1b9a</span>
-                            </li>
-                            <li class="color" style="background-color: #4a148c;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#4a148c</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ea80fc;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ea80fc</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #e040fb;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#e040fb</span>
-                            </li>
-                            <li class="color" style="background-color: #d500f9;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#d500f9</span>
-                            </li>
-                            <li class="color" style="background-color: #aa00ff;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#aa00ff</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #673ab7;">
-                              <span class="name">Deep Purple</span>
-                              <span class="shade">500</span>
-                              <span class="hex">#673ab7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ede7f6;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#ede7f6</span>
-                            </li>
-                            <li class="color dark" style="background-color: #d1c4e9;">
-                              <span class="shade">100</span>
-                              <span class="hex">#d1c4e9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b39ddb;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#b39ddb</span>
-                            </li>
-                            <li class="color" style="background-color: #9575cd;">
-                              <span class="shade">300</span>
-                              <span class="hex">#9575cd</span>
-                            </li>
-                            <li class="color" style="background-color: #7e57c2;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#7e57c2</span>
-                            </li>
-                            <li class="color" style="background-color: #673ab7;">
-                              <span class="shade">500</span>
-                              <span class="hex">#673ab7</span>
-                            </li>
-                            <li class="color" style="background-color: #5e35b1;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#5e35b1</span>
-                            </li>
-                            <li class="color" style="background-color: #512da8;">
-                              <span class="shade">700</span>
-                              <span class="hex">#512da8</span>
-                            </li>
-                            <li class="color" style="background-color: #4527a0;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#4527a0</span>
-                            </li>
-                            <li class="color" style="background-color: #311b92;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#311b92</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #b388ff;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#b388ff</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #7c4dff;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#7c4dff</span>
-                            </li>
-                            <li class="color" style="background-color: #651fff;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#651fff</span>
-                            </li>
-                            <li class="color" style="background-color: #6200ea;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#6200ea</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #3f51b5;">
-                              <span class="name">Indigo</span>
-                              <span class="shade">500</span>
-                              <span class="hex">#3f51b5</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e8eaf6;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e8eaf6</span>
-                            </li>
-                            <li class="color dark" style="background-color: #c5cae9;">
-                              <span class="shade">100</span>
-                              <span class="hex">#c5cae9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #9fa8da;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#9fa8da</span>
-                            </li>
-                            <li class="color" style="background-color: #7986cb;">
-                              <span class="shade">300</span>
-                              <span class="hex">#7986cb</span>
-                            </li>
-                            <li class="color" style="background-color: #5c6bc0;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#5c6bc0</span>
-                            </li>
-                            <li class="color" style="background-color: #3f51b5;">
-                              <span class="shade">500</span>
-                              <span class="hex">#3f51b5</span>
-                            </li>
-                            <li class="color" style="background-color: #3949ab;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#3949ab</span>
-                            </li>
-                            <li class="color" style="background-color: #303f9f;">
-                              <span class="shade">700</span>
-                              <span class="hex">#303f9f</span>
-                            </li>
-                            <li class="color" style="background-color: #283593;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#283593</span>
-                            </li>
-                            <li class="color" style="background-color: #1a237e;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#1a237e</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #8c9eff;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#8c9eff</span>
-                            </li>
-                            <li class="color" style="background-color: #536dfe;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#536dfe</span>
-                            </li>
-                            <li class="color" style="background-color: #3d5afe;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#3d5afe</span>
-                            </li>
-                            <li class="color" style="background-color: #304ffe;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#304ffe</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #2196F3;">
-                              <span class="name light-strong">Blue</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#2196f3</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e3f2fd;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e3f2fd</span>
-                            </li>
-                            <li class="color dark" style="background-color: #bbdefb;">
-                              <span class="shade">100</span>
-                              <span class="hex">#bbdefb</span>
-                            </li>
-                            <li class="color dark" style="background-color: #90caf9;">
-                              <span
-                              class="shade expanded">200</span>
-                              <span class="hex">#90caf9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #64b5f6;">
-                              <span class="shade">300</span>
-                              <span class="hex">#64b5f6</span>
-                            </li>
-                            <li class="color dark" style="background-color: #42a5f5;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#42a5f5</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #2196f3;">
-                              <span class="shade">500</span>
-                              <span class="hex">#2196f3</span>
-                            </li>
-                            <li class="color" style="background-color: #1e88e5;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#1e88e5</span>
-                            </li>
-                            <li class="color" style="background-color: #1976d2;">
-                              <span class="shade">700</span>
-                              <span class="hex">#1976d2</span>
-                            </li>
-                            <li class="color" style="background-color: #1565c0;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#1565c0</span>
-                            </li>
-                            <li class="color" style="background-color: #0d47a1;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#0d47a1</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #82b1ff;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#82b1ff</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #448aff;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#448aff</span>
-                            </li>
-                            <li class="color" style="background-color: #2979ff;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#2979ff</span>
-                            </li>
-                            <li class="color" style="background-color: #2962ff;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#2962ff</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #03a9f4;">
-                              <span class="name dark">Light Blue</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#03a9f4</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e1f5fe;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e1f5fe</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b3e5fc;">
-                              <span class="shade">100</span>
-                              <span class="hex">#b3e5fc</span>
-                            </li>
-                            <li class="color dark" style="background-color: #81d4fa;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#81d4fa</span>
-                            </li>
-                            <li class="color dark" style="background-color: #4fc3f7;">
-                              <span class="shade">300</span>
-                              <span class="hex">#4fc3f7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #29b6f6;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#29b6f6</span>
-                            </li>
-                            <li class="color dark" style="background-color: #03a9f4;">
-                              <span class="shade">500</span>
-                              <span class="hex">#03a9f4</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #039be5;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#039be5</span>
-                            </li>
-                            <li class="color" style="background-color: #0288d1;">
-                              <span class="shade">700</span>
-                              <span class="hex">#0288d1</span>
-                            </li>
-                            <li class="color" style="background-color: #0277bd;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#0277bd</span>
-                            </li>
-                            <li class="color" style="background-color: #01579b;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#01579b</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #80d8ff;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#80d8ff</span>
-                            </li>
-                            <li class="color dark" style="background-color: #40c4ff;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#40c4ff</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00b0ff;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#00b0ff</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #0091ea;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#0091ea</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #00bcd4;">
-                              <span class="name dark">Cyan</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#00bcd4</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e0f7fa;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e0f7fa</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b2ebf2;">
-                              <span class="shade">100</span>
-                              <span class="hex">#b2ebf2</span>
-                            </li>
-                            <li class="color dark" style="background-color: #80deea;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#80deea</span>
-                            </li>
-                            <li class="color dark" style="background-color: #4dd0e1;">
-                              <span class="shade">300</span>
-                              <span class="hex">#4dd0e1</span>
-                            </li>
-                            <li class="color dark" style="background-color: #26c6da;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#26c6da</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00bcd4;">
-                              <span class="shade">500</span>
-                              <span class="hex">#00bcd4</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00acc1;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#00acc1</span>
-                            </li>
-                            <li class="color" style="background-color: #0097a7;">
-                              <span class="shade">700</span>
-                              <span class="hex">#0097a7</span>
-                            </li>
-                            <li class="color" style="background-color: #00838f;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#00838f</span>
-                            </li>
-                            <li class="color" style="background-color: #006064;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#006064</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #84ffff;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#84ffff</span></li>
-                            <li class="color dark" style="background-color: #18ffff;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#18ffff</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00e5ff;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#00e5ff</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00b8d4;">
-                              <span
-                              class="shade accent">A700</span>
-                              <span class="hex">#00b8d4</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #009688;">
-                              <span class="name light-strong">Teal</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#009688</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e0f2f1;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e0f2f1</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b2dfdb;">
-                              <span class="shade">100</span>
-                              <span class="hex">#b2dfdb</span>
-                            </li>
-                            <li class="color dark" style="background-color: #80cbc4;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#80cbc4</span>
-                            </li>
-                            <li class="color dark" style="background-color: #4db6ac;">
-                              <span class="shade">300</span>
-                              <span class="hex">#4db6ac</span>
-                            </li>
-                            <li class="color dark" style="background-color: #26a69a;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#26a69a</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #009688;">
-                              <span class="shade">500</span>
-                              <span class="hex">#009688</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #00897b;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#00897b</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #00796b;">
-                              <span class="shade">700</span>
-                              <span class="hex">#00796b</span>
-                            </li>
-                            <li class="color" style="background-color: #00695c;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#00695c</span>
-                            </li>
-                            <li class="color" style="background-color: #004d40;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#004d40</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #a7ffeb;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#a7ffeb</span>
-                            </li>
-                            <li class="color dark" style="background-color: #64ffda;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#64ffda</span>
-                            </li>
-                            <li class="color dark" style="background-color: #1de9b6;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#1de9b6</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00bfa5;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#00bfa5</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #4caf50;">
-                              <span class="name dark">Green</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#4caf50</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e8f5e9;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#e8f5e9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #c8e6c9;">
-                              <span class="shade">100</span>
-                              <span class="hex">#c8e6c9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #a5d6a7;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#a5d6a7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #81c784;">
-                              <span class="shade">300</span>
-                              <span class="hex">#81c784</span>
-                            </li>
-                            <li class="color dark" style="background-color: #66bb6a;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#66bb6a</span>
-                            </li>
-                            <li class="color dark" style="background-color: #4caf50;">
-                              <span class="shade">500</span>
-                              <span class="hex">#4caf50</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #43a047;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#43a047</span>
-                            </li>
-                            <li class="color" style="background-color: #388e3c;">
-                              <span class="shade">700</span>
-                              <span class="hex">#388e3c</span>
-                            </li>
-                            <li class="color" style="background-color: #2e7d32;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#2e7d32</span>
-                            </li>
-                            <li class="color" style="background-color: #1b5e20;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#1b5e20</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #b9f6ca;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#b9f6ca</span>
-                            </li>
-                            <li class="color dark" style="background-color: #69f0ae;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#69f0ae</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00e676;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#00e676</span>
-                            </li>
-                            <li class="color dark" style="background-color: #00c853;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#00c853</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #8bc34a;">
-                              <span class="name dark">Light Green</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#8bc34a</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f1f8e9;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#f1f8e9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #dcedc8;">
-                              <span class="shade">100</span>
-                              <span class="hex">#dcedc8</span>
-                            </li>
-                            <li class="color dark" style="background-color: #c5e1a5;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#c5e1a5</span>
-                            </li>
-                            <li class="color dark" style="background-color: #aed581;">
-                              <span class="shade">300</span>
-                              <span class="hex">#aed581</span>
-                            </li>
-                            <li class="color dark" style="background-color: #9ccc65;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#9ccc65</span>
-                            </li>
-                            <li class="color dark" style="background-color: #8bc34a;">
-                              <span class="shade">500</span>
-                              <span class="hex">#8bc34a</span>
-                            </li>
-                            <li class="color dark" style="background-color: #7cb342;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#7cb342</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #689f38;">
-                              <span class="shade">700</span>
-                              <span class="hex">#689f38</span>
-                            </li>
-                            <li class="color" style="background-color: #558b2f;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#558b2f</span>
-                            </li>
-                            <li class="color" style="background-color: #33691e;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#33691e</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ccff90;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ccff90</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b2ff59;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#b2ff59</span>
-                            </li>
-                            <li class="color dark" style="background-color: #76ff03;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#76ff03</span>
-                            </li>
-                            <li class="color dark" style="background-color: #64dd17;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#64dd17</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #cddc39;">
-                              <span class="name dark">Lime</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#cddc39</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f9fbe7;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#f9fbe7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f0f4c3;">
-                              <span class="shade">100</span>
-                              <span class="hex">#f0f4c3</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e6ee9c;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#e6ee9c</span>
-                            </li>
-                            <li class="color dark" style="background-color: #dce775;">
-                              <span class="shade">300</span>
-                              <span class="hex">#dce775</span>
-                            </li>
-                            <li class="color dark" style="background-color: #d4e157;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#d4e157</span>
-                            </li>
-                            <li class="color dark" style="background-color: #cddc39;">
-                              <span class="shade">500</span>
-                              <span class="hex">#cddc39</span>
-                            </li>
-                            <li class="color dark" style="background-color: #c0ca33;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#c0ca33</span>
-                            </li>
-                            <li class="color dark" style="background-color: #afb42b;">
-                              <span class="shade">700</span>
-                              <span class="hex">#afb42b</span>
-                            </li>
-                            <li class="color dark" style="background-color: #9e9d24;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#9e9d24</span>
-                            </li>
-                            <li class="color" style="background-color: #827717;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#827717</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #f4ff81;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#f4ff81</span>
-                            </li>
-                            <li class="color dark" style="background-color: #eeff41;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#eeff41</span>
-                            </li>
-                            <li class="color dark" style="background-color: #c6ff00;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#c6ff00</span>
-                            </li>
-                            <li class="color dark" style="background-color: #aeea00;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#aeea00</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #ffeb3b;">
-                              <span class="name dark">Yellow</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#ffeb3b</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fffde7;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fffde7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fff9c4;">
-                              <span class="shade">100</span>
-                              <span class="hex">#fff9c4</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fff59d;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#fff59d</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fff176;">
-                              <span class="shade">300</span>
-                              <span class="hex">#fff176</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffee58;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ffee58</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffeb3b;">
-                              <span class="shade">500</span>
-                              <span class="hex">#ffeb3b</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fdd835;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#fdd835</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fbc02d;">
-                              <span class="shade">700</span>
-                              <span class="hex">#fbc02d</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f9a825;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#f9a825</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f57f17;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#f57f17</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ffff8d;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ffff8d</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffff00;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ffff00</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffea00;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#ffea00</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffd600;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#ffd600</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #ffc107;">
-                              <span class="name dark">Amber</span>
-                              <span class="shade dark">500</span>
-                              <span class="hex dark">#ffc107</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fff8e1;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fff8e1</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffecb3;">
-                              <span class="shade">100</span>
-                              <span class="hex">#ffecb3</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffe082;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#ffe082</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffd54f;">
-                              <span class="shade">300</span>
-                              <span class="hex">#ffd54f</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffca28;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ffca28</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffc107;">
-                              <span class="shade">500</span>
-                              <span class="hex">#ffc107</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffb300;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#ffb300</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffa000;">
-                              <span class="shade">700</span>
-                              <span class="hex">#ffa000</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff8f00;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#ff8f00</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff6f00;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#ff6f00</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ffe57f;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ffe57f</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffd740;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ffd740</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffc400;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#ffc400</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffab00;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#ffab00</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #ff9800;">
-                              <span class="name dark-when-small">Orange</span>
-                              <span class="shade dark-when-small">500</span>
-                              <span class="hex dark-when-small">#ff9800</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fff3e0;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fff3e0</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffe0b2;">
-                              <span class="shade">100</span>
-                              <span class="hex">#ffe0b2</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffcc80;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#ffcc80</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffb74d;">
-                              <span class="shade">300</span>
-                              <span class="hex">#ffb74d</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffa726;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ffa726</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff9800;">
-                              <span class="shade">500</span>
-                              <span class="hex">#ff9800</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fb8c00;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#fb8c00</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f57c00;">
-                              <span class="shade">700</span>
-                              <span class="hex">#f57c00</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ef6c00;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#ef6c00</span>
-                            </li>
-                            <li class="color" style="background-color: #e65100;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#e65100</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ffd180;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ffd180</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffab40;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ffab40</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff9100;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#ff9100</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff6d00;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#ff6d00</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #ff5722;">
-                              <span class="name light-strong">Deep Orange</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#ff5722</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fbe9e7;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fbe9e7</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffccbc;">
-                              <span class="shade">100</span>
-                              <span class="hex">#ffccbc</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffab91;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#ffab91</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff8a65;">
-                              <span class="shade">300</span>
-                              <span class="hex">#ff8a65</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff7043;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#ff7043</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #ff5722;">
-                              <span class="shade">500</span>
-                              <span class="hex">#ff5722</span>
-                            </li>
-                            <li class="color" style="background-color: #f4511e;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#f4511e</span>
-                            </li>
-                            <li class="color" style="background-color: #e64a19;">
-                              <span class="shade">700</span>
-                              <span class="hex">#e64a19</span>
-                            </li>
-                            <li class="color" style="background-color: #d84315;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#d84315</span>
-                            </li>
-                            <li class="color" style="background-color: #bf360c;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#bf360c</span>
-                            </li>
-                            <li class="color dark divide" style="background-color: #ff9e80;">
-                              <span class="shade accent">A100</span>
-                              <span class="hex">#ff9e80</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ff6e40;">
-                              <span class="shade accent expanded">A200</span>
-                              <span class="hex">#ff6e40</span>
-                            </li>
-                            <li class="color" style="background-color: #ff3d00;">
-                              <span class="shade accent expanded">A400</span>
-                              <span class="hex">#ff3d00</span>
-                            </li>
-                            <li class="color" style="background-color: #dd2c00;">
-                              <span class="shade accent">A700</span>
-                              <span class="hex">#dd2c00</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #795548;">
-                              <span class="name">Brown</span>
-                              <span class="shade">500</span>
-                              <span class="hex">#795548</span>
-                            </li>
-                            <li class="color dark" style="background-color: #efebe9;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#efebe9</span>
-                            </li>
-                            <li class="color dark" style="background-color: #d7ccc8;">
-                              <span class="shade">100</span>
-                              <span class="hex">#d7ccc8</span>
-                            </li>
-                            <li class="color dark" style="background-color: #bcaaa4;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#bcaaa4</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #a1887f;">
-                              <span class="shade">300</span>
-                              <span class="hex">#a1887f</span>
-                            </li>
-                            <li class="color" style="background-color: #8d6e63;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#8d6e63</span>
-                            </li>
-                            <li class="color" style="background-color: #795548;">
-                              <span class="shade">500</span>
-                              <span class="hex">#795548</span>
-                            </li>
-                            <li class="color" style="background-color: #6d4c41;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#6d4c41</span>
-                            </li>
-                            <li class="color" style="background-color: #5d4037;">
-                              <span class="shade">700</span>
-                              <span class="hex">#5d4037</span>
-                            </li>
-                            <li class="color" style="background-color: #4e342e;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#4e342e</span>
-                            </li>
-                            <li class="color" style="background-color: #3e2723;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#3e2723</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #9e9e9e;">
-                              <span class="name dark-when-small">Grey</span>
-                              <span class="shade dark-when-small">500</span>
-                              <span class="hex dark-when-small">#9e9e9e</span>
-                            </li>
-                            <li class="color dark" style="background-color: #fafafa;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#fafafa</span>
-                            </li>
-                            <li class="color dark" style="background-color: #f5f5f5;">
-                              <span class="shade">100</span>
-                              <span class="hex">#f5f5f5</span>
-                            </li>
-                            <li class="color dark" style="background-color: #eeeeee;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#eeeeee</span>
-                            </li>
-                            <li class="color dark" style="background-color: #e0e0e0;">
-                              <span class="shade">300</span>
-                              <span class="hex">#e0e0e0</span>
-                            </li>
-                            <li class="color dark" style="background-color: #bdbdbd;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#bdbdbd</span>
-                            </li>
-                            <li class="color dark" style="background-color: #9e9e9e;">
-                              <span class="shade">500</span>
-                              <span class="hex">#9e9e9e</span>
-                            </li>
-                            <li class="color" style="background-color: #757575;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#757575</span>
-                            </li>
-                            <li class="color" style="background-color: #616161;">
-                              <span class="shade">700</span>
-                              <span class="hex">#616161</span>
-                            </li>
-                            <li class="color" style="background-color: #424242;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#424242</span>
-                            </li>
-                            <li class="color" style="background-color: #212121;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#212121</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color main-color" style="background-color: #607d8b;">
-                              <span class="name light-strong">Blue Grey</span>
-                              <span class="shade light-strong">500</span>
-                              <span class="hex light-strong">#607d8b</span>
-                            </li>
-                            <li class="color dark" style="background-color: #eceff1;">
-                              <span class="shade expanded">50</span>
-                              <span class="hex">#eceff1</span>
-                            </li>
-                            <li class="color dark" style="background-color: #cfd8dc;">
-                              <span class="shade">100</span>
-                              <span class="hex">#cfd8dc</span>
-                            </li>
-                            <li class="color dark" style="background-color: #b0bec5;">
-                              <span class="shade expanded">200</span>
-                              <span class="hex">#b0bec5</span>
-                            </li>
-                            <li class="color dark" style="background-color: #90a4ae;">
-                              <span class="shade">300</span>
-                              <span class="hex">#90a4ae</span>
-                            </li>
-                            <li class="color light-strong" style="background-color: #78909c;">
-                              <span class="shade expanded">400</span>
-                              <span class="hex">#78909c</span>
-                            </li>
-                            <li class="color" style="background-color: #607d8b;">
-                              <span class="shade">500</span>
-                              <span class="hex">#607d8b</span>
-                            </li>
-                            <li class="color" style="background-color: #546e7a;">
-                              <span class="shade expanded">600</span>
-                              <span class="hex">#546e7a</span>
-                            </li>
-                            <li class="color" style="background-color: #455a64;">
-                              <span class="shade">700</span>
-                              <span class="hex">#455a64</span>
-                            </li>
-                            <li class="color" style="background-color: #37474f;">
-                              <span class="shade expanded">800</span>
-                              <span class="hex">#37474f</span>
-                            </li>
-                            <li class="color" style="background-color: #263238;">
-                              <span class="shade expanded">900</span>
-                              <span class="hex">#263238</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <section class="color-group">
-                          <ul>
-                            <li class="color" style="background-color: #000000;">
-                              <span class="shade accent">Black</span>
-                              <span class="hex">#000000</span>
-                            </li>
-                            <li class="color dark" style="background-color: #ffffff;">
-                              <span class="shade accent expanded">White</span>
-                              <span class="hex">#ffffff</span>
-                            </li>
-                          </ul>
-                        </section>
-                        <div class="module-end"></div>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #F44336;">
+                      <span class="group">Red</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#F44336</span>
                       </div>
                     </div>
-                    </p></div>
+                    <div class="color-tag dark" style="background-color: #FFEBEE;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FFEBEE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFCDD2;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#FFCDD2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EF9A9A;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#EF9A9A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E57373;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#E57373</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #EF5350;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#EF5350</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #F44336;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#F44336</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #E53935;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#E53935</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #D32F2F;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#D32F2F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #C62828;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#C62828</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #B71C1C;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#B71C1C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF8A80;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FF8A80</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #FF5252;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FF5252</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #FF1744;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#FF1744</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #D50000;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#D50000</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #E91E63;">
+                      <span class="group">Pink</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#E91E63</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FCE4EC;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FCE4EC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F8BBD0;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#F8BBD0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F48FB1;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#F48FB1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F06292;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#F06292</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #EC407A;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#EC407A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #E91E63;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#E91E63</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #D81B60;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#D81B60</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #C2185B;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#C2185B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #AD1457;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#AD1457</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #880E4F;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#880E4F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF80AB;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FF80AB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #FF4081;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FF4081</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #F50057;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#F50057</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #C51162;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#C51162</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #9C27B0;">
+                      <span class="group">Purple</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#9C27B0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F3E5F5;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#F3E5F5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E1BEE7;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#E1BEE7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #CE93D8;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#CE93D8</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #BA68C8;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#BA68C8</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #AB47BC;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#AB47BC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #9C27B0;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#9C27B0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #8E24AA;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#8E24AA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #7B1FA2;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#7B1FA2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #6A1B9A;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#6A1B9A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #4A148C;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#4A148C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EA80FC;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#EA80FC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #E040FB;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#E040FB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #D500F9;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#D500F9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #AA00FF;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#AA00FF</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #673AB7;">
+                      <span class="group">Deep Purple</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#673AB7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EDE7F6;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#EDE7F6</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #D1C4E9;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#D1C4E9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B39DDB;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#B39DDB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #9575CD;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#9575CD</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #7E57C2;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#7E57C2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #673AB7;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#673AB7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #5E35B1;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#5E35B1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #512DA8;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#512DA8</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #4527A0;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#4527A0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #311B92;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#311B92</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B388FF;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#B388FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #7C4DFF;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#7C4DFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #651FFF;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#651FFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #6200EA;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#6200EA</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #3F51B5;">
+                      <span class="group">Indigo</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#3F51B5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E8EAF6;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E8EAF6</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #C5CAE9;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#C5CAE9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #9FA8DA;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#9FA8DA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #7986CB;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#7986CB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #5C6BC0;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#5C6BC0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #3F51B5;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#3F51B5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #3949AB;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#3949AB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #303F9F;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#303F9F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #283593;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#283593</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #1A237E;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#1A237E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #8C9EFF;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#8C9EFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #536DFE;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#536DFE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #3D5AFE;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#3D5AFE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #304FFE;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#304FFE</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #2196F3;">
+                      <span class="group">Blue</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#2196F3</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E3F2FD;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E3F2FD</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #BBDEFB;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#BBDEFB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #90CAF9;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#90CAF9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #64B5F6;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#64B5F6</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #42A5F5;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#42A5F5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #2196F3;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#2196F3</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #1E88E5;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#1E88E5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #1976D2;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#1976D2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #1565C0;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#1565C0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #0D47A1;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#0D47A1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #82B1FF;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#82B1FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #448AFF;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#448AFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #2979FF;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#2979FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #2962FF;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#2962FF</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #03A9F4;">
+                      <span class="group">Light Blue</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#03A9F4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E1F5FE;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E1F5FE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B3E5FC;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#B3E5FC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #81D4FA;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#81D4FA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #4FC3F7;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#4FC3F7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #29B6F6;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#29B6F6</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #03A9F4;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#03A9F4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #039BE5;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#039BE5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #0288D1;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#0288D1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #0277BD;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#0277BD</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #01579B;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#01579B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #80D8FF;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#80D8FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #40C4FF;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#40C4FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00B0FF;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#00B0FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #0091EA;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#0091EA</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #00BCD4;">
+                      <span class="group">Cyan</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#00BCD4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E0F7FA;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E0F7FA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B2EBF2;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#B2EBF2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #80DEEA;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#80DEEA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #4DD0E1;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#4DD0E1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #26C6DA;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#26C6DA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00BCD4;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#00BCD4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00ACC1;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#00ACC1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #0097A7;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#0097A7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #00838F;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#00838F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #006064;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#006064</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #84FFFF;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#84FFFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #18FFFF;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#18FFFF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00E5FF;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#00E5FF</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00B8D4;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#00B8D4</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #009688;">
+                      <span class="group">Teal</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#009688</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E0F2F1;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E0F2F1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B2DFDB;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#B2DFDB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #80CBC4;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#80CBC4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #4DB6AC;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#4DB6AC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #26A69A;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#26A69A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #009688;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#009688</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #00897B;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#00897B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #00796B;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#00796B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #00695C;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#00695C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #004D40;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#004D40</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #A7FFEB;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#A7FFEB</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #64FFDA;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#64FFDA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #1DE9B6;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#1DE9B6</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00BFA5;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#00BFA5</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #4CAF50;">
+                      <span class="group">Green</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#4CAF50</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E8F5E9;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#E8F5E9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #C8E6C9;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#C8E6C9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #A5D6A7;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#A5D6A7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #81C784;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#81C784</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #66BB6A;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#66BB6A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #4CAF50;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#4CAF50</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #43A047;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#43A047</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #388E3C;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#388E3C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #2E7D32;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#2E7D32</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #1B5E20;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#1B5E20</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B9F6CA;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#B9F6CA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #69F0AE;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#69F0AE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00E676;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#00E676</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #00C853;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#00C853</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #8BC34A;">
+                      <span class="group">Light Green</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#8BC34A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F1F8E9;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#F1F8E9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #DCEDC8;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#DCEDC8</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #C5E1A5;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#C5E1A5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #AED581;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#AED581</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #9CCC65;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#9CCC65</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #8BC34A;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#8BC34A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #7CB342;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#7CB342</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #689F38;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#689F38</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #558B2F;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#558B2F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #33691E;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#33691E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #CCFF90;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#CCFF90</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B2FF59;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#B2FF59</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #76FF03;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#76FF03</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #64DD17;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#64DD17</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #CDDC39;">
+                      <span class="group">Lime</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#CDDC39</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F9FBE7;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#F9FBE7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F0F4C3;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#F0F4C3</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E6EE9C;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#E6EE9C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #DCE775;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#DCE775</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #D4E157;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#D4E157</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #CDDC39;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#CDDC39</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #C0CA33;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#C0CA33</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #AFB42B;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#AFB42B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #9E9D24;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#9E9D24</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #827717;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#827717</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F4FF81;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#F4FF81</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EEFF41;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#EEFF41</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #C6FF00;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#C6FF00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #AEEA00;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#AEEA00</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #FFEB3B;">
+                      <span class="group">Yellow</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FFEB3B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFFDE7;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FFFDE7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFF9C4;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#FFF9C4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFF59D;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#FFF59D</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFF176;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#FFF176</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFEE58;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#FFEE58</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFEB3B;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FFEB3B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FDD835;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#FDD835</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FBC02D;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#FBC02D</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F9A825;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#F9A825</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F57F17;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#F57F17</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFFF8D;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FFFF8D</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFFF00;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FFFF00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFEA00;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#FFEA00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFD600;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#FFD600</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #FFC107;">
+                      <span class="group">Amber</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FFC107</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFF8E1;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FFF8E1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFECB3;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#FFECB3</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFE082;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#FFE082</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFD54F;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#FFD54F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFCA28;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#FFCA28</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFC107;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FFC107</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFB300;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#FFB300</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFA000;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#FFA000</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF8F00;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#FF8F00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF6F00;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#FF6F00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFE57F;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FFE57F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFD740;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FFD740</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFC400;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#FFC400</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFAB00;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#FFAB00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #FF9800;">
+                      <span class="group">Orange</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FF9800</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFF3E0;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FFF3E0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFE0B2;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#FFE0B2</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFCC80;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#FFCC80</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFB74D;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#FFB74D</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFA726;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#FFA726</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF9800;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FF9800</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FB8C00;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#FB8C00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F57C00;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#F57C00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EF6C00;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#EF6C00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #E65100;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#E65100</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFD180;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FFD180</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFAB40;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FFAB40</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF9100;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#FF9100</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF6D00;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#FF6D00</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #FF5722;">
+                      <span class="group">Deep Orange</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FF5722</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FBE9E7;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FBE9E7</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFCCBC;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#FFCCBC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFAB91;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#FFAB91</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF8A65;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#FF8A65</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF7043;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#FF7043</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF5722;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#FF5722</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #F4511E;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#F4511E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #E64A19;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#E64A19</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #D84315;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#D84315</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #BF360C;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#BF360C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF9E80;">
+                      <div class="details">
+                        <span class="shade">A100</span>
+                        <span class="hex">#FF9E80</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FF6E40;">
+                      <div class="details">
+                        <span class="shade">A200</span>
+                        <span class="hex">#FF6E40</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #FF3D00;">
+                      <div class="details">
+                        <span class="shade">A400</span>
+                        <span class="hex">#FF3D00</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #DD2C00;">
+                      <div class="details">
+                        <span class="shade">A700</span>
+                        <span class="hex">#DD2C00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #795548;">
+                      <span class="group">Brown</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#795548</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EFEBE9;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#EFEBE9</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #D7CCC8;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#D7CCC8</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #BCAAA4;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#BCAAA4</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #A1887F;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#A1887F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #8D6E63;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#8D6E63</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #795548;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#795548</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #6D4C41;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#6D4C41</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #5D4037;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#5D4037</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #4E342E;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#4E342E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #3E2723;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#3E2723</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag dark" style="background-color: #9E9E9E;">
+                      <span class="group">Grey</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#9E9E9E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FAFAFA;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#FAFAFA</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #F5F5F5;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#F5F5F5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #EEEEEE;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#EEEEEE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #E0E0E0;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#E0E0E0</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #BDBDBD;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#BDBDBD</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #9E9E9E;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#9E9E9E</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #757575;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#757575</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #616161;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#616161</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #424242;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#424242</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #212121;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#212121</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="module-module-module col-3">
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #607D8B;">
+                      <span class="group">Blue Grey</span>
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#607D8B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #ECEFF1;">
+                      <div class="details">
+                        <span class="shade">50</span>
+                        <span class="hex">#ECEFF1</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #CFD8DC;">
+                      <div class="details">
+                        <span class="shade">100</span>
+                        <span class="hex">#CFD8DC</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #B0BEC5;">
+                      <div class="details">
+                        <span class="shade">200</span>
+                        <span class="hex">#B0BEC5</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #90A4AE;">
+                      <div class="details">
+                        <span class="shade">300</span>
+                        <span class="hex">#90A4AE</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #78909C;">
+                      <div class="details">
+                        <span class="shade">400</span>
+                        <span class="hex">#78909C</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #607D8B;">
+                      <div class="details">
+                        <span class="shade">500</span>
+                        <span class="hex">#607D8B</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #546E7A;">
+                      <div class="details">
+                        <span class="shade">600</span>
+                        <span class="hex">#546E7A</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #455A64;">
+                      <div class="details">
+                        <span class="shade">700</span>
+                        <span class="hex">#455A64</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #37474F;">
+                      <div class="details">
+                        <span class="shade">800</span>
+                        <span class="hex">#37474F</span>
+                      </div>
+                    </div>
+                    <div class="color-tag light" style="background-color: #263238;">
+                      <div class="details">
+                        <span class="shade">900</span>
+                        <span class="hex">#263238</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                    <div class="color-tag light" style="background-color: #000000;">
+                      <div class="details">
+                        <span class="shade">Black</span>
+                        <span class="hex">#000000</span>
+                      </div>
+                    </div>
+                    <div class="color-tag dark" style="background-color: #FFFFFF;">
+                      <div class="details">
+                        <span class="shade">White</span>
+                        <span class="hex">#FFFFFF</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module">
+                  </div>
                 </section>
               </div>
             </div>
@@ -1386,16 +1895,18 @@
                 <li>使用 <a href="color.html#color-the-color-tool">颜色工具</a> 创建调色板，并在应用中使用</li>
                 <li>确保应用的颜色满足无障碍标准，且元素之间有充分的对比度</li>
               </ul>
-              <div class="modulettes">
-                <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/gd.svg">
-                    <div class="info">
-                      <div class="title">在材料中表现品牌</div>
-                      <span class="subtitle">在 Material Design 中保持品牌化的分步指导</span>
-                    </div>
-                  </img>
-                </a>
-              </div>
+              <p>
+                <div class="modulettes">
+                  <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
+                    <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/gd.svg">
+                      <div class="info">
+                        <div class="title">在材料中表现品牌</div>
+                      </div>
+                    </img>
+                  </a>
+                </div>
+              在 Material Design 中保持品牌化的分步指导
+              </p>
               <h1>Material Design 的颜色系统</h1>
               <div class="col-list">
                 <section class="module-figure-figure col-3">
@@ -1407,10 +1918,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 91.3%">
-                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-1">
+                      <figcaption id="color-system-figure-caption-0">
                         <p>该配色方案中有一个主色，以及颜色较深和较浅版本的主色，和一个辅助色。</p>
                       </figcaption>
                     </figure>
@@ -1419,10 +1930,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-2">
+                      <figcaption id="color-system-figure-caption-1">
                         <p>在使用主色的区域下方，相关信息使用了颜色更浅的主色进行着色。浮动操作按钮使用辅助色进行强调。</p>
                       </figcaption>
                     </figure>
@@ -1434,10 +1945,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 56.7%">
-                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-3">
+                      <figcaption id="color-system-figure-caption-2">
                         <p>此配色方案包含主色，和颜色较深和较浅版本的主色。</p>
                       </figcaption>
                     </figure>
@@ -1446,10 +1957,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-4">
+                      <figcaption id="color-system-figure-caption-3">
                         <p>主色应用于工具栏和状态栏，同时也被用于强调浮动操作按钮。</p>
                       </figcaption>
                     </figure>
@@ -1468,10 +1979,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-5">
+                      <figcaption id="color-system-figure-caption-4">
                         <p>此配色方案包含不同色调的主色，因为需要用到较浅和较深色调之间的对比度。</p>
                       </figcaption>
                     </figure>
@@ -1480,7 +1991,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>辅助色</h1>
                     <p>辅助色用于强调 UI 中的选择部分。辅助色可以是和主色互补的，也可以是和主色类似的，但它不应该只是简单的对主色进行加深或变浅。辅助色应该和它周围的元素形成对比，并作为强调，且应谨慎使用。</p>
@@ -1499,10 +2010,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-6">
+                      <figcaption id="color-system-figure-caption-5">
                         <p>具有不同色调的辅助色配色方案。</p>
                       </figcaption>
                     </figure>
@@ -1511,10 +2022,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-7">
+                      <figcaption id="color-system-figure-caption-6">
                         <p>辅助色配色方案不需要有多种颜色。它只需要和周围的元素形成对比，且应在 UI 中谨慎使用。</p>
                       </figcaption>
                     </figure>
@@ -1523,7 +2034,7 @@
               </div>
               <p></p>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>在应用中使用颜色</h1>
                     <p>大型 UI 区域和元素应该使用主色进行着色。辅助色可用于强调较小的区域。如果没有辅助色，则可以在这些区域中使用主色。</p>
@@ -1532,10 +2043,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-8">
+                      <figcaption id="color-system-figure-caption-7">
                         <p>浮动操作按钮使用辅助色进行强调，但是电话图标使用了主色。</p>
                       </figcaption>
                     </figure>
@@ -1544,10 +2055,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-9">
+                      <figcaption id="color-system-figure-caption-8">
                         <p>开关使用辅助色进行强调。系统栏使用主色，而工具栏使用了较浅的主色。</p>
                       </figcaption>
                     </figure>
@@ -1562,10 +2073,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.4%">
-                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-10">
+                      <figcaption id="color-system-figure-caption-9">
                         <p>使用主色作为强调，来表明按钮和复选框已被选中。</p>
                       </figcaption>
                     </figure>
@@ -1574,10 +2085,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-11">
+                      <figcaption id="color-system-figure-caption-10">
                         <p>辅助色可以用在有代表性的元素上，例如按钮和链接。</p>
                       </figcaption>
                     </figure>
@@ -1591,10 +2102,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-12">
+                      <figcaption id="color-system-figure-caption-11">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>对某些文本使用强调色，例如链接文本。</p>
                       </figcaption>
@@ -1604,10 +2115,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-13">
+                      <figcaption id="color-system-figure-caption-12">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在正文中使用明亮的颜色，即使你的主色或辅助色是明亮的。</p>
                       </figcaption>
@@ -1622,10 +2133,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-14">
+                      <figcaption id="color-system-figure-caption-13">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>你可以使用主色来强调链接。</p>
                         <p></p>
@@ -1636,10 +2147,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-15">
+                      <figcaption id="color-system-figure-caption-14">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用主色或强调色来强调较短的文本，如标题。</p>
                       </figcaption>
@@ -1652,10 +2163,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-16">
+                      <figcaption id="color-system-figure-caption-15">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在主要操作按钮上使用辅助色。</p>
                         <p></p>
@@ -1666,10 +2177,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-17">
+                      <figcaption id="color-system-figure-caption-16">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要在应用栏、较大的色块区域上使用辅助色。如果浮动操作按钮位于辅助色背景上，则不要在浮动操作按钮上使用辅助色。</p>
                       </figcaption>
@@ -1682,10 +2193,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-18">
+                      <figcaption id="color-system-figure-caption-17">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用单色作为强调色，使图像和其他彩色的元素更加突出。</p>
                         <p></p>
@@ -1696,10 +2207,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-19">
+                      <figcaption id="color-system-figure-caption-18">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在主色区域上的元素，可以使用不同色调的主色（例如这个浮动操作按钮）。</p>
                       </figcaption>
@@ -1712,10 +2223,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-20">
+                      <figcaption id="color-system-figure-caption-19">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>文本框和开关可以使用辅助色作为强调。</p>
                         <p></p>
@@ -1726,10 +2237,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-21">
+                      <figcaption id="color-system-figure-caption-20">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>文本选择可以使用辅助色作为强调。</p>
                       </figcaption>
@@ -1745,10 +2256,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-22">
+                      <figcaption id="color-system-figure-caption-21">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在很深或很浅的背景色中，使用不同色调的辅助色。</p>
                         <p></p>
@@ -1759,10 +2270,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-23" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="color-system-figure-caption-23">
+                      <figcaption id="color-system-figure-caption-22">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>如果主色和辅助色没有足够的对比度，不要在主色背景上使用辅助色。</p>
                       </figcaption>
@@ -1787,7 +2298,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>层次结构</h1>
                     <p>层次结构是指根据重要性级别来组织内容。颜色可以表达出一些内容相对与其他内容的重要性。</p>
@@ -1797,10 +2308,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-0" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-1">
+                      <figcaption id="usability-figure-caption-0">
                         <p>大胆的颜色强调了浮动操作按钮和工具栏，使信息的创建和导航更突出。</p>
                       </figcaption>
                     </figure>
@@ -1809,10 +2320,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1001px">
                         <div class="frame " style="padding-top: 177.622377622%">
-                          <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-2">
+                      <figcaption id="usability-figure-caption-1">
                         <p>无色的应用栏和按钮使亮色的内容更突出，不强调状态栏和导航栏。</p>
                       </figcaption>
                     </figure>
@@ -1820,31 +2331,33 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-module-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>含义</h1>
                     <p>颜色可以用来表达屏幕中不同元素的含义。天气应用可能会使用表示当前天气状况的颜色，地图应用可能会用红色或绿色的道路颜色，来表示交通状况。</p>
                   </div>
-                  <div class="figure">
-                    <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1000px">
-                        <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>"/>
+                  <div class="module">
+                    <p>
+                      <figure class="s-tag-media">
+                        <div class="media" style="max-width: 1000px">
+                          <div class="frame " style="padding-top: 177.8%">
+                            <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>"/>
+                          </div>
                         </div>
-                      </div>
-                      <figcaption id="usability-figure-caption-3">
-                        <p>天气应用使用颜色来表示一天中的时间。</p>
-                      </figcaption>
-                    </figure>
+                        <figcaption id="usability-figure-caption-2">
+                          <p>天气应用使用颜色来表示一天中的时间。</p>
+                        </figcaption>
+                      </figure>
+                    </p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-4">
+                      <figcaption id="usability-figure-caption-3">
                         <p>地图应用使用颜色来表示交通状况。</p>
                       </figcaption>
                     </figure>
@@ -1852,7 +2365,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>状态</h1>
                     <p>颜色可以提供以下信息：</p>
@@ -1866,10 +2379,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-5">
+                      <figcaption id="usability-figure-caption-4">
                         <p>红色的标签和帮助文本表示错误信息。</p>
                       </figcaption>
                     </figure>
@@ -1878,10 +2391,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 550px">
                         <div class="frame " style="padding-top: 36.3636363636%">
-                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-6">
+                      <figcaption id="usability-figure-caption-5">
                         <p>颜色从蓝色变为红色，以表示不同的状态。</p>
                       </figcaption>
                     </figure>
@@ -1889,20 +2402,20 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>对比</h1>
                     <p>应用的主色和辅助色应该确保元素之间能有足够的对比度，以便所有用户都能看到和使用你的应用。</p>
-                    <p>要了解更多有关颜色、对比度和无障碍设计相关的内容，请阅读 <a href="https://material.googleplex.com/usability/accessibility.html#" target="_blank">Material Design 无障碍</a>。</p>
+                    <p>要了解更多有关颜色、对比度和无障碍设计相关的内容，请阅读 <a href="../usability/accessibility.html">Material Design 无障碍</a>。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-7">
+                      <figcaption id="usability-figure-caption-6">
                         <p>在这个 UI 中，红色表示一天中的时间，绿色表示有雾的天气。</p>
                       </figcaption>
                     </figure>
@@ -1911,10 +2424,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-8">
+                      <figcaption id="usability-figure-caption-7">
                         <p>这是红绿色盲看到的左侧的 UI。它们可能无法看到文本和其他元素之间的差异。<br>
                           <br>
                           还应该使用除颜色以外的功能来传达信息。</p>
@@ -1928,10 +2441,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-9">
+                      <figcaption id="usability-figure-caption-8">
                         <p>较小的文字对于白内障用户可能会难以阅读，在他们眼中，你的 UI 可能会变得模糊。没有足够对比度的元素会被淹没在背景中。</p>
                         <p>为了适应所有用户，可以提供放大文本的选项。</p>
                       </figcaption>
@@ -1941,7 +2454,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>背景中的文本</h1>
                     <p>文本应该在其背景中清晰可见。建议：</p>
@@ -1956,7 +2469,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>可读性</h2>
                     <p>彩色背景上的文本需要保证清晰可读，以符合无障碍标准。在背景色和文本色上同时使用不透明度，可以满足此标准。 AA 级的 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">Web 内容无障碍指南（WCAG 2.0）</a> 要求普通文本的对比度为 4.5:1，大文本的对比度为 3:1。</p>
@@ -1965,10 +2478,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-10">
+                      <figcaption id="usability-figure-caption-9">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>使用不透明度，而不是改变颜色，通常能创造更好的对比度和相对亮度。例如，如果背景色变为洋红色，则其中的灰色文字（#727272）会变得难以阅读。</p>
                       </figcaption>
@@ -1978,24 +2491,24 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-11">
+                      <figcaption id="usability-figure-caption-10">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>转换为灰色，而不是降低了对比度的黑色，通常会降低相对亮度，使文本不可读。</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
-                    <h2><strong>浅色背景中的深色文本</strong></h2>
+                    <h2>浅色背景中的深色文本</h2>
                     <p>文本的不透明度取决于背景色是深色还是浅色的。对于浅色背景中的深色文本，使用以下不透明度：</p>
                     <ul class="lst-kix_ljva6phq05b1-0 start">
-                      <li><strong>最重要的文本</strong>使用 87% 的不透明度。</li>
-                      <li>在视觉层次结构中较低的<strong>辅助文本</strong>使用 54% 的不透明度。</li>
-                      <li><strong>文本提示</strong>（例如文本框和标签）、<strong>禁用状态的文本</strong>的视觉层次更低，使用 38% 的不透明度。</li>
+                      <li><strong>最重要的文本</strong>使用 87% 的不透明度</li>
+                      <li>在视觉层次结构中较低的<strong>辅助文本</strong>使用 54% 的不透明度</li>
+                      <li><strong>文本提示</strong>（例如文本框和标签）、<strong>禁用状态的文本</strong>的视觉层次更低，使用 38% 的不透明度</li>
                     </ul>
                   </div>
                   <div class="figure">
@@ -2034,7 +2547,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-3 h2-spacing">
                   <div class="module">
                     <h2><strong>暗色背景上的白色文本</strong></h2>
                     <p>彩色背景上的白色文本应该使用 100% 的不透明度。</p>
@@ -2043,10 +2556,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.9444444444%">
-                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-12">
+                      <figcaption id="usability-figure-caption-11">
                         <p>此表格显示了深色背景中的白色文本的相对重要性。</p>
                       </figcaption>
                     </figure>
@@ -2078,7 +2591,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h2-spacing">
                   <div class="module">
                     <h2>图标等元素</h2>
                     <p>图标之类的元素使用具有 38% 不透明度的白色或黑色，以使它们能在任何颜色的背景上使用。</p>
@@ -2120,7 +2633,7 @@
                     </table>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h2-spacing">
                   <div class="module">
                     <h2>彩色的文本和背景</h2>
                     <p>谨慎的在彩色背景上使用彩色文本，在重要的文本元素上应该有限制的使用。彩色的文本应该用于表示重要性、和强调已选择状态。</p>
@@ -2130,10 +2643,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-13">
+                      <figcaption id="usability-figure-caption-12">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>在重要的文本上使用有对比度的颜色（例如你的辅助色），使其与背景色产生对比。</p>
                       </figcaption>
@@ -2143,10 +2656,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-14">
+                      <figcaption id="usability-figure-caption-13">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>避免在彩色背景上放置大量彩色文本。</p>
                       </figcaption>
@@ -2159,10 +2672,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-15">
+                      <figcaption id="usability-figure-caption-14">
                         <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                         <p>你可以使用更深或更浅的色调来创建单色，也能突出外观。</p>
                       </figcaption>
@@ -2172,10 +2685,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="usability-figure-caption-16">
+                      <figcaption id="usability-figure-caption-15">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                         <p>不要使用相同颜色的不同色调的颜色进行对比。与背景色对比度很低的文本会很难阅读。</p>
                       </figcaption>
@@ -2199,20 +2712,17 @@
           <div class="article-content">
             <div>
               <p>主题可以让你的应用具有统一的风格。主题指定表面的暗度、阴影程度，以及墨水元素的适当的不透明度。为了提高不同应用之间的一致性，你可以选择亮色主题和暗色主题。</p>
-              <p>
-                <div class="modulettes">
-                  <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
-                    <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
-                    <div class="info">
-                      <div class="title">下载主题</div>
-                      <span class="subtitle">1.23 MB (.ai) </span>
-                    </div>
-                    </img>
-                  </a>
-                </div>
-              </p>
+              <div class="modulettes">
+                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>"/>
+                  <div class="info">
+                    <div class="title">下载主题</div>
+                    <span class="subtitle">1.23 MB (.ai) </span>
+                  </div>
+                </a>
+              </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module"><h1>亮色主题</h1>
                     <p>1. 状态栏<br>
                       2. 应用栏<br>
@@ -2223,10 +2733,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="themes-figure-caption-1">
+                      <figcaption id="themes-figure-caption-0">
                         <p>亮色主题调色板</p>
                       </figcaption>
                     </figure>
@@ -2235,16 +2745,16 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="themes-figure-caption-2">
+                      <figcaption id="themes-figure-caption-1">
                         <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>暗色主题</h1>
                     <p>1. 状态栏<br>
@@ -2256,10 +2766,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="themes-figure-caption-3">
+                      <figcaption id="themes-figure-caption-2">
                         <p>暗色主题调色板</p>
                       </figcaption>
                     </figure>
@@ -2268,27 +2778,28 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="themes-figure-caption-4">
+                      <figcaption id="themes-figure-caption-3">
                         <p>在 UI 中的应用</p>
                       </figcaption>
                     </figure>
                   </div>
                 </section>
               </div>
-              <h4 class="related">相关资源</h4>
-              <div class="modulettes">
-                <a class="modulette container android" href="http://developer.android.com/training/material/theme.html" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
-                  <div class="info">
-                    <div class="title">使用材料主题</div>
-                    <span class="subtitle">自定义你的品牌标识。</span>
-                  </div>
-                  </img>
-                </a>
-              </div>
+              <p>
+                <div class="modulettes">
+                  <a class="modulette container android" href="http://developer.android.com/training/material/theme.html" target="_blank">
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                    <div class="info">
+                      <div class="title">使用材料主题</div>
+                    </div>
+                    </img>
+                  </a>
+                </div>
+              自定义你的品牌标识。
+              </p>
             </div>
           </div>
         </div>
