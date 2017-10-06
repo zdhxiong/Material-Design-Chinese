@@ -307,7 +307,7 @@
               <p>为了使具有运动和视觉敏感性的用户能舒适地使用界面，请遵循 <a href="../motion/material-motion.html">Material Design 运动规范</a>，该规范支持 W3C 的以下运动指南：</p>
               <ul class="lst-kix_1yj07pccvkev-0 start">
                 <li>如果内容持续移动、滚动或闪烁的时间超过 5 秒，则会暂停、停止或隐藏。</li>
-                <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="http://www.w3.org/TR/WCAG20/#general-thresholddef" target="_blank">闪烁和红色闪烁的阀值</a>。</li>
+                <li>在 1 秒内，内容的闪烁次数限制为 3 次，以满足<a href="http://www.w3.org/TR/WCAG20/#general-thresholddef" target="_blank">闪烁和红色闪烁的阈值</a>。</li>
                 <li>避免<a href="https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176" target="_blank">闪烁屏幕中较大的中心区域</a>。</li>
               </ul>
               <h1>定时控件</h1>
