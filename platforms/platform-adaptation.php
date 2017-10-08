@@ -143,7 +143,7 @@
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-4">
                         <p><strong>Android/Web</strong></p>
-                        <p><a href="../patterns/app-structure.html#navigation-up-back-buttons">后退按钮</a>包含带茎秆的细箭头。</p>
+                        <p><a href="../patterns/navigation.html#navigation-up-back-buttons">后退按钮</a>包含带茎秆的细箭头。</p>
                       </figcaption>
                     </figure>
                   </div>
