@@ -12,18 +12,18 @@
         <div>
           <h1>无论用户拥有怎样的文化和语言，无论在何地，文本都应该能被用户理解。</h1>
           <div class="col-list">
-            <section class="module-module-module col-3">
+            <section class="module-module-module col-3 h3-spacing">
               <div class="module">
                 <p>清晰、准确、简洁的文本能增加界面的可用性，并建立信任感。</p>
                 <p>除了这些指南外，请务必参考为特定的 UI 元素编写的指南，例如<a href="../patterns/errors.html">错误</a>、<a href="../components/dialogs.html">对话框</a>、<a href="../patterns/settings.html">设置</a>，以及<a href="../patterns/data-formats.html">数据格式</a>。</p>
               </div>
               <div class="module">
-                <h3><strong>指南</strong></h3>
+                <h3>指南</h3>
                 <p>语气<br>
                   大小写<br>
                   标点符号<br>
                   按钮文本</p>
-                <h3><strong>样式</strong></h3>
+                <h3>样式</h3>
                 <p>通常 Google 的指南会遵循美联社（AP）的样式指南。</p>
               </div>
               <div class="module">
@@ -69,8 +69,9 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module"><h1>称谓</h1>
+                <section class="module-module-module col-3 h1-spacing">
+                  <div class="module">
+                    <h1>称谓</h1>
                     <p>在 UI 中可以使用下列之一的方式称呼用户：</p>
                     <ul class="lst-kix_4h34kitihxzm-1 start">
                       <li><strong>第二人称， “你” 或 “你们” </strong>：在大多数情况下会使用这种谈话的风格，就像应用在直接和用户说话一样。</li>
@@ -112,7 +113,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>避免使用代词 “我们”</h1>
                     <p>把注意力放在用户以及用户如何使用应用上，而不是你或你的应用正在为用户做什么。</p>
@@ -149,7 +150,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>保持简洁</h1>
                     <p>使用简短的文字来方便导航和发现。</p>
@@ -186,7 +187,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>使用现在时</h1>
                     <p>使用现在时来描述产品行为。避免使用将来时来描述产品的日常行为。</p>
@@ -197,7 +198,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>简单直接地书写</h1>
                     <p>使用简单、直接的语言，便于用户理解。</p>
@@ -248,7 +249,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>为所有级别的读者书写</h1>
                     <p>选择对初级和高级英语读者来说都清楚易懂的常用词汇。</p>
@@ -317,7 +318,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>在一个功能的所有部分中使用一致的词</h1>
                     <p>所有操作的描述都使用一致的动词。</p>
@@ -333,7 +334,6 @@
                       <p>删除图片</p>
                     </div>
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                    <figcaption></figcaption>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -359,7 +359,25 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
+                  <div class="module">
+                    <h1>使用“1，2，3”，而不是“一，二，三”</h1>
+                    <p>使用阿拉伯数字代替文字。</p>
+                    <p>有一个例外是混合使用数字的时候，例如“输入两个 3s”.</p></div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>你有 3 条消息</p></div>
+                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                  </div>
+                  <div class="module">
+                    <div class="text-box">
+                      <p>你有三条消息</p></div>
+                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-list">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>以目标开始</h1>
                     <p>如果一个句子既描述了一个目标，又包含了实现这个目标所需的操作，则以目标作为句子的开始。</p>
@@ -379,7 +397,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>根据需要显示详细信息</h1>
                     <p>没有必要在第一次的互动中就描述每个细节。在用户探索信息并且需要这些信息时，才向用户显示有关功能的详细信息。</p>
@@ -399,7 +417,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>不要说 “绝不” </h1>
                     <p>避免使用 “绝不” 和其它绝对性的词语。</p>
@@ -503,7 +521,7 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>友好、尊重、并专注于用户</h1>
                     <p>你的应用的文本应该是设计的补充：直观、高效、轻松、可靠。</p>
@@ -525,7 +543,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>保持谦逊</h1>
                     <p>真实的描述功能，不要吹牛或过度承诺。</p>
@@ -560,7 +578,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>吸引人的</h1>
                     <p>聚焦于每个功能的好处。在介绍功能时，省略功能的执行细节、注意事项和限制。</p>
@@ -580,7 +598,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>积极的</h1>
                     <p>以积极的态度来呈现信息：让用户安心。</p>
@@ -615,7 +633,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>必不可少的</h1>
                     <p>仅展示必要的细节，使用户可以专注于他们自己的任务。有时候最高效的 UI 根本不包含文字。</p>
@@ -652,11 +670,11 @@
           <div class="article-content">
             <div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>使用句式的大小写</h1>
                     <p>标题、标签、菜单项应该使用句式大小写（只大写句子中的第一个字母）。</p>
-                    <p>除了材料规范的需要之外（例如按钮样式），避免所有字母都用大写。</p>
+                    <p>除了材料规范的需要之外（例如按钮文本），避免所有字母都用大写。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -671,26 +689,10 @@
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>SEARCH SETTINGS</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
-                  <div class="module"></div>
-                </section>
               </div>
+              <h1>省略句号和不必要的标点符号</h1>
+              <p>为了帮助读者快速扫视文本，避免使用句号和其他不必要的标点符号。</p>
               <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <h1>省略句号和不必要的标点符号</h1>
-                    <p>为了帮助读者快速扫视文本，避免使用句号和其他不必要的标点符号。</p>
-                  </div>
-                  <div class="module"></div>
-                  <div class="module"></div>
-                </section>
                 <section class="module-module-module col-3">
                   <div class="module">
                     <p><strong>句号</strong>
@@ -704,7 +706,7 @@
                     </ul>
                     <p>句号应该用于：</p>
                     <ul class="lst-kix_qvj10667l85r-0 start">
-                      <li>有多个句子的文本（包含列表）</li>
+                      <li>多个句子</li>
                       <li>超链接之前的句子</li>
                     </ul>
                   </div>
@@ -731,19 +733,7 @@
                   <div class="module"></div>
                   <div class="module">
                     <div class="text-box">
-                      <p>要从所有国家和地区中缩小目标，请添加位置。</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module"></div>
-                </section>
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module">
-                    <p><strong>撤销批量更改？</strong>
-                    </p>
-                    <div class="text-box">
-                      <p>如果撤销批量更改，你所做的更改会全部恢复到之前的状态</p>
+                      <p><strong>撤销批量更改？<br/></strong>如果撤销批量更改，你所做的更改会全部恢复到之前的状态</p>
                     </div>
                     <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
                     <figcaption>
@@ -751,11 +741,10 @@
                     </figcaption>
                   </div>
                   <div class="module">
-                    <p><strong>撤销批量更改？</strong></p>
                     <div class="text-box">
-                      <p>如果撤销批量更改，你所做的更改会全部恢复到之前的状态。</p>
+                      <p><strong>撤销批量更改？<br/></strong>如果撤销批量更改，你所做的更改会全部恢复到之前的状态。</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption do"><?php echo $translate['dont']; ?></p>
                     <figcaption>
                       <p>不要在只有一句话的正文结尾添加句号。</p>
                     </figcaption>
@@ -781,10 +770,10 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>使用缩写</h1>
-                    <p>不要为了遵循这个规则而让句子变的难懂。例如，当需要表示强调时， “do not” 比 “don't” 更好。</p>
+                    <p>如果缩写能让句子更容易被理解，则使用缩写。但是，有时候不是这样，使用 “do not” 比 “don't” 更能表示强调。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -801,10 +790,10 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module-module col-3">
+                <section class="module-module-module col-3 h1-spacing">
                   <div class="module">
                     <h1>避免使用感叹号</h1>
-                    <p>避免使用感叹号：感叹号给人大喊大叫的感觉。但也有一些例外，包括问候或者贺词。</p>
+                    <p>避免使用感叹号，因为感叹号给人大喊大叫的感觉。但也有一些例外，包括问候或者贺词。</p>
                   </div>
                   <div class="module">
                     <div class="text-box">
@@ -819,44 +808,11 @@
                     <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>干的漂亮！</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module"></div>
-                </section>
               </div>
+              <h1>标点</h1>
+              <p>使用标点符号来保证句意清晰和语法正确。</p>
               <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module">
-                    <h1>使用 “1、2、3”，不要用 “一、二、三” </h1>
-                    <p>使用数字来代替汉字。</p>
-                    <p>有一个例外是需要混合使用多个数字时，例如 “输入两个 3s”。</p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>你有 3 条消息</p>
-                    </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
-                  </div>
-                  <div class="module">
-                    <div class="text-box">
-                      <p>你有三条消息</p>
-                    </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                  </div>
-                </section>
-              </div>
-              <div class="col-list">
-                <section class="module-module col-2">
-                  <div class="module"><h1>标点符号</h1>
-                    <p>省略短语和标签后的标点符号，以创建更干净、更易读的界面。</p>
-                    <p>使用标点符号来保证句意清晰和语法正确。</p>
-                  </div>
+                <section class="module-module col-1">
                   <div class="module">
                     <table class="s-tag-table">
                       <tbody>
@@ -866,97 +822,35 @@
                         <td colspan="1" rowspan="1"><p>符号/字符</p></td>
                         <td colspan="1" rowspan="1"><p>HTML 实体字符</p></td>
                         <td colspan="1" rowspan="1"><p>Unicode</p></td>
-                        <td colspan="1" rowspan="1"><p>描述</p></td>
+                        <td colspan="1" rowspan="1"><p>用法</p></td>
+                        <td colspan="1" rowspan="1"><p>实例</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>句号</p></td>
-                        <td colspan="1" rowspan="1"><p><strong>.</strong></p></td>
+                        <td colspan="1" rowspan="1"><p>冒号</p></td>
+                        <td colspan="1" rowspan="1"><p><strong>：</strong></p></td>
+                        <td colspan="1" rowspan="1"><p>&amp;#58;</p></td>
+                        <td colspan="1" rowspan="1"><p>\u003A</p></td>
                         <td colspan="1" rowspan="1">
+                          <p>在标签上不要用冒号。<br/>在列表上面使用冒号。</p>
                         </td>
                         <td colspan="1" rowspan="1">
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>在文本片段或单个句子中可以省略，例如在 toasts、snackbars 和标签中。为大段正文中的句子添加句号，例如对话框中的正文。</p>
-                          <p>放置在引号内（除非在告诉用户要输入什么，且不明确是否要包含句号）。</p>
+                          <p>两件事：</p>
+                          <ul class="lst-kix_e89o5b2dsbaa-0 start">
+                            <li>第一</li>
+                            <li>第二</li>
+                          </ul>
                         </td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>逗号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>,</strong></p></td>
-                        <td colspan="1" rowspan="1">
-                        </td>
-                        <td colspan="1" rowspan="1">
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>放置在引号内。</p>
-                          <p>在有 3 个或更多项目的列表中使用连续的逗号分隔。但使用了 &amp; 符号的除外，例如 “you, me &amp; my dog.”</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>感叹号</p></td>
-                        <td colspan="1" rowspan="1"><p><strong>!</strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
-                        <td colspan="1" rowspan="1"><p>避免使用感叹号，因为它在大多数情况下会给人一种大喊大叫的感觉。</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>冒号</p></td>
-                        <td colspan="1" rowspan="1"><p><strong>: </strong></p></td>
-                        <td colspan="1" rowspan="1"><p>&amp;#58;</p></td>
-                        <td colspan="1" rowspan="1"><p>\u003A</p></td>
-                        <td colspan="1" rowspan="1"><p>省略标签后面的冒号，例如，表单中文本框的标签。</p></td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>引号</p><p></p></td>
                         <td colspan="1" rowspan="1">
-                          <p>“ </p>
-                          <p>” </p>
-                          <p>‘ </p>
-                          <p>’ </p></td>
-                        <td colspan="1" rowspan="1">
-                          <p>&amp;ldquo;</p>
-                          <p>&amp;rdquo; </p>
-                          <p>&amp;lsquo;</p>
-                          <p>&amp;rsquo; </p></td>
-                        <td colspan="1" rowspan="1">
-                          <p>\u201C</p>
-                          <p>\u201D</p>
-                          <p>\u2018</p>
-                          <p>\u2019</p></td>
-                        <td colspan="1" rowspan="1">
-                          <p>使用正确的引号，而不是英寸或英尺符号。</p>
-                          <p>右单引号也用于表示撇号。</p>
-                          <p>不要使用通用引号 " 或 ' ，或是单独的声标 ` 或 ´ （\u0022、\u0027、\u0060、\u00B4）。这些不是正确的引号、撇号或重音符号。</p>
+                          <p>逗号放置在引号内。</p>
+                          <p>在有 3 个或更多项目的列表中使用连续的逗号分隔。但使用了 &amp; 符号的除外</p>
                         </td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>撇号</p></td>
-                        <td colspan="1" rowspan="1"><p>′</p></td>
-                        <td colspan="1" rowspan="1">
-                          <p>&amp;prime;</p>
-                          <p>&amp;Prime;</p>
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>\u2032</p>
-                          <p>\u2033</p>
-                        </td>
-                        <td colspan="1" rowspan="1">
-                          <p>仅在英寸、角分、分钟的缩写中使用撇号（′）。例如：3° 15′</p>
-                          <p>仅在英寸、角分、分钟的缩写中使用双撇号（″）。例如：3° 15′ 35″</p>
-                          <p>不要使用通用的引号 " 或 ' 或单独的声标 ` 或 ´ 来代替撇号。</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="1" rowspan="1"><p>省略号</p></td>
-                        <td colspan="1" rowspan="1"><p><strong> … </strong></p></td>
-                        <td colspan="1" rowspan="1"><p>&amp;hellip;</p></td>
                         <td colspan="1" rowspan="1"></td>
-                        <td colspan="1" rowspan="1">
-                          <p>用于指示正在进行中的操作（"Downloading…"）或者省略或裁剪的文本。省略号前没有空格。</p>
-                          <p>忽略用于打开一个对话框或者开始一些其他操作的菜单或按钮中的省略号。</p>
-                          <p>文本中间的省略号（三个点号）也用于表示数字截断，或用于遮挡敏感信息，比如信用卡信息。</p>
-                          <p>系统按键：Option-;</p>
-                        </td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>双尖括号</p></td>
@@ -972,7 +866,8 @@
                           <p>\u00AB</p>
                           <p>\u00BB</p>
                         </td>
-                        <td colspan="1" rowspan="1"><p>忽略会打开页面或进入下一步/上一步的链接或按钮中的尖括号。</p></td>
+                        <td colspan="1" rowspan="1"><p>忽略用于打开另一个页面、或进入下一个步骤的链接或按钮中的尖括号。</p></td>
+                        <td colspan="1" rowspan="1"></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>长破折号</p><p></p></td>
@@ -980,9 +875,9 @@
                         <td colspan="1" rowspan="1"><p>&amp;mdash;</p></td>
                         <td colspan="1" rowspan="1"><p>\u2014</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>避免使用长破折号，使用短破折号代替。</p>
-                          <p>系统按键：Shift+Option -</p>
+                          <p>使用短破折号，而不是长破折号</p>
                         </td>
+                        <td colspan="1" rowspan="1"></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>短破折号</p></td>
@@ -990,41 +885,119 @@
                         <td colspan="1" rowspan="1"><p>&amp;ndash;</p></td>
                         <td colspan="1" rowspan="1"><p>\u2013</p></td>
                         <td colspan="1" rowspan="1">
-                          <p>使用短破折号而不是连字符来表示范围，在英文中不需要添加空格。</p>
+                          <p>使用短破折号而不是连字符来表示范围，且不要添加空格。</p>
                           <p>避免使用短破折号来分隔文字。如果非用不可 – 像这样 – 在短破折号前后加上空格。</p>
-                          <p>用短破折号表示范围的示例：<br>
-                            8:00 AM–12:30 PM<br>
-                            3–5 kg</p>
-                          <p>系统按键：Option+ -</p>
                         </td>
+                        <td colspan="1" rowspan="1"><p>3–5 kg</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>省略号 </p></td>
+                        <td colspan="1" rowspan="1"><p><strong> … </strong></p></td>
+                        <td colspan="1" rowspan="1"><p>&amp;hellip;</p></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1">
+                          <p>用省略号表示一项操作正在进行中，或者表示残缺或被截断的文本，省略号前不含空格。<br>
+                            忽略用于打开一个对话框或者开始一些其他操作的菜单或按钮中的省略号。</p>
+                        </td>
+                        <td colspan="1" rowspan="1"><p>下载中…</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>感叹号</p></td>
+                        <td colspan="1" rowspan="1"><p><strong>!</strong></p></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"><p>避免使用感叹号，因为它们会让人感觉是在吼叫</p></td>
+                        <td colspan="1" rowspan="1"></td>
                       </tr>
                       <tr>
                         <td colspan="1" rowspan="1"><p>连字符</p></td>
                         <td colspan="1" rowspan="1"><p><strong>- </strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"><p>使用连字符表示负数，或创建复合词 </p></td>
                         <td colspan="1" rowspan="1">
-                          <p>用连字符来表示负数。</p>
-                          <p>例如：<br>
-                            -5<br>
-                            -$100</p>
-                          <p>使用连字符来避免 “形容词-名词” 或 “名词-形容词” 中的歧义。</p>
-                          <p>例如：<br>
-                            anti-inflammatory<br>
-                            5-mile walk</p>
-                        </td>
+                          <p>-5</p>
+                          <p>5-英里路程</p></td>
                       </tr>
                       <tr>
-                        <td colspan="1" rowspan="1"><p>圆括号</p></td>
+                        <td colspan="1" rowspan="1"><p>中线椭圆</p></td>
+                        <td colspan="1" rowspan="1"><p><strong>• • •</strong></p></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1">
+                          <p><a href="../patterns/data-formats.html#data-formats-data-redaction-truncation">中线椭圆</a>用于表示数字截断或敏感数据。</p>
+                        </td>
+                        <td colspan="1" rowspan="1"><p>SSN • • • 5678</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>括号</p></td>
                         <td colspan="1" rowspan="1"><p><strong>( )</strong></p></td>
                         <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"><p>用括号表示首字母缩写或术语</p></td>
+                        <td colspan="1" rowspan="1"><p>SSL (secure socket layer)</p></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>句号</p></td>
+                        <td colspan="1" rowspan="1"><p><strong>.</strong></p></td>
+                        <td colspan="1" rowspan="1"></td>
+                        <td colspan="1" rowspan="1"></td>
                         <td colspan="1" rowspan="1">
-                          <p>仅在定义首字母缩写或术语时使用圆括号。</p>
-                          <p>例如：<br>
-                            “安全网页连接是一种基于 SSL（secure sockets layer）的技术。”
-                          </p>
+                          <p>省略文本片段或单个句子中的句号，在两个或更多个句子的组合中使用句号。<br>
+                            将句号放在引号内。</p>
                         </td>
+                        <td colspan="1" rowspan="1"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1"><p>撇号</p></td>
+                        <td colspan="1" rowspan="1"><p>′</p></td>
+                        <td colspan="1" rowspan="1">
+                          <p>&amp;prime;</p>
+                          <p>&amp;Prime;</p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>\u2032</p>
+                          <p>\u2033</p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>仅在英寸、角分、分钟的缩写中使用撇号（′）。<br>
+                            仅在英寸、角分、分钟的缩写中使用双撇号（″）。<br>
+                            不要使用通用的引号 " 或 ' 或单独的声标 ` 或 ´ 来代替撇号。</p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>3° 15′</p>
+                          <p>3° 15′ 35″</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="1" rowspan="1">
+                          <p>引号</p>
+                          <p></p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>“ </p>
+                          <p>” </p>
+                          <p>‘ </p>
+                          <p>’ </p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>&amp;ldquo;</p>
+                          <p>&amp;rdquo; </p>
+                          <p>&amp;lsquo;</p>
+                          <p>&amp;rsquo; </p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>\u201C</p>
+                          <p>\u201D</p>
+                          <p>\u2018</p>
+                          <p>\u2019</p>
+                        </td>
+                        <td colspan="1" rowspan="1">
+                          <p>使用引号，而不是英寸或英尺符号。<br>
+                            右单引号也用于表示撇号。<br>
+                            不要使用通用引号 " 或 ' ，或是单独的声标 ` 或 ´ （\u0022、\u0027、\u0060、\u00B4）。这些不是正确的引号、撇号或重音符号。</p>
+                        </td>
+                        <td colspan="1" rowspan="1"></td>
                       </tr>
                       </tbody>
                     </table>
@@ -1055,10 +1028,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-0" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="global-writing-figure-caption-1">
+                      <figcaption id="global-writing-figure-caption-0">
                         <p>日文书写示例</p>
                       </figcaption>
                     </figure>
@@ -1067,10 +1040,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="global-writing-figure-caption-2">
+                      <figcaption id="global-writing-figure-caption-1">
                         <p>泰文书写示例</p>
                       </figcaption>
                     </figure>
@@ -1078,7 +1051,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-figure-figure col-3">
+                <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>在 RTL 语言中，谨慎使用 “左” 和 “右” 这类术语</h1>
                     <p>在本地化时，从右到左语言的界面可能需要<a href="../usability/bidirectionality.html#bidirectionality-ui-mirroring-overview">镜像化</a>。</p>
@@ -1087,10 +1060,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="global-writing-figure-caption-3">
+                      <figcaption id="global-writing-figure-caption-2">
                         <p>在这个例子中，从右到左语言（RTL）的阿拉伯文界面，是根据英文版界面做了镜像处理的。</p>
                       </figcaption>
                     </figure>
@@ -1099,10 +1072,10 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-4" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
                         </div>
                       </div>
-                      <figcaption id="global-writing-figure-caption-4">
+                      <figcaption id="global-writing-figure-caption-3">
                         <p>英文界面的从左到右（LTR）的示例</p>
                       </figcaption>
                     </figure>
@@ -1110,7 +1083,7 @@
                 </section>
               </div>
               <div class="col-list">
-                <section class="module-module col-2">
+                <section class="module-module col-2 h1-spacing">
                   <div class="module">
                     <h1>指定性别</h1>
                     <p>有时用户的性别是未知的。在英文中，这种情况下可以使用不分性别的文字 “they” 。但是很多语言需要以不同的方式来表示性别。</p>
