@@ -25,16 +25,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="<?php url('static/media/public/guidelines-icon-180x180.png') ?>">
   <meta name="msapplication-TileImage" content="<?php url('static/media/public/guidelines-icon-144x144.png') ?>">
   <meta name="msapplication-tap-highlight" content="no">
-
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?33d719afc3e48d8a2fbdd886b164d2e4";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
+  <script id="analysis-code"></script>
 </head>
 
 <body class="site-material_ext_publish section-material-design first-chapter color-<?php echo $vars['color_name']; ?> qp-ui" data-qp-ui="{ 'Mask': {} }">

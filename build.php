@@ -18,7 +18,8 @@ define('STATIC_PATH', '');
 
 // 广告
 $adsense = array(
-  '<div class="gas-h1-bottom"></div>' => ''
+  '<div class="gas-h1-bottom"></div>' => '',
+  '<script id="analysis-code"></script>' => ''
 );
 
 // 公共翻译
