@@ -947,7 +947,7 @@
                       </div>
                       <figcaption id="product-icons-figure-caption-41">
                         <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
-                        <p>不要折叠超过三次。</p>
+                        <p>不要使用三次手风琴折叠。</p>
                       </figcaption>
                     </figure>
                   </div>
