@@ -1,5 +1,2 @@
 .idea/
 .vscode/
-build/
-!build/static/default
-!build/static/spec
