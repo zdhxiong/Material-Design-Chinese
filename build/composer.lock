@@ -1,0 +1,157 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0ac1775a60335c4b4c4e650d30989f7",
+    "packages": [
+        {
+            "name": "erusev/parsedown",
+            "version": "1.8.0-beta-4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "1f69f7e69797104e73fdceaae22a4b4e3978f0a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/erusev/parsedown/1f69f7e69797104e73fdceaae22a4b4e3978f0a4.zip",
+                "reference": "1f69f7e69797104e73fdceaae22a4b4e3978f0a4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2018-05-08T21:46:15+00:00"
+        },
+        {
+            "name": "grinderspro/directory-manipulator",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grinderspro/directory-manipulator.git",
+                "reference": "00a4255fcd2ba77b238380f41d4f7a17f96aad06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/grinderspro/directory-manipulator/00a4255fcd2ba77b238380f41d4f7a17f96aad06.zip",
+                "reference": "00a4255fcd2ba77b238380f41d4f7a17f96aad06",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grinderspro\\DirectoryManipulator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "grinderspro",
+                    "email": "grinderspro@gmai.com"
+                }
+            ],
+            "description": "Simple folder manipulation. Create, delete, rename folder",
+            "keywords": [
+                "create folder",
+                "delete folder",
+                "directory manipulator",
+                "empty folder",
+                "folder manipulation",
+                "grinderspro",
+                "rename folder",
+                "очистить директорию",
+                "создание директории",
+                "удаление директории"
+            ],
+            "time": "2018-03-13T18:44:05+00:00"
+        },
+        {
+            "name": "komalbarun/dirpy",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/komalbarun/DirPy.git",
+                "reference": "077d49b1c0353a7062abed6969382e65ed4b19af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v3/projects/komalbarun%2FDirPy/repository/archive.zip?sha=077d49b1c0353a7062abed6969382e65ed4b19af",
+                "reference": "077d49b1c0353a7062abed6969382e65ed4b19af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Komalbarun\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rambarun Komaljeet",
+                    "email": "komlbarun@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Recursive directory scanner",
+            "keywords": [
+                "Directory traversal",
+                "Recursive scan"
+            ],
+            "time": "2017-06-30T21:04:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "erusev/parsedown": 10
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

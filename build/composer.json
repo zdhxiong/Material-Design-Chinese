@@ -1,0 +1,8 @@
+{
+    "require": {
+        "php": ">=7.0",
+        "erusev/parsedown": "^1.8.0-beta-4",
+        "komalbarun/dirpy": "^0.0.4",
+        "grinderspro/directory-manipulator": "^1.0"
+    }
+}
