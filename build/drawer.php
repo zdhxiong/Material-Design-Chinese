@@ -3,19 +3,19 @@
 return [
     [
         'type' => 'subheader',
-        'title' => 'Material System',
+        'title' => 'Material 系统',
     ],
     [
         'type' => 'link',
-        'title' => 'Introduction',
+        'title' => '介绍',
         'href' => '../introduction/index.html',
     ],
     [
         'type' => 'collapse',
-        'title' => 'Material studies',
+        'title' => 'Material 研究',
         'children' => [
             [
-                'title' => 'About our Material Studies',
+                'title' => '关于我们的 Material 研究',
                 'href' => '../material-studies/about-our-material-studies.html',
             ],
             [
@@ -50,233 +50,233 @@ return [
     ],
     [
         'type' => 'subheader',
-        'title' => 'Material Foundation',
+        'title' => 'Material 基础',
     ],
     [
         'type' => 'link',
-        'title' => 'Foundation overview',
+        'title' => '基础概述',
         'href' => '../foundation-overview/index.html'
     ],
     [
         'type' => 'collapse',
-        'title' => 'Environment',
+        'title' => '环境',
         'children' => [
             [
-                'title' => 'Surfaces',
+                'title' => '表面',
                 'href' => '../environment/surfaces.html'
             ],
             [
-                'title' => 'Elevation',
+                'title' => '海拔高度',
                 'href' => '../environment/elevation.html',
             ],
             [
-                'title' => 'Light and shadows',
+                'title' => '光亮和阴影',
                 'href' => '../environment/light-shadows.html',
             ]
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Layout',
+        'title' => '布局',
         'children' => [
             [
-                'title' => 'Understanding layout',
+                'title' => '理解布局',
                 'href' => '../layout/understanding-layout.html',
             ],
             [
-                'title' => 'Responsive layout grid',
+                'title' => '响应式布局网格',
                 'href' => '../layout/responsive-layout-grid.html',
             ],
             [
-                'title' => 'Spacing methods',
+                'title' => '间距方法',
                 'href' => '../layout/spacing-methods.html',
             ],
             [
-                'title' => 'Component behavior',
+                'title' => '组件行为',
                 'href' => '../layout/component-behavior.html',
             ],
             [
-                'title' => 'Density',
+                'title' => '密集度',
                 'href' => '../layout/density.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Navigation',
+        'title' => '导航',
         'children' => [
             [
-                'title' => 'Understanding navigation',
+                'title' => '理解导航',
                 'href' => '../navigation/understanding-navigation.html',
             ],
             [
-                'title' => 'Navigation transitions',
+                'title' => '导航转换',
                 'href' => '../navigation/navigation-transitions.html',
             ],
             [
-                'title' => 'Search',
+                'title' => '搜索',
                 'href' => '../navigation/search.html'
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Color',
+        'title' => '颜色',
         'children' => [
             [
-                'title' => 'The color system',
+                'title' => '颜色系统',
                 'href' => '../color/the-color-system.html',
             ],
             [
-                'title' => 'Applying color to UI',
+                'title' => '将颜色应用于 UI',
                 'href' => '../color/applying-color-to-ui.html',
             ],
             [
-                'title' => 'Color usage',
+                'title' => '颜色的使用',
                 'href' => '../color/color-usage.html',
             ],
             [
-                'title' => 'Text legibility',
+                'title' => '文本可读性',
                 'href' => '../color/text-legibility.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Typography',
+        'title' => '排版',
         'children' => [
             [
-                'title' => 'The type system',
+                'title' => '排版系统',
                 'href' => '../typography/the-type-system.html',
             ],
             [
-                'title' => 'Understanding typography',
+                'title' => '理解排版',
                 'href' => '../typography/understanding-typography.html',
             ],
             [
-                'title' => 'Language support',
+                'title' => '语言支持',
                 'href' => '../typography/language-support.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Iconography',
+        'title' => '图像',
         'children' => [
             [
-                'title' => 'Product icons',
+                'title' => '产品图标',
                 'href' => '../iconography/product-icons.html',
             ],
             [
-                'title' => 'System icons',
+                'title' => '系统图标',
                 'href' => '../iconography/system-icons.html',
             ],
             [
-                'title' => 'Animated icons',
+                'title' => '动画图标',
                 'href' => '../iconography/animated-icons.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Shape',
+        'title' => '形状',
         'children' => [
             [
-                'title' => 'About shape',
+                'title' => '关于形状',
                 'href' => '../shape/about-shape.html',
             ],
             [
-                'title' => 'Shape and hierarchy',
+                'title' => '形状和层次结构',
                 'href' => '../shape/shape-hierarchy.html',
             ],
             [
-                'title' => 'Shape as expression',
+                'title' => '形状表达',
                 'href' => '../shape/shape-as-expression.html',
             ],
             [
-                'title' => 'Shape and motion',
+                'title' => '形状和运动',
                 'href' => '../shape/shape-motion.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Motion',
+        'title' => '动效',
         'children' => [
             [
-                'title' => 'Understanding motion',
+                'title' => '理解动效',
                 'href' => '../motion/understanding-motion.html',
             ],
             [
-                'title' => 'Speed',
+                'title' => '速度',
                 'href' => '../motion/speed.html',
             ],
             [
-                'title' => 'Choreography',
+                'title' => '编排',
                 'href' => '../motion/choreography.html',
             ],
             [
-                'title' => 'Customization',
+                'title' => '自定义动效',
                 'href' => '../motion/customization.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Interaction',
+        'title' => '交互',
         'children' => [
             [
-                'title' => 'Gestures',
+                'title' => '手势',
                 'href' => '../interaction/gestures.html',
             ],
             [
-                'title' => 'Selection',
+                'title' => '选择',
                 'href' => '../interaction/selection.html',
             ],
             [
-                'title' => 'States',
+                'title' => '状态',
                 'href' => '../interaction/states.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Communication',
+        'title' => '沟通',
         'children' => [
             [
-                'title' => 'Confirmation & acknowledgement',
+                'title' => '确认 & 确知',
                 'href' => '../communication/confirmation-acknowledgement.html',
             ],
             [
-                'title' => 'Data formats',
+                'title' => '数据格式',
                 'href' => '../communication/data-formats.html',
             ],
             [
-                'title' => 'Empty states',
+                'title' => '空状态',
                 'href' => '../communication/empty-states.html',
             ],
             [
-                'title' => 'Gesture education',
+                'title' => '附加手势',
                 'href' => '../communication/gesture-education.html',
             ],
             [
-                'title' => 'Help & feedback',
+                'title' => '帮助 & 反馈',
                 'href' => '../communication/help-feedback.html',
             ],
             [
-                'title' => 'Imagery',
+                'title' => '图像',
                 'href' => '../communication/imagery.html',
             ],
             [
-                'title' => 'Launch screen',
+                'title' => '启动页',
                 'href' => '../communication/launch-screen.html',
             ],
             [
-                'title' => 'Onboarding',
+                'title' => '导览',
                 'href' => '../communication/onboarding.html',
             ],
             [
-                'title' => 'Writing',
+                'title' => '写作',
                 'href' => '../communication/writing.html',
             ],
         ],
@@ -287,37 +287,37 @@ return [
     ],
     [
         'type' => 'link',
-        'title' => 'Guidelines overview',
+        'title' => '指南概述',
         'href' => '../guidelines-overview/index.html',
     ],
     [
         'type' => 'collapse',
-        'title' => 'Material Theming',
+        'title' => 'Material 主题',
         'children' => [
             [
-                'title' => 'Overview',
+                'title' => '概述',
                 'href' => '../material-theming/overview.html',
             ],
             [
-                'title' => 'Implementing your theme',
+                'title' => '实现你的主题',
                 'href' => '../material-theming/implementing-your-theme.html',
             ],
         ],
     ],
     [
         'type' => 'collapse',
-        'title' => 'Components',
+        'title' => '组件',
         'children' => [
             [
-                'title' => 'App bars: bottom',
+                'title' => '应用栏：底部',
                 'href' => '../components/app-bars-bottom.html',
             ],
             [
-                'title' => 'App bars: top',
+                'title' => '应用栏：顶部',
                 'href' => '../components/app-bars-top.html',
             ],
             [
-                'title' => 'Backdrop',
+                'title' => '背景',
                 'href' => '../components/backdrop.html',
             ],
             [
@@ -325,71 +325,71 @@ return [
                 'href' => '../components/banners.html',
             ],
             [
-                'title' => 'Bottom navigation',
+                'title' => '底部导航',
                 'href' => '../components/bottom-navigation.html',
             ],
             [
-                'title' => 'Buttons',
+                'title' => '按钮',
                 'href' => '../components/buttons.html',
             ],
             [
-                'title' => 'Buttons: floating action button',
+                'title' => '浮动操作按钮',
                 'href' => '../components/buttons-floating-action-button.html',
             ],
             [
-                'title' => 'Cards',
+                'title' => '卡片',
                 'href' => '../components/cards.html',
             ],
             [
-                'title' => 'Chips',
+                'title' => '纸片',
                 'href' => '../components/chips.html',
             ],
             [
-                'title' => 'Data tables',
+                'title' => '数据表格',
                 'href' => '../components/data-tables.html',
             ],
             [
-                'title' => 'Dialogs',
+                'title' => '对话框',
                 'href' => '../components/dialogs.html',
             ],
             [
-                'title' => 'Dividers',
+                'title' => '分隔线',
                 'href' => '../components/dividers.html',
             ],
             [
-                'title' => 'Image lists',
+                'title' => '图片列表',
                 'href' => '../components/image-lists.html',
             ],
             [
-                'title' => 'Lists',
+                'title' => '列表',
                 'href' => '../components/lists.html',
             ],
             [
-                'title' => 'Menus',
+                'title' => '菜单',
                 'href' => '../components/menus.html',
             ],
             [
-                'title' => 'Navigation drawer',
+                'title' => '抽屉式导航',
                 'href' => '../components/navigation-drawer.html'
             ],
             [
-                'title' => 'Progress indicators',
+                'title' => '进度指示器',
                 'href' => '../components/progress-indicators.html',
             ],
             [
-                'title' => 'Selection controls',
+                'title' => '选择控制器',
                 'href' => '../components/selection-controls.html',
             ],
             [
-                'title' => 'Sheets: bottom',
+                'title' => '底部卡片',
                 'href' => '../components/sheets-bottom.html',
             ],
             [
-                'title' => 'Sheets: side',
+                'title' => '侧边栏卡片',
                 'href' => '../components/sheets-side.html',
             ],
             [
-                'title' => 'Sliders',
+                'title' => '滑块',
                 'href' => '../components/sliders.html',
             ],
             [
@@ -397,78 +397,78 @@ return [
                 'href' => '../components/snackbars.html',
             ],
             [
-                'title' => 'Tabs',
+                'title' => 'Tab 选项卡',
                 'href' => '../components/tabs.html',
             ],
             [
-                'title' => 'Text fields',
+                'title' => '文本框',
                 'href' => '../components/text-fields.html',
             ],
             [
-                'title' => 'Tooltips',
+                'title' => '工具提示',
                 'href' => '../components/tooltips.html',
             ],
         ],
     ],
     [
         'type' => 'link',
-        'title' => 'Usability',
+        'title' => '可用性',
         'href' => '../usability/index.html',
     ],
     [
         'type' => 'collapse',
-        'title' => 'Platform guidance',
+        'title' => '平台指导',
         'children' => [
             [
                 'title' => 'Android bars',
                 'href' => '../platform-guidance/android-bars.html',
             ],
             [
-                'title' => 'Android fingerprint',
+                'title' => 'Android 指纹',
                 'href' => '../platform-guidance/android-fingerprint.html',
             ],
             [
-                'title' => 'Android haptics',
+                'title' => 'Android 触感',
                 'href' => '../platform-guidance/android-haptics.html',
             ],
             [
-                'title' => 'Android icons',
+                'title' => 'Android 图标',
                 'href' => '../platform-guidance/android-icons.html',
             ],
             [
-                'title' => 'Android navigating between apps',
+                'title' => 'Android 应用间转换',
                 'href' => '../platform-guidance/android-navigating-between-apps.html',
             ],
             [
-                'title' => 'Android notifications',
+                'title' => 'Android 通知',
                 'href' => '../platform-guidance/android-notifications.html',
             ],
             [
-                'title' => 'Android permissions',
+                'title' => 'Android 权限',
                 'href' => '../platform-guidance/android-permissions.html',
             ],
             [
-                'title' => 'Android settings',
+                'title' => 'Android 设置',
                 'href' => '../platform-guidance/android-settings.html',
             ],
             [
-                'title' => 'Android split-screen',
+                'title' => 'Android 分屏',
                 'href' => '../platform-guidance/android-split-screen.html',
             ],
             [
-                'title' => 'Android swipe to refresh',
+                'title' => 'Android 滑动刷新',
                 'href' => '../platform-guidance/android-swipe-to-refresh.html',
             ],
             [
-                'title' => 'Android text selection toolbar',
+                'title' => 'Android 文本选择工具栏',
                 'href' => '../platform-guidance/android-text-selection-toolbar.html',
             ],
             [
-                'title' => 'Android widget',
+                'title' => 'Android 小部件',
                 'href' => '../platform-guidance/android-widget.html',
             ],
             [
-                'title' => 'Cross-platform adaptation',
+                'title' => '跨平台适配',
                 'href' => '../platform-guidance/cross-platform-adaptation.html',
             ],
         ],

@@ -59,7 +59,7 @@ function buildDrawer($file) {
                     $collapse_class = 'mdui-collapse-item-open';
                 }
             }
-            
+
             $html .=
 '<div class="mdui-collapse-item ' . $collapse_class . '">
   <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
@@ -100,6 +100,10 @@ foreach ($src->files as $file) {
     // drawer 替换
     $drawer = buildDrawer($file);
     $html = str_replace('{drawer}', $drawer, $html);
+
+    // 标题替换
+    preg_match("/<h1>(.*?)<\/h1>/", $html, $matched);
+    $html = str_replace('<title></title>', '<title>' . $matched[1] . ' - Material Design 中文文档，指南，翻译</title>', $html);
 
     $filename = str_replace(SRC_PATH, DIST_PATH, $file);
     $filename = substr($filename, 0, -3) . '.html';
