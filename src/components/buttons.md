@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/buttons/buttons-usage.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -33,9 +31,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -57,9 +53,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-illos-01.png)
 
@@ -71,9 +65,7 @@
 [en]: <> (Buttons should indicate that they can trigger an action.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-illos-02.png)
 
@@ -85,9 +77,7 @@
 [en]: <> (Buttons should be easy to find among other elements, including other buttons.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-illos-03.png)
 
@@ -152,9 +142,7 @@
 [en]: <> (By default Material uses capitalized button text labels \(for languages that have capitalization\). This is to distinguish the text label from surrounding text. If a text button does not use capitalization for button text, find another characteristic to distinguish it such as color, size, or placement.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-text-label-do.png)
 
@@ -165,11 +153,7 @@
 [en]: <> (Use capitalization, for languages that allow capitalization.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-elements-text-label-dont-02.png)
 
@@ -180,9 +164,7 @@
 [en]: <> (Don’t wrap text. For maximum legibility, a text label should remain on a single line.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Hierarchy and placement)
 <h2 id="hierarchy-placement">译文</h2>
@@ -235,11 +217,7 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-do-04.png)
 
@@ -250,11 +228,7 @@
 [en]: <> (In a bottom bar, when using multiple buttons, indicate the more important action by placing it in a contained button \(next to a text button\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-dont.png)
 
@@ -265,13 +239,7 @@
 [en]: <> (Avoid using two contained buttons next to one another if they don’t have the same fill color.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-do-outlined.png)
 
@@ -282,11 +250,7 @@
 [en]: <> (In a bottom bar, when using multiple buttons, you can place a outlined button \(medium emphasis\) next to a contained button \(high emphasis\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-do-outlined2.png)
 
@@ -297,11 +261,7 @@
 [en]: <> (When using multiple buttons in a bottom bar, you can place a text button \(low emphasis\) next to an outlined button \(medium emphasis\).)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-do-06.png)
 
@@ -312,9 +272,7 @@
 [en]: <> (Use a contained button in a bottom sheet next to other important details.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons/buttons-layout-dont-08.png)
 
@@ -353,11 +311,7 @@
 [en]: <> (Text button)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/text-button-usage-2.png)
 
@@ -366,11 +320,7 @@
 [en]: <> (Use a text button in snackbars.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/text-button-usage-3.png)
 
@@ -379,9 +329,7 @@
 [en]: <> (A text button against an image background)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Text label)
 #### 译文
@@ -398,11 +346,7 @@
 [en]: <> (Text label using a distinct action)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/text-button-text-label-caution.png)
 
@@ -413,11 +357,7 @@
 [en]: <> (Text labels need to be distinct from other elements. If the text label isn’t capitalized, it should use a different color, style, or layout from other text.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-textbutton-text-label-dont-1.png)
 
@@ -428,9 +368,7 @@
 [en]: <> (Avoid text labels that are too long. They should be concise.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -447,9 +385,7 @@
 [en]: <> (Dialogs use text buttons because the absence of a container helps unify the action with the dialog text. Align text buttons to the right edge for left-to-right scripts.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons/buttons-text-when-to-use-03.png)
 
@@ -524,11 +460,7 @@
 [en]: <> (Outlined button)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-outlined-usage-flexible.png)
 
@@ -539,11 +471,7 @@
 [en]: <> (An outlined button’s width is dynamically set to fit the text label.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-outlined-usage-dont.png)
 
@@ -554,13 +482,7 @@
 [en]: <> (An outlined button’s width shouldn’t be shorter than its text.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-outlined-usage-caution.png)
 
@@ -571,9 +493,7 @@
 [en]: <> (Protect text when using Outlined buttons in front of images. This image uses a light purple scrim to provide text protection for this outlined button.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (States)
 ### 译文
@@ -604,9 +524,7 @@
 [en]: <> (Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-contained-do-1.png)
 
@@ -615,11 +533,7 @@
 [en]: <> (A contained button)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-text-label-do-2.png)
 
@@ -630,9 +544,7 @@
 [en]: <> (Text labels can be written in sentence case, as long as the button is clearly distinguishable from elements around it.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Container)
 ### 译文
@@ -657,11 +569,7 @@
 [en]: <> (A contained button with solid color)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-elements-container-flexible.png)
 
@@ -672,11 +580,7 @@
 [en]: <> (A button container’s width is dynamically set to fit its text label.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-elements-container-flexible-dont.png)
 
@@ -687,9 +591,7 @@
 [en]: <> (A button container’s width shouldn’t be shorter than its text.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Button container width can be set according to the responsive layout grid.)
 译文
@@ -722,11 +624,7 @@
 [en]: <> (Use icons that clearly communicate their meaning.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-elements-icon-dont-02.png)
 
@@ -737,11 +635,7 @@
 [en]: <> (Don’t vertically align an icon and text in the center of a contained button.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons/buttons-elements-icon-dont-03.png)
 
@@ -752,9 +646,7 @@
 [en]: <> (Don’t use two icons in the same button.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Shadow & elevation)
 ### 译文
@@ -814,9 +706,7 @@
 [en]: <> (These toggle buttons present options for aligning text to the left, right, and center.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons/buttons-toggle-usage-2.png)
 
@@ -1288,9 +1178,7 @@
 
 ![]({assets_path}/components/buttons/specs-contained-button.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Contained Button with icon)
 #### 译文
@@ -1299,11 +1187,7 @@
 
 ![]({assets_path}/components/buttons/specs-contained-button-with-icon.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Outlined Button)
 #### 译文
@@ -1312,9 +1196,7 @@
 
 ![]({assets_path}/components/buttons/specs-outlined-button.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Text Button)
 #### 译文
@@ -1323,11 +1205,7 @@
 
 ![]({assets_path}/components/buttons/specs-text-button.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Toggle Buttons)
 #### 译文
@@ -1336,8 +1214,4 @@
 
 ![]({assets_path}/components/buttons/specs-toggle-buttons.png)
 
-</figure>
-
-</div></div>
-
-</div>
+</figure></div></div></div>

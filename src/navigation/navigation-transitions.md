@@ -10,9 +10,7 @@
 
 ![]({assets_path}/navigation/navigation-transitions/navigationtransitions-hero-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About navigation transitions)
 [en]: <> (Hierarchical transitions)
@@ -21,9 +19,7 @@
 * [译文](#hierarchical-transitions)
 * [译文](#peer-transitions)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About navigation transitions)
 <h2 id="about-navigation-transitions">译文</h2>
@@ -55,35 +51,17 @@
 [en]: <> (From a parent screen, an embedded child element lifts up on touch and expands in place, using the *standard easing curve* The motion both draws focus to the child screen \(which is the destination of the interaction\), while reinforcing the relationship between parent and child screens.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-1-spec.mp4" src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-1-spec.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-1-spec.mp4" src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-1-spec.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A parent-to-child transition)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-reply-1a.mp4" src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-reply-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-reply-1a.mp4" src="{assets_path}/navigation/navigation-transitions/hierarchicaltransitions-reply-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Message previews in this email app lift and expand in place to reveal the full message.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Peer transitions)
 <h2 id="peer-transitions">译文</h2>
@@ -100,35 +78,17 @@
 [en]: <> (Screens that share the same parent \(such as photos in an album, sections of a profile, or steps in a flow\) move in unison to reinforce their relationship to one another. The peer screen slides in from the one side, while its sibling moves off screen in the opposite direction.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-1-spec.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-1-spec.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-1-spec.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-1-spec.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tabs indicate they are related by sitting at the same elevation and moving together.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-crane-1b.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-crane-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-crane-1b.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-crane-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (This travel app uses tabs to allow switching between three different types of trips.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Top-level transitions)
 ### 译文
@@ -136,33 +96,14 @@
 [en]: <> (At the top level of an app, destinations are often grouped into major tasks \(and the tasks may not relate to one another\). These screens transition in place by changing values such as opacity and scale.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Destinations in a bottom navigation bar transition in place.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav-baseline.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav-baseline.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav-baseline.mp4" src="{assets_path}/navigation/navigation-transitions/peertransitions-bottomnav-baseline.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The top-level destinations of this photo app transition appropriately, given that the destinations aren’t strongly related to one another.)
 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

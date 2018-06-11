@@ -13,9 +13,7 @@
 * [译文](#usage)
 * [译文](#principles)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -26,9 +24,7 @@
 [en]: <> (When to use)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-1.png)
 
@@ -45,11 +41,7 @@
 * 译文
 * 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-3.png)
 
@@ -70,9 +62,7 @@
 * 译文
 * 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Haptics with audio and video)
 ### 译文
@@ -98,9 +88,7 @@
 [en]: <> (Haptics should be used thoughtfully. If haptics are overused, it can be bothersome and could potentially cause user discomfort. Only perform haptic feedback if the user has enabled haptics in their system’s settings.)
 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-4.png)
 
@@ -112,11 +100,7 @@
 [en]: <> (Apply haptics consistently by adhering to platform patterns \(such as [Android Haptic Feedback Constants]\(https://developer.android.com/reference/android/view/HapticFeedbackConstants\)\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-5.png)
 
@@ -128,11 +112,7 @@
 [en]: <> (The number of new and unique haptics produced should be limited, and only used when system patterns are not defined.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-6.png)
 
@@ -144,13 +124,7 @@
 [en]: <> (Select patterns that fit the interaction, context, and environment in which a pattern is used.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-7.png)
 
@@ -162,11 +136,7 @@
 [en]: <> (Haptics communicate simpler information, and shouldn’t be used to convey complex information.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-8.png)
 
@@ -178,11 +148,7 @@
 [en]: <> (Use simple haptic patterns, avoiding long or jarring vibrations if alternative haptic designs are possible.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-haptics/haptics-9.png)
 
@@ -194,7 +160,4 @@
 [en]: <> (Use standard patterns in the ways they were intended, so users don’t get confused.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-main.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Crane)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Crane)
 <h2 id="about-crane">译文</h2>
@@ -77,9 +73,7 @@
 [en]: <> (Crane uses tabs and a backdrop to navigate and filter content on mobile, tablet, and desktop.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Main sections)
 #### 译文
@@ -109,24 +103,12 @@
 [en]: <> (The backdrop component is ideal for Crane because of the flexibility and content customization it provides. Users can change preferences on the back layer, and those changes will be immediately reflected in the front layer’s content. This allows users to quickly move from passively browsing information to taking action on it – all within the same screen, making flows easy and efficient to move through.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/navtransitions-peer.mp4" src="{assets_path}/material-studies/crane/navtransitions-peer.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/navtransitions-peer.mp4" src="{assets_path}/material-studies/crane/navtransitions-peer.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping between tabs on Crane.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Layout)
 <h2 id="layout">译文</h2>
@@ -137,20 +119,12 @@
 [en]: <> (Crane uses a responsive grid system, which has flexible columns and padding that can resize depending on the screen width \(such as mobile, tablet, and desktop\). Content is stacked in columns, which vertically expand and contract upon user interaction.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/casestudies-crane-grid-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/casestudies-crane-grid-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Crane’s grid system, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Tabs and backdrop \(Mobile\))
 #### 译文
@@ -215,9 +189,7 @@
 [en]: <> (An exception to this is when content scrolls in the front layer of the backdrop component. In this case, the default behavior of the backdrop remains in place, producing a shadow to separate the front layer subheader from the content scrolling behind it.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-elevation.png)
 
@@ -226,9 +198,7 @@
 [en]: <> (A card collection scrolling beneath a front layer’s subheader.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -252,9 +222,7 @@
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-color.png)
 
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Distinct elements and states)
 #### 译文
@@ -262,15 +230,11 @@
 [en]: <> (Not all screens need to use the secondary color. Variations of Crane’s primary color purple are sufficient enough to create distinction between elements. Since Crane’s secondary color is often used for selected states, it’s absence is helpful in indicating when no selection has been made.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-color-noselection.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Crane’s secondary color red is used to indicate selected states for components such as checkboxes, sliders, and radio buttons. Red can also be used to give typographic emphasis.)
 译文
@@ -284,9 +248,7 @@
 [en]: <> (Scaled down to 62.5%)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Alternative secondary color)
 #### 译文
@@ -297,15 +259,11 @@
 [en]: <> (As red is Crane’s baseline secondary color, an alert using red would not sufficiently stand out from the surrounding UI, and may be misread as selected state. The alternative secondary color of orange helps it stand out as an error state.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-color-altsecondary.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Typography)
 <h2 id="typography">译文</h2>
@@ -345,9 +303,7 @@
 [en]: <> (Raleways letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-type-2.png)
 
@@ -424,9 +380,7 @@
 [en]: <> (Each list item contains content most relevant to the user \(including location name, type, distance, and cost\) and a photo.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-imagelist-2.png)
 
@@ -435,9 +389,7 @@
 [en]: <> (Crane’s customized list on mobile)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Cards)
 ### 译文
@@ -453,42 +405,22 @@
 [en]: <> (Shrine’s cards appear in a vertically stacked card collection, using color to indicate containment by having a white fill color that contrasts with the gray background color. Crane’s cards don’t cast shadows, allowing them to have very little padding between each card, for easy scannability.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/crane-cardtransition.mp4" src="{assets_path}/material-studies/crane/crane-cardtransition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/crane-cardtransition.mp4" src="{assets_path}/material-studies/crane/crane-cardtransition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Cards tapped on mobile open full screen to show more information and allow users to take an action, such a booking a flight.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (On tablet and desktop, a card expands when tapped to reveal more information and allow users to take action on the item. When a card in a collection is expanded, all other cards in the collection are given a white overlay with an 80% opacity to give emphasis to the expanded card.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/casestudies-crane-cards-desktop-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-cards-desktop-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/casestudies-crane-cards-desktop-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-cards-desktop-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Crane’s customized card collection on desktop)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Text fields)
 ### 译文
@@ -508,11 +440,7 @@
 [en]: <> (Crane’s customized outlined text fields)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-textfields-compare-alt-small1.png)
 
@@ -521,11 +449,7 @@
 [en]: <> (An outlined text field that hasn’t been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-textfields-compare-alt-small2.png)
 
@@ -534,9 +458,7 @@
 [en]: <> (Crane’s outlined text fields use custom typography, iconography, and color.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Filled text fields)
 #### 译文
@@ -553,11 +475,7 @@
 [en]: <> (Crane’s customized filled text fields)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-textfields-filled-compare-alt-small1.png)
 
@@ -566,11 +484,7 @@
 [en]: <> (A filled text field that has not been customized.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-textfields-filled-compare-alt-small2.png)
 
@@ -579,9 +493,7 @@
 [en]: <> (Crane’s filled text fields use custom typography, iconography, color, and shape.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Selection controls and sliders)
 ### 译文
@@ -621,9 +533,7 @@
 [en]: <> (Crane’s customized tabs.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-tabs-compare.png)
 
@@ -645,15 +555,11 @@
 [en]: <> (The back layer has been customized to use Crane’s primary color purple, which stands in high contrast to the white front layer. The front layer has been customized to have rounded curves on the top edges, to mimic the curvature of Crane’s logo.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/crane/casestudies-crane-backdrop.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Stepper)
 ### 译文
@@ -664,20 +570,12 @@
 [en]: <> (On mobile, steps are surfaced on the back layer of the backdrop, with the related form on the front layer. If the user wishes to see more of the front layer, Crane’s stepper has a collapsed state that lets the user know where they are in the stepper process at the top of the screen.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/casestudies-crane-stepper-mobile-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-stepper-mobile-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/casestudies-crane-stepper-mobile-1a.mp4" src="{assets_path}/material-studies/crane/casestudies-crane-stepper-mobile-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Crane’s mobile stepper has a collapsed state.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (The larger size of tablet and desktop allows Crane to fit all the steppers along the top of the screen.)
 译文
@@ -702,20 +600,12 @@
 [en]: <> (Character animation, emphasized easing and staggers are used to set a sophisticated and premium tone.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/01-launchscreen.mp4" src="{assets_path}/material-studies/crane/01-launchscreen.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/01-launchscreen.mp4" src="{assets_path}/material-studies/crane/01-launchscreen.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Crane uses an animated launch screen to reinforce its brand on first launch.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -723,15 +613,7 @@
 [en]: <> (Crane’s navigation transitions use emphasized easing and longer durations to add a sophisticated tone.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/02-navtransitions.mp4" src="{assets_path}/material-studies/crane/02-navtransitions.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/02-navtransitions.mp4" src="{assets_path}/material-studies/crane/02-navtransitions.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Parent child)
 #### 译文
@@ -739,19 +621,7 @@
 [en]: <> (Fade through, shared transformations and emphasized easing are used to maintain continuity.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/03-navtransitions-peer.mp4" src="{assets_path}/material-studies/crane/03-navtransitions-peer.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/03-navtransitions-peer.mp4" src="{assets_path}/material-studies/crane/03-navtransitions-peer.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Peer)
 #### 译文
@@ -759,11 +629,7 @@
 [en]: <> (Emphasized easing is used on peer transitions.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Stagger)
 ### 译文
@@ -771,18 +637,9 @@
 [en]: <> (Staggers are used when new lists or cards cards enter the screen. The cascade effect gives the transition a polished tone.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/crane/04-cascade.mp4" src="{assets_path}/material-studies/crane/04-cascade.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/crane/04-cascade.mp4" src="{assets_path}/material-studies/crane/04-cascade.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Updating the date filter reloads the list items with a stagger.)
 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

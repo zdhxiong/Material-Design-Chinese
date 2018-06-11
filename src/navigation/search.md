@@ -10,9 +10,7 @@
 
 ![]({assets_path}/navigation/search/search-hero-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Persistent search)
@@ -21,9 +19,7 @@
 * [译文](#persistent-search)
 * [译文](#expandable-search)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -52,24 +48,12 @@
 3. 译文
 4. 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/search/baseline-persistent-v03.mp4" src="{assets_path}/navigation/search/baseline-persistent-v03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/search/baseline-persistent-v03.mp4" src="{assets_path}/navigation/search/baseline-persistent-v03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Persistent search field receiving focus, loading results, and returning to an unfocused state)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/search/persistentsearch-1.png)
 
@@ -78,11 +62,7 @@
 [en]: <> (Persistent search bar without focus \(default\))
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/search/persistentsearch-2.png)
 
@@ -91,9 +71,7 @@
 [en]: <> (Persistent search bar in focus, with cards of suggested queries below)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Expandable search)
 <h2 id="expandable-search">译文</h2>
@@ -116,24 +94,12 @@
 [en]: <> (When displaying results, the search text field remains visible, but not in focus. Tapping the Up arrow releases the focus from search, dismisses suggestions and the on-screen keyboard, and returns the toolbar to its original state.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/navigation/search/baseline-expandable-v02.mp4" src="{assets_path}/navigation/search/baseline-expandable-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/navigation/search/baseline-expandable-v02.mp4" src="{assets_path}/navigation/search/baseline-expandable-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Expandable search bar opening from an icon and loading results)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/search/expandingsearch-1.png)
 
@@ -142,11 +108,7 @@
 [en]: <> (Expandable search in its default state)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/search/expandingsearch-3.png)
 
@@ -155,7 +117,4 @@
 [en]: <> (Search text field in focus with auto-complete suggestions)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

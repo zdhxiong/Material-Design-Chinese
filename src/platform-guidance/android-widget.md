@@ -13,9 +13,7 @@
 * [译文](#types)
 * [译文](#behavior)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Types)
 <h2 id="types">译文</h2>
@@ -66,9 +64,7 @@
 [en]: <> (A collection widget)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-widget/as-widget-types-collection-2.png)
 

@@ -13,9 +13,7 @@
 * [译文](#type-scale)
 * [译文](#applying-the-type-scale)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Type Scale)
 <h2 id="type-scale">译文</h2>
@@ -145,9 +143,7 @@
 [en]: <> (A display style is used for Headline 2.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/typography/the-type-system/applyingtypescale-headlines-script.png)
 
@@ -220,9 +216,7 @@
 [en]: <> (A serif typeface is used for Body 1.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/typography/the-type-system/applyingtypescale-body-sanserif.png)
 
@@ -264,9 +258,7 @@
 [en]: <> (A serif typeface being used for a caption.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/typography/the-type-system/applyingtypescale-capover-sanserif.png)
 
@@ -343,5 +335,4 @@
 [en]: <> (Don’t use a display style for button text.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

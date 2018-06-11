@@ -15,9 +15,7 @@
 * [译文](#noto-guidance)
 * [译文](#language-categories-reference)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Language considerations)
 <h2 id="language-considerations">译文</h2>

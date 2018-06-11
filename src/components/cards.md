@@ -6,13 +6,7 @@
 [en]: <> (Cards contain content and actions about a single subject.)
 译文
 
-<figure>
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-intro.mp4" src="{assets_path}/components/cards/cards-intro.mp4" type="video/mp4">
-</video>
-</figure>
-
-<nav>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-intro.mp4" src="{assets_path}/components/cards/cards-intro.mp4" type="video/mp4"></video></figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -29,9 +23,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -45,9 +37,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/illo-cards-intro.png)
 
@@ -59,11 +49,7 @@
 [en]: <> (A card is identifiable as a single, contained unit.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/illo-cards-independent.png)
 
@@ -75,11 +61,7 @@
 [en]: <> (A card can stand alone, without relying on surrounding elements for context.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/illo-cards-cut.png)
 
@@ -91,9 +73,7 @@
 [en]: <> (A card cannot merge with another card, or divide into multiple cards.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -158,22 +138,12 @@
 [en]: <> (Use inset dividers \(1\), dividers that do not run the full length of a card, to separate related content.)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-dividers.mp4" src="{assets_path}/components/cards/cards-dividers.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-dividers.mp4" src="{assets_path}/components/cards/cards-dividers.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Content that can be expanded should use full-width dividers.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Behavior)
 <h2 id="behavior">译文</h2>
@@ -184,54 +154,26 @@
 [en]: <> (Cards can transform to reveal additional content.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-transition.mp4" src="{assets_path}/components/cards/cards-transition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-transition.mp4" src="{assets_path}/components/cards/cards-transition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A card expands to fill the full screen using a parent-child transition.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-do.mp4" src="{assets_path}/components/cards/cards-behavior-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-do.mp4" src="{assets_path}/components/cards/cards-behavior-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Expand a card to reveal information.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-dont.mp4" src="{assets_path}/components/cards/cards-behavior-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-dont.mp4" src="{assets_path}/components/cards/cards-behavior-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Cards don’t flip over to reveal information.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation)
 ### 译文
@@ -284,39 +226,21 @@
 * 译文
 * 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-swipe-do.mp4" src="{assets_path}/components/cards/cards-behavior-swipe-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-swipe-do.mp4" src="{assets_path}/components/cards/cards-behavior-swipe-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (A card should only have one swipe action assigned to it.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-swipe-dont.mp4" src="{assets_path}/components/cards/cards-behavior-swipe-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-swipe-dont.mp4" src="{assets_path}/components/cards/cards-behavior-swipe-dont.mp4" type="video/mp4"></video><figcaption>
 
 {done}
 
 [en]: <> (Cards should not contain swipeable content \(such as an image carousel or pagination\). Swipe gestures should also not cause portions of cards to detach upon swipe.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Pick up and move)
 #### 译文
@@ -324,56 +248,28 @@
 [en]: <> (The pick up and move gesture allows users to move and re-order cards in a collection.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-do.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-do.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (When moving a card, increase its elevation.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-1.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-1.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-1.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t move cards behind other cards.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-2.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-2.mp4" src="{assets_path}/components/cards/cards-behavior-pickupmove-dont-2.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t let cards bump other elements out of the way. When a card is picked up, it appears in front of all elements \(except app bars and navigation\).)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Scrolling)
 #### 译文
@@ -381,62 +277,28 @@
 [en]: <> (Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-scrolling-do.mp4" src="{assets_path}/components/cards/cards-scrolling-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-scrolling-do.mp4" src="{assets_path}/components/cards/cards-scrolling-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (On mobile, cards can expand to reveal more content, scrolling within the screen. Content within cards doesn’t scroll.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-scrolling-dont.mp4" src="{assets_path}/components/cards/cards-scrolling-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-scrolling-dont.mp4" src="{assets_path}/components/cards/cards-scrolling-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (On mobile, cards cannot internally scroll, as it could cause two scroll bars to be displayed.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-desktopscrolling.mp4" src="{assets_path}/components/cards/cards-desktopscrolling.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-desktopscrolling.mp4" src="{assets_path}/components/cards/cards-desktopscrolling.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (On desktop, card content can expand and scroll within a card.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Actions)
 <h2 id="actions">译文</h2>
@@ -510,9 +372,7 @@
 [en]: <> (This card contains stars to rate content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/cards/cards-uicontrols-2.png)
 
@@ -521,22 +381,12 @@
 [en]: <> (This card contains choice chips within the action area.)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-actions-uicontrols.mp4" src="{assets_path}/components/cards/cards-actions-uicontrols.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-actions-uicontrols.mp4" src="{assets_path}/components/cards/cards-actions-uicontrols.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (This card contains a slider control within the action area.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Additional actions)
 ### 译文
@@ -566,20 +416,12 @@
 [en]: <> (For users that navigate solely using focus traversal \(using a D-pad and keyboard\), cards should have either a primary action or open a new screen containing primary and supplemental actions.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-focus.mp4" src="{assets_path}/components/cards/cards-focus.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-focus.mp4" src="{assets_path}/components/cards/cards-focus.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Focus traversal of a card)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Card collections)
 <h2 id="card-collections">译文</h2>
@@ -619,9 +461,7 @@
 [en]: <> (To make a collection of cards scannable, place them in a consistent pattern.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-1a.png)
 
@@ -630,17 +470,11 @@
 [en]: <> (Scannable cards)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-1b.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Dashboard)
 #### 译文
@@ -648,9 +482,7 @@
 [en]: <> (To display multiple subject matters and functions on a screen, use a dashboard-style card collection.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-2a.png)
 
@@ -659,17 +491,11 @@
 [en]: <> (Dashboard-style card collection)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-2b.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Distinction)
 #### 译文
@@ -677,9 +503,7 @@
 [en]: <> (To highlight each card’s individuality, style, or novelty, use a card collection with an asymmetric grid.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-3a.png)
 
@@ -688,17 +512,11 @@
 [en]: <> (Cards in an asymmetric grid)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/cards/cards-layoutcardcollections-3b.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Contained collections)
 ### 译文
@@ -706,45 +524,21 @@
 [en]: <> (Card collections can be placed within a container, and be scrolled within it.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-collections-do.mp4" src="{assets_path}/components/cards/cards-collections-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-collections-do.mp4" src="{assets_path}/components/cards/cards-collections-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (A card collection can horizontally scroll within a container.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/cards/cards-collections-dont.mp4" src="{assets_path}/components/cards/cards-collections-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-collections-dont.mp4" src="{assets_path}/components/cards/cards-collections-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (The container for a collection should not be a card, and the entire surface area of the container should not be interactive.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Filtering and sorting)
 ### 译文
@@ -953,15 +747,11 @@
 
 ![]({assets_path}/components/cards/specs-cards-template1.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/cards/specs-cards-template5.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/cards/specs-cards-template014.png)
 
@@ -974,5 +764,4 @@
 
 ![]({assets_path}/components/cards/specs-outline-cards.png)
 
-</figure>
-</div>
+</figure></div>

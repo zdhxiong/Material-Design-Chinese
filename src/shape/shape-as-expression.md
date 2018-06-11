@@ -13,9 +13,7 @@
 * [译文](#communicating-state)
 * [译文](#expressing-brand)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Communicating state)
 <h2 id="communicating-state">译文</h2>
@@ -38,26 +36,14 @@
 [en]: <> (If a shape isn’t interactive, avoid using shapes with sizes large enough to appear interactive. For example, a small triangular shape on a card shouldn’t be large enough to be mistaken for a tap target if it’s not one.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/shape/shape-as-expression/communicatingstate-do-reply-1b-v2.mp4" src="{assets_path}/shape/shape-as-expression/communicatingstate-do-reply-1b-v2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/shape/shape-as-expression/communicatingstate-do-reply-1b-v2.mp4" src="{assets_path}/shape/shape-as-expression/communicatingstate-do-reply-1b-v2.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Shape changes should be clearly linked to a user interaction or other obvious cause. This list item’s shape changes upon passing a gesture threshold, eventually giving its left edge a rounded corner.)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/communicatingstate-dont-reply-1.png)
 
@@ -68,11 +54,7 @@
 [en]: <> (Don’t communicate state with shapes that are too small to be noticeable.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/communicatingstate-dont-reply-2.png)
 
@@ -83,11 +65,7 @@
 [en]: <> (Don’t communicate state with a shape large enough to provide a tap target if it’s not interactive.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/shape/shape-as-expression/communicatingstate-caution-baseline-1.png)
 
@@ -103,11 +81,7 @@
 * 译文
 * 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/communicatingstate-do-baseline-1.png)
 
@@ -118,11 +92,7 @@
 [en]: <> (Use shape consistently, so that each shape expresses a single meaning. The rounded corner on selected cards helps the shape develop meaning.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/communicatingstate-caution-baseline-2.png)
 
@@ -133,9 +103,7 @@
 [en]: <> (The inconsistent shapes on the corners in this card collection make it unclear if each shape represents something different \(such as distinct groupings\) or is simply brand expression.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Expressing brand)
 <h2 id="expressing-brand">译文</h2>
@@ -182,9 +150,7 @@
 [en]: <> (Consistent use of shape throughout a product contributes to a brand’s visual language. This product’s components use a shape based on its logo \(1, 2\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/shape-as-expression/expressingbrand-shrine-1.png)
 
@@ -195,11 +161,7 @@
 [en]: <> (This product’s components use a geometric shape based on its logo \(1, 2, 3\).)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/expression-do-reply-1.png)
 
@@ -210,11 +172,7 @@
 [en]: <> (The curve of the corner reflects the color and curved edge of the logo, without affecting usability.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/expression-dont-reply-1.png)
 
@@ -225,13 +183,7 @@
 [en]: <> (Don’t reduce the usability of a component when using shape to express brand. The size of this shape interferes with the usability of the list.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/expressingbrand-caution-shrine-1.png)
 
@@ -242,11 +194,7 @@
 [en]: <> (Overuse of a single shape makes that shape common, and thus less noticeable, which reduces its impact on branding.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-as-expression/expressingbrand-dont-shrine-2.png)
 
@@ -257,7 +205,4 @@
 [en]: <> (Don’t use shapes that don’t reflect a product’s shape family.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

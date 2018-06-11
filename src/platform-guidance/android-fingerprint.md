@@ -15,9 +15,7 @@
 * [译文](#enrollment)
 * [译文](#authentication)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Standard fingerprint)
 <h2 id="standard-fingerprint">译文</h2>
@@ -84,11 +82,7 @@
 [en]: <> (Icon with no circular background)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/as-fingerprinticon-anatomy-hardwaresensorfingerprinticon3.png)
 
@@ -99,11 +93,7 @@
 [en]: <> (Don’t tilt or distort the fingerprint icon.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/as-fingerprinticon-anatomy-hardwaresensorfingerprinticon4.png)
 
@@ -114,9 +104,7 @@
 [en]: <> (Don’t add a circle behind the fingerprint icon.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Icon)
 ### 译文
@@ -139,9 +127,7 @@
 [en]: <> (The 36dp system icon with a 64dp circular background.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/as-fingerprinticon-anatomy-indisplayfingerprinticon2.png)
 
@@ -150,11 +136,7 @@
 [en]: <> (Bottom sheet dialog and fingerprint icon)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/as-fingerprinticon-anatomy-indisplayfingerprinticon3.png)
 
@@ -165,11 +147,7 @@
 [en]: <> (Don’t change the size proportion between the system icon and the circular background.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/as-fingerprinticon-anatomy-indisplayfingerprinticon4.png)
 
@@ -180,9 +158,7 @@
 [en]: <> (Don’t compromise legibility by using low contrast \(and low opacity\) on the fingerprint icon.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tinted icon)
 #### 译文
@@ -199,11 +175,7 @@
 [en]: <> (Contrast and tinted icons.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/components-fp-15-state1.png)
 
@@ -214,11 +186,7 @@
 [en]: <> (Don’t use a multicolored Fingerprint icon.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (UIs with light backgrounds)
 #### 译文
@@ -250,9 +218,7 @@
 * 译文
 * 译文
 
-</div></div>
-
-<figure>
+</div></div><figure>
 
 ![]({assets_path}/platform-guidance/android-fingerprint/components-fp-13-state1.png)
 
@@ -383,24 +349,12 @@
 [en]: <> (App settings provide a way to turn fingerprint authentication on or off.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-enrollment.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-enrollment.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-enrollment.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-enrollment.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Fingerprint authentication toggle)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Authentication)
 <h2 id="authentication">译文</h2>
@@ -419,26 +373,12 @@
 [en]: <> (After enrollment, present the fingerprint dialog whenever you need authentication from the user.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-after-enrollment.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-after-enrollment.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-after-enrollment.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-after-enrollment.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Fingerprint dialog)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (During your app’s purchase flow)
 #### 译文
@@ -446,22 +386,9 @@
 [en]: <> (The user has the option to enroll their fingerprint right after making a purchase, using an existing account.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-purchase-flow.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-purchase-flow.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-fingerprint/fp-purchase-flow.mp4" src="{assets_path}/platform-guidance/android-fingerprint/fp-purchase-flow.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Purchase flow with Fingerprint)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

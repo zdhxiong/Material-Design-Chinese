@@ -15,9 +15,7 @@
 * [译文](#behavior)
 * [译文](#layout)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -111,9 +109,7 @@
 [en]: <> (An app may use the same layout across mobile \(left\) and tablet \(right\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-split-screen/03-splitscreen-differentlayout.png)
 
@@ -142,9 +138,7 @@
 [en]: <> (When the split screen is active on a tablet, by default it takes up 34.15% of the entire screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-split-screen/05-splitscreen-16.9-mobile.png)
 
@@ -153,5 +147,4 @@
 [en]: <> (When the split screen is active on mobile, the aspect ratio of an app in portrait orientation is 16:9.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

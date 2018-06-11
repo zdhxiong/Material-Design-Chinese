@@ -17,9 +17,7 @@
 * [译文](#shape)
 * [译文](#icons)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -322,9 +320,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-theming/implementing-your-theme/theming-shape-s4-round.png)
 
@@ -510,5 +506,4 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

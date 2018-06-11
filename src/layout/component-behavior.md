@@ -15,9 +15,7 @@
 * [译文](#component-width)
 * [译文](#responsive-patterns)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Positioning terminology)
 <h2 id="positioning-terminology">译文</h2>
@@ -105,9 +103,7 @@
 [en]: <> (This button fluidly scales within the right two columns.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-element-behavior-fluid-dont-01.gif)
 
@@ -118,9 +114,7 @@
 [en]: <> (Don’t use a container on fluid components if it’s too narrow to display elements and padding at smaller widths.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-element-behavior-fluid-caution-01.gif)
 
@@ -198,9 +192,7 @@
 [en]: <> (Elements, such as side navigation, can become visible when screen size increases.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-reveal-wordprocessor.png)
 
@@ -209,9 +201,7 @@
 [en]: <> (A simple UI may reveal more robust or complex options.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-reveal-card.png)
 
@@ -237,9 +227,7 @@
 [en]: <> (Side navigation can transform into tabs on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-list.png)
 
@@ -248,9 +236,7 @@
 [en]: <> (A list can transform into an image list on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-toolbar.png)
 
@@ -276,9 +262,7 @@
 [en]: <> (Side navigation, list content, and detailed content divide to fill a single view on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-divide-2.png)
 
@@ -304,9 +288,7 @@
 [en]: <> (Elements from a single-column format can reflow to fill the content area in various combinations on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-reflow-2.png)
 
@@ -315,9 +297,7 @@
 [en]: <> (Horizontal tabs can reflow into a vertical list on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-reflow-3.png)
 
@@ -343,9 +323,7 @@
 [en]: <> (Cards can expand to fill a new and larger space.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-expand-2.png)
 
@@ -371,9 +349,7 @@
 [en]: <> (A bottom sheet on a small screen can reposition itself as a menu on a larger screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/component-behavior/layout-responsive-patterns-transform-position-2.png)
 
@@ -382,5 +358,4 @@
 [en]: <> (A floating action button \(FAB\) can move to a more visible location relative to other UI elements on a larger screen.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

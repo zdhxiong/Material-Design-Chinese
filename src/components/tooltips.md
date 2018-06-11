@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/tooltips/tooltips-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Placement)
@@ -25,9 +23,7 @@
 * [译文](#theming)
 * [译文](#spec)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -38,9 +34,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tooltips/tooltips-illo-1.png)
 
@@ -52,11 +46,7 @@
 [en]: <> (Tooltips appear on hover, focus, or touch, and disappear after a short duration.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tooltips/tooltips-illo-3.png)
 
@@ -68,11 +58,7 @@
 [en]: <> (Tooltips are always paired nearby the element with which they are associated.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tooltips/tooltips-illo-2.png)
 
@@ -84,9 +70,7 @@
 [en]: <> (Tooltips only include short, descriptive text.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -110,9 +94,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tooltips/tooltip-usage-dont.png)
 
@@ -131,9 +113,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tooltips/tooltip-usage-do.png)
 
@@ -147,9 +127,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tooltips/tooltip-usage-dont-2.png)
 
@@ -165,11 +143,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tooltips/tooltip-position-do.png)
 
@@ -180,11 +154,7 @@
 [en]: <> (Keep the position of the tooltip visible.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tooltips/tooltip-position-dont.png)
 
@@ -195,9 +165,7 @@
 [en]: <> (Don’t crop tooltips.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Desktop)
 ### 译文
@@ -216,41 +184,17 @@
 [en]: <> (Mobile)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tooltips/baseline-video-list.mp4" src="{assets_path}/components/tooltips/baseline-video-list.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tooltips/baseline-video-list.mp4" src="{assets_path}/components/tooltips/baseline-video-list.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tooltip displayed through long press)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tooltips/baseline-video-list-focus.mp4" src="{assets_path}/components/tooltips/baseline-video-list-focus.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tooltips/baseline-video-list-focus.mp4" src="{assets_path}/components/tooltips/baseline-video-list-focus.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tooltip summoned through focus \(Android only\))
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 <h2 id="behavior">译文</h2>
@@ -270,42 +214,26 @@
 [en]: <> (Over 150ms, tooltips fade in and scale up using the deceleration curve. They fade out over 75ms.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tooltips/01-tooltip-interaction.mp4" src="{assets_path}/components/tooltips/01-tooltip-interaction.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tooltips/01-tooltip-interaction.mp4" src="{assets_path}/components/tooltips/01-tooltip-interaction.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (200%)
 [en]: <> (100%)
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (On desktop, tooltips appear in the center of click targets and stay in place while cursor moves within the target.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tooltips/02-tooltip-interaction.mp4" src="{assets_path}/components/tooltips/02-tooltip-interaction.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tooltips/02-tooltip-interaction.mp4" src="{assets_path}/components/tooltips/02-tooltip-interaction.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tooltip disappears when cursor moves out of the touch target)
 [en]: <> (Tooltip remains while cursor moves within the touch target)
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -408,5 +336,4 @@
 
 ![]({assets_path}/components/tooltips/tooltip-spec-mobile.png)
 
-</figure>
-</div>
+</figure></div>

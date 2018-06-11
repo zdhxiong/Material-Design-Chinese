@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/snackbars/snackbars-container-do.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -25,9 +23,7 @@
 * [译文](#placement)
 * [译文](#spec)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -50,9 +46,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-illos-02.png)
 
@@ -64,11 +58,7 @@
 [en]: <> (Snackbars provide updates on an app’s processes.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-illos-03.png)
 
@@ -80,11 +70,7 @@
 [en]: <> (Snackbars appear temporarily, and disappear on their own without requiring user input to be dismissed.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-illos-04.png)
 
@@ -96,9 +82,7 @@
 [en]: <> (Snackbars are placed in the most suitable area of the UI.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When to use)
 ### 译文
@@ -145,9 +129,7 @@
 [en]: <> (Text labels are short, clear updates on processes that have been performed.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/understanding-snackbars-text-2-lines.png)
 
@@ -158,9 +140,7 @@
 [en]: <> (On mobile, use up to two lines of text to communicate the snackbar message.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-text-desktop.png)
 
@@ -171,9 +151,7 @@
 [en]: <> (In wide UIs like desktop and tablet, snackbars should have only a single line of text.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/understanding-snackbars-text-dont-icon.png)
 
@@ -203,9 +181,7 @@
 [en]: <> (Snackbar containers use a solid background color with a shadow to stand out against content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-desktop-do.png)
 
@@ -216,11 +192,7 @@
 [en]: <> (In wide layouts, extend the container width to accommodate longer text labels.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-caution-transparent.png)
 
@@ -231,11 +203,7 @@
 [en]: <> (An app can apply slight transparency to the container background, as long as text remains clearly legible.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-don-t-shape.png)
 
@@ -246,11 +214,7 @@
 [en]: <> (Avoid significantly altering the shape of a snackbar container.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-caution-no-shadow.png)
 
@@ -278,11 +242,7 @@
 [en]: <> (To distinguish the action from the text label, text buttons should display colored text.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-action-dont-color.png)
 
@@ -293,11 +253,7 @@
 [en]: <> (The text label shouldn’t share the same color as the text button.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-action-dont-elevated-btn.png)
 
@@ -308,11 +264,7 @@
 [en]: <> (Don’t use a filled or elevated button in a snackbar, as it draws too much attention.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/snackbars/understanding-snackbars-text-2-lines-longer-action.png)
 
@@ -323,9 +275,7 @@
 [en]: <> (If an action is long, it can be displayed on a third line.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/understanding-snackbars-action-undo.png)
 
@@ -336,9 +286,7 @@
 [en]: <> (To allow users to amend choices, display an "Undo" action.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-action-caution-dismiss.png)
 
@@ -360,13 +308,7 @@
 [en]: <> (Snackbars appear without warning, and don't require user interaction. They automatically disappear from the screen after a minimum of four seconds, and a maximum of ten seconds.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/snackbars/01-appear.mp4" src="{assets_path}/components/snackbars/01-appear.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/snackbars/01-appear.mp4" src="{assets_path}/components/snackbars/01-appear.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Consecutive snackbars)
 ### 译文
@@ -374,54 +316,26 @@
 [en]: <> (When multiple snackbar updates are necessary, they should appear one at a time.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/snackbars/02-appearconsecutive.mp4" src="{assets_path}/components/snackbars/02-appearconsecutive.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/snackbars/02-appearconsecutive.mp4" src="{assets_path}/components/snackbars/02-appearconsecutive.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Consecutive snackbars should appear above persistent bottom navigation.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/snackbars/02-appearconsecutive-dont.mp4" src="{assets_path}/components/snackbars/02-appearconsecutive-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/snackbars/02-appearconsecutive-dont.mp4" src="{assets_path}/components/snackbars/02-appearconsecutive-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Avoid stacking snackbars on top of one another.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/snackbars/02-appear-dont.mp4" src="{assets_path}/components/snackbars/02-appear-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/snackbars/02-appear-dont.mp4" src="{assets_path}/components/snackbars/02-appear-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t animate other components along with snackbar animations, such as the floating action button.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -438,9 +352,7 @@
 [en]: <> (Place a snackbar in front of content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-don-t-bottom-bar.png)
 
@@ -451,9 +363,7 @@
 [en]: <> (Avoid placing snackbars in front of navigation components.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-don-t-edge-to-edge.png)
 
@@ -476,9 +386,7 @@
 
 ![]({assets_path}/components/snackbars/snackbars-layout-fab.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-fab-caution.png)
 
@@ -489,11 +397,7 @@
 [en]: <> (The FAB can be pushed up when a snackbar appears, though this can cause distraction if multiple snackbars appear.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-fab-dont-1.png)
 
@@ -504,11 +408,7 @@
 [en]: <> (Don’t place a snackbar in front of a FAB.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-fab-dont-2.png)
 
@@ -519,9 +419,7 @@
 [en]: <> (Don’t place a snackbar behind a FAB.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Snackbars and persistent footer elements)
 ### 译文
@@ -533,9 +431,7 @@
 
 ![]({assets_path}/components/snackbars/snackbars-layout-do-navigation.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-sheets-extended.png)
 
@@ -546,9 +442,7 @@
 [en]: <> (Place snackbars in front of medium extended sheets.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-don-t-push-bottom-bar.png)
 
@@ -571,15 +465,11 @@
 
 ![]({assets_path}/components/snackbars/snackbars-layout-desktop-do.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-landscape-do-2.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-container-desktop-dont-flush-edge.png)
 
@@ -590,9 +480,7 @@
 [en]: <> (Avoid placing snackbars flushed to one edge of the layout.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbars-layout-desktop-dont-side-to-side.png)
 
@@ -612,23 +500,16 @@
 
 ![]({assets_path}/components/snackbars/snackbar-spec-singleline.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-spec-singleline-action.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-spec-twoline-action.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/snackbars/snackbar-spec-twoline-longaction.png)
 
-</figure>
-</div>
+</figure></div>

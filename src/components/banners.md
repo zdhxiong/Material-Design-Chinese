@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/banners/banners-usage.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -54,9 +50,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/alerts-illo-1.png)
 
@@ -68,9 +62,7 @@
 [en]: <> (Banners are interruptive, but their level of interruption should match the information they contain and the context in which they appear.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/alerts-illo-2.png)
 
@@ -82,9 +74,7 @@
 [en]: <> (Banners communicate a succinct message and what will happen if users interact with them.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/alerts-illo-3.png)
 
@@ -136,9 +126,7 @@
 [en]: <> (A banner appears above content and below a top app bar.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/banners/banners-layout-placement-dont.png)
 
@@ -180,11 +168,7 @@
 [en]: <> (Banners may have one or two low-emphasis text buttons.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-caution-1.png)
 
@@ -195,11 +179,7 @@
 [en]: <> (Avoid using a single button as a way to acknowledge a banner and dismiss it. A button to dismiss a banner should be paired with an action to address its message.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-do-2.png)
 
@@ -210,13 +190,7 @@
 [en]: <> (Banners are intended to be minimally interruptive. If a button in a banner requires extra emphasis, a contained, full-width button can be used for a single, prominent action \(though it’s prominence may be distracting\).)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-caution-2.png)
 
@@ -227,11 +201,7 @@
 [en]: <> (Don’t include links in a banner message. All available actions should be represented as buttons.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-dont-2.png)
 
@@ -242,13 +212,7 @@
 [en]: <> (Don’t combine buttons with different emphasis levels, which could appear to promote one action over another.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-dont-3.png)
 
@@ -259,11 +223,7 @@
 [en]: <> (Don’t stack buttons unless there isn’t sufficient room to display them side by side.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-buttons-dont-1.png)
 
@@ -274,9 +234,7 @@
 [en]: <> (Don’t use a close affordance icon as the only method of dismissing a banner. All actions should be shown as text buttons.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Supporting illustration)
 ### 译文
@@ -295,9 +253,7 @@
 [en]: <> (Icons can help communicate a banner’s message.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/banners/banners-imagery-dont.png)
 
@@ -336,11 +292,7 @@
 [en]: <> (Banner and a top bar)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-layout-topbar-dont-1.png)
 
@@ -351,11 +303,7 @@
 [en]: <> (The surface containing a banner should be clearly distinguished from the top app bar surface.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/banners/banners-layout-topbar-dont-2.png)
 
@@ -366,9 +314,7 @@
 [en]: <> (Banners shouldn’t appear in front of the top bar.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Banners and persistent search)
 ### 译文
@@ -433,9 +379,7 @@
 [en]: <> (A banner on a screen with a navigation drawer appears slightly above just the content \(on the y-axis\), at the same elevation as that content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/banners/banners-placement-multiple-dont.png)
 
@@ -477,20 +421,12 @@
 [en]: <> (Banners that appear after a screen loads should animate on screen from the top of a layout. If the banner is at the same elevation as content, it pushes content downwards.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/banners/banner-container-mobile.mp4" src="{assets_path}/components/banners/banner-container-mobile.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/banners/banner-container-mobile.mp4" src="{assets_path}/components/banners/banner-container-mobile.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Banners at the same elevation as content push content downward as they enter from the top of a layout.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Dismissing banners)
 ### 译文
@@ -498,37 +434,19 @@
 [en]: <> (Banners must remain on screen until dismissed by the user.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/banners/banner-change-dismiss.mp4" src="{assets_path}/components/banners/banner-change-dismiss.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/banners/banner-change-dismiss.mp4" src="{assets_path}/components/banners/banner-change-dismiss.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Banners can be dismissed by the user.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/banners/banner-change-condition02.mp4" src="{assets_path}/components/banners/banner-change-condition02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/banners/banner-change-condition02.mp4" src="{assets_path}/components/banners/banner-change-condition02.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Banners persist until the user acts on them or dismisses them.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -673,15 +591,11 @@
 
 ![]({assets_path}/components/banners/spec-banners-mobile-1action.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/banners/spec-banners-mobile-2actions.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/banners/spec-banners-mobile-image.png)
 
@@ -694,18 +608,12 @@
 
 ![]({assets_path}/components/banners/spec-banners-desktop-1action.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/banners/spec-banners-desktop-2actions.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/banners/spec-banners-desktop-image.png)
 
-</figure>
-
-</div>
+</figure></div>

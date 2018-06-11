@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/chips/purpose-01.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -31,9 +29,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -44,9 +40,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-illo-1.png)
 
@@ -58,11 +52,7 @@
 [en]: <> (Chips are compact components that represent discrete information.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-illo-2.png)
 
@@ -74,11 +64,7 @@
 [en]: <> (Chips should have a clear and helpful relationship to the content or task they represent.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-illo-3.png)
 
@@ -90,9 +76,7 @@
 [en]: <> (Chips should make tasks easier to complete, or content easier to sort.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -109,9 +93,7 @@
 [en]: <> (Input chips represent information used in fields, such as an entity or different attributes.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/chips/chips-types-choice.png)
 
@@ -123,9 +105,7 @@
 [en]: <> (In sets that contain at least two options, choice chips represent a single selection.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/chips/chips-types-filter.png)
 
@@ -137,9 +117,7 @@
 [en]: <> (Filter chips represent filters for a collection.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/chips/chips-types-action.png)
 
@@ -156,15 +134,11 @@
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/elements.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (1. Container)
 #### 1. 译文
@@ -201,9 +175,7 @@
 [en]: <> (Input chips represent a complex piece of information in compact form, such as an entity \(person, place, or thing\) or text. They enable user input and verify that input by converting text into chips.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-input.png)
 
@@ -212,11 +184,7 @@
 [en]: <> (An input chip used to show an entity.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-input-outlined.png)
 
@@ -225,11 +193,7 @@
 [en]: <> (An outlined input chip used to show an entity.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/chips/input-usage-text.png)
 
@@ -249,20 +213,12 @@
 [en]: <> (Input chips transform text based on user input.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-behavior-predictive.mp4" src="{assets_path}/components/chips/entry-chip-behavior-predictive.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-behavior-predictive.mp4" src="{assets_path}/components/chips/entry-chip-behavior-predictive.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Text transforming into an input chip.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Editable)
 #### 译文
@@ -270,20 +226,12 @@
 [en]: <> (An input chip’s text is editable until the user takes an action with the chip, such as sending an email. To edit an input chip’s text, tap the chip.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-behavior-editable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-editable.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-behavior-editable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-editable.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Input chips become editable when tapped.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Informational)
 #### 译文
@@ -300,9 +248,7 @@
 [en]: <> (Input chips can represent an error state.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Multiple)
 #### 译文
@@ -310,22 +256,12 @@
 [en]: <> (A single field can contain multiple entry chips.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-behavior-multiple.mp4" src="{assets_path}/components/chips/entry-chip-behavior-multiple.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-behavior-multiple.mp4" src="{assets_path}/components/chips/entry-chip-behavior-multiple.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Multiple entry chips)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
+</figcaption></figure></div><div class="mdui-col">
 
 [en]: <> (Movable)
 #### 译文
@@ -333,22 +269,12 @@
 [en]: <> (Entry chips can be reordered or moved into other fields.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-behavior-draggable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-draggable.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-behavior-draggable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-draggable.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Movable entry chips)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Expandable)
 #### 译文
@@ -356,20 +282,12 @@
 [en]: <> (Input chips can expand to show more information or options.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-behavior-expandable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-expandable.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-behavior-expandable.mp4" src="{assets_path}/components/chips/entry-chip-behavior-expandable.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Expandable entry chips)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 ### 译文
@@ -393,22 +311,12 @@
 [en]: <> (Input chips can wrap to a new row if all of the chips need to be visible.)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/entry-chip-placement-scrolling.mp4" src="{assets_path}/components/chips/entry-chip-placement-scrolling.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/entry-chip-placement-scrolling.mp4" src="{assets_path}/components/chips/entry-chip-placement-scrolling.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Input chips that horizontally scroll.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (States)
 ### 译文
@@ -417,9 +325,7 @@
 
 ![]({assets_path}/components/chips/input-chips-states.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/chips/outlined-input-chips-states.png)
 
@@ -442,9 +348,7 @@
 [en]: <> (Choice chips clearly delineate and display options in a compact area. They are a good alternative to toggle buttons, radio buttons, and single select menus.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-choice.png)
 
@@ -453,11 +357,7 @@
 [en]: <> (A set of choice chips)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-choice-outlined.png)
 
@@ -466,9 +366,7 @@
 [en]: <> (A set of outlined choice chips)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -476,20 +374,12 @@
 [en]: <> (Selecting a single choice chip automatically deselects all other chips in the set.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/choice-chip-behavior-selecting.mp4" src="{assets_path}/components/chips/choice-chip-behavior-selecting.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/choice-chip-behavior-selecting.mp4" src="{assets_path}/components/chips/choice-chip-behavior-selecting.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Selecting a choice chip deselects the other chips)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 ### 译文
@@ -508,11 +398,7 @@
 [en]: <> (Horizontal placement of choice chips)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-02.png)
 
@@ -523,11 +409,7 @@
 [en]: <> (Choice chips can scroll horizontally.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-03.png)
 
@@ -538,11 +420,7 @@
 [en]: <> (Choice chips can wrap to a new row. However, using two or more rows of choice chips can make each chip harder to scan.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/chips/composition-04.png)
 
@@ -562,9 +440,7 @@
 
 ![]({assets_path}/components/chips/choice-chips-states.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/chips/outlined-choice-chips-states.png)
 
@@ -589,9 +465,7 @@
 [en]: <> (Filter chips clearly delineate and display options in a compact area. They are a good alternative to toggle buttons or checkboxes.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-filter.png)
 
@@ -600,11 +474,7 @@
 [en]: <> (A filter chip)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-filter-outlined.png)
 
@@ -613,9 +483,7 @@
 [en]: <> (An outlined filter chip)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -623,35 +491,17 @@
 [en]: <> (Tap a chip to select it. Multiple chips can be selected or unselected.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/filter-chip-behavior-selecting.mp4" src="{assets_path}/components/chips/filter-chip-behavior-selecting.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/filter-chip-behavior-selecting.mp4" src="{assets_path}/components/chips/filter-chip-behavior-selecting.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (An icon can be added to indicate when a filter chip is selected.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/filter-chip-behavior-selecting-dynamic.mp4" src="{assets_path}/components/chips/filter-chip-behavior-selecting-dynamic.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/filter-chip-behavior-selecting-dynamic.mp4" src="{assets_path}/components/chips/filter-chip-behavior-selecting-dynamic.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Filter chip suggestions can dynamically change as users start to select filters.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 ### 译文
@@ -665,9 +515,7 @@
 [en]: <> (Filter chips can be shown underneath a search field.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/chips/composition-02.png)
 
@@ -676,11 +524,7 @@
 [en]: <> (Display multiple sets of filters in a side sheet.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-05.png)
 
@@ -689,11 +533,7 @@
 [en]: <> (Filter chips can wrap to a new row. If there are more than two rows, consider using horizontal scrolling to access them all.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-04.png)
 
@@ -702,11 +542,7 @@
 [en]: <> (Filter chips can horizontally scroll to show unlimited options.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/chips/composition-03.png)
 
@@ -726,9 +562,7 @@
 
 ![]({assets_path}/components/chips/filter-chips-states.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/chips/outlined-filter-chips-states.png)
 
@@ -751,9 +585,7 @@
 [en]: <> (An alternative to action chips are buttons, which should appear persistently and consistently.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-action.png)
 
@@ -762,11 +594,7 @@
 [en]: <> (An action chip)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/chips-types-action-outlined.png)
 
@@ -775,9 +603,7 @@
 [en]: <> (An outlined action chip)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -785,35 +611,17 @@
 [en]: <> (Action chips can trigger an action or show progress and confirmation.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/action-chip-behavior-tapping.mp4" src="{assets_path}/components/chips/action-chip-behavior-tapping.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/action-chip-behavior-tapping.mp4" src="{assets_path}/components/chips/action-chip-behavior-tapping.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping an action chip triggers a contextual action.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/chips/action-chip-behavior-confirmation.mp4" src="{assets_path}/components/chips/action-chip-behavior-confirmation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/chips/action-chip-behavior-confirmation.mp4" src="{assets_path}/components/chips/action-chip-behavior-confirmation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Action chips can show progress and confirmation feedback.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 ### 译文
@@ -830,11 +638,7 @@
 [en]: <> (Action chips should be shown underneath primary content.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-02.png)
 
@@ -845,11 +649,7 @@
 [en]: <> (Action chips should appear in a set.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/chips/composition-03.png)
 
@@ -860,9 +660,7 @@
 [en]: <> (Action chips can be horizontally scrollable.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (States)
 ### 译文
@@ -871,9 +669,7 @@
 
 ![]({assets_path}/components/chips/action-chips-states.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/chips/outlined-action-chips-states.png)
 
@@ -1139,9 +935,7 @@
 
 ![]({assets_path}/components/chips/specs-chips-action.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Outlined action chip)
 
@@ -1149,11 +943,7 @@
 
 ![]({assets_path}/components/chips/specs-outlined-chips-action.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Choice chip)
 
@@ -1161,9 +951,7 @@
 
 ![]({assets_path}/components/chips/specs-chips-choice.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Filter chip)
 
@@ -1171,11 +959,7 @@
 
 ![]({assets_path}/components/chips/specs-chips-filter.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Input chip)
 
@@ -1183,9 +967,7 @@
 
 ![]({assets_path}/components/chips/specs-chips-input.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Chips in groups)
 
@@ -1193,7 +975,4 @@
 
 ![]({assets_path}/components/chips/specs-chipsingrous.png)
 
-</figure>
-
-</div></div>
-</div>
+</figure></div></div></div>

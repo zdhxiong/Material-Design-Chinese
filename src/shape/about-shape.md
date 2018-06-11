@@ -15,9 +15,7 @@
 * [译文](#shape-meaning)
 * [译文](#components-shape)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Shaping material)
 <h2 id="shaping-material">译文</h2>
@@ -126,9 +124,7 @@
 [en]: <> (Shape is made visible when surface edges have sufficient contrast against their background. By default, Material Design makes shapes noticeable by using shadows to display surfaces edges. Other methods to show surface edges and shapes can be used in combination with shadows, or on their own, such as color fills and opacity, .)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/about-shape/surfaceedges-fab-do.png)
 
@@ -139,11 +135,7 @@
 [en]: <> (A colored fill on this floating action button contrasts with the content on the surface behind it, making its surface edges and shape noticeable.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/about-shape/surfaceedges-fab-dont.png)
 
@@ -154,9 +146,7 @@
 [en]: <> (A semi-transparent surface and white color makes it hard to see the edges and shape of this floating action button.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Shape and meaning)
 <h2 id="shape-meaning">译文</h2>
@@ -178,9 +168,7 @@
 [en]: <> (The menu has an arrow-like corner that points toward the navigation drawer, reinforcing that these components are connected.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/about-shape/shapemeaning-dont-baseline-1.png)
 
@@ -218,9 +206,7 @@
 [en]: <> (Don’t use shapes that make components unrecognizable.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/about-shape/structure-dont-baseline-2.png)
 
@@ -231,9 +217,7 @@
 [en]: <> (Don’t use shapes that interfere with a component’s ability to receive user input. This button has a touch target that is too small.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/about-shape/structure-dont-reply-1.png)
 
@@ -244,5 +228,4 @@
 [en]: <> (Don’t use shapes that make a component unrecognizable. These buttons look very similar to the chips above them, which makes it difficult to distinguish the two components.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-main.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Owl)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Owl)
 <h2 id="about-owl">译文</h2>
@@ -109,9 +105,7 @@
 [en]: <> (Navigation can be accessed by tapping the floating action button, and settings can be accessed through the settings icon.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section1.png)
 
@@ -120,9 +114,7 @@
 [en]: <> (The Personalize section of Owl on mobile)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Section 2: Browse)
 ### 译文
@@ -148,9 +140,7 @@
 [en]: <> (On mobile, Owl uses a bottom navigation bar to access these sections.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section2-1.png)
 
@@ -159,13 +149,7 @@
 [en]: <> (Use the bottom navigation to visit the My Courses page on mobile)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section2-2.png)
 
@@ -174,11 +158,7 @@
 [en]: <> (On mobile, use the bottom navigation to visit the Featured page.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section2-3.png)
 
@@ -187,9 +167,7 @@
 [en]: <> (On mobile, use the bottom navigation to access the Search page.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (On tablet and desktop, rail navigation provides access the three destinations.)
 译文
@@ -219,9 +197,7 @@
 [en]: <> (To access the tutorial videos for a course, tap the curved shape in the bottom right of the screen. To navigate back to the Browse section, tap the back arrow \(in the top left of the screen\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section3-1.png)
 
@@ -230,13 +206,7 @@
 [en]: <> (A course landing page on mobile)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section3-2.png)
 
@@ -245,11 +215,7 @@
 [en]: <> (When the sheet is tapped, it expands full screen to show a list of tutorial videos.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-section3-3.png)
 
@@ -258,9 +224,7 @@
 [en]: <> (When a tutorial video is tapped, it can be played full screen in landscape mode, or viewed with step-by-step content in portrait mode.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (On desktop and tablets in landscape orientation, there is enough screen space to show both the course overview content and videos.)
 译文
@@ -302,20 +266,12 @@
 [en]: <> (This grid system informs where typography is placed, because Basil uses centered-align text on sections of its layout.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/casestudies-owl-grid-1a.mp4" src="{assets_path}/material-studies/owl/casestudies-owl-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/casestudies-owl-grid-1a.mp4" src="{assets_path}/material-studies/owl/casestudies-owl-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Owl’s grid system, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -400,9 +356,7 @@
 [en]: <> (Rubik’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-type-2.png)
 
@@ -451,11 +405,7 @@
 [en]: <> (Owl uses customized choice chips, allowing the user to personalize their browsing experience.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-chips-2.png)
 
@@ -464,11 +414,7 @@
 [en]: <> (A choice chip that has not been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-chips-3.png)
 
@@ -477,9 +423,7 @@
 [en]: <> (Owl choice chips use custom size, shape, typography, color, and elevation, with an image treatment to indicate selection.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Lists and dividers)
 ### 译文
@@ -492,9 +436,7 @@
 [en]: <> (This list returns search results, with custom typography, color, iconography, and imagery. Inset dividers separate items.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-listsdividers-1.png)
 
@@ -503,39 +445,25 @@
 [en]: <> ()
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (This list has custom imagery, various typographic styles, and an action to play a tutorial video. The list items are separated by inset dividers.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-listsdividers-2.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (The width of each list item is determined by copy length, with generous padding between each list item. Each includes in-line actions, multiple image types, and typographic styles.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/owl/casestudies-owl-listsdividers-3.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Cards)
 ### 译文
@@ -572,24 +500,12 @@
 [en]: <> (Scaled down to 50%)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (On mobile, Owl uses a sheet to present course tutorial videos. Tapping the minimized sheet on the bottom right causes the sheet to expand full screen.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/03-handletransition.mp4" src="{assets_path}/material-studies/owl/03-handletransition.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/03-handletransition.mp4" src="{assets_path}/material-studies/owl/03-handletransition.mp4" type="video/mp4"></video></figure></div></div>
 
 [en]: <> (Bottom navigation)
 ### 译文
@@ -612,13 +528,7 @@
 [en]: <> (Owl’s launch screen displays a character animation \(an animation that brings animated characters to life\) to gives the app a playful quality.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/01-launch-v2.mp4" src="{assets_path}/material-studies/owl/01-launch-v2.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/01-launch-v2.mp4" src="{assets_path}/material-studies/owl/01-launch-v2.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Animated icons)
 ### 译文
@@ -626,13 +536,7 @@
 [en]: <> (Owl’s icon animations are inspired by both its logo and loading state animations.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/02-owl-icons.mp4" src="{assets_path}/material-studies/owl/02-owl-icons.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/02-owl-icons.mp4" src="{assets_path}/material-studies/owl/02-owl-icons.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Icon animations)
 [en]: <> (Logo animation)
@@ -641,9 +545,7 @@
 2. 译文
 3. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -651,62 +553,32 @@
 [en]: <> (Top-level transitions)
 #### 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/03-owl-topleveltransition-v2.mp4" src="{assets_path}/material-studies/owl/03-owl-topleveltransition-v2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/03-owl-topleveltransition-v2.mp4" src="{assets_path}/material-studies/owl/03-owl-topleveltransition-v2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Owl’s bottom navigation transitions use stagger and overshoot motion to express an energetic style.)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Parent-child transitions)
 #### 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/03-parentchildtransition-v2.mp4" src="{assets_path}/material-studies/owl/03-parentchildtransition-v2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/03-parentchildtransition-v2.mp4" src="{assets_path}/material-studies/owl/03-parentchildtransition-v2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The image on the card is a focal element that enhances continuity. Linear motion produces a simple movement, making the transition easy to follow.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
+</figcaption></figure></div><div class="mdui-col">
 
 [en]: <> (Sheets transitions)
 #### 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/03-handletransition.mp4" src="{assets_path}/material-studies/owl/03-handletransition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/03-handletransition.mp4" src="{assets_path}/material-studies/owl/03-handletransition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Arc motion is used to transform the sheets fluidly into a list.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Oscillation)
 ### 译文
@@ -714,13 +586,7 @@
 [en]: <> (Selecting and scrolling chips display an oscillation effect, creating a quirky and playful vibe.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/04-owl-oscillation-v2.mp4" src="{assets_path}/material-studies/owl/04-owl-oscillation-v2.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/04-owl-oscillation-v2.mp4" src="{assets_path}/material-studies/owl/04-owl-oscillation-v2.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Loading)
 ### 译文
@@ -728,11 +594,4 @@
 [en]: <> (Loading is expressed using an pattern image treatment that is animated. The dotted pattern reflects the shape of the circular brand elements, such as the logo and icons.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/owl/05-loading-v2.mp4" src="{assets_path}/material-studies/owl/05-loading-v2.mp4" type="video/mp4">
-</video>
-
-</figure>
-</div>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/owl/05-loading-v2.mp4" src="{assets_path}/material-studies/owl/05-loading-v2.mp4" type="video/mp4"></video></figure></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/navigation/understanding-navigation/about-hero-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Types of navigation)
 [en]: <> (Lateral navigation)
@@ -23,9 +21,7 @@
 * [译文](#forward-navigation)
 * [译文](#reverse-navigation)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Types of navigation)
 <h2 id="types-of-navigation">译文</h2>
@@ -55,9 +51,7 @@
 [en]: <> (Lateral navigation allows movement between the top-level screens of this music app’s information architecture.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/usage-forward.png)
 
@@ -71,9 +65,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/usage-reverse.png)
 
@@ -122,9 +114,7 @@
 [en]: <> (Navigation drawers are appropriate for five or more top-level destinations, and can be used across device sizes for a consistent navigation experience.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/lateral-bottom-nav.png)
 
@@ -133,9 +123,7 @@
 [en]: <> (Bottom navigation bars provide access to 2-5 top-level destinations on mobile devices. Their location, visibility, and persistence across screens allow quick pivoting between destinations.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/lateral-tabs.png)
 
@@ -144,9 +132,7 @@
 [en]: <> (Tabs can be used at any level of an app’s hierarchy to present two or more peer sets of data across screen sizes.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/lateral-hierarchy-do.png)
 
@@ -202,11 +188,7 @@
 [en]: <> (The cards on the home screen \(parent\) provide a preview of each note’s content and can be tapped to navigate to the full note \(child\).)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/forward-button.png)
 
@@ -215,11 +197,7 @@
 [en]: <> (Buttons can provide a clear affordance to advance in a flow through their label, placement, and visual emphasis.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/navigation/understanding-navigation/forward-search.png)
 
@@ -228,9 +206,7 @@
 [en]: <> (Search allows users to quickly access screens anywhere within an app’s information architecture.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Reverse navigation)
 <h2 id="reverse-navigation">译文</h2>

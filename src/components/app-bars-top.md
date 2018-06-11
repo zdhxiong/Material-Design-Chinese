@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/app-bars-top/topappbars-howtouse-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -43,9 +39,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/app-bars-top/top-app-bar-illos-01.png)
 
@@ -57,9 +51,7 @@
 [en]: <> (Top app bars appear at the top of each screen in an app, and can disappear upon scroll.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/app-bars-top/top-app-bar-illos-02.png)
 
@@ -71,9 +63,7 @@
 [en]: <> (Top app bars provide a reliable way to guide users through an app.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/app-bars-top/top-app-bar-illos-03.png)
 
@@ -238,9 +228,7 @@
 [en]: <> (A prominent top app bar with imagery)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/app-bars-top/topappbars-images-dont.png)
 
@@ -271,15 +259,11 @@
 * 译文
 * 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/app-bars-top/topappbars-navigation-icon.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Title \(optional\))
 ### 译文
@@ -308,9 +292,7 @@
 [en]: <> (If title text is long, use a prominent app bar and wrap the title to two lines.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/app-bars-top/topappbars-layout-title-dont-wrapped.png)
 
@@ -321,9 +303,7 @@
 [en]: <> (Don’t wrap text in a regular top app bar.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/app-bars-top/topappbars-layout-title-dont-truncated.png)
 
@@ -334,9 +314,7 @@
 [en]: <> (Don’t truncate text, hiding the full title may cause misunderstanding.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/app-bars-top/topappbars-layout-title-dont-shrink.png)
 
@@ -394,33 +372,17 @@
 [en]: <> (When the top app bar scrolls, its elevation above other elements becomes apparent.)
 译文
 
-<figure><video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-hide.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-hide.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-hide.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-hide.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The top app bar disappears upon scrolling up, and appears upon scrolling down.)
 译文
 
-</figcaption></figure>
-
-<figure><video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-sameelevation.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-sameelevation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-sameelevation.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-sameelevation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Top app bars can be positioned at the same elevation as content. Upon scroll, they increase elevation and let content scroll behind them.)
 译文
 
-</figcaption></figure>
-
-<figure><video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-prominent-to-regular.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-prominent-to-regular.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-prominent-to-regular.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-scrolling-prominent-to-regular.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When scrolling up, prominent top app bars using imagery can transform into normal top app bars. They should not return to prominent mode until the user scrolls back to the top of the page.)
 译文
@@ -439,11 +401,7 @@
 [en]: <> (The actions move to the overflow menu from right to left, making the most-used action the last to be moved to the overflow menu.)
 译文
 
-<figure><video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-nesting.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-nesting.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-nesting.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-nesting.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (As a top app bar is resized, actions move to the overflow menu from right to left.)
 译文
@@ -477,11 +435,7 @@
 [en]: <> (Upon closing, the contextual action bar transforms back into a top app bar.)
 译文
 
-<figure><video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-transformation.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-transformation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/app-bars-top/topappbars-behavior-transformation.mp4" src="{assets_path}/components/app-bars-top/topappbars-behavior-transformation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Top app bar transforming into a contextual action bar)
 译文
@@ -700,6 +654,4 @@
 
 ![]({assets_path}/components/app-bars-top/spec-topappbar-mobile-extended.png)
 
-</figure>
-
-</div>
+</figure></div>

@@ -19,9 +19,7 @@
 * [译文](#runtime-permissions)
 * [译文](#denied-permissions)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -133,11 +131,7 @@
 [en]: <> (Determine the clarity and importance level of each permission.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request1.png)
 
@@ -149,11 +143,7 @@
 [en]: <> (If your app has a “warm welcome,” use it to explain what your app does and why unexpected permissions will be requested.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request2.png)
 
@@ -168,13 +158,7 @@
 [en]: <> (Because users expect a messaging app to request SMS permissions, requesting it up-front makes sense.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request3.png)
 
@@ -189,11 +173,7 @@
 [en]: <> (Users are more likely to allow a permission when they want to use the feature it enables.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request4.png)
 
@@ -205,13 +185,7 @@
 [en]: <> (Explaining a permission in context helps gauge user interest and improve comprehension of the permission.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request5.png)
 
@@ -223,11 +197,7 @@
 [en]: <> (Provide instant gratification to make accepting a permission feel justified.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-request6a.png)
 
@@ -239,9 +209,7 @@
 [en]: <> (When more than one permission is needed for a feature to work, only ask for those permissions and nothing else.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Runtime permissions)
 <h2 id="runtime-permissions">译文</h2>
@@ -254,9 +222,7 @@
 [en]: <> (Users may also allow or deny the permissions of any app from Android Settings anytime after installation.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-runtime1.png)
 
@@ -265,9 +231,7 @@
 [en]: <> (Example of an app requesting permission)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Denied permissions)
 <h2 id="denied-permissions">译文</h2>
@@ -288,9 +252,7 @@
 [en]: <> (To ensure that features requiring permission always behave as intended, the app should state that permission is needed and provide a way to allow it.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-deny1.png)
 
@@ -299,11 +261,7 @@
 [en]: <> (A snackbar displays the need for permission in order to use an audio feature.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Critical permissions)
 #### 译文
@@ -311,9 +269,7 @@
 [en]: <> (If the app can no longer run because a critical permission has been denied, explain why that permission must be allowed and offer a button to open Settings so the user can allow it.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-permissions/communication-permissions-deny2.png)
 
@@ -322,7 +278,4 @@
 [en]: <> (A screen explains that a permission is needed for an app to function, with a link to allow that permission in Settings.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

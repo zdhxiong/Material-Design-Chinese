@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/backdrop/backdrop-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -25,9 +23,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -46,9 +42,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/backdrop/usage-02.png)
 
@@ -59,11 +53,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/backdrop/usage-04.png)
 
@@ -72,11 +62,7 @@
 [en]: <> (Back layer content can be navigational, changing the content displayed on the front layer.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/backdrop/usage-05.png)
 
@@ -85,16 +71,12 @@
 [en]: <> (Back layer content can filter front layer content.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/backdrop/background-illos-03.png)
 
@@ -106,9 +88,7 @@
 [en]: <> (The backdrop’s back layer is persistent, displaying controls and content that relate to the front layer.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/backdrop/background-illos-01.png)
 
@@ -120,9 +100,7 @@
 [en]: <> (The backdrop’s back layer can be accessed from any scroll position.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/backdrop/background-illos-02.png)
 
@@ -179,9 +157,7 @@
 3. 译文
 4. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/backdrop/frontlayer-hide-reveal-001.png)
 
@@ -207,9 +183,7 @@
 [en]: <> (The subheader can be fixed in place, while content below it on the front layer scrolls independently.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/backdrop/primary-surface-01.png)
 
@@ -247,9 +221,7 @@
 [en]: <> (These components affect content on the front layer.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/backdrop/back-surface-01.png)
 
@@ -294,9 +266,7 @@
 [en]: <> (This back layer can be revealed by tapping the menu icon \(1\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/backdrop/behavior-reveal-02-input.png)
 
@@ -305,60 +275,24 @@
 [en]: <> (This back layer can be revealed by tapping any input field \(1, 2, 3\).)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t use the swipe gesture on the front layer to reveal the back layer.)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-reveal.mp4" src="{assets_path}/components/backdrop/behavior-reveal.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-reveal.mp4" src="{assets_path}/components/backdrop/behavior-reveal.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When the back layer is revealed, the front layer slides out of view.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The height of the back layer is based on the size of its content.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Concealing the back layer)
 ### 译文
@@ -375,43 +309,17 @@
 [en]: <> (This back layer can be concealed by tapping the back layer close icon \(1\), the entire front layer \(2\), or the front layer arrow \(3\).)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When the back layer is revealed, the front layer content becomes inactive. To conceal the back layer, tap either anywhere on the front layer or the back layer’s conceal affordance.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To conceal the back layer when the front layer isn’t visible, tap the close affordance.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Content scrolling)
 ### 译文
@@ -419,117 +327,45 @@
 [en]: <> (Content on the front layer has different scrolling behaviors \(and restrictions\) than content on the back layer.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Content on the front layer can scroll horizontally.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t let front layer content extend beyond its container, overlapping the back layer.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Use a subheader to scroll content vertically on the front layer.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When using a subheader, content on the front layer can retain its scroll position when the back layer is exposed.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (If the front layer is minimized, content on the back layer can scroll vertically.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" type="video/mp4"></video><figcaption>
 
 {caution}
 
 [en]: <> (Be careful when scrolling back layer content in a small area. Since the exposed backdrop is modal, expose as much content as possible.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -670,12 +506,8 @@
 
 ![]({assets_path}/components/backdrop/spec-backdrop-mobile-closed.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/backdrop/spec-backdrop-mobile-open.png)
 
-</figure>
-
-</div>
+</figure></div>

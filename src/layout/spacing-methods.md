@@ -17,9 +17,7 @@
 * [译文](#containers-aspect-ratios)
 * [译文](#touch-click-targets)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Baseline)
 <h2 id="baseline">译文</h2>
@@ -109,9 +107,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/spacing-methods/custom-keylines.gif)
 
@@ -142,9 +138,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/spacing-methods/layout-spacing-keylinespadding-padding-verthorz.png)
 
@@ -402,5 +396,4 @@
 [en]: <> (Click target minimum of 24 x 24 dp)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

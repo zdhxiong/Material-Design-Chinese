@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/navigation-drawer/nav-drawer-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -31,9 +29,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -62,9 +58,7 @@
 [en]: <> (Use a navigation drawer for five or more primary destinations.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/usage-caution-alt-3.png)
 
@@ -80,9 +74,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/navigation-illos-02.png)
 
@@ -94,11 +86,7 @@
 [en]: <> (The placement and list-style content of navigation drawers clearly identify them as navigation.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/navigation-illos-01.png)
 
@@ -110,11 +98,7 @@
 [en]: <> (Navigation drawers order destinations according to user importance, with frequent destinations first and related ones grouped together.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/navigation-illos-03.png)
 
@@ -126,9 +110,7 @@
 [en]: <> (Navigation drawers can be shown or hidden to accommodate different app layouts.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -148,11 +130,7 @@
 [en]: <> (Standard drawers can be permanently visible or opened and closed by tapping a navigation menu icon. They can be used on tablet and desktop only. On mobile, modal drawers are used instead.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/usage-types-modal.png)
 
@@ -167,11 +145,7 @@
 [en]: <> (They are primarily for use on mobile, where screen space is limited. They can be replaced by standard drawers on tablet and desktop.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/usage-types-bottom.png)
 
@@ -186,9 +160,7 @@
 [en]: <> (For increased reachability from the bottom app bar’s menu icon, they open from the bottom of the screen rather than the side.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -238,9 +210,7 @@
 [en]: <> (A navigation drawer sheet can open from the left side of the screen for left-to-right languages \(1\), or from the bottom of the screen when paired with a bottom app bar \(2\). Scaled down to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-sheet-dont.png)
 
@@ -276,9 +246,7 @@
 [en]: <> (Navigation drawers can use text labels without icons.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-labels-short-do.png)
 
@@ -289,11 +257,7 @@
 [en]: <> (Keep text labels concise, but truncate them if they extend beyond the container width.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-labels-wrap-dont.png)
 
@@ -304,11 +268,7 @@
 [en]: <> (Don’t wrap label text.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-labels-shrink-dont.png)
 
@@ -319,9 +279,7 @@
 [en]: <> (Don’t shrink text size in order to fit a text label on a single line.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Destination iconography \(optional\))
 #### 译文
@@ -329,9 +287,7 @@
 [en]: <> (Icons can supplement labels as indicators of a destination. Whe used, they should always be placed before text. Other app components and content should reference these icons.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-icons-do.png)
 
@@ -342,11 +298,7 @@
 [en]: <> (Use recognizable icons when conventions exist.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-icons-dont.png)
 
@@ -357,13 +309,7 @@
 [en]: <> (Don’t use the same icon to represent different primary destinations.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-icons-repeat-do.png)
 
@@ -374,11 +320,7 @@
 [en]: <> (Secondary destinations can be represented by the same icon, especially if they are part of a collection \(1\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-destinations-icons-some-dont.png)
 
@@ -389,9 +331,7 @@
 [en]: <> (Don’t apply icons to some destinations and not others. Icons should be used for all destinations, or none.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Dividers \(optional\))
 ### 译文
@@ -399,9 +339,7 @@
 [en]: <> (Horizontal dividers can be used to separate groups of navigation destinations within the list. They extend across the full width of the drawer.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-dividers-do.png)
 
@@ -412,11 +350,7 @@
 [en]: <> (Use full-width dividers \(1\) to separate groups of destinations \(2\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-dividers-dont.png)
 
@@ -427,9 +361,7 @@
 [en]: <> (Don’t use dividers to separate individual destinations.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Header \(optional\))
 ### 译文
@@ -448,9 +380,7 @@
 [en]: <> (If access to account switching is a priority, an account switcher can be placed in the header area of a navigation drawer.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-header-brand-do.png)
 
@@ -461,9 +391,7 @@
 [en]: <> (If a navigation drawer is the full vertical height of the page, you can place a branding element or product name in the header area.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/anatomy-header-brand-dont.png)
 
@@ -558,9 +486,7 @@
 [en]: <> (A standard dismissible navigation drawer is opened and closed by tapping the navigation menu icon in the top app bar \(1\), and remains open until the menu icon is tapped again \(2\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/standard-behavior-visibility-permanent.png)
 
@@ -617,9 +543,7 @@
 [en]: <> (Modal navigation drawers block interaction with the rest of an app’s content with a scrim. They are elevated above most of the app’s UI and don’t affect the screen’s layout grid.)
 [en]: <> (They are primarily for use on mobile where screen space is limited, and can be replaced by standard drawers on tablet and desktop.)
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/modal-usage.png)
 
@@ -628,9 +552,7 @@
 [en]: <> (A modal drawer on mobile)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -662,9 +584,7 @@
 [en]: <> (A modal drawer is always opened by a navigation menu icon \(1\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/modal-behavior-close.png)
 
@@ -724,9 +644,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-open-portrait-do.png)
 
@@ -737,11 +655,7 @@
 [en]: <> (Open bottom navigation drawers that contain only a few items to their full height \(A\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-open-portrait-dont.png)
 
@@ -752,11 +666,7 @@
 [en]: <> (Don’t extend the height of a drawer beyond its contents.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-open-portrait-clip.png)
 
@@ -784,9 +694,7 @@
 [en]: <> (A bottom drawer opens to full-screen mode on mobile in a landscape orientation.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-landscape-open-dont.png)
 
@@ -808,9 +716,7 @@
 [en]: <> (When initially opened to 50% of the screen height, the drawer must be dragged to screen height before additional items are revealed. Upon scroll, the drawer's header becomes an elevated top app bar with a close affordance.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-scrolling-do.png)
 
@@ -821,11 +727,7 @@
 [en]: <> (Allow a bottom drawer’s contents to be scrolled when at full height.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/navigation-drawer/bottom-behavior-scrolling-dont.png)
 
@@ -836,9 +738,7 @@
 [en]: <> (Don’t scroll a bottom drawer’s contents when it’s not at full-screen height.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Content hierarchy)
 ### 译文
@@ -874,9 +774,7 @@
 4. *译文*
 5. *译文*
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/states-do.png)
 
@@ -887,9 +785,7 @@
 [en]: <> (Only one drawer item can be activated at a time.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/navigation-drawer/states-dont.png)
 
@@ -1082,5 +978,4 @@
 
 ![]({assets_path}/components/navigation-drawer/specs-navdrawer-bottom-modal.png)
 
-</figure>
-</div>
+</figure></div>

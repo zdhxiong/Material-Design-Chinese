@@ -17,9 +17,7 @@
 * [译文](#specs)
 * [译文](#icon-treatments)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Design principles)
 <h2 id="design-principles">译文</h2>
@@ -45,9 +43,7 @@
 [en]: <> (The tactile and physical quality of Material is reflected in the design of Material icons. Each icon is cut, folded, and lit as paper would be, but represented by simple graphic elements. The quality of Material is sturdy, with clean folds and crisp edges. Surfaces interact with light through subtle highlights and consistent shadows.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-priniciples-02.png)
 
@@ -56,11 +52,7 @@
 [en]: <> (Physical prototype)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-priniciples-03.png)
 
@@ -69,13 +61,7 @@
 [en]: <> (Lighting study)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-priniciples-04.png)
 
@@ -84,11 +70,7 @@
 [en]: <> (Material prototype)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-priniciples-05.png)
 
@@ -97,9 +79,7 @@
 [en]: <> (Color study)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Grid and keyline shapes)
 <h2 id="grid-keyline-shapes">译文</h2>
@@ -110,9 +90,7 @@
 [en]: <> (When creating an icon, view and edit it at 400% \(192 x 192 dp\), which will display edges at 4dp. By maintaining this ratio, any changes to the original will be scaled up or down proportionally, which preserves sharp edges and correct alignment when the scale is returned to 100% \(48dp\).)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-01.png)
 
@@ -121,11 +99,7 @@
 [en]: <> (1:1 Unit grid)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-02.png)
 
@@ -134,16 +108,12 @@
 [en]: <> (4:1 Unit grid)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (The icon grid establishes clear rules for the consistent, but flexible, positioning of graphic elements.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-07.png)
 
@@ -152,11 +122,7 @@
 [en]: <> (Grid)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-08.png)
 
@@ -165,9 +131,7 @@
 [en]: <> (Keyline)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Keyline Shapes)
 ### 译文
@@ -175,9 +139,7 @@
 [en]: <> (Keyline shapes are based on the grid. By using these core shapes as a baseline, you can maintain consistent visual proportions throughout your product icons.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-03.png)
 
@@ -192,11 +154,7 @@
 [en]: <> (Width: 152dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-04.png)
 
@@ -208,13 +166,7 @@
 [en]: <> (Diameter: 176dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-05.png)
 
@@ -229,11 +181,7 @@
 [en]: <> (Width: 128dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-06.png)
 
@@ -248,9 +196,7 @@
 [en]: <> (Width: 176dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Geometry)
 #### 译文
@@ -258,41 +204,23 @@
 [en]: <> (These keyline shapes use preset standards: circle, square, rectangle, orthogonals, and diagonals. They unify product icons and maintain consistent placement on the grid.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-09.png)
 
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-10.png)
 
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-11.png)
 
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-grid-keyline-12.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>
@@ -323,11 +251,7 @@
 4. 译文
 5. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-01.png)
 
@@ -339,11 +263,7 @@
 [en]: <> (The furthest back layer of Material)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-02.png)
 
@@ -355,13 +275,7 @@
 [en]: <> (A layer of Material casts a shadow on the background)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-03.png)
 
@@ -373,11 +287,7 @@
 [en]: <> (Color applied to a small portion of an element)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-04.png)
 
@@ -389,13 +299,7 @@
 [en]: <> (Color applied to an entire element, edge-to-edge)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-05.png)
 
@@ -407,11 +311,7 @@
 [en]: <> (The top edge of a Material element is tinted \(a lighter version of the original color\))
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-06.png)
 
@@ -423,13 +323,7 @@
 [en]: <> (The bottom edge of a Material element is shaded \(a darker version of the original color\))
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-07.png)
 
@@ -441,11 +335,7 @@
 [en]: <> (A soft shadow around the edges of the foreground.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-08.png)
 
@@ -457,9 +347,7 @@
 [en]: <> (Surface lighting is a soft tint in front of all icon elements, fading from the upper left to lower right)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Lighting)
 ### 译文
@@ -467,9 +355,7 @@
 [en]: <> (In the Material Design environment, virtual lights illuminate the scene and allow elements to cast shadows. Light is cast on the top of elements, creating a shadow that highlights the icon’s top and bottom edges. An angled light reinforces the sense of dimension across the elements.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-09.png)
 
@@ -478,11 +364,7 @@
 [en]: <> (Top)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-10.png)
 
@@ -491,9 +373,7 @@
 [en]: <> (45º angle)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Shadows)
 ### 译文
@@ -527,15 +407,11 @@
 [en]: <> (Color: Refer to Tint, shade and shadow values)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-11.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Edge tint and shade)
 ### 译文
@@ -548,9 +424,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-05.png)
 
@@ -568,11 +442,7 @@
 [en]: <> (Color: White \(#FFFFFF\))
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-06.png)
 
@@ -590,9 +460,7 @@
 [en]: <> (Color: Refer to tint, shade and shadow values)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Finish)
 ### 译文
@@ -611,9 +479,7 @@
 [en]: <> (*Slider 2*<br>Opacity: 0%<br>Location: 100%)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-metrics-08.png)
 
@@ -622,9 +488,7 @@
 [en]: <> (Finishing layer)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (*Note the values outlined in this article are referenced from Adobe Illustrator.)
 译文
@@ -641,9 +505,7 @@
 [en]: <> (Color is flush with an element’s surface. Because color itself has no depth, it doesn’t contain edges or shadows.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-01.png)
 
@@ -651,11 +513,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-02.png)
 
@@ -663,9 +521,7 @@
 
 {dont}
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Layer)
 ### 译文
@@ -673,9 +529,7 @@
 [en]: <> (When Material elements are layered, depth is produced by the shadows each layer casts. The number of surface layers that overlap should be limited, as too many layers can overcomplicate an icon.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-03.png)
 
@@ -683,11 +537,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-04.png)
 
@@ -698,9 +548,7 @@
 [en]: <> (Don’t add too many layers.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Scoring)
 ### 译文
@@ -708,9 +556,7 @@
 [en]: <> (Scoring an icon creates the illusion of depth by dividing surfaces in half. Scores should be centered and placed on symmetrical shapes.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-05.png)
 
@@ -718,11 +564,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-06.png)
 
@@ -733,9 +575,7 @@
 [en]: <> (Don’t use multiple scores or position a score off-center.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Fold)
 ### 译文
@@ -743,9 +583,7 @@
 [en]: <> (When folded at multiple angles, Material elements have greater dimension.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-07.png)
 
@@ -753,11 +591,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-08.png)
 
@@ -768,9 +602,7 @@
 [en]: <> (Don’t use spot color on folded elements, to avoid altering or misrepresenting key elements.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Overlap)
 ### 译文
@@ -778,9 +610,7 @@
 [en]: <> (When Material elements overlap, it creates unique silhouettes. All elements, edges, and shadows are confined to the interior of the silhouette.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-09.png)
 
@@ -788,11 +618,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-13.png)
 
@@ -803,9 +629,7 @@
 [en]: <> (Don’t overlap more than two elements to avoid overcomplicating the icon.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Accordion)
 ### 译文
@@ -813,9 +637,7 @@
 [en]: <> (An accordion fold involves adjoining two Material elements with a connecting fold, adding dimension to an element.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-10.png)
 
@@ -823,11 +645,7 @@
 
 {do}
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-14.png)
 
@@ -838,9 +656,7 @@
 [en]: <> (Don’t exceed more than two accordion folds, as having too many complicates the icon and doesn’t provide a clear focal point.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Distort)
 ### 译文
@@ -848,9 +664,7 @@
 [en]: <> (Elements should remain in their geometric form and not be skewed, rotated, bowed, warped, or bent.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-11.png)
 
@@ -861,11 +675,7 @@
 [en]: <> (Don’t distort or transform product icons.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/product-icons/product-icons-patterns-12.png)
 
@@ -873,7 +683,4 @@
 
 {dont}
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

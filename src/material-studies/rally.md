@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-main.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Rally)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Rally)
 <h2 id="about-rally">译文</h2>
@@ -100,9 +96,7 @@
 [en]: <> (In a rail, each destination is represented by a unique icon. When a section is selected, it’s icon becomes brighter a section title is displayed.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-rail.png)
 
@@ -111,9 +105,7 @@
 [en]: <> (Rally’s rail navigation, on desktop)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tabs)
 ### 译文
@@ -147,20 +139,12 @@
 [en]: <> (Rally uses a responsive grid system, which has flexible columns and padding that can resize to accommodate any screen width.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/rally/casestudies-rally-grid-1a.mp4" src="{assets_path}/material-studies/rally/casestudies-rally-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/rally/casestudies-rally-grid-1a.mp4" src="{assets_path}/material-studies/rally/casestudies-rally-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Rally’s grid system, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation)
 ### 译文
@@ -168,26 +152,12 @@
 [en]: <> (Rally expresses elevation differences between UI elements using color or a scrim.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/rally/rally-flow1-170808-casestudies-rally-elevation-1a.mp4" src="{assets_path}/material-studies/rally/rally-flow1-170808-casestudies-rally-elevation-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/rally/rally-flow1-170808-casestudies-rally-elevation-1a.mp4" src="{assets_path}/material-studies/rally/rally-flow1-170808-casestudies-rally-elevation-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Rally uses color to differentiate different elements. For example, to ensure a graph is distinct from a list scrolling beneath it, they each use a different shade of gray.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-elevation-scrim.png)
 
@@ -196,9 +166,7 @@
 [en]: <> (When a dialog appears, a blurry scrim behind it indicates the dialog’s elevation is above the rest of the UI.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -311,9 +279,7 @@
 [en]: <> (Eczar’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-eczar-2.png)
 
@@ -342,9 +308,7 @@
 [en]: <> (Letterforms of Roboto Condensed)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-robotocondensed-2.png)
 
@@ -396,9 +360,7 @@
 [en]: <> (These card and list components have been customized to use Rally’s color theme and typeface. List items include colors, so that users can relate each line item to the corresponding graph.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-cards-1.png)
 
@@ -407,11 +369,7 @@
 [en]: <> (Rally’s overview page uses cards to present various financial summaries, such as “Accounts” and “Bills.”)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-list.png)
 
@@ -420,9 +378,7 @@
 [en]: <> (When a card like “Accounts” is pressed, the summary information from the card is shown in more detail in a list.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Banners, dialogs, and snackbars)
 ### 译文
@@ -448,9 +404,7 @@
 [en]: <> (On tablet, banners are surfaced in the upper right corner, appearing directly after rail navigation.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-alerts-mobile.png)
 
@@ -459,9 +413,7 @@
 [en]: <> (On mobile, banners are the first item on the overview screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-alerts-desktop.png)
 
@@ -470,9 +422,7 @@
 [en]: <> (On large desktop screens, banners are displayed \(and archived\) in their own column.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-dialogs-mobile.png)
 
@@ -481,9 +431,7 @@
 [en]: <> (Dialogs are used to deliver high-priority messages.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-snackbar.png)
 
@@ -502,9 +450,7 @@
 [en]: <> (On desktop and tablet, Rally uses rail navigation. When a section is selected, it displays a text label and a brighter color in the rail.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-rail.png)
 
@@ -513,9 +459,7 @@
 [en]: <> (Rail navigation on desktop.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tabs)
 ### 译文
@@ -535,9 +479,7 @@
 [en]: <> (Tabs are used for navigation on mobile)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/rally/casestudies-rally-tabs-compare.png)
 
@@ -554,13 +496,7 @@
 [en]: <> (Motion is used to relay information in Rally’s UI, providing moments of delight.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/rally/04-rally-brandstyle-v01.mp4" src="{assets_path}/material-studies/rally/04-rally-brandstyle-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/rally/04-rally-brandstyle-v01.mp4" src="{assets_path}/material-studies/rally/04-rally-brandstyle-v01.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Rally’s logo animates upon a user entering the app for the first time.)
 [en]: <> (Rally displays data in lists, introducing rows one by one in a staggered fashion.)
@@ -571,7 +507,4 @@
 3. 译文
 4. 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-hero.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Shrine)
 [en]: <> (Product architecture)
@@ -33,9 +31,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Shrine)
 <h2 id="about-shrine">译文</h2>
@@ -157,24 +153,12 @@
 [en]: <> (This sheet can expand to show its content, or take the user to the shopping cart screen by clicking the cart icon.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-shoppingcart-1b.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-shoppingcart-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-shoppingcart-1b.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-shoppingcart-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Shopping cart)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Layout)
 <h2 id="layout">译文</h2>
@@ -185,20 +169,12 @@
 [en]: <> (Shrine uses a responsive grid system, allowing padding and column size to change between mobile, tablet, and desktop.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-grid-1a.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-grid-1a.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Shrine’s grid system. Scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Horizontal grid)
 #### 译文
@@ -232,9 +208,7 @@
 [en]: <> (Shrine’s color palette)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-colorcomponents.png)
 
@@ -262,9 +236,7 @@
 [en]: <> (Image treatments are used to indicate state changes, such as selection.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-color-imagerytreatment-patternscrim.png)
 
@@ -310,9 +282,7 @@
 [en]: <> (Rubik’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-type-2.png)
 
@@ -361,9 +331,7 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-shape-2.png)
 
@@ -401,11 +369,7 @@
 [en]: <> (Shrine’s low emphasis buttons have no container and no elevation.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-textbutton-baseline.png)
 
@@ -414,11 +378,7 @@
 [en]: <> (A text button that has not been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-textbutton-shrine.png)
 
@@ -427,9 +387,7 @@
 [en]: <> (Shrine’s text buttons use custom color and typography.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Contained buttons)
 #### 译文
@@ -451,11 +409,7 @@
 [en]: <> (Shrine’s contained buttons use the primary color Shrine Pink 100, with elevation.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-button-baseline.png)
 
@@ -464,11 +418,7 @@
 [en]: <> (A contained button that has not been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-button-shrine.png)
 
@@ -477,9 +427,7 @@
 [en]: <> (Shrine’s contained buttons use custom shape, color, and typography.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Chips)
 ### 译文
@@ -496,11 +444,7 @@
 [en]: <> (Shrine’s customized choice chips)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-chips-baseline.png)
 
@@ -509,11 +453,7 @@
 [en]: <> (A choice chip that has not been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-chips-shrine.png)
 
@@ -522,9 +462,7 @@
 [en]: <> (Shrine’s choice chips use custom shape, color, typography, and states. Selected choice chips change their color and type size.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tabs)
 ### 译文
@@ -544,9 +482,7 @@
 [en]: <> (To indicate an active tab, a custom shape is placed behind it.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-tabs-compare.png)
 
@@ -573,24 +509,12 @@
 [en]: <> (Shrine’s backdrop uses custom color and shape. The back layer uses the app’s primary color; and the front layer’s top left corner has a custom angle cut.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-backdrop-1b.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-backdrop-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/casestudies-shrine-backdrop-1b.mp4" src="{assets_path}/material-studies/shrine/casestudies-shrine-backdrop-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Shrine’s backdrop and customized navigation drawer)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Image list)
 ### 译文
@@ -622,9 +546,7 @@
 
 [en]: <> (Shrine uses a persistent edge sheet for easy access to the shopping cart.)
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/shrine/casestudies-shrine-shoppingcart-1b.mp4)
 
@@ -633,9 +555,7 @@
 [en]: <> (Sheet)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Motion)
 <h2 id="motion">译文</h2>
@@ -646,13 +566,7 @@
 [en]: <> (Launch screen)
 ### 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/01-launch.mp4" src="{assets_path}/material-studies/shrine/01-launch.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/01-launch.mp4" src="{assets_path}/material-studies/shrine/01-launch.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Animated icons)
 ### 译文
@@ -662,17 +576,7 @@
 [en]: <> (Animated icons add delight while also guiding the user’s journey.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/02-icons.mp4" src="{assets_path}/material-studies/shrine/02-icons.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/02-icons.mp4" src="{assets_path}/material-studies/shrine/02-icons.mp4" type="video/mp4"></video></figure></div></div>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -680,13 +584,7 @@
 [en]: <> (Shrine’s navigation transitions use emphasized easing and long durations to achieve a relaxed and elegant tone. Temporal offsets are used to call attention to important elements like the cart and checkout button. A staggered fade is used on back layer content to create an cascading effect.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/03-navigationtransitions.mp4" src="{assets_path}/material-studies/shrine/03-navigationtransitions.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/03-navigationtransitions.mp4" src="{assets_path}/material-studies/shrine/03-navigationtransitions.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (User education)
 ### 译文
@@ -696,15 +594,4 @@
 [en]: <> (When adding an item to the cart for the first time, an educational animation displays the location of items in the cart.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/shrine/04-tutorial.mp4" src="{assets_path}/material-studies/shrine/04-tutorial.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
-</div>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/shrine/04-tutorial.mp4" src="{assets_path}/material-studies/shrine/04-tutorial.mp4" type="video/mp4"></video></figure></div></div></div>

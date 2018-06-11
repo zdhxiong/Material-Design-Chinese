@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/lists/lists-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -40,9 +36,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/lists-illos-logical.png)
 
@@ -54,11 +48,7 @@
 [en]: <> (Lists should be sorted in logical ways that make content easy to scan, such as alphabetical, numerical, chronological, or by user preference.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/lists-illos-content.png)
 
@@ -70,11 +60,7 @@
 [en]: <> (Lists present content in a way that makes it easy to identify a specific item in a collection and act on it.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/lists-illos-consistency.png)
 
@@ -86,9 +72,7 @@
 [en]: <> (Lists should present icons, text, and actions in a consistent format.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -200,9 +184,7 @@
 [en]: <> (List structure can be organized using visuals, dividers, and spacing.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/two-line-example-2.png)
 
@@ -213,11 +195,7 @@
 [en]: <> (Improve scannability by anchoring supporting visuals, such as thumbnails, along the row's edge.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/two-line-example-dont.png)
 
@@ -228,13 +206,7 @@
 [en]: <> (Placing supporting visuals in the center of the row can make it difficult to see the relationship between primary content and supporting content.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/threeline-sample-2.png)
 
@@ -245,11 +217,7 @@
 [en]: <> (Place a divider between rows with lots of content, such as those with three-line lists.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/threeline-sample-caution.png)
 
@@ -260,13 +228,7 @@
 [en]: <> (Distinguish rows by maintaining sufficient space between list items.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/content-action.png)
 
@@ -280,11 +242,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/content-hierarchy.png)
 
@@ -298,9 +256,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Subheaders)
 ### 译文
@@ -330,20 +286,12 @@
 [en]: <> (Tapping a list item expands it across the entire screen.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/lists/01-list-parentchild.mp4" src="{assets_path}/components/lists/01-list-parentchild.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/01-list-parentchild.mp4" src="{assets_path}/components/lists/01-list-parentchild.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To expand a list item, display a parent-child transition.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Gestures)
 ### 译文
@@ -351,38 +299,22 @@
 [en]: <> (Swiping a list item \(either left or right\) can perform an action.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To archive a list item, swipe it.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Items can be dragged to reorder a list.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/lists/03-list-reorder.mp4" src="{assets_path}/components/lists/03-list-reorder.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/03-list-reorder.mp4" src="{assets_path}/components/lists/03-list-reorder.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To reorder a list item, drag it.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Expand)
 ### 译文
@@ -431,9 +363,7 @@
 [en]: <> (Single-line list)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/single-line-example-1.png)
 
@@ -442,11 +372,7 @@
 [en]: <> (A text list)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/single-line-example-2.png)
 
@@ -455,11 +381,7 @@
 [en]: <> (A single-line list with icons and text)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/lists/single-line-desktop.png)
 
@@ -476,9 +398,7 @@
 [en]: <> (In a two-line list, each row contains two lines of text maximum.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/two-line-example-1.png)
 
@@ -487,11 +407,7 @@
 [en]: <> (A two-line list, with an icon and meta icon)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/two-line-example-2.png)
 
@@ -500,11 +416,7 @@
 [en]: <> (A two-line list, with a thumbnail and meta text)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/lists/two-line-mix.png)
 
@@ -513,9 +425,7 @@
 [en]: <> (The amount of text can vary between different rows within the same list.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/lists/two-line-desktop.png)
 
@@ -529,9 +439,7 @@
 [en]: <> (Three-line list)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/threeline-sample-1.png)
 
@@ -540,11 +448,7 @@
 [en]: <> (A three-line text with an avatar)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/threeline-sample-2.png)
 
@@ -553,11 +457,7 @@
 [en]: <> (A three-line text list, with a thumbnail and meta text)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/lists/three-line-mix.png)
 
@@ -566,9 +466,7 @@
 [en]: <> (The amount of text can vary between rows within the same list.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/lists/threeline-desktop.png)
 
@@ -610,9 +508,7 @@
 [en]: <> (Show and hide details of existing list items by expanding and collapsing list content vertically.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/lists-controls-expandable-close.png)
 
@@ -621,11 +517,7 @@
 [en]: <> (Tapping the list control expands the list.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/lists/lists-controls-expandable-open.png)
 
@@ -634,11 +526,7 @@
 [en]: <> (An expanded list)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Switch)
 #### 译文
@@ -652,9 +540,7 @@
 [en]: <> (Tapping the list control expands the list.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
+</figcaption></figure></div><div class="mdui-col">
 
 [en]: <> (Reorder)
 #### 译文
@@ -668,9 +554,7 @@
 [en]: <> (Usually appearing in edit mode, dragging lists items moves them to other locations within the list. This reorder icon is the list item’s secondary action.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -787,15 +671,11 @@
 
 ![]({assets_path}/components/lists/list-spec-singleline-individual.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/lists/list-spec-singleline-group.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/lists/list-spec-controls.png)
 
@@ -808,9 +688,7 @@
 
 ![]({assets_path}/components/lists/list-spec-doubleline-individual.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/lists/list-spec-doubleline-group.png)
 
@@ -823,9 +701,7 @@
 
 ![]({assets_path}/components/lists/list-spec-threeline-individual.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/lists/list-spec-threeline-group.png)
 
@@ -838,5 +714,4 @@
 
 ![]({assets_path}/components/lists/list-spec-collapsed-expanded.png)
 
-</figure>
-</div>
+</figure></div>

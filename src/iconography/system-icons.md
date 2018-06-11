@@ -19,9 +19,7 @@
 * [译文](#color)
 * [译文](#icon-themes)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Design principles)
 <h2 id="design-principles">译文</h2>
@@ -41,9 +39,7 @@
 [en]: <> (Icon shapes are bold and geometric. They have a symmetrical and consistent look, ensuring readability and clarity, even at small sizes.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-design-priniciples-02.png)
 
@@ -54,11 +50,7 @@
 [en]: <> (Make icons graphic and bold.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-design-priniciples-03.png)
 
@@ -69,13 +61,7 @@
 [en]: <> (Don’t use delicate, thin stroke weights.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-design-priniciples-04.png)
 
@@ -86,11 +72,7 @@
 [en]: <> (Use geometric, consistent shapes.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-design-priniciples-05.png)
 
@@ -101,9 +83,7 @@
 [en]: <> (Don’t use gestural or loose organic shapes.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Grid and keyline shapes)
 <h2 id="grid-keyline-shapes">译文</h2>
@@ -114,9 +94,7 @@
 [en]: <> (System icons are displayed as 24 x 24 dp. Create icons for viewing at 100% scale for pixel-perfect accuracy.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-01.png)
 
@@ -125,11 +103,7 @@
 [en]: <> (100% scale)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-02.png)
 
@@ -138,9 +112,7 @@
 [en]: <> (1000% scale)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Dense layouts)
 #### 译文
@@ -148,9 +120,7 @@
 [en]: <> (On desktop, when the mouse and keyboard are the primary input methods, measurements may be scaled down to 20dp.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-03.png)
 
@@ -159,11 +129,7 @@
 [en]: <> (100% scale)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-04.png)
 
@@ -172,9 +138,7 @@
 [en]: <> (1000% scale)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Layout)
 ### 译文
@@ -185,9 +149,7 @@
 [en]: <> (If additional visual weight is needed, content may extend into the padding between the live area and the trim area \(the complete size of a graphic\). No parts of the icon should extend outside of the trim area.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-05.png)
 
@@ -199,11 +161,7 @@
 [en]: <> (Icon content is limited to the 20dp x 20dp live area, with 2dp of padding around the perimeter.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-06.png)
 
@@ -215,13 +173,7 @@
 [en]: <> (2dp of empty space makes up the padding surrounding the 20dp x 20dp live area.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-07.png)
 
@@ -233,11 +185,7 @@
 [en]: <> (Icon content is limited to the 16dp x 16dp live area, with 2dp of padding around the perimeter.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-08.png)
 
@@ -249,9 +197,7 @@
 [en]: <> (2dp of padding surrounds the live area.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Keyline Shapes)
 ### 译文
@@ -271,9 +217,7 @@
 [en]: <> (Specific keylines are present for certain shapes: circle, square, rectangle, orthogonals, and diagonals. These basic shapes help unify Google system icons and regulate their placement on the icon grid.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-09.png)
 
@@ -282,11 +226,7 @@
 [en]: <> (Grid)
 #### 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-10.png)
 
@@ -295,13 +235,7 @@
 [en]: <> (Keyline)
 #### 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-11.png)
 
@@ -316,11 +250,7 @@
 [en]: <> (Width: 18dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-12.png)
 
@@ -332,13 +262,7 @@
 [en]: <> (Diameter: 20dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-13.png)
 
@@ -353,11 +277,7 @@
 [en]: <> (Width: 16dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-14.png)
 
@@ -372,9 +292,7 @@
 [en]: <> (Width: 20dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Geometry)
 #### 译文
@@ -382,23 +300,15 @@
 [en]: <> (Preset standards have been determined for specific keylines: the circle, square, rectangle, orthogonals, and diagonals. These universal and simple elements have been developed to unify Google system icons and systemize their placement on the icon grid.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-15.png)
 
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-grid-keyline-shapes-16.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Clarity \(Pixel perfection\))
 ### 译文
@@ -406,9 +316,7 @@
 [en]: <> (To avoid distorting an icon, position icons “on pixel” by making the X and Y coordinates into integers, without decimals.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-17.png)
 
@@ -419,11 +327,7 @@
 [en]: <> (Position icons “on pixel.”)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-18.png)
 
@@ -434,9 +338,7 @@
 [en]: <> (Don’t place the icon on a coordinate that isn’t “on pixel”.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (System icon metrics)
 <h2 id="system-icon-metrics">译文</h2>
@@ -471,9 +373,7 @@
 [en]: <> (Corner radiuses are 2dp by default. Interior corners should be square, not rounded. For shapes 2dp wide or less, stroke corners shouldn’t be rounded.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-02.png)
 
@@ -482,11 +382,7 @@
 [en]: <> (Exterior corners with 2dp corner radii)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-03.png)
 
@@ -495,9 +391,7 @@
 [en]: <> (Interior corners)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Stroke)
 ### 译文
@@ -505,9 +399,7 @@
 [en]: <> (System icons use a consistent stroke width of 2dp, including curves, angles, and both interior and exterior strokes.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-04.png)
 
@@ -516,11 +408,7 @@
 [en]: <> (2dp stroke)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-05.png)
 
@@ -529,13 +417,7 @@
 [en]: <> (Consistency)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-06.png)
 
@@ -544,11 +426,7 @@
 [en]: <> (Stroke terminal)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-07.png)
 
@@ -557,13 +435,7 @@
 [en]: <> (Counter stroke)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-01.png)
 
@@ -574,11 +446,7 @@
 [en]: <> (Use consistent stroke weights and squared stroke terminals.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-02.png)
 
@@ -589,9 +457,7 @@
 [en]: <> (Don’t use inconsistent stroke weights or rounded stroke terminals.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Complex icon shapes)
 ### 译文
@@ -599,9 +465,7 @@
 [en]: <> (If a system icon requires complex details, subtle adjustments can be made to improve its legibility. These adjustments are referred to as *optical corrections*. Any optical corrections should use the geometric forms on which all other icons are based, without skewing or distorting those shapes.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-08.png)
 
@@ -613,11 +477,7 @@
 [en]: <> (The paperclip icon uses 1.5dp of the possible 2dp stroke area to fit multiple curves within the 24 x 24dp icon space.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-metrics-09.png)
 
@@ -629,13 +489,7 @@
 [en]: <> (This icon uses a 1.5dp stroke to show waves within the 24 x 24dp icon space.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-05.png)
 
@@ -646,11 +500,7 @@
 [en]: <> (Make icons face forward.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-06.png)
 
@@ -661,13 +511,7 @@
 [en]: <> (Don’t tilt, rotate, or make icons appear dimensional.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-07.png)
 
@@ -678,11 +522,7 @@
 [en]: <> (Simplify icons for greater clarity and legibility.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-best-practices-08.png)
 
@@ -693,9 +533,7 @@
 [en]: <> (Don’t be overly literal. Avoid complex icons.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Space)
 ### 译文
@@ -755,15 +593,11 @@
 [en]: <> (An inactive icon, which is lower in the visual hierarchy, should have an opacity of 38% \(#000000\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/iconography-systemicons-color-iconslight.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Icons on dark backgrounds)
 ### 译文
@@ -782,15 +616,11 @@
 [en]: <> (An inactive icon, which is lower in the visual hierarchy, should have an opacity of 50% \(#FFFFFF\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/iconography-systemicons-color-iconsdark.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Icon themes)
 <h2 id="icon-themes">译文</h2>
@@ -816,9 +646,7 @@
 [en]: <> (When system icons are unfilled, they are defined by their stroke. A thicker stroke adds a sense of heaviness and mass, making filled icons feel heavier. A thinner stroke implies lightness, giving unfilled icons a lighter style.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-01.png)
 
@@ -827,11 +655,7 @@
 [en]: <> (Unfilled icon)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-02.png)
 
@@ -840,13 +664,7 @@
 [en]: <> (Filled icon)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-03.png)
 
@@ -855,11 +673,7 @@
 [en]: <> (To maintain legibility, the recommended stroke weight is 2dp for most icons.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-04.png)
 
@@ -868,9 +682,7 @@
 [en]: <> (2dp outlined icons remain readable across sizes and applications.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Stroke alignment)
 #### 译文
@@ -893,11 +705,7 @@
 3. 译文
 4. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-06.png)
 
@@ -906,11 +714,7 @@
 [en]: <> (Aligning the stroke to the shape interior produces a legible icon with a consistent stroke weight.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-07.png)
 
@@ -919,13 +723,7 @@
 [en]: <> (For optimal legibility and recognition, the standard Material icon style should be retained in some cases, such as full body human icons or proprietary icons.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-08.png)
 
@@ -936,11 +734,7 @@
 [en]: <> (In most cases, the stroke is best aligned inside of a shape. Occasionally, aligning the stroke to the center or outside of the shape works better for an icon.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-09.png)
 
@@ -951,11 +745,7 @@
 [en]: <> (Adjust shapes appropriately for your design and brand when customizing an icon’s stroke and alignment.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-shrine-01.png)
 
@@ -964,9 +754,7 @@
 [en]: <> (The lighter stroke weight of these outlined icons mimics the thin lines of the app’s brand.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-shrine-02.png)
 
@@ -1011,11 +799,7 @@
 [en]: <> (The recommended corner radius values are between 0dp and 4dp.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-11.png)
 
@@ -1024,11 +808,7 @@
 [en]: <> (If the stroke is 2dp or less, the corner radius must be 1dp.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-12.png)
 
@@ -1037,13 +817,7 @@
 [en]: <> (Adjust the icon’s interior corners and counter area to match the corner radius.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-13.png)
 
@@ -1054,11 +828,7 @@
 [en]: <> (Customize the corner radius to remain legible while reflecting your product’s style.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-14.png)
 
@@ -1069,11 +839,7 @@
 [en]: <> (Don’t round interior corners if it reduces the icon’s legibility.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-posivibes-01.png)
 
@@ -1082,9 +848,7 @@
 [en]: <> (The 0dp corner radius of the sharp icon set echoes this app’s rectangular design details.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-posivibes-02.png)
 
@@ -1097,9 +861,7 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-crane-01.png)
 
@@ -1108,9 +870,7 @@
 [en]: <> (This app uses rounded buttons and a line-drawn logo.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-crane-02.png)
 
@@ -1131,9 +891,7 @@
 [en]: <> (Two-tone icons have added dimension, using the attributes of stroke, fill, and color. Contrasting stroke and fill colors enables the use of multiple brand colors and can improve legibility.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-15.png)
 
@@ -1147,11 +905,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-16.png)
 
@@ -1160,11 +914,7 @@
 [en]: <> (Transparency should only be applied to the fill of two-tone icons.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Two-tone icons can use different colors for an icon’s stroke and fill. The fill’s transparency can be adjusted to improve legibility and align with your brand.)
 译文
@@ -1182,9 +932,7 @@
 --------|----------|----------
 译文     | 译文     | 译文<br>译文
 
-</div></div>
-
-<figure>
+</div></div><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-reply-01.png)
 
@@ -1193,9 +941,7 @@
 [en]: <> (This email app uses two-tone brand elements, such as its logo.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/iconography/system-icons/system-icons-preset-custom-icon-reply-02.png)
 
@@ -1208,5 +954,4 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

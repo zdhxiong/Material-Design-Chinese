@@ -13,9 +13,7 @@
 * [译文](#usage)
 * [译文](#activities-tasks-intents)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -57,22 +55,9 @@
 [en]: <> (If the user triggers the Share action, a bottom sheet is revealed with available sharing activities from different apps \(all of which have been registered to handle the Share *intent*\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-navigating-between-apps/androidonly-navigatingbetweenapps.mp4" src="{assets_path}/platform-guidance/android-navigating-between-apps/androidonly-navigatingbetweenapps.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-navigating-between-apps/androidonly-navigatingbetweenapps.mp4" src="{assets_path}/platform-guidance/android-navigating-between-apps/androidonly-navigatingbetweenapps.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A bottom sheet displays available sharing activities from different apps.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -19,9 +19,7 @@
 * [译文](#label-secondary-text)
 * [译文](#writing-style)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -29,9 +27,7 @@
 [en]: <> (All of an app’s settings should be reached via the “Settings” label. Don’t use synonyms such as “Options” or “Preferences.”)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/communication-settings-sidenav.png)
 
@@ -43,11 +39,7 @@
 [en]: <> (If side navigation such as a navigation drawer exists, include “Settings” below all other items \(except Help & Feedback\).)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/communication-settings-menu.png)
 
@@ -59,9 +51,7 @@
 [en]: <> (Place Settings in the toolbar menu below all other items \(except Help & Feedback\).)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -80,9 +70,7 @@
 [en]: <> (If there are many settings, prioritize the ones most likely to interest users. Less important settings can be grouped and moved to their own screen.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/as-settings-usage-provideoverview.png)
 
@@ -91,9 +79,7 @@
 [en]: <> (Important settings appear at the top of the list.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Select appropriate settings)
 ### 译文
@@ -166,9 +152,7 @@
 
 [en]: <> (Related settings are best grouped under a subscreen. Use consistent terms: the label of the setting that opens a group should match the subscreen title.)
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/as-settings-groupingsettings.png)
 
@@ -177,9 +161,7 @@
 [en]: <> (Grouping settings)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Label and secondary text)
 <h2 id="label-secondary-text">译文</h2>
@@ -246,9 +228,7 @@
 [en]: <> (Avoid repeating words from the label in the secondary text.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Switch or checkbox settings)
 #### 译文
@@ -264,9 +244,7 @@
 * 译文
 * 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/as-settings-labelsandscondarytext-switches01.png)
 
@@ -277,9 +255,7 @@
 [en]: <> (Start the description with a verb.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/as-settings-labelsandscondarytext-switches02.png)
 
@@ -290,9 +266,7 @@
 [en]: <> (Explain the current status of the setting.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Settings that require longer explanations may add a description on a second screen.)
 译文
@@ -306,9 +280,7 @@
 [en]: <> (Underneath the label, show the status text of the switch as "On" or "Off.”)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-settings/as-settings-labelsandscondarytext-switches04.png)
 
@@ -524,9 +496,7 @@
 [en]: <> (Don’t display the setting’s general purpose.)
 译文
 
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (*On the lock screen*)
 *译文*
@@ -577,5 +547,4 @@
 
 {dont}
 
-</div></div>
-</div>
+</div></div></div>

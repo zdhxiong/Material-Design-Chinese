@@ -21,9 +21,7 @@
 * [译文](#ui-regions)
 * [译文](#whiteframes)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Columns, gutters, and margins)
 <h2 id="columns-gutters-margins">译文</h2>
@@ -64,9 +62,7 @@
 [en]: <> (On mobile, at a breakpoint of 360dp, this layout grid uses 4 columns.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-responsive-columns-600.png)
 
@@ -95,9 +91,7 @@
 [en]: <> (On mobile, at a breakpoint of 360dp, this layout grid uses 16dp gutters.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-responsive-gutters-600.png)
 
@@ -126,9 +120,7 @@
 [en]: <> (On mobile, at a breakpoint of 360dp, this layout grid uses 16dp margins.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-responsive-margins-600.png)
 
@@ -160,9 +152,7 @@
 [en]: <> (This layout grid uses 8dp gutters. The tighter spacing may suggest the images are closely related to one another, so that they are perceived as part of a collection.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-custom-gutter-large.gif)
 
@@ -171,9 +161,7 @@
 [en]: <> (This layout grid uses larger, 32dp gutters to create more separation between columns. The extra space helps each album to be perceived as an individual entity within a collection.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-custom-gutters-too-large-dont.gif)
 
@@ -204,9 +192,7 @@
 [en]: <> (This layout grid uses small, 8dp margins to allow images to take up more space in the layout.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-custom-margins-large.gif)
 
@@ -215,9 +201,7 @@
 [en]: <> (This layout grid uses large, 64dp margins to limit the width of content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-custom-margins-large-dont.gif)
 
@@ -296,13 +280,7 @@
 [en]: <> (A breakpoint is the range of predetermined screen sizes that have specific layout requirements. At a given breakpoint range, the layout adjusts to suit the screen size and orientation.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/layout/responsive-layout-grid/layout-responsive-breakpoints.mp4" src="{assets_path}/layout/responsive-layout-grid/layout-responsive-breakpoints.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/layout/responsive-layout-grid/layout-responsive-breakpoints.mp4" src="{assets_path}/layout/responsive-layout-grid/layout-responsive-breakpoints.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Breakpoint system)
 ### 译文
@@ -520,9 +498,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/responsive-layout-grid/layout-responsive-whiteframes-02.png)
 
@@ -533,5 +509,4 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

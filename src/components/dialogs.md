@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/dialogs/dialogs-usage-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -35,9 +33,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -51,9 +47,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-illos-03.png)
 
@@ -65,11 +59,7 @@
 [en]: <> (Dialogs focus user attention to ensure their content is addressed.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-illos-01.png)
 
@@ -81,11 +71,7 @@
 [en]: <> (Dialogs should be direct in communicating information and dedicated to completing a task.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-illos-02.png)
 
@@ -97,9 +83,7 @@
 [en]: <> (Dialogs should appear in response to a user task or an action, with relevant or contextual information.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When to use)
 ### 译文
@@ -121,9 +105,7 @@
 [en]: <> (Types)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-alertdialog.png)
 
@@ -135,11 +117,7 @@
 [en]: <> (Alert dialogs interrupt users with urgent information, details, or actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-simpledialog.png)
 
@@ -151,13 +129,7 @@
 [en]: <> (Simple dialogs display a list of items that take immediate effect when selected.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-confirmationdialog.png)
 
@@ -169,11 +141,7 @@
 [en]: <> (Confirmation dialogs require users to confirm a choice before the dialog is dismissed.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-fullscreendialog.png)
 
@@ -185,9 +153,7 @@
 [en]: <> (Full-screen dialogs fill the entire screen, containing actions that require a series of tasks to complete.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -234,9 +200,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-titles-do-1.png)
 
@@ -247,11 +211,7 @@
 [en]: <> (This dialog title poses a specific question, concisely explains what’s involved in the request, and provides clear actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-titles-dont-1.png)
 
@@ -262,9 +222,7 @@
 [en]: <> (Don’t use dialog titles that pose an ambiguous question.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Buttons)
 ### 译文
@@ -327,20 +285,12 @@
 [en]: <> (Dialogs don’t scroll with elements outside of the dialog, such as the background.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/dialogs/dialogs-actions-do-1a.mp4" src="{assets_path}/components/dialogs/dialogs-actions-do-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/dialogs/dialogs-actions-do-1a.mp4" src="{assets_path}/components/dialogs/dialogs-actions-do-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When viewing a scrollable list of options, the dialog title and buttons remain fixed.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Dismissing dialogs)
 ### 译文
@@ -399,9 +349,7 @@
 [en]: <> (Disable confirming actions \(1\) until a choice is made. Dismissive actions are never disabled.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-actions-dont-1.png)
 
@@ -412,9 +360,7 @@
 [en]: <> (Dismissive actions \(1\) are placed to the left of confirming actions.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-actions-do-2.png)
 
@@ -425,9 +371,7 @@
 [en]: <> (A single action may be provided only if it’s an acknowledgement.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-actions-dont-2.png)
 
@@ -484,9 +428,7 @@
 [en]: <> (To close an alert dialog, one of its actions must be selected.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-alertdialog-do-1.png)
 
@@ -497,11 +439,7 @@
 [en]: <> (The action “Discard” indicates the outcome of the decision.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-alertdialog-dont-1.png)
 
@@ -512,9 +450,7 @@
 [en]: <> (Don’t use action text that fails to indicate what the selection will do. “Cancel” and “Delete” better indicate what will occur in this dialog.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Simple dialog)
 <h2 id="simple-dialog">译文</h2>
@@ -567,9 +503,7 @@
 [en]: <> (Don’t display text buttons in simple dialogs. The choice itself is actionable when tapped.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-simpledialog-dont-1.png)
 
@@ -628,9 +562,7 @@
 [en]: <> (Provide confirmation and dismissive buttons.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-confirmation-layout-dont.png)
 
@@ -652,20 +584,12 @@
 [en]: <> (Full-screen dialogs group a series of tasks, such as creating a calendar entry with the event title, date, location, and time. Because they take up the entire screen, full-screen dialogs are the only dialogs over which other dialogs can appear.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/dialogs/dialogs-fullscreen-behavior.mp4" src="{assets_path}/components/dialogs/dialogs-fullscreen-behavior.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/dialogs/dialogs-fullscreen-behavior.mp4" src="{assets_path}/components/dialogs/dialogs-fullscreen-behavior.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A calendar app launching a full-screen dialog)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Full-screen dialogs may be used for content or tasks that meet any of these criteria:)
 译文
@@ -719,20 +643,12 @@
 [en]: <> (Launching a full-screen dialog temporarily resets the app’s perceived elevation, allowing simple menus or dialogs to appear above the full-screen dialog.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/dialogs/dialogs-dialog-windows.mp4" src="{assets_path}/components/dialogs/dialogs-dialog-windows.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/dialogs/dialogs-dialog-windows.mp4" src="{assets_path}/components/dialogs/dialogs-dialog-windows.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A calendar app launching a full-screen dialog, which launches a confirmation dialog, and alert dialog.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Layout)
 ### 译文
@@ -782,9 +698,7 @@
 [en]: <> (Avoid placing long titles in a dialog’s top app bar \(1\), as the truncated text may lead to misunderstanding.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/dialogs/dialogs-fullscreen-titles-do-1.png)
 
@@ -1048,5 +962,4 @@
 
 ![]({assets_path}/components/dialogs/specs-dialog-desktop-simple.png)
 
-</figure>
-</div>
+</figure></div>

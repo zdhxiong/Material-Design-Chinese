@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/buttons-floating-action-button/intro-fab.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -31,9 +29,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -44,9 +40,7 @@
 [en]: <> (Only use a FAB if it is the most suitable way to present a screen’s primary action.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-usage-do-email.png)
 
@@ -57,11 +51,7 @@
 [en]: <> (Represent the most common primary action with a floating action button, such as drafting a new email.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-usage-do-gallery.png)
 
@@ -72,13 +62,7 @@
 [en]: <> (FABs are not needed on every screen, such as when images represent primary actions.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-usage-dont-contacts.png)
 
@@ -89,11 +73,7 @@
 [en]: <> (Don’t display multiple FABs on a single screen.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-usage-caution-maps.png)
 
@@ -104,16 +84,12 @@
 [en]: <> (Occasionally two FABs can be used, if they perform distinct, yet equally important, actions.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-illos-03.png)
 
@@ -125,9 +101,7 @@
 [en]: <> (A FAB represents the primary action on a screen.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-illos-01.png)
 
@@ -139,9 +113,7 @@
 [en]: <> (A FAB should perform a constructive action \(such as create, share, or explore\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-illos-02.png)
 
@@ -158,15 +130,11 @@
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-elements.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Container)
 [en]: <> (Icon)
@@ -212,11 +180,7 @@
 [en]: <> (This mini FAB creates visual continuity by having a related size, shape, and placement to the folder icons below it.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-container-do.png)
 
@@ -227,11 +191,7 @@
 [en]: <> (FAB containers adopt a color from an app’s palette.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-container-dont-appbar.png)
 
@@ -242,9 +202,7 @@
 [en]: <> (Don’t layer badges or other elements in front of a FAB.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Icon)
 ### 译文
@@ -252,9 +210,7 @@
 [en]: <> (A FAB’s icon should clearly illustrate its action. A FAB shouldn’t contain notifications or actions found elsewhere on a screen.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-icon-dont-ambiguous.png)
 
@@ -265,11 +221,7 @@
 [en]: <> (Don’t use ambiguous iconography.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-icon-dont-text.png)
 
@@ -280,9 +232,7 @@
 [en]: <> (Don’t place text in a regular FAB.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -301,9 +251,7 @@
 [en]: <> (A floating action button \(FAB\) can attach to a top app bar.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-tabletdesktop-do-attachededgelayout.png)
 
@@ -314,9 +262,7 @@
 [en]: <> (A FAB can be attached to the edge of a component.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-layout-tabletdesktop-dont-cards.png)
 
@@ -374,9 +320,7 @@
 [en]: <> (Use FABs for primary, positive actions.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-behavior-dont-minoractions.png)
 
@@ -415,24 +359,12 @@
 [en]: <> (The FAB should only reappear if it’s relevant to the new screen. It should reappear in the same position, if possible.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-behavior-transition-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-behavior-transition-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-behavior-transition-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-behavior-transition-v01.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Throughout this user flow the FAB location remains consistent.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tabbed screens)
 ### 译文
@@ -440,45 +372,21 @@
 [en]: <> (When tabs are present, the FAB should briefly disappear, then reappear when the new content moves into place. This expresses that the FAB is not connected to any particular tab.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-do-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-do-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-do-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-do-v01.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (When switching between tabs, FABs disappear and then reappear.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-dont-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-dont-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-dont-v01.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-layout-transition-dont-v01.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (When switching between tabs, FABs don’t move in unison with screen content.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types of transitions)
 <h2 id="types-of-transitions">译文</h2>
@@ -503,24 +411,12 @@
 [en]: <> (Upon press, the FAB remains visible and emits a stack of related actions. If the FAB is tapped is pressed in this state, it should either initiate its default action or close the speed dial actions.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-speeddial-v03.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-speeddial-v03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-speeddial-v03.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-speeddial-v03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A FAB displays a stack of related actions.)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-dont-1.png)
 
@@ -531,11 +427,7 @@
 [en]: <> (A speed dial should include at least three options.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-dont-2.png)
 
@@ -546,13 +438,7 @@
 [en]: <> (A speed dial should include no more than six options.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-do-contacts.png)
 
@@ -563,11 +449,7 @@
 [en]: <> (A FAB can contain a list of contacts.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-do-labels.png)
 
@@ -578,13 +460,7 @@
 [en]: <> (Related actions can have text labels.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-dont-unrelated.png)
 
@@ -595,11 +471,7 @@
 [en]: <> (A FAB shouldn’t transform into unrelated actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-speeddial-dont-overflow.png)
 
@@ -610,9 +482,7 @@
 [en]: <> (Speed dial options shouldn’t include an overflow menu.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Transform into a menu with the related actions)
 #### 译文
@@ -620,24 +490,12 @@
 [en]: <> (Upon press on Android, the FAB can transform into a menu containing related actions. A scrim indicates that functionality outside of the action menu is temporarily disabled. The menu remains on-screen until an action, or the scrim, is tapped.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-transitions-menu-1.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-transitions-menu-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-transitions-menu-1.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-transitions-menu-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A FAB transforming into an action menu)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-menu-dont-1.png)
 
@@ -648,11 +506,7 @@
 [en]: <> (Don’t use an action menu with fewer than three options.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/fab-transitions-menu-dont-2.png)
 
@@ -663,9 +517,7 @@
 [en]: <> (An action menu shouldn’t include more than six options, as action menus don’t support scrolling.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Morph)
 ### 译文
@@ -675,24 +527,12 @@
 [en]: <> (The FAB can transform into another surface in an app. Morphing should be reversible and transform the new surface back into the FAB.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-morph-v1.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-morph-v1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-morph-v1.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-morph-v1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A FAB can morph into a surface that is part of the app structure.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Full screen)
 ### 译文
@@ -702,24 +542,12 @@
 [en]: <> (The FAB can transform into a new surface that spans the entire screen. This type of transformation is typically for creating new content.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-fullscreen-v06.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-fullscreen-v06.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-fullscreen-v06.mp4" src="{assets_path}/components/buttons-floating-action-button/fab-toolbar-fullscreen-v06.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A FAB can transform into a new surface that spans the entire screen.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Extended FAB)
 <h2 id="extended-fab">译文</h2>
@@ -741,15 +569,11 @@
 [en]: <> (Anatomy)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extended-fab-layout-elements.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Container)
 [en]: <> (Icon \(optional\))
@@ -780,9 +604,7 @@
 [en]: <> (This fixed extended FAB’s width is defined by the cumulative width of the icon, text label, and container padding.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extended-fab-layout-fluid.png)
 
@@ -799,9 +621,7 @@
 [en]: <> (The icon of an extended FAB should intuitively represent its action.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfab-left-to-right.png)
 
@@ -810,11 +630,7 @@
 [en]: <> (Icons should be placed to the left of text labels for left-to-right languages.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfab-right-to-left.png)
 
@@ -823,13 +639,7 @@
 [en]: <> (Icons should be placed to the right for right-to-left languages.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfab-noicon.png)
 
@@ -840,11 +650,7 @@
 [en]: <> (Unlike standard FABs, extended FABs don’t require an icon.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfab-icondont.png)
 
@@ -855,9 +661,7 @@
 [en]: <> (An extended FAB can’t have an icon without a text label.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Text label)
 #### 译文
@@ -865,9 +669,7 @@
 [en]: <> (The text label of an extended FAB should describe its action.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extended-fab-layout-dont1.png)
 
@@ -878,11 +680,7 @@
 [en]: <> (Only truncate text if shorter text isn’t an option.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extended-fab-layout-dont2.png)
 
@@ -893,9 +691,7 @@
 [en]: <> (Avoid wrapping text.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -918,9 +714,7 @@
 [en]: <> (On desktop, the extended FAB placed at the top left)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/desktopextfab2.png)
 
@@ -946,9 +740,7 @@
 [en]: <> (On mobile, the extended FAB placed at the bottom center)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfabmobileright.png)
 
@@ -957,9 +749,7 @@
 [en]: <> (On mobile, the extended FAB placed at the bottom right)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/buttons-floating-action-button/extfabbab.png)
 
@@ -984,20 +774,12 @@
 [en]: <> (During the speed dial transition, the extended FAB becomes a standard FAB.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/extended-fab-behavior-speeddial.mp4" src="{assets_path}/components/buttons-floating-action-button/extended-fab-behavior-speeddial.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/extended-fab-behavior-speeddial.mp4" src="{assets_path}/components/buttons-floating-action-button/extended-fab-behavior-speeddial.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Extended FAB speed dial)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Transformation to a standard FAB)
 #### 译文
@@ -1005,46 +787,24 @@
 [en]: <> (If space becomes limited, the extended FAB can transform into a standard FAB. For example, if an app viewport is resized below 840dp, or a navigation drawer opens up.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/extendedfab-desktop-transition.mp4" src="{assets_path}/components/buttons-floating-action-button/extendedfab-desktop-transition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/extendedfab-desktop-transition.mp4" src="{assets_path}/components/buttons-floating-action-button/extendedfab-desktop-transition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Extended FAB transforming into a standard FAB)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (An extended FAB can transform into a standard FAB when a screen is scrolled.)
 [en]: <> (The FAB should not return to an extended FAB until the user scrolls back to the top of the page.)
 * 译文
 * 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/buttons-floating-action-button/efab-scroll.mp4" src="{assets_path}/components/buttons-floating-action-button/efab-scroll.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/buttons-floating-action-button/efab-scroll.mp4" src="{assets_path}/components/buttons-floating-action-button/efab-scroll.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Extended FAB transforming into a standard FAB after the user scrolls to the top of the page)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -1338,9 +1098,7 @@
 
 ![]({assets_path}/components/buttons-floating-action-button/specs-fab-default.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Mini FAB)
 
@@ -1348,9 +1106,7 @@
 
 ![]({assets_path}/components/buttons-floating-action-button/specs-mini-fab.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Placement)
 译文
@@ -1377,6 +1133,4 @@
 
 ![]({assets_path}/components/buttons-floating-action-button/specs-extended-fab-placement.png)
 
-</figure>
-
-</div>
+</figure></div>

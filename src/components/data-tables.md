@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/data-tables/components-datatables-structure.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -53,9 +49,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/data-tables/data-tables-illos-02.png)
 
@@ -67,11 +61,7 @@
 [en]: <> (Data table content should be hierarchical, alphabetical, or similarly organized.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/data-tables/data-tables-illos-01.png)
 
@@ -83,11 +73,7 @@
 [en]: <> (Data tables should allow user interaction, so that users can sort information in custom ways.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/data-tables/data-tables-illos-03.png)
 
@@ -99,9 +85,7 @@
 [en]: <> (Data tables should work intuitively, allowing users to focus on content, not structure.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -142,9 +126,7 @@
 1. 译文
 2. 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/data-tables/components-datatables-anatomy-interaction5.png)
 
@@ -153,11 +135,7 @@
 [en]: <> (Long column headers are truncated with an ellipse.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/data-tables/components-datatables-anatomy-interaction6.png)
 
@@ -166,9 +144,7 @@
 [en]: <> (Hovering over a truncated column header reveals the full text, using a tooltip.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Sorting tool)
 ### 译文
@@ -314,9 +290,7 @@
 [en]: <> (A table with inline menus)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/data-tables/components-datatables-interaction12.png)
 
@@ -473,5 +447,4 @@
 
 ![]({assets_path}/components/data-tables/specs-datatable-no-header.png)
 
-</figure>
-</div>
+</figure></div>

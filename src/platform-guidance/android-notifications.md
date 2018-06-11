@@ -25,9 +25,7 @@
 * [译文](#style)
 * [译文](#templates)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -94,9 +92,7 @@
 [en]: <> (Don’t send holiday or birthday greetings in the form of notifications.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-usage-2.png)
 
@@ -284,35 +280,17 @@
 [en]: <> (Users may choose to alter the notification behaviors you set.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When a notification arrives, an icon usually appears in the status bar. This signals to the user that there's something to see in the notification drawer.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-2.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-2.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-arrival-2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (If it's important to grab a user's attention in the middle of a task, an app can have the notification peek onto the current screen.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Notification drawer)
 ### 译文
@@ -370,20 +348,12 @@
 [en]: <> (If offered, an expand indicator appears in the header. A user may tap the indicator or swipe down the notification body to expand it.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-expand-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-expand-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-expand-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-expand-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (An expanded notification)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (3. To dismiss it \(if permitted\))
 #### 译文
@@ -394,20 +364,12 @@
 [en]: <> (Ongoing notifications that indicate a continuing process in the background, such as music playing, may not be dismissed with a swipe.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-dismiss-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-dismiss-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-dismiss-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-dismiss-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A notification being dismissed)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (4. To control similar notifications in the future)
 #### 译文
@@ -423,20 +385,12 @@
 [en]: <> (The controls displayed vary depending on the Android version and whether the app has [channels]\(https://www.mdui.org/design/patterns/notifications.html#notifications-settings\) for its notifications \(starting in Android O\).)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-controls-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-controls-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-controls-1.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-controls-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Notification settings)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Multiple notifications)
 ### 译文
@@ -459,9 +413,7 @@
 [en]: <> (Multiple notifications summarized, shown in collapsed view.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-behavior-2-expanded.png)
 
@@ -500,9 +452,7 @@
 [en]: <> (Grouped notifications collapsed view)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-behavior-3-expanded.png)
 
@@ -528,9 +478,7 @@
 [en]: <> (Collapsed notification)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-behavior-4-expanded.png)
 
@@ -555,9 +503,7 @@
 [en]: <> (Don’t include text actions that duplicate the behavior of tapping on the notification body.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-behavior-6.png)
 
@@ -582,20 +528,12 @@
 [en]: <> (If you're using this functionality for a messaging app, keep the notification present after the user has sent the reply, and wait until the conversation is paused before automatically dismissing it.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-notifications/notifications-enabletyping.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-enabletyping.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-notifications/notifications-enabletyping.mp4" src="{assets_path}/platform-guidance/android-notifications/notifications-enabletyping.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Users of Android's Messages app can reply directly to any message without leaving the notification)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Types of notifications)
 <h2 id="types-of-notifications">译文</h2>
@@ -879,9 +817,7 @@
 [en]: <> (This user has chosen to show all notification content on the lock screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-lockscreen-2.png)
 
@@ -1010,9 +946,7 @@
 [en]: <> (Standard template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-1-expanded.png)
 
@@ -1038,9 +972,7 @@
 [en]: <> (Big text template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-2-expanded.png)
 
@@ -1066,9 +998,7 @@
 [en]: <> (Big picture template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-3-expanded.png)
 
@@ -1094,9 +1024,7 @@
 [en]: <> (Progress template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-4-expanded.png)
 
@@ -1127,9 +1055,7 @@
 [en]: <> (Media template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-5-expanded.png)
 
@@ -1155,9 +1081,7 @@
 [en]: <> (Messaging template for collapsed notifications)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/platform-guidance/android-notifications/as-notifications-templates-6-expanded.png)
 
@@ -1166,5 +1090,4 @@
 [en]: <> (Messaging template for expanded notifications)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

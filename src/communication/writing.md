@@ -382,9 +382,7 @@
 [en]: <> (Sentences followed by a link should place the period before the link, not after.)
 译文
 
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (*Undo bulk edit?*)
 *译文*

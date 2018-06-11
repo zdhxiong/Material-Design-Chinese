@@ -6,13 +6,7 @@
 [en]: <> (Progress indicators express an unspecified wait time or display the length of a process.)
 译文
 
-<figure>
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/01-progress-intro.mp4" src="{assets_path}/components/progress-indicators/01-progress-intro.mp4" type="video/mp4">
-</video>
-</figure>
-
-<nav>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/01-progress-intro.mp4" src="{assets_path}/components/progress-indicators/01-progress-intro.mp4" type="video/mp4"></video></figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Linear progress indicators)
@@ -23,9 +17,7 @@
 * [译文](#circular-progress-indicators)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -42,9 +34,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/progress-indicators/progress-indicator-illos-03.png)
 
@@ -56,11 +46,7 @@
 [en]: <> (Progress indicators look and animate in ways that reflect the status of a process. They are never simply decorative.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/progress-indicators/progress-indicator-illos-01.png)
 
@@ -72,11 +58,7 @@
 [en]: <> (Progress indicators use animation to capture attention and inform users of an activity’s progress.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/progress-indicators/progress-indicator-illos-02.png)
 
@@ -88,9 +70,7 @@
 [en]: <> (Progress indicators should be applied to all instances of a process \(such as loading\) in a consistent format \(linear or circular\).)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -101,22 +81,14 @@
 [en]: <> (Material Design offers two visually distinct types of progress indicators: linear and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn’t use a linear indicator elsewhere in the app.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/01-usage-types-linear-circular.mp4" src="{assets_path}/components/progress-indicators/01-usage-types-linear-circular.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/01-usage-types-linear-circular.mp4" src="{assets_path}/components/progress-indicators/01-usage-types-linear-circular.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Linear indicator)
 [en]: <> (Circular indicator)
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Determinate and indeterminate)
 #### 译文
@@ -140,42 +112,24 @@
 [en]: <> (*Indeterminate indicators* express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.)
 译文
 
-</div></div>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/02-usage-types-determinate-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-usage-types-determinate-indeterminate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div></div><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/02-usage-types-determinate-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-usage-types-determinate-indeterminate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Determinate progress indicators fill from 0 to 100%.)
 [en]: <> (Indeterminate progress indicators move along a fixed track, growing and shrinking in size.)
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (As more information about a process becomes available, a progress indicator can switch from an indeterminate to a determinate state.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/03-usage-types-indeterminate-to-determinate.mp4" src="{assets_path}/components/progress-indicators/03-usage-types-indeterminate-to-determinate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/03-usage-types-indeterminate-to-determinate.mp4" src="{assets_path}/components/progress-indicators/03-usage-types-indeterminate-to-determinate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A linear progress indicator changes from indeterminate to determinate while loading a screen.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Linear progress indicators)
 <h2 id="linear-progress-indicators">译文</h2>
@@ -214,41 +168,17 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/01-linear-types-determinate.mp4" src="{assets_path}/components/progress-indicators/01-linear-types-determinate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/01-linear-types-determinate.mp4" src="{assets_path}/components/progress-indicators/01-linear-types-determinate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Determinate linear progress indicator)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/02-linear-types-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-linear-types-indeterminate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/02-linear-types-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-linear-types-indeterminate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Indeterminate linear progress indicator)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -263,35 +193,17 @@
 * 译文
 * 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/03-linear-placement-center.mp4" src="{assets_path}/components/progress-indicators/03-linear-placement-center.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/03-linear-placement-center.mp4" src="{assets_path}/components/progress-indicators/03-linear-placement-center.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To indicate that loading affects the whole screen, a linear indicator can be placed in the background.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/04-linear-placement-attached.mp4" src="{assets_path}/components/progress-indicators/04-linear-placement-attached.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/04-linear-placement-attached.mp4" src="{assets_path}/components/progress-indicators/04-linear-placement-attached.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To focus user attention, a linear indicator is recommended for displaying item expansion onto larger surfaces, such as desktop.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Circular progress indicators)
 <h2 id="circular-progress-indicators">译文</h2>
@@ -316,41 +228,17 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/01-circular-types-determinate.mp4" src="{assets_path}/components/progress-indicators/01-circular-types-determinate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/01-circular-types-determinate.mp4" src="{assets_path}/components/progress-indicators/01-circular-types-determinate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Determinate circular progress indicator)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/02-circular-types-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-circular-types-indeterminate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/02-circular-types-indeterminate.mp4" src="{assets_path}/components/progress-indicators/02-circular-types-indeterminate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Indeterminate circular progress indicator)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -363,41 +251,17 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/03-circular-placement-center.mp4" src="{assets_path}/components/progress-indicators/03-circular-placement-center.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/03-circular-placement-center.mp4" src="{assets_path}/components/progress-indicators/03-circular-placement-center.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A circular indicator centered on screen indicates an initial loading process.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/04-circular-placement-bottom.mp4" src="{assets_path}/components/progress-indicators/04-circular-placement-bottom.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/04-circular-placement-bottom.mp4" src="{assets_path}/components/progress-indicators/04-circular-placement-bottom.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (An indicator appears where new items will appear, at the end of the current items grid.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Integrating with actions)
 #### 译文
@@ -408,39 +272,21 @@
 [en]: <> (They should be used for short, indeterminate activities \(between 2-5 seconds\). Longer activities may require alternate methods of communication, such as snackbars or notifications.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/05-circular-placement-integrated-do.mp4" src="{assets_path}/components/progress-indicators/05-circular-placement-integrated-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/05-circular-placement-integrated-do.mp4" src="{assets_path}/components/progress-indicators/05-circular-placement-integrated-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Use circular indicators for short, indeterminate activities \(< 5 seconds\) requiring user attention.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/progress-indicators/06-circular-placement-integrated-dont.mp4" src="{assets_path}/components/progress-indicators/06-circular-placement-integrated-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/progress-indicators/06-circular-placement-integrated-dont.mp4" src="{assets_path}/components/progress-indicators/06-circular-placement-integrated-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t apply progress indicators to every button in your app. They can unnecessarily interrupt the user’s task.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>
@@ -470,5 +316,4 @@
 
 ![]({assets_path}/components/progress-indicators/progressindicators-spec-linear-indeterminate.png)
 
-</figure>
-</div>
+</figure></div>

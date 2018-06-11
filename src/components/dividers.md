@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/dividers/divider-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Types)
@@ -23,9 +21,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -36,9 +32,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-illos-03.png)
 
@@ -50,11 +44,7 @@
 [en]: <> (Dividers should be noticeable in a layout, but not jarring.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-illos-04.png)
 
@@ -66,11 +56,7 @@
 [en]: <> (Dividers should only be used if elements cannot be separated using white space.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-illos-05.png)
 
@@ -82,16 +68,12 @@
 [en]: <> (Use dividers sparingly, to create groupings rather than separate items.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-full.png)
 
@@ -103,11 +85,7 @@
 [en]: <> (Full-bleed dividers separate content into sections and span the entire length of a layout.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers.png)
 
@@ -119,13 +97,7 @@
 [en]: <> (Inset dividers separate related content, anchored by elements that align with the app bar title.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-middle.png)
 
@@ -137,11 +109,7 @@
 [en]: <> (Middle dividers space related content and are centered in a layout or list.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-subhead.png)
 
@@ -153,9 +121,7 @@
 [en]: <> (Dividers can be paired with subheaders to help define content groupings.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 <h2 id="types">译文</h2>
@@ -171,9 +137,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-full-bleed.png)
 
@@ -182,11 +146,7 @@
 [en]: <> (When lists don’t have an anchoring element \(such as an icon\), spacing may not be enough to separate content. Full-bleed dividers can help separate individual tiles.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/baseline-drawer.png)
 
@@ -195,9 +155,7 @@
 [en]: <> (A full-bleed divider in a navigation drawer)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Inset dividers)
 ### 译文
@@ -205,9 +163,7 @@
 [en]: <> (Inset dividers separate related content, such as emails in an email thread. They should be used with anchoring elements such as icons or avatars, and left-aligned with the app bar title.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-with-dividers.png)
 
@@ -216,11 +172,7 @@
 [en]: <> (Inset dividers)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-inset-2.png)
 
@@ -229,13 +181,7 @@
 [en]: <> (Use inset dividers when there are anchoring elements such as an icon or avatar.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-do.png)
 
@@ -246,11 +192,7 @@
 [en]: <> (Use inset dividers to group items.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-dont.png)
 
@@ -261,9 +203,7 @@
 [en]: <> (Don’t use dividers to separate individual items.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Middle dividers)
 ### 译文
@@ -271,9 +211,7 @@
 [en]: <> (Dividers can also be placed in the middle of a layout. They are best for separating related content, such prices on a receipt.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-middle-2.png)
 
@@ -282,11 +220,7 @@
 [en]: <> (An inset divider above a subheader)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/divider-middle.png)
 
@@ -295,18 +229,14 @@
 [en]: <> (A full divider above a subheader)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Dividers with subheaders)
 ### 译文
 
 [en]: <> (Dividers can be paired with subheaders to identify grouped content. Place dividers above subheaders to reinforce the subheader’s connection to content.)
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-subhead.png)
 
@@ -315,11 +245,7 @@
 [en]: <> (An inset divider above a subheader)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/dividers/dividers-subhead-2.png)
 
@@ -328,9 +254,7 @@
 [en]: <> (A full-bleed divider above a subheader)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -420,5 +344,4 @@
 
 ![]({assets_path}/components/dividers/divider-spec.png)
 
-</figure>
-</div>
+</figure></div>

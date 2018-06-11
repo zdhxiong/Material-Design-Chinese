@@ -13,9 +13,7 @@
 * [译文](#usage)
 * [译文](#pixel-density)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -23,9 +21,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/understanding-layout/01-intuitive-structure.png)
 
@@ -37,11 +33,7 @@
 [en]: <> (UIs should use intuitive and predictable layouts, with consistent UI regions and spatial organization.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/understanding-layout/03-consistency.png)
 
@@ -53,11 +45,7 @@
 [en]: <> (Layouts should use a consistent grid, keylines, and padding.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/understanding-layout/04-reactiveness.png)
 
@@ -69,9 +57,7 @@
 [en]: <> (Layouts are adaptive and react to input from the user, device, and screen elements.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Structure)
 ### 译文
@@ -111,9 +97,7 @@
 [en]: <> (Screen density = Screen width \(or height\) in pixels / Screen width \(or height\) in inches)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/understanding-layout/layout-unitsmeasurements-pixeldensity-high.png)
 
@@ -122,11 +106,7 @@
 [en]: <> (High-density display)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/understanding-layout/layout-unitsmeasurements-pixeldensity-lower.png)
 
@@ -135,9 +115,7 @@
 [en]: <> (Lower density display)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Density independence)
 ### 译文
@@ -173,54 +151,27 @@
 [en]: <> (dp = \(width in pixels * 160\) / screen density)
 译文
 
-<table>
-<thead>
-<tr>
-<th>
+<table><thead><tr><th>
 
 [en]: <> (Screen physical width)
 译文
 
-</th>
-<th>
+</th><th>
 
 [en]: <> (Screen density)
 译文
 
-</th>
-<th>
+</th><th>
 
 [en]: <> (Screen width in pixels)
 译文
 
-</th>
-<th>
+</th><th>
 
 [en]: <> (Screen width in dps)
 译文
 
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1.5 in</td>
-<td>120</td>
-<td>180 px</td>
-<td rowspan="4">240 dp</td>
-</tr>
-<tr>
-<td>1.5 in</td>
-<td>160</td>
-<td>240 px</td>
-</tr>
-<tr>
-<td>1.5 in</td>
-<td>240</td>
-<td>360 px</td>
-</tr>
-</tbody>
-</table>
+</th></tr></thead><tbody><tr><td>1.5 in</td><td>120</td><td>180 px</td><td rowspan="4">240 dp</td></tr><tr><td>1.5 in</td><td>160</td><td>240 px</td></tr><tr><td>1.5 in</td><td>240</td><td>360 px</td></tr></tbody></table>
 
 [en]: <> (Scalable pixels \(sp\))
 #### 译文

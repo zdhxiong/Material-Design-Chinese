@@ -17,9 +17,7 @@
 * [译文](#specs)
 * [译文](#oem-masks)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -57,9 +55,7 @@
 [en]: <> (Keyline shapes are used across all app icons to maintain consistent visual proportions.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-01.png)
 
@@ -71,11 +67,7 @@
 [en]: <> (Height: 44dp<br>Width: 44dp<br>Corner radius: 4dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-02.png)
 
@@ -87,13 +79,7 @@
 [en]: <> (Diameter: 52dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-01.png)
 
@@ -105,11 +91,7 @@
 [en]: <> (Height: 52dp<br>Width: 36dp<br>Corner radius: 4dp)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-02.png)
 
@@ -121,9 +103,7 @@
 [en]: <> (Height: 36dp<br>Width: 52dp<br>Corner radius: 4dp)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>
@@ -138,9 +118,7 @@
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-09.png)
 
-<figcaption>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+<figcaption><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Foreground \(scrolling parallax\))
 #### 译文
@@ -156,9 +134,7 @@
 [en]: <> (108 X 108 dp<br>72dp masked section<br>Must be opaque)
 译文
 
-</div></div>
-
-</figcaption></figure>
+</div></div></figcaption></figure>
 
 [en]: <> (Shadows)
 ### 译文
@@ -186,9 +162,7 @@
 [en]: <> (Color: Refer to tint, shade and shadow values)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-05.png)
 
@@ -197,9 +171,7 @@
 [en]: <> (A contact shadow is a soft shadow surrounding an element.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Edge tint and shade)
 ### 译文
@@ -212,9 +184,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-07.png)
 
@@ -226,11 +196,7 @@
 [en]: <> (Height: 1dp<br>Opacity: 20%<br>Color: White \(#FFFFFF\))
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-08.png)
 
@@ -242,9 +208,7 @@
 [en]: <> (Height: 1dp<br>Opacity: 20%<br>Color: See tint, shade, and shadow values)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Finishing layer)
 ### 译文
@@ -274,9 +238,7 @@
 译文     | 译文     | 译文
 译文     | 译文     | 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-icons/product-icons-android-06.png)
 
@@ -285,9 +247,7 @@
 [en]: <> (Finishing layer above foreground layer)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (OEM masks)
 <h2 id="oem-masks">译文</h2>
@@ -295,39 +255,14 @@
 [en]: <> (Without affecting icon layout, OEMs can apply their own custom masks to icons using a 72 x 72 dp masked area. The convex shapes include both a circular mask and a square mask.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-icons/product-icons-android-02.mp4" src="{assets_path}/platform-guidance/android-icons/product-icons-android-02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-icons/product-icons-android-02.mp4" src="{assets_path}/platform-guidance/android-icons/product-icons-android-02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (OEM mask shapes)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/platform-guidance/android-icons/product-icons-android-03.mp4" src="{assets_path}/platform-guidance/android-icons/product-icons-android-03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/platform-guidance/android-icons/product-icons-android-03.mp4" src="{assets_path}/platform-guidance/android-icons/product-icons-android-03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Final icon shapes)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-main.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Reply)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Reply)
 <h2 id="about-reply">译文</h2>
@@ -175,20 +171,12 @@
 [en]: <> (Reply uses a responsive grid, allowing padding and column size to change across mobile, tablet, and desktop. Content is placed in a column, where messages expand and contract upon interaction.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/reply/casestudies-reply-grid-1a.mp4" src="{assets_path}/material-studies/reply/casestudies-reply-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/reply/casestudies-reply-grid-1a.mp4" src="{assets_path}/material-studies/reply/casestudies-reply-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Reply’s grid system, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation)
 ### 译文
@@ -204,9 +192,7 @@
 [en]: <> (Because Reply sometimes displays dense content, removing shadows helps decrease visual complexity. It also allows items to have smaller padding between each other, leaving more space for content.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-elevation.png)
 
@@ -215,9 +201,7 @@
 [en]: <> (The containers of cards in Reply have white surfaces, which stand out against the gray background of the app.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -266,9 +250,7 @@
 [en]: <> (Reply’s type scale)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-type-1.png)
 
@@ -277,9 +259,7 @@
 [en]: <> (Work Sans’ letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-type-2.png)
 
@@ -331,11 +311,7 @@
 [en]: <> (Reply’s custom FAB nested in a bottom app bar)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-fab-baseline.png)
 
@@ -344,11 +320,7 @@
 [en]: <> (A FAB that hasn’t been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-fab-reply.png)
 
@@ -357,9 +329,7 @@
 [en]: <> (Reply’s FAB uses custom color and iconography.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Extended FAB)
 #### 译文
@@ -376,11 +346,7 @@
 [en]: <> (Reply’s custom extended FAB inside a navigation drawer)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-extendedfab-baseline.png)
 
@@ -389,11 +355,7 @@
 [en]: <> (An extended FAB that hasn’t been customized)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-extendedfab-reply.png)
 
@@ -402,9 +364,7 @@
 [en]: <> (Reply’s extended FAB uses custom color and typography.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Bottom app bar, bottom sheet)
 ### 译文
@@ -423,11 +383,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-bottomappbar.png)
 
@@ -439,11 +395,7 @@
 [en]: <> (On mobile, Reply’s bottom app bar is the primary way to perform navigation and actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-contextualactionbar.png)
 
@@ -455,13 +407,7 @@
 [en]: <> (When the user wishes to select and apply actions to multiple items, the bottom action bar transforms into a contextual action bar.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-bottomsheet.png)
 
@@ -473,11 +419,7 @@
 [en]: <> (Upon pressing the Reply logo, the bottom app bar reveals a bottom navigation drawer that holds navigation items and an account switcher.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-floatingfab.png)
 
@@ -489,9 +431,7 @@
 [en]: <> (The bottom app bar moves off-screen on scroll, though the FAB remains.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Cards)
 ### 译文
@@ -502,9 +442,7 @@
 [en]: <> (This small padding allows more content to fit on-screen.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-cards-1.png)
 
@@ -513,11 +451,7 @@
 [en]: <> (When a card is swiped to the right, it reveals the action of highlighting an email.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-cards-2.png)
 
@@ -526,9 +460,7 @@
 [en]: <> (When a card is swiped to the left, it reveals the action of deleting an email.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Chips)
 ### 译文
@@ -545,11 +477,7 @@
 [en]: <> (Adjustments to the layout, typography, and color help the chip component feel visually similar to Reply’s brand.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-chip-baseline.png)
 
@@ -558,11 +486,7 @@
 [en]: <> (A default entry chip)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/reply/casestudies-reply-chip-reply.png)
 
@@ -571,9 +495,7 @@
 [en]: <> (Reply’s entry chips use custom color and typography. The avatar imagery is customized to be larger, completing the chip shape instead of being inset.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Motion)
 <h2 id="motion">译文</h2>
@@ -584,20 +506,12 @@
 [en]: <> (Reply’s logo animation traces a path inspired by a curling piece of paper.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/reply/01-launch.mp4" src="{assets_path}/material-studies/reply/01-launch.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/reply/01-launch.mp4" src="{assets_path}/material-studies/reply/01-launch.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Launching Reply for the first time displays an animated launch screen.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -605,20 +519,12 @@
 [en]: <> (Reply uses shorter durations and standard easing to focus on efficiency.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/reply/02-reply-navtransitions.mp4" src="{assets_path}/material-studies/reply/02-reply-navtransitions.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/reply/02-reply-navtransitions.mp4" src="{assets_path}/material-studies/reply/02-reply-navtransitions.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (These navigation transitions use 250ms instead of the standard 300ms.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Icons & illustrations)
 ### 译文
@@ -626,33 +532,14 @@
 [en]: <> (Animated illustrations create a connection at key points in a user journey, such as reaching inbox zero.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/reply/03-reply-inboxzero.mp4" src="{assets_path}/material-studies/reply/03-reply-inboxzero.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/reply/03-reply-inboxzero.mp4" src="{assets_path}/material-studies/reply/03-reply-inboxzero.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The two remaining emails are archived, triggering a celebratory animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/reply/04-reply-pulltorefresh.mp4" src="{assets_path}/material-studies/reply/04-reply-pulltorefresh.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/reply/04-reply-pulltorefresh.mp4" src="{assets_path}/material-studies/reply/04-reply-pulltorefresh.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Reply’s logo animation loops during a pull to refresh the loading sequence.)
 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

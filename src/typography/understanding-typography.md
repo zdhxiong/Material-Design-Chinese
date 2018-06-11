@@ -17,9 +17,7 @@
 * [译文](#readability)
 * [译文](#system-fonts)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Type properties)
 <h2 id="type-properties">译文</h2>
@@ -81,9 +79,7 @@
 [en]: <> (Specify distances from UI elements from the baseline. Baseline values are software-agnostic, so they work in any design program, and work with the grid. On Android and iOS, code can be translated from baseline-relative specs into padding. For the web, automate the calculation using Sass or CSS.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/typography/understanding-typography/type-setting-baseline.png)
 
@@ -92,11 +88,7 @@
 [en]: <> (Reference baselines for vertical alignment, instead of bounding boxes. This produces more accurate implementation across design software and platforms.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/typography/understanding-typography/type-setting-ex1.png)
 
@@ -105,9 +97,7 @@
 [en]: <> (Measure text in relation to other components.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Cap height)
 ### 译文
@@ -431,9 +421,7 @@
 [en]: <> (The ideal line length is 40-60 characters per line for English body text.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/typography/understanding-typography/readability-short-linelength.png)
 
@@ -562,9 +550,7 @@
 [en]: <> (Roboto is the default system font for Android. For platforms outside of Android and web products, use a system typeface that is preferred on that platform. For example, iOS applications should use Apple’s San Francisco font.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/typography/understanding-typography/system-fonts-android-roboto.png)
 
@@ -576,11 +562,7 @@
 [en]: <> (Roboto system font)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/typography/understanding-typography/system-fonts-ios-sf.png)
 
@@ -592,7 +574,4 @@
 [en]: <> (San Francisco system font)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -6,19 +6,7 @@
 [en]: <> (Material studies showcase the flexibility of Material Theming and components to create expressive and unique apps.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/about-our-material-studies/casestudy-loop.mp4" src="{assets_path}/material-studies/about-our-material-studies/casestudy-loop.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-<nav>
-
-</nav>
-
-</div><div class="article__body">
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/about-our-material-studies/casestudy-loop.mp4" src="{assets_path}/material-studies/about-our-material-studies/casestudy-loop.mp4" type="video/mp4"></video></figure><nav></nav></div><div class="article__body">
 
 [en]: <> (Use Material studies to inspire your own adoption of Material Theming and components.)
 译文
@@ -32,9 +20,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/about-our-material-studies/case-studies-03.png)
 
@@ -46,11 +32,7 @@
 [en]: <> (To highlight the capabilities Material Theming has to offer, each Material study expresses a different brand.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/about-our-material-studies/case-studies-04.png)
 
@@ -62,11 +44,7 @@
 [en]: <> (To ensure Material Theming and components address as many product needs as possible, the Material studies represent different types of products.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/about-our-material-studies/case-studies-05.png)
 
@@ -78,7 +56,4 @@
 [en]: <> (To replicate real products as closely as possible, each case study identifies users, displays functional user flows, and applies real-world restrictions.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-main.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Basil)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Basil)
 <h2 id="about-basil">译文</h2>
@@ -97,9 +93,7 @@
 [en]: <> (On desktop, Basil’s entrée section scrolls vertically. Scaled down to 50%.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-prodarch-tablet.png)
 
@@ -132,36 +126,12 @@
 [en]: <> (On mobile, Basil’s main sections can be accessed by swiping down to reveal a navigation drawer.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/01-navdrawer.mp4" src="{assets_path}/material-studies/basil/01-navdrawer.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/01-navdrawer.mp4" src="{assets_path}/material-studies/basil/01-navdrawer.mp4" type="video/mp4"></video></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (After a section is selected, horizontally scroll to browse the recipes within it.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/02-horizontalscroll.mp4" src="{assets_path}/material-studies/basil/02-horizontalscroll.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/02-horizontalscroll.mp4" src="{assets_path}/material-studies/basil/02-horizontalscroll.mp4" type="video/mp4"></video></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (When a recipe is selected, tabs at the bottom provide access to ingredients and directions.)
 译文
@@ -172,17 +142,7 @@
 [en]: <> (Users can toggle between ingredients and directions on this sheet, or swipe down to move it off-screen.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" type="video/mp4"></video></figure></div></div>
 
 [en]: <> (Layout)
 <h2 id="layout">译文</h2>
@@ -196,27 +156,17 @@
 [en]: <> (This grid system informs where typography is placed, because Basil center-aligns type to sections of its layout.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/casestudies-basil-grid.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-grid.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/casestudies-basil-grid.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-grid.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Basil’s grid system, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Basil’s headline responsively changes type size to fill the width of the screen on mobile.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-layout-type-1.png)
 
@@ -225,11 +175,7 @@
 [en]: <> (The type size of the recipe title dynamically changes to fill the width the screen.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-layout-type-2.png)
 
@@ -238,9 +184,7 @@
 [en]: <> (The type size of the recipe title dynamically changes to fill the width of the screen.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Elevation)
 ### 译文
@@ -248,62 +192,32 @@
 [en]: <> (Basil doesn’t use shadow to show elevation between UI elements. Instead, it places content at different elevations which are distinguished using parallax motion and opacity.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/casestudies-basil-elevation.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-elevation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/casestudies-basil-elevation.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-elevation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (These three layers look different from one another, and can be distinguished through parallax motion.)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Basil expresses elevation differences by using transparency to show stacked layers of UI elements.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/04-tabdrawer.mp4" src="{assets_path}/material-studies/basil/04-tabdrawer.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/04-tabdrawer.mp4" src="{assets_path}/material-studies/basil/04-tabdrawer.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (This slightly transparent bottom sheet animates on-screen, allowing the user to see the main recipe screen beneath it. This lets the user know they have not navigated to a new screen, but are instead interacting with a sheet above the content they were just viewing.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When text scrolls above imagery, a duotone image treatment ensures text remains legible.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/casestudies-basil-elevationtransparency-1a.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-elevationtransparency-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/casestudies-basil-elevationtransparency-1a.mp4" src="{assets_path}/material-studies/basil/casestudies-basil-elevationtransparency-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Duotone image treatment)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Color)
 <h2 id="color">译文</h2>
@@ -376,9 +290,7 @@
 [en]: <> (Montserrat’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-type-montserrat-2.png)
 
@@ -404,9 +316,7 @@
 [en]: <> (Lekton’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-type-lekton-2.png)
 
@@ -477,17 +387,7 @@
 [en]: <> (The sheet’s background has a slight transparency to let the user know the sheet is above the screen that generated it, and that the user can dismiss the sheet at any time.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" src="{assets_path}/material-studies/basil/03-tabdrawer.mp4" type="video/mp4"></video></figure></div></div>
 
 [en]: <> (Tabs)
 ### 译文
@@ -504,9 +404,7 @@
 [en]: <> (Basil uses custom tabs for navigation on desktop and tablet, scaled down to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-tabs-2-625p.png)
 
@@ -531,9 +429,7 @@
 [en]: <> (Recipe detail tabs are displayed first at the bottom of the screen \(1\). When tapped, they move to the top of the screen, allowing the user to toggle between them \(2\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-tabs-3.png)
 
@@ -552,9 +448,7 @@
 [en]: <> (Basil uses non-linear steppers for recipe directions, so users can move between the different steps in any order they want. Steps use Basil’s typography and color scheme, with customized vertical spacing.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/basil/casestudies-basil-steppers-1.png)
 
@@ -565,26 +459,12 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/steppers-custom-basil-mobile.mp4" src="{assets_path}/material-studies/basil/steppers-custom-basil-mobile.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/steppers-custom-basil-mobile.mp4" src="{assets_path}/material-studies/basil/steppers-custom-basil-mobile.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Basil’s use of stretch motion on steppers demonstrates an elastic style.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Motion)
 <h2 id="motion">译文</h2>
@@ -595,20 +475,12 @@
 [en]: <> (Basil’s logo animation plays off the use of parallax throughout the app. The subtle overshoot on the bottom arrow encourages the user to navigate vertically and explore.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/01-launch.mp4" src="{assets_path}/material-studies/basil/01-launch.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/01-launch.mp4" src="{assets_path}/material-studies/basil/01-launch.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When launching Basil, a logo animation is displayed.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -622,20 +494,12 @@
 [en]: <> (Parallax is used to indicate the elevation between elements and to add visual interest during transitions.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/02-parallax.mp4" src="{assets_path}/material-studies/basil/02-parallax.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/02-parallax.mp4" src="{assets_path}/material-studies/basil/02-parallax.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Navigation transitions on mobile make use of parallax.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Tablet and desktop)
 #### 译文
@@ -643,20 +507,12 @@
 [en]: <> (On tablet and desktop, Basil uses condensed transitions to keep the transitions simple and clean. A translation in the z-axis is combined with a fade-through animation to create the condensed transition.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/04-condensedtransition.mp4" src="{assets_path}/material-studies/basil/04-condensedtransition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/04-condensedtransition.mp4" src="{assets_path}/material-studies/basil/04-condensedtransition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Parent-child transitions on tablet and desktop are condensed when clicking on a recipe.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Stretch)
 ### 译文
@@ -664,18 +520,9 @@
 [en]: <> (Components like steppers use stretch motion to add an unexpected and delightful tone to simple interactions.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/basil/03-elasticity.mp4" src="{assets_path}/material-studies/basil/03-elasticity.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/basil/03-elasticity.mp4" src="{assets_path}/material-studies/basil/03-elasticity.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The stepper indicator uses elasticity when transitioning between steps.)
 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

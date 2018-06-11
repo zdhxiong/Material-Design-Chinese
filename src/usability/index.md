@@ -15,9 +15,7 @@
 * [译文](#mirroring-elements)
 * [译文](#localization)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Mirroring layout)
 <h2 id="mirroring-layout">译文</h2>
@@ -62,9 +60,7 @@
 [en]: <> (Text should always be in the correct direction for the language it’s in. For example, any LTR words, such as a URL, will continue to be shown in an LTR format, even if the rest of the UI is in RTL.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirroring-do.png)
 
@@ -75,11 +71,7 @@
 [en]: <> (Text and numbers should always be in the correct direction for the language.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirroring-dont-typed.png)
 
@@ -90,9 +82,7 @@
 [en]: <> (LTR text shouldn’t be displayed in reverse order.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When a UI is mirrored, these changes occur:)
 译文
@@ -116,9 +106,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirror1.png)
 
@@ -127,11 +115,7 @@
 [en]: <> (An English UI in LTR)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirror2.png)
 
@@ -140,11 +124,7 @@
 [en]: <> (An Arabic UI in RTL, with numbers presented in LTR)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirror-redlines-ltr.png)
 
@@ -153,9 +133,7 @@
 [en]: <> (Text editing actions in LTR)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirror-redlines-rtl.png)
 
@@ -167,11 +145,7 @@
 [en]: <> (Icons related to bidirectionality are mirrored to reflect the start and end of a line of text)
 1. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-tabs-usage-specs1.png)
 
@@ -186,11 +160,7 @@
 [en]: <> (Touch target height: 48dp<br>Screen edge margin before first tab: 72dp<br>Tab labels bottom padding: 20dp<br>Tab labels right and left padding: 12dp)
 译文<br>译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-tabs-usage-specs2.png)
 
@@ -205,13 +175,7 @@
 [en]: <> (Touch target height: 48dp<br>Screen edge margin before first tab: 72dp<br>Tab labels bottom padding: 20dp<br>Tab labels right and left padding: 12dp)
 译文<br>译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirroring5.png)
 
@@ -220,11 +184,7 @@
 [en]: <> (LTR screen)
 *译文*
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-mirroring5-farsi.png)
 
@@ -251,13 +211,7 @@
 * 译文
 * 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-overflow-usage-specs1.png)
 
@@ -272,11 +226,7 @@
 [en]: <> (Icon padding from screen edge: 16dp<br>Title distance from screen edge: 72dp<br>Padding below title: 20dp<br>Navigation bar height: 56dp<br>Overflow menu padding: 16dp)
 译文<br>译文<br>译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-overflow-usage-specs2.png)
 
@@ -291,13 +241,7 @@
 [en]: <> (Icon padding from screen edge: 16dp<br>Title distance from screen edge: 72dp<br>Padding below title: 20dp<br>Navigation bar height: 56dp<br>Overflow menu padding: 16dp)
 译文<br>译文<br>译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-lists-keylines-two-1.png)
 
@@ -312,11 +256,7 @@
 [en]: <> (List item height: 72dp<br>Icon margin from left screen edge: 16dp<br>List item distance from left screen edge: 72dp)
 译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-components-lists-keylines-two-2-farsi.png)
 
@@ -331,9 +271,7 @@
 [en]: <> (List item height: 72dp<br>Icon margin from right screen edge: 16dp<br>List item distance from right screen edge: 72dp)
 译文<br>译文<br>译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Mirroring elements)
 <h2 id="mirroring-elements">译文</h2>
@@ -347,9 +285,7 @@
 [en]: <> (The most important icons for mirroring are back and forward buttons. Back and forward navigation buttons are reversed.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when1.png)
 
@@ -358,11 +294,7 @@
 [en]: <> (LTR back button)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when2.png)
 
@@ -371,13 +303,7 @@
 [en]: <> (RTL back button)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when4.png)
 
@@ -386,11 +312,7 @@
 [en]: <> (LTR forward button)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when3.png)
 
@@ -399,16 +321,12 @@
 [en]: <> (RTL forward button)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (An icon that shows forward movement should be mirrored.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when5.png)
 
@@ -417,11 +335,7 @@
 [en]: <> (In a LTR UI, a bicycle facing the right typically communicates a sense of moving forward.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when6.png)
 
@@ -430,16 +344,12 @@
 [en]: <> (In a RTL UI, a bicycle pointing to the left similarly communicates a sense of moving forward.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Most RTL countries do not mirror slashes. Leave images with slashes as-is for RTL locales.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when7.png)
 
@@ -450,11 +360,7 @@
 [en]: <> (The LTR slash can indicate an off state for both LTR and RTL languages.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when8.png)
 
@@ -465,16 +371,12 @@
 [en]: <> (An RTL off state doesn’t need an RTL slash.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (A volume icon with a slider at its right side should be mirrored. The slider should progress RTL, and the sound waves should emerge from the right.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when9.png)
 
@@ -483,11 +385,7 @@
 [en]: <> (LTR volume with slider)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when10.png)
 
@@ -496,9 +394,7 @@
 [en]: <> (RTL volume with speaker icon and slider mirrored)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Sometimes, both the horizontal and circular direction of time are implied in an icon. For example, the redo and undo buttons in Google Docs have both a horizontal direction and a circular direction.)
 译文
@@ -523,9 +419,7 @@
 [en]: <> (Text is right-aligned in RTL. If there is a paragraph indent at the beginning of a paragraph, an unfinished line at the end of the paragraph, or a ragged right side, the icons need to be mirrored.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when14.png)
 
@@ -534,11 +428,7 @@
 [en]: <> (LTR chat icon)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when15.png)
 
@@ -547,9 +437,7 @@
 [en]: <> (RTL chat icon)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When not to mirror)
 ### 译文
@@ -557,9 +445,7 @@
 [en]: <> (While the linear representation of time is mirrored in RTL, the circular direction of time is not. Clocks still turn clockwise for RTL languages. A clock icon or a circular refresh or progress indicator with an arrow pointing clockwise should not be mirrored.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot1.png)
 
@@ -568,11 +454,7 @@
 [en]: <> (The refresh icon shows time moving forward; the direction is clockwise. The icon is not mirrored.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot2.png)
 
@@ -581,9 +463,7 @@
 [en]: <> (The history icon points backwards in time; the direction is counterclockwise. The icon is not mirrored.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Some icons refer to physical objects that are not mirrored in a right-to-left UI.)
 译文
@@ -591,9 +471,7 @@
 [en]: <> (For example, physical keyboards look the same everywhere, so they should not be mirrored.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot3.png)
 
@@ -602,11 +480,7 @@
 [en]: <> (Keyboard icon)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot4.png)
 
@@ -615,9 +489,7 @@
 [en]: <> (Headset icon)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Certain icons might seem directional but they actually represent holding an object with one’s right hand.)
 译文
@@ -628,9 +500,7 @@
 [en]: <> (The majority of users in RTL-writing countries are also right-handed, so such icons should not be mirrored.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot5.png)
 
@@ -639,11 +509,7 @@
 [en]: <> (Search icon)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot6.png)
 
@@ -652,9 +518,7 @@
 [en]: <> (Local cafe icon)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (The passage of time)
 ### 译文
@@ -674,9 +538,7 @@
 [en]: <> (Since media playback buttons and the progress indicator reflect the direction of the tape, they are not mirrored.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot-do.png)
 
@@ -687,9 +549,7 @@
 [en]: <> (Media controls for playback are always LTR.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot-dont.png)
 
@@ -717,9 +577,7 @@
 [en]: <> (Numbers, including icons containing numbers, must be localized for languages that use different numerals. For example, Bengali, Marathi, Nepali, and some Arabic-speaking locales use different forms of numbers.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-other1.png)
 
@@ -728,11 +586,7 @@
 [en]: <> (An icon in LTR containing a number)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/usability/index/usability-bidirectionality-other2.png)
 
@@ -741,9 +595,7 @@
 [en]: <> (An RTL icon in Arabic)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Mirroring)
 ### 译文
@@ -767,5 +619,4 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

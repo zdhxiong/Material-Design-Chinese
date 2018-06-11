@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/tabs/tabs-usage-01.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -33,9 +31,7 @@
 * [译文](#theming)
 * [译文](#spec)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -49,9 +45,7 @@
 [en]: <> (Each tab should contain content that is distinct from other tabs in a set. For example, tabs can present different sections of news, different genres of music, or different themes of documents.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-do1.png)
 
@@ -62,11 +56,7 @@
 [en]: <> (Tab labels can include icons and text. Text labels should be short.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-dont1.png)
 
@@ -77,13 +67,7 @@
 [en]: <> (Don’t use tabs to move through sequential content that needs to be read in a particular order.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-do2.png)
 
@@ -94,11 +78,7 @@
 [en]: <> (Present tabs as a single row above their associated content.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-dont2.png)
 
@@ -109,9 +89,7 @@
 [en]: <> (Avoid using tabs for comparing content across multiple tabs, such as different sizes of the same item.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Combinations with other components)
 #### 译文
@@ -122,9 +100,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-illos-01.png)
 
@@ -136,11 +112,7 @@
 [en]: <> (As tabs can horizontally scroll, a UI can have as many tabs as needed.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-illos-02.png)
 
@@ -152,11 +124,7 @@
 [en]: <> (Tabs organize content into categories to help users easily find different types of information.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-illos-03.png)
 
@@ -168,9 +136,7 @@
 [en]: <> (Tabs are displayed next to each other as peers, in categories of equal importance.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -234,9 +200,7 @@
 [en]: <> (Tab labels appear in a single row. They can use a second line if needed, with truncated text. Alternatively, you can use scrollable tabs to allow room for longer titles.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-when-06.png)
 
@@ -247,11 +211,7 @@
 [en]: <> (Although label text can wrap to a second line, scrollable tabs confine text to a single row.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-when-07.png)
 
@@ -262,13 +222,7 @@
 [en]: <> (Don’t resize text labels to fit them onto a single line. If labels are too long, wrap text to a second line or use scrollable tabs.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-when-08.png)
 
@@ -279,11 +233,7 @@
 [en]: <> (Don’t truncate labels unless required, as truncated text can impede comprehension.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-when-09.png)
 
@@ -294,9 +244,7 @@
 [en]: <> (Don’t mix tabs that contain only text, with tabs that contain only icons. Use either all text labels, all icon labels, or both, across all labels.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Icons)
 ### 译文
@@ -313,9 +261,7 @@
 [en]: <> (Tabs can use a combination of labels and icons.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-iconsb.png)
 
@@ -326,9 +272,7 @@
 [en]: <> (Tabs can use icons to communicate content.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-010b.png)
 
@@ -339,9 +283,7 @@
 [en]: <> (Don’t use tabs with both icons and text labels on only some tabs, but not others.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-fixed-04.png)
 
@@ -388,19 +330,7 @@
 [en]: <> (Navigate to a tab by tapping on it.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-tap.mp4" src="{assets_path}/components/tabs/tabs-tap.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-tap.mp4" src="{assets_path}/components/tabs/tabs-tap.mp4" type="video/mp4"></video></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Swipe within the content area)
 #### 译文
@@ -419,57 +349,21 @@
 [en]: <> (Use caution when placing other swipeable content \(such as interactive maps or list items\) in the content area.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-swipe.mp4" src="{assets_path}/components/tabs/tabs-swipe.mp4" type="video/mp4">
-</video>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scroll-lists-caution.mp4" src="{assets_path}/components/tabs/tabs-scroll-lists-caution.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-swipe.mp4" src="{assets_path}/components/tabs/tabs-swipe.mp4" type="video/mp4"></video></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scroll-lists-caution.mp4" src="{assets_path}/components/tabs/tabs-scroll-lists-caution.mp4" type="video/mp4"></video><figcaption>
 
 {caution}
 
 [en]: <> (Use caution when placing swipeable content in UIs that have tabs, as users could easily swipe the wrong component.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scroll-lists-dont.mp4" src="{assets_path}/components/tabs/tabs-scroll-lists-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scroll-lists-dont.mp4" src="{assets_path}/components/tabs/tabs-scroll-lists-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Avoid placing swipeable items in the content area of a UI that has tabs, as the user may mistakenly swipe the wrong component.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Scrolling)
 ### 译文
@@ -477,52 +371,24 @@
 [en]: <> (When a screen scrolls, tabs can either be fixed to the top of the screen, or scroll off the screen. If they scroll off the screen, they will return when the user scrolls upward.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scrolling-1.mp4" src="{assets_path}/components/tabs/tabs-scrolling-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scrolling-1.mp4" src="{assets_path}/components/tabs/tabs-scrolling-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When tabs are attached to a top app bar, they can scroll off the screen with the bar and lock in place at the top of the screen.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scrolling-2.mp4" src="{assets_path}/components/tabs/tabs-scrolling-2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scrolling-2.mp4" src="{assets_path}/components/tabs/tabs-scrolling-2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tabs can scroll offscreen on scroll, and reappear when the page is scrolled up.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scrolling-4.mp4" src="{assets_path}/components/tabs/tabs-scrolling-4.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scrolling-4.mp4" src="{assets_path}/components/tabs/tabs-scrolling-4.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t scroll tabs behind a top app bar. When tabs are attached to a component, they should appear and move as a single unit.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -542,11 +408,7 @@
 [en]: <> (Place tabs above content.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-layout-dont.png)
 
@@ -557,11 +419,7 @@
 [en]: <> (Avoid nesting a tab within another tab.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/tabs/tabs-layout-dont-2.png)
 
@@ -572,9 +430,7 @@
 [en]: <> (Don’t place tabs below one another.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Tab placement)
 ### 译文
@@ -591,9 +447,7 @@
 [en]: <> (Tabs below a top app bar)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-placement-dont-1.png)
 
@@ -604,9 +458,7 @@
 [en]: <> (Don’t use tabs with short top app bars, or top app bars that transition to short top app bars on scroll.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-placement-dont-2.png)
 
@@ -631,9 +483,7 @@
 [en]: <> (Tabs embedded in a column, the content of which they can control when tapped. Scaled down to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-placement-ui-dont.png)
 
@@ -644,9 +494,7 @@
 [en]: <> (Don’t place tabs above content that they don’t control. If tabs only change a section of the UI, embed them within that section. Scaled down to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-placement-02b.png)
 
@@ -655,9 +503,7 @@
 [en]: <> (Tabs nested in a card)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-placement-03b.png)
 
@@ -686,9 +532,7 @@
 [en]: <> (Use fixed tabs when displaying a limited number of categories.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-usage-06.png)
 
@@ -725,9 +569,7 @@
 [en]: <> (Reduced in size to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-fixed-010.png)
 
@@ -739,9 +581,7 @@
 [en]: <> (Reduced in size to 62.5%)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-fixed-08.png)
 
@@ -772,9 +612,7 @@
 [en]: <> (On wider layouts, tabs may be centered on the tab bar.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-fixed-06.png)
 
@@ -815,9 +653,7 @@
 
 ![]({assets_path}/components/tabs/tabs-scrollable-01.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-scrollable-desktop-do.png)
 
@@ -828,9 +664,7 @@
 [en]: <> (On mobile and desktop, offset the first tab on the left to signal that tabs are scrollable.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-scrollable-03-dont.png)
 
@@ -841,9 +675,7 @@
 [en]: <> (Avoid using inconsistent padding on each tab.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/tabs/tabs-paginated-01.png)
 
@@ -869,35 +701,17 @@
 [en]: <> (When tapped, a scrollable tab should reposition itself to become fully visible on screen.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scrollable-in-place.mp4" src="{assets_path}/components/tabs/tabs-scrollable-in-place.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scrollable-in-place.mp4" src="{assets_path}/components/tabs/tabs-scrollable-in-place.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Active tabs reposition themselves to appear fully on screen.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/tabs/tabs-scrollable-center.mp4" src="{assets_path}/components/tabs/tabs-scrollable-center.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/tabs/tabs-scrollable-center.mp4" src="{assets_path}/components/tabs/tabs-scrollable-center.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Active tabs can move to the middle of the row when they become active.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (States)
 <h2 id="states">译文</h2>
@@ -1036,5 +850,4 @@
 
 ![]({assets_path}/components/tabs/tabs-spec-scrollable.png)
 
-</figure>
-</div>
+</figure></div>

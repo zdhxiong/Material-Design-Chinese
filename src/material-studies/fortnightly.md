@@ -10,9 +10,7 @@
 
 ![]({assets_path}/material-studies/fortnightly/01-stickersheet-logo-fortnightly.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (About Fortnightly)
 [en]: <> (Product architecture)
@@ -31,9 +29,7 @@
 * [译文](#components)
 * [译文](#motion)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (About Fortnightly)
 <h2 id="about-fortnightly">译文</h2>
@@ -166,20 +162,12 @@
 [en]: <> (Fortnightly packs a variety of information together, particularly in places like its landing page. In other places, such as an individual article, it provides generous whitespace for content. All pages use the same responsive grid, allowing content to reflow into the screen space available, after certain breakpoints are reached.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-grid-1a.mp4" src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-grid-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-grid-1a.mp4" src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-grid-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Layout grid across breakpoints, scaled down to 50%)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation)
 ### 译文
@@ -327,9 +315,7 @@
 [en]: <> (Merriweather’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-type-merriweather-2.png)
 
@@ -355,9 +341,7 @@
 [en]: <> (Libre Franklin’s letterforms)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-type-libre-2.png)
 
@@ -412,9 +396,7 @@
 [en]: <> (Further biographical information is available when the user hovers over or taps certain names.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-dialogs-mobile.png)
 
@@ -440,11 +422,7 @@
 [en]: <> (Text field)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-1.png)
 
@@ -453,11 +431,7 @@
 [en]: <> (A baseline filled text field without customization.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-2.png)
 
@@ -466,24 +440,12 @@
 [en]: <> (Text fields are easy to identify in Fortnighly’s layout, so the baseline fill is removed and the container stroke becomes the primary identifier.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-loading-1a.mp4" src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-loading-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-loading-1a.mp4" src="{assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-textfields-loading-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (After a search query is sent, a loading motion is used on the text field’s container stroke to indicate a search is underway.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Chips)
 ### 译文
@@ -500,11 +462,7 @@
 [en]: <> (Fortnightly’s customized choice chips)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-chips-1.png)
 
@@ -513,11 +471,7 @@
 [en]: <> (A baseline choice chip without customization)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-studies/fortnightly/casestudies-fortnightly-components-chips-2.png)
 
@@ -526,9 +480,7 @@
 [en]: <> (Fortnightly adjusts the baseline choice chip shape, stroke, typography and color to create a custom filter chip.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Lists)
 ### 译文
@@ -573,20 +525,12 @@
 [en]: <> (Fortnightly’s logo animation reflects the calligraphic nature of its letterforms.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/fortnightly-logo.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-logo.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/fortnightly-logo.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-logo.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Launching Fortnightly for the first time displays an animated launch screen.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Navigation transitions)
 ### 译文
@@ -594,35 +538,17 @@
 [en]: <> (Fortnightly uses simple fade through and condensed transitions to complement its reserved approach to branding. The simple transition style helps balance the dense amount of content displayed.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/fortnightly-condensedtransition.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-condensedtransition.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/fortnightly-condensedtransition.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-condensedtransition.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A parent-child transition uses a condensed transition to maintain a clean and simple style.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/fortnightly-fadethrough-desktop.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-fadethrough-desktop.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/fortnightly-fadethrough-desktop.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-fadethrough-desktop.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Navigation drawer transitions use a subtle fade through animation.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Loading)
 ### 译文
@@ -630,18 +556,9 @@
 [en]: <> (Fortnightly uses subtle stagger animation on placeholder elements to indicate loading without distracting from the content.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-studies/fortnightly/fortnightly-loading.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-loading.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-studies/fortnightly/fortnightly-loading.mp4" src="{assets_path}/material-studies/fortnightly/fortnightly-loading.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Placeholder elements have a subtle downard stagger animation that indicates loading.)
 译文
 
-</figcaption>
-
-</figure>
-</div>
+</figcaption></figure></div>

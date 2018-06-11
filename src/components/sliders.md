@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/sliders/sliders-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#spec)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -53,15 +49,11 @@
 
 [en]: <> (Sliders reflect the current state of the settings they control.)
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-usage-howtouse.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Values)
 ### 译文
@@ -86,9 +78,7 @@
 [en]: <> (For right-to-left languages, like Arabic, this placement would be switched \(with the largest value on the left, and the smallest on the right\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-continuousslider-editablenumeric.png)
 
@@ -97,16 +87,12 @@
 [en]: <> (A slider with an editable numeric value)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-illos-01.png)
 
@@ -118,11 +104,7 @@
 [en]: <> (Sliders should only be used for choosing selections from a range of values.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-illos-02.png)
 
@@ -134,11 +116,7 @@
 [en]: <> (When interacting with a slider, changes should be represented immediately.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-illos-03.png)
 
@@ -150,9 +128,7 @@
 [en]: <> (Sliders should provide the full range of choices available for the user to select from.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -165,9 +141,7 @@
 [en]: <> (Continuous sliders allow users to select a value along a subjective range.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-usage-whentouse-continuous.png)
 
@@ -176,11 +150,7 @@
 [en]: <> (Continuous slider)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Discrete sliders)
 #### 译文
@@ -191,9 +161,7 @@
 [en]: <> (Possible selections may be organized through the use of tick marks, which a slider thumb will snap to \(or to which an input will round up or down\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-usage-whentouse-discrete.png)
 
@@ -202,22 +170,16 @@
 [en]: <> (Discrete slider)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sliders/sliders-layout-elements.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (A slider can contain the following elements:)
 译文
@@ -242,15 +204,7 @@
 [en]: <> (Behavior)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/06-sliders-focus-cursor-drag-v02.mp4" src="{assets_path}/components/sliders/06-sliders-focus-cursor-drag-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/06-sliders-focus-cursor-drag-v02.mp4" src="{assets_path}/components/sliders/06-sliders-focus-cursor-drag-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click and drag)
 #### 译文
@@ -258,19 +212,7 @@
 [en]: <> (This continuous slider is controlled by clicking the thumb and dragging it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/08-sliders-cursor-jump.mp4" src="{assets_path}/components/sliders/08-sliders-cursor-jump.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/08-sliders-cursor-jump.mp4" src="{assets_path}/components/sliders/08-sliders-cursor-jump.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click jump)
 #### 译文
@@ -278,21 +220,7 @@
 [en]: <> (This continuous slider is controlled by clicking the track.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/04-sliders-focus-cursor-tab.mp4" src="{assets_path}/components/sliders/04-sliders-focus-cursor-tab.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/04-sliders-focus-cursor-tab.mp4" src="{assets_path}/components/sliders/04-sliders-focus-cursor-tab.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click and arrow)
 #### 译文
@@ -300,19 +228,7 @@
 [en]: <> (This continuous slider is controlled by clicking the thumb, then using arrow keys to move it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/01-sliders-tab-arrow-focus.mp4" src="{assets_path}/components/sliders/01-sliders-tab-arrow-focus.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/01-sliders-tab-arrow-focus.mp4" src="{assets_path}/components/sliders/01-sliders-tab-arrow-focus.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tab and arrow)
 #### 译文
@@ -320,11 +236,7 @@
 [en]: <> (This continuous slider is controlled by using the tab key to select the thumb of the desired slider, then using arrow keys to move it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (States)
 ### 译文
@@ -352,15 +264,7 @@
 [en]: <> (Behavior)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/07-sliders-focus-discreet-cursor-drag-v03.mp4" src="{assets_path}/components/sliders/07-sliders-focus-discreet-cursor-drag-v03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/07-sliders-focus-discreet-cursor-drag-v03.mp4" src="{assets_path}/components/sliders/07-sliders-focus-discreet-cursor-drag-v03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click and drag)
 #### 译文
@@ -368,19 +272,7 @@
 [en]: <> (This discrete slider is controlled by clicking the thumb and dragging it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/09-sliders-discreet-cursor-jump.mp4" src="{assets_path}/components/sliders/09-sliders-discreet-cursor-jump.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/09-sliders-discreet-cursor-jump.mp4" src="{assets_path}/components/sliders/09-sliders-discreet-cursor-jump.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click jump)
 #### 译文
@@ -388,21 +280,7 @@
 [en]: <> (This discrete slider is controlled by clicking the track.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/05-sliders-focus-discreet-cursor-tab-v03.mp4" src="{assets_path}/components/sliders/05-sliders-focus-discreet-cursor-tab-v03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/05-sliders-focus-discreet-cursor-tab-v03.mp4" src="{assets_path}/components/sliders/05-sliders-focus-discreet-cursor-tab-v03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Click and arrow)
 #### 译文
@@ -410,19 +288,7 @@
 [en]: <> (This discrete slider is controlled by clicking the thumb, then using arrow keys to move it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/03-sliders-arrow-focus-discreet.mp4" src="{assets_path}/components/sliders/03-sliders-arrow-focus-discreet.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/03-sliders-arrow-focus-discreet.mp4" src="{assets_path}/components/sliders/03-sliders-arrow-focus-discreet.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tab and arrow)
 #### 译文
@@ -430,21 +296,7 @@
 [en]: <> (This discrete slider is controlled by using the tab key to select the thumb of the desired slider, then arrow keys to move it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/sliders-tick-marks-v02.mp4" src="{assets_path}/components/sliders/sliders-tick-marks-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/sliders-tick-marks-v02.mp4" src="{assets_path}/components/sliders/sliders-tick-marks-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tick marks \(Optional\))
 #### 译文
@@ -452,19 +304,7 @@
 [en]: <> (Discrete sliders can use evenly spaced tick marks along the slider track, and the thumb will snap to them. Each tick mark should change the setting in increments that are discernible to the user.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sliders/sliders-value-entry-v01.mp4" src="{assets_path}/components/sliders/sliders-value-entry-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sliders/sliders-value-entry-v01.mp4" src="{assets_path}/components/sliders/sliders-value-entry-v01.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Value entry field \(Optional\))
 #### 译文
@@ -472,11 +312,7 @@
 [en]: <> (Value entry fields become editable after selecting the thumb or entry field. After a text entry is made, the slider position automatically updates to reflect the new value.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (States)
 ### 译文
@@ -556,11 +392,8 @@
 
 ![]({assets_path}/components/sliders/sliders-spec-discrete.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/sliders/sliders-spec-discrete-range.png)
 
-</figure>
-</div>
+</figure></div>

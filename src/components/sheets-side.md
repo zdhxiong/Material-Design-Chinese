@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/sheets-side/side-sheet-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -31,9 +29,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -68,9 +64,7 @@
 [en]: <> (*Modal side sheets* are used on mobile instead of standard side sheets, due to limited screen size. They can display the same types of content as standard side sheets, but must be dismissed in order to interact with the underlying content.)
 译文
 
-</div></div>
-
-<figure>
+</div></div><figure>
 
 ![]({assets_path}/components/sheets-side/usage-standard.png)
 
@@ -79,11 +73,7 @@
 [en]: <> (This standard side sheet on desktop contains filters that control the files shown in the primary UI region.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/usage-modal.png)
 
@@ -92,16 +82,12 @@
 [en]: <> (A modal side sheet on mobile is used instead of a standard side sheet, because of the limited screen space.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/side-sheets-illos-04.png)
 
@@ -113,11 +99,7 @@
 [en]: <> (Side sheets contain content that supplements the screen’s primary UI region.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/side-sheets-illos-02.png)
 
@@ -129,11 +111,7 @@
 [en]: <> (Side sheets display a wide variety of content and layouts.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/side-sheets-illos-03.png)
 
@@ -145,9 +123,7 @@
 [en]: <> (Side sheets can be visible or hidden based on screen size or user need, and they often become bottom sheets on mobile.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -184,9 +160,7 @@
 [en]: <> (Place side sheets along the left or right edge of the screen.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/sheets-side/anatomy-sheet-placement-dont.png)
 
@@ -214,11 +188,7 @@
 [en]: <> (Metadata about a photo in a standard side sheet)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/anatomy-contents-filters.png)
 
@@ -227,9 +197,7 @@
 [en]: <> (A list of filters in a modal side sheet)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 <h2 id="behavior">译文</h2>
@@ -243,28 +211,14 @@
 [en]: <> (Side sheets cannot be horizontally scrolled.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-side/behavior-scrolling-do.mp4" src="{assets_path}/components/sheets-side/behavior-scrolling-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-side/behavior-scrolling-do.mp4" src="{assets_path}/components/sheets-side/behavior-scrolling-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Side sheets can vertically scroll internally when their content exceeds the screen height.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/behavior-scrolling-dont.png)
 
@@ -275,9 +229,7 @@
 [en]: <> (Don’t allow horizontal scrolling in a side sheet or layout in a way that suggests horizontal scrolling. A side sheet’s narrow width leaves limited space to fully view items.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 <h2 id="placement">译文</h2>
@@ -321,9 +273,7 @@
 [en]: <> (Place a side sheet on the opposite edge of a navigation drawer. This app uses a left-to-right layout, so the navigation drawer is placed on its left edge \(1\) and a standard side sheet is anchored to the right edge \(2\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/sheets-side/placement-nav-drawer-dont.png)
 
@@ -369,13 +319,7 @@
 [en]: <> (Common open affordances include action icons in top app bars or buttons in the screen layout. While a single affordance can be used to toggle the visibility of the sheet on or off, a separate close affordance within the sheet is recommended.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Placement)
 ### 译文
@@ -410,9 +354,7 @@
 [en]: <> (This filter sheet is coplanar with the main UI region, indicating its connection to content and allowing both regions to be fully visible.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/sheets-side/standard-placement-elevation-above.png)
 
@@ -447,9 +389,7 @@
 [en]: <> (A modal side sheet places all content and UI elements behind a scrim, which indicates that they will not respond to user interaction. Tapping the scrim dismisses both the modal side sheet and scrim from view.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/modal-behavior-scrim-do.png)
 
@@ -460,11 +400,7 @@
 [en]: <> (A visible scrim informs users they cannot interact with the rest of the screen.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/modal-behavior-scrim-dont.png)
 
@@ -475,9 +411,7 @@
 [en]: <> (Don’t use an invisible scrim. This can mislead users about their ability to interact with the rest of the screen.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Control)
 #### 译文
@@ -492,9 +426,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/modal-behavior-control-tap.png)
 
@@ -503,11 +435,7 @@
 [en]: <> (Tapping the scrim will dismiss a modal side sheet.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-side/modal-behavior-control-swipe.png)
 
@@ -516,9 +444,7 @@
 [en]: <> (A modal side sheet can be dismissed by swiping towards the sheet’s anchoring edge.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -582,5 +508,4 @@
 
 ![]({assets_path}/components/sheets-side/specs-sheet-side-desktop-standard.png)
 
-</figure>
-</div>
+</figure></div>

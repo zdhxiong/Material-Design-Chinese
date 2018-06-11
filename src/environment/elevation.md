@@ -6,13 +6,7 @@
 [en]: <> (Elevation is the relative distance between two surfaces along the z-axis.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/elevation-hero.mp4" src="{assets_path}/environment/elevation/elevation-hero.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/elevation-hero.mp4" src="{assets_path}/environment/elevation/elevation-hero.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (*Component elevation values*)
 *译文*
@@ -30,11 +24,7 @@
 5. 译文
 6. 译文
 
-</figcaption>
-
-</figure>
-
-<nav>
+</figcaption></figure><nav>
 
 [en]: <> (Elevation in Material Design)
 [en]: <> (Depicting elevation)
@@ -45,9 +35,7 @@
 * [译文](#elevation-hierarchy)
 * [译文](#default-elevations)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Elevation in Material Design)
 <h2 id="elevation-in-material-design">译文</h2>
@@ -69,9 +57,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/environment/elevation/elevation-materialdesign-2.png)
 
@@ -115,11 +101,7 @@
 [en]: <> (Material Design displays elevation using shadows.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/measuringelevation-intro-alt-caution01.png)
 
@@ -130,11 +112,7 @@
 [en]: <> (Different surface fills can be used to express elevation instead of shadows.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/measuringelevation-intro-alt-caution02.png)
 
@@ -145,9 +123,7 @@
 [en]: <> (Opacity can be used to express elevation instead of shadows.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Resting elevation)
 ### 译文
@@ -172,9 +148,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/environment/elevation/restingelevation-modifiedelevation.png)
 
@@ -201,11 +175,7 @@
 
 <figure>
 
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/responsiveelevation.mp4" src="{assets_path}/environment/elevation/responsiveelevation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/responsiveelevation.mp4" src="{assets_path}/environment/elevation/responsiveelevation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Some components respond to user input with increases in elevation.)
 译文
@@ -215,9 +185,7 @@
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation interference)
 ### 译文
@@ -231,35 +199,17 @@
 [en]: <> (You can also design your app’s layout to avoid collisions, such as placing a floating action button beside cards, instead of directly above them.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/avoidelevationinterference-cardpickup.mp4" src="{assets_path}/environment/elevation/avoidelevationinterference-cardpickup.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/avoidelevationinterference-cardpickup.mp4" src="{assets_path}/environment/elevation/avoidelevationinterference-cardpickup.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Temporarily reposition or remove components which might collide with transitioning components. Front \(1\) and side \(2\) views of a card stream on a mobile device, demonstrating how a floating action button \(B\) disappears when a card \(A\) is picked up.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/avoidelevationinterference-cardstreamdesktop.mp4" src="{assets_path}/environment/elevation/avoidelevationinterference-cardstreamdesktop.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/avoidelevationinterference-cardstreamdesktop.mp4" src="{assets_path}/environment/elevation/avoidelevationinterference-cardstreamdesktop.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Design your app to minimize opportunities for elevation-based interference.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Depicting elevation)
 <h2 id="depicting-elevation">译文</h2>
@@ -291,9 +241,7 @@
 [en]: <> (Edges must create sufficient contrast between surfaces \(by meeting or exceeding accessible contrast ratios\) for them to be seen as separate from one another.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/othertechniques-edges-none.png)
 
@@ -302,11 +250,7 @@
 [en]: <> (Without showing edges, it’s unclear if this image contains one or more surfaces.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/othertechniques-edges-fill.png)
 
@@ -315,9 +259,7 @@
 [en]: <> (Contrasting surface fills provide enough contrast to make it clear that this image has two surfaces.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Surface overlap)
 ### 译文
@@ -341,11 +283,7 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/occlusion-do-1.png)
 
@@ -356,11 +294,7 @@
 [en]: <> (The top app bar overlaps the cards, indicating it is in front of the cards. This overlap doesn’t express the degree of elevation between the surfaces.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/occlusion-dont-1.png)
 
@@ -371,9 +305,7 @@
 [en]: <> (Without visual cues of surface edges and overlap, it’s not possible to determine how many surfaces are present, which surfaces are above the others, nor the degree of elevation between surfaces.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Distance)
 ### 译文
@@ -387,9 +319,7 @@
 [en]: <> (When the background is scrimmed in a UI, it expresses that the content above it is at a higher elevation. Scrimmed backgrounds express large, but unspecified, amounts of elevation.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/dimmedbackgrounds-do-1.png)
 
@@ -400,11 +330,7 @@
 [en]: <> (A scrimmed background can indicate surface overlap, but not the degree of elevation.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/dimmedbackgrounds-dont-1.png)
 
@@ -415,9 +341,7 @@
 [en]: <> (The lack of shadows or scrimmed background makes it difficult to distinguish the dialog box from the background.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Shadows)
 #### 译文
@@ -445,11 +369,7 @@
 [en]: <> (Shadows show the edges of a surface and its degree of elevation against the background. They also make differences in surface elevations perceptible between non-overlapping surfaces.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/separation-shadow-do-1.png)
 
@@ -460,11 +380,7 @@
 [en]: <> (Shadows make differences in surface elevation perceptible. The smaller, sharper shadow of the app bar \(1\) indicates it is at a lower elevation than the menu \(2\), which has a larger, softer shadow.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/elevation/separation-shadow-dont-1.png)
 
@@ -475,11 +391,7 @@
 [en]: <> (The lack of shadows or other visual cues to indicate edges and surface overlap creates insufficient contrast between surfaces. As a result, it’s difficult to understand which pieces of this UI are grouped together.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/environment/elevation/shadows-dont-1.png)
 
@@ -515,20 +427,12 @@
 [en]: <> (Changes in shadow size and softness emphasize changes in elevation.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/tapcard.mp4" src="{assets_path}/environment/elevation/tapcard.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/tapcard.mp4" src="{assets_path}/environment/elevation/tapcard.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The shadow grows to emphasize the card is rising.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Displaying overlap)
 #### 译文
@@ -536,20 +440,12 @@
 [en]: <> (A surface may overlap another upon animation, either partially or completely, showing which surface is in front of the other.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/tapcard-overlap.mp4" src="{assets_path}/environment/elevation/tapcard-overlap.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/tapcard-overlap.mp4" src="{assets_path}/environment/elevation/tapcard-overlap.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (As it expands, a surface may show elevation by overlapping nearby surfaces.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Pushing)
 #### 译文
@@ -557,20 +453,12 @@
 [en]: <> (Surfaces that share the same elevation can move surfaces in their path.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/tapcard-push.mp4" src="{assets_path}/environment/elevation/tapcard-push.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/tapcard-push.mp4" src="{assets_path}/environment/elevation/tapcard-push.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A selected list item expands, pushing surrounding items away.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Scaling)
 #### 译文
@@ -578,20 +466,12 @@
 [en]: <> (Scaling the size of a surface up or down can emphasize elevation changes.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/scaling.mp4" src="{assets_path}/environment/elevation/scaling.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/scaling.mp4" src="{assets_path}/environment/elevation/scaling.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Foreground and background surfaces scale up and down to emphasize elevation changes.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Parallax)
 #### 译文
@@ -599,20 +479,12 @@
 [en]: <> (Multiple surfaces at different elevations that move at different speeds can create a sense of depth and place focus on foreground content.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/shrine-parallax.mp4" src="{assets_path}/environment/elevation/shrine-parallax.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/shrine-parallax.mp4" src="{assets_path}/environment/elevation/shrine-parallax.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The foreground surface moves faster than the background image, creating a sense of depth.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Combining motion techniques)
 #### 译文
@@ -620,20 +492,12 @@
 [en]: <> (Elevation can be emphasized through a combination of motion techniques.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/basil-parallax.mp4" src="{assets_path}/environment/elevation/basil-parallax.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/basil-parallax.mp4" src="{assets_path}/environment/elevation/basil-parallax.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Parallax motion and scaling emphasize which surfaces are in front of others.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Elevation hierarchy)
 <h2 id="elevation-hierarchy">译文</h2>
@@ -663,9 +527,7 @@
 [en]: <> (Front \(1\) and side \(2\) views of a desktop interface demonstrate how more important content that is of primary focus \(B\) appears in front of content that is of secondary focus, like footnotes \(A\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/environment/elevation/abovesurface-bottomsheet-1.png)
 
@@ -674,22 +536,12 @@
 [en]: <> (Front \(1\) and side \(2\) views of a mobile interface demonstrate how placing content on a higher surface, like a bottom sheet \(A\), can focus attention while maintaining context.)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/surfacerelationships-drawer.mp4" src="{assets_path}/environment/elevation/surfacerelationships-drawer.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/surfacerelationships-drawer.mp4" src="{assets_path}/environment/elevation/surfacerelationships-drawer.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Front \(1\) and side \(2\) views of a mobile interface demonstrate how content on a lower surface \(A\) is usually controlled by the surface in front of it, such as a navigation drawer \(B\).)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Content on coplanar surfaces)
 ### 译文
@@ -697,22 +549,14 @@
 [en]: <> (Positioning surfaces at the same elevation makes them coplanar, and may indicate they contain content of equal importance as one another. For example, all cards in a collection have equal importance.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/elevation/surfacerelationships-sameelevation.mp4" src="{assets_path}/environment/elevation/surfacerelationships-sameelevation.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/elevation/surfacerelationships-sameelevation.mp4" src="{assets_path}/environment/elevation/surfacerelationships-sameelevation.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Cards \(A, B\), as viewed from the front, have the same elevation and move together, reinforcing that their content has similar hierarchy)
 [en]: <> (The same components, as viewed from the side)
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Surfaces that don’t express elevation can appear coplanar. For surfaces that don’t express elevation, you can communicate hierarchy differences through their content and by adjusting their horizontal and vertical layout position to suggest their relative hierarchy levels.)
 译文
@@ -803,5 +647,4 @@
 [en]: <> (Cross-section diagram showing the resting elevation and dynamic elevation offsets for multiple components.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

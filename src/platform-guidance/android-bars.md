@@ -13,9 +13,7 @@
 * [译文](#status-bar)
 * [译文](#android-navigation-bar)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Status bar)
 <h2 id="status-bar">译文</h2>
@@ -29,9 +27,7 @@
 [en]: <> (Android status bar height: 24dp )
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-bars/as-statusbar.png)
 
@@ -40,11 +36,7 @@
 [en]: <> (Android status bar.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-bars/as-appbar.png)
 
@@ -53,9 +45,7 @@
 [en]: <> (Android status bar on top of the app bar)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Android navigation bar)
 <h2 id="android-navigation-bar">译文</h2>
@@ -63,9 +53,7 @@
 [en]: <> (The Android navigation bar in Android houses the device navigation controls: Back, Home, and Overview. It also displays a menu for apps written for Android 2.3 or earlier.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-bars/android-only-additional6.png)
 
@@ -74,11 +62,7 @@
 [en]: <> (Dark)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/platform-guidance/android-bars/android-only-additional7.png)
 
@@ -87,7 +71,4 @@
 [en]: <> (Light)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

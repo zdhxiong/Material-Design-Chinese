@@ -13,20 +13,12 @@
 * [译文](#material-theming)
 * [译文](#using-material-theming)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Material Theming)
 <h2 id="material-theming">译文</h2>
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-theming/overview/theming-overview-applyingtheming.mp4" src="{assets_path}/material-theming/overview/theming-overview-applyingtheming.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-theming/overview/theming-overview-applyingtheming.mp4" src="{assets_path}/material-theming/overview/theming-overview-applyingtheming.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (What is Material Theming?)
 ### 译文
@@ -52,13 +44,7 @@
 [en]: <> (The Material Theme editor)
 ### 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/material-theming/overview/theme-editor-desbyte-color-final.mp4" src="{assets_path}/material-theming/overview/theme-editor-desbyte-color-final.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/material-theming/overview/theme-editor-desbyte-color-final.mp4" src="{assets_path}/material-theming/overview/theme-editor-desbyte-color-final.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Material Theming can be implemented with the help of the Material Theme Editor, a tool that currently allows you to customize color, type, and shape and create your own branded symbol library, helping you deploy Material quickly and reliably. Selected values will cascade throughout your stickersheet, appropriately altering components, text, and surfaces.)
 译文
@@ -91,9 +77,7 @@
 [en]: <> (On the left, a Material button shows the default styles. On the right, these values have been altered to create a button that is entirely customized.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-theming/overview/theming-overview-applyingtheming-default.png)
 
@@ -102,11 +86,7 @@
 [en]: <> (A baseline Material button)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/material-theming/overview/theming-overview-applyingtheming-shrine.png)
 
@@ -115,9 +95,7 @@
 [en]: <> (That same Material button, but customized)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Default and customized values)
 #### 译文
@@ -204,7 +182,5 @@
 
 [en]: <> (Bold values indicate values that have been customized from the defaults.)
 译文
-
-
 
 </div>

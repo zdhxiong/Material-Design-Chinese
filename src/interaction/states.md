@@ -27,9 +27,7 @@
 * [译文](#pressed)
 * [译文](#dragged)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -51,9 +49,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/states-illos-01.png)
 
@@ -65,11 +61,7 @@
 [en]: <> (States must have clear affordances distinguishing them from one other and the surrounding UI, emphasized according to their priority levels.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/states-illos-02.png)
 
@@ -81,11 +73,7 @@
 [en]: <> (When multiple states occur at once, such as selection and hover, both state indicators should be displayed.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/states-illos-03.png)
 
@@ -97,16 +85,12 @@
 [en]: <> (States should be applied consistently across components in order to increase usability.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types of states)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/enabled.png)
 
@@ -118,11 +102,7 @@
 [en]: <> (An enabled state communicates an interactive component or element.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/disabled.png)
 
@@ -134,13 +114,7 @@
 [en]: <> (A disabled state communicates a noninteractive component or element.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/hover.png)
 
@@ -152,11 +126,7 @@
 [en]: <> (A hover state communicates when a user has placed a cursor above an interactive element.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/focused.png)
 
@@ -168,11 +138,7 @@
 [en]: <> (A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 
 ![]({assets_path}/interaction/states/selected.png)
@@ -185,9 +151,7 @@
 [en]: <> (A selected state communicates a user choice.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
+</figcaption></figure></div><div class="mdui-col">
 
 
 ![]({assets_path}/interaction/states/activated.png)
@@ -200,13 +164,7 @@
 [en]: <> (An activated state communicates a highlighted destination, whether initiated by the user or by default.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/pressed.png)
 
@@ -218,11 +176,7 @@
 [en]: <> (A pressed state communicates a user tap.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/dragged.png)
 
@@ -234,13 +188,7 @@
 [en]: <> (A dragged state communicates when a user presses and moves an element.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/on.png)
 
@@ -252,11 +200,7 @@
 [en]: <> (An on state communicates a toggle between two options.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/off.png)
 
@@ -268,13 +212,7 @@
 [en]: <> (An off state communicates a toggle between two options.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/error.png)
 
@@ -286,9 +224,7 @@
 [en]: <> (An error state communicates a user or system mistake.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -311,11 +247,7 @@
 [en]: <> (\(1\) Overlay on line items \(2\) overlay on chip, \(3\) overlay on selection controls.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/elements-elevation.png)
 
@@ -324,11 +256,7 @@
 [en]: <> (\(1\) Elevation, combined with an overlay, can signify state on some components.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/elements-iconography.png)
 
@@ -337,13 +265,7 @@
 [en]: <> (\(1\) Iconography, combined with an overlay, can signify state on some components.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/elements-colorchange.png)
 
@@ -352,11 +274,7 @@
 [en]: <> (\(1\) Color change may signify state.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/elements-messaging.png)
 
@@ -365,9 +283,7 @@
 [en]: <> (\(1\) Messaging may be additional signifiers of state.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Overlay opacity values)
 ### 译文
@@ -448,43 +364,17 @@
 [en]: <> (Disabled components don’t change state when tapped or hovered over.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/disabled-behavior-nohover.mp4" src="{assets_path}/interaction/states/disabled-behavior-nohover.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/disabled-behavior-nohover.mp4" src="{assets_path}/interaction/states/disabled-behavior-nohover.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Disabled components can be hovered over, but won’t display state changes to the component or cursor.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/disabled-behavior-tap.mp4" src="{assets_path}/interaction/states/disabled-behavior-tap.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/disabled-behavior-tap.mp4" src="{assets_path}/interaction/states/disabled-behavior-tap.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Disabled components don’t change state when tapped.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/interaction/states/behavior-03-dont.png)
 
@@ -532,11 +422,7 @@
 [en]: <> (Overlay applied to \(1\) certain elements in a component, \(2\) the component as a whole, or \(3\) in circular form.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/hover-02.png)
 
@@ -545,11 +431,7 @@
 [en]: <> (Some components, such as buttons or cards, can inherit \(1\) elevation to signify a hover state.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/hover-03.png)
 
@@ -558,9 +440,7 @@
 [en]: <> (\(1\) Additional controls can appear on hover.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Hover inheritance)
 #### 译文
@@ -615,20 +495,12 @@
 [en]: <> (Hover states are initiated by the user pausing over an interactive element using a cursor.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-hover-motion.mp4" src="{assets_path}/interaction/states/behavior-hover-motion.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-hover-motion.mp4" src="{assets_path}/interaction/states/behavior-hover-motion.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Hover states appear and disappear using a low-emphasis animated fade.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Hover states can be combined with focused, activated, selected, or pressed states.)
 译文
@@ -647,20 +519,12 @@
 [en]: <> (There can only be one hover state at a time in a layout.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-hover-one.mp4" src="{assets_path}/interaction/states/behavior-hover-one.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-hover-one.mp4" src="{assets_path}/interaction/states/behavior-hover-one.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Hover state can only be on one element at a time based on cursor position.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Overlay opacity values)
 ### 译文
@@ -707,11 +571,7 @@
 [en]: <> (Overlays can be applied \(1\) to certain elements in a component, \(2\) to the component as a whole, or \(3\) in circular form.)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/focus-02.png)
 
@@ -720,11 +580,7 @@
 [en]: <> (Some components, such as button, chips or cards, can inherit \(1\) elevation to signify a focus state.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/interaction/states/focus-03.png)
 
@@ -733,9 +589,7 @@
 [en]: <> (\(1\) Controls can appear on focus.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Focus state inheritance)
 #### 译文
@@ -752,9 +606,7 @@
 [en]: <> (Components such as \(1\) icons, \(2\) text fields, \(3\) cards and \(4\) buttons can inherit focus states.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/interaction/states/focus-05.png)
 
@@ -763,9 +615,7 @@
 [en]: <> (Interactive elements within components can inherit a hover state, such as \(1\) app bars icons, \(2\) actions in sheets, \(3\) tabs items and \(4\) list items.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/interaction/states/focus-06-dont.png)
 
@@ -784,41 +634,17 @@
 [en]: <> (Focus states are initiated by user keyboard or voice input on an interactive element, until the user completes the audio or keyboard action.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-focus-fade.mp4" src="{assets_path}/interaction/states/behavior-focus-fade.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-focus-fade.mp4" src="{assets_path}/interaction/states/behavior-focus-fade.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Focus states appear and disappear using a fade animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-focus-fade.mp4" src="{assets_path}/interaction/states/behavior-focus-fade.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-focus-fade.mp4" src="{assets_path}/interaction/states/behavior-focus-fade.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Focus states appear in a read order specific to the composition.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Focus states can be represented in combination with hover, activated, or selected states.)
 译文
@@ -837,20 +663,12 @@
 [en]: <> (Only one focus state may exist at a time on a screen.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/placement-focus-one.mp4" src="{assets_path}/interaction/states/placement-focus-one.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/placement-focus-one.mp4" src="{assets_path}/interaction/states/placement-focus-one.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A focus state can only be on one element at a time.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Overlay opacity values)
 ### 译文
@@ -935,41 +753,17 @@
 [en]: <> (Selected states are initiated when users select one or more options.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-selected-ripple.mp4" src="{assets_path}/interaction/states/behavior-selected-ripple.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-selected-ripple.mp4" src="{assets_path}/interaction/states/behavior-selected-ripple.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Selected states appear and disappear using a fade animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-selected-user-order.mp4" src="{assets_path}/interaction/states/behavior-selected-user-order.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-selected-user-order.mp4" src="{assets_path}/interaction/states/behavior-selected-user-order.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Selected states appear in user-initiated order.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Selected states can be represented in combination with hover, focus, pressed or dragged states.)
 译文
@@ -1085,41 +879,17 @@
 [en]: <> (Activated states are initiated either by default or user choice.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-activation-ripple.mp4" src="{assets_path}/interaction/states/behavior-activation-ripple.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-activation-ripple.mp4" src="{assets_path}/interaction/states/behavior-activation-ripple.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Activated states appear and disappear using a fade animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-activation-user-order.mp4" src="{assets_path}/interaction/states/behavior-activation-user-order.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-activation-user-order.mp4" src="{assets_path}/interaction/states/behavior-activation-user-order.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Activated states appear in user-initiated order.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Activated states can be represented in combination with hover and focus states.)
 译文
@@ -1263,20 +1033,12 @@
 [en]: <> (Pressed states are initiated by user keyboard or voice input on an interactive element.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-pressed-motion.mp4" src="{assets_path}/interaction/states/behavior-pressed-motion.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-pressed-motion.mp4" src="{assets_path}/interaction/states/behavior-pressed-motion.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Pressed states appear and disappear using a ripple animation.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Pressed states can be combined with hovered, focused, activated, or selected states.)
 译文
@@ -1295,13 +1057,7 @@
 [en]: <> (There may only be a single pressed state at a time in a layout.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-pressed-one.mp4" src="{assets_path}/interaction/states/behavior-pressed-one.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-pressed-one.mp4" src="{assets_path}/interaction/states/behavior-pressed-one.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Overlay opacity values)
 ### 译文
@@ -1400,59 +1156,27 @@
 [en]: <> (Dragged states are initiated when users touch and hold elements, using an input method such as a tap or click.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-dragged-motion.mp4" src="{assets_path}/interaction/states/behavior-dragged-motion.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-dragged-motion.mp4" src="{assets_path}/interaction/states/behavior-dragged-motion.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Dragged states occur after a pressed state and appear and disappear using a fade animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-dragged-touch.mp4" src="{assets_path}/interaction/states/behavior-dragged-touch.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-dragged-touch.mp4" src="{assets_path}/interaction/states/behavior-dragged-touch.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The user’s touch should directly control the movement of the dragged element.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (There may only be a single dragged state at a time within a layout.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/states/behavior-dragged-one.mp4" src="{assets_path}/interaction/states/behavior-dragged-one.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/states/behavior-dragged-one.mp4" src="{assets_path}/interaction/states/behavior-dragged-one.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A single dragged state)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Overlay opacity values)
 ### 译文
@@ -1473,5 +1197,4 @@
 2. 译文
 3. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

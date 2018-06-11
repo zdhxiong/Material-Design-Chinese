@@ -13,9 +13,7 @@
 * [译文](#developing-hierarchy)
 * [译文](#surface-relationships)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Developing hierarchy)
 <h2 id="developing-hierarchy">译文</h2>
@@ -37,9 +35,7 @@
 [en]: <> (Make a shape stand out by contrasting it with other shapes. This floating action button’s round shape helps it stand out from other components, which are rectangular.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/uniqueshapes-dont-baseline-1.png)
 
@@ -79,9 +75,7 @@
 [en]: <> (Shapes can emphasize when surfaces are separate from one another. For example, when a unique shape appears at a higher elevation than another surface, it emphasizes that the two surfaces are separate.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/surfacerelationships-do-crane-1b.mp4)
 
@@ -92,11 +86,7 @@
 [en]: <> (Curved corners emphasize that the white surface is separate from the purple surface behind it.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/surfacerelationships-do-owl.mp4)
 
@@ -107,11 +97,7 @@
 [en]: <> (Shape helps emphasize that the surface in the bottom right corner is separate from the surface behind it.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/surfacerelationships-do-owl-cards.png)
 
@@ -122,9 +108,7 @@
 [en]: <> (The similar shape and dimensions of the cards in this collection indicate that they are peers.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/surfacerelationships-do-reply-1.png)
 
@@ -135,9 +119,7 @@
 [en]: <> (The unique corner of the menu points to its parent surface.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/shape/shape-hierarchy/combiningstyles-dont-baseline-1.png)
 
@@ -148,5 +130,4 @@
 [en]: <> (Don’t use shape to imply that elements are related if they aren’t. The shape of this dialog suggests it is related to the card behind it and to the right.)
 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

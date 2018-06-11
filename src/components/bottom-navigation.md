@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-usage-1.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -29,9 +27,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -42,9 +38,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/bottom-navigation/bnb-convenient.png)
 
@@ -56,9 +50,7 @@
 [en]: <> (The bottom navigation bar is easy to reach on a handheld mobile device.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/bottom-navigation/bnb-consistent.png)
 
@@ -70,9 +62,7 @@
 [en]: <> (When used, the bottom navigation bar appears at the bottom of every screen.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/bottom-navigation/bnb-limited.png)
 
@@ -118,9 +108,7 @@
 [en]: <> (Don’t use a bottom navigation bar for fewer than three destinations \(use tabs instead\).)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-whentouse-dont-3.png)
 
@@ -131,9 +119,7 @@
 [en]: <> (Don’t use more than five destinations. For those cases, try tabs or a navigation drawer.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-whentouse-caution-1.png)
 
@@ -229,9 +215,7 @@
 [en]: <> (Use short text labels.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-textlabels-dont-2.png)
 
@@ -242,9 +226,7 @@
 [en]: <> (Don’t truncate text. The truncation may obscure important destination information.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-textlabels-dont-3.png)
 
@@ -255,9 +237,7 @@
 [en]: <> (Don’t shrink text to fit on a single line.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-textlabels-dont-1.png)
 
@@ -295,41 +275,17 @@
 [en]: <> (On Android, the Back button does not navigate between bottom navigation destinations.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping the navigation destination of a previously visited section returns the user to where they left off in that section.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping the current bottom navigation destination takes the user to the top of the screen, and refreshes the content if applicable.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Badges)
 ### 译文
@@ -363,41 +319,17 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The bottom navigation bar can disappear to allow more space for content.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The bottom navigation bar remains in view when navigating through an app’s hierarchy.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Transitions)
 ### 译文
@@ -405,45 +337,21 @@
 [en]: <> (Swipe gestures do not navigate between bottom navigation views.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Transition between active and inactive views using a cross-fade animation.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Avoid using lateral \(left-and-right\) motion to transition between views. Lateral motion is reserved for navigating related content, such as tabs.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When they appear, these items are displayed in front of the bottom navigation bar:)
 译文
@@ -455,20 +363,12 @@
 * 译文
 * 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Bottom navigation can be temporarily covered by bottom sheets, navigation drawers, and keyboards.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Color)
 ### 译文
@@ -487,9 +387,7 @@
 [en]: <> (Use the app’s primary color to indicate an active destination.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-color-dont-1.png)
 
@@ -516,9 +414,7 @@
 [en]: <> (Use black or white iconography if the bottom navigation bar is colored.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-color-dont-2.png)
 
@@ -567,9 +463,7 @@
 [en]: <> (On mobile \(in landscape mode\) or tablet, bottom navigation destinations can retain the same spacing used in portrait mode, rather than being equally distributed across the bottom app bar.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/bottom-navigation/bottomnav-whentouse-do-5.png)
 
@@ -700,9 +594,7 @@
 
 ![]({assets_path}/components/bottom-navigation/specs-bottomnav-mobile-portrait.png)
 
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
+</figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Minimum width)
 #### 译文
@@ -711,9 +603,7 @@
 
 ![]({assets_path}/components/bottom-navigation/specs-bottomnav-cell-minwidth.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Maximum width)
 #### 译文
@@ -722,9 +612,7 @@
 
 ![]({assets_path}/components/bottom-navigation/specs-bottomnav-cell-maxwidth.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Landscape)
 #### 译文
@@ -733,6 +621,4 @@
 
 ![]({assets_path}/components/bottom-navigation/specs-bottomnav-mobile-landscape.png)
 
-</figure>
-
-</div>
+</figure></div>

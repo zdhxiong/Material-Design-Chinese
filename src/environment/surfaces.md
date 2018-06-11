@@ -15,9 +15,7 @@
 * [译文](#properties)
 * [译文](#attributes)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Material environment)
 <h2 id="material-environment">译文</h2>
@@ -63,9 +61,7 @@
 [en]: <> (Material has varying x & y dimensions \(measured in dp\) and a uniform thickness \(1dp\).)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/whatismaterial-materialproperties-physicalproperties-thickness-01-yes.png)
 
@@ -76,11 +72,7 @@
 [en]: <> (The height and width of material can vary.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/whatismaterial-materialproperties-physicalproperties-thickness-02-no.png)
 
@@ -91,9 +83,7 @@
 [en]: <> (Material is always 1dp thick.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Shadows)
 ### 译文
@@ -101,13 +91,7 @@
 [en]: <> (Material surfaces at different elevations cast shadows.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialshadow-do.mp4" src="{assets_path}/environment/surfaces/materialshadow-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialshadow-do.mp4" src="{assets_path}/environment/surfaces/materialshadow-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
@@ -119,17 +103,7 @@
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialshadow-dont.mp4" src="{assets_path}/environment/surfaces/materialshadow-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialshadow-dont.mp4" src="{assets_path}/environment/surfaces/materialshadow-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
@@ -141,9 +115,7 @@
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Resolution)
 ### 译文
@@ -151,20 +123,12 @@
 [en]: <> (Material has infinite resolution.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-infiniteresolution-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-infiniteresolution-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-infiniteresolution-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-infiniteresolution-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material has infinite resolution.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Content)
 ### 译文
@@ -172,56 +136,28 @@
 [en]: <> (Content is displayed in any shape and color on Material. Content does not add thickness to Material. Content is expressed without being a separate layer.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialcontent-shapecolor.mp4" src="{assets_path}/environment/surfaces/materialcontent-shapecolor.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialcontent-shapecolor.mp4" src="{assets_path}/environment/surfaces/materialcontent-shapecolor.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Material can display any shape and color. Content can behave independent of Material, but is limited within the bounds of Material.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialcontent-behavior.mp4" src="{assets_path}/environment/surfaces/materialcontent-behavior.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialcontent-behavior.mp4" src="{assets_path}/environment/surfaces/materialcontent-behavior.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Content behavior can be independent of surface behavior.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialcontent-dependent-behavior.mp4" src="{assets_path}/environment/surfaces/materialcontent-dependent-behavior.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialcontent-dependent-behavior.mp4" src="{assets_path}/environment/surfaces/materialcontent-dependent-behavior.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Content behavior can depend on Material behavior.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Physical properties)
 ### 译文
@@ -229,9 +165,7 @@
 [en]: <> (Material is solid. User input and interaction cannot pass through material.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/materialsurfaceproperties-do-physical.png)
 
@@ -242,11 +176,7 @@
 [en]: <> (Input events only affect the surface of Material.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/materialsurfaceproperties-do-physical.png)
 
@@ -257,16 +187,12 @@
 [en]: <> (Input events cannot pass through Material.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Multiple Material elements cannot occupy the same point in space simultaneously.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/whatismaterial-properties-physical5.png)
 
@@ -277,11 +203,7 @@
 [en]: <> (Prevent multiple Material elements from simultaneously occupying the same point in space, such as by separating elements with elevation.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/whatismaterial-properties-physical6.png)
 
@@ -292,109 +214,57 @@
 [en]: <> (Multiple Material elements cannot occupy the same point in space simultaneously.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Material cannot pass through other Material. For example, one Material surface cannot pass through another Material surface when changing elevation.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialproperties-clipping.mp4" src="{assets_path}/environment/surfaces/materialproperties-clipping.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialproperties-clipping.mp4" src="{assets_path}/environment/surfaces/materialproperties-clipping.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Material cannot pass through other Material.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material does not behave like a gas.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-gas-1b.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-gas-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-gas-1b.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-gas-1b.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Material does not behave like a gas.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-enterexitseq-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-enterexitseq-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-enterexitseq-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-do-enterexitseq-1a.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Material enters and exits through changes in opacity, size, or position.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Material is not fluid like a liquid or gel, though it may display content with these properties.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-dripping.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-dripping.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-dripping.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-dripping.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Material does not behave like a liquid or gel.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-flow-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-flow-1a.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-flow-1a.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-dont-flow-1a.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Material does not behave like a liquid.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Transforming Material)
 ### 译文
@@ -402,20 +272,12 @@
 [en]: <> (Material can change shape.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-changeshape-1b.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-changeshape-1b.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-changeshape-1b.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-changeshape-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material can change shape.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material can change opacity.)
 译文
@@ -436,78 +298,46 @@
 [en]: <> (Material grows and shrinks only along its plane.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Material grows and shrinks only along its plane.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material bends or folds within the depth of the UI.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane-dont.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane-dont.mp4" src="{assets_path}/environment/surfaces/materialsurfaceproperties-plane-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Material never bends or folds in ways that exceed the depth of the UI.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material surfaces can join together to become a single Material surface.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialproperties-join.mp4" src="{assets_path}/environment/surfaces/materialproperties-join.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialproperties-join.mp4" src="{assets_path}/environment/surfaces/materialproperties-join.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Multiple Material surfaces can join together to become a single surface.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (When split, Material can rejoin. For example, if you remove a portion of Material from a surface, the surface will become whole again.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialproperties-slicejoin.mp4" src="{assets_path}/environment/surfaces/materialproperties-slicejoin.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialproperties-slicejoin.mp4" src="{assets_path}/environment/surfaces/materialproperties-slicejoin.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material can split and become whole again.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Movement)
 ### 译文
@@ -515,74 +345,42 @@
 [en]: <> (Material can be spontaneously generated or dismissed anywhere in the environment.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialmovement-appear.mp4" src="{assets_path}/environment/surfaces/materialmovement-appear.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialmovement-appear.mp4" src="{assets_path}/environment/surfaces/materialmovement-appear.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material can be spontaneously generated or dismissed.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material can move along any axis.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialmovement-anyaxis.mp4" src="{assets_path}/environment/surfaces/materialmovement-anyaxis.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialmovement-anyaxis.mp4" src="{assets_path}/environment/surfaces/materialmovement-anyaxis.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material can move along various axes.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material surfaces can coordinate their motion.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialmovement-coordinate.mp4" src="{assets_path}/environment/surfaces/materialmovement-coordinate.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialmovement-coordinate.mp4" src="{assets_path}/environment/surfaces/materialmovement-coordinate.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material surfaces can coordinate their motion.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Material motion along the z-axis is typically a result of user interaction.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialmovement-z-interaction.mp4" src="{assets_path}/environment/surfaces/materialmovement-z-interaction.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialmovement-z-interaction.mp4" src="{assets_path}/environment/surfaces/materialmovement-z-interaction.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material surfaces exhibiting z-axis motion prompted by user interaction.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Attributes)
 <h2 id="attributes">译文</h2>
@@ -615,37 +413,17 @@
 [en]: <> (Material surface dimensions can be fixed with all content initially visible. The surface retains that size through all interactions.)
 译文
 
-</figcaption></figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-stretch-1.mp4" src="{assets_path}/environment/surfaces/materialattributes-stretch-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-stretch-1.mp4" src="{assets_path}/environment/surfaces/materialattributes-stretch-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material surface dimensions can grow along one or more axes to accommodate additional content.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-pan.mp4" src="{assets_path}/environment/surfaces/materialattributes-pan.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-pan.mp4" src="{assets_path}/environment/surfaces/materialattributes-pan.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material surface dimensions can remain rigid, but content can scroll or pan across the surface.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Composite surfaces)
 #### 译文
@@ -653,35 +431,17 @@
 [en]: <> (Surfaces can be divided into areas which display different types of behavior.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-1.mp4" src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-1.mp4" src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A single surface can contain multiple pannable surfaces, such as an embedded map \(1\) that pans independently of a scrollable list \(2\).)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-2.mp4" src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-2.mp4" src="{assets_path}/environment/surfaces/materialattributes-constructingsurfaces-2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A card can stretch to display a region that scrolls independently of other card content.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Stretchable surfaces)
 ### 译文
@@ -692,50 +452,22 @@
 [en]: <> (Typically, user interaction with a surface will stretch it in one direction. For example, tapping “more details” can cause a card to grow vertically and display additional content.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-stretchvert.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchvert.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-stretchvert.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchvert.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material stretch direction can be exclusively vertical.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-stretchhoriz.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchhoriz.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-stretchhoriz.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchhoriz.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material stretch direction can be exclusively horizontal.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-stretchverthoriz.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchverthoriz.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-stretchverthoriz.mp4" src="{assets_path}/environment/surfaces/surfaces-stretchverthoriz.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Material stretch direction can be along both horizontal and vertical axes, either independently or simultaneously.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Surface positioning and movement \(x/y\))
 ### 译文
@@ -746,50 +478,22 @@
 [en]: <> (Surface movement can be confined to a single axis, allow movement along a single axis at a time, or allow movement along both axes simultaneously.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-movement-vert.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-vert.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-movement-vert.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-vert.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Surfaces can remain in a fixed position. The top app bar \(1\) remains in a fixed position while the card collection \(2\) scrolls only vertically behind it.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-movement-horizvert.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-horizvert.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-movement-horizvert.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-horizvert.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Surfaces \(1,2\) can move in any direction, although movement can be confined to a single axis at a time.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-movement-cards.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-cards.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-movement-cards.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-cards.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Surfaces can move in any direction.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Surfaces can move independently of each other, or their movement can affect or be dependent upon the movement of other surfaces.)
 译文
@@ -797,35 +501,17 @@
 [en]: <> (A dependency can be based on a variety of mechanics, such as nearby surfaces moving when another surface expands, or the proportion of movement between surfaces moving in parallax.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-movement-independent.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-independent.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-movement-independent.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-independent.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Surfaces can move independently of each other.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/surfaces-movement-dependent.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-dependent.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/surfaces-movement-dependent.mp4" src="{assets_path}/environment/surfaces/surfaces-movement-dependent.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (One surface’s movement can depend upon another’s movement.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Surface opacity)
 ### 译文
@@ -839,13 +525,7 @@
 [en]: <> (Transparent surfaces lack clear edges, making it difficult to determine where surfaces begin and end, and which surface content belongs to.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-do.mp4" src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-do.mp4" src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-do.mp4" type="video/mp4"></video><figcaption>
 
 {caution}
 
@@ -854,17 +534,7 @@
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-dont.mp4" src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-dont.mp4" src="{assets_path}/environment/surfaces/materialattributes-surfaceopacity-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
@@ -873,9 +543,7 @@
 1. 译文
 2. 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Scrim)
 ### 译文
@@ -894,9 +562,7 @@
 [en]: <> (Multiple surfaces on a screen at a time can display scrims. Scrims can appear at any elevation, whether in the foreground or background.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/surfaces-attributes-scrim-back.png)
 
@@ -905,11 +571,7 @@
 [en]: <> (Foreground content attracts more attention when background content displays a scrim.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/environment/surfaces/surfaces-attributes-scrim-back.png)
 
@@ -918,7 +580,4 @@
 [en]: <> (A scrim lightens content displayed on the front surface and directs attention to the surface behind it.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-usage-howtouse.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Checkboxes)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -40,9 +36,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selection-controls-illos-01.png)
 
@@ -54,11 +48,7 @@
 [en]: <> (Selection controls have been in user interfaces for a long time and should be used as expected.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selection-controls-illos-03.png)
 
@@ -70,11 +60,7 @@
 [en]: <> (It should be visible at a glance if a selection control has been selected, and selected items should be more visually prominent than unselected items.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selection-controls-illos-02.png)
 
@@ -86,16 +72,12 @@
 [en]: <> (Selection controls make it easy to compare available options.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/when-to-use-radiobuttons.png)
 
@@ -104,11 +86,7 @@
 [en]: <> (Radio buttons)
 #### 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/when-to-use-checkboxes.png)
 
@@ -117,11 +95,7 @@
 [en]: <> (Checkboxes)
 #### 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/when-to-use-switches.png)
 
@@ -130,9 +104,7 @@
 [en]: <> (Switches)
 #### 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When to use radio buttons)
 ### 译文
@@ -162,9 +134,7 @@
 [en]: <> (Radio buttons should be used instead of checkboxes if only one item can be selected from a list.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-usage-whentouse-dont-checkboxes.png)
 
@@ -175,11 +145,7 @@
 [en]: <> (Don’t use checkboxes when only one item can be selected from a list. Use radio buttons instead.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-usage-whentouse-do-radio.png)
 
@@ -190,9 +156,7 @@
 [en]: <> (Use radio buttons when only one item can be selected from a list.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When to use switches)
 ### 译文
@@ -230,9 +194,7 @@
 [en]: <> (Don’t use radio buttons to toggle an option on or off.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-usage-whentouse-do-switches.png)
 
@@ -283,9 +245,7 @@
 [en]: <> (If a list consists of multiple options, avoid using switches. Use checkboxes instead because they take up less space.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-usage-whentouse-do-checkboxes.png)
 
@@ -309,9 +269,7 @@
 [en]: <> (Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-checkboxes-usage.png)
 
@@ -320,45 +278,17 @@
 [en]: <> (Selected and unselected checkboxes)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-checkbox-v03.mp4" src="{assets_path}/components/selection-controls/slidercontrols-checkbox-v03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-checkbox-v03.mp4" src="{assets_path}/components/selection-controls/slidercontrols-checkbox-v03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Using checkboxes to select multiple items in a list)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-checkbox-darkmode-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-checkbox-darkmode-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-checkbox-darkmode-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-checkbox-darkmode-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Using a checkbox to turn an option on or off)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Parent and child checkboxes)
 #### 译文
@@ -410,9 +340,7 @@
 [en]: <> (Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-radio-usage.png)
 
@@ -421,26 +349,12 @@
 [en]: <> (Selected and unselected radio buttons)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-radial-v01.mp4" src="{assets_path}/components/selection-controls/slidercontrols-radial-v01.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-radial-v01.mp4" src="{assets_path}/components/selection-controls/slidercontrols-radial-v01.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Using radio buttons to select a single item)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (States)
 ### 译文
@@ -485,9 +399,7 @@
 [en]: <> (Avoid creating a switch that includes the text “on” and “off” within the graphic itself. The switch alone should be sufficient.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-switches-usage.png)
 
@@ -498,24 +410,12 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-switches-darkmode-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-switches-darkmode-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-switches-darkmode-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-switches-darkmode-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Using a switch to turn an option on and off)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Behavior)
 ### 译文
@@ -523,20 +423,12 @@
 [en]: <> (When a user toggles a switch, its corresponding action takes effect immediately. If a switch cannot be turned on, the switch will automatically turn back off.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-1a-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-1a-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-1a-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-1a-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A switch unable to be toggled on)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Display processing status)
 #### 译文
@@ -547,20 +439,12 @@
 [en]: <> (A processing status is an animation on the thumb of the switch. For example, it can be used when a switch that controls a hardware feature experiences a delay before its final status can be confirmed.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/selection-controls/slidercontrols-1b-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-1b-v02.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/selection-controls/slidercontrols-1b-v02.mp4" src="{assets_path}/components/selection-controls/slidercontrols-1b-v02.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (A processing status animation)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (States)
 ### 译文
@@ -652,5 +536,4 @@
 
 ![]({assets_path}/components/selection-controls/selectioncontrols-spec-switches.png)
 
-</figure>
-</div>
+</figure></div>

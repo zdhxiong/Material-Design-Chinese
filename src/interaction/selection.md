@@ -13,9 +13,7 @@
 * [译文](#properties)
 * [译文](#item-selection)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Properties)
 <h2 id="properties">译文</h2>
@@ -77,60 +75,22 @@
 [en]: <> (To select multiple items simultaneously, use a long press and drag gesture across items. However, don’t use this gesture for selection if your app already uses this gesture to pick up and move items \(like [cards]\(https://www.mdui.org/design/components/cards.html\)\).)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-selecting-items.mp4" src="{assets_path}/interaction/selection/item-selection-selecting-items.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-selecting-items.mp4" src="{assets_path}/interaction/selection/item-selection-selecting-items.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (On touch devices, select an item by pressing and holding it.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-tap.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-tap.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-tap.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-tap.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Once an item is selected, tap the item to toggle its selection state.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-photo.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-photo.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-photo.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-photo.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Users may long press and drag across multiple items to quickly select them.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Selecting items \(desktop\))
 #### 译文
@@ -138,20 +98,12 @@
 [en]: <> (To make a selection, hover over an item to reveal a checkbox. The checkbox can then be clicked.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-desktop.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-desktop.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-toggling-selection-desktop.mp4" src="{assets_path}/interaction/selection/item-selection-toggling-selection-desktop.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (On desktop, clicking a checkbox selects an item.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Indicating selected elements)
 ### 译文
@@ -159,43 +111,18 @@
 [en]: <> (To indicate selection, display a check mark and scrim over the selected item or its avatar.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-indicating-selection-do.mp4" src="{assets_path}/interaction/selection/item-selection-indicating-selection-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-indicating-selection-do.mp4" src="{assets_path}/interaction/selection/item-selection-indicating-selection-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Check marks replace icons or avatars if there is space. For smaller items, use compact checkmarks to avoid obscuring content.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/interaction/selection/item-selection-indicating-selection-dont.mp4" src="{assets_path}/interaction/selection/item-selection-indicating-selection-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/interaction/selection/item-selection-indicating-selection-dont.mp4" src="{assets_path}/interaction/selection/item-selection-indicating-selection-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Selected items should be distinct from unselected items. A darker scrim, or an additional signifier, such as a check mark, would better differentiate selected items.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-</div>
+</figcaption></figure></div></div></div>

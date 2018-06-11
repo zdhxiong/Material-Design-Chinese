@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/sheets-bottom/bottom-sheet-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -29,9 +27,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -47,9 +43,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/usage-standard.png)
 
@@ -61,11 +55,7 @@
 [en]: <> (A user can interact with both the bottom sheet and the rest of the screen content.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/usage-modal.png)
 
@@ -77,16 +67,12 @@
 [en]: <> (A user must interact with or dismiss a modal bottom sheet.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/sheets-bottom-illos-01.png)
 
@@ -98,11 +84,7 @@
 [en]: <> (Bottom sheets contain content that supplements the screen’s primary UI region.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/sheets-bottom-illos-03.png)
 
@@ -114,11 +96,7 @@
 [en]: <> (Bottom sheets can display a wide variety of content and layouts.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/sheets-bottom-illos-02.png)
 
@@ -130,9 +108,7 @@
 [en]: <> (Bottom sheets are easy to reach on a mobile device.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -158,9 +134,7 @@
 [en]: <> (Bottom sheets are anchored to the bottom edge of the screen and appear in front of other UI elements. They are full-width on mobile and can be inset or full-width on tablet or desktop.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-sheet-placement-do.png)
 
@@ -171,11 +145,7 @@
 [en]: <> (A bottom sheet is anchored to the bottom edge of the screen.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-sheet-placement-dont.png)
 
@@ -186,11 +156,7 @@
 [en]: <> (Don’t inset all sides of a bottom sheet from screen edges. This can make it hard to see and allow it to be confused for other components, such as snackbars.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<figure>
+</figcaption></figure></div></div><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-sheet-desktop.png)
 
@@ -210,9 +176,7 @@
 [en]: <> (Content from a bottom sheet that initially appears below the screen edge can become visible when the sheet is dragged into view.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-contents-list.png)
 
@@ -221,11 +185,7 @@
 [en]: <> (Menu of actions \(in a list\) inside a modal bottom sheet)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-contents-grid.png)
 
@@ -234,13 +194,7 @@
 [en]: <> (Menu of apps \(in a grid layout\) inside a modal bottom sheet)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-contents-partial.png)
 
@@ -249,11 +203,7 @@
 [en]: <> (The location information in this standard bottom sheet initially extends below the screen edge. It can be dragged into view.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/anatomy-contents-full.png)
 
@@ -262,9 +212,7 @@
 [en]: <> (This music player has been made fully visible to reveal a track list beneath the player.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 <h2 id="behavior">译文</h2>
@@ -287,45 +235,21 @@
 [en]: <> (In the top app bar, full-screen standard bottom sheets contain a collapse icon that returns the sheet to its initial position. Full-screen modal bottom sheets contain a dismiss icon that dismisses the sheet entirely from view.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-bottom/behavior-visibility-standard.mp4" src="{assets_path}/components/sheets-bottom/behavior-visibility-standard.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-bottom/behavior-visibility-standard.mp4" src="{assets_path}/components/sheets-bottom/behavior-visibility-standard.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Partially visible bottom sheets can be dragged to full-screen view and scroll internally.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-bottom/modal-behavior-dismissal-close.mp4" src="{assets_path}/components/sheets-bottom/modal-behavior-dismissal-close.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-bottom/modal-behavior-dismissal-close.mp4" src="{assets_path}/components/sheets-bottom/modal-behavior-dismissal-close.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Include a close affordance in a full-height modal bottom sheet to dismiss the sheet.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Standard bottom sheet)
 <h2 id="standard-bottom-sheet">译文</h2>
@@ -336,9 +260,7 @@
 [en]: <> (Standard bottom sheets co-exist with the screen’s main UI region and allow for simultaneously viewing and interacting with both regions. They are commonly used to keep a feature or secondary content visible on screen when content in main UI region is frequently scrolled or panned.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/standard-usage-content.png)
 
@@ -349,11 +271,7 @@
 [en]: <> (Standard bottom sheets can contain supplementary content that continues below the screen, such as location information over a map.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/standard-usage-feature.png)
 
@@ -364,9 +282,7 @@
 [en]: <> (Use a standard bottom sheet to persist an important feature such as media controls in a music app.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -377,9 +293,7 @@
 [en]: <> (Standard bottom sheets remain on-screen when a user interacts with the main UI region or the sheet itself. They have a default elevation of 8dp, which allows content in the main UI region behind to scroll or pan and for the sheet to temporarily cover the main UI region when made full-screen. At full-screen height, they should contain a collapse icon in an app bar to return to their initial position.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/standard-behavior-interaction-drag.png)
 
@@ -390,11 +304,7 @@
 [en]: <> (Standard bottom sheets are elevated above the main UI region so their visibility is not affected by panning or scrolling.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/standard-behavior-interaction-scroll.png)
 
@@ -405,9 +315,7 @@
 [en]: <> (This music player in a standard bottom sheet remains on-screen as the user browses available music.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -424,9 +332,7 @@
 [en]: <> (On mobile, the location information for this map is displayed in a standard bottom sheet due to limited screen width.)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/sheets-bottom/standard-placement-desktop.png)
 
@@ -449,9 +355,7 @@
 [en]: <> (Modal bottom sheets are used in mobile apps only.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-usage-overflow.png)
 
@@ -462,11 +366,7 @@
 [en]: <> (Modal bottom sheets can be used instead of menus to present additional screen actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-usage-cross-app.png)
 
@@ -477,9 +377,7 @@
 [en]: <> (Use a modal bottom sheet to provide deep links to another app.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Behavior)
 ### 译文
@@ -493,45 +391,21 @@
 [en]: <> (A modal bottom sheet causes all content and UI elements behind it to display a scrim, which indicates that they will not respond to user interaction. Tapping the scrim dismisses both the modal bottom sheet and scrim from view.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-bottom/modal-usage-overflow.mp4" src="{assets_path}/components/sheets-bottom/modal-usage-overflow.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-bottom/modal-usage-overflow.mp4" src="{assets_path}/components/sheets-bottom/modal-usage-overflow.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Use a visible scrim with modal bottom sheets to inform users they cannot interact with the rest of the screen.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/sheets-bottom/modal-usage-overflow-dont.mp4" src="{assets_path}/components/sheets-bottom/modal-usage-overflow-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-bottom/modal-usage-overflow-dont.mp4" src="{assets_path}/components/sheets-bottom/modal-usage-overflow-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t use an invisible scrim for modal bottom sheets. This can mislead users about their ability to interact with the rest of the screen.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Visibility)
 #### 译文
@@ -554,9 +428,7 @@
 译文     | 译文<br>译文
 译文     | 译文<br>译文<br>译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-behavior-visibility-under-half-do.png)
 
@@ -567,11 +439,7 @@
 [en]: <> (Modal bottom sheets with few items are fully visible upon opening.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-behavior-visibility-over-half-dont.png)
 
@@ -582,9 +450,7 @@
 [en]: <> (Don’t make tall bottom sheets full-screen upon opening. This places the top content immediately out of reach for users on mobile devices.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Control)
 #### 译文
@@ -601,9 +467,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-behavior-dismissal-tap.png)
 
@@ -614,11 +478,7 @@
 [en]: <> (Tapping the scrim dismisses a modal bottom sheet.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-behavior-dismissal-swipe.png)
 
@@ -629,13 +489,7 @@
 [en]: <> (A modal bottom sheet can be dismissed by swiping the sheet down.)
 译文
 
-</figcaption></figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/sheets-bottom/modal-behavior-dismissal-close.png)
 
@@ -646,9 +500,7 @@
 [en]: <> (Display a close affordance in a full-screen modal bottom sheet.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Placement)
 ### 译文
@@ -742,9 +594,7 @@
 
 ![]({assets_path}/components/sheets-bottom/specs-sheets-bottom-modal-50.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/sheets-bottom/specs-sheets-bottom-modal-lessthan50.png)
 
@@ -757,5 +607,4 @@
 
 ![]({assets_path}/components/sheets-bottom/specs-sheets-bottom-coplanar.png)
 
-</figure>
-</div>
+</figure></div>

@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/text-fields/textfields-intro.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -29,9 +27,7 @@
 * [译文](#theming)
 * [译文](#spec)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -42,9 +38,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfield-illo-01.png)
 
@@ -56,11 +50,7 @@
 [en]: <> (Text fields should stand out and indicate that users can input information.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfield-illo-02.png)
 
@@ -72,11 +62,7 @@
 [en]: <> (Text field states should be clearly differentiated from one another.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfield-illo-03.png)
 
@@ -88,9 +74,7 @@
 [en]: <> (Text fields should make it easy to understand the requested information and to address any errors.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -135,9 +119,7 @@
 * 译文
 * 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-type-filled.png)
 
@@ -146,11 +128,7 @@
 [en]: <> (Mobile form using filled text fields)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-type-filled.png)
 
@@ -159,9 +137,7 @@
 [en]: <> (The same mobile form using outlined text fields)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Both types of text fields in one UI)
 #### 译文
@@ -169,9 +145,7 @@
 [en]: <> (If both types of text fields are used in a single UI, they should be used consistently within different sections, and not intermixed within the same region. For example, you could use outlined text fields in one section and filled text fields in another.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-type-mix-do.png)
 
@@ -182,11 +156,7 @@
 [en]: <> (When using both types of text fields in a UI, separate them by region.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-type-mix-dont.png)
 
@@ -197,9 +167,7 @@
 [en]: <> (When using a both types of text fields, don’t use both next to each other, or within the same form.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
 <h2 id="anatomy">译文</h2>
@@ -247,15 +215,11 @@
 [en]: <> (The container of an outlined text field has rounded corners, while the container of a filled text field has rounded top corners and square bottom corners.)
 译文
 
-</div><div class="mdui-col">
-
-<figure>
+</div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-anatomy-container.png)
 
-</figure>
-
-</div></div>
+</figure></div></div>
 
 [en]: <> (Label text)
 ### 译文
@@ -266,26 +230,14 @@
 [en]: <> (Label text should be aligned with the input line, and always visible. It can be placed in the middle of a text field, or rest near the top of the container.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-anatomy-label-text-do.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-label-text-do.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-anatomy-label-text-do.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-label-text-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Label text should always be visible, moving from the middle of the text field to the top \(if the field is selected\).)
 译文
 
-</figcaption>
-
-</figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-annotations-labels-dont-1.png)
 
@@ -296,11 +248,7 @@
 [en]: <> (Label text shouldn’t be truncated. Keep it short, clear, and fully visible.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-annotations-labels-dont-2.png)
 
@@ -311,9 +259,7 @@
 [en]: <> (Label text shouldn’t take up multiple lines.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Required text indicator)
 #### 译文
@@ -342,15 +288,11 @@
 [en]: <> (Input text)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-annotations-2.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Input text is text the user has entered into a text field.)
 译文
@@ -372,15 +314,11 @@
 [en]: <> (Assistive elements)
 ### 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-annotations-3.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (Assistive elements provide additional detail about text entered into text fields.)
 译文
@@ -422,56 +360,28 @@
 * 译文
 * 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-anatomy-error.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-error.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-anatomy-error.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-error.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Swap helper text with error text.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-anatomy-error-dont.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-error-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-anatomy-error-dont.mp4" src="{assets_path}/components/text-fields/textfields-anatomy-error-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t place error text under helper text, as their appearance will shift content.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-anatomy-error-caution.png" src="{assets_path}/components/text-fields/textfields-anatomy-error-caution.png" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-anatomy-error-caution.png" src="{assets_path}/components/text-fields/textfields-anatomy-error-caution.png" type="video/mp4"></video><figcaption>
 
 {caution}
 
 [en]: <> (Long errors can wrap to multiple lines if there isn’t enough space to clearly describe the error. In this case, ensure padding between text fields is sufficient to prevent multi-lined errors from bumping layout content.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Icons)
 ### 译文
@@ -482,15 +392,11 @@
 [en]: <> (Leading and trailing icons change their position based on LTR or RTL contexts.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/text-fields/textfields-annotations-4.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (1. Icon signifier)
 #### 译文
@@ -533,22 +439,12 @@
 [en]: <> (Filled text fields carry more visual emphasis, making them stand out when surrounded by other content and components.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-filled-motion2.mp4" src="{assets_path}/components/text-fields/textfields-filled-motion2.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-filled-motion2.mp4" src="{assets_path}/components/text-fields/textfields-filled-motion2.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Filled text field)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/text-fields/textfields-filled-dont.png)
 
@@ -584,20 +480,12 @@
 [en]: <> (Outlined text fields have less visual emphasis than filled text fields, which helps simplify layout in places like forms, where many text fields are placed together.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-outline-motion1.mp4" src="{assets_path}/components/text-fields/textfields-outline-motion1.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-outline-motion1.mp4" src="{assets_path}/components/text-fields/textfields-outline-motion1.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Outlined text field)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (States)
 ### 译文
@@ -626,13 +514,7 @@
 * 译文
 * 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-input-motion2.mp4" src="{assets_path}/components/text-fields/textfields-input-motion2.mp4" type="video/mp4">
-</video>
-
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-input-motion2.mp4" src="{assets_path}/components/text-fields/textfields-input-motion2.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Single-line fields)
 #### 译文
@@ -643,15 +525,7 @@
 [en]: <> (Single-line fields are not suitable for collecting long responses. For those, use a multi-line text field or text area instead.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Multi-line fields)
 #### 译文
@@ -662,19 +536,7 @@
 [en]: <> (These fields initially appear as single-line fields, which is useful for compact layouts that need to be able to accomodate large amounts of text.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" src="{assets_path}/components/text-fields/textfields-input-multiline.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Text areas)
 #### 译文
@@ -688,11 +550,7 @@
 [en]: <> (These should be used instead of multi-line fields on the web. Ensure the height of a text area fits within [mobile screen sizes]\(https://material.io/devices/\) .)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Theming)
 <h2 id="theming">译文</h2>
@@ -834,15 +692,11 @@
 
 ![]({assets_path}/components/text-fields/specs-textfields-filled.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/text-fields/specs-textfields-filled-active.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/text-fields/specs-textfields-filled-error.png)
 
@@ -855,17 +709,12 @@
 
 ![]({assets_path}/components/text-fields/specs-textfields-outlined.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/text-fields/specs-textfields-outlined-active.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/text-fields/specs-textfields-outlined-error.png)
 
-</figure>
-</div>
+</figure></div>

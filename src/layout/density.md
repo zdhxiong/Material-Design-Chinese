@@ -17,9 +17,7 @@
 * [译文](#touch-click-targets)
 * [译文](#typographic-density)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -27,9 +25,7 @@
 [en]: <> (Density principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/density/density-illos-01.png)
 
@@ -41,11 +37,7 @@
 [en]: <> (Dense UIs improve browsing and interaction with large amounts of content.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/density/density-illos-02.png)
 
@@ -57,11 +49,7 @@
 [en]: <> (Dense UIs help users focus by reducing space between actions.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/density/density-illos-03.png)
 
@@ -73,9 +61,7 @@
 [en]: <> (Density exposes more content and actions on a single screen.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (When to apply density)
 ### 译文
@@ -97,9 +83,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/density/layout-density-forms.png)
 
@@ -190,9 +174,7 @@
 [en]: <> (High-density component row height, with wide margins and gutters)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/density/rally-density-gridvcontent-low-high.gif)
 
@@ -201,9 +183,7 @@
 [en]: <> (Default density component row height, with narrow margins and gutters)
 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/layout/density/rally-gridvcontent-dont.gif)
 
@@ -248,11 +228,7 @@
 [en]: <> (Default density in a list)
 译文
 
-</figcaption></figure>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+</figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/density/rally-touchtargets-2.png)
 
@@ -263,11 +239,7 @@
 [en]: <> (In this high-density list, the minimum space \(48px\) is defined by the tap target on each list item.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/layout/density/rally-touchtargets-3-dont.png)
 
@@ -278,9 +250,7 @@
 [en]: <> (Don’t use less than the minimum touch target size of 48dp for touch devices or devices that support both touch and click input methods.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Click targets)
 ### 译文
@@ -333,5 +303,4 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-</div>
+</figcaption></figure></div>

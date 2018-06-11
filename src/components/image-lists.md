@@ -10,9 +10,7 @@
 
 ![]({assets_path}/components/image-lists/hero-gridlist.png)
 
-</figure>
-
-<nav>
+</figure><nav>
 
 [en]: <> (Usage)
 [en]: <> (Anatomy)
@@ -27,9 +25,7 @@
 * [译文](#theming)
 * [译文](#specs)
 
-</nav>
-
-</div><div class="article__body">
+</nav></div><div class="article__body">
 
 [en]: <> (Usage)
 <h2 id="usage">译文</h2>
@@ -40,9 +36,7 @@
 [en]: <> (Principles)
 ### 译文
 
-<div class="mdui-row-sm-3"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/image-lists/gridlist-illos-01.png)
 
@@ -54,11 +48,7 @@
 [en]: <> (Image lists allow users to scan content based on images.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/image-lists/gridlist-illos-03.png)
 
@@ -70,11 +60,7 @@
 [en]: <> (Image lists allow users to easily compare items within a collection.)
 译文
 
-</figcaption></figure>
-
-</div><div class="mdui-col">
-
-<figure>
+</figcaption></figure></div><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/image-lists/gridlist-illos-04.png)
 
@@ -86,9 +72,7 @@
 [en]: <> (Image lists are responsively integrated with the surrounding content and layout.)
 译文
 
-</figcaption></figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 ### 译文
@@ -116,15 +100,11 @@
 [en]: <> (Image lists are comprised of containers that are set at a certain aspect ratio. Each item in an image list can display optional text and iconography below or above the image container.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
 ![]({assets_path}/components/image-lists/elements.png)
 
-</figure>
-
-</div><div class="mdui-col">
+</figure></div><div class="mdui-col">
 
 [en]: <> (*Image container*<br>The image container displays an image list item’s image or illustration.)
 [en]: <> (*Text labels \(optional\)*<br>Text labels display one line of text related to an image list item.)
@@ -145,11 +125,7 @@
 [en]: <> (Padding can vary between images in an image list. The following padding values are recommended: 1, 2, 4, 8, 16, 20, 24, 32 dp.)
 译文
 
-<figure>
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/custom-02-layout.mp4" src="{assets_path}/components/image-lists/custom-02-layout.mp4" type="video/mp4">
-</video>
-</figure>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/custom-02-layout.mp4" src="{assets_path}/components/image-lists/custom-02-layout.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Behavior)
 <h2 id="behavior">译文</h2>
@@ -160,81 +136,31 @@
 [en]: <> (Image lists items may be tapped, dragged, filtered, or sorted.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-tap.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-tap.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-tap.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-tap.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping an image list item displays more detail about that item.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-filtered.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-filtered.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-filtered.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-filtered.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Image list content can be filtered or sorted by date, file size, alphabetical order, or other parameters.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
-
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-dragged.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-dragged.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-dragged.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-dragged.mp4" type="video/mp4"></video><figcaption>
 
 {caution}
 
 [en]: <> (You can drag an image list item to reorder it, but this interaction should be disabled if images are sorted or filtered.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-swipe-dont.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-swipe-dont.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-swipe-dont.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-swipe-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t allow swipe gestures on individual image list items. Image lists should be perceived as a group.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Layout grid)
 ### 译文
@@ -279,35 +205,17 @@
 [en]: <> (Image lists inherit the responsive behavior of the layout grid.)
 译文
 
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/composition-03.mp4" src="{assets_path}/components/image-lists/composition-03.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/composition-03.mp4" src="{assets_path}/components/image-lists/composition-03.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Image lists respond to the responsive layout grid.)
 译文
 
-</figcaption>
-
-</figure>
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/composition-04.mp4" src="{assets_path}/components/image-lists/composition-04.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/composition-04.mp4" src="{assets_path}/components/image-lists/composition-04.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Image lists are fixed to the layout grid.)
 译文
 
-</figcaption>
-
-</figure>
+</figcaption></figure>
 
 [en]: <> (Scrolling)
 ### 译文
@@ -315,41 +223,17 @@
 [en]: <> (Image lists can scroll vertically or horizontally. All items in an image list must scroll together as a collection. Image cropping can be used to indicate scroll direction.)
 译文
 
-<div class="mdui-row-sm-2"><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-vert.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-vert.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+<div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-vert.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-vert.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Image list items scroll together.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div><div class="mdui-col">
-
-<figure>
-
-<video controls loop muted preload="metadata" class="mdui-video-fluid">
-<source data-src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-horz.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-horz.mp4" type="video/mp4">
-</video>
-
-<figcaption>
+</figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-horz.mp4" src="{assets_path}/components/image-lists/imagelist-behavior-scrolling-horz.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Image lists can scroll horizontally.)
 译文
 
-</figcaption>
-
-</figure>
-
-</div></div>
+</figcaption></figure></div></div>
 
 [en]: <> (Types)
 <h2 id="types">译文</h2>
@@ -364,9 +248,7 @@
 
 ![]({assets_path}/components/image-lists/hero-gridlist-standard.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/image-lists/standard-usage-01.png)
 
@@ -380,9 +262,7 @@
 1. 译文
 2. 译文
 
-</figcaption></figure>
-
-<figure>
+</figcaption></figure><figure>
 
 ![]({assets_path}/components/image-lists/standard-usage-02.png)
 
@@ -403,9 +283,7 @@
 
 ![]({assets_path}/components/image-lists/hero-gridlist-quilted.png)
 
-</figure>
-
-<figure>
+</figure><figure>
 
 ![]({assets_path}/components/image-lists/quilt-usage-02-dont.png)
 
@@ -675,5 +553,4 @@
 
 ![]({assets_path}/components/image-lists/specs-imagelist-woven.png)
 
-</figure>
-</div>
+</figure></div>
