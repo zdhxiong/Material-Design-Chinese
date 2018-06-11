@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Guidelines)
-# 译文
+# 指南
 
 [en]: <> (Create custom Material Themes to make your product unique. Implement your design vision with Material Theming, which simplifies the process of customizing your product and using components, which are the building blocks that make a product usable and functional.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Component behavior)
-# 译文
+# 组件行为
 
 [en]: <> (The following guidance describes how components behave, both in the grid and between breakpoints.)
 译文

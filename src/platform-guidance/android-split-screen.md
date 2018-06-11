@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android split-screen)
-# 译文
+# Android 分屏
 
 [en]: <> (Split-screen mode allows two activities to be visible on screen at the same time.)
 译文

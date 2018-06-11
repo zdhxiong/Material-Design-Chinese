@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Implementing your theme)
-# 译文
+# 实现你的主题
 
 [en]: <> (The following techniques can be used to customize and apply color, typography, and shape. Iconography is provided with five unique sets to choose from.)
 译文

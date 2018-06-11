@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Gesture education)
-# 译文
+# 附加手势
 
 [en]: <> (Gesture education explains how to interact with an element using a gesture.)
 译文

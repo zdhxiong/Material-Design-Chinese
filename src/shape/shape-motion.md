@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Shape and motion)
-# 译文
+# 形状和动效
 
 [en]: <> (Elements can change shape in response to content changes or user interaction.)
 译文

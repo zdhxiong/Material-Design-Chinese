@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Elevation)
-# 译文
+# 海拔高度
 
 [en]: <> (Elevation is the relative distance between two surfaces along the z-axis.)
 译文

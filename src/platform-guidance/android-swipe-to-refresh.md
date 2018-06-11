@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android swipe to refresh)
-# 译文
+# Android 滑动刷新
 
 [en]: <> (Swipe to refresh manually refreshes screen content with a user action or gesture.)
 译文

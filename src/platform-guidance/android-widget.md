@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android widget)
-# 译文
+# Android 小部件
 
 [en]: <> (Widgets display glanceable information of an app's most important data and functionality.)
 译文

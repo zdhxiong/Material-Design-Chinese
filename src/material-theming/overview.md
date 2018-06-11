@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Overview)
-# 译文
+# 概述
 
 [en]: <> (Material Theming refers to the customization of your Material Design app to better reflect your product’s brand.)
 译文

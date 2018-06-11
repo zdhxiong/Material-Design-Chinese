@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Spacing methods)
-# 译文
+# 间距方法
 
 [en]: <> (Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.)
 译文

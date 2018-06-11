@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Text legibility)
-# 译文
+# 文本可读性
 
 [en]: <> (Color plays an important role in text legibility.)
 译文

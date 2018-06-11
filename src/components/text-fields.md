@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Text fields)
-# 译文
+# 文本框
 
 [en]: <> (Text fields let users enter and edit text.)
 译文

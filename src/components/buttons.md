@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Buttons)
-# 译文
+# 按钮
 
 [en]: <> (Buttons allow users to take actions, and make choices, with a single tap.)
 译文

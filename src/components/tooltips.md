@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Tooltips)
-# 译文
+# 工具提示
 
 [en]: <> (Tooltips display informative text when users hover over, focus on, or tap an element.)
 译文

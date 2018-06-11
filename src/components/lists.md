@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Lists)
-# 译文
+# 列表
 
 [en]: <> (Lists are continuous, vertical indexes of text or images.)
 译文

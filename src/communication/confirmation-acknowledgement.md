@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Confirmation & acknowledgement)
-# 译文
+# 确认 & 确知
 
 [en]: <> (Confirmation and acknowledgement communications ask for confirmation before taking an action and acknowledge successful actions.)
 译文

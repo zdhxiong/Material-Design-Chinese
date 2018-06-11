@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Progress indicators)
-# 译文
+# 进度指示器
 
 [en]: <> (Progress indicators express an unspecified wait time or display the length of a process.)
 译文

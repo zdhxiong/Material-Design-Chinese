@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Imagery)
-# 译文
+# 图像
 
 [en]: <> (Imagery communicates and differentiates a product through visuals.)
 译文

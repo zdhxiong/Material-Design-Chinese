@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android navigating between apps)
-# 译文
+# Android 应用间转换
 
 [en]: <> (Navigate directly from one app to another when using common actions.)
 译文

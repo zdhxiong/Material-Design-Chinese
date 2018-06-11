@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Onboarding)
-# 译文
+# 导览
 
 [en]: <> (Onboarding is a virtual unboxing experience that helps users get started with an app.)
 译文

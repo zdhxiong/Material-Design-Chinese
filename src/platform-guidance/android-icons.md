@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android icons)
-# 译文
+# Android 图标
 
 [en]: <> (Android O icons represent your app on a device's Home and All Apps screens.)
 译文

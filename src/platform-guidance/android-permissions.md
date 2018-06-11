@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android permissions)
-# 译文
+# Android 权限
 
 [en]: <> (Permission requests should be simple, transparent, and understandable.)
 译文

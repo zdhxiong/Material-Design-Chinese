@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Density)
-# 译文
+# 密集度
 
 [en]: <> (Material Design uses low-density space by default \(with large tap targets and margins\) but offers high-density space when it improves the user experience.)
 译文

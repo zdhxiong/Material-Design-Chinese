@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Introduction)
-# 译文
+# 介绍
 
 [en]: <> (Material Design is a visual language that synthesizes the classic principles of good design with the innovation of technology and science.)
 译文
@@ -9,7 +9,7 @@
 </div><div class="article__body">
 
 [en]: <> (Goals)
-### 译文
+### 目标
 
 <figure>
 
@@ -17,11 +17,11 @@
 
 </figure><div class="mdui-row-sm-3"><div class="mdui-col">
 
-[en]: <> (Create)
+[en]: <> (创造)
 #### 译文
 
 [en]: <> (Create a visual language that synthesizes the classic principles of good design with the innovation and possibility of technology and science.)
-译文
+创造一个将经典的设计原则和科技、创新相结合的设计语言。
 
 </div><div class="mdui-col">
 
@@ -42,7 +42,7 @@
 </div></div>
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <figure>
 
@@ -51,7 +51,7 @@
 </figure>
 
 [en]: <> (Material is the metaphor)
-#### 译文
+#### Material 是一种隐喻
 
 [en]: <> (Material Design is inspired by the physical world and its textures, including how they reflect light and cast shadows. Material surfaces reimagine the mediums of paper and ink.)
 译文
@@ -63,7 +63,7 @@
 <figcaption>
 
 [en]: <> (Bold, graphic, intentional)
-#### 译文
+#### 鲜明、形象、有意义
 
 [en]: <> (Material Design is guided by print design methods — typography, grids, space, scale, color, and imagery — to create hierarchy, meaning, and focus that immerse viewers in the experience.)
 译文
@@ -75,7 +75,7 @@
 <figcaption>
 
 [en]: <> (Motion provides meaning)
-#### 译文
+#### 有意义的动画效果
 
 [en]: <> (Motion focuses attention and maintains continuity, through subtle feedback and coherent transitions. As elements appear on screen, they transform and reorganize the environment, with interactions generating new transformations.)
 译文
@@ -99,7 +99,7 @@
 <figcaption>
 
 [en]: <> (Cross-platform)
-#### 译文
+#### 跨平台
 
 [en]: <> (Material Design maintains the same UI across platforms, using shared components across Android, iOS, Flutter, and the web.)
 译文

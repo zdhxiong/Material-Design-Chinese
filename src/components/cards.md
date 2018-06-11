@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Cards)
-# 译文
+# 卡片
 
 [en]: <> (Cards contain content and actions about a single subject.)
 译文

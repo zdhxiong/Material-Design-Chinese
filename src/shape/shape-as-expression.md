@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Shape as expression)
-# 译文
+# 形状表达
 
 [en]: <> (Shape can communicate an element’s state or help express a brand.)
 译文

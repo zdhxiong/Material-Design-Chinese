@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (App bars: bottom)
-# 译文
+# 应用栏：底部
 
 [en]: <> (A bottom app bar displays navigation and key actions at the bottom of mobile screens.)
 译文

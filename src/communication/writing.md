@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Writing)
-# 译文
+# 写作
 
 [en]: <> (Text should be understandable by anyone, anywhere, regardless of their culture or language.)
 译文

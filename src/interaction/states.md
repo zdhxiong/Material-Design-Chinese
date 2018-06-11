@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (States)
-# 译文
+# 状态
 
 [en]: <> (States are visual representations used to communicate the status of a component or interactive element.)
 译文

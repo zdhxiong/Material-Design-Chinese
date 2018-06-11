@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Shape and hierarchy)
-# 译文
+# 形状和层次结构
 
 [en]: <> (Shapes can direct attention to important elements and show how surfaces relate to one another.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Owl)
-# 译文
+# Owl
 
 [en]: <> (Owl is an educational app that uses Material Design components and Material Theming to create an energetic, motivational brand experience.)
 译文

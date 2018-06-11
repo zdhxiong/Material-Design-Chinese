@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Language support)
-# 译文
+# 语言支持
 
 [en]: <> (Language size and display style vary based on whether a character set is English-like, tall, or dense.)
 译文

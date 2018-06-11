@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Sliders)
-# 译文
+# 滑块
 
 [en]: <> (Sliders allow users to make selections from a range of values.)
 译文

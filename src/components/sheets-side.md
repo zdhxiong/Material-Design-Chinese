@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Sheets: side)
-# 译文
+# 侧边栏卡片
 
 [en]: <> (Side sheets are surfaces containing supplementary content that are anchored to the left or right edge of the screen.)
 译文

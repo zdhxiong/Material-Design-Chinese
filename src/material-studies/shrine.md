@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Shrine)
-# 译文
+# Shrine
 
 [en]: <> (Shrine is a retail app that uses Material Design components and Material Theming to express branding for a variety of fashion and lifestyle items.)
 译文

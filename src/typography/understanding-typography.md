@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Understanding typography)
-# 译文
+# 理解排版
 
 [en]: <> (Typography expresses hierarchy and brand presence.)
 译文

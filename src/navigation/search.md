@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Search)
-# 译文
+# 搜索
 
 [en]: <> (Search allows users to quickly find app content.)
 译文

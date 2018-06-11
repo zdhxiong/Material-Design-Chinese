@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (App bars: top)
-# 译文
+# 应用栏：顶部
 
 [en]: <> (The top app bar displays information and actions relating to the current screen.)
 译文

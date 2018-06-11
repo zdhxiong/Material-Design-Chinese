@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android text selection toolbar)
-# 译文
+# Android 文本选择工具
 
 [en]: <> (A toolbar appears in front of selected text, displaying the actions of Cut, Copy, Paste, and More.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Tabs)
-# 译文
+# Tab 选项卡
 
 [en]: <> (Tabs organize content across different screens, data sets, and other interactions.)
 译文

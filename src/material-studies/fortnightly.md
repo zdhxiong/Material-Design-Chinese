@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Fortnightly)
-# 译文
+# Fortnightly
 
 [en]: <> (Fortnightly is a news app that uses Material Design components and Material Theming to create an on-brand, content-focused experience.)
 译文

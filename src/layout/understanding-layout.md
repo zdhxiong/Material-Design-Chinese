@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Understanding layout)
-# 译文
+# 理解布局
 
 [en]: <> (Material Design layouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.)
 译文

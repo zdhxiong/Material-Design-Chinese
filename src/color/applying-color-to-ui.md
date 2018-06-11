@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Applying color to UI)
-# 译文
+# 将颜色应用于 UI
 
 [en]: <> (Color is applied to UI elements and components in consistent and meaningful ways.)
 译文

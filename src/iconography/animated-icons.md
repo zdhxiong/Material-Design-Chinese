@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Animated icons)
-# 译文
+# 动画图标
 
 <nav>
 

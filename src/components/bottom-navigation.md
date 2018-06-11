@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Bottom navigation)
-# 译文
+# 底部导航
 
 [en]: <> (Bottom navigation bars allow movement between primary destinations in an app.)
 译文

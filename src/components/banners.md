@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Banners)
-# 译文
+# 横幅
 
 [en]: <> (A banner displays a prominent message and related optional actions.)
 译文

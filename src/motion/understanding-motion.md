@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Understanding motion)
-# 译文
+# 理解动效
 
 [en]: <> (Motion helps make a UI expressive and easy to use.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Help & feedback)
-# 译文
+# 帮助 & 反馈
 
 [en]: <> (Help content provides answers to user questions and concerns.)
 译文

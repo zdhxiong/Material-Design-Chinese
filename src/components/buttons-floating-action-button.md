@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Buttons: floating action button)
-# 译文
+# 浮动操作按钮
 
 [en]: <> (A floating action button \(FAB\) represents the primary action of a screen.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Selection)
-# 译文
+# 选择
 
 [en]: <> (Selection refers to how users indicate specific items they intend to take action on.)
 译文

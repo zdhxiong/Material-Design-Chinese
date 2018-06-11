@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Choreography)
-# 译文
+# 编排
 
 [en]: <> (Transition choreography is a coordinated sequence of motion that maintains user focus as the interface adapts.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android notifications)
-# 译文
+# Android 通知
 
 [en]: <> (Notifications provide short, timely, and relevant information about your app when it’s not in use.)
 译文

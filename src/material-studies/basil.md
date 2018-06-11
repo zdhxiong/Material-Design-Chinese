@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Basil)
-# 译文
+# Basil
 
 [en]: <> (Basil is a recipe app that uses Material Design components and Material Theming to create an on-brand experience that is exciting and easy to explore.)
 译文

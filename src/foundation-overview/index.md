@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Foundation)
-# 译文
+# 基础
 
 [en]: <> (Material Design defines the qualities that can be expressed by UI regions, surfaces, and components. Design and strategize how your app is built using foundations that address design from both a broad and detailed perspective.)
 译文

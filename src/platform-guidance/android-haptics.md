@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android haptics)
-# 译文
+# Android 触感
 
 [en]: <> (Haptics enhance interactions and convey useful information to users through the sense of touch.)
 译文

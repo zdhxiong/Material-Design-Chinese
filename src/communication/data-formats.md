@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Data formats)
-# 译文
+# 数据格式
 
 [en]: <> (Data formats depict different types of numeric and linguistic data.)
 译文

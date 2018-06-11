@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Bidirectionality)
-# 译文
+# 可用性
 
 [en]: <> (UIs for languages that are read from right-to-left \(RTL\), such as Arabic and Hebrew, should be mirrored to ensure content is easy to understand.)
 译文

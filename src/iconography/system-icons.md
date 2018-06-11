@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (System icons)
-# 译文
+# 系统图标
 
 [en]: <> (System icons symbolize common actions, files, devices, and directories.)
 译文

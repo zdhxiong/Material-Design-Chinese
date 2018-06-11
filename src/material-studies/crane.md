@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Crane)
-# 译文
+# Crane
 
 [en]: <> (Crane is a travel app that uses Material Design components and Material Theming to create a personalized, on-brand experience.)
 译文

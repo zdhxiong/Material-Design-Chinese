@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android fingerprint)
-# 译文
+# Android 指纹
 
 [en]: <> (Fingerprint detection may be used to unlock a device, sign in to apps, and authenticate in-app purchases.)
 译文

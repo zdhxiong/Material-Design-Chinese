@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Color usage)
-# 译文
+# 颜色的使用
 
 [en]: <> (Color helps express hierarchy, establish brand presence, give meaning, and indicate element states.)
 译文

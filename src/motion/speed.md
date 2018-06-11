@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Speed)
-# 译文
+# 速度
 
 [en]: <> (Speed adjustments make transitions responsive and smooth.)
 译文

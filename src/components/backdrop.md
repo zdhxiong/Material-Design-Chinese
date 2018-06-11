@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Backdrop)
-# 译文
+# 背景
 
 [en]: <> (A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.)
 译文

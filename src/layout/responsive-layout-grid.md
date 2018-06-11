@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Responsive layout grid)
-# 译文
+# 响应式布局网格
 
 [en]: <> (The Material Design responsive layout grid adapts to screen size and orientation, ensuring consistency across layouts.)
 译文

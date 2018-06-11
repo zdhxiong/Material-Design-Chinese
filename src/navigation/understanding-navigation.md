@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Understanding navigation)
-# 译文
+# 理解导航
 
 [en]: <> (Navigation enables users to move through an app.)
 译文

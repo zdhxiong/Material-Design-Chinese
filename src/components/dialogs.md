@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Dialogs)
-# 译文
+# 对话框
 
 [en]: <> (Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.)
 译文

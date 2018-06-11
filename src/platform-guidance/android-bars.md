@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android bars)
-# 译文
+# Android bars
 
 [en]: <> (The following guidance applies to Android only.)
 译文

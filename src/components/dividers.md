@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Dividers)
-# 译文
+# 分隔线
 
 [en]: <> (A divider is a thin line that groups content in lists and layouts.)
 译文

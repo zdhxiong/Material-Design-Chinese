@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Selection controls)
-# 译文
+# 选择控制器
 
 [en]: <> (Selection controls allow the user to select options.)
 译文

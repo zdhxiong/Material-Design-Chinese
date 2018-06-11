@@ -194,7 +194,7 @@ return [
                 'href' => '../shape/shape-as-expression.html',
             ],
             [
-                'title' => '形状和运动',
+                'title' => '形状和动效',
                 'href' => '../shape/shape-motion.html',
             ],
         ],
@@ -321,7 +321,7 @@ return [
                 'href' => '../components/backdrop.html',
             ],
             [
-                'title' => 'Banners',
+                'title' => '横幅',
                 'href' => '../components/banners.html',
             ],
             [

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Light and shadows)
-# 译文
+# 光亮和阴影
 
 [en]: <> (Material surfaces cast shadows when they obstruct light sources.)
 译文

@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (The type system)
-# 译文
+# 排版系统
 
 [en]: <> (Use typography to present your design and content as clearly and efficiently as possible.)
 译文

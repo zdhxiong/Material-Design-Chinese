@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Image lists)
-# 译文
+# 图片列表
 
 [en]: <> (Image lists display a collection of images in an organized grid.)
 译文

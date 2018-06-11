@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Cross-platform adaptation)
-# 译文
+# 跨平台适配
 
 [en]: <> (Material Design supports design and usability best practices across platforms to help create beautiful user experiences.)
 译文

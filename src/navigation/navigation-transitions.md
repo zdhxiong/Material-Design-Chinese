@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Navigation transitions)
-# 译文
+# 导航转换
 
 [en]: <> (Navigational transitions occur when users move between screens, such as from a home screen to a detail screen.)
 译文

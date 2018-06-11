@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (About our Material studies)
-# 译文
+# 关于我们的 Material 研究
 
 [en]: <> (Material studies showcase the flexibility of Material Theming and components to create expressive and unique apps.)
 译文

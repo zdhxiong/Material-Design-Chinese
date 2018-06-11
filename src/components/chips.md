@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Chips)
-# 译文
+# 纸片
 
 [en]: <> (Chips are compact elements that represent an input, attribute, or action.)
 译文

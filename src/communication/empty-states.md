@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Empty states)
-# 译文
+# 空状态
 
 [en]: <> (Empty states occur when an item’s content can’t be shown.)
 译文

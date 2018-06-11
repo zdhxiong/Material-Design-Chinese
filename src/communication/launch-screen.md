@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Launch screen)
-# 译文
+# 启动页
 
 [en]: <> (The launch screen is a user’s first experience of your app.)
 译文

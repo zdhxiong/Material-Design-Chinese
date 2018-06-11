@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Data tables)
-# 译文
+# 数据表格
 
 [en]: <> (Data tables display sets of data.)
 译文

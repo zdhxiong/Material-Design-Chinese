@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Sheets: bottom)
-# 译文
+# 底部卡片
 
 [en]: <> (Bottom sheets are surfaces containing supplementary content that are anchored to the bottom of the screen.)
 译文

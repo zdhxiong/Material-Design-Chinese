@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Gestures)
-# 译文
+# 手势
 
 [en]: <> (Gestures let users interact with screen elements using touch.)
 译文

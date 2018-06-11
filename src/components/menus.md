@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Menus)
-# 译文
+# 菜单
 
 [en]: <> (Menus display a list of choices on temporary surfaces.)
 译文

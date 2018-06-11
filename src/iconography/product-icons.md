@@ -1,10 +1,10 @@
 <div class="article__intro">
 
 [en]: <> (Product icons)
-# 译文
+# 产品图标
 
 [en]: <> (Product icons are the visual expression of a brand’s products, services, and tools.)
-译文
+产品图标是一个品牌的产品、服务和工具的视觉表现。
 
 <nav>
 
@@ -12,15 +12,15 @@
 [en]: <> (Grid and keyline shapes)
 [en]: <> (Specs)
 [en]: <> (Icon treatments)
-* [译文](#design-principles)
-* [译文](#grid-keyline-shapes)
-* [译文](#specs)
-* [译文](#icon-treatments)
+* [设计原则](#design-principles)
+* [网格和关键线形状](#grid-keyline-shapes)
+* [规格](#specs)
+* [图标处理](#icon-treatments)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Design principles)
-<h2 id="design-principles">译文</h2>
+<h2 id="design-principles">设计原则</h2>
 
 [en]: <> (Brand expression)
 ### 译文
@@ -38,10 +38,10 @@
 </figure>
 
 [en]: <> (Design approach)
-### 译文
+### 设计方法
 
 [en]: <> (The tactile and physical quality of Material is reflected in the design of Material icons. Each icon is cut, folded, and lit as paper would be, but represented by simple graphic elements. The quality of Material is sturdy, with clean folds and crisp edges. Surfaces interact with light through subtle highlights and consistent shadows.)
-译文
+现实材料的触感和物理质感体现在了 Material 的图标设计中。每一个图标都可以像纸一样被裁剪、折叠和点亮，但都是由简单的图形元素组成的。材料的质地结实，具有干净的皱褶和清晰的边缘。表面通过细微的高光和一致的阴影完成与光线的交互。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -50,7 +50,7 @@
 <figcaption>
 
 [en]: <> (Physical prototype)
-译文
+物理原型
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -59,7 +59,7 @@
 <figcaption>
 
 [en]: <> (Lighting study)
-译文
+光线研究
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -68,7 +68,7 @@
 <figcaption>
 
 [en]: <> (Material prototype)
-译文
+材料属性
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -77,15 +77,15 @@
 <figcaption>
 
 [en]: <> (Color study)
-译文
+颜色研究
 
 </figcaption></figure></div></div>
 
 [en]: <> (Grid and keyline shapes)
-<h2 id="grid-keyline-shapes">译文</h2>
+<h2 id="grid-keyline-shapes">网格和关键线形状</h2>
 
 [en]: <> (Icon sizes)
-### 译文
+### 图标尺寸
 
 [en]: <> (When creating an icon, view and edit it at 400% \(192 x 192 dp\), which will display edges at 4dp. By maintaining this ratio, any changes to the original will be scaled up or down proportionally, which preserves sharp edges and correct alignment when the scale is returned to 100% \(48dp\).)
 译文
@@ -97,7 +97,7 @@
 <figcaption>
 
 [en]: <> (1:1 Unit grid)
-译文
+1:1 单位网格
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -106,7 +106,7 @@
 <figcaption>
 
 [en]: <> (4:1 Unit grid)
-译文
+4:1 单位网格
 
 </figcaption></figure></div></div>
 
@@ -134,7 +134,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Keyline Shapes)
-### 译文
+### 关键线形状
 
 [en]: <> (Keyline shapes are based on the grid. By using these core shapes as a baseline, you can maintain consistent visual proportions throughout your product icons.)
 译文
@@ -146,13 +146,13 @@
 <figcaption>
 
 [en]: <> (*Square*)
-译文
+正方形
 
 [en]: <> (Height: 152dp)
-译文
+高度：152dp
 
 [en]: <> (Width: 152dp)
-译文
+宽度：152dp
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -161,10 +161,10 @@
 <figcaption>
 
 [en]: <> (*Circle*)
-译文
+圆形
 
 [en]: <> (Diameter: 176dp)
-译文
+直径：176dp
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -173,13 +173,13 @@
 <figcaption>
 
 [en]: <> (*Vertical rectangle*)
-译文
+纵向矩形
 
 [en]: <> (Height: 176dp)
-译文
+高度：176dp
 
 [en]: <> (Width: 128dp)
-译文
+宽度：128dp
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -188,18 +188,18 @@
 <figcaption>
 
 [en]: <> (*Horizontal rectangle*)
-译文
+水平矩形
 
 [en]: <> (Height: 128dp)
-译文
+高度：128dp
 
 [en]: <> (Width: 176dp)
-译文
+宽度：176dp
 
 </figcaption></figure></div></div>
 
 [en]: <> (Geometry)
-#### 译文
+#### 几何形状
 
 [en]: <> (These keyline shapes use preset standards: circle, square, rectangle, orthogonals, and diagonals. They unify product icons and maintain consistent placement on the grid.)
 译文
@@ -223,7 +223,7 @@
 </figure></div></div>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规格</h2>
 
 [en]: <> (Anatomy)
 ### 译文
@@ -494,7 +494,7 @@
 译文
 
 [en]: <> (Icon treatments)
-<h2 id="icon-treatments">译文</h2>
+<h2 id="icon-treatments">图标处理</h2>
 
 [en]: <> (Color)
 ### 译文

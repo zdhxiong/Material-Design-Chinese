@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (About shape)
-# 译文
+# 关于形状
 
 [en]: <> (Material surfaces can be displayed in different shapes. Shapes direct attention, identify components, communicate state, and express brand.)
 译文

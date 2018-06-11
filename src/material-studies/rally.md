@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Rally)
-# 译文
+# Rally
 
 [en]: <> (Rally is a personal finance app that uses Material Design components and Material Theming to create an on-brand experience with a data-driven aesthetic.)
 译文

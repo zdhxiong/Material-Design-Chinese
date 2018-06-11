@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Snackbars)
-# 译文
+# Snackbars
 
 [en]: <> (Snackbars provide brief messages about app processes at the bottom of the screen.)
 译文

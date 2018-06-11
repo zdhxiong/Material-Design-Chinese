@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Navigation drawer)
-# 译文
+# 抽屉式导航
 
 [en]: <> (Navigation drawers provide access to destinations in your app.)
 译文

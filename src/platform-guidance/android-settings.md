@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Android settings)
-# 译文
+# Android 设置
 
 [en]: <> (App settings let users indicate preferences for how an app should behave.)
 译文

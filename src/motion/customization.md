@@ -1,7 +1,7 @@
 <div class="article__intro">
 
 [en]: <> (Customization)
-# 译文
+# 自定义动效
 
 [en]: <> (Motion can be customized to express a distinct style and personality.)
 译文
