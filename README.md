@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/color/applying-color-to-ui.md
 * src/color/text-legibility.md
 * src/color/the-color-system.md
 * src/communication/confirmation-acknowledgement.md
@@ -123,5 +122,5 @@ php build.php
 ## 翻译中的文件
 
 * src/color/color-usage.md (@zdhxiong)
-
+* src/color/applying-color-to-ui.md(@VCEtwp)
 ## 已翻译完成的文件
