@@ -19,7 +19,7 @@ $global_params = [
     'do'             => '',
     'dont'           => '',
     'caution'        => '',
-    'assets_path'    => 'http://localhost/Material-Design-Chinese/material-design',
+    'assets_path'    => 'https://mdui-aliyun.cdn.w3cbus.com/design/assets',
 ];
 
 function isHrefActive($file, $href) {
