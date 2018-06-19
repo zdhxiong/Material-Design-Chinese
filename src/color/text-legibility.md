@@ -11,33 +11,33 @@
 [en]: <> (Legibility standards)
 [en]: <> (Text backgrounds)
 [en]: <> (Text types)
-* [译文](#legibility-standards)
-* [译文](#text-backgrounds) 
-* [译文](#text-types) 
+* [可读性标准](#legibility-standards)
+* [文本背景](#text-backgrounds) 
+* [文本类型](#text-types) 
 
 </nav></div><div class="article__body">
 
 [en]: <> (Legibility standards)
-<h2 id="legibility-standards">译文</h2>
+<h2 id="legibility-standards">可读性标准</h2>
 
 [en]: <> (WCAG standards)
-### 译文
+### Web内容无障碍指南（WCAG）标准
 
-[en]: <> (All text should be legible and meet accessibility standards. *The Web Content Accessibility Guidelines \(WCAG 2.0\)* level AA requires a 4.5.1 color contrast between text and background for normal text, and 3:1 to large text.)
-译文
+[en]: <> (All text should be legible and meet accessibility standards. *The Web Content Accessibility Guidelines \(WCAG 2.0\)* level AA requires a 4.5：1 color contrast between text and background for normal text, and 3:1 to large text.)
+所有的文本应该是清晰易懂的，并符合无障碍标准。*Web内容无障碍指南 \(WCAG 2.0\)* 中，AA 级别要求正常文本的文本和背景之间的颜色对比度为4.5：1，大文本的颜色对比度为3：1。
 
 [en]: <> (To learn more about color, contrast, and accessibility design, read *Material Design Accessibility*.)
-译文
+想要了解更多关于颜色，对比和无障碍设计，请阅读 *Material Design 无障碍*
 
 
 [en]: <> (Text backgrounds)
-<h2 id="text-backgrounds">译文</h2>
+<h2 id="text-backgrounds">文本背景</h2>
 
 [en]: <> (Text on colored backgrounds)
-### 译文
+### 彩色背景上的文本
 
 [en]: <> (Black text is recommended for use on light backgrounds, and white text on dark backgrounds. If your app has both light and dark themes, make sure the text is available in a contrasting color against each theme.)
-译文
+黑色文本被推荐运用于亮色的背景上，而白色的文本推荐运用于暗色的背景。如果你的app同时拥有亮色和暗色的主题，请确保这些文本在每个主题的对比颜色上都是易获取的。
 
 [en]: <> (Colored backgrounds or typography additionally change the rules regarding text opacity and different states of text.)
 译文
