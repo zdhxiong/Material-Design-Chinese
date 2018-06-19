@@ -40,7 +40,7 @@
 黑色文本被推荐运用于亮色的背景上，而白色的文本推荐运用于暗色的背景。如果你的app同时拥有亮色和暗色的主题，请确保这些文本在每个主题的对比颜色上都是易获取的。
 
 [en]: <> (Colored backgrounds or typography additionally change the rules regarding text opacity and different states of text.)
-译文
+彩色背景或
 
 [en]: <> (Using text opacity)
 ### 译文
