@@ -198,7 +198,7 @@
 
 ![]({assets_path}/color/applying-color-to-ui/color-applyingcolorui-surfaces-tempsurfaces-reply.png)
 
-</figcaption></figure>
+<figcaption>
 
 [en]: <> (This app uses its primary color blue \(blue 700\) on the bottom navigation drawer, a primary dark variant \(blue 800\) for the account switcher, and a secondary color \(orange 500\) for selection.)
 这个应用程序的底部抽屉式导航栏使用了它的主色蓝色（蓝色7000），账户转换器使用了暗变的主色（蓝色800），已选择项目使用了高对比度的橙色（橙色500）。
