@@ -4,7 +4,7 @@
 # 文本可读性
 
 [en]: <> (Color plays an important role in text legibility.)
-译文
+颜色在文本可读性中起到很重要的作用。
 
 <nav>
 
