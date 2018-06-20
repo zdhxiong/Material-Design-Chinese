@@ -118,7 +118,7 @@ php build.php
 * src/usability/index.md
 
 ## 翻译中的文件
-* src/communication/confirmation-acknowledgement.md
+* src/communication/confirmation-acknowledgement.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
