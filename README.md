@@ -28,7 +28,6 @@ php build.php
 ## 待认领的文件
 
 * src/color/the-color-system.md
-* src/communication/confirmation-acknowledgement.md
 * src/communication/data-formats.md
 * src/communication/empty-states.md
 * src/communication/gesture-education.md
@@ -119,9 +118,9 @@ php build.php
 * src/usability/index.md
 
 ## 翻译中的文件
-
-* src/color/color-usage.md (@zdhxiong)
+* src/communication/confirmation-acknowledgement.md
 
 ## 已翻译完成的文件
+* src/color/color-usage.md (@zdhxiong)
 * src/color/text-legibility.md(@Minoyu)
 * src/color/applying-color-to-ui.md(@VCEtwp)
