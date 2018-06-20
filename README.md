@@ -121,6 +121,7 @@ php build.php
 ## 翻译中的文件
 
 * src/color/color-usage.md (@zdhxiong)
-* src/color/text-legibility.md(@Minoyu)
+
 ## 已翻译完成的文件
+* src/color/text-legibility.md(@Minoyu)
 * src/color/applying-color-to-ui.md(@VCEtwp)
