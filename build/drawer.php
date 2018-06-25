@@ -256,7 +256,7 @@ return [
                 'href' => '../communication/empty-states.html',
             ],
             [
-                'title' => '附加手势',
+                'title' => '手势指导',
                 'href' => '../communication/gesture-education.html',
             ],
             [
