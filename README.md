@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/communication/gesture-education.md
 * src/communication/help-feedback.md
 * src/communication/imagery.md
 * src/communication/launch-screen.md
@@ -116,7 +115,7 @@ php build.php
 
 ## 翻译中的文件
 * src/color/the-color-system.md (@VCEtwp)
-* src/communication/empty-states.md (@zdhxiong)
+* src/communication/gesture-education.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -124,3 +123,4 @@ php build.php
 * src/color/applying-color-to-ui.md(@VCEtwp)
 * src/communication/confirmation-acknowledgement.md (@zdhxiong)
 * src/communication/data-formats.md (@zdhxiong)
+* src/communication/empty-states.md (@zdhxiong)
