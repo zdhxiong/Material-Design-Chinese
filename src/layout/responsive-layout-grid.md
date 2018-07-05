@@ -493,8 +493,8 @@
 
 <figcaption>
 
-[en]: <> (Desktop)
 [en]: <> (Mobile)
+[en]: <> (Desktop)
 1. 译文
 2. 译文
 
@@ -504,8 +504,8 @@
 
 <figcaption>
 
-[en]: <> (Desktop)
 [en]: <> (Mobile)
+[en]: <> (Desktop)
 1. 译文
 2. 译文
 

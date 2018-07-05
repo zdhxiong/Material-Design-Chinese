@@ -276,9 +276,13 @@ return [
                 'href' => '../communication/onboarding.html',
             ],
             [
-                'title' => '写作',
+                'title' => '书写',
                 'href' => '../communication/writing.html',
             ],
+            [
+                'title' => '离线状态',
+                'href' => '../communication/offline-states.html',
+            ]
         ],
     ],
     [
@@ -411,9 +415,18 @@ return [
         ],
     ],
     [
-        'type' => 'link',
+        'type' => 'collapse',
         'title' => '可用性',
-        'href' => '../usability/index.html',
+        'children' => [
+            [
+                'title' => '无障碍',
+                'href' => '../usability/accessibility.html',
+            ],
+            [
+                'title' => '双向性',
+                'href' => '../usability/bidirectionality.html',
+            ],
+        ],
     ],
     [
         'type' => 'collapse',

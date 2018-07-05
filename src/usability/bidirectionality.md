@@ -62,7 +62,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirroring-do.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirroring-do.png)
 
 <figcaption>
 
@@ -73,7 +73,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirroring-dont-typed.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirroring-dont-typed.png)
 
 <figcaption>
 
@@ -108,7 +108,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirror1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirror1.png)
 
 <figcaption>
 
@@ -117,7 +117,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirror2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirror2.png)
 
 <figcaption>
 
@@ -126,7 +126,7 @@
 
 </figcaption></figure></div></div><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirror-redlines-ltr.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirror-redlines-ltr.png)
 
 <figcaption>
 
@@ -135,7 +135,7 @@
 
 </figcaption></figure><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirror-redlines-rtl.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirror-redlines-rtl.png)
 
 <figcaption>
 
@@ -147,7 +147,7 @@
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-tabs-usage-specs1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-tabs-usage-specs1.png)
 
 <figcaption>
 
@@ -162,7 +162,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-tabs-usage-specs2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-tabs-usage-specs2.png)
 
 <figcaption>
 
@@ -177,7 +177,7 @@
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirroring5.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirroring5.png)
 
 <figcaption>
 
@@ -186,7 +186,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-mirroring5-farsi.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-mirroring5-farsi.png)
 
 <figcaption>
 
@@ -213,7 +213,7 @@
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-overflow-usage-specs1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-overflow-usage-specs1.png)
 
 <figcaption>
 
@@ -228,7 +228,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-overflow-usage-specs2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-overflow-usage-specs2.png)
 
 <figcaption>
 
@@ -243,7 +243,7 @@
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-lists-keylines-two-1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-lists-keylines-two-1.png)
 
 <figcaption>
 
@@ -258,7 +258,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-components-lists-keylines-two-2-farsi.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-components-lists-keylines-two-2-farsi.png)
 
 <figcaption>
 
@@ -287,7 +287,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when1.png)
 
 <figcaption>
 
@@ -296,7 +296,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when2.png)
 
 <figcaption>
 
@@ -305,7 +305,7 @@
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when4.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when4.png)
 
 <figcaption>
 
@@ -314,7 +314,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when3.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when3.png)
 
 <figcaption>
 
@@ -328,7 +328,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when5.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when5.png)
 
 <figcaption>
 
@@ -337,7 +337,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when6.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when6.png)
 
 <figcaption>
 
@@ -351,7 +351,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when7.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when7.png)
 
 <figcaption>
 
@@ -362,7 +362,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when8.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when8.png)
 
 <figcaption>
 
@@ -378,7 +378,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when9.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when9.png)
 
 <figcaption>
 
@@ -387,7 +387,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when10.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when10.png)
 
 <figcaption>
 
@@ -404,7 +404,7 @@
 
 <figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when13.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when13.png)
 
 <figcaption>
 
@@ -421,7 +421,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when14.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when14.png)
 
 <figcaption>
 
@@ -430,7 +430,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-when15.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-when15.png)
 
 <figcaption>
 
@@ -447,7 +447,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot1.png)
 
 <figcaption>
 
@@ -456,7 +456,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot2.png)
 
 <figcaption>
 
@@ -473,7 +473,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot3.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot3.png)
 
 <figcaption>
 
@@ -482,7 +482,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot4.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot4.png)
 
 <figcaption>
 
@@ -502,7 +502,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot5.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot5.png)
 
 <figcaption>
 
@@ -511,7 +511,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot6.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot6.png)
 
 <figcaption>
 
@@ -531,7 +531,7 @@
 
 <figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot7.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot7.png)
 
 <figcaption>
 
@@ -540,7 +540,7 @@
 
 </figcaption></figure><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot-do.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot-do.png)
 
 <figcaption>
 
@@ -551,7 +551,7 @@
 
 </figcaption></figure><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-guidelines-whennot-dont.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-guidelines-whennot-dont.png)
 
 <figcaption>
 
@@ -579,7 +579,7 @@
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-other1.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-other1.png)
 
 <figcaption>
 
@@ -588,7 +588,7 @@
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-other2.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-other2.png)
 
 <figcaption>
 
@@ -605,7 +605,7 @@
 
 <figure>
 
-![]({assets_path}/usability/index/usability-bidirectionality-other3.png)
+![]({assets_path}/usability/bidirectionality/usability-bidirectionality-other3.png)
 
 <figcaption>
 
