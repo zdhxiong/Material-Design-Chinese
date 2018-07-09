@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/app-bars-bottom.md
 * src/components/app-bars-top.md
 * src/components/backdrop.md
 * src/components/banners.md
@@ -110,7 +109,7 @@ php build.php
 
 ## 翻译中的文件
 * src/color/the-color-system.md (@VCEtwp)
-* src/communication/writing.md (@zdhxiong)
+* src/components/app-bars-bottom.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -124,3 +123,4 @@ php build.php
 * src/communication/imagery.md (@zdhxiong)
 * src/communication/launch-screen.md (@zdhxiong)
 * src/communication/onboarding.md (@zdhxiong)
+* src/communication/writing.md (@zdhxiong)
