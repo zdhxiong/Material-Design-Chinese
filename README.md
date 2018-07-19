@@ -98,23 +98,23 @@ php build.php
 * src/platform-guidance/android-text-selection-toolbar.md
 * src/platform-guidance/android-widget.md
 * src/platform-guidance/cross-platform-adaptation.md
-* src/shape/about-shape.md
-* src/shape/shape-as-expression.md
-* src/shape/shape-hierarchy.md
-* src/shape/shape-motion.md
-* src/typography/language-support.md
-* src/typography/the-type-system.md
-* src/typography/understanding-typography.md
-* src/usability/index.md
 
 ## 翻译中的文件
 * src/color/the-color-system.md (@VCEtwp)
 * src/components/app-bars-bottom.md (@zdhxiong)
+* src/shape/about-shape.md (@PaperFlu)
+* src/shape/shape-as-expression.md (@PaperFlu)
+* src/shape/shape-hierarchy.md (@PaperFlu)
+* src/shape/shape-motion.md (@PaperFlu)
+* src/typography/language-support.md (@PaperFlu)
+* src/typography/the-type-system.md (@PaperFlu)
+* src/typography/understanding-typography.md (@PaperFlu)
+* src/usability/index.md (@PaperFlu)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
-* src/color/text-legibility.md(@Minoyu)
-* src/color/applying-color-to-ui.md(@VCEtwp)
+* src/color/text-legibility.md (@Minoyu)
+* src/color/applying-color-to-ui.md (@VCEtwp)
 * src/communication/confirmation-acknowledgement.md (@zdhxiong)
 * src/communication/data-formats.md (@zdhxiong)
 * src/communication/empty-states.md (@zdhxiong)
