@@ -102,10 +102,6 @@ php build.php
 ## 翻译中的文件
 * src/color/the-color-system.md (@VCEtwp)
 * src/components/app-bars-bottom.md (@zdhxiong)
-* src/shape/about-shape.md (@PaperFlu)
-* src/shape/shape-as-expression.md (@PaperFlu)
-* src/shape/shape-hierarchy.md (@PaperFlu)
-* src/shape/shape-motion.md (@PaperFlu)
 * src/typography/language-support.md (@PaperFlu)
 * src/typography/the-type-system.md (@PaperFlu)
 * src/typography/understanding-typography.md (@PaperFlu)
@@ -124,3 +120,7 @@ php build.php
 * src/communication/launch-screen.md (@zdhxiong)
 * src/communication/onboarding.md (@zdhxiong)
 * src/communication/writing.md (@zdhxiong)
+* src/shape/about-shape.md (@PaperFlu)
+* src/shape/shape-as-expression.md (@PaperFlu)
+* src/shape/shape-hierarchy.md (@PaperFlu)
+* src/shape/shape-motion.md (@PaperFlu)
