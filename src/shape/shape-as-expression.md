@@ -106,38 +106,38 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Expressing brand)
-<h2 id="expressing-brand">译文</h2>
+<h2 id="expressing-brand">表现品牌</h2>
 
 [en]: <> (Shape and brand expression)
-### 译文
+### 形状和品牌表达
 
 [en]: <> (Branding with shape)
-#### 译文
+#### 形塑品牌
 
 [en]: <> (Use shape in combination with other customizations, like color and typography, to develop your brand’s visual language. Similar, related shapes help unify brand expression across your app. Your app can use a *shape family* – a set of similar shapes such as oval variations of a circle, or the same angled corner at different scales – across its surfaces, components, and elements. The style of shapes in a shape family, such as organic or geometric forms, should match your brand.)
-译文
+结合其它自定义一起调教形状，如颜色和排版，进而开发您的品牌视觉语言。相似的、关联的形状有助于跨应用地统一您的品牌表达。您的应用可以使用一个*形状系列* – 即一组近似的形状，例如多种离心率的圆，或角度相同大小不同的边角 – 它们广泛遍布于其面，组件，和元素。形状系列中形状的风格，如自然或规则型，应与您的品牌相匹配。
 
 [en]: <> (Mixing shapes)
-#### 译文
+#### 调和形状
 
 [en]: <> (When expressing brand with shape, avoid shapes that:)
-译文
+用形状表现品牌时，避开这样的形状：
 
 [en]: <> (Imply interactivity)
 [en]: <> (Inaccurately express state)
 [en]: <> (Interfere with usability)
-* 译文
-* 译文
-* 译文
+* 暗示着可交互的
+* 会误表现状态的
+* 干扰可用性的
 
 [en]: <> (Mixing both different shape styles, and different shapes altogether, can make it difficult to associate particular shapes with a brand.)
-译文
+混用不同的形状风格，和不同的形状于一处，可能导致难以将特定形状与品牌相联系。
 
 [en]: <> (Shape overuse)
-#### 译文
+#### 形状使用过度
 
 [en]: <> (Overuse of a shape for branding purposes can make it less meaningful because that shape becomes common and less noticeable.)
-译文
+过度使用一个形状于品牌化目的可能会让其不是那么有意义因为这个形状已经普遍存在变得不再引目。
 
 <figure>
 
@@ -148,7 +148,7 @@
 {do}
 
 [en]: <> (Consistent use of shape throughout a product contributes to a brand’s visual language. This product’s components use a shape based on its logo \(1, 2\).)
-译文
+产品中各处对形状的如一使用有利于品牌的视觉语言。此产品组件使用的形状基于其徽标（1，2）。
 
 </figcaption></figure><figure>
 
@@ -159,7 +159,7 @@
 {do}
 
 [en]: <> (This product’s components use a geometric shape based on its logo \(1, 2, 3\).)
-译文
+此产品组件使用的规则型形状基于其徽标（1，2，3）。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -170,7 +170,7 @@
 {do}
 
 [en]: <> (The curve of the corner reflects the color and curved edge of the logo, without affecting usability.)
-译文
+边角曲线反映了徽标的颜色和曲边，且不影响可用性。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -181,7 +181,7 @@
 {dont}
 
 [en]: <> (Don’t reduce the usability of a component when using shape to express brand. The size of this shape interferes with the usability of the list.)
-译文
+勿以牺牲组件可用性的方式表现品牌。该形状的大小影响了此列表的可用性。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -192,7 +192,7 @@
 {caution}
 
 [en]: <> (Overuse of a single shape makes that shape common, and thus less noticeable, which reduces its impact on branding.)
-译文
+过度使用单一形状使该形状变得常见，因而不太明显，亦减少了它在品牌化中的影响。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -203,6 +203,6 @@
 {dont}
 
 [en]: <> (Don’t use shapes that don’t reflect a product’s shape family.)
-译文
+别去用那些不体现产品形状系列的形状。
 
 </figcaption></figure></div></div></div>
