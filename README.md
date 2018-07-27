@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/app-bars-top.md
 * src/components/backdrop.md
 * src/components/banners.md
 * src/components/bottom-navigation.md
@@ -101,11 +100,11 @@ php build.php
 
 ## 翻译中的文件
 * src/color/the-color-system.md (@VCEtwp)
-* src/components/app-bars-bottom.md (@zdhxiong)
 * src/typography/language-support.md (@PaperFlu)
 * src/typography/the-type-system.md (@PaperFlu)
 * src/typography/understanding-typography.md (@PaperFlu)
 * src/usability/index.md (@PaperFlu)
+* src/components/app-bars-top.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -124,3 +123,4 @@ php build.php
 * src/shape/shape-as-expression.md (@PaperFlu)
 * src/shape/shape-hierarchy.md (@PaperFlu)
 * src/shape/shape-motion.md (@PaperFlu)
+* src/components/app-bars-bottom.md (@zdhxiong)
