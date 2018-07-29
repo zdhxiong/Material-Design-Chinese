@@ -321,7 +321,7 @@ return [
                 'href' => '../components/app-bars-top.html',
             ],
             [
-                'title' => '背景',
+                'title' => '背景板',
                 'href' => '../components/backdrop.html',
             ],
             [

@@ -1,10 +1,10 @@
 <div class="article__intro">
 
 [en]: <> (Backdrop)
-# 背景
+# 背景板
 
 [en]: <> (A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.)
-译文
+在一个应用里，所有的界面后面都会有一个背景板，用于显示上下文和可操作的内容。
 
 <figure>
 
@@ -17,19 +17,19 @@
 [en]: <> (Behavior)
 [en]: <> (Theming)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#theming)
-* [译文](#specs)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [主题](#theming)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer’s content.)
-译文
+背景板有两个面组成：背景层和前景层。背景层可以显示操作和上下文，并且可以控制前景层的内容，以及向前景层发送通知。
 
 <figure>
 
@@ -39,8 +39,8 @@
 
 [en]: <> (Back layer)
 [en]: <> (Front layer)
-1. 译文
-2. 译文
+1. 背景层
+2. 前景层
 
 </figcaption></figure><figure>
 
@@ -50,8 +50,8 @@
 
 [en]: <> (When concealed, the back layer can provide contextual information about the front layer.)
 [en]: <> (When revealed, the back layer displays contextual controls that relate to the front layer.)
-1. 译文
-2. 译文
+1. 隐藏时，背景层可以提供和前景层相关的信息。
+2. 显示时，背景层可以显示和前景层相关的控件。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -60,7 +60,7 @@
 <figcaption>
 
 [en]: <> (Back layer content can be navigational, changing the content displayed on the front layer.)
-译文
+可以在背景层中进行导航切换，更改前景层显示的内容。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -69,12 +69,12 @@
 <figcaption>
 
 [en]: <> (Back layer content can filter front layer content.)
-译文
+在背景层中，可以对前景层内容进行过滤筛选。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -83,10 +83,10 @@
 </figure>
 
 [en]: <> (Relevant)
-#### 译文
+#### 相关性
 
 [en]: <> (The backdrop’s back layer is persistent, displaying controls and content that relate to the front layer.)
-译文
+背景层是固定存在的，用于显示和前景层相关的内容和控件。
 
 </div><div class="mdui-col"><figure>
 
@@ -95,10 +95,10 @@
 </figure>
 
 [en]: <> (Immediate)
-#### 译文
+#### 随时可见
 
 [en]: <> (The backdrop’s back layer can be accessed from any scroll position.)
-译文
+不管滚动条滚动到什么位置，都可以访问背景层。
 
 </div><div class="mdui-col"><figure>
 
@@ -107,17 +107,18 @@
 </figure>
 
 [en]: <> (Contextual)
-#### 译文
+#### 上下文相关
 
 [en]: <> (The backdrop focuses attention on one layer at a time.)
+在同一时间内，用户的注意力只会被集中到背景板的其中一个层上。
 
 </div></div>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 [en]: <> (A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.)
-译文
+背景板由背景层、前景层、和可选的副标题组成。在同一时刻，背景层和前景层只能有一个处于激活状态。
 
 <figure>
 
@@ -128,16 +129,17 @@
 [en]: <> (Back layer)
 [en]: <> (Front layer)
 [en]: <> (Subheader \(optional\))
-1. 译文
-2. 译文
-3. 译文
+1. 背景层
+2. 前景层
+3. 副标题（可选）
 
 </figcaption></figure>
 
 [en]: <> (Active front layer)
-### 译文
+### 激活的前景层
 
 [en]: <> (The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.)
+前景层始终出现在背景层的前面。它用于显示页面的主要内容，且始终全宽显示。
 
 <figure>
 
@@ -146,16 +148,16 @@
 <figcaption>
 
 [en]: <> (The front layer can contain browsing components, such as:)
-译文
+前景层可以包含阅读型组件，例如：
 
 [en]: <> (Text lists)
 [en]: <> (Image lists)
 [en]: <> (Cards)
 [en]: <> (Text)
-1. 译文
-2. 译文
-3. 译文
-4. 译文
+1. 文本列表
+2. 图片列表
+3. 卡片
+4. 文本
 
 </figcaption></figure><figure>
 
@@ -164,15 +166,15 @@
 <figcaption>
 
 [en]: <> (When the front layer is active, the backlayer contains a reveal affordance \(1\). Tapping this reveals the backlayer.)
-译文
+当前景层激活时，背景层上会包含一个展开按钮（1），点击后会展开背景层。
 
 </figcaption></figure>
 
 [en]: <> (Subheader \(Optional\))
-#### 译文
+#### 副标题（可选）
 
 [en]: <> (The subheader is a fixed area on the front layer that contains a title and optional iconography.)
-译文
+副标题是前景层上的固定区域，包含一个标题、以及一个可选的图标。
 
 <figure>
 
@@ -181,7 +183,7 @@
 <figcaption>
 
 [en]: <> (The subheader can be fixed in place, while content below it on the front layer scrolls independently.)
-译文
+副标题固定在指定位置，前景层的其他内容可以独立滚动。
 
 </figcaption></figure><figure>
 
@@ -190,12 +192,12 @@
 <figcaption>
 
 [en]: <> (Both the subheader \(A\) and scrollable content area \(B\) on the front layer have an elevation of 1dp.)
-译文
+前景层上的副标题（A）和滚动区域（B）都有 1dp 的海拔高度。
 
 </figcaption></figure>
 
 [en]: <> (Active back layer)
-### 译文
+### 激活的背景层
 
 [en]: <> (The back layer appears at the lowest elevation \(0dp\) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.)
 译文
