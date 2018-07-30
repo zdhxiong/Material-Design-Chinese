@@ -11,44 +11,6 @@ return [
         'href' => '../introduction/index.html',
     ],
     [
-        'type' => 'collapse',
-        'title' => 'Material 研究',
-        'children' => [
-            [
-                'title' => '关于我们的 Material 研究',
-                'href' => '../material-studies/about-our-material-studies.html',
-            ],
-            [
-                'title' => 'Basil',
-                'href' => '../material-studies/basil.html',
-            ],
-            [
-                'title' => 'Crane',
-                'href' => '../material-studies/crane.html'
-            ],
-            [
-                'title' => 'Fortnightly',
-                'href' => '../material-studies/fortnightly.html',
-            ],
-            [
-                'title' => 'Owl',
-                'href' => '../material-studies/owl.html',
-            ],
-            [
-                'title' => 'Rally',
-                'href' => '../material-studies/rally.html',
-            ],
-            [
-                'title' => 'Reply',
-                'href' => '../material-studies/reply.html',
-            ],
-            [
-                'title' => 'Shrine',
-                'href' => '../material-studies/shrine.html',
-            ],
-        ],
-    ],
-    [
         'type' => 'subheader',
         'title' => 'Material 基础',
     ],

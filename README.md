@@ -64,14 +64,6 @@ php build.php
 * src/layout/responsive-layout-grid.md
 * src/layout/spacing-methods.md
 * src/layout/understanding-layout.md
-* src/material-studies/about-our-material-studies.md
-* src/material-studies/basil.md
-* src/material-studies/crane.md
-* src/material-studies/fortnightly.md
-* src/material-studies/owl.md
-* src/material-studies/rally.md
-* src/material-studies/reply.md
-* src/material-studies/shrine.md
 * src/material-theming/implementing-your-theme.md
 * src/material-theming/overview.md
 * src/motion/choreography.md
