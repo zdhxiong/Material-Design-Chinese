@@ -19,13 +19,13 @@
 [en]: <> (Types of transitions)
 [en]: <> (Extended FAB)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#placement)
-* [译文](#behavior)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [位置](#placement)
+* [行为](#behavior)
 * [译文](#types-of-transitions)
 * [译文](#extended-fab)
-* [译文](#specs)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
@@ -233,7 +233,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (FABs can attach to top app bars and the edge of some components.)
 译文
@@ -692,7 +692,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (The extended FAB can be positioned in the center, left, or right side of a screen.)
 译文
@@ -829,7 +829,7 @@
 </figure></div></div>
 
 [en]: <> (Placement)
-译文
+位置
 
 <figure>
 
@@ -847,7 +847,7 @@
 </figure>
 
 [en]: <> (Placement)
-#### 译文
+#### 位置
 
 <figure>
 

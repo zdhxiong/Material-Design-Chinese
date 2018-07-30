@@ -20,14 +20,14 @@
 [en]: <> (Scrollable tabs)
 [en]: <> (States)
 [en]: <> (Spec)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#placement)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [位置](#placement)
 * [译文](#fixed-tabs)
 * [译文](#scrollable-tabs)
-* [译文](#states)
-* [译文](#spec)
+* [状态](#states)
+* [规范](#spec)
 
 </nav></div><div class="article__body">
 
@@ -389,7 +389,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (Tab layout)
 ### 译文
@@ -542,7 +542,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Fixed tabs have equal width, which can be calculated either as:)
 译文
@@ -642,7 +642,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Scrollable tabs display a subset of all tabs at once. The width of each tab is defined by the length of its text label.)
 译文

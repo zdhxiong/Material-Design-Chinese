@@ -181,7 +181,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (The placement of a linear progress indicator can indicate the scope of a process. For example:)
 译文
@@ -241,7 +241,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Circular progress indicators are positioned to indicate the process that they represent.)
 译文

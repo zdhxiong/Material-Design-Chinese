@@ -19,13 +19,13 @@
 [en]: <> (Standard side sheet)
 [en]: <> (Modal side sheet)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#placement)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [位置](#placement)
 * [译文](#standard-side-sheet)
 * [译文](#modal-side-sheet)
-* [译文](#specs)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
@@ -230,7 +230,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (Screen size)
 ### 译文
@@ -320,7 +320,7 @@
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" src="{assets_path}/components/sheets-side/standard-behavior-control.mp4" type="video/mp4"></video></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Elevation)
 #### 译文

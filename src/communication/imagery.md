@@ -307,7 +307,7 @@
 </figure>
 
 [en]: <> (Placement)
-### 放置位置
+### 位置
 
 [en]: <> (Hero images are anchored in the most prominent position, such as the top of the screen.)
 主图放在最显眼的位置，例如屏幕的顶部。
@@ -376,7 +376,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 放置位置
+### 位置
 
 [en]: <> (Elements like text or actions may be placed above a thumbnail in components like cards.)
 如文本或操作之类的元素可以放在卡片等组件的缩略图上方。

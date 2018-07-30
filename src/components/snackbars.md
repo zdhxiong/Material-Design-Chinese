@@ -17,11 +17,11 @@
 [en]: <> (Behavior)
 [en]: <> (Placement)
 [en]: <> (Spec)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#placement)
-* [译文](#spec)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [位置](#placement)
+* [规范](#spec)
 
 </nav></div><div class="article__body">
 
@@ -338,7 +338,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (Snackbars should be placed at the bottom of a UI, in front of app content. Avoid placing a snackbar in front of frequently used touch targets or navigation.)
 译文

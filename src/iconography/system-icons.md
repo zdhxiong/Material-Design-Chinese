@@ -550,7 +550,7 @@
 [en]: <> (Clearance area)
 [en]: <> (Placement)
 1. 译文
-2. 译文
+2. 位置
 
 </figcaption></figure>
 
@@ -569,7 +569,7 @@
 [en]: <> (Clearance area)
 [en]: <> (Placement)
 1. 译文
-2. 译文
+2. 位置
 
 </figcaption></figure>
 

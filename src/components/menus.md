@@ -109,7 +109,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Elevation)
 #### 译文
@@ -319,7 +319,7 @@
 译文
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Dropdown menus are positioned relative to both the element that generates them and the edges of the screen or browser. They can appear in front of, beside, above, or below the element that generates them.)
 译文
@@ -436,7 +436,7 @@
 译文
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (An exposed dropdown menu is positioned below the element that generates the dropdown. On mobile, it can appear in front of the element generating the dropdown.)
 译文

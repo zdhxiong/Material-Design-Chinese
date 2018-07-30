@@ -194,7 +194,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Multiple button types can be used to express different emphasis levels.)
 译文
@@ -369,7 +369,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Text buttons are often embedded in contained components like cards and dialogs, in order to relate themselves to the component in which they appear. Because text buttons don’t have a container, they don’t distract from nearby content.)
 译文

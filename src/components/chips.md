@@ -288,7 +288,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Input chips can be integrated with other components. They can appear:)
 译文
@@ -380,7 +380,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Choice chips appear as part of a series of other choice chips. They are typically displayed horizontally and sequentially.)
 译文
@@ -502,7 +502,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 <figure>
 
@@ -622,7 +622,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Action chips are displayed after primary content, such as below a card or persistently at the bottom of a screen.)
 译文

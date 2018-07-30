@@ -10,8 +10,8 @@
 
 [en]: <> (Usage)
 [en]: <> (Behavior & placement)
-* [译文](#usage)
-* [译文](#behavior-placement)
+* [用法](#usage)
+* [行为 & 位置](#behavior-placement)
 
 </nav></div><div class="article__body">
 
@@ -91,7 +91,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Behavior & placement)
-<h2 id="behavior-placement">译文</h2>
+<h2 id="behavior-placement">行为 & 位置</h2>
 
 [en]: <> (Behavior)
 ### 译文

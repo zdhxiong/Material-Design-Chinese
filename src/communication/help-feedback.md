@@ -11,14 +11,14 @@
 [en]: <> (Use & placement)
 [en]: <> (Icons)
 [en]: <> (Writing)
-* [用法 & 放置](#use-placement)
+* [用法 & 位置](#use-placement)
 * [图标](#icons)
 * [文字](#writing)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Use & placement)
-<h2 id="use-placement">用法 & 放置</h2>
+<h2 id="use-placement">用法 & 位置</h2>
 
 [en]: <> (Using help content)
 ### 使用帮助内容

@@ -316,7 +316,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (The contents of standard bottom sheets on mobile can be moved into side sheets on larger screen sizes given the additional horizontal space.)
 译文
@@ -501,7 +501,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 译文
+### 位置
 
 [en]: <> (Modal bottom sheets are most effective on small screens.)
 译文

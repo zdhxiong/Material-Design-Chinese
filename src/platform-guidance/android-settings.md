@@ -13,7 +13,7 @@
 [en]: <> (Grouping settings)
 [en]: <> (Label and secondary text)
 [en]: <> (Writing style)
-* [译文](#placement)
+* [位置](#placement)
 * [译文](#usage)
 * [译文](#grouping-settings)
 * [译文](#label-secondary-text)
@@ -22,7 +22,7 @@
 </nav></div><div class="article__body">
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (All of an app’s settings should be reached via the “Settings” label. Don’t use synonyms such as “Options” or “Preferences.”)
 译文

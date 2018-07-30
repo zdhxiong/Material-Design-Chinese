@@ -18,12 +18,12 @@
 [en]: <> (Placement)
 [en]: <> (States)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#placement)
-* [译文](#states)
-* [译文](#specs)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [位置](#placement)
+* [状态](#states)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
@@ -426,7 +426,7 @@
 </figcaption></figure>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 [en]: <> (Fixed navigation bar)
 ### 译文

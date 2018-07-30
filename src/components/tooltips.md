@@ -16,10 +16,10 @@
 [en]: <> (Placement)
 [en]: <> (Behavior)
 [en]: <> (Spec)
-* [译文](#usage)
-* [译文](#placement)
-* [译文](#behavior)
-* [译文](#spec)
+* [用法](#usage)
+* [位置](#placement)
+* [行为](#behavior)
+* [规范](#spec)
 
 </nav></div><div class="article__body">
 
@@ -71,7 +71,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-<h2 id="placement">译文</h2>
+<h2 id="placement">位置</h2>
 
 <figure>
 

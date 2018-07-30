@@ -360,7 +360,7 @@
 </figcaption></figure></div></div>
 
 [en]: <> (Placement)
-### 放置
+### 位置
 
 [en]: <> (Navigation)
 #### 导航
