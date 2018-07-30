@@ -4,7 +4,7 @@
 # 底部导航
 
 [en]: <> (Bottom navigation bars allow movement between primary destinations in an app.)
-译文
+底部导航栏允许用户在应用的不同顶级视图间切换。
 
 <figure>
 
@@ -28,13 +28,13 @@
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (Bottom navigation bars display three to five destinations at the bottom of a screen. Each destination is represented by an icon and an optional text label. When a bottom navigation icon is tapped, the user is taken to the top-level navigation destination associated with that icon.)
-译文
+底部导航栏在屏幕底部显示 3 到 5 个导航项。每个导航项都由一个图标和一个可选的文本标签组成。当点击底部导航图标时，用户将进入和该图标对应的视图。
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -43,10 +43,10 @@
 </figure>
 
 [en]: <> (Ergonomic)
-#### 译文
+#### 人体工程学
 
 [en]: <> (The bottom navigation bar is easy to reach on a handheld mobile device.)
-译文
+底部导航栏很容易在手持设备上触摸到。
 
 </div><div class="mdui-col"><figure>
 
@@ -55,10 +55,10 @@
 </figure>
 
 [en]: <> (Consistent)
-#### 译文
+#### 一致性
 
 [en]: <> (When used, the bottom navigation bar appears at the bottom of every screen.)
-译文
+如果使用了底部导航栏，则底部导航栏会出现在每个界面的底部。
 
 </div><div class="mdui-col"><figure>
 
@@ -67,33 +67,33 @@
 </figure>
 
 [en]: <> (Related)
-#### 译文
+#### 同一类的
 
 [en]: <> (Bottom navigation bar destinations should be of equal importance.)
-译文
+每个导航项对应的视图应该有相同的重要性。
 
 </div></div>
 
 [en]: <> (When to use)
-### 译文
+### 何时使用
 
 [en]: <> (Bottom navigation should be used for:)
-#### 译文
+#### 底部导航应该用于：
 
 [en]: <> (Top-level destinations that need to be accessible from anywhere in the app)
 [en]: <> (Three to five destinations)
 [en]: <> (Mobile or tablet only)
-* 译文
-* 译文
-* 译文
+* 目标视图需要从应用的任何地方直接进行访问
+* 3 到 5 个导航项
+* 仅限手机或平板设备
 
 [en]: <> (Bottom navigation shouldn’t be used for:)
-#### 译文
+#### 底部导航不应用于：
 
 [en]: <> (Single tasks, such as viewing a single email)
 [en]: <> (User preferences or settings)
-* 译文
-* 译文
+* 单个任务，例如查看单个电子邮件
+* 用户偏好设置或系统设置
 
 <figure>
 
@@ -104,7 +104,7 @@
 {dont}
 
 [en]: <> (Don’t use a bottom navigation bar for fewer than three destinations \(use tabs instead\).)
-译文
+少于 3 个导航项时，不要使用底部导航栏（可以使用标签页代替）。
 
 </figcaption></figure><figure>
 
@@ -115,7 +115,7 @@
 {dont}
 
 [en]: <> (Don’t use more than five destinations. For those cases, try tabs or a navigation drawer.)
-译文
+不要超过 5 个导航项。对于超过 5 个的情况，可以尝试使用标签页或导航抽屉。
 
 </figcaption></figure><figure>
 
@@ -126,15 +126,15 @@
 {caution}
 
 [en]: <> (Combining bottom navigation and tabs may cause confusion, as their relationship to the content may be unclear. Tabs share a common subject, whereas bottom navigation destinations are top-level and disconnected from each other.)
-译文
+混合使用底部导航和标签页可能会引起混淆，因为它们与内容的关系可能会不清楚。标签页用于区分同一类主题，而底部导航的每个目标视图都是顶级视图，彼此之间是没有联系的。
 
 [en]: <> (Scaled down 50%.)
-译文
+缩放到 50%。
 
 </figcaption></figure>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 <figure>
 
@@ -147,26 +147,26 @@
 [en]: <> (Inactive text label)
 [en]: <> (Active icon)
 [en]: <> (Active text label)
-1. 译文
-2. 译文
-3. 译文
-4. 译文
-5. 译文
+1. 容器
+2. 未激活的图标
+3. 未激活的文本标签
+4. 激活的图标
+5. 激活的文本标签
 
 </figcaption></figure>
 
 [en]: <> (Representing destinations)
-### 译文
+### 导航项的显示方式
 
 [en]: <> (The way bottom navigation destinations are represented can depend on how many are used:)
-译文
+导航项的显示方式取决于导航项数量：
 
 [en]: <> (*Three destinations*: Display icons and text labels for all destinations.)
 [en]: <> (*Four destinations*: Active destinations display an icon and text label. Inactive destinations display icons, and text labels are recommended.)
 [en]: <> (*Five destinations*: Active destinations display an icon and text label. Inactive destinations use icons, and use text labels with caution \(as space may not permit them\).)
-* 译文
-* 译文
-* 译文
+* *三个导航项*：所有导航项都显示图标和文本标签。
+* *四个导航项*：激活的导航项显示图标和文本标签，未激活的导航项显示图标，建议也显示文本标签。
+* *五个导航项*：激活的导航项显示图标和文本标签，未激活的导航项显示图标，并谨慎使用文本标签（因为空间可能不允许）。
 
 <figure>
 
@@ -175,15 +175,15 @@
 <figcaption>
 
 [en]: <> (There are three destinations in this bottom navigation, each with an icon and text label.)
-译文
+这个底部导航有三个导航项，每个导航项都带有图标和文本标签。
 
 </figcaption></figure>
 
 [en]: <> (Icons)
-### 译文
+### 图标
 
 [en]: <> (Bottom navigation destinations always include an icon. It’s best to pair icons with text labels, especially if the icon doesn’t have obvious meaning.)
-译文
+底部导航的导航项始终包含图标。最好是同时使用图标和文本标签，特别是图标没有明显含义的时候。
 
 <figure>
 
@@ -192,15 +192,15 @@
 <figcaption>
 
 [en]: <> (Icons paired with text labels in bottom navigation)
-译文
+底部导航中同时使用图标和文本标签
 
 </figcaption></figure>
 
 [en]: <> (Text Labels)
-### 译文
+### 文本标签
 
 [en]: <> (Text labels provide short, meaningful descriptions of bottom navigation destinations.)
-译文
+文本标签为导航项提供了简短、有意义的描述。
 
 <figure>
 
@@ -211,7 +211,7 @@
 {do}
 
 [en]: <> (Use short text labels.)
-译文
+使用短文本标签。
 
 </figcaption></figure><figure>
 
