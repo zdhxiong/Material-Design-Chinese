@@ -18,7 +18,6 @@
 [en]: <> (Modal drawer)
 [en]: <> (Bottom drawer)
 [en]: <> (States)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
@@ -26,7 +25,6 @@
 * [译文](#modal-drawer)
 * [译文](#bottom-drawer)
 * [译文](#states)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -797,158 +795,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Fortnightly Material Theme)
-### 译文
-
-[en]: <> (This news app’s modal navigation drawer has been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-fortnightly-ahero.png)
-
-<figcaption>
-
-[en]: <> (Fortnightly’s customized modal navigation drawer)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Fortnightly’s modal navigation drawer uses custom color on six elements: sheet, activated icon, activated text, activated overlay, navigation item, and scrim.)
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-fortnightly-color.png)
-
-</figure>
-
-[en]: <> (Element                          | Category      | Attribute          | Value)
-[en]: <> (---------                        |----------     |---------           |------)
-[en]: <> (Container                        | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Activated icon, Activated text   | Primary       | Color<br>Opacity   | #661FFF<br>100%)
-[en]: <> (Activated overlay                | Primary       | Color<br>Opacity   | #661FFF<br>12%)
-[en]: <> (Inactive item                    | On Surface    | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Scrim                            | On Surface    | Color<br>Opacity   | #000000<br>32%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Fortnightly’s modal navigation drawer text uses custom typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-fortnightly-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 2      | Typeface<br>Font<br>Size<br>Case   | Libre Franklin<br>Regular<br>14<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Posivibes Material Theme)
-### 译文
-
-[en]: <> (This social media app’s bottom navigation drawer has been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-posivibes-ahero.png)
-
-<figcaption>
-
-[en]: <> (Posivibes’ customized navigation drawer)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Posivibes’ bottom navigation drawer uses custom color on six elements: sheet, activated icon, activated text, activated overlay, navigation item, and scrim.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-posivibes-color.png)
-
-</figure>
-
-[en]: <> (Element                          | Category      | Attribute          | Value)
-[en]: <> (---------                        |----------     |---------           |------)
-[en]: <> (Container                        | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Activated icon, Activated text   | Primary       | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Activated overlay                | Primary       | Color<br>Opacity   | #000000<br>12%)
-[en]: <> (Inactive item                    | On Surface    | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Scrim                            | Surface       | Color<br>Opacity   | #FFFFFF<br>60%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Posivibes’ bottom navigation drawer text uses custom typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-posivibes-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 2      | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Regular<br>14<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Posivibes’ bottom navigation drawer container has custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/navigation-drawer/navdrawer-posivibes-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

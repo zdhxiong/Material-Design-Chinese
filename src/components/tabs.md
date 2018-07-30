@@ -19,7 +19,6 @@
 [en]: <> (Fixed tabs)
 [en]: <> (Scrollable tabs)
 [en]: <> (States)
-[en]: <> (Theming)
 [en]: <> (Spec)
 * [译文](#usage)
 * [译文](#anatomy)
@@ -28,7 +27,6 @@
 * [译文](#fixed-tabs)
 * [译文](#scrollable-tabs)
 * [译文](#states)
-* [译文](#theming)
 * [译文](#spec)
 
 </nav></div><div class="article__body">
@@ -746,72 +744,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Basil Material Theme)
-### 译文
-
-[en]: <> (This recipe app’s tabs have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tabs/tabs-basil-ahero.png)
-
-<figcaption>
-
-[en]: <> (Basil’s customized tabs)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Basil’s tabs use custom color on five elements: the container, active text label, active tab indicator, inactive text label, and divider.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tabs/tabs-basil-color.png)
-
-</figure>
-
-[en]: <> (Element                                   | Category      | Attribute          | Value)
-[en]: <> (---------                                 |----------     |---------           |------)
-[en]: <> (Container                                 | Background    | Color<br>Opacity   | #FFFBE6<br>100%)
-[en]: <> (Active text label, active tab indicator   | Primary       | Color<br>Opacity   | #356859<br>100%)
-[en]: <> (Inactive text label                       | On Surface    | Color<br>Opacity   | #29302E<br>100%)
-[en]: <> (Divider                                   | On Surface    | Color<br>Opacity   | #29302E<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Basil’s tabs uses custom typography for message and button text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tabs/tabs-basil-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Button      | Button      | Typeface<br>Font<br>Size<br>Case   | Montserrat<br>Bold<br>14<br>All caps)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Spec)
 <h2 id="spec">译文</h2>

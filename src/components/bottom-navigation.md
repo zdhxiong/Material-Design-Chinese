@@ -17,14 +17,12 @@
 [en]: <> (Behavior)
 [en]: <> (Placement)
 [en]: <> (States)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#placement)
 * [译文](#states)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -516,70 +514,6 @@
 2. 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Owl Material Theme)
-### 译文
-
-[en]: <> (This educational app’s bottom navigation bar has been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/bottom-navigation/bottomnav-owl-ahero.png)
-
-<figcaption>
-
-[en]: <> (Owl's customized bottom navigation bar)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Owl's bottom navigation bar uses custom color on three elements: the container, activated items, and inactive items.)
-译文
-
-<figure>
-
-![]({assets_path}/components/bottom-navigation/bottomnav-owl-color.png)
-
-</figure>
-
-[en]: <> (Element                   | Category      | Attribute          | Value)
-[en]: <> (---------                 |----------     |---------           |------)
-[en]: <> (Container                 | Primary Blue  | Color<br>Opacity   | #0336FF<br>100%)
-[en]: <> (Active icon, active text  | On Primary    | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Inactive icons            | On Primary    | Color<br>Opacity   | #FFFFFF<br>76%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Owl's bottom navigation bar uses custom typography for text labels.)
-译文
-
-<figure>
-
-![]({assets_path}/components/bottom-navigation/bottomnav-owl-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category    | Attribute                          | Value)
-[en]: <> (---------    |----------   |---------                           |------)
-[en]: <> (Text label   | Caption     | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Regular<br>12<br>All caps)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

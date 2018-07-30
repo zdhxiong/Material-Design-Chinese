@@ -13,14 +13,12 @@
 [en]: <> (Behavior)
 [en]: <> (Actions)
 [en]: <> (Card collections)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#actions)
 * [译文](#card-collections)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -556,183 +554,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Owl Material Theme)
-### 译文
-
-[en]: <> (This educational app’s cards have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-owl-ahero.png)
-
-<figcaption>
-
-[en]: <> (Owl’s customized cards)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Owl’s cards use custom color on three elements: the container, text, and icon.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-owl-color.png)
-
-</figure>
-
-[en]: <> (Element      | Category      | Attribute          | Value)
-[en]: <> (---------    |----------     |---------           |------)
-[en]: <> (Container    | Background    | Color<br>Opacity   | #0336FF<br>100%)
-[en]: <> (Text, Icons  | On Background | Color<br>Opacity   | #FFFFFF<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Owl’s cards use custom typography for the card title, number, and category text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-owl-type.png)
-
-</figure>
-
-[en]: <> (Element     |Category      | Attribute                          | Value)
-[en]: <> (---------   |-----------   |---------                           |------)
-[en]: <> (Title       | Subtitle 1   | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Medium<br>16<br>Title case)
-[en]: <> (Number      | Subtitle 2   | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Medium<br>14<br>Title case)
-[en]: <> (Category    | Overline     | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Regular<br>10<br>All caps)
-
-译文     |译文     | 译文                        | 译文
---------|-------- |----------                  |-----------
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Owl’s cards use a custom container shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-owl-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Cut 0dp<br>Cut 0dp<br>Cut 0dp<br>Cut 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Reply Material Theme)
-### 译文
-
-[en]: <> (This email app’s cards have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-reply-ahero.png)
-
-<figcaption>
-
-[en]: <> (Reply’s customized card)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Reply’s cards use custom color on six elements: the container, metadata text, title text, body text, icon, and icon fill.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-reply-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Metadata text | On Secondary  | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Title text    | On Secondary  | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Body text     | On Secondary  | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Icon          | On Secondary  | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Icon fill     | On Secondary  | Color<br>Opacity   | #232F34<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Reply’s cards use custom typography for the card title, body, and metadata text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-reply-type.png)
-
-</figure>
-
-[en]: <> (Element     |Category      | Attribute                          | Value)
-[en]: <> (---------   |-----------   |---------                           |------)
-[en]: <> (Title       | H6           | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Bold<br>21<br>Sentence case)
-[en]: <> (Body        | Body 1       | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Regular<br>17<br>Sentence case)
-[en]: <> (Metadata    | Body 2       | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Regular<br>15<br>Sentence case)
-
-译文     |译文     | 译文                        | 译文
---------|-------- |----------                  |-----------
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     |译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Reply’s cards use a custom container shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/cards/card-reply-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Sharp 0dp<br>Sharp 0dp<br>Sharp 0dp<br>Sharp 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

@@ -16,13 +16,11 @@
 [en]: <> (Anatomy)
 [en]: <> (Behavior)
 [en]: <> (Tables within cards)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#tables-within-cards)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -341,92 +339,6 @@
 2. 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Rally Material Theme)
-### 译文
-
-[en]: <> (This personal finance app’s data tables have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/data-tables/datatables-rally-ahero.png)
-
-<figcaption>
-
-[en]: <> (Rally’s customized data tables)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Rally’s data tables uses custom color on two elements: container, table text, header text, and divider.)
-译文
-
-<figure>
-
-![]({assets_path}/components/data-tables/datatables-rally-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | Surface       | Color<br>Opacity   | #3C3C46<br>100%)
-[en]: <> (Table text    | On Surface    | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Header text   | On Surface    | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Divider       | On Surface    | Color<br>Opacity   | #FFFFFF<br>12%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Rally’s data tables use custom typography for table text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/data-tables/datatables-rally-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 2      | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Regular<br>14<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Rally’s data tables have custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/data-tables/datatables-rally-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

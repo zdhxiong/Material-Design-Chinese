@@ -16,13 +16,11 @@
 [en]: <> (Anatomy)
 [en]: <> (Placement)
 [en]: <> (Behavior)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#placement)
 * [译文](#behavior)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -447,139 +445,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Basil Material Theme)
-### 译文
-
-[en]: <> (This recipe app’s banner has been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-basil-ahero.png)
-
-<figcaption>
-
-[en]: <> (Basil’s customized banner)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Basil’s banner uses custom color on four elements: the container, message, button, and divider.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-basil-color.png)
-
-</figure>
-
-[en]: <> (Element        | Category     | Attribute          | Value)
-[en]: <> (---------      |----------    |---------           |------)
-[en]: <> (Container      | Surface      | Color<br>Opacity   | #FFFBE6<br>100%)
-[en]: <> (Text           | On Surface   | Color<br>Opacity   | #29302E<br>100%)
-[en]: <> (Button         | Primary      | Color<br>Opacity   | #356859<br>100%)
-[en]: <> (Divider        | On Surface   | Color<br>Opacity   | #29302E<br>12%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Basil’s banner uses custom typography for message and button text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-basil-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 2      | Typeface<br>Font<br>Size<br>Case   | Montserrat<br>Medium<br>14<br>Sentence case)
-[en]: <> (Button      | Button      | Typeface<br>Font<br>Size<br>Case   | Montserrat<br>Bold<br>14<br>All caps)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Posivibes Material Theme)
-### 译文
-
-[en]: <> (This social media app’s banner has been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-posivibes-ahero.png)
-
-<figcaption>
-
-[en]: <> (Posivibe’s customized banner)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Posivibe’s banner uses custom color on four elements: the container, message, button, and divider.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-posivibes-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category     | Attribute          | Value)
-[en]: <> (---------     |----------    |---------           |------)
-[en]: <> (Container     | Surface      | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Text          | On Surface   | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Button        | On Surface   | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Divider       | On Surface   | Color<br>Opacity   | #000000<br>12%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Posivibe’s banner uses custom typography for message and button text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/banners/banner-posivibes-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 2      | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Regular<br>14<br>Sentence case)
-[en]: <> (Button      | Button      | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Bold<br>14<br>All caps)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

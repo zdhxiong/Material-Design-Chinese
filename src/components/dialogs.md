@@ -20,7 +20,6 @@
 [en]: <> (Simple dialog)
 [en]: <> (Confirmation dialog)
 [en]: <> (Full-screen dialog)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
@@ -30,7 +29,6 @@
 * [译文](#simple-dialog)
 * [译文](#confirmation-dialog)
 * [译文](#full-screen-dialog)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -710,187 +708,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s dialogs have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized dialogs)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s dialogs use custom color on five elements: the container, title text, supporting text, button text, and scrim.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-crane-color.png)
-
-</figure>
-
-[en]: <> (Element           | Category      | Attribute          | Value)
-[en]: <> (---------         |----------     |---------           |------)
-[en]: <> (Container         | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Title text        | On Surface    | Color<br>Opacity   | #000000<br>87%)
-[en]: <> (Supporting text   | On Surface    | Color<br>Opacity   | #000000<br>60%)
-[en]: <> (Button text       | Primary       | Color<br>Opacity   | #5C1349<br>100%)
-[en]: <> (Scrim             | On Surface    | Color<br>Opacity   | #000000<br>32%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Crane’s dialogs use custom typography for title text, supporting text, and button text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-crane-type.png)
-
-</figure>
-
-[en]: <> (Element           | Category    | Attribute                          | Value)
-[en]: <> (---------         |----------   |---------                           |------)
-[en]: <> (Title text        | H6          | Typeface<br>Font<br>Size<br>Case   | Raleway<br>Bold<br>20<br>Title case)
-[en]: <> (Supporting text   | Body 1      | Typeface<br>Font<br>Size<br>Case   | Raleway<br>Medium<br>16<br>Sentence case)
-[en]: <> (Button text       | Button      | Typeface<br>Font<br>Size<br>Case   | Raleway<br>SemiBold<br>14<br>All caps)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Crane’s dialog boxes have custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-crane-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 16dp<br>Rounded 16dp<br>Rounded 16dp<br>Rounded 16dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Reply Material Theme)
-### 译文
-
-[en]: <> (This email app’s dialogs have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-reply-ahero.png)
-
-<figcaption>
-
-[en]: <> (Reply’s customized dialogs)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Reply’s dialogs use custom color on five elements: the dialog box, title text, supporting text, button text, and scrim.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-reply-color.png)
-
-</figure>
-
-[en]: <> (Element          | Category      | Attribute          | Value)
-[en]: <> (---------        |----------     |---------           |------)
-[en]: <> (Container        | Surface       | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Title text       | On Surface    | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Supporting text  | On Surface    | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Button text      | Primary       | Color<br>Opacity   | #344955<br>100%)
-[en]: <> (Scrim            | On Surface    | Color<br>Opacity   | #232F34<br>32%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Reply’s dialogs use custom typography for title text, supporting text, and button text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-reply-type.png)
-
-</figure>
-
-[en]: <> (Element           | Category    | Attribute                          | Value)
-[en]: <> (---------         |----------   |---------                           |------)
-[en]: <> (Title text        | H6          | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Bold<br>21<br>Sentence case)
-[en]: <> (Supporting text   | Body 1      | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Regular<br>16<br>Sentence case)
-[en]: <> (Button text       | Button      | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>SemiBold<br>15<br>Sentence case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Reply’s dialog boxes have custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dialogs/dialogs-reply-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

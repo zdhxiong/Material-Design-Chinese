@@ -15,12 +15,10 @@
 [en]: <> (Usage)
 [en]: <> (Placement)
 [en]: <> (Behavior)
-[en]: <> (Theming)
 [en]: <> (Spec)
 * [译文](#usage)
 * [译文](#placement)
 * [译文](#behavior)
-* [译文](#theming)
 * [译文](#spec)
 
 </nav></div><div class="article__body">
@@ -234,88 +232,6 @@
 2. 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Reply Material Theme)
-### 译文
-
-[en]: <> (This email app’s tooltips have been customized using Material Theming. Areas of customization include color, typography, and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tooltips/tooltips-reply-ahero.png)
-
-<figcaption>
-
-[en]: <> (Reply’s customized tooltip.)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Reply’s tooltips use custom color on two elements: the container, and text string.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tooltips/tooltips-reply-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | On Surface    | Color<br>Opacity   | #232F34<br>100%)
-[en]: <> (Text string   | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Reply’s tooltips use custom typography for the text string.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tooltips/tooltips-reply-type.png)
-
-</figure>
-
-[en]: <> (Element       | Category    | Attribute                          | Value)
-[en]: <> (---------     |----------   |---------                           |------)
-[en]: <> (Text string   | Caption     | Typeface<br>Font<br>Size<br>Case   | Work Sans<br>Regular<br>12<br>Sentence case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Reply’s tooltips use a custom container shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/tooltips/tooltips-reply-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Spec)
 <h2 id="spec">译文</h2>

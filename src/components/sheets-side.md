@@ -18,7 +18,6 @@
 [en]: <> (Placement)
 [en]: <> (Standard side sheet)
 [en]: <> (Modal side sheet)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
@@ -26,7 +25,6 @@
 * [译文](#placement)
 * [译文](#standard-side-sheet)
 * [译文](#modal-side-sheet)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -445,50 +443,6 @@
 译文
 
 </figcaption></figure></div></div>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s side sheets have been customized using Material Theming, specifically using customized color.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sheets-side/sheets-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized side sheets)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s side sheets use custom color on three elements: the container, text, and selection controls.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sheets-side/sheets-crane-color.png)
-
-</figure>
-
-[en]: <> (Element             | Category      | Attribute          | Value)
-[en]: <> (---------           |----------     |---------           |------)
-[en]: <> (Container           | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Text                | On Surface    | Color<br>Opacity   | #000000<br>100%)
-[en]: <> (Selection controls  | Secondary     | Color<br>Opacity   | #E30425<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

@@ -16,13 +16,11 @@
 [en]: <> (Anatomy)
 [en]: <> (Continuous slider)
 [en]: <> (Discrete slider)
-[en]: <> (Theming)
 [en]: <> (Spec)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#continuous-slider)
 * [译文](#discrete-slider)
-* [译文](#theming)
 * [译文](#spec)
 
 </nav></div><div class="article__body">
@@ -330,48 +328,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s sliders have been customized using Material Theming. One area of customization includes color.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sliders/sliders-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized sliders)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s sliders use custom color on three elements: the active track, inactive track, and thumb.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sliders/sliders-crane-color.png)
-
-</figure>
-
-[en]: <> (Element               | Category      | Attribute          | Value)
-[en]: <> (---------             |----------     |---------           |------)
-[en]: <> (Active track, thumb   | Secondary     | Color<br>Opacity   | #E30425<br>100%)
-[en]: <> (Inactive track        | Secondary     | Color<br>Opacity   | #E30425<br>38%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
 
 [en]: <> (Spec)
 <h2 id="spec">译文</h2>

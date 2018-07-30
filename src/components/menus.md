@@ -19,14 +19,12 @@
 [en]: <> (Behavior)
 [en]: <> (Dropdown menu)
 [en]: <> (Exposed dropdown menu)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#dropdown-menu)
 * [译文](#exposed-dropdown-menu)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -485,171 +483,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Basil Material Theme)
-### 译文
-
-[en]: <> (This recipe app’s menus have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-basil-ahero.png)
-
-<figcaption>
-
-[en]: <> (Basil’s customized menu)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Basil’s menus use custom color on four elements: the menu container, text, icon, and hover overlay.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-basil-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Text          | On Surface    | Color<br>Opacity   | #29302E<br>100%)
-[en]: <> (Icon          | Primary       | Color<br>Opacity   | #356859<br>54%)
-[en]: <> (Hover overlay | Primary    | Color<br>Opacity   | #356859<br>4%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Basil’s menu text uses custom typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-basil-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 1      | Typeface<br>Font<br>Size<br>Case   | Lekton<br>Medium<br>16<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Basil’s menu containers have custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-basil-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Table       | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 6dp<br>Rounded 6dp<br>Rounded 6dp<br>Rounded 6dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shrine Material Theme)
-### 译文
-
-[en]: <> (This retail app’s menus have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-shrine-ahero.png)
-
-<figcaption>
-
-[en]: <> (Shrine’s customized menu)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Shrine’s menus use custom color on two elements: the menu container and text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-shrine-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | Surface       | Color<br>Opacity   | #FFFBFA<br>100%)
-[en]: <> (Text          | On Surface    | Color<br>Opacity   | #442C2E<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Shrine’s menu text uses custom typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-shrine-type.png)
-
-</figure>
-
-[en]: <> (Element     | Category    | Attribute                          | Value)
-[en]: <> (---------   |----------   |---------                           |------)
-[en]: <> (Text        | Body 1      | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Regular<br>16<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Shrine’s menu containers have custom corner shapes.)
-译文
-
-<figure>
-
-![]({assets_path}/components/menus/menu-shrine-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Table       | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 8dp<br>Rounded 8dp<br>Rounded 8dp<br>Rounded 8dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

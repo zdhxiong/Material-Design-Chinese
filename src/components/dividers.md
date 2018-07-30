@@ -14,11 +14,9 @@
 
 [en]: <> (Usage)
 [en]: <> (Types)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#types)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -255,87 +253,6 @@
 译文
 
 </figcaption></figure></div></div>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Fortnightly Material Theme)
-### 译文
-
-[en]: <> (This news app’s divider color has been customized using Material Theming.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dividers/divider-fortnightly-ahero.png)
-
-<figcaption>
-
-[en]: <> (Fortnightly’s customized divider)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Fortnightly’s divider uses custom color)
-译文
-
-<figure>
-
-![]({assets_path}/components/dividers/divider-fortnightly-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Surface       | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Divider       | On Surface    | Color<br>Opacity   | #000000<br>12%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Owl Material Theme)
-### 译文
-
-[en]: <> (This educational app’s divider color has been customized using Material Theming.)
-译文
-
-<figure>
-
-![]({assets_path}/components/dividers/divider-owl-ahero.png)
-
-<figcaption>
-
-[en]: <> (Owl’s customized divider)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Owl’s divider uses custom color)
-译文
-
-<figure>
-
-![]({assets_path}/components/dividers/divider-owl-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category         | Attribute          | Value)
-[en]: <> (---------     |----------        |---------           |------)
-[en]: <> (Background    | Background       | Color<br>Opacity   | #0336FF<br>100%)
-[en]: <> (Divider       | On Background    | Color<br>Opacity   | #FFFFFF<br>20%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

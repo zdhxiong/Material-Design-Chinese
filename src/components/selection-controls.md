@@ -16,13 +16,11 @@
 [en]: <> (Checkboxes)
 [en]: <> (Radio buttons)
 [en]: <> (Switches)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#checkboxes)
 * [译文](#radio-buttons)
 * [译文](#switches)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -468,46 +466,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s selection controls have been customized using Material Theming to use custom color.)
-### 译文
-
-<figure>
-
-![]({assets_path}/components/selection-controls/selectioncontrols-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized selection controls)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s selection controls use a custom color.)
-译文
-
-<figure>
-
-![]({assets_path}/components/selection-controls/selectioncontrols-crane-color.png)
-
-</figure>
-
-[en]: <> (Element             | Category      | Attribute          | Value)
-[en]: <> (---------           |----------     |---------           |------)
-[en]: <> (Selection controls  | Secondary     | Color<br>Opacity   | #E30425<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

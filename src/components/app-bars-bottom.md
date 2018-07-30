@@ -15,12 +15,10 @@
 [en]: <> (Usage)
 [en]: <> (Anatomy)
 [en]: <> (Behavior)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [用法](#usage)
 * [剖析](#anatomy)
 * [行为](#behavior)
-* [主题](#theming)
 * [规范](#specs)
 
 </nav></div><div class="article__body">
@@ -479,71 +477,6 @@
 不要在底部应用栏或 FAB 的前面显示 snackbar。
 
 </figcaption></figure></div></div>
-
-[en]: <> (Theming)
-<h2 id="theming">主题</h2>
-
-[en]: <> (Posivibes Material Theme)
-### Posivibes 的 Material 主题
-
-[en]: <> (This social media app’s bottom app bar has been customized using Material Theming. Areas of customization include color and shape.)
-该社交媒体应用的底部应用栏使用 Material Theming 进行了定制。定制的地方包括颜色和形状。
-
-<figure>
-
-![]({assets_path}/components/app-bars-bottom/appbarbottom-posivibes-ahero.png)
-
-<figcaption>
-
-[en]: <> (Posivibe’s customized bottom app bar)
-Posivibe 定制的底部应用栏
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 颜色
-
-[en]: <> (Posivibe’s bottom app bar uses custom color on two elements: the container and icons.)
-Posivibe 的底部应用栏在两个元素上使用了自定义颜色：容器和图标。
-
-<figure>
-
-![]({assets_path}/components/app-bars-bottom/appbarbottom-posivibes-color.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute          | Value)
-[en]: <> (---------    |----------    |---------           |------)
-[en]: <> (Container    | Surface      | Color<br/>Opacity  | #FFFFFF<br>100%)
-[en]: <> (icons        | On Surface   | Color<br/>Opacity  | #000000)
-
-元素     | 类型     | 属性             | 值
---------|----------|----------       |-----------
-容器     | 表面     | 颜色<br>不透明度  | #FFFFFF<br>100%
-图标     | 在表面上  | 颜色<br>不透明度  | #000000
-
-[en]: <> (Shape)
-#### 形状
-
-[en]: <> (Posivibe’s bottom app bar uses a custom shape on the top edge of the container.)
-Posivibe 的底部应用栏在容器的上边缘使用了自定义的形状。
-
-<figure>
-
-![]({assets_path}/components/app-bars-bottom/appbarbottom-posivibes-shape.png)
-
-</figure>
-
-[en]: <> (Element      | Attribute    | Value)
-[en]: <> (---------    |----------    |---------)
-[en]: <> (Container    | Top edge     | TriangleEdge SVG<br>Path data: “l 42 42 l 42 -42")
-
-元素     | 属性     | 值
---------|----------|----------
-容器     | 上边缘     | TriangleEdge SVG<br>Path data: “l 42 42 l 42 -42"
-
-[en]: <> (For further path syntax guidance, see [https://www.w3.org/TR/SVG/paths.html]\(https://www.w3.org/TR/SVG/paths.html\) .)
-更多的 path 语法，请参阅 [https://www.w3.org/TR/SVG/paths.html](https://www.w3.org/TR/SVG/paths.html)。
 
 [en]: <> (Specs)
 <h2 id="specs">规范</h2>

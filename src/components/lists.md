@@ -16,13 +16,11 @@
 [en]: <> (Anatomy)
 [en]: <> (Behavior)
 [en]: <> (Types)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#types)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -555,111 +553,6 @@
 译文
 
 </figcaption></figure></div></div>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Basil Material Theme)
-### 译文
-
-[en]: <> (This recipe app’s lists have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/lists/list-basil-ahero.png)
-
-<figcaption>
-
-[en]: <> (Basil’s customized list)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Basil’s lists use custom color on four elements: the background, icon, item text, and quantity text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/lists/list-basil-color.png)
-
-</figure>
-
-[en]: <> (Element            | Category      | Attribute          | Value)
-[en]: <> (---------          |----------     |---------           |------)
-[en]: <> (Surface            | Surface       | Color<br>Opacity   | #FFFBE6<br>100%)
-[en]: <> (Item text, Icons   | Primary       | Color<br>Opacity   | #356859<br>100%)
-[en]: <> (Quantity text      | On Surface    | Color<br>Opacity   | #29302E<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Basil’s lists use custom typography for item and quantity text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/lists/list-basil-type.png)
-
-</figure>
-
-[en]: <> (Element         | Category    | Attribute                          | Value)
-[en]: <> (---------       |----------   |---------                           |------)
-[en]: <> (Item text       | Subtitle 1  | Typeface<br>Font<br>Size<br>Case   | Lekton<br>Bold<br>16<br>Title case)
-[en]: <> (Quantity text   | Caption     | Typeface<br>Font<br>Size<br>Case   | Lekton<br>Regular<br>12<br>Sentence case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s lists have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/lists/list-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized list)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Crane’s lists use custom typography for title and caption text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/lists/list-crane-type.png)
-
-</figure>
-
-[en]: <> (Element         | Category    | Attribute                          | Value)
-[en]: <> (---------       |----------   |---------                           |------)
-[en]: <> (Title text      | Subtitle 1  | Typeface<br>Font<br>Size<br>Case   | Raleway<br>Medium<br>16<br>Title case)
-[en]: <> (Caption text    | Caption     | Typeface<br>Font<br>Size<br>Case   | Raleway<br>SemiBold<br>12<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>

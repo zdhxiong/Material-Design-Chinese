@@ -15,12 +15,10 @@
 [en]: <> (Usage)
 [en]: <> (Anatomy)
 [en]: <> (Behavior)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [用法](#usage)
 * [剖析](#anatomy)
 * [行为](#behavior)
-* [主题](#theming)
 * [规范](#specs)
 
 </nav></div><div class="article__body">
@@ -200,7 +198,7 @@
 ### 激活的背景层
 
 [en]: <> (The back layer appears at the lowest elevation \(0dp\) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.)
-译文
+背景层的海拔高度是最低的，只有 0dp，它填充满整个背景。它包含和前景层相关的操作项。
 
 <figure>
 
@@ -209,19 +207,19 @@
 <figcaption>
 
 [en]: <> (The back layer contains components for navigation or filtration, such as:)
-译文
+背景层包含了用于导航或筛选的组件，例如：
 
 [en]: <> (Navigation)
 [en]: <> (Steppers)
 [en]: <> (Text fields)
 [en]: <> (Selection controls)
-1. 译文
-2. 译文
-3. 译文
-4. 译文
+1. 导航
+2. 步进器
+3. 文本字段
+4. 选择控件
 
 [en]: <> (These components affect content on the front layer.)
-译文
+这些组件会影响前景层的内容。
 
 </figcaption></figure><figure>
 
@@ -230,12 +228,12 @@
 <figcaption>
 
 [en]: <> (A: The elevation value for the backdrop’s back layer is 0dp.)
-译文
+A：背景层的海拔高度为 0dp。
 
 </figcaption></figure>
 
 [en]: <> (When the back layer is active, the front layer can contain text and iconography, or a scrim, as affordances that provide a way to conceal the back layer.)
-译文
+当背景层处于激活状态时，前景层可以包含文本和图标、或者遮罩层，用于让用户隐藏背景层。
 
 <figure>
 
@@ -245,19 +243,19 @@
 
 [en]: <> (Icon and text)
 [en]: <> (Scrim)
-1. 译文
-2. 译文
+1. 图标和文本
+2. 遮罩层
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-<h2 id="behavior">译文</h2>
+<h2 id="behavior">行为</h2>
 
 [en]: <> (Revealing the back layer)
-### 译文
+### 展开背景层
 
 [en]: <> (To reveal the back layer, interact with any actions that appear on it.)
-译文
+与背景层上的任意操作进行交互后，就可以展开背景层。
 
 <figure>
 
@@ -266,7 +264,7 @@
 <figcaption>
 
 [en]: <> (This back layer can be revealed by tapping the menu icon \(1\).)
-译文
+点击菜单图标（1）可以显示展开背景层。
 
 </figcaption></figure><figure>
 
@@ -275,32 +273,32 @@
 <figcaption>
 
 [en]: <> (This back layer can be revealed by tapping any input field \(1, 2, 3\).)
-译文
+点击任意输入框（1，2，3）可以展开背景层。
 
 </figcaption></figure><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" src="{assets_path}/components/backdrop/behavior-reveal-swipe-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t use the swipe gesture on the front layer to reveal the back layer.)
-译文
+不要使用前景层的滑动手势来展开背景层。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-reveal.mp4" src="{assets_path}/components/backdrop/behavior-reveal.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When the back layer is revealed, the front layer slides out of view.)
-译文
+当背景层展开时，前景层会失去当前的视觉焦点。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" src="{assets_path}/components/backdrop/behavior-backlayer-height.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The height of the back layer is based on the size of its content.)
-译文
+背景层的高度取决于其内容高度。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Concealing the back layer)
-### 译文
+### 收起背景层
 
 [en]: <> (The back layer can be concealed by either interacting with the the front layer or tapping a conceal affordance on either layer.)
-译文
+通过和前景层进行交互、或者点击任意层上的收起按钮，可以收起背景层。
 
 <figure>
 
@@ -309,200 +307,71 @@
 <figcaption>
 
 [en]: <> (This back layer can be concealed by tapping the back layer close icon \(1\), the entire front layer \(2\), or the front layer arrow \(3\).)
-译文
+通过点击背景层的关闭图标（1）、整个前景层（2）、或者前景层的箭头（3），可以收起背景层。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapfront.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When the back layer is revealed, the front layer content becomes inactive. To conceal the back layer, tap either anywhere on the front layer or the back layer’s conceal affordance.)
-译文
+当背景层展开时，前景层会失去焦点。要收起背景层，可以点击前景层的任意位置、或者背景层上的收起按钮。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" src="{assets_path}/components/backdrop/behavior-conceal-tapbacklayericon.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To conceal the back layer when the front layer isn’t visible, tap the close affordance.)
-译文
+如果前景层不可见时，要收起背景层，可以点击背景层上的收起按钮。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Content scrolling)
-### 译文
+### 内容滚动
 
 [en]: <> (Content on the front layer has different scrolling behaviors \(and restrictions\) than content on the back layer.)
-译文
+前景层的内容与背景层的内容有不同的滚动行为（和限制）。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" src="{assets_path}/components/backdrop/behavior-scroll-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Content on the front layer can scroll horizontally.)
-译文
+前景层的内容可以水平滚动。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" src="{assets_path}/components/backdrop/behavior-scrolloverlap-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Don’t let front layer content extend beyond its container, overlapping the back layer.)
-译文
+不要让前景层的内容超出前景层，和背景层产生重叠。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Use a subheader to scroll content vertically on the front layer.)
-译文
+前景层含副标题时，前景层内容垂直滚动。
 
 </figcaption></figure></div><div class="mdui-col"><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" src="{assets_path}/components/backdrop/behavior-scroll-subheader-position.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (When using a subheader, content on the front layer can retain its scroll position when the back layer is exposed.)
-译文
+当使用副标题时，前景层的内容可以在背景层展开时保留滚动条位置。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (If the front layer is minimized, content on the back layer can scroll vertically.)
-译文
+如果前景层最小化了，则背景层的内容可以垂直滚动。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" src="{assets_path}/components/backdrop/behavior-scroll-backcontent-caution.mp4" type="video/mp4"></video><figcaption>
 
 {caution}
 
 [en]: <> (Be careful when scrolling back layer content in a small area. Since the exposed backdrop is modal, expose as much content as possible.)
-译文
+尽量不要让背景层内容在一个较小的区域内滚动。由于展开的背景板是模态化的，因此请尽可能多地展开背景层的内容。
 
 </figcaption></figure></div></div>
 
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s backdrop has been customized using Material Theming. Areas of customization include color and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized backdrop.)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s backdrop uses custom color on four elements: the back layer, the front layer, back layer icons, and front layer text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-crane-color.png)
-
-</figure>
-
-[en]: <> (Element           | Category     | Attribute          | Value)
-[en]: <> (---------         |----------    |---------           |------)
-[en]: <> (Back layer        | Primary      | Color<br>Opacity   | #5C1349<br>100%)
-[en]: <> (Back layer icons  | On Primary   | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Front layer       | Surface      | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Front layer text  | On Surface   | Color<br>Opacity   | #000000<br>60%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Crane’s backdrop uses custom shapes on the top corners of the front layer.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-crane-shape.png)
-
-</figure>
-
-[en]: <> (Element           | Attribute        | Value)
-[en]: <> (---------         |----------        |---------)
-[en]: <> (Front layer       | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner      | Rounded 16dp<br>Rounded 16dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Shrine Material Theme)
-### 译文
-
-[en]: <> (Shrine is a retail app, and its backdrop has been customized using Material Theming. Areas of customization include color and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-shrine-ahero.png)
-
-<figcaption>
-
-[en]: <> (Shrine's customized backdrop)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Shrine's backdrop uses custom color on four elements: the back layer, back layer icons, the front layer, and front layer icons.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-shrine-color.png)
-
-</figure>
-
-[en]: <> (Element           | Category     | Attribute          | Value)
-[en]: <> (---------         |----------    |---------           |------)
-[en]: <> (Back layer        | Primary      | Color<br>Opacity   | #FEDBD0<br>100%)
-[en]: <> (Back layer icons  | On Primary   | Color<br>Opacity   | #442C2E<br>100%)
-[en]: <> (Front layer       | Surface      | Color<br>Opacity   | #FFFBFA<br>100%)
-[en]: <> (Front layer text  | On Surface   | Color<br>Opacity   | #442C2E<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Shrine’s backdrop uses a custom shape on the top left corner of the front layer.)
-译文
-
-<figure>
-
-![]({assets_path}/components/backdrop/backdrop-shrine-shape.png)
-
-</figure>
-
-[en]: <> (Element           | Attribute        | Value)
-[en]: <> (---------         |----------        |---------)
-[en]: <> (Front layer       | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner      | Cut 32dp<br>Cut 0dp<br>Cut 0dp<br>Cut 0dp)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (Mobile)
-### 译文
+### 移动端
 
 <figure>
 

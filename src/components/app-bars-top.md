@@ -16,16 +16,12 @@
 [en]: <> (Anatomy)
 [en]: <> (Behavior)
 [en]: <> (Contextual action bar)
-[en]: <> (Theming)
 [en]: <> (Specs)
-[en]: <> (Implementation)
 * [用法](#usage)
 * [剖析](#anatomy)
 * [行为](#behavior)
 * [上下文操作栏](#contextual-action-bar)
-* [主题](#theming)
 * [规范](#specs)
-* [实现](#implementation)
 
 </nav></div><div class="article__body">
 
@@ -468,170 +464,6 @@
 
 [en]: <> (When a top app bar transforms into a contextual action bar, the bar should change color to indicate a change of state.)
 当顶部应用栏转换为上下文操作栏时，栏应该更改颜色，以表明状态变化。
-
-[en]: <> (Theming)
-<h2 id="theming">主题</h2>
-
-[en]: <> (Fortnightly Material Theme)
-### Fortnightly 的 Material 主题
-
-[en]: <> (This news app’s top app bar has been customized using Material Theming. Areas of customization include color and typography.)
-这个资讯应用的顶部应用栏使用 Material 主题进行了定制。定制区域包括颜色和排版。
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-fortnightly-ahero.png)
-
-<figcaption>
-
-[en]: <> (Fortnightly’s customized top app bar)
-Fortnightly 的定制后的顶部应用栏
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 颜色
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-fortnightly-color.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute          | Value)
-[en]: <> (---------    |----------    |---------           |------)
-[en]: <> (Container    | Surface      | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Text, icons  | On Surface   | Color<br>Opacity   | #000000<br>100%)
-
-元素       | 分类      | 属性             | 值
---------  |---------- |----------       |-----------
-容器       | 表面      | 颜色<br>不透明度  | #FFFFFF<br>100%
-文本，图标  | 在表面上   | 颜色<br>不透明度  | #000000<br>100%
-
-[en]: <> (Typography)
-#### 排版
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-fortnightly-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute                          | Value)
-[en]: <> (---------    |----------    |---------                           |------)
-[en]: <> (Text         | H6           | Typeface<br>Font<br>Size<br>Case   | Merriweather<br>Bold Italic<br/>20<br/>Title case Italic<br>20<br>Title case)
-
-元素     | 分类     | 属性                        | 值
---------|----------|----------                  |-----------
-文本     | H6     | 字体<br>字形<br>字号<br>用例  | Merriweather<br>Bold Italic<br>20<br>标题
-
-[en]: <> (Rally Material Theme)
-### Rally 的 Material 主题
-
-[en]: <> (This financial app’s top app bar has been customized using Material Theming. Areas of customization include color and typography.)
-这个金融应用的顶部应用栏使用 Material 主题进行了定制。定制区域包括颜色和排版。
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-rally-ahero.png)
-
-<figcaption>
-
-[en]: <> (Rally’s customized top app bar)
-Rally 的定制后的顶部应用栏
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 颜色
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-rally-color.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute          | Value)
-[en]: <> (---------    |----------    |---------           |------)
-[en]: <> (Container    | Surface      | Color<br>Opacity   | #363640<br>100%)
-[en]: <> (Text         | On Surface   | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Icons        | On Surface   | Color<br>Opacity   | #FFFFFF<br>60%)
-
-元素     | 类型        | 属性             | 值
---------|----------   |----------       |-----------
-容器     | 表面        | 颜色<br>不透明度  | #363640<br>100%
-文本     | 在表面上     | 颜色<br>不透明度  | #FFFFFF<br>100%
-图标     | 在表面上     | 颜色<br>不透明度  | #FFFFFF<br>60%
-
-[en]: <> (Typography)
-#### 排版
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-rally-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute                          | Value)
-[en]: <> (---------    |----------    |---------                           |------)
-[en]: <> (Text         | H6           | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Regular<br>20<br>Title case)
-
-元素     | 类型     | 属性                        | 值
---------|----------|----------                  |-----------
-文本     | H6      | 字体<br>字形<br>字号<br>用例  | Roboto Condensed<br>Regular<br>20<br>标题
-
-[en]: <> (Shrine Material Theme)
-### Shrine 的 Material 主题
-
-[en]: <> (This retail app’s top app bar has been customized using Material Theming. Areas of customization include color and typography.)
-这个零售应用的顶部应用栏使用 Material 主题进行了定制。定制区域包括颜色和排版。
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-shrine-ahero.png)
-
-<figcaption>
-
-[en]: <> (Posivibe’s customized top app bar)
-Posivibe 的定制后的顶部应用栏
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 颜色
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-shrine-color.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute          | Value)
-[en]: <> (---------    |----------    |---------           |------)
-[en]: <> (Container    | Primary      | Color<br>Opacity   | #FEDBD0<br>100%)
-[en]: <> (Text, icons  | On Primary   | Color<br>Opacity   | #442C2E<br>100%)
-
-元素        | 类型         | 属性             | 值
---------   |----------    |----------       |-----------
-容器        | 主色         | 颜色<br>不透明度  | #FEDBD0<br>100%
-文本，图标   | 主色上的颜色   | 颜色<br>不透明度  | #442C2E<br>100%
-
-[en]: <> (Typography)
-#### 排版
-
-<figure>
-
-![]({assets_path}/components/app-bars-top/appbartop-shrine-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute                          | Value)
-[en]: <> (---------    |----------    |---------                           |------)
-[en]: <> (Text         | H6           | Typeface<br>Font<br>Size<br>Case   | Rubik<br>Medium<br>20<br>Title case)
-
-元素     | 类型     | 属性                        | 值
---------|----------|----------                  |-----------
-文本     | H6       | 字体<br>字形<br>字号<br>用例  | Rubik<br>Medium<br>20<br>标题
 
 [en]: <> (Specs)
 <h2 id="specs">规范</h2>

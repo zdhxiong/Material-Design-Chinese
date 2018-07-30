@@ -17,14 +17,12 @@
 [en]: <> (Filled text field)
 [en]: <> (Outlined text field)
 [en]: <> (Input types)
-[en]: <> (Theming)
 [en]: <> (Spec)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#filled-text-field)
 * [译文](#outlined-text-field)
 * [译文](#input-types)
-* [译文](#theming)
 * [译文](#spec)
 
 </nav></div><div class="article__body">
@@ -551,136 +549,6 @@
 译文
 
 </figcaption></figure></div></div>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Rally Material Theme)
-### 译文
-
-[en]: <> (This personal finance app’s filled text fields have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfeildfilled-rally-ahero.png)
-
-<figcaption>
-
-[en]: <> (Rally’s customized filled text fields)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Rally’s filled text fields use custom color on five elements: label text, input text, trailing icon, activation indicator, and container.)
-译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfeildfilled-rally-color.png)
-
-</figure>
-
-[en]: <> (Element                | Category      | Attribute          | Value)
-[en]: <> (---------              |----------     |---------           |------)
-[en]: <> (Label text             | Primary       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Input text             | On Surface    | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Trailing icon          | On Surface    | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Activation indicator   | Primary       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Container              | On Surface    | Color<br>Opacity   | #FFFFFF<br>4%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfeildfilled-rally-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute                          | Value)
-[en]: <> (---------    |----------    |---------                           |------)
-[en]: <> (Input text   | Subtitle 1   | Typeface<br>Font<br>Size<br>Case   | Eczar<br>Regular<br>16<br>Title case)
-[en]: <> (Label text   | Caption      | Typeface<br>Font<br>Size<br>Case   | Roboto Condensed<br>Regular<br>12<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-
-[en]: <> (Crane Material Theme)
-### 译文
-
-[en]: <> (This travel app’s outlined text fields have been customized using Material Theming. Areas of customization include color and typography.)
-译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfieldsoutlined-crane-ahero.png)
-
-<figcaption>
-
-[en]: <> (Crane’s customized outlined text fields)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Crane’s outlined text fields use custom color on three elements: the input text, label text, and container.)
-译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfieldsoutlined-crane-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Input text    | On Surface    | Color<br>Opacity   | #000000<br>87%)
-[en]: <> (Label Text    | On Surface    | Color<br>Opacity   | #000000<br>60%)
-[en]: <> (Text          | On Surface    | Color<br>Opacity   | #000000<br>12%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Typography)
-#### 译文
-
-[en]: <> (Crane’s outlined text fields use custom typography for the input text and label text.)
-译文
-
-<figure>
-
-![]({assets_path}/components/text-fields/textfieldsoutlined-crane-type.png)
-
-</figure>
-
-[en]: <> (Element      | Category     | Attribute                          | Value)
-[en]: <> (---------    |----------    |---------                           |------)
-[en]: <> (Input text   | Subtitle 1   | Typeface<br>Font<br>Size<br>Case   | Raleway<br>Medium<br>16<br>Title case)
-[en]: <> (Label text   | Caption      | Typeface<br>Font<br>Size<br>Case   | Raleway<br>SemiBold<br>14<br>Title case)
-
-译文     | 译文     | 译文                        | 译文
---------|----------|----------                  |-----------
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
-译文     | 译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Spec)
 <h2 id="spec">译文</h2>

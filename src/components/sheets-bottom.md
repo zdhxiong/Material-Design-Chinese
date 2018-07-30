@@ -17,14 +17,12 @@
 [en]: <> (Behavior)
 [en]: <> (Standard bottom sheet)
 [en]: <> (Modal bottom sheet)
-[en]: <> (Theming)
 [en]: <> (Specs)
 * [译文](#usage)
 * [译文](#anatomy)
 * [译文](#behavior)
 * [译文](#standard-bottom-sheet)
 * [译文](#modal-bottom-sheet)
-* [译文](#theming)
 * [译文](#specs)
 
 </nav></div><div class="article__body">
@@ -521,68 +519,6 @@
 译文
 
 </figcaption></figure>
-
-[en]: <> (Theming)
-<h2 id="theming">译文</h2>
-
-[en]: <> (Posivibes Material Theme)
-### 译文
-
-[en]: <> (This social media app’s bottom sheets have been customized using Material Theming. Areas of customization include color and shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sheets-bottom/sheets-posivibes-ahero.png)
-
-<figcaption>
-
-[en]: <> (Posivibe’s customized bottom sheets)
-译文
-
-</figcaption></figure>
-
-[en]: <> (Color)
-#### 译文
-
-[en]: <> (Posivibe’s bottom sheets use custom color on three elements: container, text, and icons.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sheets-bottom/sheets-posivibes-color.png)
-
-</figure>
-
-[en]: <> (Element       | Category      | Attribute          | Value)
-[en]: <> (---------     |----------     |---------           |------)
-[en]: <> (Container     | Surface       | Color<br>Opacity   | #FFFFFF<br>100%)
-[en]: <> (Text, icons   | On Surface    | Color<br>Opacity   | #000000<br>100%)
-
-译文     | 译文     | 译文         | 译文
---------|----------|----------   |-----------
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-译文     | 译文     | 译文<br>译文  | 译文<br>译文
-
-[en]: <> (Shape)
-#### 译文
-
-[en]: <> (Posivibe’s bottom sheets use a custom container shape.)
-译文
-
-<figure>
-
-![]({assets_path}/components/sheets-bottom/sheets-posivibes-shape.png)
-
-</figure>
-
-[en]: <> (Element     | Attribute                                                                          | Value)
-[en]: <> (---------   |---------                                                                           |------)
-[en]: <> (Container   | Top left corner<br>Top right corner<br>Bottom right corner<br>Bottom left corner   | Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp<br>Rounded 0dp)
-
-译文     | 译文                        | 译文
---------|----------                  |-----------
-译文     | 译文<br>译文<br>译文<br>译文  | 译文<br>译文<br>译文<br>译文
 
 [en]: <> (Specs)
 <h2 id="specs">译文</h2>
