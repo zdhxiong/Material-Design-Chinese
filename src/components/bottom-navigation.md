@@ -222,7 +222,7 @@
 {dont}
 
 [en]: <> (Don’t truncate text. The truncation may obscure important destination information.)
-译文
+不要截断文本。因为这样会导致理解困难。
 
 </figcaption></figure><figure>
 
@@ -233,7 +233,7 @@
 {dont}
 
 [en]: <> (Don’t shrink text to fit on a single line.)
-译文
+不要为了使文本在单行显示而缩小文本。
 
 </figcaption></figure><figure>
 
@@ -244,52 +244,52 @@
 {caution}
 
 [en]: <> (Avoid wrapping text.)
-译文
+避免使文本产生换行。
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-<h2 id="behavior">译文</h2>
+<h2 id="behavior">行为</h2>
 
 [en]: <> (Bottom navigation actions)
-### 译文
+### 底部导航操作
 
 [en]: <> (Tapping a bottom navigation destination results in one of the following:)
-译文
+点击底部导航的导航项会导致下列之一的结果：
 
 [en]: <> (It takes the user to the screen associated with it)
 [en]: <> (On a visited section, it returns the user to their previous scroll position there)
 [en]: <> (On the current section, it scrolls the page back to the top and may refresh it)
-* 译文
-* 译文
-* 译文
+* 切换到导航项对应的界面
+* 如果导航项对应的界面是曾经访问过的界面，则会切换到该界面，并恢复之前的滚动条位置
+* 如果导航项对应的界面是当前界面，则当前界面会滚动到顶部、且可能会刷新
 
 [en]: <> (Bottom navigation destinations don’t:)
-译文
+点击底部导航的导航项不会：
 
 [en]: <> (Open menus or dialogs)
-* 译文
+* 打开菜单或对话框
 
 [en]: <> (On Android, the Back button does not navigate between bottom navigation destinations.)
-译文
+在 Android 上，点击后退按钮不会在底部导航的导航项之间切换。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping the navigation destination of a previously visited section returns the user to where they left off in that section.)
-译文
+点击之前访问过的界面对应的导航项，会将用户带回到之前界面所处的状态。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-2a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Tapping the current bottom navigation destination takes the user to the top of the screen, and refreshes the content if applicable.)
-译文
+如果导航项对应的界面是当前界面，则点击导航项后，会滚动回界面顶部，并刷新（如果适用的话）。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Badges)
-### 译文
+### 徽章
 
 [en]: <> (Bottom navigation icons can include badges in their upper right corner. These badges can contain dynamic information, such as a number of pending requests.)
-译文
+底部导航项可以在图标的右上角包含一个徽章。这些徽章可以包含动态信息，例如显示未处理的消息数量。
 
 <figure>
 
@@ -300,79 +300,79 @@
 [en]: <> (Badge)
 [en]: <> (Badge with a number)
 [en]: <> (Badge with a maximum character count)
-1. 译文
-2. 译文
-3. 译文
+1. 徽章
+2. 带数字的徽章
+3. 带有最大字符数的徽章
 
 </figcaption></figure>
 
 [en]: <> (Scrolling)
-### 译文
+### 滚动
 
 [en]: <> (Upon scroll, the bottom navigation bar can appear or disappear:)
-译文
+滚动时，底部导航栏可以显示或隐藏：
 
 [en]: <> (Scrolling downward hides the bar)
 [en]: <> (Scrolling upward reveals it)
-* 译文
-* 译文
+* 向下滚动时隐藏底部导航栏
+* 向上滚动时显示底部导航栏
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The bottom navigation bar can disappear to allow more space for content.)
-译文
+底部导航栏可以隐藏，以便为内容留出更多空间。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-icons-1a.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (The bottom navigation bar remains in view when navigating through an app’s hierarchy.)
-译文
+在应用界面的层级之间切换时，底部导航栏仍然保留在视图中。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Transitions)
-### 译文
+### 过渡
 
 [en]: <> (Swipe gestures do not navigate between bottom navigation views.)
-译文
+滑动手势无法在底部导航的视图间进行切换。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-do-1a.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (Transition between active and inactive views using a cross-fade animation.)
-译文
+在不同视图中切换时使用淡入淡出的过渡效果。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-scrolling-dont-1a.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (Avoid using lateral \(left-and-right\) motion to transition between views. Lateral motion is reserved for navigating related content, such as tabs.)
-译文
+避免使用横向（左右方向）滑动来切换视图。横向滑动仅用于在相关内容之间切换，例如标签页。
 
 </figcaption></figure></div></div>
 
 [en]: <> (When they appear, these items are displayed in front of the bottom navigation bar:)
-译文
+底部导航栏显示时，这些元素会显示在底部导航栏的前面：
 
 [en]: <> (Bottom sheets)
 [en]: <> (Navigation drawers)
 [en]: <> (Keyboards)
-* 译文
-* 译文
-* 译文
+* 底部卡片
+* 导航抽屉
+* 键盘
 
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" src="{assets_path}/components/bottom-navigation/bottomnav-keyboard-1b.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Bottom navigation can be temporarily covered by bottom sheets, navigation drawers, and keyboards.)
-译文
+底部导航可以被底部卡片、导航抽屉和键盘覆盖。
 
 </figcaption></figure>
 
 [en]: <> (Color)
-### 译文
+### 颜色
 
 [en]: <> (When a bottom navigation destination is active, color the icon and text label with the app’s primary color.)
-译文
+当一个底部导航项处于激活状态时，导航项的图标和文本标签使用应用的主色。
 
 <figure>
 
@@ -383,7 +383,7 @@
 {do}
 
 [en]: <> (Use the app’s primary color to indicate an active destination.)
-译文
+使用应用的主色来指明激活状态的导航项。
 
 </figcaption></figure><figure>
 
@@ -394,7 +394,7 @@
 {dont}
 
 [en]: <> (Avoid using different colored icons and text labels.)
-译文
+避免在不同导航项上使用不同颜色的图标和文本标签。
 
 </figcaption></figure>
 
