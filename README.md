@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/buttons.md
 * src/components/buttons-floating-action-button.md
 * src/components/cards.md
 * src/components/chips.md
@@ -93,7 +92,7 @@ php build.php
 * src/typography/the-type-system.md (@PaperFlu)
 * src/typography/understanding-typography.md (@PaperFlu)
 * src/usability/index.md (@PaperFlu)
-* src/components/bottom-navigation.md (@zdhxiong)
+* src/components/buttons.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -116,3 +115,4 @@ php build.php
 * src/components/app-bars-top.md (@zdhxiong)
 * src/components/backdrop.md (@zdhxiong)
 * src/components/banners.md (@zdhxiong)
+* src/components/bottom-navigation.md (@zdhxiong)

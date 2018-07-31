@@ -399,7 +399,7 @@
 </figcaption></figure>
 
 [en]: <> (If the bottom navigation bar is colored, make the current action’s icon and text label either black or white.)
-译文
+如果底部导航栏含背景色，则把当前激活的导航项的图标和文本标签设置为白色或黑色。
 
 <figure>
 
@@ -410,7 +410,7 @@
 {do}
 
 [en]: <> (Use black or white iconography if the bottom navigation bar is colored.)
-译文
+如果底部导航栏含背景色，则使用白色或黑色的图标。
 
 </figcaption></figure><figure>
 
@@ -421,7 +421,7 @@
 {dont}
 
 [en]: <> (Ensure legible color contrast when placing colored icons and text on a colored bottom navigation bar.)
-译文
+要在含背景色的底部导航栏上使用彩色图标和文本时，请确保颜色之间有清晰的对比度。
 
 </figcaption></figure>
 
@@ -429,10 +429,10 @@
 <h2 id="placement">位置</h2>
 
 [en]: <> (Fixed navigation bar)
-### 译文
+### 导航栏的位置固定
 
 [en]: <> (Bottom navigation bar destinations have fixed positions. They don’t scroll or move horizontally.)
-译文
+底部导航栏的导航项具有固定的位置，它们不会滚动或水平移动。
 
 <figure>
 
@@ -443,12 +443,12 @@
 {dont}
 
 [en]: <> (Bottom navigation bar destinations don’t scroll.)
-译文
+底部导航栏的导航项不会滚动。
 
 </figcaption></figure>
 
 [en]: <> (Landscape view)
-### 译文
+### 横屏时的视图
 
 <figure>
 
@@ -459,7 +459,7 @@
 {do}
 
 [en]: <> (On mobile \(in landscape mode\) or tablet, bottom navigation destinations can retain the same spacing used in portrait mode, rather than being equally distributed across the bottom app bar.)
-译文
+在移动端（横屏模式）或平板设备上，底部导航项之间的间距和竖屏模式时相同，而不是在底部导航栏中均匀分布。
 
 </figcaption></figure><figure>
 
@@ -470,21 +470,21 @@
 {do}
 
 [en]: <> (On mobile \(in landscape mode\) or tablet, bottom navigation destinations can be positioned horizontally instead of stacked. In this case, it’s recommended that destinations are evenly distributed across the entire bar.)
-译文
+在移动端（横屏模式）或平板设备上，底部导航项的图标和文本可以水平排列，而不是垂直排列。在这种情况下，建议把导航项均匀分布在整个导航栏上。
 
 </figcaption></figure>
 
 [en]: <> (States)
-<h2 id="states">译文</h2>
+<h2 id="states">状态</h2>
 
 [en]: <> (Bottom navigation destinations may be active, inactive, focused or pressed.)
-译文
+底部导航项的状态包括激活、未激活、聚焦、按下。
 
 [en]: <> (Bottom navigation uses opacity and text to show when a destination is active. States are used to show pressed, focused, and unselected states.)
-译文
+底部导航使用不同的不透明度来表示处于激活状态的导航项。
 
 [en]: <> (Inactive destination states are represented with reduced opacities; active states have full opacity.)
-译文
+未激活的导航项有较低的不透明度；激活状态的导航项则完全不透明。
 
 <figure>
 
@@ -494,13 +494,13 @@
 
 [en]: <> (Inactive destinations)
 [en]: <> (An active destination)
-1. 译文
-2. 译文
+1. 未激活的导航项
+2. 有一个激活的导航项
 
 </figcaption></figure>
 
 [en]: <> (When text labels are not used persistently \(at all times\), only active destinations are given text labels.)
-译文
+如果导航项中的文本不是始终显示的，则只在激活状态的导航项上显示文本标签。
 
 <figure>
 
@@ -510,19 +510,19 @@
 
 [en]: <> (Inactive destinations without text labels)
 [en]: <> (An active destination with a text label)
-1. 译文
-2. 译文
+1. 未激活的导航项不显示文本标签
+2. 激活的导航项显示文本标签
 
 </figcaption></figure>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (Mobile)
-### 译文
+### 移动端
 
 [en]: <> (Portrait)
-#### 译文
+#### 竖屏状态
 
 <figure>
 
@@ -531,7 +531,7 @@
 </figure><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Minimum width)
-#### 译文
+#### 最小宽度
 
 <figure>
 
@@ -540,7 +540,7 @@
 </figure></div><div class="mdui-col">
 
 [en]: <> (Maximum width)
-#### 译文
+#### 最大宽度
 
 <figure>
 
@@ -549,7 +549,7 @@
 </figure></div></div>
 
 [en]: <> (Landscape)
-#### 译文
+#### 横屏状态
 
 <figure>
 
