@@ -4,7 +4,7 @@
 # 浮动操作按钮
 
 [en]: <> (A floating action button \(FAB\) represents the primary action of a screen.)
-译文
+浮动操作按钮（FAB）表示界面中的主操作。
 
 <figure>
 
@@ -23,20 +23,20 @@
 * [剖析](#anatomy)
 * [位置](#placement)
 * [行为](#behavior)
-* [译文](#types-of-transitions)
-* [译文](#extended-fab)
+* [过渡类型](#types-of-transitions)
+* [展开型 FAB](#extended-fab)
 * [规范](#specs)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (A floating action button \(FAB\) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.)
-译文
+浮动操作按钮（FAB）用于执行界面中最主要、或最常见的操作。它出现在所有内容的前面，通常是圆形的，中间有一个图标。FAB 有三种类型：常规型、迷你型和展开型。
 
 [en]: <> (Only use a FAB if it is the most suitable way to present a screen’s primary action.)
-译文
+仅在 FAB 是最适合呈现界面中主操作的方式时，才使用 FAB。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -47,7 +47,7 @@
 {do}
 
 [en]: <> (Represent the most common primary action with a floating action button, such as drafting a new email.)
-译文
+使用浮动操作按钮表示最常用的主操作，例如写一封新邮件。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -58,7 +58,7 @@
 {do}
 
 [en]: <> (FABs are not needed on every screen, such as when images represent primary actions.)
-译文
+不是每个界面都需要 FAB，例如图片是主操作时，就不需要 FAB。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -69,7 +69,7 @@
 {dont}
 
 [en]: <> (Don’t display multiple FABs on a single screen.)
-译文
+不要在一个界面中使用多个 FAB。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -80,12 +80,12 @@
 {caution}
 
 [en]: <> (Occasionally two FABs can be used, if they perform distinct, yet equally important, actions.)
-译文
+偶尔可以在一个界面中使用两个 FAB，前提是它们执行不同的、但有相同重要性的操作。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -94,10 +94,10 @@
 </figure>
 
 [en]: <> (Primary)
-#### 译文
+#### 最主要的
 
 [en]: <> (A FAB represents the primary action on a screen.)
-译文
+FAB 表示界面中的主操作。
 
 </div><div class="mdui-col"><figure>
 
@@ -106,10 +106,10 @@
 </figure>
 
 [en]: <> (Constructive)
-#### 译文
+#### 创造性的
 
 [en]: <> (A FAB should perform a constructive action \(such as create, share, or explore\).)
-译文
+FAB 应该执行创造性的操作（例如创建、共享或探索）。
 
 </div><div class="mdui-col"><figure>
 
@@ -118,15 +118,15 @@
 </figure>
 
 [en]: <> (Contextual)
-#### 译文
+#### 相关的
 
 [en]: <> (A FAB should be relevant to the screen on which it appears.)
-译文
+FAB 应与其所在的界面相关。
 
 </div></div>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -136,16 +136,16 @@
 
 [en]: <> (Container)
 [en]: <> (Icon)
-1. 译文
-2. 译文
+1. 容器
+2. 图标
 
 </div></div>
 
 [en]: <> (Container)
-### 译文
+### 容器
 
 [en]: <> (The FAB is typically displayed in a circular container. An app’s color scheme determines its color fill, which should contrast with the area behind the FAB.)
-译文
+FAB 通常显示在圆形容器中。它的填充色由应用的配色方案决定，且应该与 FAB 背后的区域形成鲜明对比。
 
 <figure>
 
@@ -154,20 +154,20 @@
 <figcaption>
 
 [en]: <> (FAB containers come in two sizes:)
-译文
+FAB 容器有两种尺寸：
 
 [en]: <> (Default \(56 x 56dp\))
 [en]: <> (Mini \(40 x 40dp\))
-1. 译文
-2. 译文
+1. 默认（56 x 56dp）
+2. 迷你（40 x 40dp）
 
 </figcaption></figure>
 
 [en]: <> (A mini FAB should be used on smaller screens. When a screen width is 460dp or less, the container of a default FAB \(56dp\) should transform into the mini size \(40dp\).)
-译文
+迷你 FAB 应该用在较小的屏幕上。当屏幕宽度小于等于 460dp 时，默认的 FAB 容器（56dp）应该转换为迷你尺寸（40dp）。
 
 [en]: <> (Mini FABs can also be used to create visual continuity with other screen elements.)
-译文
+迷你 FAB 还可以用于与界面中其他元素建立视觉连续性。
 
 <figure>
 
@@ -176,7 +176,7 @@
 <figcaption>
 
 [en]: <> (This mini FAB creates visual continuity by having a related size, shape, and placement to the folder icons below it.)
-译文
+这个迷你 FAB 和其下方的文件夹图标拥有相似的尺寸、形状和位置，以此创建了视觉连续性。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -187,7 +187,7 @@
 {do}
 
 [en]: <> (FAB containers adopt a color from an app’s palette.)
-译文
+FAB 使用应用配色方案中的颜色。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -198,15 +198,15 @@
 {dont}
 
 [en]: <> (Don’t layer badges or other elements in front of a FAB.)
-译文
+不要在 FAB 上添加徽章等元素。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Icon)
-### 译文
+### 图标
 
 [en]: <> (A FAB’s icon should clearly illustrate its action. A FAB shouldn’t contain notifications or actions found elsewhere on a screen.)
-译文
+FAB 的图标应该要清楚的表示其操作。FAB 不应该包含通知或界面上其他位置的操作。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -217,7 +217,7 @@
 {dont}
 
 [en]: <> (Don’t use ambiguous iconography.)
-译文
+不要使用含糊不清的图标。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -228,7 +228,7 @@
 {dont}
 
 [en]: <> (Don’t place text in a regular FAB.)
-译文
+不要在 FAB 中放置文本。
 
 </figcaption></figure></div></div>
 
@@ -236,7 +236,7 @@
 <h2 id="placement">位置</h2>
 
 [en]: <> (FABs can attach to top app bars and the edge of some components.)
-译文
+FAB 可以附加到顶部应用栏和某些组件的边缘。
 
 <figure>
 
@@ -247,7 +247,7 @@
 {do}
 
 [en]: <> (A floating action button \(FAB\) can attach to a top app bar.)
-译文
+浮动操作按钮（FAB）可以附加到顶部应用栏。
 
 </figcaption></figure><figure>
 
@@ -258,7 +258,7 @@
 {do}
 
 [en]: <> (A FAB can be attached to the edge of a component.)
-译文
+FAB 可以附加到组件边缘。
 
 </figcaption></figure><figure>
 
@@ -269,43 +269,43 @@
 {dont}
 
 [en]: <> (Individual components, such as cards, cannot each have their own FAB.)
-译文
+单独的组件（例如卡片），不能各自拥有自己的 FAB。
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-<h2 id="behavior">译文</h2>
+<h2 id="behavior">行为</h2>
 
 [en]: <> (Actions)
-### 译文
+### 操作
 
 [en]: <> (A floating action button \(FAB\) can trigger an action either on the current screen, or it can perform an action that creates a new screen.)
-译文
+浮动操作按钮（FAB）可以触发当前界面上的操作，也可以用于创建新界面。
 
 [en]: <> (A FAB promotes an important, constructive action such as:)
-译文
+FAB 应该表示一个重要的、创造性的操作，例如：
 
 [en]: <> (Create)
 [en]: <> (Favorite)
 [en]: <> (Share)
 [en]: <> (Start a process)
-* 译文
-* 译文
-* 译文
-* 译文
+* 创建
+* 喜欢
+* 分享
+* 开始一个过程
 
 [en]: <> (Avoid using a FAB for minor or destructive actions, such as:)
-译文
+不要使用 FAB 进行次要的、破坏性的操作，例如：
 
 [en]: <> (Archive or trash)
 [en]: <> (Alerts or errors)
 [en]: <> (Limited tasks like cutting text)
-* 译文
-* 译文
-* 译文
+* 存档或销毁
+* 警告或错误
+* 切割文本之类的受限任务
 
 [en]: <> (Controls better suited to a toolbar \(like controls to adjust volume or font color\))
-译文
+更适合放在工具栏中的控件（如调整音量或字体颜色的控件）
 
 <figure>
 
@@ -316,7 +316,7 @@
 {do}
 
 [en]: <> (Use FABs for primary, positive actions.)
-译文
+使用 FAB 进行最主要的、积极的操作。
 
 </figcaption></figure><figure>
 
@@ -327,12 +327,12 @@
 {dont}
 
 [en]: <> (Do not use FABs for minor, overflow, unclear, or destructive actions.)
-译文
+FAB 不要用于次要的、弹出式的、不清楚的或破坏性的操作。
 
 </figcaption></figure>
 
 [en]: <> (Motion)
-### 译文
+### 动效
 
 <div class="mdui-row-sm-2"><div class="mdui-col">
 
