@@ -409,26 +409,26 @@
 ### 焦点
 
 [en]: <> (When traversing through focus points on a card, visit each focused element before moving to the next card.)
-译文
+当在卡片上遍历焦点时，会先访问每个可获得焦点的元素，然后把焦点移动到下一张卡片。
 
 [en]: <> (For users that navigate solely using focus traversal \(using a D-pad and keyboard\), cards should have either a primary action or open a new screen containing primary and supplemental actions.)
-译文
+为了方便仅通过焦点遍历进行导航的用户（使用 D-pad 或键盘），卡片中应该包含主操作、或者支持打开一个包含主操作和辅助操作的新界面。
 
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-focus.mp4" src="{assets_path}/components/cards/cards-focus.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (Focus traversal of a card)
-译文
+在卡片上遍历焦点
 
 </figcaption></figure>
 
 [en]: <> (Card collections)
-<h2 id="card-collections">译文</h2>
+<h2 id="card-collections">卡片集</h2>
 
 [en]: <> (Usage)
-### 译文
+### 用法
 
 [en]: <> (When multiple cards are present, they are grouped together into one or more collections. By default, cards in a collection are coplanar, sharing the same resting elevation unless they are picked up or dragged.)
-译文
+当存在多张卡片时，它们被组合到一起成为一个或多个卡片集。默认情况下，卡片集中的卡片都在同一平面上，拥有相同的海拔高度，除非它们被拾起或拖动。
 
 <figure>
 
@@ -437,10 +437,10 @@
 </figure>
 
 [en]: <> (Layout)
-### 译文
+### 布局
 
 [en]: <> (Organize card collections so that they are easy to use. Their layout affects how they are perceived.)
-译文
+组织好卡片集，使其更易于使用。卡片集的布局方式会影响用户的感知。
 
 <figure>
 
@@ -449,15 +449,15 @@
 <figcaption>
 
 [en]: <> (When adding cards to a collection, the first item is automatically positioned on the top left. Subsequent cards are laid out left to right, top to bottom.)
-译文
+将卡片添加到卡片集时，第一张卡片会自动定位到左上角。后续的卡片从左到右，从上到下排列。
 
 </figcaption></figure>
 
 [en]: <> (Scannable)
-#### 译文
+#### 可扫视
 
 [en]: <> (To make a collection of cards scannable, place them in a consistent pattern.)
-译文
+为了使用户能快速扫视一个卡片集，请保持每张卡片的样式统一。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -466,7 +466,7 @@
 <figcaption>
 
 [en]: <> (Scannable cards)
-译文
+可扫视的卡片
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -475,10 +475,10 @@
 </figure></div></div>
 
 [en]: <> (Dashboard)
-#### 译文
+#### 仪表板
 
 [en]: <> (To display multiple subject matters and functions on a screen, use a dashboard-style card collection.)
-译文
+要在界面中显示多个事项和功能，请使用仪表板样式的卡片集。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -487,7 +487,7 @@
 <figcaption>
 
 [en]: <> (Dashboard-style card collection)
-译文
+仪表板样式的卡片集
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -496,10 +496,10 @@
 </figure></div></div>
 
 [en]: <> (Distinction)
-#### 译文
+#### 区分
 
 [en]: <> (To highlight each card’s individuality, style, or novelty, use a card collection with an asymmetric grid.)
-译文
+要突出每张卡片的个性、风格或新颖性，请使用带有不对称网格的卡片集。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -508,7 +508,7 @@
 <figcaption>
 
 [en]: <> (Cards in an asymmetric grid)
-译文
+非对称网格中的卡片
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -517,32 +517,32 @@
 </figure></div></div>
 
 [en]: <> (Contained collections)
-### 译文
+### 容器中的卡片集
 
 [en]: <> (Card collections can be placed within a container, and be scrolled within it.)
-译文
+卡片集可以放在容器中，并在容器中滚动。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-collections-do.mp4" src="{assets_path}/components/cards/cards-collections-do.mp4" type="video/mp4"></video><figcaption>
 
 {do}
 
 [en]: <> (A card collection can horizontally scroll within a container.)
-译文
+卡片集可以在容器中水平滚动。
 
 </figcaption></figure></div><div class="mdui-col"><figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/cards/cards-collections-dont.mp4" src="{assets_path}/components/cards/cards-collections-dont.mp4" type="video/mp4"></video><figcaption>
 
 {dont}
 
 [en]: <> (The container for a collection should not be a card, and the entire surface area of the container should not be interactive.)
-译文
+卡片集的容器不能是卡片，容器区域不能是交互式的。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Filtering and sorting)
-### 译文
+### 过滤和排序
 
 [en]: <> (Card collections can be filtered in a variety of ways, including by date or alphabetical order. If a collection can be filtered, the filter must apply to each card in the collection.)
-译文
+可以通过各种方式过滤卡片集，包括按日期或字母顺序。如果卡片集有过滤功能，则过滤功能必须应用于卡片集中的每张卡片。
 
 <figure>
 
@@ -551,18 +551,18 @@
 <figcaption>
 
 [en]: <> (Filter or sorting options should be placed outside of the card collection.)
-译文
+过滤和排序选项应放在卡片集之外。
 
 </figcaption></figure>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (*This section should not be read as prescriptive or exhaustive.* Cards have no singular layout, typographic, or image size. All cards should be designed to meet the needs of the content they present. This section shows a variety of card layouts to help showcase that variety.)
-译文
+*这节内容不应该被当成规范阅读。*卡片没有固定的布局、排版或图片大小。所有卡片都应该设计成符合内容呈现的要求。这章内容展示了各种卡片布局，以展示卡片布局的多样性。
 
 [en]: <> (Elevated cards)
-#### 译文
+#### 升高的卡片
 
 <figure>
 
@@ -579,7 +579,7 @@
 </figure>
 
 [en]: <> (Outlined cards)
-#### 译文
+#### 有描边的卡片
 
 <figure>
 
