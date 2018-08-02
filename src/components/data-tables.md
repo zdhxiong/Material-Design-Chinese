@@ -4,7 +4,7 @@
 # 数据表格
 
 [en]: <> (Data tables display sets of data.)
-译文
+数据表格用于显示数据集。
 
 <figure>
 
@@ -17,35 +17,35 @@
 [en]: <> (Behavior)
 [en]: <> (Tables within cards)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#tables-within-cards)
-* [译文](#specs)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [卡片中的表格](#tables-within-cards)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (Data tables display information in a way that’s easy to scan, so that users can look for patterns and insights. They can be embedded in primary content, such as cards.)
-译文
+数据表格以一种更易快速扫视的方式来显示信息。数据表格可以嵌入到主内容中，例如卡片。
 
 [en]: <> (Data tables can include:)
-译文
+数据表格可以包含：
 
 [en]: <> (A corresponding visualization)
 [en]: <> (Navigation)
 [en]: <> (Tools to query and manipulate data)
-* 译文
-* 译文
-* 译文
+* 相应的可视化
+* 导航
+* 用于查询和操作数据的工具
 
 [en]: <> (When including tools, they should be placed directly above or below the table.)
-译文
+包含工具时，工具应该直接放在表格的上方或下方。
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -54,10 +54,10 @@
 <figcaption>
 
 [en]: <> (Hierarchical)
-#### 译文
+#### 有组织的
 
 [en]: <> (Data table content should be hierarchical, alphabetical, or similarly organized.)
-译文
+数据表格中的内容应该是有组织的，按字母顺序排列或者类似的方式进行组织。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -66,10 +66,10 @@
 <figcaption>
 
 [en]: <> (Interactive)
-#### 译文
+#### 可交互的
 
 [en]: <> (Data tables should allow user interaction, so that users can sort information in custom ways.)
-译文
+数据表格允许用户进行交互，以便用户以自定义的方式对数据进行排序。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -78,21 +78,21 @@
 <figcaption>
 
 [en]: <> (Intuitive)
-#### 译文
+#### 直观的
 
 [en]: <> (Data tables should work intuitively, allowing users to focus on content, not structure.)
-译文
+数据表格应该直观的展现，使用户能专注于内容，而不是界面结构。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 [en]: <> (Data tables can include three or more columns. A header row at the top lists column names, and all subsequent rows contain data. Data tables can include a corresponding visualization, such as a graph.)
-译文
+数据表格可以包含 3 列或更多列。最上面的一行显示列的名称，其他的行显示数据。数据表格可以包含相应的可视化，例如图表。
 
 [en]: <> (If users need to interact with row data, checkboxes should accompany each row.)
-译文
+如果用户需要与数据进行交互，则每一行都应该包含复选框。
 
 <figure>
 
@@ -105,24 +105,24 @@
 [en]: <> (*Sorting tool*<br>Sorting tools allow users to reorder table content, appearing only on hover.)
 [en]: <> (*Row checkbox*<br>Checkboxes allow users to select a row.)
 [en]: <> (*Table content*<br>Tables contain raw data.)
-1. *译文*<br>译文
-2. *译文*<br>译文
-3. *译文*<br>译文
-4. *译文*<br>译文
-5. *译文*<br>译文
+1. *容器*<br>容器包含了数据表格中所有的内容。
+2. *列头部*<br>列头部显示列的标题。
+3. *排序工具*<br>排序工具使用户能对表格内容进行排序，仅在鼠标悬浮时显示。
+4. *行复选框*<br>复选框可以使用户选择一行数据。
+5. *表格内容*<br>表格包含的数据。
 
 </figcaption></figure>
 
 [en]: <> (Column header)
-### 译文
+### 列头部
 
 [en]: <> (By default, there is 56dp of padding between columns. Column headers that extend into this padding can either:)
-译文
+默认情况下，列之间有 56dp 的间距。超出到这个间距里的列标题可以：
 
 [en]: <> (Enable horizontal scrolling, so users can scroll to see the full column name)
 [en]: <> (Shorten the column name, while displaying it in full in a tooltip \(on hover\))
-1. 译文
-2. 译文
+1. 启用水平滚动，以便用户可以滚动查看完整列名称
+2. 缩短列名，同时在工具提示中显示完整列名（鼠标悬浮时）
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -131,7 +131,7 @@
 <figcaption>
 
 [en]: <> (Long column headers are truncated with an ellipse.)
-译文
+过长的列标题可以截断，并以省略号显示。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -140,15 +140,15 @@
 <figcaption>
 
 [en]: <> (Hovering over a truncated column header reveals the full text, using a tooltip.)
-译文
+鼠标悬浮到截断的列标题上时，可以在工具提示中显示完整列标题。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Sorting tool)
-### 译文
+### 排序工具
 
 [en]: <> (If sorting is enabled, the left-most column is sorted by default, with an indicator displayed in the column header. Tapping the header of the sorting column reverses the sort order, also rotating the sort icon 180 degrees.)
-译文
+如果启用了排序，默认情况下会对最左侧的列进行排序，并在列标题中显示指示符。点击排序列的标题会反转排序顺序，同时将排序图标旋转 180 度。
 
 <figure>
 
@@ -157,15 +157,15 @@
 <figcaption>
 
 [en]: <> (Table with a sorting tool)
-译文
+含排序工具的数据表格
 
 </figcaption></figure>
 
 [en]: <> (Row Checkbox)
-### 译文
+### 行复选框
 
 [en]: <> (When a checkbox for a row is selected, the row should display a background color.)
-译文
+选中某一行的复选框后，该行应添加背景色。
 
 <figure>
 
@@ -174,18 +174,18 @@
 <figcaption>
 
 [en]: <> (A selected row checkbox)
-译文
+选中的行复选框
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-<h2 id="behavior">译文</h2>
+<h2 id="behavior">行为</h2>
 
 [en]: <> (Row hover \(Desktop\))
-### 译文
+### 鼠标悬浮在某一行（桌面端）
 
 [en]: <> (If a user hovers over a row, display a background color in that row. If individual table cells have specific hover states, display both that cell’s hover state as well as the row hover state.)
-译文
+如果用户鼠标悬浮在某一行上，则在该行中显示背景色。如果某个单元格具有特定的悬浮状态，则同时显示该单元格的悬浮状态和行悬浮状态。
 
 <figure>
 
@@ -194,19 +194,19 @@
 <figcaption>
 
 [en]: <> (Hovering over a row)
-译文
+鼠标悬浮在某一行
 
 </figcaption></figure>
 
 [en]: <> (Column hover \(Desktop\))
-### 译文
+### 鼠标悬浮在某一列（桌面端）
 
 [en]: <> (On hover, two things can be displayed:)
-译文
+鼠标悬浮在某一列上时，可以显示两件事：
 
 [en]: <> (A tooltip displaying more information about each column header)
 [en]: <> (A sort icon in the column header, if sorting is enabled)
-* 译文
+* 显示一个
 * 译文
 
 <figure>
