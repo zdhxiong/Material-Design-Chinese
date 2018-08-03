@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/dialogs.md
 * src/components/dividers.md
 * src/components/image-lists.md
 * src/components/lists.md
@@ -88,7 +87,7 @@ php build.php
 * src/typography/the-type-system.md (@PaperFlu)
 * src/typography/understanding-typography.md (@PaperFlu)
 * src/usability/index.md (@PaperFlu)
-* src/components/data-tables.md (@zdhxiong)
+* src/components/dialogs.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -116,3 +115,4 @@ php build.php
 * src/components/buttons-floating-action-button.md (@zdhxiong)
 * src/components/cards.md (@zdhxiong)
 * src/components/chips.md (@zdhxiong)
+* src/components/data-tables.md (@zdhxiong)

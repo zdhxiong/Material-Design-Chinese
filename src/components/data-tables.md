@@ -206,8 +206,8 @@
 
 [en]: <> (A tooltip displaying more information about each column header)
 [en]: <> (A sort icon in the column header, if sorting is enabled)
-* 显示一个
-* 译文
+* 显示一个关于列标题的完整信息的工具提示
+* 如果启用了排序功能，则在列标题中显示排序图标
 
 <figure>
 
@@ -216,15 +216,15 @@
 <figcaption>
 
 [en]: <> (A tooltip and sort icon can be displayed when hovering over a column name.)
-译文
+鼠标悬浮在列标题上时，可以显示一个工具提示和排序图标。
 
 </figcaption></figure>
 
 [en]: <> (Inline text editing)
-### 译文
+### 行内文本编辑
 
 [en]: <> (Tables can include editable fields for text editing or adding comments. They are indicated by placeholder text in the field. On tap, an edit dialog with a text field or a full dialog is displayed.)
-译文
+表格可以包含一个可编辑字段，用于编辑文本或添加注释。可编辑字段可以用占位符文本来表示。点击后，将显示一个带有文本框的对话框、或者全屏对话框。
 
 <figure>
 
@@ -233,15 +233,15 @@
 <figcaption>
 
 [en]: <> (An editable table cell with placeholder text)
-译文
+带有占位符文本的可编辑单元格
 
 </figcaption></figure>
 
 [en]: <> (Small edit dialog)
-#### 译文
+#### 小型编辑框
 
 [en]: <> (Text can be edited using a small edit dialog, allowing users to confirm text by pressing Enter. Dialog edges should align with nearest divider line or table edge.)
-译文
+可以使用小型编辑框来编辑文本，通过按回车键确认输入内容。对话框边缘应与最近的分隔线或表格边缘对齐。
 
 <figure>
 
@@ -250,10 +250,10 @@
 </figure>
 
 [en]: <> (Large edit dialog)
-#### 译文
+#### 大型编辑框
 
 [en]: <> (A large edit dialog is a complex, flexible dialog box. Users confirm text by tapping the Save button. Dialog edges should align with the nearest divider line or table edge.)
-译文
+大型编辑框是一个复杂、灵活的对话框。通过点击“保存”按钮确认输入内容。对话框边缘应与最近的分隔线或表格边缘对齐。
 
 <figure>
 
@@ -262,10 +262,10 @@
 </figure>
 
 [en]: <> (Inline edit icon \(Optional\))
-#### 译文
+#### 内联编辑图标（可选）
 
 [en]: <> (An inline edit icon allows field editing, with an icon at the opposite end of the cell from content.)
-译文
+点击内联编辑图标后，可以编辑字段，图标应位于文本的另一端，与单元格边缘对齐。
 
 <figure>
 
@@ -274,10 +274,10 @@
 </figure>
 
 [en]: <> (Inline menus)
-### 译文
+### 内联菜单
 
 [en]: <> (Inline menus allow users to select from a predefined list of options. These menus can be directly embedded in a table.)
-译文
+内联菜单使用户可以从预定义的选项列表中进行选择。这些菜单可以直接嵌入到表格中。
 
 <figure>
 
@@ -286,7 +286,7 @@
 <figcaption>
 
 [en]: <> (A table with inline menus)
-译文
+含内联菜单的表格
 
 </figcaption></figure><figure>
 
@@ -295,15 +295,15 @@
 <figcaption>
 
 [en]: <> (An expanded inline menu)
-译文
+展开后的内联菜单
 
 </figcaption></figure>
 
 [en]: <> (Tables within cards)
-<h2 id="tables-within-cards">译文</h2>
+<h2 id="tables-within-cards">卡片内的表格</h2>
 
 [en]: <> (Tables can be embedded within a card. At the bottom of each card, tools can be displayed for table navigation and data manipulation.)
-译文
+表格可以嵌入到卡片中。在每张卡片的底部，可以显示一些工具，以进行分页和数据操作。
 
 <figure>
 
@@ -312,20 +312,20 @@
 <figcaption>
 
 [en]: <> (Table card with header and footer)
-译文
+卡片中的表格，包含头部和底部。
 
 </figcaption></figure>
 
 [en]: <> (Data table card headers)
-### 译文
+### 卡片中的数据表格的头部
 
 [en]: <> (When tables in cards require actionable headers instead of titles, you can either:)
-译文
+当卡片中的表格需要可操作的头部，而不是标题文本时，你可以：
 
 [en]: <> (Display persistent actions)
 [en]: <> (Display a contextual header that indicates when items are selected)
-* 译文
-* 译文
+* 显示固定的操作按钮
+* 可以显示根据选中的表格行而变化的头部
 
 <figure>
 
@@ -335,16 +335,16 @@
 
 [en]: <> (Action buttons)
 [en]: <> (Colored header)
-1. 译文
-2. 译文
+1. 操作按钮
+2. 带背景色的头部
 
 </figcaption></figure>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (Data tables with a header)
-#### 译文
+#### 带头部的数据表格
 
 <figure>
 
@@ -353,7 +353,7 @@
 </figure>
 
 [en]: <> (Data tables without a header)
-#### 译文
+#### 不带头部的数据表格
 
 <figure>
 
