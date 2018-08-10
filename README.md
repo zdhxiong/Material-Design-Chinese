@@ -63,9 +63,6 @@ php build.php
 * src/motion/customization.md
 * src/motion/speed.md
 * src/motion/understanding-motion.md
-* src/navigation/navigation-transitions.md
-* src/navigation/search.md
-* src/navigation/understanding-navigation.md
 * src/platform-guidance/android-bars.md
 * src/platform-guidance/android-fingerprint.md
 * src/platform-guidance/android-haptics.md
@@ -87,6 +84,9 @@ php build.php
 * src/typography/understanding-typography.md (@PaperFlu)
 * src/usability/index.md (@PaperFlu)
 * src/components/dividers.md
+* src/navigation/navigation-transitions.md (@zhiwei-xu)
+* src/navigation/search.md (@zhiwei-xu)
+* src/navigation/understanding-navigation.md (@zhiwei-xu)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
