@@ -15,7 +15,7 @@
 [en]: <> (Usage)
 [en]: <> (Persistent search)
 [en]: <> (Expandable search)
-* [使用搜索功能](#usage)
+* [应用搜索功能](#usage)
 * [固定式搜索](#persistent-search)
 * [隐藏式搜索](#expandable-search)
 
