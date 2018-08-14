@@ -4,7 +4,7 @@
 # 列表
 
 [en]: <> (Lists are continuous, vertical indexes of text or images.)
-译文
+列表是连续的、垂直的文本或图片的索引。
 
 <figure>
 
@@ -17,22 +17,22 @@
 [en]: <> (Behavior)
 [en]: <> (Types)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#behavior)
-* [译文](#types)
-* [译文](#specs)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [行为](#behavior)
+* [类型](#types)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (Lists are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.)
-译文
+列表是一组连续的文本或图片。它由包含主操作和辅助操作的项目组成，这些操作可以用图标和文本表示。
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -41,10 +41,10 @@
 <figcaption>
 
 [en]: <> (Logical)
-#### 译文
+#### 合乎逻辑
 
 [en]: <> (Lists should be sorted in logical ways that make content easy to scan, such as alphabetical, numerical, chronological, or by user preference.)
-译文
+列表应该按某一逻辑进行排序，使内容更易于被快速扫视，例如按字母顺序排序、按数值大小排序、按时间顺序排序、或根据用户设置排序。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -53,10 +53,10 @@
 <figcaption>
 
 [en]: <> (Actionable)
-#### 译文
+#### 可操作
 
 [en]: <> (Lists present content in a way that makes it easy to identify a specific item in a collection and act on it.)
-译文
+呈现列表时，要使用户能轻易地找到集合中的特定项目，并对其进行操作。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -65,15 +65,15 @@
 <figcaption>
 
 [en]: <> (Consistent)
-#### 译文
+#### 一致性
 
 [en]: <> (Lists should present icons, text, and actions in a consistent format.)
-译文
+同一列表中，项目的图标、文本和操作的呈现方式应该保持一致。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Types)
-### 译文
+### 类型
 
 <figure>
 
@@ -84,17 +84,17 @@
 [en]: <> (*Single-line list*<br>Single-line list items contain a maximum of one line of text.)
 [en]: <> (*Two-line list*<br>Two-line list items contain a maximum of two lines of text.)
 [en]: <> (*Three-line list*<br>Three-line list items contains a maximum of three lines of text.)
-1. *译文*<br>译文
-2. *译文*<br>译文
-3. *译文*<br>译文
+1. *单行列表*<br>单行列表项最多包含一行文本。
+2. *两行列表*<br>两行列表项最多包含两行文本。
+3. *三行列表*<br>三行列表项最多包含三行文本。
 
 </figcaption></figure>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 [en]: <> (Lists are optimized for reading comprehension. A list consists of a single continuous column of subdivisions called rows that contain items of content.)
-译文
+列表专门针对阅读进行了优化。一个列表由一系列连续的行组成，每一行都包含了列表项的内容。
 
 <figure>
 
@@ -105,17 +105,17 @@
 [en]: <> (List)
 [en]: <> (Row)
 [en]: <> (List item content)
-1. 译文
-2. 译文
-3. 译文
+1. 列表
+2. 行
+3. 列表项内容
 
 </figcaption></figure>
 
 [en]: <> (Content types)
-### 译文
+### 内容类型
 
 [en]: <> (Content types can take different forms, depending on the needs of a list.)
-译文
+内容可以有不同的类型，具体取决于列表的需要。
 
 <figure>
 
@@ -124,19 +124,19 @@
 <figcaption>
 
 [en]: <> (List items are comprised of three different content types:)
-译文
+列表项由三个不同类型的内容组成：
 
 [en]: <> (Supporting visuals)
 [en]: <> (Primary text)
 [en]: <> (Metadata)
-1. 译文
-2. 译文
-3. 译文
+1. 图像
+2. 主文本
+3. 元数据
 
 </figcaption></figure>
 
 [en]: <> (A list control can display information and actions for list items.)
-译文
+列表控件可以显示列表项的信息和操作。
 
 <figure>
 
@@ -145,19 +145,19 @@
 <figcaption>
 
 [en]: <> (Lists with controls contain three content types:)
-译文
+含控件的列表包含三种类型的内容：
 
 [en]: <> (Supporting visuals)
 [en]: <> (Primary text)
 [en]: <> (List control)
-1. 译文
-2. 译文
-3. 译文
+1. 图像
+2. 主文本
+3. 列表控件
 
 </figcaption></figure>
 
 [en]: <> (A list should be easily scannable, and any element of a list can be used to anchor and align list item content. Scannability is improved when elements \(such as supporting visual and primary text\) are placed in consistent locations across list items.)
-译文
+列表应便于快速扫视，列表中的任何元素都可以用于固定和对齐列表项内容。当元素（如图像和主文本）放置在列表项的统一位置时，列表的可读性就得到了增强。
 
 <figure>
 
@@ -169,18 +169,18 @@
 [en]: <> (Content placement in a row)
 [en]: <> (Supporting visuals are aligned for easy scanning)
 [en]: <> (Primary text is aligned for easy scanning)
-1. 译文
-2. 译文
-3. 译文
-4. 译文
+1. 列表示例
+2. 内容放在一行中
+3. 图像保持对齐，便于快速扫视
+4. 主文本保持对齐，便于快速扫视
 
 </figcaption></figure>
 
 [en]: <> (Visuals, dividers, and spacing)
-### 译文
+### 图像、分隔线、间距
 
 [en]: <> (List structure can be organized using visuals, dividers, and spacing.)
-译文
+可以使用图像、分隔线、间距来组织列表结构。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -191,7 +191,7 @@
 {do}
 
 [en]: <> (Improve scannability by anchoring supporting visuals, such as thumbnails, along the row's edge.)
-译文
+把图像（如缩略图）固定在行的边缘，提高可读性。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -202,7 +202,7 @@
 {caution}
 
 [en]: <> (Placing supporting visuals in the center of the row can make it difficult to see the relationship between primary content and supporting content.)
-译文
+把图像放在行的中间，可能导致难以看到主要内容和辅助内容之间的关系。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -213,7 +213,7 @@
 {do}
 
 [en]: <> (Place a divider between rows with lots of content, such as those with three-line lists.)
-译文
+在含有大量内容的行之间添加分隔线，例如三行列表。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -224,7 +224,7 @@
 {caution}
 
 [en]: <> (Distinguish rows by maintaining sufficient space between list items.)
-译文
+通过在列表项之间保留足够的间距来区分行。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -233,12 +233,12 @@
 <figcaption>
 
 [en]: <> (The primary action takes up the majority of space.)
-译文
+主操作占据了大部分空间。
 
 [en]: <> (Primary Action area)
 [en]: <> (Secondary Action area)
-1. 译文
-2. 译文
+1. 主操作区域
+2. 辅助操作区域
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -247,17 +247,17 @@
 <figcaption>
 
 [en]: <> (Clear hierarchy is created by aligning the most distinguishing content on the left, with the least distinguishing on the right.)
-译文
+把区分度最高的内容左对齐显示，区分度最小的内容右对齐显示，有助于创建清晰的层次结构。
 
 [en]: <> (More distinguishing content)
 [en]: <> (Less distinguishing content)
-1. 译文
-2. 译文
+1. 区分度高的内容
+2. 区分度低的内容
 
 </figcaption></figure></div></div>
 
 [en]: <> (Subheaders)
-### 译文
+### 副标题
 
 [en]: <> (Subheaders delineate sections of a list. They appear on list rows.)
 译文
