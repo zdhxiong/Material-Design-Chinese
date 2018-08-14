@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/lists.md
 * src/components/menus.md
 * src/components/navigation-drawer.md
 * src/components/progress-indicators.md
@@ -84,7 +83,7 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
-* src/components/image-lists.md (@zdhxiong)
+* src/components/lists.md (@zdhxiong)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -116,3 +115,4 @@ php build.php
 * src/components/dialogs.md (@zdhxiong)
 * src/navigation/search.md (@zhiwei-xu)
 * src/components/dividers.md (@zdhxiong)
+* src/components/image-lists.md (@zdhxiong)
