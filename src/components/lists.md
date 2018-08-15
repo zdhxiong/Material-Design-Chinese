@@ -260,7 +260,7 @@
 ### 副标题
 
 [en]: <> (Subheaders delineate sections of a list. They appear on list rows.)
-译文
+副标题用于描述列表的各个部分。它们出现在列表行的上方。
 
 <figure>
 
@@ -270,55 +270,55 @@
 
 [en]: <> (*Subheader*<br>A subheader should be left-aligned with an avatar or icon in a list.)
 [en]: <> (*Subheader inset*<br>If a floating action button is aligned with list avatars or icons, the subheader should be aligned with the text content.)
-1. *译文*<br>译文
-2. *译文*<br>译文
+1. *副标题*<br>副标题应与列表中的头像或图标左对齐
+2. *内嵌型副标题*<br>如果存在浮动操作按钮与列表头像或图标对齐，则副标题应与文本内容对齐。
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-<h2 id="behavior">译文</h2>
+<h2 id="behavior">行为</h2>
 
 [en]: <> (Transitions)
-### 译文
+### 过渡效果
 
 [en]: <> (Tapping a list item expands it across the entire screen.)
-译文
+点击列表项后，会展开成占据整个屏幕大小的界面。
 
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/01-list-parentchild.mp4" src="{assets_path}/components/lists/01-list-parentchild.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To expand a list item, display a parent-child transition.)
-译文
+通过 父-子 转换动画，来展开一个列表项。
 
 </figcaption></figure>
 
 [en]: <> (Gestures)
-### 译文
+### 手势
 
 [en]: <> (Swiping a list item \(either left or right\) can perform an action.)
-译文
+滑动列表项（向左或向右）可以执行操作。
 
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" src="{assets_path}/components/lists/02-list-swipetodismiss.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To archive a list item, swipe it.)
-译文
+通过滑动，将列表项归档。
 
 </figcaption></figure>
 
 [en]: <> (Items can be dragged to reorder a list.)
-译文
+可以拖动列表项来重新排序列表。
 
 <figure><video controls loop muted preload="metadata" class="mdui-video-fluid"><source data-src="{assets_path}/components/lists/03-list-reorder.mp4" src="{assets_path}/components/lists/03-list-reorder.mp4" type="video/mp4"></video><figcaption>
 
 [en]: <> (To reorder a list item, drag it.)
-译文
+可以拖动列表项来重新排序列表。
 
 </figcaption></figure>
 
 [en]: <> (Expand)
-### 译文
+### 展开
 
 [en]: <> (A three-line list transition \(on mobile\) is displayed as a two-line list \(on desktop\).)
-译文
+三行列表（移动端）可以转换为两行列表（桌面端）。
 
 <figure>
 
@@ -327,20 +327,20 @@
 <figcaption>
 
 [en]: <> (Scaled down to 50%)
-译文
+缩小至 50%
 
 [en]: <> (A three-line list on mobile)
 [en]: <> (A two-line list on desktop)
-1. 译文
-2. 译文
+1. 移动端的三行列表
+2. 桌面端的两行列表
 
 </figcaption></figure>
 
 [en]: <> (Transform)
-### 译文
+### 形态转变
 
 [en]: <> (On a larger screen, a list may transform into an image list.)
-译文
+在更大的屏幕上时，列表可以转变为图片列表。
 
 <figure>
 
@@ -350,16 +350,16 @@
 
 [en]: <> (A one-line list on mobile)
 [en]: <> (An image list on desktop)
-1. 译文
-2. 译文
+1. 移动端的单行列表
+2. 桌面端的图片列表
 
 </figcaption></figure>
 
 [en]: <> (Types)
-<h2 id="types">译文</h2>
+<h2 id="types">类型</h2>
 
 [en]: <> (Single-line list)
-### 译文
+### 单行列表
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -368,7 +368,7 @@
 <figcaption>
 
 [en]: <> (A text list)
-译文
+文本列表
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -377,7 +377,7 @@
 <figcaption>
 
 [en]: <> (A single-line list with icons and text)
-译文
+含图标和文本的单行列表
 
 </figcaption></figure></div></div><figure>
 
@@ -386,15 +386,15 @@
 <figcaption>
 
 [en]: <> (Scaled down to 50% on desktop, a single-line list with icons and text)
-译文
+桌面端含图标和文本的单行列表（此例子已缩小至 50%）
 
 </figcaption></figure>
 
 [en]: <> (Two-line list)
-### 译文
+### 两行列表
 
 [en]: <> (In a two-line list, each row contains two lines of text maximum.)
-译文
+在两行列表中，每个列表项最多包含两行文本。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -403,7 +403,7 @@
 <figcaption>
 
 [en]: <> (A two-line list, with an icon and meta icon)
-译文
+含图标和元图标的两行列表
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -412,7 +412,7 @@
 <figcaption>
 
 [en]: <> (A two-line list, with a thumbnail and meta text)
-译文
+含缩略图和元文本的两行列表
 
 </figcaption></figure></div></div><figure>
 
@@ -421,7 +421,7 @@
 <figcaption>
 
 [en]: <> (The amount of text can vary between different rows within the same list.)
-译文
+在同一个列表中，不同行之间文本的数量可以不同。
 
 </figcaption></figure><figure>
 
@@ -430,12 +430,12 @@
 <figcaption>
 
 [en]: <> (Scaled down to 50% on desktop, a two-line list accompanied by an avatar and meta text)
-译文
+含头像和元文本的两行列表（此例子已缩小至 50%）
 
 </figcaption></figure>
 
 [en]: <> (Three-line list)
-### 译文
+### 三行列表
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -444,7 +444,7 @@
 <figcaption>
 
 [en]: <> (A three-line text with an avatar)
-译文
+含头像的三行列表
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -453,7 +453,7 @@
 <figcaption>
 
 [en]: <> (A three-line text list, with a thumbnail and meta text)
-译文
+含缩略图和元文本的三行列表
 
 </figcaption></figure></div></div><figure>
 
@@ -462,7 +462,7 @@
 <figcaption>
 
 [en]: <> (The amount of text can vary between rows within the same list.)
-译文
+在同一个列表中，不同行之间文本的数量可以不同。
 
 </figcaption></figure><figure>
 
@@ -471,21 +471,21 @@
 <figcaption>
 
 [en]: <> (On desktop, a three-line list accompanied by a large thumbnail and meta text)
-译文
+在桌面端，含大缩略图和元文本的三行列表
 
 </figcaption></figure>
 
 [en]: <> (List controls)
-### 译文
+### 列表控件
 
 [en]: <> (List controls display information and actions for list items.)
-译文
+列表控件可以显示列表项的信息和操作。
 
 [en]: <> (Checkbox)
-#### 译文
+#### 复选框
 
 [en]: <> (A checkbox can either be a primary or secondary action.)
-译文
+复选框可以是主操作，也可以是辅助操作。
 
 <figure>
 
@@ -495,16 +495,16 @@
 
 [en]: <> (Secondary action<br>This checkbox is the list item’s secondary action.)
 [en]: <> (Primary action<br>This checkbox is both the list item’s primary action and state indicator.)
-1. 译文<br>译文
-2. 译文<br>译文
+1. 辅助操作<br>此复选框是列表项的辅助操作。
+2. 主操作<br>此复选框是列表项的主操作和状态指示器。
 
 </figcaption></figure>
 
 [en]: <> (Expand and collapse)
-#### 译文
+#### 展开和折叠
 
 [en]: <> (Show and hide details of existing list items by expanding and collapsing list content vertically.)
-译文
+通过垂直展开和折叠列表，来显示和隐藏现有列表项的详细信息。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -513,7 +513,7 @@
 <figcaption>
 
 [en]: <> (Tapping the list control expands the list.)
-译文
+点击列表控件会展开列表。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -522,12 +522,12 @@
 <figcaption>
 
 [en]: <> (An expanded list)
-译文
+展开后的列表
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col">
 
 [en]: <> (Switch)
-#### 译文
+#### 开关切换
 
 <figure>
 
@@ -536,12 +536,12 @@
 <figcaption>
 
 [en]: <> (Tapping the list control expands the list.)
-译文
+点击列表控件会展开列表。
 
 </figcaption></figure></div><div class="mdui-col">
 
 [en]: <> (Reorder)
-#### 译文
+#### 排序
 
 <figure>
 
@@ -550,15 +550,15 @@
 <figcaption>
 
 [en]: <> (Usually appearing in edit mode, dragging lists items moves them to other locations within the list. This reorder icon is the list item’s secondary action.)
-译文
+通常在编辑模式时才出现，拖动列表项会将其移动到列表中的其他位置。此排序图标是列表项的辅助操作。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (One line)
-### 译文
+### 单行
 
 <figure>
 
@@ -575,7 +575,7 @@
 </figure>
 
 [en]: <> (Double line)
-### 译文
+### 两行
 
 <figure>
 
@@ -588,7 +588,7 @@
 </figure>
 
 [en]: <> (Three line)
-### 译文
+### 三行
 
 <figure>
 
@@ -601,7 +601,7 @@
 </figure>
 
 [en]: <> (Collapsed & expanded)
-### 译文
+### 折叠 & 展开
 
 <figure>
 
