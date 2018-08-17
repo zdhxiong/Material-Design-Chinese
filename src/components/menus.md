@@ -345,10 +345,10 @@
 #### 级联菜单（仅限桌面端）
 
 [en]: <> (Cascading menus allow users to choose from a large variety of choices, by displaying menus with multiple levels of hierarchy.)
-译文
+级联菜单可以通过显示具有嵌套结构的多级菜单，使用户能从大量的菜单项中进行选择。
 
 [en]: <> (They are organized into menus of parent list items that contain child list items. Child list items appear to right or left of parent list items, depending on where there is room to expand child list items.)
-译文
+级联菜单可在父菜单项中包含子菜单。子菜单显示在父菜单的左侧或右侧，具体取决于哪一侧有足够的空间来容纳子菜单。
 
 <figure>
 
@@ -357,15 +357,15 @@
 <figcaption>
 
 [en]: <> (A parent list item can trigger a cascading menus containing child actions.)
-译文
+父菜单项可以触发一个级联显示的子菜单。
 
 </figcaption></figure>
 
 [en]: <> (Contextual menu)
-#### 译文
+#### 上下文菜单
 
 [en]: <> (Contextual menus aren’t triggered by a consistent UI element. They appear next to where a user taps, and their actions can vary based on the tap target.)
-译文
+上下文菜单不是由一个固定的元素触发的。它会出现在用户点击的位置的旁边，其包含的菜单项也会根据点击目标不同而不同。
 
 <figure>
 
@@ -374,7 +374,7 @@
 <figcaption>
 
 [en]: <> (To reveal a contextual menu, tap and hold, or right click \(desktop\), selected text.)
-译文
+点击并按住、或点击鼠标右键（桌面端）、或选择一段文本，可以显示上下文菜单。
 
 </figcaption></figure><figure>
 
@@ -383,15 +383,15 @@
 <figcaption>
 
 [en]: <> (A contextual menu appears next to selected text.)
-译文
+在所选文本旁边会显示一个上下文菜单。
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-### 译文
+### 行为
 
 [en]: <> (When an option is chosen from a dropdown menu, the element that generates it remains the same.)
-译文
+当从下拉菜单中选择一个选项时，触发菜单的元素保持不变。
 
 <figure>
 
@@ -401,22 +401,22 @@
 
 [en]: <> (Tapping the icon triggers a dropdown menu.)
 [en]: <> (Choosing a menu option doesn’t change the icon of the element generating the menu.)
-1. 译文
-2. 译文
+1. 点击图标会触发下拉菜单。
+2. 图标不会在选择菜单项后发生变化。
 
 </figcaption></figure>
 
 [en]: <> (Exposed dropdown menu)
-<h2 id="exposed-dropdown-menu">译文</h2>
+<h2 id="exposed-dropdown-menu">选择菜单</h2>
 
 [en]: <> (Usage)
-### 译文
+### 用法
 
 [en]: <> (Exposed dropdown menus display the currently selected menu item above the menu.)
-译文
+选择菜单会在菜单上方显示当前已选中的菜单项。
 
 [en]: <> (They can only be used when a single menu item can be chosen at a time.)
-译文
+只有同一时间只能选中一个菜单项时，才能使用选择菜单。
 
 <figure>
 
@@ -425,36 +425,36 @@
 <figcaption>
 
 [en]: <> (This exposed dropdown menu displays the currently selected font above the menu.)
-译文
+这个选择菜单在菜单上方显示了当前已选中的字体。
 
 </figcaption></figure>
 
 [en]: <> (Behavior)
-### 译文
+### 行为
 
 [en]: <> (Upon selecting an item, an exposed dropdown menu updates to display that item. In some cases, it can accept user input and display a value \(whether or not it’s listed as a menu choice\).)
-译文
+选择一个菜单项后，选择菜单会显示选中的菜单项。在某些情况下，它可以接受用户的输入，并显示一个值（无论这个值是否是一个菜单项）。
 
 [en]: <> (Placement)
 ### 位置
 
 [en]: <> (An exposed dropdown menu is positioned below the element that generates the dropdown. On mobile, it can appear in front of the element generating the dropdown.)
-译文
+选择菜单位于生成菜单的元素的下方。在移动端，它可以出现在生成菜单的元素的前面。
 
 [en]: <> (Variations)
-### 译文
+### 菜单的变体
 
 [en]: <> (An exposed dropdown menu can be customized to have a different appearance or behavior.)
-译文
+选择菜单可以进行定制，以具有不同的外观和行为。
 
 [en]: <> (Text field dropdown menu)
-#### 译文
+#### 文本框下拉菜单
 
 [en]: <> (Text field dropdown menus look like text fields and display the currently selected item above the menu.)
-译文
+文本框下拉菜单看起来就像一个文本框，并在菜单上方显示当前已选中的菜单项。
 
 [en]: <> (On desktop, a text field dropdown menu appears below the element triggering the dropdown. On mobile, a text field dropdown menu can open a native picker.)
-译文
+在桌面端，文本框下拉菜单显示在触发菜单的元素下方。在移动端，文本框下拉菜单可以打开系统原生的选择器。
 
 <figure>
 
@@ -463,15 +463,15 @@
 <figcaption>
 
 [en]: <> (On desktop, a text field dropdown menu appears below the currently selected menu item.)
-译文
+在桌面端，文本框下拉菜单出现在当前所选菜单项的下方。
 
 </figcaption></figure>
 
 [en]: <> (Editable dropdown menu)
-#### 译文
+#### 可编辑下拉菜单
 
 [en]: <> (An editable dropdown menu displays the currently selected menu item above the menu. It can accept a user-entered value not listed in the menu, but may accept only certain types of values, such as only positive numbers.)
-译文
+可编辑下拉菜单会在菜单上方显示当前已选中的菜单项。它可以接受用户输入的值（包括未在菜单项中列出来的值），但可能只允许输入指定类型的值，例如只允许输入正整数。
 
 <figure>
 
@@ -480,15 +480,15 @@
 <figcaption>
 
 [en]: <> (This editable dropdown menu displays the currently selected font size. A user can also enter a value not listed in the menu, such as seven.)
-译文
+这个可编辑下拉菜单显示了当前所选的字体大小。用户也可以输入一个没有在菜单中列出来的值，例如 7。
 
 </figcaption></figure>
 
 [en]: <> (Specs)
-<h2 id="specs">译文</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (Minimum and maximum width)
-### 译文
+### 最小和最大宽度
 
 <figure>
 
@@ -501,10 +501,10 @@
 </figure>
 
 [en]: <> (Dropdown)
-### 译文
+### 下拉
 
 [en]: <> (Mobile)
-#### 译文
+#### 移动端
 
 <figure>
 
@@ -517,7 +517,7 @@
 </figure>
 
 [en]: <> (Desktop)
-#### 译文
+#### 桌面端
 
 <figure>
 
@@ -525,8 +525,11 @@
 
 </figure>
 
-[en]: <> (Dropdown—desktop dense)
-### 译文
+[en]: <> (Dropdown \(desktop\))
+### 下拉（桌面端）
+
+[en]: <> (dense)
+#### 密集型
 
 <figure>
 
