@@ -1,10 +1,10 @@
 <div class="article__intro">
 
 [en]: <> (Navigation drawer)
-# 抽屉式导航
+# 导航抽屉
 
 [en]: <> (Navigation drawers provide access to destinations in your app.)
-译文
+导航抽屉提供了应用中的各个主页面的访问链接。
 
 <figure>
 
@@ -19,31 +19,31 @@
 [en]: <> (Bottom drawer)
 [en]: <> (States)
 [en]: <> (Specs)
-* [译文](#usage)
-* [译文](#anatomy)
-* [译文](#standard-drawer)
-* [译文](#modal-drawer)
-* [译文](#bottom-drawer)
-* [译文](#states)
-* [译文](#specs)
+* [用法](#usage)
+* [剖析](#anatomy)
+* [标准抽屉](#standard-drawer)
+* [模态化抽屉](#modal-drawer)
+* [底部抽屉](#bottom-drawer)
+* [状态](#states)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (Navigation drawers provide access to destinations and app functionality, such as switching accounts. They can either be permanently on-screen or controlled by a navigation menu icon.)
-译文
+导航抽屉提供了各个主页面及应用功能的访问链接，例如切换账户。它们可以固定显示在屏幕上，也可以通过导航菜单图标控制显示状态。
 
 [en]: <> (Navigation drawers are recommended for:)
-译文
+导航抽屉推荐用于：
 
 [en]: <> (Apps with five or more top-level destinations)
 [en]: <> (Apps with two or more levels of navigation hierarchy)
 [en]: <> (Quick navigation between unrelated destinations)
-* 译文
-* 译文
-* 译文
+* 有 5 个或更多个主页面的应用
+* 导航层次结构有两层及以上的应用
+* 在不相关的主页面之间快速切换
 
 <figure>
 
@@ -54,7 +54,7 @@
 {do}
 
 [en]: <> (Use a navigation drawer for five or more primary destinations.)
-译文
+有 5 个或更多个主页面时，使用导航抽屉。
 
 </figcaption></figure><figure>
 
@@ -65,12 +65,12 @@
 {caution}
 
 [en]: <> (Avoid using a navigation drawer with other primary navigation components, such as a bottom navigation bar.)
-译文
+避免把导航抽屉和其他导航组件一起使用，例如底部导航栏。
 
 </figcaption></figure>
 
 [en]: <> (Principles)
-### 译文
+### 原则
 
 <div class="mdui-row-sm-3"><div class="mdui-col"><figure>
 
@@ -79,7 +79,7 @@
 <figcaption>
 
 [en]: <> (Identifiable)
-#### 译文
+#### 可识别
 
 [en]: <> (The placement and list-style content of navigation drawers clearly identify them as navigation.)
 译文
@@ -91,7 +91,7 @@
 <figcaption>
 
 [en]: <> (Organized)
-#### 译文
+#### 有组织的
 
 [en]: <> (Navigation drawers order destinations according to user importance, with frequent destinations first and related ones grouped together.)
 译文

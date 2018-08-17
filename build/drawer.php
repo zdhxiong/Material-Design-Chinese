@@ -335,7 +335,7 @@ return [
                 'href' => '../components/menus.html',
             ],
             [
-                'title' => '抽屉式导航',
+                'title' => '导航抽屉',
                 'href' => '../components/navigation-drawer.html'
             ],
             [
