@@ -82,7 +82,7 @@
 #### 可识别
 
 [en]: <> (The placement and list-style content of navigation drawers clearly identify them as navigation.)
-译文
+导航抽屉的位置和列表形式的内容，可以使用户轻易地识别出它是一个导航。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -94,7 +94,7 @@
 #### 有组织的
 
 [en]: <> (Navigation drawers order destinations according to user importance, with frequent destinations first and related ones grouped together.)
-译文
+导航抽屉会根据重要性对链接进行排序，访问最频繁的链接放在最前面，并把相关的链接组织起来放到一起。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -103,15 +103,15 @@
 <figcaption>
 
 [en]: <> (Contextual)
-#### 译文
+#### 适应性
 
 [en]: <> (Navigation drawers can be shown or hidden to accommodate different app layouts.)
-译文
+导航抽屉可以通过显示或隐藏来适应不同的应用布局。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Types)
-### 译文
+### 类型
 
 <figure>
 
@@ -120,13 +120,13 @@
 <figcaption>
 
 [en]: <> (Standard drawer)
-#### 译文
+#### 标准抽屉
 
 [en]: <> (Standard navigation drawers allow users to simultaneously access drawer destinations and app content. They are often co-planar with app content and affect the screen’s layout grid.)
-译文
+使用标准导航抽屉，页面中可以同时显示抽屉中的链接和应用的内容。它通常和应用内容共存，并会对布局网格产生影响。
 
 [en]: <> (Standard drawers can be permanently visible or opened and closed by tapping a navigation menu icon. They can be used on tablet and desktop only. On mobile, modal drawers are used instead.)
-译文
+标准抽屉可以始终保持显示状态、或点击导航菜单图标后打开或关闭。它只能用于平板端或桌面端。在移动端，请使用模态化抽屉。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -135,13 +135,13 @@
 <figcaption>
 
 [en]: <> (Modal drawer)
-#### 译文
+#### 模态化抽屉
 
 [en]: <> (Modal navigation drawers use a scrim to block interaction with the rest of an app’s content. They are elevated above most app elements and don’t affect the screen’s layout grid.)
-译文
+模态化导航抽屉使用遮罩层来阻止用户与应用的其他内容进行交互。它的海拔高度高于大部分应用中的元素，且不会影响布局网格。
 
 [en]: <> (They are primarily for use on mobile, where screen space is limited. They can be replaced by standard drawers on tablet and desktop.)
-译文
+它主要用于屏幕空间有限的移动端。在平板端和桌面端，可以使用标准抽屉代替。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -150,21 +150,21 @@
 <figcaption>
 
 [en]: <> (Bottom drawer)
-#### 译文
+#### 底部抽屉
 
 [en]: <> (Bottom navigation drawers are a specialized type of modal drawer for use with a bottom app bar.)
-译文
+底部导航抽屉是一种特殊类型的模态化抽屉，可以与底部应用栏一起使用。
 
 [en]: <> (For increased reachability from the bottom app bar’s menu icon, they open from the bottom of the screen rather than the side.)
-译文
+从底部应用栏的菜单图标触发时，为了增加可达性，它会从屏幕的底部打开，而不是从侧面打开。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">剖析</h2>
 
 [en]: <> (Navigation drawers contain a list embedded within a sheet. They can be enhanced with headers and dividers to organize longer lists.)
-译文
+导航抽屉为嵌入了一个列表的卡片。它可以通过添加头部和分隔线来组织内容，以支持显示较长的列表。
 
 <figure>
 
@@ -180,22 +180,22 @@
 [en]: <> (Inactive text)
 [en]: <> (Subtitle)
 [en]: <> (Scrim \(modal only\))
-1. 译文
-2. 译文
-3. 译文
-4. 译文
-5. 译文
-6. 译文
-7. 译文
-8. 译文
+1. 容器
+2. 头部（可选）
+3. 分隔线（可选）
+4. 激活状态文字的背景
+5. 激活状态的文字
+6. 未激活的文字
+7. 副标题
+8. 遮罩层（进行模态化抽屉）
 
 </figcaption></figure>
 
 [en]: <> (Sheet)
-### 译文
+### 卡片
 
 [en]: <> (The contents of a navigation drawer are contained within a side or bottom sheet. Navigation drawers that open from the side are placed on the left of the screen for left-to-right languages, and on the right of the screen for right-to-left languages.)
-译文
+导航抽屉的内容放置在侧边或底部的卡片中。从侧面打开的导航抽屉，对于 LTR 语言，放置在屏幕左侧；对于 RTL 语言，放置在屏幕右侧。
 
 <figure>
 
@@ -206,7 +206,7 @@
 {do}
 
 [en]: <> (A navigation drawer sheet can open from the left side of the screen for left-to-right languages \(1\), or from the bottom of the screen when paired with a bottom app bar \(2\). Scaled down to 62.5%)
-译文
+对于 LTR 语言，导航抽屉从屏幕左侧打开。如果界面中包含底部应用栏，则将从屏幕底部打开。
 
 </figcaption></figure><figure>
 
@@ -217,21 +217,21 @@
 {dont}
 
 [en]: <> (Don’t open a navigation drawer from the right side of the screen unless the app is set to a right-to-left language.)
-译文
+除非应用使用的是 RTL 语言，否则不要从屏幕右侧打开导航抽屉。
 
 </figcaption></figure>
 
 [en]: <> (Destinations)
-### 译文
+### 目标页面链接
 
 [en]: <> (Destinations in a navigation drawer take the form of actionable list items. Each item describes its destination using a text label and optional iconography.)
-译文
+导航抽屉中的目标页面链接用可操作列表项的形式显示。每个列表项都使用文本和可选的图标来表示。
 
 [en]: <> (Destination labels)
-#### 译文
+#### 目标页面链接的文本
 
 [en]: <> (Text labels should be clear and short enough that they aren’t cut off by the sheet.)
-译文
+文本应简短清晰，以免超出卡片范围而被截断。
 
 <figure>
 
@@ -242,7 +242,7 @@
 {do}
 
 [en]: <> (Navigation drawers can use text labels without icons.)
-译文
+导航抽屉的列表项可以不使用图标，仅使用纯文本。
 
 </figcaption></figure><figure>
 
@@ -253,7 +253,7 @@
 {do}
 
 [en]: <> (Keep text labels concise, but truncate them if they extend beyond the container width.)
-译文
+保持文本简洁，但如果它们超出了容器范围，则需要截断它们。
 
 </figcaption></figure><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -264,7 +264,7 @@
 {dont}
 
 [en]: <> (Don’t wrap label text.)
-译文
+不要使文本产生换行。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -275,15 +275,15 @@
 {dont}
 
 [en]: <> (Don’t shrink text size in order to fit a text label on a single line.)
-译文
+不要为了使文本在一行中显示全，而缩小文本。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Destination iconography \(optional\))
-#### 译文
+#### 目标页面链接的图标（可选）
 
 [en]: <> (Icons can supplement labels as indicators of a destination. Whe used, they should always be placed before text. Other app components and content should reference these icons.)
-译文
+图标可以作为目标页面的指示器来对文本进行补充。使用图标时，应始终将它们放在文本之前。应用中其他组件和内容应该以这些图标为依据。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -294,7 +294,7 @@
 {do}
 
 [en]: <> (Use recognizable icons when conventions exist.)
-译文
+使用易于识别的图标。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -305,7 +305,7 @@
 {dont}
 
 [en]: <> (Don’t use the same icon to represent different primary destinations.)
-译文
+请勿使用相同的图标来表示不同的主页面。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -316,7 +316,7 @@
 {caution}
 
 [en]: <> (Secondary destinations can be represented by the same icon, especially if they are part of a collection \(1\).)
-译文
+次级页面可以使用相同的图标，特别是当它们是集合的一部分的时候（1）。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -327,12 +327,12 @@
 {dont}
 
 [en]: <> (Don’t apply icons to some destinations and not others. Icons should be used for all destinations, or none.)
-译文
+不要仅在某些列表项上使用图标。图标要么在所有列表项上都使用，要么都不使用。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Dividers \(optional\))
-### 译文
+### 分隔线（可选）
 
 [en]: <> (Horizontal dividers can be used to separate groups of navigation destinations within the list. They extend across the full width of the drawer.)
 译文
