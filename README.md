@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/progress-indicators.md
 * src/components/selection-controls.md
 * src/components/sheets-bottom.md
 * src/components/sheets-side.md
@@ -82,6 +81,7 @@ php build.php
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
 * src/components/navigation-drawer.md (@zdhxiong)
+* src/components/progress-indicators.md(@chheese_real)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
