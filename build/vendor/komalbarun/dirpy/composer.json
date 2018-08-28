@@ -1,0 +1,22 @@
+{
+	"name": "komalbarun/dirpy",
+    "type": "library",
+    "description": "Recursive directory scanner",
+    "keywords": ["Recursive scan","Directory traversal"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rambarun Komaljeet",
+            "email": "komlbarun@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Komalbarun\\": "./"
+        }
+    }
+}
