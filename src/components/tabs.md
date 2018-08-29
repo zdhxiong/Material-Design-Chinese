@@ -1,10 +1,10 @@
 <div class="article__intro">
 
 [en]: <> (Tabs)
-# Tab 选项卡
+# 标签栏
 
 [en]: <> (Tabs organize content across different screens, data sets, and other interactions.)
-译文
+标签栏在不同屏幕、数据集和其它交互中组织内容。
 
 <figure>
 
@@ -21,27 +21,27 @@
 [en]: <> (States)
 [en]: <> (Spec)
 * [用法](#usage)
-* [剖析](#anatomy)
+* [结构剖析](#anatomy)
 * [行为](#behavior)
 * [位置](#placement)
-* [译文](#fixed-tabs)
-* [译文](#scrollable-tabs)
+* [固定的标签栏](#fixed-tabs)
+* [可滚动标签栏](#scrollable-tabs)
 * [状态](#states)
 * [规范](#spec)
 
 </nav></div><div class="article__body">
 
 [en]: <> (Usage)
-<h2 id="usage">译文</h2>
+<h2 id="usage">用法</h2>
 
 [en]: <> (Tabs organize and allow navigation between groups of content that are related and at the same level of hierarchy.)
-译文
+标签栏能组织处于相同层次结构的内容组，并对相邻的组之间进行导航。
 
 [en]: <> (Tabs in a set)
-#### 译文
+#### 标签栏中的标签
 
 [en]: <> (Each tab should contain content that is distinct from other tabs in a set. For example, tabs can present different sections of news, different genres of music, or different themes of documents.)
-译文
+每个标签中的内容类型都应该与其他标签不同。例如，标签可以呈现不同的新闻类型，不同的音乐种类或者不同的文档主题。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -49,10 +49,10 @@
 
 <figcaption>
 
-{do}
+正确示例
 
 [en]: <> (Tab labels can include icons and text. Text labels should be short.)
-译文
+标签的标题可以包含图标和文字。文字标题需要短小精炼。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -60,10 +60,10 @@
 
 <figcaption>
 
-{dont}
+错误示例
 
 [en]: <> (Don’t use tabs to move through sequential content that needs to be read in a particular order.)
-译文
+不要用标签来切换需要按顺序阅读的内容。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -71,10 +71,10 @@
 
 <figcaption>
 
-{do}
+正确示例
 
 [en]: <> (Present tabs as a single row above their associated content.)
-译文
+应该在相关内容的上方显示它的标签
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -82,21 +82,21 @@
 
 <figcaption>
 
-{dont}
+错误示例
 
 [en]: <> (Avoid using tabs for comparing content across multiple tabs, such as different sizes of the same item.)
-译文
+避免使用标签栏来组织进行对比的内容，例如同一个物品的不同大小。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Combinations with other components)
-#### 译文
+#### 与其它控件组合使用
 
 [en]: <> (Tabs can be paired with components like top app bars, or nested in components like cards and sheets.)
-译文
+标签栏可以与其它组件（如应用栏）配合使用，或者嵌套在其它组件（如卡片或者纸片）中。
 
 [en]: <> (Principles)
-### 译文
+### 使用原则
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -105,10 +105,10 @@
 <figcaption>
 
 [en]: <> (Scalable)
-#### 译文
+#### 可扩展的
 
 [en]: <> (As tabs can horizontally scroll, a UI can have as many tabs as needed.)
-译文
+由于标签可以水平滚动，因此UI可以根据需求包含更多的标签。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -117,10 +117,10 @@
 <figcaption>
 
 [en]: <> (Informative)
-#### 译文
+#### 信息化的
 
 [en]: <> (Tabs organize content into categories to help users easily find different types of information.)
-译文
+标签栏将信息组织到不同分类中，用来帮助用户快速找到不同类型的信息。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -129,21 +129,21 @@
 <figcaption>
 
 [en]: <> (Peers)
-#### 译文
+#### 同等的
 
 [en]: <> (Tabs are displayed next to each other as peers, in categories of equal importance.)
-译文
+标签以相同的重要程度显示彼此相邻显示。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Types)
-### 译文
+### 类型
 
 [en]: <> (Fixed tabs)
-#### 译文
+#### 固定的标签栏
 
 [en]: <> (Fixed tabs display all tabs on one screen, with each tab at a fixed width. The width of each tab is determined by dividing the number of tabs by the screen width. They don’t scroll to reveal more tabs; the visible tab set represents the only tabs available.)
-译文
+固定的标签栏将所有标签显示在同一块屏幕，所有的标签拥有相同的固定宽度。每个标签的宽度由标签数和屏幕宽度决定。它们不会滚动来显示更多的标签；标签组中同时只有一个标签处于激活状态。
 
 <figure>
 
@@ -152,10 +152,10 @@
 </figure>
 
 [en]: <> (Scrollable tabs)
-### 译文
+### 可滚动标签栏
 
 [en]: <> (Scrollable tabs are displayed without fixed widths. They are scrollable, such that some tabs will remain off-screen until scrolled.)
-译文
+可滚动标签栏不会以固定的宽度来显示每一个标签。它们可以滚动，这样一些标签会在一直屏幕外，直到滚动到屏幕内。
 
 <figure>
 
@@ -164,7 +164,7 @@
 </figure>
 
 [en]: <> (Anatomy)
-<h2 id="anatomy">译文</h2>
+<h2 id="anatomy">结构剖析</h2>
 
 <figure>
 
@@ -179,24 +179,24 @@
 [en]: <> (Inactive icon \(Optional if there’s a label\))
 [en]: <> (Inactive text label \(Optional if there’s an icon\))
 [en]: <> (Tab item)
-1. 译文
-2. 译文
-3. 译文
-4. 译文
-5. 译文
-6. 译文
-7. 译文
+1. 组件的容器
+2. 已激活的图标（如果有标题的话图标是可选的）
+3. 已激活的文字（如果有图标的话文字是可选的）
+4. 已激活标签的指示器
+5. 未激活的图标（如果有标题的话图标是可选的）
+6. 未激活的文字（如果有图标的话文字是可选的）
+7. 标签栏中的一项
 
 </figcaption></figure>
 
 [en]: <> (Text label)
-### 译文
+### 文字标题
 
 [en]: <> (Text labels should clearly and succinctly describe the content of the tab they represent. Tab content should contain a cohesive set of items that share a common characteristic.)
-译文
+文字标题应该简洁明了地描述它们所在的标签的内容。标签内容应包含一组相似类型的项目。
 
 [en]: <> (Tab labels appear in a single row. They can use a second line if needed, with truncated text. Alternatively, you can use scrollable tabs to allow room for longer titles.)
-译文
+标签的标题应该只有一行。如果需要，可以截断文本并使用第二行。或者，你也可以使用可滚动标签栏来允许标签宽度不被限制以使用更长的标题。
 
 <div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -204,10 +204,10 @@
 
 <figcaption>
 
-{caution}
+应避免的示例
 
 [en]: <> (Although label text can wrap to a second line, scrollable tabs confine text to a single row.)
-译文
+虽然文字标题可以换行到第二行，但是可滚动标签栏会把行数限制为一行。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -215,10 +215,10 @@
 
 <figcaption>
 
-{dont}
+错误示例
 
 [en]: <> (Don’t resize text labels to fit them onto a single line. If labels are too long, wrap text to a second line or use scrollable tabs.)
-译文
+不要通过更改文字大小来使文本保持一行。如果标题太长，应该换行到第二行或者使用可滚动标题栏。
 
 </figcaption></figure></div></div><div class="mdui-row-sm-2"><div class="mdui-col"><figure>
 
@@ -226,10 +226,10 @@
 
 <figcaption>
 
-{dont}
+错误示例
 
 [en]: <> (Don’t truncate labels unless required, as truncated text can impede comprehension.)
-译文
+在非必须的情况下不要讲标签截断，因为截断的标题会妨碍理解。
 
 </figcaption></figure></div><div class="mdui-col"><figure>
 
@@ -237,18 +237,18 @@
 
 <figcaption>
 
-{dont}
+错误示例
 
 [en]: <> (Don’t mix tabs that contain only text, with tabs that contain only icons. Use either all text labels, all icon labels, or both, across all labels.)
-译文
+不要将只包含文字的标题或只包含图标的标题混合使用。在所有标签中，只使用文字标题、只使用图标标题或者只使用文字和图标组成的标题。
 
 </figcaption></figure></div></div>
 
 [en]: <> (Icons)
-### 译文
+### 图标
 
 [en]: <> (Icons communicate the type of content a tab represents in a simple, recognizable way. However, they aren’t as effective as text labels at communicating complex content.)
-译文
+图标用简单的、可识别方式来表达标签的内容。但是，在内容比较复杂时它们的表达能力不如文字标题那么强。
 
 <figure>
 
