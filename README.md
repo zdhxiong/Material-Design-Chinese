@@ -80,6 +80,7 @@ php build.php
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
 * src/components/navigation-drawer.md (@zdhxiong)
+* src/components/selection-controls.md (@zdhxiong)
 * src/components/tabs.md (@Chheese)
 
 ## 已翻译完成的文件
