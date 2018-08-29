@@ -32,7 +32,6 @@ php build.php
 * src/components/sheets-side.md
 * src/components/sliders.md
 * src/components/snackbars.md
-* src/components/tabs.md
 * src/components/text-fields.md
 * src/components/tooltips.md
 * src/environment/elevation.md
@@ -82,6 +81,7 @@ php build.php
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
 * src/components/navigation-drawer.md (@zdhxiong)
 * src/components/selection-controls.md (@zdhxiong)
+* src/components/tabs.md (@Chheese)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -116,4 +116,4 @@ php build.php
 * src/components/image-lists.md (@zdhxiong)
 * src/components/lists.md (@zdhxiong)
 * src/components/menus.md (@zdhxiong)
-* src/components/progress-indicators.md (@chheese_real)
+* src/components/progress-indicators.md (@Chheese)
