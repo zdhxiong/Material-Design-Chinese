@@ -15,7 +15,7 @@
 * [用法](#usage)
 * [线形进度条](#linear-progress-indicators)
 * [圆形进度条](#circular-progress-indicators)
-* [规格](#specs)
+* [规范](#specs)
 
 </nav></div><div class="article__body">
 
@@ -289,7 +289,7 @@ Material Design提供了两种不同形状的进度条：线形和圆形。在�
 </figcaption></figure>
 
 [en]: <> (Specs)
-<h2 id="specs">规格</h2>
+<h2 id="specs">规范</h2>
 
 [en]: <> (Circular indicators)
 #### 圆形进度条
