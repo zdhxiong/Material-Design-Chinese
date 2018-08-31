@@ -79,9 +79,7 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
-* src/components/navigation-drawer.md (@zdhxiong)
 * src/components/selection-controls.md (@zdhxiong)
-* src/components/tabs.md (@Chheese)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -117,3 +115,5 @@ php build.php
 * src/components/lists.md (@zdhxiong)
 * src/components/menus.md (@zdhxiong)
 * src/components/progress-indicators.md (@Chheese)
+* src/components/navigation-drawer.md (@zdhxiong)
+* src/components/tabs.md (@Chheese)
