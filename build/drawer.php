@@ -343,7 +343,7 @@ return [
                 'href' => '../components/progress-indicators.html',
             ],
             [
-                'title' => '选择控制器',
+                'title' => '选择控件',
                 'href' => '../components/selection-controls.html',
             ],
             [
