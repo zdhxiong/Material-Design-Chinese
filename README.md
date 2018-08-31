@@ -27,7 +27,6 @@ php build.php
 
 ## 待认领的文件
 
-* src/components/selection-controls.md
 * src/components/sheets-bottom.md
 * src/components/sheets-side.md
 * src/components/sliders.md
