@@ -56,7 +56,6 @@ php build.php
 * src/motion/customization.md
 * src/motion/speed.md
 * src/motion/understanding-motion.md
-* src/platform-guidance/android-bars.md
 * src/platform-guidance/android-fingerprint.md
 * src/platform-guidance/android-haptics.md
 * src/platform-guidance/android-icons.md
@@ -78,6 +77,7 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
+* src/platform-guidance/android-bars.md (@Chheese)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
