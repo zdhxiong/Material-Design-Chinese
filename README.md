@@ -77,7 +77,6 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
-* src/platform-guidance/android-bars.md (@Chheese)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -116,3 +115,4 @@ php build.php
 * src/components/navigation-drawer.md (@zdhxiong)
 * src/components/tabs.md (@Chheese)
 * src/components/selection-controls.md (@zdhxiong)
+* src/platform-guidance/android-bars.md (@Chheese)
