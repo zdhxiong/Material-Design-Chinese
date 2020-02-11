@@ -30,8 +30,6 @@ php build.php
 * src/components/sheets-bottom.md
 * src/components/sheets-side.md
 * src/components/sliders.md
-* src/components/snackbars.md
-* src/components/text-fields.md
 * src/components/tooltips.md
 * src/environment/elevation.md
 * src/environment/light-shadows.md
@@ -70,6 +68,7 @@ php build.php
 * src/platform-guidance/cross-platform-adaptation.md
 
 ## 翻译中的文件
+* src/components/text-fields.md (@kengwang)
 * src/color/the-color-system.md (@VCEtwp)
 * src/typography/language-support.md (@PaperFlu)
 * src/typography/the-type-system.md (@PaperFlu)
@@ -77,6 +76,7 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
+* src/components/snackbars.md (@kengwang)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
