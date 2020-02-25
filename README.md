@@ -67,7 +67,6 @@ php build.php
 * src/platform-guidance/cross-platform-adaptation.md
 
 ## 翻译中的文件
-* src/components/text-fields.md (@kengwang)
 * src/color/the-color-system.md (@VCEtwp)
 * src/typography/language-support.md (@PaperFlu)
 * src/typography/the-type-system.md (@PaperFlu)
@@ -75,8 +74,6 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
-* src/components/snackbars.md (@kengwang)
-* src/environment/light-shadows.md (@O7I2)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
@@ -113,6 +110,9 @@ php build.php
 * src/components/menus.md (@zdhxiong)
 * src/components/progress-indicators.md (@Chheese)
 * src/components/navigation-drawer.md (@zdhxiong)
+* src/components/snackbars.md (@kengwang)
 * src/components/tabs.md (@Chheese)
 * src/components/selection-controls.md (@zdhxiong)
+* src/components/text-fields.md (@kengwang)
+* src/environment/light-shadows.md (@O7I2)
 * src/platform-guidance/android-bars.md (@Chheese)
