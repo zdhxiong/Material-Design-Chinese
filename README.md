@@ -32,7 +32,6 @@ php build.php
 * src/components/sliders.md
 * src/components/tooltips.md
 * src/environment/elevation.md
-* src/environment/light-shadows.md
 * src/environment/surfaces.md
 * src/foundation-overview/index.md
 * src/guidelines-overview/index.md
@@ -77,6 +76,7 @@ php build.php
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
 * src/components/snackbars.md (@kengwang)
+* src/environment/light-shadows.md (@O7I2)
 
 ## 已翻译完成的文件
 * src/color/color-usage.md (@zdhxiong)
