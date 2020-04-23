@@ -74,7 +74,6 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
-* src/components/tooltips.md (@MrWillCom)
 
 ## 已翻译完成的文件
 
@@ -118,3 +117,4 @@ php build.php
 * src/components/text-fields.md (@kengwang)
 * src/environment/light-shadows.md (@O7I2)
 * src/platform-guidance/android-bars.md (@Chheese)
+* src/components/tooltips.md (@MrWillCom)
