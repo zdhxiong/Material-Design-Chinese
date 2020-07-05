@@ -17,6 +17,10 @@
   <meta property="og:image" content="<?php url('static/media/public/share.png') ?>">
   <meta property="article:section" content="<?php echo $vars['title']; ?> - <?php echo $vars['category']; ?>">
   <meta name="theme-color" content="<?php echo $vars['theme_color'] ?>">
+  <?php // 如果是以 https://、http://、// 开头，则取出其中的域名部分，预连接 ?>
+  <?php if (strpos(STATIC_PATH, 'http') === 0 || strpos(STATIC_PATH, '//') === 0): ?>
+    <link rel="preconnect" href="<?= implode('/', array_slice(explode('/', STATIC_PATH), 0, 3)) ?>">
+  <?php endif; ?>
   <link rel="icon" sizes="192x192" href="<?php url('static/media/public/guidelines-icon-192x192.png') ?>">
   <link rel="shortcut icon" href="<?php url('static/media/public/guidelines-icon-72x72.png') ?>">
   <link rel="apple-touch-icon" href="<?php url('static/media/public/guidelines-icon-72x72.png') ?>">
