@@ -37,7 +37,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-graceful.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-graceful.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -47,7 +47,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-form.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-form.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -57,7 +57,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-something.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-principles-something.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -89,7 +89,7 @@
                   <div class="module">
                     <div class="modulettes">
                       <a class="modulette container default" href="https://developer.android.com/develop/quality-guidelines/building-for-billions-connectivity.html#network-offline" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/default.svg"/>
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">使你的应用可在离线状态使用</div>
                           <span class="subtitle">把数据保存到本地，并减少网络请求</span>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="modulettes">
                       <a class="modulette container default" href="https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux" target="_blank">
-                        <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/default.svg"/>
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">离线状态的用户体验设计注意事项</div>
                           <span class="subtitle">网络较慢及离线状态的设计建议</span>
@@ -118,7 +118,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="states-settings-figure-caption-0" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-offline-translation.png'); ?>"/>
+                          <img alt="" aria-describedby="states-settings-figure-caption-0" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-offline-translation.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="states-settings-figure-caption-0">
@@ -130,7 +130,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="states-settings-figure-caption-1" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-browser-offline.png'); ?>"/>
+                          <img alt="" aria-describedby="states-settings-figure-caption-1" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-browser-offline.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="states-settings-figure-caption-1">
@@ -147,7 +147,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="states-settings-figure-caption-2" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-search-offline.png'); ?>"/>
+                          <img alt="" aria-describedby="states-settings-figure-caption-2" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-search-offline.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="states-settings-figure-caption-2">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="states-settings-figure-caption-3" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-translate-offline.png'); ?>"/>
+                          <img alt="" aria-describedby="states-settings-figure-caption-3" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-translate-offline.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="states-settings-figure-caption-3">
@@ -176,7 +176,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="states-settings-figure-caption-4" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-offline-places.png'); ?>"/>
+                          <img alt="" aria-describedby="states-settings-figure-caption-4" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-state-settings-offline-places.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="states-settings-figure-caption-4">
@@ -214,7 +214,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="offline-interactions-figure-caption-0" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-downloading-do.png'); ?>"/>
+                          <img alt="" aria-describedby="offline-interactions-figure-caption-0" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-downloading-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="offline-interactions-figure-caption-0">
@@ -226,7 +226,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="offline-interactions-figure-caption-1" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-downloading-dont.png'); ?>"/>
+                          <img alt="" aria-describedby="offline-interactions-figure-caption-1" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-downloading-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="offline-interactions-figure-caption-1">
@@ -244,7 +244,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="offline-interactions-figure-caption-2" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-icons.png'); ?>"/>
+                          <img alt="" aria-describedby="offline-interactions-figure-caption-2" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-icons.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="offline-interactions-figure-caption-2">
@@ -284,7 +284,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="offline-interactions-figure-caption-4" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-delete.png'); ?>"/>
+                          <img alt="" aria-describedby="offline-interactions-figure-caption-4" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-delete.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="offline-interactions-figure-caption-4">
@@ -296,7 +296,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="offline-interactions-figure-caption-5" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-delete-confirmation.png'); ?>"/>
+                          <img alt="" aria-describedby="offline-interactions-figure-caption-5" src="<?php static_url('../static/media/patterns/offline-states/patterns-offline-interactions-delete-confirmation.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="offline-interactions-figure-caption-5">

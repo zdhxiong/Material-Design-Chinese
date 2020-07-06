@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -31,7 +31,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -139,7 +139,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container android" href="http://developer.android.com/guide/components/intents-filters.html" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>"/>
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                           <div class="info">
                             <div class="title">意图和意图过滤器</div>
                           </div>
@@ -176,7 +176,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="runtime-permissions-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>"/>
+                          <img alt="" aria-describedby="runtime-permissions-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_runtime1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="runtime-permissions-figure-caption-0">
@@ -215,7 +215,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="request-patterns-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>"/>
+                          <img alt="" aria-describedby="request-patterns-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns0.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="request-patterns-figure-caption-0">
@@ -232,7 +232,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -243,7 +243,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -255,7 +255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -269,7 +269,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -280,7 +280,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_patterns5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -335,7 +335,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="denied-permissions-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>"/>
+                          <img alt="" aria-describedby="denied-permissions-figure-caption-0" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="denied-permissions-figure-caption-0">
@@ -354,7 +354,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="denied-permissions-figure-caption-1" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>"/>
+                          <img alt="" aria-describedby="denied-permissions-figure-caption-1" src="<?php static_url('../static/media/patterns/permissions/patterns_permissions_denied2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="denied-permissions-figure-caption-1">

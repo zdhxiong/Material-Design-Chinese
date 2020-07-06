@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -13,7 +13,7 @@
           <p>最新版本的 Roboto 是专为移动设备和网页设计的。</p>
           <div class="modulettes">
             <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/roboto-noto-fonts/RobotoTTF.zip'); ?>" title="Roboto Font">
-              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
               <div class="info">
                 <div class="title">Roboto 字体</div>
                 <span class="subtitle">1.21 MB (.zip) </span>
@@ -23,7 +23,7 @@
           </div>
           <div class="modulettes">
             <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/roboto-noto-fonts/RobotoSpecimenBooklet.pdf'); ?>" title="Roboto specimen booklet">
-              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
               <div class="info">
                 <div class="title">Roboto 样本手册</div>
                 <span class="subtitle">1.67 MB (.pdf) </span>
@@ -35,7 +35,7 @@
           <p>
             <div class="modulettes">
               <a class="modulette container download" href="http://www.google.com/get/noto" target="_blank">
-                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>"/>
+                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
                 <div class="info">
                   <div class="title">获取 Noto</div>
                 </div>

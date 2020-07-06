@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -30,7 +30,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_empty_states.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_empty_states.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -84,7 +84,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="displaying-empty-states-figure-caption-0">
@@ -97,7 +97,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="displaying-empty-states-figure-caption-1">
@@ -140,7 +140,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-0">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-1">
@@ -189,7 +189,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-2">
@@ -201,7 +201,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-3">

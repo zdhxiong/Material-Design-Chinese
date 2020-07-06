@@ -27,7 +27,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -76,7 +76,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-bar-scrollable-regions-figure-caption-0">
@@ -88,7 +88,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-bar-scrollable-regions-figure-caption-1">
@@ -129,7 +129,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -173,7 +173,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -217,7 +217,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.1666666667%">
-                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-4">
@@ -256,7 +256,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-6">
@@ -302,7 +302,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-8">

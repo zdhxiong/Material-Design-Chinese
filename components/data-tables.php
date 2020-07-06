@@ -37,7 +37,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/data-tables/components_data_tables.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/data-tables/components_data_tables.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -95,7 +95,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 56.5517241379%">
-                          <img alt="" aria-describedby="structure-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_structure_basictable.png'); ?>"/>
+                          <img alt="" aria-describedby="structure-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_structure_basictable.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="structure-figure-caption-0">
@@ -143,7 +143,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_rowhover.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_rowhover.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-0">
@@ -171,7 +171,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_selectedrow.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_selectedrow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-1">
@@ -201,7 +201,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_sortedcolumn.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-2">
@@ -230,7 +230,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="interaction-figure-caption-3" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_tooltip.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-3" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_tooltip.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-3">
@@ -254,7 +254,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-4" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle1.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-4" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-4">
@@ -264,7 +264,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="interaction-figure-caption-5" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-5" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_longtitle2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-5">
@@ -291,7 +291,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 1520px">
                           <div class="frame " style="padding-top: 37.1052631579%">
-                            <img alt="" aria-describedby="interaction-figure-caption-6" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing1.png'); ?>"/>
+                            <img alt="" aria-describedby="interaction-figure-caption-6" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing1.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="interaction-figure-caption-6">
@@ -316,7 +316,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="interaction-figure-caption-7" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-7" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-7">
@@ -338,7 +338,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.1842105263%">
-                          <img alt="" aria-describedby="interaction-figure-caption-8" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing3.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-8" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-8">
@@ -359,7 +359,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 35.0%">
-                          <img alt="" aria-describedby="interaction-figure-caption-9" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing4.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-9" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_editing4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-9">
@@ -385,7 +385,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.1842105263%">
-                          <img alt="" aria-describedby="interaction-figure-caption-10" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-10" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-10">
@@ -395,7 +395,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.3157894737%">
-                          <img alt="" aria-describedby="interaction-figure-caption-11" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png'); ?>"/>
+                          <img alt="" aria-describedby="interaction-figure-caption-11" src="<?php static_url('../static/media/components/data-tables/components_datatables_interaction_inlinemenus2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="interaction-figure-caption-11">
@@ -431,7 +431,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 66.2068965517%">
-                          <img alt="" aria-describedby="tables-within-cards-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_tablecard.png'); ?>"/>
+                          <img alt="" aria-describedby="tables-within-cards-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_tablecard.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tables-within-cards-figure-caption-0">
@@ -462,7 +462,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 45.4310344828%">
-                          <img alt="" aria-describedby="tables-within-cards-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_altheaders.png'); ?>"/>
+                          <img alt="" aria-describedby="tables-within-cards-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_cards_altheaders.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tables-within-cards-figure-caption-1">
@@ -501,7 +501,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 40.9482758621%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_verticalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_verticalspacing.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -527,7 +527,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 40.5172413793%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_01_horizontalspacing.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -553,7 +553,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 56.5517241379%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/data-tables/components_datatables_specs_02_horizontalspacing.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">

@@ -1028,7 +1028,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-0" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-0" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-0">
@@ -1040,7 +1040,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-1">
@@ -1060,7 +1060,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-2">
@@ -1072,7 +1072,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-3">

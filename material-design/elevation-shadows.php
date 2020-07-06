@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/what_is_material_elevation_and_shadows.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/what_is_material_elevation_and_shadows.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="elevation-android-figure-caption-0" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation1.png'); ?>"/>
+                          <img alt="" aria-describedby="elevation-android-figure-caption-0" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="elevation-android-figure-caption-0">
@@ -193,7 +193,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 41.3793103448%">
-                          <img alt="" aria-describedby="elevation-android-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation2.png'); ?>"/>
+                          <img alt="" aria-describedby="elevation-android-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="elevation-android-figure-caption-1">
@@ -209,7 +209,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 41.3793103448%">
-                          <img alt="" aria-describedby="elevation-android-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation3.png'); ?>"/>
+                          <img alt="" aria-describedby="elevation-android-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="elevation-android-figure-caption-2">
@@ -225,7 +225,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 41.3793103448%">
-                          <img alt="" aria-describedby="elevation-android-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation4.png'); ?>"/>
+                          <img alt="" aria-describedby="elevation-android-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="elevation-android-figure-caption-3">
@@ -257,7 +257,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-0" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow1.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-0" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-0">
@@ -270,7 +270,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow2.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-1" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-1">
@@ -283,7 +283,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow3.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-2" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-2">
@@ -301,7 +301,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow4.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-3" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-3">
@@ -314,7 +314,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-4" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow5.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-4" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-4">
@@ -327,7 +327,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="shadows-figure-caption-5" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow6.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-5" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_shadow6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-5">
@@ -349,7 +349,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.4473684211%">
-                          <img alt="" aria-describedby="shadows-figure-caption-6" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component06.png'); ?>"/>
+                          <img alt="" aria-describedby="shadows-figure-caption-6" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component06.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="shadows-figure-caption-6">
@@ -372,7 +372,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.7631578947%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component02.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -388,7 +388,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.7631578947%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component08.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component08.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -405,7 +405,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 52.5%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component03.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component03.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -421,7 +421,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1522px">
                         <div class="frame " style="padding-top: 87.3850197109%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component09.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component09.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -436,7 +436,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.3947368421%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component12.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -451,7 +451,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 95.1315789474%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component10.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -466,7 +466,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 42.5%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component11.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -481,7 +481,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 17.2368421053%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component05.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -497,7 +497,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component04.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component04.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -512,7 +512,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.4473684211%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component07.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component07.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -527,7 +527,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 19.0789473684%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component01.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/elevation-shadows/whatismaterial_3d_elevation_component01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

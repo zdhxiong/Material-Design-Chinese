@@ -26,7 +26,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 720px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/motion/transforming-material/03-transforming-material.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/motion/transforming-material/03-transforming-material.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>

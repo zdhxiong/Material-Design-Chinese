@@ -33,7 +33,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/steppers/components_steppers.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/steppers/components_steppers.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 77.8947368421%">
-                          <img aria-describedby="usage-figure-caption-0" alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep.png'); ?>"/>
+                          <img aria-describedby="usage-figure-caption-0" alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -140,7 +140,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 89.4736842105%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_avoid.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_avoid.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -176,7 +176,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 18.8157894737%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_editable.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_editable.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-0">
@@ -198,7 +198,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 18.8157894737%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_noneditable.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_noneditable.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-1">
@@ -217,7 +217,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbltypog.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbltypog.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-2">
@@ -230,7 +230,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbldots.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mbldots.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-3">
@@ -246,7 +246,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblprgrssbr.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-4">
@@ -268,7 +268,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="types-of-steps-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstps.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steps-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstps.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steps-figure-caption-5">
@@ -307,7 +307,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_horizstep.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_horizstep.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-0">
@@ -327,7 +327,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblvertinpg.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblvertinpg.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-1">
@@ -348,7 +348,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.4736842105%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_linear.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_linear.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-2">
@@ -366,7 +366,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.4736842105%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_nonlinear.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_nonlinear.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-3">
@@ -397,7 +397,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 31.5789473684%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmnt.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-4">
@@ -412,7 +412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 33.6842105263%">
-                          <img alt="" aria-describedby="types-of-steppers-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-steppers-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplcmntoptstp.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-steppers-figure-caption-5">
@@ -469,7 +469,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 24.2105263158%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_standard_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_standard_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -488,7 +488,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 24.2105263158%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_optstp_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -507,7 +507,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 24.2105263158%">
-                          <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_multilnerr_rl.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_multilnerr_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -521,7 +521,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplace_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">
@@ -539,7 +539,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.8684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplaceoptstp_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">
@@ -558,7 +558,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_altlblplerr_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-4">
@@ -578,7 +578,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.0526315789%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrhoriz.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrhoriz.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-5">
@@ -588,7 +588,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrvert.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_hvrvert.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-6">
@@ -603,7 +603,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 21.0526315789%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdhoriz.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdhoriz.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-7">
@@ -613,7 +613,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdvert.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_prssdvert.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-8">
@@ -643,7 +643,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 67.3684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstep_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-9">
@@ -666,7 +666,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_vertstpsubstp_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-10">
@@ -685,7 +685,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 147.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/steppers/components_acux_stepper_mblinpgstp_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-11">

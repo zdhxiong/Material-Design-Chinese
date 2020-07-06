@@ -26,7 +26,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 720px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>

@@ -45,7 +45,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>">
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">Resizer</div>
                     </div>
@@ -60,7 +60,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptive_breakpoints_01.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptive_breakpoints_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -563,7 +563,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-0" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_01_reveal.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-0" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_01_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-0">
@@ -577,7 +577,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_02_reveal.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_02_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-1">
@@ -591,7 +591,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_03_reveal.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_03_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-2">
@@ -609,7 +609,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_04_transform.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_04_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-3">
@@ -623,7 +623,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_05_transform.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_05_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-4">
@@ -637,7 +637,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_06_transform.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_06_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-5">
@@ -655,7 +655,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_07_divide.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_07_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-6">
@@ -669,7 +669,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_08_divide.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_08_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-7">
@@ -683,7 +683,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_09_divide.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_09_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-8">
@@ -702,7 +702,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_10_reflow.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_10_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-9">
@@ -716,7 +716,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_11_reflow.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_11_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-10">
@@ -730,7 +730,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_12_reflow.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_12_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-11">
@@ -748,7 +748,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_13_expand.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_13_expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-12">
@@ -762,7 +762,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_14_expand.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_14_expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-13">
@@ -780,7 +780,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_15_position.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_15_position.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-14">
@@ -794,7 +794,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_16_position.png'); ?>"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_16_position.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-15">

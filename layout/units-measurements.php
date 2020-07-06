@@ -59,7 +59,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container android" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">支持多种屏幕</div>
                           </div>
@@ -71,7 +71,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container android" href="http://developer.android.com/guide/topics/resources/more-resources.html#Dimension" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">更多资源类型</div>
                           </div>
@@ -85,7 +85,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="pixel-density-figure-caption-0" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>"/>
+                          <img alt="" aria-describedby="pixel-density-figure-caption-0" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="pixel-density-figure-caption-0">
@@ -101,7 +101,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="pixel-density-figure-caption-1" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>"/>
+                          <img alt="" aria-describedby="pixel-density-figure-caption-1" src="<?php static_url('../static/media/layout/units-measurements/layout_units_density2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="pixel-density-figure-caption-1">
@@ -137,7 +137,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_dp.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/layout/units-measurements/layout_units_dp.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

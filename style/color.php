@@ -72,7 +72,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/components.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/components.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/UI.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/UI.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -106,7 +106,7 @@
                   <div class="module">
                     <div class="modulettes">
                       <a class="modulette container md" href="https://material.io/color/" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>"/>
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">颜色工具</div>
                           <span class="subtitle">为你的 UI 创建配色方案，并测试颜色的可访问性</span>
@@ -138,7 +138,7 @@
               <p>主题通过设置表面阴影、阴影深度和墨迹不透明度来构建统一的应用样式。</p>
               <div class="modulettes">
                 <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">下载调色板</div>
                     <span class="subtitle">0.02 MB (.zip) </span>
@@ -1898,7 +1898,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
-                    <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/gd.svg">
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
                       <div class="info">
                         <div class="title">在材料中表现品牌</div>
                       </div>
@@ -1918,7 +1918,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 91.3%">
-                          <img alt="" aria-describedby="color-system-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-0">
@@ -1930,7 +1930,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-1">
@@ -1945,7 +1945,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 56.7%">
-                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-2">
@@ -1957,7 +1957,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-3">
@@ -1979,7 +1979,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-4">
@@ -2010,7 +2010,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-5">
@@ -2022,7 +2022,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-6">
@@ -2043,7 +2043,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-7">
@@ -2055,7 +2055,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-8">
@@ -2073,7 +2073,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.4%">
-                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-9">
@@ -2085,7 +2085,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-10">
@@ -2102,7 +2102,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-11">
@@ -2115,7 +2115,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-12">
@@ -2133,7 +2133,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-13">
@@ -2147,7 +2147,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-14">
@@ -2163,7 +2163,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-15">
@@ -2177,7 +2177,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-16">
@@ -2193,7 +2193,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-17">
@@ -2207,7 +2207,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-18">
@@ -2223,7 +2223,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-19">
@@ -2237,7 +2237,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-20">
@@ -2256,7 +2256,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-21">
@@ -2270,7 +2270,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-22">
@@ -2308,7 +2308,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-0" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-0" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-0">
@@ -2320,7 +2320,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1001px">
                         <div class="frame " style="padding-top: 177.622377622%">
-                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-1">
@@ -2341,7 +2341,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 1000px">
                           <div class="frame " style="padding-top: 177.8%">
-                            <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>"/>
+                            <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="usability-figure-caption-2">
@@ -2354,7 +2354,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-3">
@@ -2379,7 +2379,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-4">
@@ -2391,7 +2391,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 550px">
                         <div class="frame " style="padding-top: 36.3636363636%">
-                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-5">
@@ -2412,7 +2412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-6">
@@ -2424,7 +2424,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-7">
@@ -2441,7 +2441,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-8">
@@ -2478,7 +2478,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-9">
@@ -2491,7 +2491,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-10">
@@ -2515,7 +2515,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.9444444444%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/style_color_usability_alpha1_161116.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/style/color/style_color_usability_alpha1_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2556,7 +2556,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.9444444444%">
-                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-11">
@@ -2643,7 +2643,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-12">
@@ -2656,7 +2656,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-13">
@@ -2672,7 +2672,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-14">
@@ -2685,7 +2685,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>"/>
+                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-15">
@@ -2714,7 +2714,7 @@
               <p>主题可以让你的应用具有统一的风格。主题指定表面的暗度、阴影程度，以及墨水元素的适当的不透明度。为了提高不同应用之间的一致性，你可以选择亮色主题和暗色主题。</p>
               <div class="modulettes">
                 <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>"/>
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
                   <div class="info">
                     <div class="title">下载主题</div>
                     <span class="subtitle">1.23 MB (.ai) </span>
@@ -2733,7 +2733,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-0">
@@ -2745,7 +2745,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-1">
@@ -2766,7 +2766,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-2">
@@ -2778,7 +2778,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>"/>
+                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-3">
@@ -2791,7 +2791,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="http://developer.android.com/training/material/theme.html" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">使用材料主题</div>
                     </div>

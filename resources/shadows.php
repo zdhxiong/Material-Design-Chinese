@@ -15,7 +15,7 @@
           <p>
             <div class="modulettes">
               <a class="modulette container android" href="https://developer.android.com/training/material/shadows-clipping.html" target="_blank">
-                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">定义阴影和裁剪视图</div>
                   </div>
@@ -27,7 +27,7 @@
           <p>
             <div class="modulettes">
               <a class="modulette container polymer" href="https://docs-05-dot-polymer-project.appspot.com/0.5/docs/elements/paper-shadow.html" target="_blank">
-                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/polymer.svg'); ?>">
+                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/polymer.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">纸片阴影</div>
                   </div>
@@ -73,7 +73,7 @@
                     <p>右侧表格是用于 Sketch 的阴影值列表。</p>
                     <div class="modulettes">
                       <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.sketch'); ?>" title="Shadows in Sketch">
-                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">Sketch 中的阴影</div>
                             <span class="subtitle">0.07 MB (.sketch) </span>
@@ -628,7 +628,7 @@
                     <p>右侧表格是用于 Illustrator 的阴影值列表。</p>
                     <div class="modulettes">
                       <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.ai'); ?>" title="Shadows in Illustrator">
-                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">Illustrator 中的阴影</div>
                             <span class="subtitle">1.65 MB (.ai) </span>
@@ -1004,7 +1004,7 @@
                     <p>右侧表格是用于 Photoshop 的阴影值列表。</p>
                     <div class="modulettes">
                       <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/shadows/shadows.psd'); ?>" title="Shadows in Photoshop">
-                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">Photoshop 中的阴影</div>
                             <span class="subtitle">1.09 MB (.psd) </span>

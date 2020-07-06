@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/toolbars/components_toolbars.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/toolbars/components_toolbars.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -70,7 +70,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -87,7 +87,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -103,7 +103,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -123,7 +123,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 52.7777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
@@ -136,7 +136,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 52.7777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
@@ -157,7 +157,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">

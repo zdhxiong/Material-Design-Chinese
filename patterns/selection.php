@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -31,7 +31,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -283,7 +283,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-0" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-0" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-0">
@@ -295,7 +295,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-1" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-1" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-1">
@@ -317,7 +317,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 58.8888888889%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color1.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <ol class="lst-kix_xdqkwleg2gie-0 start" start="1">
@@ -331,7 +331,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.5%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-2" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-2" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text_color2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-2">
@@ -348,7 +348,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.8947368421%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-3" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-3" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text03.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-3">
@@ -365,7 +365,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.8947368421%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-4" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-4" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text04.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-4">
@@ -386,7 +386,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-5" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-5" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-5">
@@ -396,7 +396,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-6" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-6" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text07.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-6">
@@ -408,7 +408,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-7" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-7" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text06.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-7">
@@ -418,7 +418,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-8" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-8" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text08.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-8">
@@ -433,7 +433,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 43.8888888889%">
-                          <img alt="" aria-describedby="text-selection-figure-caption-9" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>"/>
+                          <img alt="" aria-describedby="text-selection-figure-caption-9" src="<?php static_url('../static/media/patterns/selection/patterns_selection_text09.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="text-selection-figure-caption-9">

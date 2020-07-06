@@ -72,7 +72,7 @@
               </ul>
               <div class="modulettes">
                 <a class="modulette container gd" href="https://design.google.com/articles/making-motion-meaningful/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/gd.svg'); ?>">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">让动效更有意义</div>
                     <span class="subtitle">来自 Google 的动效设计师分享了一些它们引以为傲的产品特性。</span>

@@ -53,7 +53,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.388888889%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="baseline-grids-figure-caption-0">
@@ -65,7 +65,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.388888889%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="baseline-grids-figure-caption-1">
@@ -84,7 +84,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 39.0517241379%">
-                          <img alt="" aria-describedby="baseline-grids-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>"/>
+                          <img alt="" aria-describedby="baseline-grids-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_baseline5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="baseline-grids-figure-caption-2">
@@ -113,7 +113,7 @@
               <h1>模板</h1>
               <div class="modulettes">
                 <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile layout template">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">移动端布局模版</div>
                     <span class="subtitle">2.23 MB (.ai) </span>
@@ -123,7 +123,7 @@
               </div>
               <div class="modulettes">
                 <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet layout template">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">平板端布局模版</div>
                     <span class="subtitle">1.39 MB (.ai) </span>
@@ -133,7 +133,7 @@
               </div>
               <div class="modulettes">
                 <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/layout/metrics-keylines/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Layout Template">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>">
+                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">桌面端布局模版</div>
                     <span class="subtitle">89.40 MB (.ai) </span>
@@ -152,7 +152,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-0">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-1">
@@ -190,7 +190,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-2">
@@ -204,7 +204,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-3">
@@ -230,7 +230,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-4" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-4">
@@ -246,7 +246,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-5" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-5" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-5">
@@ -272,7 +272,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-6" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-6" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile14.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-6">
@@ -287,7 +287,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-7" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-7" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_mobile15.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-7">
@@ -313,7 +313,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-8" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet2.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-8" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-8">
@@ -332,7 +332,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-9" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet3.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-9" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-9">
@@ -356,7 +356,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-10" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet5.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-10" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-10">
@@ -377,7 +377,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-11" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet6.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-11" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keyline_tablet6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-11">
@@ -403,7 +403,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 68.9655172414%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-12" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop1.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-12" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-12">
@@ -421,7 +421,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.9444444444%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-13" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop3.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-13" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-13">
@@ -433,7 +433,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.9444444444%">
-                          <img alt="" aria-describedby="keylines-spacing-figure-caption-14" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop4.png'); ?>"/>
+                          <img alt="" aria-describedby="keylines-spacing-figure-caption-14" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_keylines_desktop4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="keylines-spacing-figure-caption-14">
@@ -484,7 +484,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ratio-keylines-figure-caption-0">
@@ -497,7 +497,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ratio-keylines-figure-caption-1">
@@ -512,7 +512,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ratio-keylines-figure-caption-2">
@@ -524,7 +524,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ratio-keylines-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>"/>
+                          <img alt="" aria-describedby="ratio-keylines-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_ratiokeylines4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ratio-keylines-figure-caption-3">
@@ -561,7 +561,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>"/>
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="sizing-by-increments-figure-caption-0">
@@ -571,7 +571,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>"/>
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="sizing-by-increments-figure-caption-1">
@@ -581,7 +581,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>"/>
+                          <img alt="" aria-describedby="sizing-by-increments-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_incremental4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="sizing-by-increments-figure-caption-2">
@@ -616,7 +616,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-0" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-target-size-figure-caption-0">
@@ -628,7 +628,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-1" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-target-size-figure-caption-1">
@@ -641,7 +641,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-2" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-target-size-figure-caption-2">
@@ -651,7 +651,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="touch-target-size-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-target-size-figure-caption-3" src="<?php static_url('../static/media/layout/metrics-keylines/layout_metrics_touchtarget4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-target-size-figure-caption-3">

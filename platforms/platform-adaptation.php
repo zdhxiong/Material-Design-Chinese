@@ -45,7 +45,7 @@
               <figure class="s-tag-media">
                 <div class="media" style="max-width: 2320px">
                   <div class="frame " style="padding-top: 53.4482758621%">
-                    <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png'); ?>"/>
+                    <img alt="" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_intro.png'); ?>" loading="lazy"/>
                   </div>
                 </div>
               </figure>
@@ -75,7 +75,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-0" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-0" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-0">
@@ -88,7 +88,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-1" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-1" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-1">
@@ -104,7 +104,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-2" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-2" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-2">
@@ -117,7 +117,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-3" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-3" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_toolbar_4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-3">
@@ -138,7 +138,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-4" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-4" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-4">
@@ -151,7 +151,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-5" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-5" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-5">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-6" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-6" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-6">
@@ -180,7 +180,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 71.1111111111%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-7" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-7" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_iconography_4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-7">
@@ -201,7 +201,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-8" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-8" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-8">
@@ -214,7 +214,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-9" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-9" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-9">
@@ -231,7 +231,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-10" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-10" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_control_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-10">
@@ -292,7 +292,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-13" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-13" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-13">
@@ -306,7 +306,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-14" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-14" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_gestures_4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-14">
@@ -329,7 +329,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-15" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-15" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-15">
@@ -342,7 +342,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-16" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-16" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-16">
@@ -358,7 +358,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="platform-recommendations-figure-caption-17" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png'); ?>"/>
+                          <img alt="" aria-describedby="platform-recommendations-figure-caption-17" src="<?php static_url('../static/media/platforms/platform-adaptation/material_design.platform_adaptation_typography_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="platform-recommendations-figure-caption-17">

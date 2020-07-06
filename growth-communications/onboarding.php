@@ -107,7 +107,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2321px">
                         <div class="frame " style="padding-top: 54.3300301594%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/edu-timeline_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="onboarding-models-figure-caption-0">
@@ -124,7 +124,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroSelfSelect.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="onboarding-models-figure-caption-1">
@@ -137,7 +137,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/ext_patterns_usereducation_01_IntroNoWW.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="onboarding-models-figure-caption-2">
@@ -150,7 +150,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="onboarding-models-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>"/>
+                          <img alt="" aria-describedby="onboarding-models-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_01_IntroTopUserBenefit.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="onboarding-models-figure-caption-3">
@@ -268,7 +268,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSSignIn.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-0">
@@ -280,7 +280,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-1">
@@ -308,7 +308,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDo.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-2">
@@ -321,7 +321,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSMeaningfulDont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-3">
@@ -340,7 +340,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-4">
@@ -353,7 +353,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-5">
@@ -373,7 +373,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSAskDo.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-6">
@@ -386,7 +386,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1080px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="self-select-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SSShortDont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-7">
@@ -407,7 +407,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-8">
@@ -419,7 +419,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-9">
@@ -431,7 +431,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 136.740331492%">
-                          <img alt="" aria-describedby="self-select-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png'); ?>"/>
+                          <img alt="" aria-describedby="self-select-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_04_SS_Design_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="self-select-figure-caption-10">
@@ -474,7 +474,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-0" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-0">
@@ -487,7 +487,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-1" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-1">
@@ -506,7 +506,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-2">
@@ -519,7 +519,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_Offer_dont2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-3">
@@ -538,7 +538,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDo2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-4">
@@ -551,7 +551,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="quickstart-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>"/>
+                          <img alt="" aria-describedby="quickstart-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_06_SomethingToDoDont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="quickstart-figure-caption-5">
@@ -649,7 +649,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 56.689453125%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-2" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_visual_continuity.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-2">
@@ -670,7 +670,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-5.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-3" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-3">
@@ -683,7 +683,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-4" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-4">
@@ -703,7 +703,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 177.56232687%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-7.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-5" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-5">
@@ -716,7 +716,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-3.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-6" src="<?php static_url('../static/media/growth-communications/onboarding/Best-Practices-3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-6">
@@ -739,7 +739,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-7" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobilePortrait.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-7">
@@ -751,7 +751,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1140px">
                         <div class="frame " style="padding-top: 133.333333333%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-8" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletPortrait.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-8">
@@ -771,7 +771,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1280px">
                         <div class="frame " style="padding-top: 56.25%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-9" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignMobileLandscape.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-9">
@@ -783,7 +783,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-10" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignTabletLandscape.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-10">
@@ -803,7 +803,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1920px">
                         <div class="frame " style="padding-top: 56.25%">
-                          <img alt="" aria-describedby="top-user-benefits-figure-caption-11" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>"/>
+                          <img alt="" aria-describedby="top-user-benefits-figure-caption-11" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_DesignDesktop.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="top-user-benefits-figure-caption-11">
@@ -832,7 +832,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 64.0883977901%">
-                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlinePortrait.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlinePortrait.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -857,7 +857,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 64.0883977901%">
-                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineLandscape.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineLandscape.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -871,7 +871,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1161px">
                         <div class="frame " style="padding-top: 73.0404823428%">
-                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineDesktop_s.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/growth-communications/onboarding/patterns_usereducation_03_RedlineDesktop_s.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

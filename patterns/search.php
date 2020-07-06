@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/search/patterns_search.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -88,7 +88,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-0" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-0" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-0">
@@ -100,7 +100,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-1" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-1" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-1">
@@ -122,7 +122,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-2" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-2" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-2">
@@ -134,7 +134,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-3" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-3" src="<?php static_url('../static/media/patterns/search/patterns_search_persistent4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-3">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-4" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-4" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-4">
@@ -171,7 +171,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-5" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-5" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-5">
@@ -193,7 +193,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-6" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-6" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-6">
@@ -205,7 +205,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="in-app-search-figure-caption-7" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>"/>
+                          <img alt="" aria-describedby="in-app-search-figure-caption-7" src="<?php static_url('../static/media/patterns/search/patterns_search_expandable4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="in-app-search-figure-caption-7">

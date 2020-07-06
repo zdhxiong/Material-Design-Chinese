@@ -32,7 +32,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame" style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottom_sheets.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/bottom-sheets/components_bottom_sheets.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -95,7 +95,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -107,7 +107,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_usage1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -146,7 +146,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 149.166666667%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-0">
@@ -162,7 +162,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-1">
@@ -174,7 +174,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-2">
@@ -194,7 +194,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-3">
@@ -204,7 +204,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-4">
@@ -221,7 +221,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 64.4736842105%">
-                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png'); ?>"/>
+                          <img alt="" aria-describedby="persistent-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_persistent9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="persistent-bottom-sheets-figure-caption-5">
@@ -255,7 +255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 149.166666667%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal1.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-0">
@@ -267,7 +267,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 149.166666667%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal2.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-1">
@@ -292,7 +292,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 149.166666667%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal3.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-2">
@@ -304,7 +304,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 148.888888889%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal4.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-3">
@@ -322,7 +322,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 148.888888889%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal7.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-4">
@@ -338,7 +338,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 52.6315789474%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal6.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-5">
@@ -362,7 +362,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-6">
@@ -375,7 +375,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-7">
@@ -394,7 +394,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal9.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-8">
@@ -405,7 +405,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal11.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-9">
@@ -418,7 +418,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal10.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-10">
@@ -429,7 +429,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-11" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal12.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-11" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-11">
@@ -482,7 +482,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 82.1052631579%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-12" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal15.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-12" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal15.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-12">
@@ -499,7 +499,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-13" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal13.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-13" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-13">
@@ -509,7 +509,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-14" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal14.png'); ?>"/>
+                          <img alt="" aria-describedby="modal-bottom-sheets-figure-caption-14" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_modal14.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="modal-bottom-sheets-figure-caption-14">
@@ -544,7 +544,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 97.2222222222%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -556,7 +556,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 97.2222222222%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
@@ -566,7 +566,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 97.5%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_behavior3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -620,7 +620,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -632,7 +632,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs2.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -657,7 +657,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs3.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">
@@ -669,7 +669,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs4.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">
@@ -693,7 +693,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs7.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-4">
@@ -705,7 +705,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs8.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-5">
@@ -729,7 +729,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs12.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-6">
@@ -741,7 +741,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 110.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs13.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-7">
@@ -759,7 +759,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs9.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-8">
@@ -771,7 +771,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 83.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs10.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-9">
@@ -823,7 +823,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 66.724137931%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs11.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/bottom-sheets/components_bottomsheets_specs11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-10">

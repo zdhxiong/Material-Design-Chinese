@@ -30,7 +30,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/progress-activity/components_progress_and_activity.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/progress-activity/components_progress_and_activity.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>

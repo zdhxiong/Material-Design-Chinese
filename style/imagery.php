@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -13,7 +13,7 @@
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2320px">
               <div class="frame " style="padding-top: 56.8965517241%">
-                <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>"/>
+                <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>" loading="lazy"/>
               </div>
             </div>
           </figure>
@@ -41,7 +41,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -85,7 +85,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>"/>
+                          <img alt="" aria-describedby="principles-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-0">
@@ -98,7 +98,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>"/>
+                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-1">
@@ -111,7 +111,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>"/>
+                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-2">
@@ -132,7 +132,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style-imagery-principles4.png'); ?>"/>
+                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style-imagery-principles4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-3">
@@ -152,7 +152,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="principles-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>"/>
+                          <img alt="" aria-describedby="principles-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-4">
@@ -187,7 +187,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums1.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-0">
@@ -200,7 +200,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums2.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-1">
@@ -222,7 +222,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock1.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-2">
@@ -235,7 +235,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock2.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-3">
@@ -251,7 +251,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock3.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-4">
@@ -264,7 +264,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock4.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-5">
@@ -285,7 +285,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus1.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-6">
@@ -298,7 +298,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus2.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-7">
@@ -314,7 +314,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus3.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-8">
@@ -327,7 +327,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus4.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-9">
@@ -343,7 +343,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus5.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-10">
@@ -356,7 +356,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus6.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-11">
@@ -377,7 +377,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative1.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-12">
@@ -390,7 +390,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative2.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-13">
@@ -406,7 +406,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative3.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-14">
@@ -419,7 +419,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative4.png'); ?>"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-15">
@@ -455,7 +455,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-0">
@@ -468,7 +468,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-1">
@@ -489,7 +489,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-2">
@@ -501,7 +501,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-3">
@@ -521,7 +521,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-4">
@@ -544,7 +544,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-5">
@@ -556,7 +556,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-6">
@@ -571,7 +571,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-7">
@@ -584,7 +584,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-8">
@@ -600,7 +600,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text3.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-9">
@@ -613,7 +613,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text4.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-10">
@@ -629,7 +629,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text5.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-11">
@@ -642,7 +642,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text6.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-12">
@@ -665,7 +665,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-13">
@@ -677,7 +677,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-14">
@@ -697,7 +697,7 @@
                     </p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://developer.android.com/training/material/drawables.html#ColorExtract" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">从图片中提取主色</div>
                         </div>
@@ -709,7 +709,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-15">
@@ -722,7 +722,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-16" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-16" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-16">
@@ -743,7 +743,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-17" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-17" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-17">
@@ -755,7 +755,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-18" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-18" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-18">

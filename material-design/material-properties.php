@@ -33,7 +33,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/material-design/material-properties/what_is_material_material_properties.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/material-design/material-properties/what_is_material_material_properties.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -78,7 +78,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-0" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-0" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-0">
@@ -91,7 +91,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-1" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-1" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-1">
@@ -205,7 +205,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-6" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical3.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-6" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-6">
@@ -218,7 +218,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-7" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical4.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-7" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-7">
@@ -236,7 +236,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-8" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical5.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-8" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-8">
@@ -249,7 +249,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="physical-properties-figure-caption-9" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical6.png'); ?>"/>
+                          <img alt="" aria-describedby="physical-properties-figure-caption-9" src="<?php static_url('../static/media/material-design/material-properties/whatismaterial_properties_physical6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="physical-properties-figure-caption-9">

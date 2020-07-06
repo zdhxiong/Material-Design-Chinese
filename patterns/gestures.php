@@ -35,7 +35,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns_gestures.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/gestures/patterns_gestures.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -86,7 +86,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-0" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-0" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-touch_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-0">
@@ -100,7 +100,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-double-touch_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-1">
@@ -114,7 +114,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-swipe_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-2">
@@ -130,7 +130,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-3">
@@ -145,7 +145,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-long-press-drag_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-4">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-5">
@@ -175,7 +175,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-open_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-6">
@@ -189,7 +189,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-pinch-closed_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-7">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-8">
@@ -219,7 +219,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-9">
@@ -233,7 +233,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-10" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-10" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-10">
@@ -247,7 +247,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-11" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-11" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-11">
@@ -265,7 +265,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-12" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-12" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-12">
@@ -279,7 +279,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="touch-mechanics-figure-caption-13" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="touch-mechanics-figure-caption-13" src="<?php static_url('../static/media/patterns/gestures/patterns-gestures-gestures-rotate_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="touch-mechanics-figure-caption-13">
@@ -466,7 +466,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-0" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-0" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-0">
@@ -485,7 +485,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-1" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-02_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-1">
@@ -510,7 +510,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 151.111111111%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-2" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-03_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-2">
@@ -531,7 +531,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-3" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-04_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-3">
@@ -550,7 +550,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-4" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-05_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-4">
@@ -571,7 +571,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-5" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-06_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-5">
@@ -594,7 +594,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-6" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-07_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-6">
@@ -614,7 +614,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-7" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-08_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-7">
@@ -635,7 +635,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-8" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-09_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-8">
@@ -656,7 +656,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="drag-swipe-or-fling-details-figure-caption-9" src="<?php static_url('../static/media/patterns/gestures/Patterns-Gestures-TouchActivities-10_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="drag-swipe-or-fling-details-figure-caption-9">

@@ -13,7 +13,7 @@
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2320px">
               <div class="frame " style="padding-top: 53.7931034483%">
-                <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_introduction.png'); ?>"/>
+                <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_introduction.png'); ?>" loading="lazy"/>
               </div>
             </div>
           </figure>
@@ -56,7 +56,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_language.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_language.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -70,7 +70,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_system.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_goals_system.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -98,7 +98,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_metaphor.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_metaphor.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -111,7 +111,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_bold.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_bold.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -123,7 +123,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_motion.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/material-design/introduction/materialdesign_principles_motion.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

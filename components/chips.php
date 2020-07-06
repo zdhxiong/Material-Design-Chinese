@@ -32,7 +32,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 55.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -100,7 +100,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 55.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -174,7 +174,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-0">
@@ -186,7 +186,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-1">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 145.526315789%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-2">
@@ -236,7 +236,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 37.7777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -255,7 +255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 37.7777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -293,7 +293,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">
@@ -308,7 +308,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">

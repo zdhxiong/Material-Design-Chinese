@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -39,7 +39,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns-notifications.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns-notifications.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -108,7 +108,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-states.png'); ?>"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-states.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-0">
@@ -137,7 +137,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.3684210526%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-header.png'); ?>"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-header.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-1">
@@ -158,7 +158,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.3684210526%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-02-content.png'); ?>"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-02-content.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-2">
@@ -177,7 +177,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.6842105263%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-03-action-area.png'); ?>"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-03-action-area.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-3">
@@ -220,7 +220,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-01-donta.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-01-donta.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -236,7 +236,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-02-dontb.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-02-dontb.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -257,7 +257,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-foreground.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-foreground.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -350,7 +350,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-03-drawer.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-03-drawer.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -469,7 +469,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 57.8947368421%">
-                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-1.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-6">
@@ -494,7 +494,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-2.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-7">
@@ -514,7 +514,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-8">
@@ -533,7 +533,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-13-action-dont.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-13-action-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-9">
@@ -549,7 +549,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-14-action-do.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-14-action-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-10">
@@ -706,7 +706,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="types-of-notifications-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-optin.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-optin.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-notifications-figure-caption-0">
@@ -724,7 +724,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 59.0789473684%">
-                          <img alt="" aria-describedby="types-of-notifications-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-04-optout.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-04-optout.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-notifications-figure-caption-1">
@@ -760,7 +760,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="settings-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-settings-01-channels.png'); ?>"/>
+                          <img alt="" aria-describedby="settings-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-settings-01-channels.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="settings-figure-caption-0">
@@ -853,8 +853,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 86.8421052632%">
-                          <img alt="" aria-describedby="settings-figure-caption-1"
-                               src="<?php static_url('../static/media/patterns/notifications/notifications-settings-03b-applink.png'); ?>">
+                          <img alt="" aria-describedby="settings-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-settings-03b-applink.png'); ?>" loading="lazy">
                           </img></div>
                       </div>
                       <figcaption id="settings-figure-caption-1"><p></p>
@@ -1007,7 +1006,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 736px">
                         <div class="frame " style="padding-top: 174.048913043%">
-                          <img alt="" aria-describedby="lock-screen-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-04-lockscreen1.png'); ?>"/>
+                          <img alt="" aria-describedby="lock-screen-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-04-lockscreen1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="lock-screen-figure-caption-0">
@@ -1019,7 +1018,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 736px">
                         <div class="frame " style="padding-top: 174.048913043%">
-                          <img alt="" aria-describedby="lock-screen-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-05-lockscreen2.png'); ?>"/>
+                          <img alt="" aria-describedby="lock-screen-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-05-lockscreen2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="lock-screen-figure-caption-1">
@@ -1060,7 +1059,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-09-title-dont.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-09-title-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-0">
@@ -1082,7 +1081,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-10-title-do.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-10-title-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-1">
@@ -1109,7 +1108,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-11-large-icon-dont.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-11-large-icon-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-2">
@@ -1125,7 +1124,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-12-large-icon-do.png'); ?>"/>
+                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-12-large-icon-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-3">
@@ -1162,7 +1161,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-01-standard.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-01-standard.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-0">
@@ -1180,7 +1179,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.2631578947%">
-                          <img alt="" aria-describedby="templates-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-02-big-text.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-02-big-text.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-1">
@@ -1198,7 +1197,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 82.6315789474%">
-                          <img alt="" aria-describedby="templates-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-03-big-picture.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-03-big-picture.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-2">
@@ -1216,7 +1215,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-04-progress.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-04-progress.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-3">
@@ -1238,7 +1237,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 57.6315789474%">
-                          <img alt="" aria-describedby="templates-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-05-media.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-05-media.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-4">
@@ -1256,7 +1255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-5" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-06-messaging.png'); ?>"/>
+                          <img alt="" aria-describedby="templates-figure-caption-5" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-06-messaging.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-5">

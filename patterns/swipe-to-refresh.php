@@ -36,7 +36,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipe_to_refresh.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -86,7 +86,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container android" href="https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">滑动刷新布局</div>
                           </div>
@@ -127,7 +127,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -140,7 +140,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -156,7 +156,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_dont3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
@@ -194,7 +194,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="positioning-figure-caption-0" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png'); ?>"/>
+                          <img alt="" aria-describedby="positioning-figure-caption-0" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="positioning-figure-caption-0">
@@ -206,7 +206,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="positioning-figure-caption-1" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png'); ?>"/>
+                          <img alt="" aria-describedby="positioning-figure-caption-1" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="positioning-figure-caption-1">
@@ -223,7 +223,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="positioning-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png'); ?>"/>
+                          <img alt="" aria-describedby="positioning-figure-caption-2" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="positioning-figure-caption-2">
@@ -244,7 +244,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="positioning-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png'); ?>"/>
+                          <img alt="" aria-describedby="positioning-figure-caption-3" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="positioning-figure-caption-3">
@@ -256,7 +256,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="positioning-figure-caption-4" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png'); ?>"/>
+                          <img alt="" aria-describedby="positioning-figure-caption-4" src="<?php static_url('../static/media/patterns/swipe-to-refresh/patterns_swipetorefresh_position5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="positioning-figure-caption-4">

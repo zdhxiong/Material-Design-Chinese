@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt=""  src="<?php static_url('../static/media/components/subheaders/components_subheaders.png'); ?>"/>
+                      <img alt=""  src="<?php static_url('../static/media/components/subheaders/components_subheaders.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -80,7 +80,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 80.0%">
-                          <img alt="" aria-describedby="list-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders1.png'); ?>"/>
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="list-subheaders-figure-caption-0">
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="list-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders2.png'); ?>"/>
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="list-subheaders-figure-caption-1">
@@ -113,7 +113,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 80.0%">
-                          <img alt="" aria-describedby="list-subheaders-figure-caption-2" src="<?php static_url('../static/media/components/subheaders/components_subheaders3.png'); ?>"/>
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-2" src="<?php static_url('../static/media/components/subheaders/components_subheaders3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="list-subheaders-figure-caption-2">
@@ -127,7 +127,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="list-subheaders-figure-caption-3" src="<?php static_url('../static/media/components/subheaders/components_subheaders4.png'); ?>"/>
+                          <img alt="" aria-describedby="list-subheaders-figure-caption-3" src="<?php static_url('../static/media/components/subheaders/components_subheaders4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="list-subheaders-figure-caption-3">
@@ -162,7 +162,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="grid-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders5.png'); ?>"/>
+                          <img alt="" aria-describedby="grid-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="grid-subheaders-figure-caption-0">
@@ -174,7 +174,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="grid-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders6.png'); ?>"/>
+                          <img alt="" aria-describedby="grid-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="grid-subheaders-figure-caption-1">
@@ -210,7 +210,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 57.7777777778%">
-                          <img alt="" aria-describedby="menu-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders7.png'); ?>"/>
+                          <img alt="" aria-describedby="menu-subheaders-figure-caption-0" src="<?php static_url('../static/media/components/subheaders/components_subheaders7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="menu-subheaders-figure-caption-0">
@@ -224,7 +224,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="menu-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders8.png'); ?>"/>
+                          <img alt="" aria-describedby="menu-subheaders-figure-caption-1" src="<?php static_url('../static/media/components/subheaders/components_subheaders8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="menu-subheaders-figure-caption-1">

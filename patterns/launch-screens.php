@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -25,7 +25,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns_launch_screens.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns_launch_screens.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -74,7 +74,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-launch-screens-figure-caption-0">
@@ -86,7 +86,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>"/>
+                          <img alt="" aria-describedby="types-of-launch-screens-figure-caption-1" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-03.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-launch-screens-figure-caption-1">
@@ -122,7 +122,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placeholder-ui-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>"/>
+                          <img alt="" aria-describedby="placeholder-ui-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patters-launch-screens-03.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placeholder-ui-figure-caption-0">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="branded-launch-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>"/>
+                          <img alt="" aria-describedby="branded-launch-figure-caption-0" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="branded-launch-figure-caption-0">
@@ -171,7 +171,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-02.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -185,7 +185,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-04.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-04.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -199,7 +199,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.0%">
-                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-05.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/patterns/launch-screens/patterns-launch-screens-05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

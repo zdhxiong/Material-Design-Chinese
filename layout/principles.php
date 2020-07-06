@@ -52,7 +52,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="how-paper-works-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper1.png'); ?>"/>
+                          <img alt="" aria-describedby="how-paper-works-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="how-paper-works-figure-caption-0">
@@ -72,7 +72,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="how-paper-works-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper2.png'); ?>"/>
+                          <img alt="" aria-describedby="how-paper-works-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_paper2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="how-paper-works-figure-caption-1">
@@ -109,7 +109,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 1520px">
                           <div class="frame" style="padding-top: 47.3684210526%">
-                            <img alt="" aria-describedby="floating-action-button-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions1.png'); ?>"/>
+                            <img alt="" aria-describedby="floating-action-button-figure-caption-0" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions1.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="floating-action-button-figure-caption-0"><br>
@@ -132,7 +132,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 1520px">
                           <div class="frame " style="padding-top: 47.3684210526%">
-                            <img alt="" aria-describedby="floating-action-button-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions2.png'); ?>"/>
+                            <img alt="" aria-describedby="floating-action-button-figure-caption-1" src="<?php static_url('../static/media/layout/principles/layout_principles_papercraft_actions2.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="floating-action-button-figure-caption-1"><br>

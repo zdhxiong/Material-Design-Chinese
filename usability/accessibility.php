@@ -62,7 +62,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -79,7 +79,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -95,7 +95,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>"/>
+                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -139,7 +139,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.1111111111%">
-                          <img alt="" aria-describedby="color-contrast-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>"/>
+                          <img alt="" aria-describedby="color-contrast-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-0">
@@ -152,7 +152,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.1111111111%">
-                          <img alt="" aria-describedby="color-contrast-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>"/>
+                          <img alt="" aria-describedby="color-contrast-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-1">
@@ -170,7 +170,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.2777777778%">
-                          <img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>"/>
+                          <img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-2">
@@ -183,7 +183,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.2777777778%">
-                          <img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>"/>
+                          <img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-3">
@@ -204,7 +204,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>"/>
+                          <img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-4">
@@ -217,7 +217,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>"/>
+                          <img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-5">
@@ -239,7 +239,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 51.1111111111%">
-                          <img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>"/>
+                          <img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-6">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 51.1111111111%">
-                          <img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-7" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>"/>
+                          <img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-7" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-7">
@@ -289,7 +289,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>"/>
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                     <div class="info">
                       <div class="title">标记用户界面元素</div>
                     </div>
@@ -313,7 +313,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container default" href="https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index=..%2F..%2Findex#6" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>">
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">自动朗读文本</div>
                     </div>
@@ -352,7 +352,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Touch target specs" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>"/>
+                          <img alt="Touch target specs" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-0">
@@ -366,7 +366,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Examples" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>"/>
+                          <img alt="Examples" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-1">
@@ -381,7 +381,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Touch target height" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>"/>
+                          <img alt="Touch target height" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-2">
@@ -394,7 +394,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Examples" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>"/>
+                          <img alt="Examples" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-3">
@@ -412,7 +412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Correct slider value example" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>"/>
+                          <img alt="Correct slider value example" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-4">
@@ -426,7 +426,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Incorrect slider value" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>"/>
+                          <img alt="Incorrect slider value" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-5">
@@ -461,7 +461,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#focus-nav" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>"/>
+                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                     <div class="info">
                       <div class="title">启用焦点导航</div>
                     </div>
@@ -491,7 +491,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>"/>
+                          <img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-0">
@@ -502,7 +502,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>"/>
+                          <img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-1">
@@ -532,7 +532,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1522px">
                         <div class="frame " style="padding-top: 103.810775296%">
-                          <img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>"/>
+                          <img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-2">
@@ -567,7 +567,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>"/>
+                          <img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-0">
@@ -580,7 +580,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>"/>
+                          <img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-1">
@@ -604,7 +604,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Example of scalable text" aria-describedby="implementation-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>"/>
+                          <img alt="Example of scalable text" aria-describedby="implementation-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-2">
@@ -615,7 +615,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>"/>
+                          <img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-3">
@@ -633,7 +633,7 @@
                     <p>屏幕阅读器用户需要知道屏幕中哪些元素是可以点击的。要使屏幕阅读器大声朗读出组件的名称，请向组件（如按钮、图标、仅含图标不含可见文本的 Tab 选项卡）添加 <strong>contentDescription</strong> 属性。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="http://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">标签化 UI 元素</div>
                         </div>
@@ -645,7 +645,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="implementation-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-4">
@@ -658,7 +658,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="implementation-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-5">
@@ -693,7 +693,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="implementation-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-6">
@@ -777,7 +777,7 @@
                     <p>在 Android，将控件的 AccessibilityNodeInfo 类名字段设置为 “android.widget.Button”。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">构建无障碍的自定义视图</div>
                         </div>
@@ -820,7 +820,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Action verb example" aria-describedby="writing-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>"/>
+                          <img alt="Action verb example" aria-describedby="writing-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-0">
@@ -833,7 +833,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>"/>
+                          <img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-1">
@@ -849,7 +849,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>"/>
+                          <img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-2">
@@ -862,7 +862,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>"/>
+                          <img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-3">
@@ -896,7 +896,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Correct example of a command." aria-describedby="writing-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>"/>
+                          <img alt="Correct example of a command." aria-describedby="writing-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-4">
@@ -909,7 +909,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>"/>
+                          <img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-5">
@@ -927,7 +927,7 @@
               <p>提示语音为不明确的操作提供额外的信息。例如，Android 的 “双击以选择” 功能提示用户在选择一个项目时需要点击两次。Android 的 TalkBack 也会提醒和元素相关联的任何自定义操作。谨慎使用提示语音，确保只在复杂的 UI 上使用提示语音。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html#addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>">
+                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">Android 自定义操作</div>
                   </div>

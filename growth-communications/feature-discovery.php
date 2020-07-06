@@ -71,7 +71,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-patterns-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
+                          <img alt="" aria-describedby="design-patterns-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-patterns-figure-caption-1">
@@ -288,7 +288,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-figure-caption-0" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-0" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-0">
@@ -310,7 +310,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-1">
@@ -325,7 +325,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-2">
@@ -352,7 +352,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-3" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-3" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-3">
@@ -369,7 +369,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-4" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-4" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-4">
@@ -386,7 +386,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-5" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-5" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-5">
@@ -412,7 +412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 177.56232687%">
-                          <img alt="" aria-describedby="design-figure-caption-6" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-6" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-6">
@@ -424,7 +424,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 177.348066298%">
-                          <img alt="" aria-describedby="design-figure-caption-7" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-7" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-7">
@@ -587,7 +587,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-figure-caption-14" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>"/>
+                          <img alt="" aria-describedby="design-figure-caption-14" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-14">

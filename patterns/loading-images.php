@@ -5,7 +5,7 @@
 
     <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
-    
+
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
@@ -28,7 +28,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>"/>
+                      <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-      
+
       <nav class="chapter-toc">
         <h1>目录</h1>
         <ul>
@@ -74,7 +74,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 48.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 166.666666667%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -106,7 +106,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 166.666666667%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 90.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -179,7 +179,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 90.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
