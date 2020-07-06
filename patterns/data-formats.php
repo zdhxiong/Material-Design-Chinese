@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -308,7 +308,7 @@
                     <div class="text-box">
                       <p>SSN • • • 5678</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -323,7 +323,7 @@
                     <div class="text-box">
                       <p>Visa • • • • 1234</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>用于信用卡号的椭圆符号</p>
                     </figcaption>
@@ -339,7 +339,7 @@
                   </div>
                   <div class="module">
                     <div class="text-box"><p>PayPal krestovozdvizhensky@goog…</p></div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>用三个底线椭圆缩减了邮件地址。</p>
                     </figcaption>

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -46,7 +46,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/style/typography/style_typography.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/style/typography/style_typography.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -124,7 +124,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 109.473684211%">
-                          <img alt="" aria-describedby="typeface-figure-caption-0" src="<?php static_url('../static/media/style/typography/style_typography_roboto1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-0" src="<?= static_url('../static/media/style/typography/style_typography_roboto1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-0">
@@ -139,7 +139,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="typeface-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_roboto2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-1" src="<?= static_url('../static/media/style/typography/style_typography_roboto2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-1">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="typeface-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_weights1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-2" src="<?= static_url('../static/media/style/typography/style_typography_weights1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-2">
@@ -179,7 +179,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 73.6842105263%">
-                          <img alt="" aria-describedby="typeface-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_noto1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-3" src="<?= static_url('../static/media/style/typography/style_typography_noto1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-3">
@@ -194,7 +194,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 87.8947368421%">
-                          <img alt="" aria-describedby="typeface-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_noto2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-4" src="<?= static_url('../static/media/style/typography/style_typography_noto2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-4">
@@ -214,7 +214,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="typeface-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_weight1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-5" src="<?= static_url('../static/media/style/typography/style_typography_weight1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-5">
@@ -231,7 +231,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.4736842105%">
-                          <img alt="" aria-describedby="typeface-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_weight2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="typeface-figure-caption-6" src="<?= static_url('../static/media/style/typography/style_typography_weight2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="typeface-figure-caption-6">
@@ -244,7 +244,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container default" href="https://www.google.com/fonts" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
                     <div class="info">
                       <div class="title">Google 字体库</div>
                     </div>
@@ -289,7 +289,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 74.7368421053%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_scale.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_scale.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -303,7 +303,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-0" src="<?php static_url('../static/media/style/typography/style_typography_styles_01_display1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-0" src="<?= static_url('../static/media/style/typography/style_typography_styles_01_display1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-0">
@@ -315,7 +315,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_02_display2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_02_display2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -327,7 +327,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_03_headline1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-1" src="<?= static_url('../static/media/style/typography/style_typography_styles_03_headline1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-1">
@@ -339,7 +339,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_04_headline2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_04_headline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -353,7 +353,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_05_title1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-2" src="<?= static_url('../static/media/style/typography/style_typography_styles_05_title1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-2">
@@ -365,7 +365,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_06_title2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_06_title2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -379,7 +379,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_styles_07_subhead1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-3" src="<?= static_url('../static/media/style/typography/style_typography_styles_07_subhead1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-3">
@@ -391,7 +391,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_08_subhead2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_08_subhead2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -403,7 +403,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_styles_09_body-1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-4" src="<?= static_url('../static/media/style/typography/style_typography_styles_09_body-1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-4">
@@ -415,7 +415,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_10_body2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_10_body2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -427,7 +427,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_styles_11_body3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-5" src="<?= static_url('../static/media/style/typography/style_typography_styles_11_body3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-5">
@@ -439,7 +439,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_12_body4.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_12_body4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -453,7 +453,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_styles_13_button1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-6" src="<?= static_url('../static/media/style/typography/style_typography_styles_13_button1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-6">
@@ -465,7 +465,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_14_button2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_14_button2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -484,7 +484,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 74.6052631579%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style1.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_style1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -496,7 +496,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.4210526316%">
-                          <img alt="" aria-describedby="styles-figure-caption-7" src="<?php static_url('../static/media/style/typography/style_typography_style2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-7" src="<?= static_url('../static/media/style/typography/style_typography_style2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-7">
@@ -513,7 +513,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-8" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-8" src="<?= static_url('../static/media/style/typography/style_typography_example_japanese1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-8">
@@ -525,7 +525,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-9" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-9" src="<?= static_url('../static/media/style/typography/style_typography_example_japanese2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-9">
@@ -540,7 +540,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-10" src="<?php static_url('../static/media/style/typography/style_typography_example_japanese3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-10" src="<?= static_url('../static/media/style/typography/style_typography_example_japanese3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-10">
@@ -552,7 +552,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-11" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-11" src="<?= static_url('../static/media/style/typography/style_typography_example_chinese1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-11">
@@ -567,7 +567,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-12" src="<?php static_url('../static/media/style/typography/style_typography_example_chinese2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-12" src="<?= static_url('../static/media/style/typography/style_typography_example_chinese2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-12">
@@ -579,7 +579,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-13" src="<?php static_url('../static/media/style/typography/style-typography-example-chinese3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-13" src="<?= static_url('../static/media/style/typography/style-typography-example-chinese3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-13">
@@ -601,7 +601,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.3947368421%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_style3.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_style3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -613,7 +613,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.4210526316%">
-                          <img alt="" aria-describedby="styles-figure-caption-14" src="<?php static_url('../static/media/style/typography/style_typography_style4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-14" src="<?= static_url('../static/media/style/typography/style_typography_style4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-14">
@@ -630,7 +630,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-15" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-15" src="<?= static_url('../static/media/style/typography/style_typography_example_hindi1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-15">
@@ -642,7 +642,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-16" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-16" src="<?= static_url('../static/media/style/typography/style_typography_example_hindi2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-16">
@@ -657,7 +657,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-17" src="<?php static_url('../static/media/style/typography/style_typography_example_hindi3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-17" src="<?= static_url('../static/media/style/typography/style_typography_example_hindi3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-17">
@@ -669,7 +669,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-18" src="<?php static_url('../static/media/style/typography/style_typography_example_thai1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-18" src="<?= static_url('../static/media/style/typography/style_typography_example_thai1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-18">
@@ -684,7 +684,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-19" src="<?php static_url('../static/media/style/typography/style_typography_example_thai2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-19" src="<?= static_url('../static/media/style/typography/style_typography_example_thai2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-19">
@@ -696,7 +696,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="styles-figure-caption-20" src="<?php static_url('../static/media/style/typography/style_typography_example_thai3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="styles-figure-caption-20" src="<?= static_url('../static/media/style/typography/style_typography_example_thai3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="styles-figure-caption-20">
@@ -731,7 +731,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="line-height-figure-caption-0" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-0" src="<?= static_url('../static/media/style/typography/style_typography_styles_lineheight1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-0">
@@ -746,7 +746,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="line-height-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-1" src="<?= static_url('../static/media/style/typography/style_typography_styles_lineheight2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-1">
@@ -761,7 +761,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.3684210526%">
-                          <img alt="" aria-describedby="line-height-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_lineheight3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-2" src="<?= static_url('../static/media/style/typography/style_typography_styles_lineheight3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-2">
@@ -781,7 +781,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 40.0%">
-                          <img alt="" aria-describedby="line-height-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-3" src="<?= static_url('../static/media/style/typography/style_typography_lineheight_tall1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-3">
@@ -791,7 +791,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.4473684211%">
-                          <img alt="" aria-describedby="line-height-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_tall2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-4" src="<?= static_url('../static/media/style/typography/style_typography_lineheight_tall2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-4">
@@ -806,7 +806,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.2368421053%">
-                          <img alt="" aria-describedby="line-height-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_lineheight_dense2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="line-height-figure-caption-5" src="<?= static_url('../static/media/style/typography/style_typography_lineheight_dense2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="line-height-figure-caption-5">
@@ -843,7 +843,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 80.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_contrast.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_contrast.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -857,7 +857,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-0" src="<?php static_url('../static/media/style/typography/style_typography_styles_15_contrast1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-0" src="<?= static_url('../static/media/style/typography/style_typography_styles_15_contrast1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-0">
@@ -869,7 +869,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-1" src="<?php static_url('../static/media/style/typography/style_typography_styles_16_contrast2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-1" src="<?= static_url('../static/media/style/typography/style_typography_styles_16_contrast2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-1">
@@ -886,7 +886,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-2" src="<?php static_url('../static/media/style/typography/style_typography_styles_17_contrast3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-2" src="<?= static_url('../static/media/style/typography/style_typography_styles_17_contrast3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-2">
@@ -898,7 +898,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-3" src="<?php static_url('../static/media/style/typography/style_typography_styles_18_contrast4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-3" src="<?= static_url('../static/media/style/typography/style_typography_styles_18_contrast4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-3">
@@ -920,7 +920,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.111111111%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-4" src="<?php static_url('../static/media/style/typography/style_typography_styles_19_dynamic1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-4" src="<?= static_url('../static/media/style/typography/style_typography_styles_19_dynamic1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-4">
@@ -932,7 +932,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 111.111111111%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_20_dynamic2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_20_dynamic2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -946,7 +946,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-5" src="<?php static_url('../static/media/style/typography/style_typography_styles_21_dynamic3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-5" src="<?= static_url('../static/media/style/typography/style_typography_styles_21_dynamic3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-5">
@@ -958,7 +958,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_22_dynamic4.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_22_dynamic4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -975,11 +975,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 162.222222222%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-6" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-6" src="<?= static_url('../static/media/style/typography/style_typography_styles_linebreaks1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-6">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -987,11 +987,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 163.611111111%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-7" src="<?php static_url('../static/media/style/typography/style_typography_styles_linebreaks2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-7" src="<?= static_url('../static/media/style/typography/style_typography_styles_linebreaks2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-7">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>避免在一行中留出太大的空隙。尽量不要在一行的末尾留下很短的词，如介词。精心考虑的换行可以避免使用连字符。</p>
                       </figcaption>
                     </figure>
@@ -1007,7 +1007,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 74.2105263158%">
-                          <img alt="" src="<?php static_url('../static/media/style/typography/style_typography_styles_tracking.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/typography/style_typography_styles_tracking.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -1029,7 +1029,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 53.6842105263%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-8" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-8" src="<?= static_url('../static/media/style/typography/style_typography_styles_linelengths1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-8">
@@ -1039,7 +1039,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 37.8947368421%">
-                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-9" src="<?php static_url('../static/media/style/typography/style_typography_styles_linelengths2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="other-typographic-guidelines-figure-caption-9" src="<?= static_url('../static/media/style/typography/style_typography_styles_linelengths2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="other-typographic-guidelines-figure-caption-9">

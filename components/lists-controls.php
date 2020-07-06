@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -37,7 +37,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/lists-controls/components_lists_controls.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/lists-controls/components_lists_controls.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 49.7368421053%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_usage.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_usage.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -130,7 +130,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 37.8947368421%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-0" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-0" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_checkbox1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-0">
@@ -149,7 +149,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.0526315789%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-1" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_checkbox2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-1" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_checkbox2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-1">
@@ -169,7 +169,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 37.8947368421%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-2" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_switch.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-2" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_switch.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-2">
@@ -191,7 +191,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 41.0526315789%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-3" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_reorder.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-3" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_reorder.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-3">
@@ -213,7 +213,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-4" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-4" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_expand1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-4">
@@ -225,7 +225,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-5" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-5" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_expand2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-5">
@@ -240,7 +240,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-6" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-6" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_expand3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-6">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-7" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_expand4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-7" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_expand4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-7">
@@ -274,7 +274,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-8" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-8" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_leave1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-8">
@@ -286,7 +286,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-9" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_leave2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-list-controls-figure-caption-9" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_leave2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-list-controls-figure-caption-9">
@@ -323,7 +323,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 37.8947368421%">
-                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-0" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-0" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_menu1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-menu-controls-figure-caption-0">
@@ -343,7 +343,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 37.8947368421%">
-                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-1" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-1" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_menu2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-menu-controls-figure-caption-1">
@@ -363,7 +363,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 33.6842105263%">
-                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-2" src="<?php static_url('../static/media/components/lists-controls/components_listcontrols_menu3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-menu-controls-figure-caption-2" src="<?= static_url('../static/media/components/lists-controls/components_listcontrols_menu3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-menu-controls-figure-caption-2">

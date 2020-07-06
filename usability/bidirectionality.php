@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -98,11 +98,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1440px">
                         <div class="frame " style="padding-top: 29.3055555556%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-0" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-0" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>文本和数字将始终和语言的方向保持一致。</p>
                       </figcaption>
                     </figure>
@@ -111,11 +111,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1440px">
                         <div class="frame " style="padding-top: 29.3055555556%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-1" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_dont-typed.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-1" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring_dont-typed.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>LTR 文本不应以相反的顺序显示。</p>
                       </figcaption>
                     </figure>
@@ -143,7 +143,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-2" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-2" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-2">
@@ -155,7 +155,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-3" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-3" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirror2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-3">
@@ -172,7 +172,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 14.2105263158%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-4" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_LTR.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-4" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_LTR.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-4">
@@ -187,7 +187,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 14.2105263158%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-5" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_RTL.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-5" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__mirror_redlines_RTL.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-5">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-6" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-6" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-6">
@@ -220,7 +220,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-7" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-7" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_tabs_usage_specs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-7">
@@ -240,7 +240,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-8" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-8" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-8">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-9" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-9" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_mirroring5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-9">
@@ -275,7 +275,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-10" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-10" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-10">
@@ -293,7 +293,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-11" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-11" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_overflow_usage_specs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-11">
@@ -315,7 +315,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 720px">
                           <div class="frame " style="padding-top: 64.3055555556%">
-                            <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-12" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_1.png'); ?>" loading="lazy"/>
+                            <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-12" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_1.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="ui-mirroring-overview-figure-caption-12"><br>
@@ -333,7 +333,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 64.3055555556%">
-                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-13" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-mirroring-overview-figure-caption-13" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality__ components_lists_keylines_two_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-mirroring-overview-figure-caption-13">
@@ -367,7 +367,7 @@
               <p>有关 RTL 文本的详细开发指南，详见：</p>
               <div class="modulettes">
                 <a class="modulette container default" href="https://developer.android.com/training/basics/supporting-devices/languages.html" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
+                  <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy"/>
                   <div class="info">
                     <div class="title">支持不同的语言和文化</div>
                     <span class="subtitle">使用 BidiFormatter 实现 RTL</span>
@@ -377,7 +377,7 @@
               <p>有关 RTL 图标的详细开发指南，详见：</p>
               <div class="modulettes">
                 <a class="modulette container default" href="http://google.github.io/material-design-icons/#icons-in-rtl" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
+                  <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">RTL Material Design 图标指南</div>
                       <span class="subtitle">查看如何镜像图标</span>
@@ -387,7 +387,7 @@
               </div>
               <div class="modulettes">
                 <a class="modulette container default" href="https://github.com/devinmancuso/sketch-rtl" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
+                  <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">RTL Sketch 插件</div>
                       <span class="subtitle">把现有的设计和资源文件翻转为 RTL 格式</span>
@@ -405,7 +405,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-0" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-0" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-0">
@@ -417,7 +417,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-1" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-1" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-1">
@@ -432,7 +432,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-2" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-2" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-2">
@@ -444,7 +444,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-3" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-3" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-3">
@@ -461,7 +461,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-4" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-4" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-4">
@@ -473,7 +473,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-5" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-5" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-5">
@@ -490,7 +490,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-6" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when9.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-6" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-6">
@@ -502,7 +502,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-7" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-7" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-7">
@@ -522,7 +522,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-8" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when13.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-8" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-8">
@@ -542,7 +542,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-9" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when14.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-9" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when14.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-9">
@@ -554,7 +554,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-10" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when15.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-10" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_when15.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-10">
@@ -574,7 +574,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-11" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-11" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-11">
@@ -586,7 +586,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-12" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-12" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-12">
@@ -604,7 +604,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-13" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-13" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-13">
@@ -616,7 +616,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-14" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-14" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-14">
@@ -635,7 +635,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-15" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-15" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-15">
@@ -647,7 +647,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-16" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-16" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-16">
@@ -664,11 +664,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-17" src="<?php static_url('../static/media/usability/bidirectionality/usability-bidirectionality-guidelines-when7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-17" src="<?= static_url('../static/media/usability/bidirectionality/usability-bidirectionality-guidelines-when7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-17">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在 LTR 和 RTL 语言中，从左向右的斜线都表示关闭状态</p>
                       </figcaption>
                     </figure>
@@ -677,11 +677,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-18" src="<?php static_url('../static/media/usability/bidirectionality/usability-bidirectionality-guidelines-when8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-18" src="<?= static_url('../static/media/usability/bidirectionality/usability-bidirectionality-guidelines-when8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-18">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>RTL 语言中的关闭状态不用 RTL 的斜线。</p>
                       </figcaption>
                     </figure>
@@ -702,7 +702,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-19" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-19" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-19">
@@ -717,11 +717,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.2105263158%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-20" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-20" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-20">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>媒体播放器的控件始终为 LTR。</p>
                       </figcaption>
                     </figure>
@@ -735,11 +735,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.2105263158%">
-                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-21" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="rtl-mirroring-guidelines-figure-caption-21" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_guidelines_whennot_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="rtl-mirroring-guidelines-figure-caption-21">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要镜像媒体播放器或进度条。这些元素的方向代表的是磁带的方向，不是时间的方向。</p>
                       </figcaption>
                     </figure>
@@ -781,7 +781,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                        <img alt="" aria-describedby="localization-figure-caption-0" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other1.png'); ?>" loading="lazy"/>
+                        <img alt="" aria-describedby="localization-figure-caption-0" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other1.png'); ?>" loading="lazy"/>
                       </div>
                       <figcaption id="localization-figure-caption-0">
                         <p>LTR 的 UI 中包含数字的图标。</p>
@@ -792,7 +792,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="localization-figure-caption-1" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="localization-figure-caption-1" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="localization-figure-caption-1">
@@ -812,7 +812,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 3040px">
                         <div class="frame " style="padding-top: 76.3157894737%">
-                          <img alt="" aria-describedby="localization-figure-caption-2" src="<?php static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="localization-figure-caption-2" src="<?= static_url('../static/media/usability/bidirectionality/usability_bidirectionality_other3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="localization-figure-caption-2">

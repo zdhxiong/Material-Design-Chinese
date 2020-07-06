@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -27,7 +27,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_techniques.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -76,7 +76,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-0" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-bar-scrollable-regions-figure-caption-0">
@@ -88,7 +88,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 77.7777777778%">
-                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-bar-scrollable-regions-figure-caption-1" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_video1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-bar-scrollable-regions-figure-caption-1">
@@ -129,7 +129,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -144,8 +144,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_standard_appbar_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -173,7 +173,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -189,8 +189,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 176.388888889%">
                           <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_tabs_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -217,7 +217,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.1666666667%">
-                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-4" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-4">
@@ -232,8 +232,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques-flexible_space_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -256,7 +256,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-6">
@@ -271,8 +271,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="behavior-figure-caption-7" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_image_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -302,7 +302,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 73.3333333333%">
-                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrolling_scroll6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-8">
@@ -317,8 +317,8 @@
                       <div class="media" style="max-width: 1080px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="behavior-figure-caption-9" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -331,8 +331,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 31.9444444444%">
                           <video aria-describedby="behavior-figure-caption-10" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/scrolling-techniques/patterns_scrollingtechnique_flexibleoverlap.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -32,7 +32,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/fingerprint/patterns_fingerprint.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/fingerprint/patterns_fingerprint.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -99,8 +99,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="enrollment-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_01_fp_enrollment_login_alt_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -115,8 +115,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="enrollment-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_02_fp_enrollment_create_acct_after_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -136,7 +136,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="enrollment-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_03_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="enrollment-figure-caption-2" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_03_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="enrollment-figure-caption-2">
@@ -154,8 +154,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.888888889%">
                           <video aria-describedby="enrollment-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_04_fp_enrollment_app_settings_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -176,8 +176,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="enrollment-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/fingerprint/v_05_fp_auth_purchase_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -220,7 +220,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="authentication-figure-caption-0" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_06-.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="authentication-figure-caption-0" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_06-.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="authentication-figure-caption-0">
@@ -235,7 +235,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="authentication-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_07.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="authentication-figure-caption-1" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_07.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="authentication-figure-caption-1">
@@ -280,7 +280,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_08.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_08.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -309,7 +309,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_09.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_09.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
@@ -337,7 +337,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -395,7 +395,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-0" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-0" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_11_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-0">
@@ -407,7 +407,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_11_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-1" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_11_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-1">
@@ -432,7 +432,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-2" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-2" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_12_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-2">
@@ -447,7 +447,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-3" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_12_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-3" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_12_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-3">
@@ -467,7 +467,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-4" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-4" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_13_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-4">
@@ -484,11 +484,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-5" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-5" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_15_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用带多种颜色的指纹图标。</p>
                       </figcaption>
                     </figure>
@@ -511,7 +511,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-6" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_13_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-6" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_13_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-6">
@@ -543,7 +543,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-7" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-7" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_14_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-7">
@@ -558,7 +558,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-8" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_14_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-8" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_14_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-8">
@@ -576,11 +576,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-9" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_15_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="fingerprint-icon-figure-caption-9" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_15_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="fingerprint-icon-figure-caption-9">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要倾斜或扭曲指纹图标。</p>
                       </figcaption>
                     </figure>
@@ -617,7 +617,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="reauthentication-figure-caption-0" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_16-.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="reauthentication-figure-caption-0" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_16-.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="reauthentication-figure-caption-0">
@@ -635,7 +635,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="reauthentication-figure-caption-1" src="<?php static_url('../static/media/patterns/fingerprint/components_fp_17-.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="reauthentication-figure-caption-1" src="<?= static_url('../static/media/patterns/fingerprint/components_fp_17-.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="reauthentication-figure-caption-1">

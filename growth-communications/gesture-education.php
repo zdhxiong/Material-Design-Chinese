@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -56,8 +56,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-patterns-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -81,8 +81,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-patterns-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -194,8 +194,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-writing-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_partial.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -223,8 +223,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-writing-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/gesture-education/useredu_er_gesture_full.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

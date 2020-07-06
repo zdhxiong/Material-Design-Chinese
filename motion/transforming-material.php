@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -26,7 +26,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 720px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/motion/transforming-material/03-transforming-material.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/motion/transforming-material/03-transforming-material.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -78,8 +78,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
                           <video aria-describedby="rectangular-transformation-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_01_ExpandOffset_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -100,8 +100,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
                           <video aria-describedby="rectangular-transformation-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_02_ExpandRobot_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -124,8 +124,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="rectangular-transformation-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_04_ThumbnailContent_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -140,8 +140,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="rectangular-transformation-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Rect_03_Thumbnail_v6-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -178,14 +178,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_01_RadialExpand_v4-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="radial-transformation-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>径向转换应该用在圆形表面上，用于转换成矩形表面、或者从输入点创建一个新表面。</p>
                       </figcaption>
                     </figure>
@@ -195,14 +195,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_02_DontRadial_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="radial-transformation-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>在两个矩形之间转换时，请不要使用径向转换。</p>
                       </figcaption>
                     </figure>
@@ -215,14 +215,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_03_DontOval_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="radial-transformation-figure-caption-2">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要对圆形的宽度和高度使用异步转换。</p>
                       </figcaption>
                     </figure>
@@ -232,14 +232,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_03_DontShape_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="radial-transformation-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要转换复杂的形状。</p>
                       </figcaption>
                     </figure>
@@ -254,8 +254,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_04_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -270,8 +270,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="radial-transformation-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Radial_05_RadialArc_v5-remapped.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -313,8 +313,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="joining-dividing-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/transforming-material/Join_01_JoinDivide_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

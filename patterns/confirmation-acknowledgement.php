@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -73,7 +73,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="confirmation-figure-caption-0" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="confirmation-figure-caption-0" src="<?= static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="confirmation-figure-caption-0">
@@ -85,7 +85,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="confirmation-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="confirmation-figure-caption-1" src="<?= static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_confirm_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="confirmation-figure-caption-1">
@@ -119,7 +119,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="acknowledgement-figure-caption-0" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="acknowledgement-figure-caption-0" src="<?= static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="acknowledgement-figure-caption-0">
@@ -131,7 +131,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="acknowledgement-figure-caption-1" src="<?php static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="acknowledgement-figure-caption-1" src="<?= static_url('../static/media/patterns/confirmation-acknowledgement/patterns_confirmation-acknowledgement_acknowledgement_2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="acknowledgement-figure-caption-1">

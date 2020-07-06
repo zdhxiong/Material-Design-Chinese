@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -47,7 +47,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="https://developer.android.com/guide/topics/appwidgets/index.html" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">应用小部件</div>
                     </div>
@@ -79,7 +79,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="types-of-widgets-figure-caption-0" src="<?php static_url('../static/media/components/widgets/components_widgets_types_information.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-0" src="<?= static_url('../static/media/components/widgets/components_widgets_types_information.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-widgets-figure-caption-0">
@@ -106,7 +106,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 720px">
                           <div class="frame " style="padding-top: 116.666666667%">
-                            <img alt="" aria-describedby="types-of-widgets-figure-caption-1" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection.png'); ?>" loading="lazy"/>
+                            <img alt="" aria-describedby="types-of-widgets-figure-caption-1" src="<?= static_url('../static/media/components/widgets/components_widgets_types_collection.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="types-of-widgets-figure-caption-1">
@@ -120,7 +120,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 720px">
                           <div class="frame " style="padding-top: 131.111111111%">
-                            <img alt="" src="<?php static_url('../static/media/components/widgets/components_widgets_types_collection_list.png'); ?>" loading="lazy"/>
+                            <img alt="" src="<?= static_url('../static/media/components/widgets/components_widgets_types_collection_list.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                       </figure>
@@ -139,7 +139,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="types-of-widgets-figure-caption-2" src="<?php static_url('../static/media/components/widgets/components_widgets_types_control.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-2" src="<?= static_url('../static/media/components/widgets/components_widgets_types_control.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-widgets-figure-caption-2">
@@ -161,7 +161,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="types-of-widgets-figure-caption-3" src="<?php static_url('../static/media/components/widgets/components_widgets_types_hybrid.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-widgets-figure-caption-3" src="<?= static_url('../static/media/components/widgets/components_widgets_types_hybrid.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-widgets-figure-caption-3">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/widgets/components_widgets_behavior_01.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/components/widgets/components_widgets_behavior_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">

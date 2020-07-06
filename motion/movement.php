@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -27,7 +27,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 720px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/motion/movement/02-movement.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/motion/movement/02-movement.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -74,14 +74,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_01_Upward_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>向斜上方移动时，刚开始坡度较缓，结束时坡度较陡。</p>
                       </figcaption>
                     </figure>
@@ -91,14 +91,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_02_Upward_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>元素向上移动时，不要一开始就使用陡峭的坡度。</p>
                       </figcaption>
                     </figure>
@@ -116,14 +116,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_03_Downward_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当沿着对角线向下移动时，开始的曲线比较陡峭，结束的曲线比较平缓。</p>
                       </figcaption>
                     </figure>
@@ -133,14 +133,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/ShiftWithin_04_Downward_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>元素向下移动时，不要一开始就使用平缓的曲线。</p>
                       </figcaption>
                     </figure>
@@ -158,14 +158,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_01_SingleAxis_Do_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>沿着单个轴移动时使用直线轨迹。</p>
                       </figcaption>
                     </figure>
@@ -175,14 +175,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_02_SingleAxis_Dont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>沿着单个轴移动时使用曲线轨迹会显得很不自然。</p>
                       </figcaption>
                     </figure>
@@ -197,14 +197,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-6" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_03_ShiftInOutArcDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-6">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>直线进入屏幕可以很容易的感知到入口的位置。</p>
                       </figcaption>
                     </figure>
@@ -214,14 +214,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-within-screen-bounds-figure-caption-7" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/NoArc_04_ShiftInOutArcDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-within-screen-bounds-figure-caption-7">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在离开屏幕的运动中使用弧线，这会使入口显得复杂。</p>
                       </figcaption>
                     </figure>
@@ -257,14 +257,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_01_ShiftInOutDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>对进入屏幕，并对周围其他元素的位置没有影响时，应使用减速曲线。在移动端，这个转换通常会持续 225ms。当元素永久离开屏幕时，应使用加速曲线。在移动端，这个转换通常会持续 195ms 以上。</p>
                       </figcaption>
                     </figure>
@@ -274,14 +274,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_02_ShiftInOutDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在这些情况中使用标准曲线。对于入场，缓慢的加速是没有必要的，因为用户的焦点会停在元素最终静止的点。对于出场，缓慢的减速是没有必要的，因为终点是不可见的。</p>
                       </figcaption>
                     </figure>
@@ -297,14 +297,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_03_ShiftOutTempDo_v4-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>元素暂时离开屏幕时应使用夏普曲线，因为元素可能从离开的位置再次返回。当元素返回时，使用减速曲线。在移动端，这个转换通常持续 300ms。</p>
                       </figcaption>
                     </figure>
@@ -314,14 +314,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_04_ShiftOutTempDont_v4-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>元素永久离开屏幕时、或者需要从其他地方返回屏幕时，请使用加速曲线。而当元素返回时，应使用减速曲线。</p>
                       </figcaption>
                     </figure>
@@ -340,14 +340,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_05_ShiftInOutRelativeDo_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当屏幕内的浮动操作按钮被进入屏幕的卡片影响时，标准曲线可以让两个元素保持平滑的开始和结束。在移动端，这个转换通常持续 300ms。</p>
                       </figcaption>
                     </figure>
@@ -357,14 +357,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="movement-in-out-of-screen-bounds-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/movement/InOut_06_ShiftInOutRelativeDont_v3-device.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="movement-in-out-of-screen-bounds-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>在向上和向下移动时，使用加速和减速曲线，会让屏幕内的浮动操作按钮突然向上移动，然后突然停止，然后突然向下移动。这种移动是非常粗糙和带破坏性的。</p>
                       </figcaption>
                     </figure>

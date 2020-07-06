@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -75,7 +75,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 80.2631578947%">
-                          <img alt="" aria-describedby="placement-figure-caption-0" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_01_decisiontree.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-0" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_01_decisiontree.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-0">
@@ -96,7 +96,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 120.0%">
-                          <img alt="" aria-describedby="placement-figure-caption-1" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_02_navdrawer.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-1" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_02_navdrawer.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-1">
@@ -118,11 +118,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placement-figure-caption-2" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_04_overflow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-2" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_04_overflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>弹出菜单中的 “帮助” 和 “发送反馈”</p>
                       </figcaption>
                     </figure>
@@ -141,7 +141,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 18.4210526316%">
-                          <img alt="" aria-describedby="placement-figure-caption-3" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_07_appbar.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-3" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_07_appbar.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-3">
@@ -162,7 +162,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placement-figure-caption-4" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_06_overflow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-4" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_placement_06_overflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-4">
@@ -205,11 +205,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_02_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_02_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>用户选择 “帮助” 后，应该直接进入帮助列表界面。</p>
                       </figcaption>
                     </figure>
@@ -221,11 +221,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_01_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_behavior_01_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>用户选择 “帮助” 后，不要再出现一个界面让用户选择 “帮助” 还是其他选项。</p>
                       </figcaption>
                     </figure>
@@ -312,11 +312,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-0" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_01.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-0" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>帮助图标应该使用标准的材料图标。</p>
                       </figcaption>
                     </figure>
@@ -325,11 +325,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-1" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_02.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-1" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用图标的变体，例如这些加了对话气泡或外圈的图标。</p>
                       </figcaption>
                     </figure>
@@ -343,11 +343,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-2" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_03.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-2" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_03.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>发送反馈图标应该使用标准的材料图标。</p>
                       </figcaption>
                     </figure>
@@ -356,11 +356,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-3" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_04.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-3" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_04.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用图标的变体，例如对话或 bug 图标。</p>
                       </figcaption>
                     </figure>
@@ -374,11 +374,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-4" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_05.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-4" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>帮助提示图标应该使用标准的材料图标。</p>
                       </figcaption>
                     </figure>
@@ -387,11 +387,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="icons-figure-caption-5" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_06.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-figure-caption-5" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_icons_06.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用图标的变体，包括帮助图标、或带对话气泡或外圈的图标。</p>
                       </figcaption>
                     </figure>
@@ -434,7 +434,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 88.4414969209%">
-                          <img alt="" aria-describedby="writing-figure-caption-0" src="<?php static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_writing_01.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="writing-figure-caption-0" src="<?= static_url('../static/media/patterns/help-feedback/patterns_helpfeedback_writing_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-0">

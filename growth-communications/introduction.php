@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -26,7 +26,7 @@
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2322px">
               <div class="frame " style="padding-top: 50.9905254091%">
-                <img alt="" aria-describedby="intro-figure-caption-0" src="<?php static_url('../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png'); ?>" loading="lazy"/>
+                <img alt="" aria-describedby="intro-figure-caption-0" src="<?= static_url('../static/media/growth-communications/introduction/patterns_usereducation_01_TimelineEdu2.png'); ?>" loading="lazy"/>
               </div>
             </div>
             <figcaption id="intro-figure-caption-0">

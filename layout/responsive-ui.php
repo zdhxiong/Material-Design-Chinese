@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -45,7 +45,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">Resizer</div>
                     </div>
@@ -60,7 +60,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptive_breakpoints_01.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptive_breakpoints_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -251,8 +251,8 @@
                       <div class="media" style="max-width: 2320px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 44.1379310345%">
                           <video aria-describedby="grid-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_01_hero.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -276,8 +276,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 67.3684210526%">
                           <video aria-describedby="grid-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_02_margins.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -306,8 +306,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 67.3684210526%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_03_width.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -333,8 +333,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 67.3684210526%">
                           <video aria-describedby="grid-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_04_behaviorPermanent.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -359,8 +359,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 67.3684210526%">
                           <video aria-describedby="grid-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_05_behaviorSqueezePush.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -381,8 +381,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 67.3684210526%">
                           <video aria-describedby="grid-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_grid_06_behaviorOverlay.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -563,7 +563,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-0" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_01_reveal.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-0" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_01_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-0">
@@ -577,7 +577,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_02_reveal.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-1" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_02_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-1">
@@ -591,7 +591,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_03_reveal.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-2" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_03_reveal.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-2">
@@ -609,7 +609,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_04_transform.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-3" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_04_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-3">
@@ -623,7 +623,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_05_transform.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-4" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_05_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-4">
@@ -637,7 +637,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_06_transform.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-5" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_06_transform.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-5">
@@ -655,7 +655,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_07_divide.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-6" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_07_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-6">
@@ -669,7 +669,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_08_divide.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-7" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_08_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-7">
@@ -683,7 +683,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_09_divide.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-8" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_09_divide.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-8">
@@ -702,7 +702,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_10_reflow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-9" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_10_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-9">
@@ -716,7 +716,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_11_reflow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-10" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_11_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-10">
@@ -730,7 +730,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_12_reflow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-11" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_12_reflow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-11">
@@ -748,7 +748,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_13_expand.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-12" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_13_expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-12">
@@ -762,7 +762,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_14_expand.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-13" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_14_expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-13">
@@ -780,7 +780,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_15_position.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-14" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_15_position.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-14">
@@ -794,7 +794,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2320px">
                         <div class="frame " style="padding-top: 44.1379310345%">
-                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?php static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_16_position.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="patterns-figure-caption-15" src="<?= static_url('../static/media/layout/responsive-ui/layout_adaptiveUI_patterns_16_position.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="patterns-figure-caption-15">

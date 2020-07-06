@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -33,7 +33,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_expansion_panels.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/expansion-panels/components_expansion_panels.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -86,7 +86,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.2894736842%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/expansion-panels/components_expansionpanels_usage.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -141,7 +141,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.2368421053%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/components/expansion-panels/components_material_expansionpanels_collapse.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -162,7 +162,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 58.8157894737%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?= static_url('../static/media/components/expansion-panels/components_material_expansionpanels_expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
@@ -183,7 +183,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.2368421053%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?= static_url('../static/media/components/expansion-panels/components_material_expansionpanels_state.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -229,7 +229,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 61.4473684211%">
-                          <img alt="" src="<?php static_url('../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/components/expansion-panels/components_material_expansionpanels_spec2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>

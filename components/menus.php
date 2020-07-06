@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -32,7 +32,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/menus/components_menus.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/menus/components_menus.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -87,7 +87,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_usage1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/menus/components_menus_usage1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -99,7 +99,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_usage2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/menus/components_menus_usage2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -121,11 +121,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 66.3157894737%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_usage3do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/menus/components_menus_usage3do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>标题 “视图” 准确地描述了其包含的菜单项的统一特性。</p>
                       </figcaption>
                     </figure>
@@ -137,11 +137,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 66.3157894737%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_usage3dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/menus/components_menus_usage3dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>标题 “Stuff” 不是描述性的，无法帮助用户预测他们将在 “Stuff” 菜单中找到什么菜单项。</p>
                       </figcaption>
                     </figure>
@@ -164,7 +164,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 172.5%">
-                          <img alt="" src="<?php static_url('../static/media/components/menus/components_menus_usage4a.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/components/menus/components_menus_usage4a.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -173,7 +173,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 172.5%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_usage4b.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?= static_url('../static/media/components/menus/components_menus_usage4b.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
@@ -193,7 +193,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 103.421052632%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_usage6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?= static_url('../static/media/components/menus/components_menus_usage6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">
@@ -212,7 +212,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 103.421052632%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_menus_usage7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?= static_url('../static/media/components/menus/components_menus_usage7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-6">
@@ -228,8 +228,8 @@
                       <div class="media" style="max-width: 1480px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 75.0%">
                           <video aria-describedby="usage-figure-caption-7" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/menus/components-menus-menus-cascading_dropdown_spec_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -249,8 +249,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 111.666666667%">
                           <video aria-describedby="usage-figure-caption-8" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/menus/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -265,8 +265,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="usage-figure-caption-9" controls="" loop="" preload="metadata">
-                            <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/menus/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -311,7 +311,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 108.684210526%">
-                          <img alt="" aria-describedby="menu-items-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_items1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="menu-items-figure-caption-0" src="<?= static_url('../static/media/components/menus/components_menus_items1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="menu-items-figure-caption-0">
@@ -332,7 +332,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="menu-items-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_items2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="menu-items-figure-caption-1" src="<?= static_url('../static/media/components/menus/components_menus_items2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="menu-items-figure-caption-1">
@@ -366,7 +366,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_behavior1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/components/menus/components_menus_behavior1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
@@ -383,11 +383,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_behavior2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?= static_url('../static/media/components/menus/components_menus_behavior2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当前选中的菜单项出现在触发它的元素上面。</p>
                       </figcaption>
                     </figure>
@@ -401,11 +401,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_behavior3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?= static_url('../static/media/components/menus/components_menus_behavior3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要重复显示已选中的菜单项。</p>
                       </figcaption>
                     </figure>
@@ -419,11 +419,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 62.1052631579%">
-                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_behavior4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-3" src="<?= static_url('../static/media/components/menus/components_menus_behavior4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>菜单不要放在触发它的元素的下面。</p>
                       </figcaption>
                     </figure>
@@ -471,7 +471,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-0" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-0">
@@ -488,11 +488,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-1" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-1">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
                     </figure>
@@ -504,11 +504,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-2" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当前选择的菜单项在列表项上垂直对齐。</p>
                       </figcaption>
                     </figure>
@@ -522,11 +522,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-3" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>第一个菜单项被随意地放在了列表项上，而不管当前选择的菜单项。</p>
                       </figcaption>
                     </figure>
@@ -540,11 +540,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-4" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当前选择的菜单项通常位于列表项之上，但是在这种情况下，这样做会导致菜单的一部分出现在屏幕外面，所以整个菜单被垂直地重新定位。</p>
                       </figcaption>
                     </figure>
@@ -558,11 +558,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 34.7368421053%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-5" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-5">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>简单菜单出现在触发它的元素上。</p>
                       </figcaption>
                     </figure>
@@ -574,11 +574,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 38.6842105263%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-6" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-6" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-6">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>简单菜单不会出现在触发它的元素下面。</p>
                       </figcaption>
                     </figure>
@@ -595,7 +595,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-7" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-7" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-7">
@@ -609,7 +609,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-8" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus9.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-8" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-8">
@@ -628,11 +628,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-9" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-9" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-9">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>如果简单菜单中的任意文本产生了换行，请改用简单对话框。</p>
                       </figcaption>
                     </figure>
@@ -641,11 +641,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-10" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus11.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-10" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-10">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在简单菜单中截断文本。使用简单对话框代替。</p>
                       </figcaption>
                     </figure>
@@ -660,11 +660,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-11" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus12.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-11" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-11">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>默认显示可滚动内容的滚动条。</p>
                       </figcaption>
                     </figure>
@@ -673,11 +673,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-12" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus13.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-12" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-12">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>没有滚动条，就不清楚是否有其他菜单项可用。</p>
                       </figcaption>
                     </figure>
@@ -691,11 +691,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-13" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus14.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-13" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus14.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-13">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>每个菜单项只出现一次。</p>
                       </figcaption>
                     </figure>
@@ -704,11 +704,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-14" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus15.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-14" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus15.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-14">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要重复显示菜单项。</p>
                       </figcaption>
                     </figure>
@@ -724,11 +724,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-15" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus16.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-15" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus16.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-15">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>简单菜单左对齐，无论触摸位置如何。</p>
                       </figcaption>
                     </figure>
@@ -740,11 +740,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="simple-menus-figure-caption-16" src="<?php static_url('../static/media/components/menus/components_dialogs_simplemenus17.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="simple-menus-figure-caption-16" src="<?= static_url('../static/media/components/menus/components_dialogs_simplemenus17.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="simple-menus-figure-caption-16">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>简单菜单不根据触摸位置重新定位。</p>
                       </figcaption>
                     </figure>
@@ -779,7 +779,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/menus/components_menus_specs1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?= static_url('../static/media/components/menus/components_menus_specs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -801,7 +801,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 76.3157894737%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/menus/components_menus_specs2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?= static_url('../static/media/components/menus/components_menus_specs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -816,7 +816,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?= static_url('../static/media/components/menus/components_menus_specs1-desktop.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2"><p><strong>默认的桌面端菜单<br>
@@ -829,7 +829,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 50.5263157895%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/menus/components_menus_specs1-desktop-dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?= static_url('../static/media/components/menus/components_menus_specs1-desktop-dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3"><p><strong>密集型桌面端菜单<br>
@@ -849,7 +849,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 87.3684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/menus/components_menus_specs3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?= static_url('../static/media/components/menus/components_menus_specs3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-4">
@@ -866,7 +866,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 92.8947368421%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/menus/components_menus_specs4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?= static_url('../static/media/components/menus/components_menus_specs4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-5">

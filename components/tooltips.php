@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/tooltips/components_tooltips.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/tooltips/components_tooltips.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -79,11 +79,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 107.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/tooltips/components_tooltips_usage1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -91,11 +91,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 107.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/tooltips/components_tooltips_usage2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -110,11 +110,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/tooltips/components_tooltips_usage3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -122,11 +122,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/tooltips/components_tooltips_usage4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/tooltips/components_tooltips_usage4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -178,7 +178,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 16.6666666667%">
-                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-0" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor_keyline.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-0" src="<?= static_url('../static/media/components/tooltips/components_tooltips_cursor_keyline.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-desktop-figure-caption-0">
@@ -199,7 +199,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 10.2631578947%">
-                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_cursor.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-desktop-figure-caption-1" src="<?= static_url('../static/media/components/tooltips/components_tooltips_cursor.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-desktop-figure-caption-1">
@@ -233,7 +233,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 23.3333333333%">
-                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-0" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch_keyline.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-0" src="<?= static_url('../static/media/components/tooltips/components_tooltips_touch_keyline.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-mobile-figure-caption-0">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-1" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-1" src="<?= static_url('../static/media/components/tooltips/components_tooltips_touch1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-mobile-figure-caption-1">
@@ -264,7 +264,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-2" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-2" src="<?= static_url('../static/media/components/tooltips/components_tooltips_touch2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-mobile-figure-caption-2">
@@ -279,7 +279,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-3" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-3" src="<?= static_url('../static/media/components/tooltips/components_tooltips_touch3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-mobile-figure-caption-3">
@@ -291,7 +291,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 66.6666666667%">
-                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-4" src="<?php static_url('../static/media/components/tooltips/components_tooltips_touch4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="tooltips-mobile-figure-caption-4" src="<?= static_url('../static/media/components/tooltips/components_tooltips_touch4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="tooltips-mobile-figure-caption-4">

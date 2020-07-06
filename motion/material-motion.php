@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -18,8 +18,8 @@
                   <div class="media" style="max-width: 1520px">
                     <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 56.1842105263%">
                       <video controls="" loop="" preload="auto">
-                        <source src="<?php static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.webm'); ?>" type="video/webm">
-                        <source src="<?php static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.mp4'); ?>" type="video/mp4">
+                        <source src="<?= static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.webm'); ?>" type="video/webm">
+                        <source src="<?= static_url('../static/media/motion/material-motion/MaterialMotionHero_Spec_0505.mp4'); ?>" type="video/mp4">
                         </source></source>
                       </video>
                     </div>
@@ -72,7 +72,7 @@
               </ul>
               <div class="modulettes">
                 <a class="modulette container gd" href="https://design.google.com/articles/making-motion-meaningful/" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
+                  <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">让动效更有意义</div>
                     <span class="subtitle">来自 Google 的动效设计师分享了一些它们引以为傲的产品特性。</span>
@@ -108,8 +108,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" role="button">
                           <video aria-describedby="how-does-material-move-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_01_Durations-v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -128,8 +128,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_02_Feedback-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -145,8 +145,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Responsive_03_SurfaceConnection-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -169,8 +169,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" role="button">
                           <video aria-describedby="how-does-material-move-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_01_Easing-v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -189,8 +189,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_02_Arc-v3.mp4'); ?>" type="video/mp4">
                             </source></source></video>
                         </div>
                       </div>
@@ -205,8 +205,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Natural_03_Transform-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -231,8 +231,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-6" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_01_Choreo-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -247,8 +247,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-7" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_02_MoveAway-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -266,8 +266,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-8" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Aware_03_Magnets-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -292,8 +292,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-9" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_01_Focus-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -308,8 +308,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-10" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_03_Disabled-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -327,8 +327,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="how-does-material-move-figure-caption-11" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/Intentional_02_Ring-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -368,14 +368,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="what-makes-a-good-transition-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_QuickDo-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="what-makes-a-good-transition-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>动画要迅速，这样用户不必等待动画完成。</p>
                       </figcaption>
                     </figure>
@@ -385,14 +385,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="what-makes-a-good-transition-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_QuickDont-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="what-makes-a-good-transition-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>错开元素的动画，以及减慢元素的移动速度，都会导致动画时间过长。</p>
                       </figcaption>
                     </figure>
@@ -410,14 +410,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="what-makes-a-good-transition-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_ClearDo-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="what-makes-a-good-transition-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>转换到下一个视图时要保持清晰的路径，即使下一个视图是由很多元素编排成的。</p>
                       </figcaption>
                     </figure>
@@ -427,14 +427,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="what-makes-a-good-transition-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_ClearDont-v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="what-makes-a-good-transition-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>当有多个元素沿不同的方向、或不同的路径移动时，转换会变得很混乱。</p>
                       </figcaption>
                     </figure>
@@ -452,8 +452,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 61.8421052632%">
                           <video aria-describedby="what-makes-a-good-transition-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/GoodTransition_Cohesive-v4.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -489,14 +489,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="implications-of-motion-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDo-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDo-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/ImplicationsDo-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/ImplicationsDo-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="implications-of-motion-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在转换期间，用户被引导到下一个视图。通过平面的转换来传达应用的层次结构。加载过程在后台进行，以减少用户感知上的延迟。</p>
                       </figcaption>
                     </figure>
@@ -506,14 +506,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="implications-of-motion-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDont-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/material-motion/ImplicationsDont-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/material-motion/ImplicationsDont-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/material-motion/ImplicationsDont-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="implications-of-motion-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>没有过渡效果，很难看出新视图和旧视图之间有什么关联。也无法感知到应用任何的层次结构，并且使用圆形旋转器的加载让加载过程显得太突兀。</p>
                       </figcaption>
                     </figure>

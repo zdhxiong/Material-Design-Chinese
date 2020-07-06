@@ -63,14 +63,14 @@
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="//ww1.sinaimg.cn/large/63f511e3gy1ffhx0it64wj206o089dge.jpg" loading="lazy"/>
+                        <img alt="" src="<?= static_url('../static/alipay.jpg'); ?>" loading="lazy"/>
                       </div>
                     </figure>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
                       <div class="media">
-                        <img alt="" src="//ww1.sinaimg.cn/large/63f511e3gy1ffhx0q42oyj206o0890ta.jpg" loading="lazy"/>
+                        <img alt="" src="<?= static_url('../static/wechat.jpg'); ?>" loading="lazy"/>
                       </div>
                     </figure>
                   </div>

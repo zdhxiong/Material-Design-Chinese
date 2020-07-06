@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -43,8 +43,8 @@
             <div>
               <p>我们为手机端提供了 10 种模板。使用图层面板来切换关键线和间距规则。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile Whiteframe">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/layout-templates/Layout_Mobile_Whiteframe.ai'); ?>" title="Mobile Whiteframe">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">手机端线稿</div>
                     <span class="subtitle">2.23 MB (.ai) </span>
@@ -69,8 +69,8 @@
             <div>
               <p>我们为平板端提供了 14 种模板。使用图层面板来切换关键线和间距规则。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet Whiteframe">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/layout-templates/Layout_Tablet_Whiteframe.ai'); ?>" title="Tablet Whiteframe">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">平板端线稿</div>
                     <span class="subtitle">1.39 MB (.ai) </span>
@@ -95,8 +95,8 @@
             <div>
               <p>我们为桌面端提供了 4 种模板，每种模板都包含 4 个不同的屏幕尺寸。使用图层面板来切换关键线和间距规则。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Whiteframe">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/layout-templates/Layout_Desktop_Whiteframe.ai'); ?>" title="Desktop Whiteframe">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">桌面端线稿</div>
                     <span class="subtitle">89.40 MB (.ai) </span>
@@ -121,8 +121,8 @@
             <div>
               <p>线稿提供了各种各样由风格一致的平面、层和阴影组成的布局结构。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/whiteframes.ai'); ?>" title="Whiteframes">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/layout-templates/whiteframes.ai'); ?>" title="Whiteframes">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">线稿</div>
                     <span class="subtitle">14.38 MB (.ai) </span>
@@ -131,8 +131,8 @@
                 </a>
               </div>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/layout-templates/whiteframes.sketch'); ?>" title="Whiteframes">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/layout-templates/whiteframes.sketch'); ?>" title="Whiteframes">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">线稿</div>
                     <span class="subtitle">2.92 MB (.sketch) </span>

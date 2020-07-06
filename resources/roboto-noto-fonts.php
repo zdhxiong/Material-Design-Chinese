@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -12,8 +12,8 @@
         <div>
           <p>最新版本的 Roboto 是专为移动设备和网页设计的。</p>
           <div class="modulettes">
-            <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/roboto-noto-fonts/RobotoTTF.zip'); ?>" title="Roboto Font">
-              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+            <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/roboto-noto-fonts/RobotoTTF.zip'); ?>" title="Roboto Font">
+              <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
               <div class="info">
                 <div class="title">Roboto 字体</div>
                 <span class="subtitle">1.21 MB (.zip) </span>
@@ -22,8 +22,8 @@
             </a>
           </div>
           <div class="modulettes">
-            <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/resources/roboto-noto-fonts/RobotoSpecimenBooklet.pdf'); ?>" title="Roboto specimen booklet">
-              <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+            <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/resources/roboto-noto-fonts/RobotoSpecimenBooklet.pdf'); ?>" title="Roboto specimen booklet">
+              <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
               <div class="info">
                 <div class="title">Roboto 样本手册</div>
                 <span class="subtitle">1.67 MB (.pdf) </span>
@@ -35,7 +35,7 @@
           <p>
             <div class="modulettes">
               <a class="modulette container download" href="http://www.google.com/get/noto" target="_blank">
-                <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
+                <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
                 <div class="info">
                   <div class="title">获取 Noto</div>
                 </div>

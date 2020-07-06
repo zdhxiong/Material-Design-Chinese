@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -30,7 +30,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/empty-states/patterns_empty_states.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/empty-states/patterns_empty_states.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -84,11 +84,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-0" src="<?= static_url('../static/media/patterns/empty-states/patterns_emptystates_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="displaying-empty-states-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>图像应该是素净的，视觉上能成为背景的一部分。标语应该传达应用的用途，而不要让用户去执行某项操作。</p>
                       </figcaption>
                     </figure>
@@ -97,11 +97,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="displaying-empty-states-figure-caption-1" src="<?= static_url('../static/media/patterns/empty-states/patterns_emptystates_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="displaying-empty-states-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>图像太过鲜明，标语不应该使用号召性的文字，这可能会导致用户去触摸图像或标语来开始视频聊天。</p>
                       </figcaption>
                     </figure>
@@ -140,7 +140,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-0" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-0" src="<?= static_url('../static/media/patterns/empty-states/patterns_emptystates_starter.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-0">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?php static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-1" src="<?= static_url('../static/media/patterns/empty-states/patterns_emptystates_education.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-1">
@@ -189,7 +189,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-2" src="<?= static_url('../static/media/patterns/empty-states/Empty-state_best_match_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-2">
@@ -201,7 +201,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?php static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="avoiding-completely-empty-states-figure-caption-3" src="<?= static_url('../static/media/patterns/empty-states/Empty-state_best_match_02.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="avoiding-completely-empty-states-figure-caption-3">

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -33,7 +33,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/settings/patterns_settings.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/settings/patterns_settings.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -90,7 +90,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placement-figure-caption-0" src="<?php static_url('../static/media/patterns/settings/patterns_settings_sidenav.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-0" src="<?= static_url('../static/media/patterns/settings/patterns_settings_sidenav.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-0">
@@ -102,7 +102,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="placement-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/patterns_settings_menu.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="placement-figure-caption-1" src="<?= static_url('../static/media/patterns/settings/patterns_settings_menu.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="placement-figure-caption-1">
@@ -139,7 +139,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.361111111%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/settings/patterns-settings-sound.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/patterns/settings/patterns-settings-sound.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -210,7 +210,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.361111111%">
-                          <img alt="" aria-describedby="grouping-settings-figure-caption-0" src="<?php static_url('../static/media/patterns/settings/patterns-settings-languages.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="grouping-settings-figure-caption-0" src="<?= static_url('../static/media/patterns/settings/patterns-settings-languages.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="grouping-settings-figure-caption-0">
@@ -261,7 +261,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 85.0%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-0" src="<?php static_url('../static/media/patterns/settings/settings-switch3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-0" src="<?= static_url('../static/media/patterns/settings/settings-switch3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-0">
@@ -282,11 +282,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 85.0%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-1" src="<?php static_url('../static/media/patterns/settings/settings-switch4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-1" src="<?= static_url('../static/media/patterns/settings/settings-switch4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>避免在辅助文本中重复标签中的文本。</p>
                       </figcaption>
                     </figure>
@@ -306,11 +306,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.361111111%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-2" src="<?php static_url('../static/media/patterns/settings/settings-switch5.png'); ?>" loading="lazy">
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-2" src="<?= static_url('../static/media/patterns/settings/settings-switch5.png'); ?>" loading="lazy">
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>用动词开始描述。</p></figcaption>
                     </figure>
                   </div>
@@ -318,11 +318,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 24.3055555556%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-3" src="<?php static_url('../static/media/patterns/settings/settings-switch6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-3" src="<?= static_url('../static/media/patterns/settings/settings-switch6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-3">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>解释设置的当前状态。</p></figcaption>
                     </figure>
                   </div>
@@ -335,7 +335,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-4" src="<?php static_url('../static/media/patterns/settings/settings-switch1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-4" src="<?= static_url('../static/media/patterns/settings/settings-switch1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-4">
@@ -347,7 +347,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-5" src="<?php static_url('../static/media/patterns/settings/settings-switch2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="labels-secondary-text-figure-caption-5" src="<?= static_url('../static/media/patterns/settings/settings-switch2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="labels-secondary-text-figure-caption-5">
@@ -366,7 +366,7 @@
                       <p><strong>睡眠</strong><br>
                       10 分钟无活动后</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>辅助文本传达了设置的当前状态。</p>
                     </figcaption>
@@ -376,7 +376,7 @@
                       <p><strong>屏幕超时</strong><br>
                       调整屏幕自动关闭前的时间</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>避免描述设置。应该显示设置的状态。</p>
                     </figcaption>
@@ -407,13 +407,13 @@
                     <div class="text-box">
                       <p><strong>点击时震动</strong></p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>使用触觉反馈</strong></p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -425,14 +425,14 @@
                       <p><strong>无线热点 & 移动热点<br></strong>
                       无线热点启用</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>无线热点 & 移动热点<br></strong>
                       通过移动数据连接向其他设备提供网络</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -444,14 +444,14 @@
                       <p><strong>NFC</strong><br>
                       当手机靠近另一个设备时，允许进行数据交换</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>NFC</strong><br>
                       使用近场通信读取或交换标签</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>

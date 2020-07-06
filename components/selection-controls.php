@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -31,7 +31,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/selection-controls/patterns_selection_controls.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/selection-controls/patterns_selection_controls.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -80,7 +80,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-0" src="<?= static_url('../static/media/components/selection-controls/components_switches_check1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="checkbox-figure-caption-0">
@@ -92,7 +92,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 44.4%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-1" src="<?= static_url('../static/media/components/selection-controls/components_switches_check2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="checkbox-figure-caption-1">
@@ -114,7 +114,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-2" src="<?= static_url('../static/media/components/selection-controls/components_switches_check3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="checkbox-figure-caption-2">
@@ -136,7 +136,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="checkbox-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="checkbox-figure-caption-3" src="<?= static_url('../static/media/components/selection-controls/components_switches_check4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="checkbox-figure-caption-3">
@@ -171,7 +171,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-0" src="<?= static_url('../static/media/components/selection-controls/components_switches_radio1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="radio-button-figure-caption-0">
@@ -183,7 +183,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 44.4%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-1" src="<?= static_url('../static/media/components/selection-controls/components_switches_radio2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="radio-button-figure-caption-1">
@@ -205,7 +205,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-2" src="<?= static_url('../static/media/components/selection-controls/components_switches_radio3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="radio-button-figure-caption-2">
@@ -227,7 +227,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 36.3334912364%">
-                          <img alt="" aria-describedby="radio-button-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="radio-button-figure-caption-3" src="<?= static_url('../static/media/components/selection-controls/components_switches_radio4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="radio-button-figure-caption-3">
@@ -262,7 +262,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="switch-figure-caption-0" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-0" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-0">
@@ -274,7 +274,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 44.4444444444%">
-                          <img alt="" aria-describedby="switch-figure-caption-1" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-1" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-1">
@@ -298,7 +298,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="switch-figure-caption-2" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-2" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-2">
@@ -323,7 +323,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.3157894737%">
-                          <img alt="" aria-describedby="switch-figure-caption-3" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-3" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-3">
@@ -342,7 +342,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 76.6666666667%">
-                          <img alt="" aria-describedby="switch-figure-caption-4" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-4" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-4">
@@ -354,7 +354,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 76.6666666667%">
-                          <img alt="" aria-describedby="switch-figure-caption-5" src="<?php static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="switch-figure-caption-5" src="<?= static_url('../static/media/components/selection-controls/components_switches_switch6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="switch-figure-caption-5">

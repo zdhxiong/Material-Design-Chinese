@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -39,7 +39,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/notifications/patterns-notifications.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/notifications/patterns-notifications.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -108,7 +108,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-states.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-anatomy-01-states.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-0">
@@ -137,7 +137,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.3684210526%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-01-header.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-anatomy-01-header.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-1">
@@ -158,7 +158,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 27.3684210526%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-02-content.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-2" src="<?= static_url('../static/media/patterns/notifications/notifications-anatomy-02-content.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-2">
@@ -177,7 +177,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.6842105263%">
-                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-anatomy-03-action-area.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="anatomy-of-a-notification-figure-caption-3" src="<?= static_url('../static/media/patterns/notifications/notifications-anatomy-03-action-area.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="anatomy-of-a-notification-figure-caption-3">
@@ -220,11 +220,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-01-donta.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-01-donta.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要以通知的形式发送节日或生日祝福。</p>
                       </figcaption>
                     </figure>
@@ -236,11 +236,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-02-dontb.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-02-dontb.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在任务期间打断用户，仅仅为了询问用户是否操作顺利。</p>
                       </figcaption>
                     </figure>
@@ -257,7 +257,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-foreground.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-03-foreground.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -299,8 +299,8 @@
                       <div class="media" style="max-width: 760px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-01-status.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-01-status.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-01-status.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-01-status.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -318,8 +318,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-02-peak-xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-02-peak-xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-02-peak-xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-02-peak-xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -350,7 +350,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 68.4210526316%">
-                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-03-drawer.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-2" src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-03-drawer.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-2">
@@ -388,8 +388,8 @@
                       <div class="media" style="max-width: 760px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -412,8 +412,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-07-dismiss-xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-07-dismiss-xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-07-dismiss-xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-07-dismiss-xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -439,8 +439,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-08-controls-xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-08-controls-xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-08-controls-xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-08-controls-xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -469,7 +469,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 57.8947368421%">
-                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-6" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-6">
@@ -494,7 +494,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-7" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-05-summary-2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-7">
@@ -514,7 +514,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-8" src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-06-expand.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-8">
@@ -533,11 +533,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-13-action-dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-9" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-13-action-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-9">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>文本操作不应和点击通知主体的操作重复。</p>
                       </figcaption>
                     </figure>
@@ -549,11 +549,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-14-action-do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-10" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-14-action-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-10">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当 Android 的时钟应用正在运行计时器时，此通知可以让用户在通知中直接暂停或增加一分钟。</p>
                       </figcaption>
                     </figure>
@@ -573,8 +573,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 68.4210526316%">
                           <video aria-describedby="behavior-figure-caption-11" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-17-inline-xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-17-inline-xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-17-inline-xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-17-inline-xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -706,7 +706,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="types-of-notifications-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-03-optin.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-03-optin.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-notifications-figure-caption-0">
@@ -724,7 +724,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 59.0789473684%">
-                          <img alt="" aria-describedby="types-of-notifications-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-04-optout.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-notifications-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-04-optout.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-notifications-figure-caption-1">
@@ -760,7 +760,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="settings-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-settings-01-channels.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="settings-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-settings-01-channels.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="settings-figure-caption-0">
@@ -853,7 +853,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 86.8421052632%">
-                          <img alt="" aria-describedby="settings-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-settings-03b-applink.png'); ?>" loading="lazy">
+                          <img alt="" aria-describedby="settings-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-settings-03b-applink.png'); ?>" loading="lazy">
                           </img></div>
                       </div>
                       <figcaption id="settings-figure-caption-1"><p></p>
@@ -1006,7 +1006,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 736px">
                         <div class="frame " style="padding-top: 174.048913043%">
-                          <img alt="" aria-describedby="lock-screen-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-04-lockscreen1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="lock-screen-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-04-lockscreen1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="lock-screen-figure-caption-0">
@@ -1018,7 +1018,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 736px">
                         <div class="frame " style="padding-top: 174.048913043%">
-                          <img alt="" aria-describedby="lock-screen-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-behavior-05-lockscreen2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="lock-screen-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-behavior-05-lockscreen2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="lock-screen-figure-caption-1">
@@ -1059,11 +1059,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-09-title-dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="style-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-09-title-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-0">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>内容标题显示了应用名称，它与头部区域冗余，并且占用了标题中的可用空间。</p>
                       </figcaption>
                     </figure>
@@ -1081,11 +1081,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-10-title-do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="style-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-10-title-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-1">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>内容的标题显示了最重要的信息。</p>
                       </figcaption>
                     </figure>
@@ -1108,11 +1108,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-11-large-icon-dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="style-figure-caption-2" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-11-large-icon-dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-2">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>大图标不适合使用 logo。</p>
                       </figcaption>
                     </figure>
@@ -1124,11 +1124,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 30.5263157895%">
-                          <img alt="" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-guidelines-12-large-icon-do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="style-figure-caption-3" src="<?= static_url('../static/media/patterns/notifications/notifications-guidelines-12-large-icon-do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-3">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>大图标旨在以有意义的方式强化应用的内容，例如消息通知中的联系人照片。</p>
                       </figcaption>
                     </figure>
@@ -1161,7 +1161,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-0" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-01-standard.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-0" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-01-standard.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-0">
@@ -1179,7 +1179,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 75.2631578947%">
-                          <img alt="" aria-describedby="templates-figure-caption-1" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-02-big-text.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-1" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-02-big-text.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-1">
@@ -1197,7 +1197,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 82.6315789474%">
-                          <img alt="" aria-describedby="templates-figure-caption-2" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-03-big-picture.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-2" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-03-big-picture.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-2">
@@ -1215,7 +1215,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-3" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-04-progress.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-3" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-04-progress.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-3">
@@ -1237,7 +1237,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 57.6315789474%">
-                          <img alt="" aria-describedby="templates-figure-caption-4" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-05-media.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-4" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-05-media.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-4">
@@ -1255,7 +1255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame" style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="templates-figure-caption-5" src="<?php static_url('../static/media/patterns/notifications/notifications-templates-06-messaging.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="templates-figure-caption-5" src="<?= static_url('../static/media/patterns/notifications/notifications-templates-06-messaging.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="templates-figure-caption-5">

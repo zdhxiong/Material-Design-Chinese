@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -29,7 +29,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/toolbars/components_toolbars.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/toolbars/components_toolbars.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -70,7 +70,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -87,7 +87,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -103,7 +103,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -123,11 +123,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 52.7777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>将工具栏的宽度限制为小于页面的宽度。</p>
                       </figcaption>
                     </figure>
@@ -136,11 +136,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 52.7777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>切勿让一个材料被另一个持久显示的材料分隔开。</p>
                       </figcaption>
                     </figure>
@@ -157,7 +157,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?= static_url('../static/media/components/toolbars/layout_principles_papercraft_toolbars5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -25,7 +25,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/pickers/components_pickers.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/pickers/components_pickers.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -90,7 +90,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="date-pickers-figure-caption-0" src="<?php static_url('../static/media/components/pickers/components_pickers_date1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="date-pickers-figure-caption-0" src="<?= static_url('../static/media/components/pickers/components_pickers_date1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="date-pickers-figure-caption-0">
@@ -110,8 +110,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.333333333%">
                           <video aria-describedby="date-pickers-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/pickers/components_pickers_date_navigation_xhdpi_004.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -133,7 +133,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="date-pickers-figure-caption-2" src="<?php static_url('../static/media/components/pickers/components_pickers_date3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="date-pickers-figure-caption-2" src="<?= static_url('../static/media/components/pickers/components_pickers_date3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="date-pickers-figure-caption-2">
@@ -150,7 +150,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 84.2105263158%">
-                          <img alt="" aria-describedby="date-pickers-figure-caption-3" src="<?php static_url('../static/media/components/pickers/components_pickers_date4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="date-pickers-figure-caption-3" src="<?= static_url('../static/media/components/pickers/components_pickers_date4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="date-pickers-figure-caption-3">
@@ -167,7 +167,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="date-pickers-figure-caption-4" src="<?php static_url('../static/media/components/pickers/components_pickers_date5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="date-pickers-figure-caption-4" src="<?= static_url('../static/media/components/pickers/components_pickers_date5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="date-pickers-figure-caption-4">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1522px">
                         <div class="frame " style="padding-top: 84.2312746386%">
-                          <img alt="" aria-describedby="time-pickers-figure-caption-0" src="<?php static_url('../static/media/components/pickers/components_pickers_time1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="time-pickers-figure-caption-0" src="<?= static_url('../static/media/components/pickers/components_pickers_time1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="time-pickers-figure-caption-0">
@@ -223,8 +223,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="time-pickers-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/pickers/components_pickers_time_transition.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/pickers/components_pickers_time_transition.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/pickers/components_pickers_time_transition.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/pickers/components_pickers_time_transition.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -246,7 +246,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.9736842105%">
-                          <img alt="" aria-describedby="time-pickers-figure-caption-2" src="<?php static_url('../static/media/components/pickers/components_pickers_time2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="time-pickers-figure-caption-2" src="<?= static_url('../static/media/components/pickers/components_pickers_time2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="time-pickers-figure-caption-2">
@@ -263,7 +263,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1522px">
                         <div class="frame " style="padding-top: 84.2312746386%">
-                          <img alt="" aria-describedby="time-pickers-figure-caption-3" src="<?php static_url('../static/media/components/pickers/components_pickers_time3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="time-pickers-figure-caption-3" src="<?= static_url('../static/media/components/pickers/components_pickers_time3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="time-pickers-figure-caption-3">
@@ -280,7 +280,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.9736842105%">
-                          <img alt="" aria-describedby="time-pickers-figure-caption-4" src="<?php static_url('../static/media/components/pickers/components_pickers_time4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="time-pickers-figure-caption-4" src="<?= static_url('../static/media/components/pickers/components_pickers_time4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="time-pickers-figure-caption-4">

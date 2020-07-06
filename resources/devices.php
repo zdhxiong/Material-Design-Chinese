@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -37,7 +37,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container md" href="https://material.io/devices" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">设备数据</div>
                     </div>
@@ -65,7 +65,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container md" href="http://material.io/resizer/" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">Resizer</div>
                     </div>

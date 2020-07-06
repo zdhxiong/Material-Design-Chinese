@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -56,8 +56,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-patterns-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -71,7 +71,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-patterns-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-patterns-figure-caption-1" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-patterns-figure-caption-1">
@@ -92,8 +92,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-patterns-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -288,7 +288,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-figure-caption-0" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-0" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_design_01.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-0">
@@ -310,7 +310,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-1" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-1" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_phone_centered.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-1">
@@ -325,7 +325,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-2" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-2" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_offset.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-2">
@@ -352,7 +352,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-3" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-3" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_contained.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-3">
@@ -369,7 +369,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-4" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-4" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_edge.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-4">
@@ -386,7 +386,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2048px">
                         <div class="frame " style="padding-top: 62.5%">
-                          <img alt="" aria-describedby="design-figure-caption-5" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-5" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_feasturedisc_design_tablet_center.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-5">
@@ -412,7 +412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 177.56232687%">
-                          <img alt="" aria-describedby="design-figure-caption-6" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-6" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-6">
@@ -424,7 +424,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 724px">
                         <div class="frame " style="padding-top: 177.348066298%">
-                          <img alt="" aria-describedby="design-figure-caption-7" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-7" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_color2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-7">
@@ -453,8 +453,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-figure-caption-8" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_interact_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -469,8 +469,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-figure-caption-9" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_dismiss_loop.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -493,8 +493,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-figure-caption-10" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-multi-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -531,8 +531,8 @@
                       <div class="media">
                         <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }" role="button">
                           <video aria-describedby="design-figure-caption-11" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/engagement-featurediscovery-single-flow.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -548,8 +548,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-figure-caption-12" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_idle2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -564,8 +564,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="design-figure-caption-13" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_motion_accept3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -587,7 +587,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="design-figure-caption-14" src="<?php static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="design-figure-caption-14" src="<?= static_url('../static/media/growth-communications/feature-discovery/useredu_er_featuredisc_hinttext2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="design-figure-caption-14">

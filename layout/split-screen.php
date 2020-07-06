@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -62,7 +62,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 65.7894736842%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/layout/split-screen/patterns_splitscreen_intro.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -127,7 +127,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-0" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="layout-figure-caption-0" src="<?= static_url('../static/media/layout/split-screen/patterns_splitscreen_01_samelayout.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="layout-figure-caption-0">
@@ -137,7 +137,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-1" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="layout-figure-caption-1" src="<?= static_url('../static/media/layout/split-screen/patterns_splitscreen_02_differentlayout.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="layout-figure-caption-1">
@@ -158,7 +158,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="layout-figure-caption-2" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="layout-figure-caption-2" src="<?= static_url('../static/media/layout/split-screen/patterns_splitscreen_03_169mobile.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="layout-figure-caption-2">
@@ -170,7 +170,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 91.0526315789%">
-                          <img alt="" aria-describedby="layout-figure-caption-3" src="<?php static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="layout-figure-caption-3" src="<?= static_url('../static/media/layout/split-screen/patterns_splitscreen_04_3415tablet.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="layout-figure-caption-3">

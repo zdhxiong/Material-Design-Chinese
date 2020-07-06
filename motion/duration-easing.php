@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -26,7 +26,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 720px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/motion/duration-easing/01-duration-and-easing.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -77,14 +77,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="speed-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDo_v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="speed-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>动画要足够快，这样用户无需等待动画结束。</p>
                       </figcaption>
                     </figure>
@@ -94,14 +94,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="speed-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/QuickResponse_01_QuickDont_v3.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="speed-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使动画过慢，因为这样会导致不必要的延迟。</p>
                       </figcaption>
                     </figure>
@@ -134,8 +134,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video aria-describedby="dynamic-durations-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/DynamicDurations_01_LongDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -153,8 +153,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video aria-describedby="dynamic-durations-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/DynamicDurations_02_ShortDistance-v2.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -203,8 +203,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 71.0526315789%">
                           <video aria-describedby="common-durations-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/CommonDurations_01_3Devices_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -229,8 +229,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 57.8947368421%">
                           <video aria-describedby="common-durations-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/CommonDurations_02_Desktop_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -268,8 +268,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_01_CurveNoCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -286,8 +286,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_00_AsymetricCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -316,8 +316,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="metadata">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_02_StandardCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -372,8 +372,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_03_DecelerationCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -422,8 +422,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_04_AccelerationCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -473,8 +473,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 46.0526315789%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/motion/duration-easing/NaturalEasing_05_SharpCurve_v1.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

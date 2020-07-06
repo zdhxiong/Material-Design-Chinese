@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -13,7 +13,7 @@
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2320px">
               <div class="frame " style="padding-top: 56.8965517241%">
-                <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>" loading="lazy"/>
+                <img alt="" src="<?= static_url('../static/media/style/imagery/style_imagery_introduction.png'); ?>" loading="lazy"/>
               </div>
             </div>
           </figure>
@@ -41,7 +41,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/style/imagery/style_imagery.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/style/imagery/style_imagery.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -85,7 +85,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="principles-figure-caption-0" src="<?= static_url('../static/media/style/imagery/style_imagery_principles1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-0">
@@ -98,7 +98,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="principles-figure-caption-1" src="<?= static_url('../static/media/style/imagery/style_imagery_principles2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-1">
@@ -111,7 +111,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="principles-figure-caption-2" src="<?= static_url('../static/media/style/imagery/style_imagery_principles3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-2">
@@ -132,7 +132,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style-imagery-principles4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="principles-figure-caption-3" src="<?= static_url('../static/media/style/imagery/style-imagery-principles4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-3">
@@ -152,7 +152,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 56.8421052632%">
-                          <img alt="" aria-describedby="principles-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="principles-figure-caption-4" src="<?= static_url('../static/media/style/imagery/style_imagery_principles5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="principles-figure-caption-4">
@@ -187,11 +187,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-0" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>对于特定实体，应该首先通过照片来表达。</p>
                       </figcaption>
                     </figure>
@@ -200,11 +200,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-1" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_mediums2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-1">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当内容不具有明确性时，使用和内容近似的插画以帮助理解。</p>
                       </figcaption>
                     </figure>
@@ -222,11 +222,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-2" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_stock1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>争取让图片能反映出真实的故事。</p>
                       </figcaption>
                     </figure>
@@ -235,11 +235,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-3" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_stock2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>老套的图片可能让人感觉不真实。</p>
                       </figcaption>
                     </figure>
@@ -251,11 +251,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-4" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_stock3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用特定的图像表示特定的内容。</p>
                       </figcaption>
                     </figure>
@@ -264,11 +264,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_stock4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-5" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_stock4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要根据字面意思去配一张老套的照片。</p>
                       </figcaption>
                     </figure>
@@ -285,11 +285,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-6" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-6">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用颜色和构图来给图像一个清晰的焦点。</p>
                       </figcaption>
                     </figure>
@@ -298,11 +298,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-7" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-7">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>避免让用户主动去寻找图片的含义。</p>
                       </figcaption>
                     </figure>
@@ -314,11 +314,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-8" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-8">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>最有影响力的标志性图像往往只由少数几个有意义的元素组成，并能最大限度减少用户分心。</p>
                       </figcaption>
                     </figure>
@@ -327,11 +327,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-9" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-9">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>当焦点被湮没时，图像标志性的特性就会丧失。</p>
                       </figcaption>
                     </figure>
@@ -343,11 +343,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-10" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-10">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>清晰的焦点可以一目了然地传达概念。</p>
                       </figcaption>
                     </figure>
@@ -356,11 +356,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_focus6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-11" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_focus6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-11">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>缺少视觉焦点的图片没有意义。</p>
                       </figcaption>
                     </figure>
@@ -377,11 +377,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-12" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-12">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>一个讲述故事的图片是非常有吸引力，且信息量很大的。</p>
                       </figcaption>
                     </figure>
@@ -390,11 +390,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-13" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-13">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>缺乏故事的图片失去了传达情绪、品牌和语境的机会。</p>
                       </figcaption>
                     </figure>
@@ -406,11 +406,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-14" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-14">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>适当的融入情景可以更有效的传达信息和品牌。</p>
                       </figcaption>
                     </figure>
@@ -419,11 +419,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 75.5555555556%">
-                          <img alt="" aria-describedby="best-practices-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="best-practices-figure-caption-15" src="<?= static_url('../static/media/style/imagery/style_imagery_bestpractices_narrative4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="best-practices-figure-caption-15">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>脱离情景的图片是无趣的。</p>
                       </figcaption>
                     </figure>
@@ -455,11 +455,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-0" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-0" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_resolution1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>合适尺寸的图片</p>
                       </figcaption>
                     </figure>
@@ -468,11 +468,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-1" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_resolution2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-1" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_resolution2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>分辨率过低的图片</p>
                       </figcaption>
                     </figure>
@@ -489,7 +489,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-2" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-2" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_scale1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-2">
@@ -501,7 +501,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-3" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-3" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_scale2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-3">
@@ -521,7 +521,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-4" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-4" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-4">
@@ -544,7 +544,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-5" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-5" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-5">
@@ -556,7 +556,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 72.2222222222%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-6" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-6" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-6">
@@ -571,11 +571,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-7" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-7" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-7">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>暗色遮罩的不透明度根据内容而定，最好在 20%-40% 之间。亮色遮罩的不透明度根据内容而定，最好在 40%-60% 之间。</p>
                       </figcaption>
                     </figure>
@@ -584,11 +584,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-8" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-8" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-8">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>当使用遮罩时，不要使图像变得模糊。</p>
                       </figcaption>
                     </figure>
@@ -600,11 +600,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-9" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-9" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-9">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>对于较大的实景图，遮罩应该在文本区域，而不是覆盖整张图片。 </p>
                       </figcaption>
                     </figure>
@@ -613,11 +613,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-10" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-10" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-10">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要 “过度遮盖” 大图片。</p>
                       </figcaption>
                     </figure>
@@ -629,11 +629,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-11" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-11" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-11">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>颜色覆盖层和文本保护遮罩不同，颜色覆盖层可以作为设计元素使用。创建颜色覆盖层时，使用 Palette API 根据内容来定义颜色方案。</p>
                       </figcaption>
                     </figure>
@@ -642,11 +642,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-12" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_text6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-12" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_text6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-12">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>可以使用你的品牌色来进行装饰，以增强图像。</p>
                       </figcaption>
                     </figure>
@@ -665,7 +665,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-13" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-13" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_thumbs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-13">
@@ -677,7 +677,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-14" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-14" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_thumbs2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-14">
@@ -697,7 +697,7 @@
                     </p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://developer.android.com/training/material/drawables.html#ColorExtract" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                        <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">从图片中提取主色</div>
                         </div>
@@ -709,7 +709,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-15" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-15" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_hero1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-15">
@@ -722,7 +722,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-16" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-16" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_hero2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-16">
@@ -743,7 +743,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-17" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-17" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_gallery1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-17">
@@ -755,7 +755,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="ui-integration-figure-caption-18" src="<?php static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="ui-integration-figure-caption-18" src="<?= static_url('../static/media/style/imagery/style_imagery_integration_gallery2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="ui-integration-figure-caption-18">

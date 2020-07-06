@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -31,7 +31,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/tabs/components_tabs.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/tabs/components_tabs.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -80,7 +80,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -92,7 +92,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -104,7 +104,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -118,7 +118,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
@@ -130,7 +130,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
@@ -142,7 +142,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">
@@ -156,7 +156,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-6">
@@ -168,7 +168,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_mobile8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-7" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_mobile8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-7">
@@ -188,7 +188,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-8" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-8">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-9" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-9">
@@ -218,7 +218,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 44.7368421053%">
-                          <img alt="" aria-describedby="usage-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-10" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-10">
@@ -233,7 +233,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-11" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-11">
@@ -248,7 +248,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-12" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-12" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-12">
@@ -263,7 +263,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-13" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-13" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-13">
@@ -278,7 +278,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-14" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-14" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-14">
@@ -301,11 +301,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-15" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-15" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-15">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>选项卡在含同等重要的内容的选项之间切换。</p>
                       </figcaption>
                     </figure>
@@ -314,11 +314,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-16" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-16" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-16">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>这个选项卡在含不同等重要的内容的选项之间切换。</p>
                       </figcaption>
                     </figure>
@@ -343,11 +343,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-17" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-17" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-17">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>选项卡显示成单行。</p>
                       </figcaption>
                     </figure>
@@ -356,11 +356,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-18" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-18" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-18">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>选项卡没有显示成单行。</p>
                       </figcaption>
                     </figure>
@@ -372,11 +372,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-19" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-19" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-19">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用内容层次结构，使选项卡与当前显示的内容相关。</p>
                       </figcaption>
                     </figure>
@@ -385,11 +385,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-20" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_example4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-20" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_example4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-20">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>选项卡不能嵌套。</p>
                       </figcaption>
                     </figure>
@@ -423,22 +423,22 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="content-figure-caption-0" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_content1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="content-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>超过选项卡最大长度的长标签可以在被截断之前换行到第二行。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="content-figure-caption-1" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_content3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="content-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要调整单行标签的大小。如果标签太长，请将文本跨两行或使用可滚动选项卡。</p>
                       </figcaption>
                     </figure>
@@ -447,22 +447,22 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="content-figure-caption-2" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_content2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="content-figure-caption-2">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>在截断标签之前可以对标签进行换行。过早截断标签会妨碍理解。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="content-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_content4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="content-figure-caption-3" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_content4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="content-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要把文本标签和图标混合使用。全部使用文本标签、或全部使用图标标签。</p>
                       </figcaption>
                     </figure>
@@ -496,7 +496,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-0" src="<?= static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-tabs-figure-caption-0">
@@ -508,7 +508,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-1" src="<?= static_url('../static/media/components/tabs/components_tabs_typesoftabs_mobile2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-tabs-figure-caption-1">
@@ -530,8 +530,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="types-of-tabs-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/tabs/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -551,14 +551,14 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="types-of-tabs-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-tabs-figure-caption-3" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_desktop5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-tabs-figure-caption-3">
@@ -618,7 +618,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -630,7 +630,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -658,7 +658,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">
@@ -668,7 +668,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">
@@ -704,7 +704,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-4">
@@ -716,7 +716,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-5">
@@ -749,7 +749,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs9.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-6">
@@ -761,7 +761,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-7">
@@ -801,7 +801,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs11.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-8">
@@ -813,7 +813,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 84.4444444444%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs12.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-9">
@@ -840,7 +840,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 43.4210526316%">
-                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-10" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-10">
@@ -892,7 +892,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?php static_url('../static/media/components/tabs/components_tabs_usage_specs13.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-11" src="<?= static_url('../static/media/components/tabs/components_tabs_usage_specs13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-11">
@@ -913,8 +913,8 @@
                       <div class="media" style="max-width: 912px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 25.2192982456%">
                           <video aria-describedby="specs-figure-caption-12" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/tabs/components_tabs_tabtouchtarget.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

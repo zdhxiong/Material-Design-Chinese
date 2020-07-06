@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -28,7 +28,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/loading-images/patterns_loading_images.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -74,7 +74,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 48.9473684211%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/patterns/loading-images/patterns_loadingimages1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 166.666666667%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload3_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -106,7 +106,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 166.666666667%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/patterns/loading-images/patterns-imagetreatment-imageload4_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -128,8 +128,8 @@
                       <div class="media" style="max-width: 1506px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 66.401062417%">
                           <video aria-describedby="usage-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns_loadingimages_largescreen.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -167,11 +167,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 90.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-0" src="<?= static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -179,11 +179,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 90.0%">
-                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?php static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="behavior-figure-caption-1" src="<?= static_url('../static/media/patterns/loading-images/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="behavior-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -198,8 +198,8 @@
                       <div class="media" style="max-width: 1440px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns-imagerytreatment-imageload-transition_large_xhdpi.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -223,8 +223,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/patterns/loading-images/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

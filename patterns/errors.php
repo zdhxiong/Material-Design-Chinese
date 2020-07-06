@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -37,7 +37,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/patterns/errors/patterns_errors.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/patterns/errors/patterns_errors.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -119,7 +119,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-0" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-0">
@@ -131,7 +131,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-1" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-1">
@@ -173,7 +173,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 55.7894736842%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-2" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-2">
@@ -194,7 +194,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 55.7894736842%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-3" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-3">
@@ -213,7 +213,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-4" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-4">
@@ -225,7 +225,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-5" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-5" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-5">
@@ -240,7 +240,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-6" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput7.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-6" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput7.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-6">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-7" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput8.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-7" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput8.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-7">
@@ -269,7 +269,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-8" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput9.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-8" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput9.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-8">
@@ -286,7 +286,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 17.7777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-9" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-9" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-9">
@@ -310,7 +310,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-10" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-10" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-10">
@@ -322,7 +322,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-11" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput11.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-11" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-11">
@@ -339,7 +339,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 29.4736842105%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-12" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput12.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-12" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput12.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-12">
@@ -356,7 +356,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-13" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-13" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-13">
@@ -386,7 +386,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-14" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput13.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-14" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput13.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-14">
@@ -398,7 +398,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-15" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput14.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-15" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput14.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-15">
@@ -414,7 +414,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-16" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput15.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-16" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput15.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-16">
@@ -426,7 +426,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-17" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput16.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-17" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput16.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-17">
@@ -443,7 +443,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 80.0%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-18" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput17.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-18" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput17.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-18">
@@ -460,7 +460,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 24.4444444444%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-19" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-19" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput_keyline3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-19">
@@ -492,7 +492,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-20" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput18.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-20" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput18.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-20">
@@ -504,7 +504,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-21" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput19.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-21" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput19.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-21">
@@ -525,7 +525,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-22" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput21.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-22" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput21.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-22">
@@ -537,7 +537,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-23" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput22.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-23" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput22.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-23">
@@ -553,7 +553,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="user-input-errors-figure-caption-24" src="<?php static_url('../static/media/patterns/errors/patterns_errors_userinput23.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="user-input-errors-figure-caption-24" src="<?= static_url('../static/media/patterns/errors/patterns_errors_userinput23.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="user-input-errors-figure-caption-24">
@@ -592,7 +592,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-0" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-0">
@@ -604,7 +604,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-1" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-1">
@@ -623,7 +623,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-2" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-2">
@@ -635,7 +635,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-3" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-3">
@@ -654,7 +654,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-4" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-4" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-4">
@@ -667,7 +667,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="app-errors-figure-caption-5" src="<?php static_url('../static/media/patterns/errors/patterns_errors_app6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-errors-figure-caption-5" src="<?= static_url('../static/media/patterns/errors/patterns_errors_app6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-errors-figure-caption-5">
@@ -704,7 +704,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-0" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-0" src="<?= static_url('../static/media/patterns/errors/patterns_errors_state1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="incompatible-state-errors-figure-caption-0">
@@ -728,7 +728,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-1" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-1" src="<?= static_url('../static/media/patterns/errors/patterns_errors_state2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="incompatible-state-errors-figure-caption-1">
@@ -740,7 +740,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-2" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-2" src="<?= static_url('../static/media/patterns/errors/patterns_errors_state3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="incompatible-state-errors-figure-caption-2">
@@ -764,7 +764,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-3" src="<?php static_url('../static/media/patterns/errors/patterns_errors_state4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="incompatible-state-errors-figure-caption-3" src="<?= static_url('../static/media/patterns/errors/patterns_errors_state4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="incompatible-state-errors-figure-caption-3">

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -62,7 +62,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/usability/accessibility/accessibility_principles1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -79,7 +79,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/usability/accessibility/accessibility_principles2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -95,7 +95,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/usability/accessibility/accessibility_principles3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -139,11 +139,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.1111111111%">
-                          <img alt="" aria-describedby="color-contrast-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-contrast-figure-caption-0" src="<?= static_url('../static/media/usability/accessibility/accessibility_color1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>这些文本遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
                     </figure>
@@ -152,11 +152,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.1111111111%">
-                          <img alt="" aria-describedby="color-contrast-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-contrast-figure-caption-1" src="<?= static_url('../static/media/usability/accessibility/accessibility_color2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>这些文本没有遵循合颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
                     </figure>
@@ -170,11 +170,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.2777777778%">
-                          <img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-2" src="<?= static_url('../static/media/usability/accessibility/accessibility_color3_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>这些图标遵循颜色对比度建议，和它们的背景色之间有清晰的对比。</p>
                       </figcaption>
                     </figure>
@@ -183,11 +183,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 50.2777777778%">
-                          <img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="<?= static_url('../static/media/usability/accessibility/accessibility_color4_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>这些图标没有遵循颜色对比度建议，在它们的背景色中很难进行阅读。</p>
                       </figcaption>
                     </figure>
@@ -204,11 +204,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>" loading="lazy"/>
+                          <img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-4" src="<?= static_url('../static/media/usability/accessibility/accessibility_color5_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>有辨识度的装饰性元素不需要满足对比度建议。</p>
                       </figcaption>
                     </figure>
@@ -217,11 +217,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-5" src="<?= static_url('../static/media/usability/accessibility/accessibility_color6_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>没有必要扭曲你的 Logo 来满足对比度建议。</p>
                       </figcaption>
                     </figure>
@@ -239,11 +239,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 51.1111111111%">
-                          <img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-6" src="<?= static_url('../static/media/usability/accessibility/accessibility_color7_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-6">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>文本字段的错误状态使用了多个提示来传达：标题颜色、文本字段下划线、字段下面的错误提示。</p>
                       </figcaption>
                     </figure>
@@ -252,11 +252,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 51.1111111111%">
-                          <img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-7" src="<?php static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-7" src="<?= static_url('../static/media/usability/accessibility/accessibility_color8_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-contrast-figure-caption-7">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>这个文本字段的错误状态仅使用了彩色下划线，可能会被色弱的用户忽略。</p>
                       </figcaption>
                     </figure>
@@ -289,7 +289,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                     <div class="info">
                       <div class="title">标记用户界面元素</div>
                     </div>
@@ -313,7 +313,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container default" href="https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index=..%2F..%2Findex#6" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">自动朗读文本</div>
                     </div>
@@ -352,7 +352,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Touch target specs" aria-describedby="style-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>" loading="lazy"/>
+                          <img alt="Touch target specs" aria-describedby="style-figure-caption-0" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-0">
@@ -366,7 +366,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Examples" aria-describedby="style-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>" loading="lazy"/>
+                          <img alt="Examples" aria-describedby="style-figure-caption-1" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-1">
@@ -381,7 +381,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Touch target height" aria-describedby="style-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>" loading="lazy"/>
+                          <img alt="Touch target height" aria-describedby="style-figure-caption-2" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-2">
@@ -394,7 +394,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Examples" aria-describedby="style-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>" loading="lazy"/>
+                          <img alt="Examples" aria-describedby="style-figure-caption-3" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-3">
@@ -412,12 +412,12 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Correct slider value example" aria-describedby="style-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct slider value example" aria-describedby="style-figure-caption-4" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout5_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-4">
                         <p></p>
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>滑块值和滑块控件非常接近。</p>
                       </figcaption>
                     </figure>
@@ -426,12 +426,12 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="Incorrect slider value" aria-describedby="style-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect slider value" aria-describedby="style-figure-caption-5" src="<?= static_url('../static/media/usability/accessibility/accessibility_layout6_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="style-figure-caption-5">
                         <p></p>
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>滑块值和滑块控件之间的距离太远。对于放大了屏幕的用户，如果不在滑块和值之间来回浏览的话，可能不能同时看到滑块和值。</p>
                       </figcaption>
                     </figure>
@@ -461,7 +461,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#focus-nav" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                     <div class="info">
                       <div class="title">启用焦点导航</div>
                     </div>
@@ -491,22 +491,22 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-0" src="<?= static_url('../static/media/usability/accessibility/accessibility_hierarchy_1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>通过把重要的操作放在屏幕顶部，使它们在层次结构中显得更重要。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="<?= static_url('../static/media/usability/accessibility/accessibility_hierarchy_2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>当把重要的操作嵌入到其他内容中时，就不清楚什么是页面中最重要的元素。</p>
                       </figcaption>
                     </figure>
@@ -532,7 +532,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1522px">
                         <div class="frame " style="padding-top: 103.810775296%">
-                          <img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>" loading="lazy"/>
+                          <img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-2" src="<?= static_url('../static/media/usability/accessibility/accessibility_hierarchy_3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="hierarchy-focus-figure-caption-2">
@@ -567,11 +567,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>" loading="lazy"/>
+                          <img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-0" src="<?= static_url('../static/media/usability/accessibility/accessibility_implementation1_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>此屏幕使用了标准平台的对话框。</p>
                       </figcaption>
                     </figure>
@@ -580,11 +580,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-1" src="<?= static_url('../static/media/usability/accessibility/accessibility_implementation2_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>此屏幕使用非标准平台的对话框来执行一个标准的对话框任务。这种实现会需要额外的编码和测试，以使这种非标准控件和无障碍技术相兼容。</p>
                       </figcaption>
                     </figure>
@@ -604,22 +604,22 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Example of scalable text" aria-describedby="implementation-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>" loading="lazy"/>
+                          <img alt="Example of scalable text" aria-describedby="implementation-figure-caption-2" src="<?= static_url('../static/media/usability/accessibility/accessibility_implementation3_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>这个 UI 已经过缩放，能很好的和放大倍数的界面以及大文字适配。</p>
                       </figcaption>
                     </figure>
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-3" src="<?= static_url('../static/media/usability/accessibility/accessibility_implementation4_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>这个 UI 没有经过缩放，不能和放大倍数的界面以及大文字适配。部分内容被重叠或截断。</p>
                       </figcaption>
                     </figure>
@@ -633,7 +633,7 @@
                     <p>屏幕阅读器用户需要知道屏幕中哪些元素是可以点击的。要使屏幕阅读器大声朗读出组件的名称，请向组件（如按钮、图标、仅含图标不含可见文本的 Tab 选项卡）添加 <strong>contentDescription</strong> 属性。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="http://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                        <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">标签化 UI 元素</div>
                         </div>
@@ -645,7 +645,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="implementation-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-4" src="<?= static_url('../static/media/usability/accessibility/Accessibility_labeling1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-4">
@@ -658,7 +658,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="implementation-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-5" src="<?= static_url('../static/media/usability/accessibility/Accessibility_labeling2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-5">
@@ -693,7 +693,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="implementation-figure-caption-6" src="<?php static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="implementation-figure-caption-6" src="<?= static_url('../static/media/usability/accessibility/accessibility_implementation5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="implementation-figure-caption-6">
@@ -730,7 +730,7 @@
                     <div class="text-box">
                       <p>切换到 heyfromjonathan@gmail.com</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>书写明确和简短的无障碍文本。</p>
                     </figcaption>
@@ -739,7 +739,7 @@
                     <div class="text-box">
                       <p>账户切换器。切换到账户 heyfromjonathan@gmail.com</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>不要写太长的无障碍文本。</p>
                     </figcaption>
@@ -756,7 +756,7 @@
                     <div class="text-box">
                       <p>搜索</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>使用简短的说明。</p>
                     </figcaption>
@@ -765,7 +765,7 @@
                     <div class="text-box">
                       <p>搜索字段</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>不要写控件类型。</p>
                     </figcaption>
@@ -777,7 +777,7 @@
                     <p>在 Android，将控件的 AccessibilityNodeInfo 类名字段设置为 “android.widget.Button”。</p>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                        <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                         <div class="info">
                           <div class="title">构建无障碍的自定义视图</div>
                         </div>
@@ -789,7 +789,7 @@
                     <div class="text-box">
                       <p>仅用过 Wi-Fi 下载</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>使用简短的说明。</p>
                     </figcaption>
@@ -798,7 +798,7 @@
                     <div class="text-box">
                       <p>已选择通过 Wi-Fi 下载</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>不要写出状态。</p>
                     </figcaption>
@@ -820,11 +820,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Action verb example" aria-describedby="writing-figure-caption-0" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>" loading="lazy"/>
+                          <img alt="Action verb example" aria-describedby="writing-figure-caption-0" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_edit_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>朗读的描述指明了由图标表示的操作。</p>
                       </figcaption>
                     </figure>
@@ -833,11 +833,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-1" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-1" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_edit_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>描述图标的外观无法清楚的表明操作的作用。</p>
                       </figcaption>
                     </figure>
@@ -849,11 +849,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-2" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-2" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_menu_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>导航菜单的无障碍文本可以是 “显示/隐藏导航菜单” （首选）或者 “显示/隐藏主菜单” （可接受）。</p>
                       </figcaption>
                     </figure>
@@ -862,11 +862,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-3" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-3" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_menu_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>朗读时，文本 “侧面抽屉” 无法指明会发生什么操作。</p>
                       </figcaption>
                     </figure>
@@ -896,11 +896,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Correct example of a command." aria-describedby="writing-figure-caption-4" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>" loading="lazy"/>
+                          <img alt="Correct example of a command." aria-describedby="writing-figure-caption-4" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>此命令 “语音搜索” 描述和用户输入法（语音）相匹配的任务（搜索）。</p>
                       </figcaption>
                     </figure>
@@ -909,11 +909,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 33.3333333333%">
-                          <img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-5" src="<?php static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>" loading="lazy"/>
+                          <img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-5" src="<?= static_url('../static/media/usability/accessibility/accessibility_writing_voicesearch_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="writing-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>此命令 “点击” 是不准确的，因为这不是激活此控件的唯一方式（它也可以通过按下键盘、开关切换或盲文显示来激活）。由于本例中用户的主要任务是搜索，所以操作应该使用如上文所提到的文字，而不应该使用 “说话”。</p>
                       </figcaption>
                     </figure>
@@ -927,7 +927,7 @@
               <p>提示语音为不明确的操作提供额外的信息。例如，Android 的 “双击以选择” 功能提示用户在选择一个项目时需要点击两次。Android 的 TalkBack 也会提醒和元素相关联的任何自定义操作。谨慎使用提示语音，确保只在复杂的 UI 上使用提示语音。</p>
               <div class="modulettes">
                 <a class="modulette container android" href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html#addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)" target="_blank">
-                  <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                  <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">Android 自定义操作</div>
                   </div>

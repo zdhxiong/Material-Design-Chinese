@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -30,7 +30,7 @@
                 <div class="text-box">
                   <p>文本应当简洁、易懂、直截了当</p>
                 </div>
-                <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                <p class="s-tag-caption do"><?= $translate['do']; ?></p>
               </div>
             </section>
           </div>
@@ -107,7 +107,7 @@
                     <div class="text-box">
                       <p>在我的账户中更改你的设置偏好</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                   <div class="module"></div>
                 </section>
@@ -122,13 +122,13 @@
                     <div class="text-box">
                       <p>从 Google+ 上获取热门信息</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>我们在 Google+ 上为你准备了这些热门信息</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -139,13 +139,13 @@
                     <div class="text-box">
                       <p>我们会审核你的申请，并在几天内回复</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你的申请将被审核，你将在几天内收到回复</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -159,13 +159,13 @@
                     <div class="text-box">
                       <p>汇款给美国任何拥有电子邮箱的人。这是快速、简单和免费的。</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>通过电子邮件地址向美国的朋友和家人汇款（或收款）。这只需要两步，几乎没有延迟，不需要任何费用就能收款。</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -176,13 +176,13 @@
                     <div class="text-box">
                       <p>阅读手机附带的操作说明</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>查阅手机附带的关于更多高级操作指南的文档</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -208,13 +208,13 @@
                     <div class="text-box">
                       <p>保存更改？</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你想要保存你的更改吗？</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -223,13 +223,13 @@
                     <div class="text-box">
                       <p>消息已发送</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>消息已经被发送了</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -238,13 +238,13 @@
                     <div class="text-box">
                       <p>注册以投票</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>在投票之前你必须先注册</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -258,13 +258,13 @@
                     <div class="text-box">
                       <p>开启位置记录</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>激活位置记录</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -275,13 +275,13 @@
                     <div class="text-box">
                       <p>正在准备视频…</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>正在缓冲…</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -290,13 +290,13 @@
                     <div class="text-box">
                       <p>你的手机不支持 “Ok Google”</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>只有双核处理器的设备才支持 “Ok Google”</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -307,13 +307,13 @@
                     <div class="text-box">
                       <p>点击<strong>继续</strong></p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>点击继续按钮</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -327,13 +327,13 @@
                     <div class="text-box">
                       <p>移除图片</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>删除图片</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -342,7 +342,7 @@
                     <div class="text-box">
                       <p>移除图片？</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>对话框标题应简短。</p>
                     </figcaption>
@@ -351,7 +351,7 @@
                     <div class="text-box">
                       <p>从页面中移除图片？</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>对话框标题过长。</p>
                     </figcaption>
@@ -367,12 +367,12 @@
                   <div class="module">
                     <div class="text-box">
                       <p>你有 3 条消息</p></div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你有三条消息</p></div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -386,13 +386,13 @@
                     <div class="text-box">
                       <p>从相册中移除图片，只需拖动照片到垃圾箱即可</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>拖动照片到垃圾箱，以把它从相册中移除</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -406,13 +406,13 @@
                     <div class="text-box">
                       <p>移除下载的书籍？</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你确定你要移除这本下载的书籍？移除后你只有在线状态才能访问它了。</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -426,13 +426,13 @@
                     <div class="text-box">
                       <p>你的圈子名称不会被公开</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>我们绝不会公开你的圈子名称</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -531,14 +531,14 @@
                       <p><strong>MyApp 没有响应<br>
                         </strong>你想要关闭它吗？</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>抱歉！<br>
                         </strong>MyAppActivity（在 MyApp 中）的活动没有响应</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -552,13 +552,13 @@
                     <div class="text-box">
                       <p>你的所有资料都存储在一个地方</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你一定会爱上这聪明绝顶的想法</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -567,13 +567,13 @@
                     <div class="text-box">
                       <p>更多餐厅点评</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>所有餐厅点评</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -587,13 +587,13 @@
                     <div class="text-box">
                       <p>为了节省电量，请将定位模式切换到省电模式</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>手动控制 GPS，以防止其他应用使用它</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -607,13 +607,13 @@
                     <div class="text-box">
                       <p>使用不多于 24 个字符来命名文件</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>你的文件名必须少于 25 个字符</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
                 <section class="module-module-module col-3">
@@ -622,13 +622,13 @@
                     <div class="text-box">
                       <p>再试一次</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>操作失败</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -643,14 +643,14 @@
                       <p><strong>正在登录... <br>
                         </strong>你的手机正在连接到 Google。这大概需要五分钟。</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p><strong>正在登录... <br>
                         </strong>你的手机需要与 Google 服务器通信才能登录账户。这大概需要五分钟。</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -680,13 +680,13 @@
                     <div class="text-box">
                       <p>Search settings</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>Search Settings</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -714,7 +714,7 @@
                     <div class="text-box">
                       <p>和你的朋友分享照片。<a href="writing.html#capitalization-punctuation">了解更多</a></p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>超链接之前的句子要使用句号。</p>
                     </figcaption>
@@ -723,7 +723,7 @@
                     <div class="text-box">
                       <p>和你的朋友分享照片。<a href="writing.html#capitalization-punctuation">了解更多</a>。</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>句子后面跟着一个超链接时，应该把句号放在超链接之前，而不是之后。</p>
                     </figcaption>
@@ -735,7 +735,7 @@
                     <div class="text-box">
                       <p><strong>撤销批量更改？<br/></strong>如果撤销批量更改，你所做的更改会全部恢复到之前的状态</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                     <figcaption>
                       <p>忽略只有一句话的正文的结尾句号。</p>
                     </figcaption>
@@ -744,7 +744,7 @@
                     <div class="text-box">
                       <p><strong>撤销批量更改？<br/></strong>如果撤销批量更改，你所做的更改会全部恢复到之前的状态。</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['dont']; ?></p>
                     <figcaption>
                       <p>不要在只有一句话的正文结尾添加句号。</p>
                     </figcaption>
@@ -759,13 +759,13 @@
                     <div class="text-box">
                       <p>分享给</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>分享给：</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -779,13 +779,13 @@
                     <div class="text-box">
                       <p>it’s, can’t, wouldn’t, you’re, you’ve, haven’t, don’t</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>it is, cannot, would not, it’ll, should’ve</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -799,13 +799,13 @@
                     <div class="text-box">
                       <p>欢迎！</p>
                     </div>
-                    <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                    <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                   </div>
                   <div class="module">
                     <div class="text-box">
                       <p>了解更多日历的新功能！</p>
                     </div>
-                    <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                    <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                   </div>
                 </section>
               </div>
@@ -1028,7 +1028,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-0" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-0" src="<?= static_url('../static/media/style/writing/style_writing_globalwriting_japanese.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-0">
@@ -1040,7 +1040,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-1" src="<?= static_url('../static/media/style/writing/style_writing_globalwriting_thai.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-1">
@@ -1060,7 +1060,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-2" src="<?= static_url('../static/media/style/writing/style_writing_globalwriting_arabic.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-2">
@@ -1072,7 +1072,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?php static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="global-writing-figure-caption-3" src="<?= static_url('../static/media/style/writing/style_writing_globalwriting_english.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="global-writing-figure-caption-3">

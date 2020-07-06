@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -18,8 +18,8 @@
                   <div class="media" style="max-width: 1280px">
                     <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 56.25%">
                       <video controls="" loop="" preload="auto">
-                        <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm'); ?>" type="video/webm">
-                        <source src="<?php static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4'); ?>" type="video/mp4">
+                        <source src="<?= static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.webm'); ?>" type="video/webm">
+                        <source src="<?= static_url('../static/media/style/color/Palette Perfect How Material Design Makes Color Easy.mp4'); ?>" type="video/mp4">
                         </source></source>
                       </video>
                     </div>
@@ -72,7 +72,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/components.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/color/components.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/accessibility.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/color/accessibility.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -94,7 +94,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 721px">
                         <div class="frame " style="padding-top: 99.8613037448%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/UI.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/color/UI.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -106,7 +106,7 @@
                   <div class="module">
                     <div class="modulettes">
                       <a class="modulette container md" href="https://material.io/color/" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy"/>
+                        <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/md.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">颜色工具</div>
                           <span class="subtitle">为你的 UI 创建配色方案，并测试颜色的可访问性</span>
@@ -137,8 +137,8 @@
               <p>该调色板包含了主色和强调色，可以用于插图或开发你的品牌色。这些经过设计的颜色可以灵活的搭配。调色板从主色开始，通过填充光谱为 Android、Web、iOS 创建了完整可用的调色板。Google 建议使用 500 色号的颜色作为主色，其他颜色作为强调色。</p>
               <p>主题通过设置表面阴影、阴影深度和墨迹不透明度来构建统一的应用样式。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/style/color/color_swatches.zip'); ?>" title="Download color swatches">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy">
                   <div class="info">
                     <div class="title">下载调色板</div>
                     <span class="subtitle">0.02 MB (.zip) </span>
@@ -1898,7 +1898,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container gd" href="https://design.google.com/articles/expressing-brand-in-material/" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/gd.svg'); ?>" loading="lazy">
                       <div class="info">
                         <div class="title">在材料中表现品牌</div>
                       </div>
@@ -1918,7 +1918,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 91.3%">
-                          <img alt="" aria-describedby="color-system-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-0" src="<?= static_url('../static/media/style/color/style_color_colorscheme_palette1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-0">
@@ -1930,7 +1930,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-1" src="<?= static_url('../static/media/style/color/style_color_colorscheme_palette1_example.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-1">
@@ -1945,7 +1945,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 56.7%">
-                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-2" src="<?= static_url('../static/media/style/color/style_color_colorsystem_pesto_palette_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-2">
@@ -1957,7 +1957,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-3" src="<?= static_url('../static/media/style/color/style_color_colorsystem_pesto_full_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-3">
@@ -1979,7 +1979,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-4" src="<?= static_url('../static/media/style/color/style_color_uiapplication_palette1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-4">
@@ -2010,7 +2010,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1500px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-5" src="<?= static_url('../static/media/style/color/style_color_uiapplication_palette2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-5">
@@ -2022,7 +2022,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 67.8%">
-                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-6" src="<?= static_url('../static/media/style/color/style_color_colorsystem_gray_secondary_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-6">
@@ -2043,7 +2043,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-7" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-7">
@@ -2055,7 +2055,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-8" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-8">
@@ -2073,7 +2073,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.4%">
-                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-9" src="<?= static_url('../static/media/style/color/style_color_colorsystem_primaryswatch_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-9">
@@ -2085,7 +2085,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-10" src="<?= static_url('../static/media/style/color/style_color_colorscheme_accentcolor_links.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-10">
@@ -2102,11 +2102,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-11" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-11">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>对某些文本使用强调色，例如链接文本。</p>
                       </figcaption>
                     </figure>
@@ -2115,11 +2115,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-12" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-12">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在正文中使用明亮的颜色，即使你的主色或辅助色是明亮的。</p>
                       </figcaption>
                     </figure>
@@ -2133,11 +2133,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-13" src="<?= static_url('../static/media/style/color/style_color_colorsystem_tonallink_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-13">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>你可以使用主色来强调链接。</p>
                         <p></p>
                       </figcaption>
@@ -2147,11 +2147,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-14" src="<?= static_url('../static/media/style/color/style_color_colorsystem_color_headline_161116-05.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-14">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用主色或强调色来强调较短的文本，如标题。</p>
                       </figcaption>
                     </figure>
@@ -2163,11 +2163,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-15" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-15">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在主要操作按钮上使用辅助色。</p>
                         <p></p>
                       </figcaption>
@@ -2177,11 +2177,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?php static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-16" src="<?= static_url('../static/media/style/color/style_color_uiapplication_accent6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-16">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在应用栏、较大的色块区域上使用辅助色。如果浮动操作按钮位于辅助色背景上，则不要在浮动操作按钮上使用辅助色。</p>
                       </figcaption>
                     </figure>
@@ -2193,11 +2193,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?php static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-17" src="<?= static_url('../static/media/style/color/style_color_colorsystem_blackfab_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-17">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用单色作为强调色，使图像和其他彩色的元素更加突出。</p>
                         <p></p>
                       </figcaption>
@@ -2207,11 +2207,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?php static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-18" src="<?= static_url('../static/media/style/color/style_color_colorsystem_tonalfab_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-18">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在主色区域上的元素，可以使用不同色调的主色（例如这个浮动操作按钮）。</p>
                       </figcaption>
                     </figure>
@@ -2223,11 +2223,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-19" src="<?= static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textfields.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-19">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>文本框和开关可以使用辅助色作为强调。</p>
                         <p></p>
                       </figcaption>
@@ -2237,11 +2237,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?php static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-20" src="<?= static_url('../static/media/style/color/style_color_colorscheme_accentcolor_textselection.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-20">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>文本选择可以使用辅助色作为强调。</p>
                       </figcaption>
                     </figure>
@@ -2256,11 +2256,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-21" src="<?= static_url('../static/media/style/color/style_color_uiapplication_fallback1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-21">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在很深或很浅的背景色中，使用不同色调的辅助色。</p>
                         <p></p>
                       </figcaption>
@@ -2270,11 +2270,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 122.222222222%">
-                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?php static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="color-system-figure-caption-22" src="<?= static_url('../static/media/style/color/style_color_uiapplication_fallback2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="color-system-figure-caption-22">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>如果主色和辅助色没有足够的对比度，不要在主色背景上使用辅助色。</p>
                       </figcaption>
                     </figure>
@@ -2308,7 +2308,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-0" src="<?php static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-0" src="<?= static_url('../static/media/style/color/style_typography_styles_11_body3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-0">
@@ -2320,7 +2320,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1001px">
                         <div class="frame " style="padding-top: 177.622377622%">
-                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-1" src="<?= static_url('../static/media/style/color/style_color_usability_colorlessUI_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-1">
@@ -2341,7 +2341,7 @@
                       <figure class="s-tag-media">
                         <div class="media" style="max-width: 1000px">
                           <div class="frame " style="padding-top: 177.8%">
-                            <img alt="" aria-describedby="usability-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>" loading="lazy"/>
+                            <img alt="" aria-describedby="usability-figure-caption-2" src="<?= static_url('../static/media/style/color/style_color_usability_weather_semantic_161116.png'); ?>" loading="lazy"/>
                           </div>
                         </div>
                         <figcaption id="usability-figure-caption-2">
@@ -2354,7 +2354,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-3" src="<?= static_url('../static/media/style/color/style_color_usability_maps_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-3">
@@ -2379,7 +2379,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?php static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-4" src="<?= static_url('../static/media/style/color/style_color_usability_textfieldcolor_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-4">
@@ -2391,7 +2391,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 550px">
                         <div class="frame " style="padding-top: 36.3636363636%">
-                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?php static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-5" src="<?= static_url('../static/media/style/color/style_color_usability_semantic_text_161116.gif'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-5">
@@ -2412,7 +2412,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?php static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-6" src="<?= static_url('../static/media/style/color/style_color_usability_pre_redgreen_color_blindness_161102.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-6">
@@ -2424,7 +2424,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?php static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-7" src="<?= static_url('../static/media/style/color/style_color_usability_redgreen_color_blindness_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-7">
@@ -2441,7 +2441,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 177.8%">
-                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?php static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-8" src="<?= static_url('../static/media/style/color/style_color_usability_cataracts_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-8">
@@ -2478,11 +2478,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?php static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-9" src="<?= static_url('../static/media/style/color/style_color_usability_alpha4_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-9">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用不透明度，而不是改变颜色，通常能创造更好的对比度和相对亮度。例如，如果背景色变为洋红色，则其中的灰色文字（#727272）会变得难以阅读。</p>
                       </figcaption>
                     </figure>
@@ -2491,11 +2491,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 22.2222222222%">
-                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?php static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-10" src="<?= static_url('../static/media/style/color/style_color_usability_alpha3_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-10">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>转换为灰色，而不是降低了对比度的黑色，通常会降低相对亮度，使文本不可读。</p>
                       </figcaption>
                     </figure>
@@ -2515,7 +2515,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.9444444444%">
-                          <img alt="" src="<?php static_url('../static/media/style/color/style_color_usability_alpha1_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/color/style_color_usability_alpha1_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2556,7 +2556,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.9444444444%">
-                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?php static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-11" src="<?= static_url('../static/media/style/color/style_color_usability_alpha2_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-11">
@@ -2643,11 +2643,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?php static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-12" src="<?= static_url('../static/media/style/color/style_color_usability_headline_color_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-12">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在重要的文本上使用有对比度的颜色（例如你的辅助色），使其与背景色产生对比。</p>
                       </figcaption>
                     </figure>
@@ -2656,11 +2656,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?php static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-13" src="<?= static_url('../static/media/style/color/style_color_usability_dontbody_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-13">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>避免在彩色背景上放置大量彩色文本。</p>
                       </figcaption>
                     </figure>
@@ -2672,11 +2672,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?php static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-14" src="<?= static_url('../static/media/style/color/style_color_usability_tonalheadline_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-14">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>你可以使用更深或更浅的色调来创建单色，也能突出外观。</p>
                       </figcaption>
                     </figure>
@@ -2685,11 +2685,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1000px">
                         <div class="frame " style="padding-top: 122.2%">
-                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?php static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usability-figure-caption-15" src="<?= static_url('../static/media/style/color/style_color_usability_donttonalheadline_161116.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usability-figure-caption-15">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用相同颜色的不同色调的颜色进行对比。与背景色对比度很低的文本会很难阅读。</p>
                       </figcaption>
                     </figure>
@@ -2713,8 +2713,8 @@
             <div>
               <p>主题可以让你的应用具有统一的风格。主题指定表面的暗度、阴影程度，以及墨水元素的适当的不透明度。为了提高不同应用之间的一致性，你可以选择亮色主题和暗色主题。</p>
               <div class="modulettes">
-                <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
-                  <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
+                <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/style/color/stickersheet_uielements.ai'); ?>" title="Download themes">
+                  <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
                   <div class="info">
                     <div class="title">下载主题</div>
                     <span class="subtitle">1.23 MB (.ai) </span>
@@ -2733,7 +2733,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-0" src="<?php static_url('../static/media/style/color/style_color_themes_light1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="themes-figure-caption-0" src="<?= static_url('../static/media/style/color/style_color_themes_light1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-0">
@@ -2745,7 +2745,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?php static_url('../static/media/style/color/style_color_themes_light2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="themes-figure-caption-1" src="<?= static_url('../static/media/style/color/style_color_themes_light2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-1">
@@ -2766,7 +2766,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?php static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="themes-figure-caption-2" src="<?= static_url('../static/media/style/color/style_color_themes_dark1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-2">
@@ -2778,7 +2778,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 178.055555556%">
-                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?php static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="themes-figure-caption-3" src="<?= static_url('../static/media/style/color/style_color_themes_dark2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="themes-figure-caption-3">
@@ -2791,7 +2791,7 @@
               <p>
                 <div class="modulettes">
                   <a class="modulette container android" href="http://developer.android.com/training/material/theme.html" target="_blank">
-                    <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
+                    <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy">
                     <div class="info">
                       <div class="title">使用材料主题</div>
                     </div>

@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -36,7 +36,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/dividers/components_dividers.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/dividers/components_dividers.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -92,7 +92,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_usage1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/dividers/components_dividers_usage1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -105,7 +105,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_usage2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/dividers/components_dividers_usage2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -125,7 +125,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_usage3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/dividers/components_dividers_usage3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
@@ -143,11 +143,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_usage6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/dividers/components_dividers_usage6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>合理的使用内嵌分隔线分隔内容的主要部分。</p>
                       </figcaption>
                     </figure>
@@ -156,11 +156,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_type1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?= static_url('../static/media/components/dividers/components_dividers_type1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>同时使用内嵌分隔线和锚元素（如头像）。</p>
                       </figcaption>
                     </figure>
@@ -172,11 +172,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_usage4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?= static_url('../static/media/components/dividers/components_dividers_usage4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>过度使用全出血分隔线会造成视觉干扰，并最终减弱分隔线的作用。</p>
                       </figcaption>
                     </figure>
@@ -185,11 +185,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?php static_url('../static/media/components/dividers/components_dividers_usage5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-6" src="<?= static_url('../static/media/components/dividers/components_dividers_usage5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-6">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>内嵌型分隔线有助于减少视觉干扰，应该和锚元素一起使用，但过度使用会减弱分隔线的作用。</p>
                       </figcaption>
                     </figure>
@@ -221,7 +221,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_fullbleed1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-0" src="<?= static_url('../static/media/components/dividers/components_dividers_fullbleed1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-0">
@@ -233,7 +233,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-1" src="<?php static_url('../static/media/components/dividers/components_dividers_type2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-1" src="<?= static_url('../static/media/components/dividers/components_dividers_type2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-1">
@@ -254,7 +254,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-2" src="<?php static_url('../static/media/components/dividers/components_dividers_type3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-2" src="<?= static_url('../static/media/components/dividers/components_dividers_type3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-2">
@@ -266,7 +266,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-3" src="<?php static_url('../static/media/components/dividers/components_dividers_type4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-3" src="<?= static_url('../static/media/components/dividers/components_dividers_type4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-3">
@@ -286,7 +286,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-4" src="<?php static_url('../static/media/components/dividers/components_dividers_type5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-4" src="<?= static_url('../static/media/components/dividers/components_dividers_type5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-4">
@@ -298,7 +298,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="types-of-dividers-figure-caption-5" src="<?php static_url('../static/media/components/dividers/components_dividers_type6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="types-of-dividers-figure-caption-5" src="<?= static_url('../static/media/components/dividers/components_dividers_type6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="types-of-dividers-figure-caption-5">
@@ -333,7 +333,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/dividers/components_dividers_specs.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?= static_url('../static/media/components/dividers/components_dividers_specs.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">

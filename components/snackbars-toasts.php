@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -33,7 +33,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbars.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -84,11 +84,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -96,11 +96,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -115,11 +115,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 53.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-2" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-2">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -127,11 +127,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 53.3333333333%">
-                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-3" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-3">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -145,11 +145,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-4" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-4">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -157,11 +157,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 35.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_usage6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-5" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_usage6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-5">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -176,14 +176,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="usage-figure-caption-6" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-6">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -192,14 +192,14 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="usage-figure-caption-7" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdont_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-7">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -219,8 +219,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 173.611111111%">
                           <video aria-describedby="usage-figure-caption-8" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbdifferenttype_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -235,8 +235,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="usage-figure-caption-9" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbars_usage_consecutivesbsametype_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -279,7 +279,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_mobile1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -291,7 +291,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_mobile2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -307,8 +307,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
                           <video aria-describedby="specs-figure-caption-2" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_usage_fabdo_005.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -328,7 +328,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1280px">
                         <div class="frame " style="padding-top: 56.25%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_mobile3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">
@@ -343,7 +343,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 88.1578947368%">
-                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_mobile4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-4" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_mobile4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-4">
@@ -372,7 +372,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-5" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-5">
@@ -387,7 +387,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 28.9473684211%">
-                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-6" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-6">
@@ -402,7 +402,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 28.943628612%">
-                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1-left.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-7" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop1-left.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-7">
@@ -417,7 +417,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 2111px">
                         <div class="frame " style="padding-top: 28.943628612%">
-                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2-left.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-8" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop2-left.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-8">
@@ -432,7 +432,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 67.3684210526%">
-                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?php static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-9" src="<?= static_url('../static/media/components/snackbars-toasts/components_toasts_tabletdesktop3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-9">
@@ -452,8 +452,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 73.5526315789%">
                           <video aria-describedby="specs-figure-caption-10" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/snackbars-toasts/components_snackbar_specs_fabtablet_002.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>

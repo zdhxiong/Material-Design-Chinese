@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -28,7 +28,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/material-design/environment/what_is_material_environment.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/material-design/environment/what_is_material_environment.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -72,7 +72,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="3d-world-figure-caption-0" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_3d.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="3d-world-figure-caption-0" src="<?= static_url('../static/media/material-design/environment/whatismaterial_environment_3d.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="3d-world-figure-caption-0">
@@ -105,7 +105,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="light-shadow-figure-caption-0" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="light-shadow-figure-caption-0" src="<?= static_url('../static/media/material-design/environment/whatismaterial_environment_shadow1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="light-shadow-figure-caption-0">
@@ -117,7 +117,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="light-shadow-figure-caption-1" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="light-shadow-figure-caption-1" src="<?= static_url('../static/media/material-design/environment/whatismaterial_environment_shadow2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="light-shadow-figure-caption-1">
@@ -129,7 +129,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="light-shadow-figure-caption-2" src="<?php static_url('../static/media/material-design/environment/whatismaterial_environment_shadow3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="light-shadow-figure-caption-2" src="<?= static_url('../static/media/material-design/environment/whatismaterial_environment_shadow3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="light-shadow-figure-caption-2">

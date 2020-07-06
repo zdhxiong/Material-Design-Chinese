@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -67,7 +67,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/style/icon/style_icons.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/style/icon/style_icons.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -116,7 +116,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container default" href="https://design.google.com/icons/" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
+                          <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">材料图标</div>
                           </div>
@@ -130,7 +130,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_definition.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_intro_definition.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -147,7 +147,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-0" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-0" src="<?= static_url('../static/media/style/icon/style_logos_product_intro_material_physical.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-0">
@@ -159,7 +159,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-1" src="<?= static_url('../static/media/style/icon/style_logos_product_intro_material_lighting.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-1">
@@ -174,7 +174,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-2" src="<?= static_url('../static/media/style/icon/style_logos_product_intro_material_material.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-2">
@@ -186,7 +186,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-3" src="<?php static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-3" src="<?= static_url('../static/media/style/icon/style_logos_product_intro_material_color.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-3">
@@ -206,7 +206,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-4" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_logo_grid.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-4">
@@ -218,7 +218,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-5" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_logo_keylines.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-5">
@@ -238,7 +238,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-6" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_shapes_square.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-6">
@@ -252,7 +252,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-7" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_shapes_circle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-7">
@@ -268,7 +268,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-8" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_shapes_vert_rectangle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-8">
@@ -282,7 +282,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-9" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_shapes_hori_rectangle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-9">
@@ -305,7 +305,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-10" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_unit_1to1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-10">
@@ -317,7 +317,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-11" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_unit_4to1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-11">
@@ -337,7 +337,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry1.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_geometry1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -346,7 +346,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_geometry2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -358,7 +358,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry3.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_geometry3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -367,7 +367,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_grid_geometry4.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_grid_geometry4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -389,7 +389,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-12" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-12" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_components.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-12">
@@ -402,7 +402,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-13" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-13" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_components_perspective.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-13">
@@ -418,7 +418,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-14" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-14" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_material_background.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-14">
@@ -431,7 +431,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-15" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-15" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_material_foreground.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-15">
@@ -447,7 +447,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-16" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-16" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_color_spot.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-16">
@@ -460,7 +460,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-17" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-17" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_color_flooding.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-17">
@@ -476,7 +476,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-18" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-18" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_edges_tinted.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-18">
@@ -489,7 +489,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-19" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-19" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_edges_shaded.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-19">
@@ -505,7 +505,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-20" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-20" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_shadow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-20">
@@ -518,7 +518,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-21" src="<?php static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-21" src="<?= static_url('../static/media/style/icon/style_logos_product_anatomy_finish.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-21">
@@ -540,7 +540,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-22" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-22" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_lighting_top.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-22">
@@ -552,7 +552,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-23" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-23" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_lighting_45.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-23">
@@ -572,7 +572,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 722px">
                         <div class="frame " style="padding-top: 99.7229916898%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-24" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-24" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_shadow.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-24">
@@ -603,7 +603,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-25" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-25" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_edge_tinted.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-25">
@@ -618,7 +618,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-26" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-26" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_edge_shaded.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-26">
@@ -641,7 +641,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-27" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-27" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_finish.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-27">
@@ -674,7 +674,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_cool.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_values_cool.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -686,7 +686,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 52.6315789474%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_fresh.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_values_fresh.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -698,7 +698,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 31.5789473684%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_warm.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_values_warm.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -710,7 +710,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 36.8421052632%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_hot.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_values_hot.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -722,7 +722,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_logos_product_lighting_values_neutral.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_logos_product_lighting_values_neutral.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -741,11 +741,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-28" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-28" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_color_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-28">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -753,11 +753,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-29" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_color_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-29" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_color_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-29">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要添加阴影。</p>
                       </figcaption>
                     </figure>
@@ -773,11 +773,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-30" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-30" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_layer_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-30">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -785,11 +785,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-31" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_layer_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-31" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_layer_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-31">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要添加太多分层。</p>
                       </figcaption>
                     </figure>
@@ -805,11 +805,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-32" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-32" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_elevate_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-32">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -817,11 +817,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-33" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_elevate_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-33" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_elevate_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-33">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要裁剪提升的元素。</p>
                       </figcaption>
                     </figure>
@@ -837,11 +837,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-34" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-34" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_score_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-34">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -849,11 +849,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-35" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_score_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-35" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_score_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-35">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要偏离中心位置。</p>
                       </figcaption>
                     </figure>
@@ -868,11 +868,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-36" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-36" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_fold_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-36">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -880,11 +880,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-37" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_fold_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-37" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_fold_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-37">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -899,11 +899,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-38" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-38" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_overlap_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-38">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -911,11 +911,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-39" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_overlap_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-39" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_overlap_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-39">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -930,11 +930,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-40" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-40" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_accordian_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-40">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -942,11 +942,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-41" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_accordian_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-41" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_accordian_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-41">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用三次手风琴折叠。</p>
                       </figcaption>
                     </figure>
@@ -961,11 +961,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-42" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_do.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-42" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_distort_do.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-42">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要扭曲图标。</p>
                       </figcaption>
                     </figure>
@@ -974,11 +974,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-43" src="<?php static_url('../static/media/style/icon/style_logos_product_patterns_distort_dont.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-43" src="<?= static_url('../static/media/style/icon/style_logos_product_patterns_distort_dont.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-43">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                       </figcaption>
                     </figure>
                   </div>
@@ -994,7 +994,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-44" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-44" src="<?= static_url('../static/media/style/icon/style_icons_product_human_form1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-44">
@@ -1006,7 +1006,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-45" src="<?php static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-45" src="<?= static_url('../static/media/style/icon/style_icons_product_human_form2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-45">
@@ -1022,7 +1022,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-46" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-46" src="<?= static_url('../static/media/style/icon/style_icons_product_human_keyline1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-46">
@@ -1034,7 +1034,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-47" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-47" src="<?= static_url('../static/media/style/icon/style_icons_product_human_keyline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-47">
@@ -1049,7 +1049,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-48" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-48" src="<?= static_url('../static/media/style/icon/style_icons_product_human_keyline3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-48">
@@ -1061,7 +1061,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-49" src="<?php static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-49" src="<?= static_url('../static/media/style/icon/style_icons_product_human_keyline4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-49">
@@ -1077,7 +1077,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-50" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-50" src="<?= static_url('../static/media/style/icon/style_icons_product_human_dimension1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-50">
@@ -1089,7 +1089,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-51" src="<?php static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-51" src="<?= static_url('../static/media/style/icon/style_icons_product_human_dimension2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-51">
@@ -1106,7 +1106,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-52" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-52" src="<?= static_url('../static/media/style/icon/style_icons_product_human_gestures1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-52">
@@ -1118,7 +1118,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-53" src="<?php static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-53" src="<?= static_url('../static/media/style/icon/style_icons_product_human_gestures2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-53">
@@ -1134,11 +1134,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-54" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_do1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-54" src="<?= static_url('../static/media/style/icon/style_icons_product_human_best_do1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-54">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用简单的形状作为背景轮廓。</p>
                       </figcaption>
                     </figure>
@@ -1147,11 +1147,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-55" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-55" src="<?= static_url('../static/media/style/icon/style_icons_product_human_best_dont1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-55">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用复杂的形状作为背景轮廓。</p>
                       </figcaption>
                     </figure>
@@ -1163,11 +1163,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-56" src="<?php static_url('../static/media/style/icon/style-icons-product-human-best-do3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-56" src="<?= static_url('../static/media/style/icon/style-icons-product-human-best-do3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-56">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用直线和曲线边缘来平衡视觉效果。。</p>
                       </figcaption>
                     </figure>
@@ -1176,11 +1176,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="product-icons-figure-caption-57" src="<?php static_url('../static/media/style/icon/style_icons_product_human_best_dont3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="product-icons-figure-caption-57" src="<?= static_url('../static/media/style/icon/style_icons_product_human_best_dont3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="product-icons-figure-caption-57">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要在手臂的尾部使用圆形，也不要裁剪手臂。</p>
                       </figcaption>
                     </figure>
@@ -1210,7 +1210,7 @@
                     <p>
                       <div class="modulettes">
                         <a class="modulette container default" href="https://www.google.com/design/icons/" target="_blank">
-                          <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
+                          <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/default.svg'); ?>" loading="lazy">
                           <div class="info">
                             <div class="title">Material design 图标</div>
                           </div>
@@ -1224,7 +1224,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 48.0263157895%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_intro.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_intro.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -1242,7 +1242,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-0" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-0" src="<?= static_url('../static/media/style/icon/style_icons_system_intro_principles_simple.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-0">
@@ -1254,7 +1254,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-1" src="<?= static_url('../static/media/style/icon/style_icons_system_intro_principles_intuitive.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-1">
@@ -1269,7 +1269,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-2" src="<?= static_url('../static/media/style/icon/style_icons_system_intro_principles_actionable.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-2">
@@ -1281,7 +1281,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-4" src="<?= static_url('../static/media/style/icon/style_icons_system_intro_principles_consistent.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-4">
@@ -1303,7 +1303,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-4" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-4">
@@ -1313,7 +1313,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-5" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_unitgrid_100_dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-5">
@@ -1325,7 +1325,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-6" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-6">
@@ -1335,7 +1335,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-7" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_icongrid_800_dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-7">
@@ -1353,7 +1353,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-8" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_icongrid_grid.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-8">
@@ -1365,7 +1365,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-9" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_icongrid_keylines.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-9">
@@ -1387,7 +1387,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-10" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_area_live.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-10">
@@ -1398,7 +1398,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-11" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_area_live_dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-11">
@@ -1411,7 +1411,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-12" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-12" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_area_trim.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-12">
@@ -1422,7 +1422,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-13" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-13" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_area_trim_dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-13">
@@ -1441,7 +1441,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-14" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-14" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_shapes_square.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-14">
@@ -1455,7 +1455,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-15" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-15" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_shapes_circle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-15">
@@ -1471,7 +1471,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-16" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-16" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_shapes_vert_rectangle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-16">
@@ -1485,7 +1485,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-17" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-17" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_shapes_hori_rectangle.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-17">
@@ -1505,7 +1505,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-18" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-18" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_geometry1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-18">
@@ -1517,7 +1517,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-19" src="<?php static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-19" src="<?= static_url('../static/media/style/icon/style_icons_system_grid_geometry2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-19">
@@ -1542,7 +1542,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -1559,7 +1559,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-20" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-20" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_corner_exterior.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-20">
@@ -1571,7 +1571,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-21" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-21" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_corner_interior.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-21">
@@ -1589,7 +1589,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-22" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-22" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_consistency.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-22">
@@ -1601,7 +1601,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-23" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-23" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_curves.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-23">
@@ -1616,7 +1616,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-24" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-24" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_terminal-1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-24">
@@ -1628,7 +1628,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-25" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-25" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_strokes_counter.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-25">
@@ -1647,7 +1647,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-26" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-26" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_optical_complex.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-26">
@@ -1660,7 +1660,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-27" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-27" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_optical_small.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-27">
@@ -1680,7 +1680,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-28" src="<?php static_url('../static/media/style/icon/style-icons-system-anatomy-clearance-area.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-28" src="<?= static_url('../static/media/style/icon/style-icons-system-anatomy-clearance-area.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-28">
@@ -1692,7 +1692,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-29" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-29" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_clearance__area_dense.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-29">
@@ -1706,7 +1706,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-30" src="<?php static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-30" src="<?= static_url('../static/media/style/icon/style_icons_system_anatomy_clearance_placement.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-30">
@@ -1726,11 +1726,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-31" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-31" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-31">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用一致的笔画粗细和方形的笔画末端。</p>
                       </figcaption>
                     </figure>
@@ -1739,11 +1739,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-32" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-32" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-32">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用不一致的笔画粗细或圆形的笔画末端。</p>
                       </figcaption>
                     </figure>
@@ -1755,11 +1755,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-33" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-33" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-33">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>显示图标的正前方，使其显得更稳固。</p>
                       </figcaption>
                     </figure>
@@ -1768,11 +1768,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-34" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-34" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-34">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要倾斜、旋转、或使图标看起来很立体。</p>
                       </figcaption>
                     </figure>
@@ -1784,11 +1784,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-35" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-35" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-35">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>简化图标以提高清晰度和可读性。</p>
                       </figcaption>
                     </figure>
@@ -1797,11 +1797,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-36" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-36" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-36">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要过度拟物化。避免复杂的图标。</p>
                       </figcaption>
                     </figure>
@@ -1813,11 +1813,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-37" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-37" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-37">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>图标要生动大胆。</p>
                       </figcaption>
                     </figure>
@@ -1826,11 +1826,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-38" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-38" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-38">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用柔和、纤细的笔画。</p>
                       </figcaption>
                     </figure>
@@ -1842,11 +1842,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-39" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-39" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-39">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用一致的几何形状。</p>
                       </figcaption>
                     </figure>
@@ -1855,11 +1855,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-40" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-40" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-40">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用手势或松散的几何形状。</p>
                       </figcaption>
                     </figure>
@@ -1871,11 +1871,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 136.666666667%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-41" src="<?php static_url('../static/media/style/icon/style_icons_system_best_do6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-41" src="<?= static_url('../static/media/style/icon/style_icons_system_best_do6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-41">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>图标的位置与像素对齐 – 意味着 X 和 Y 轴的坐标都应该为整数，不出现小数。</p>
                         <p>图标的宽度和高度应该相等（例如 24x24），避免使图标变形。</p>
                       </figcaption>
@@ -1885,11 +1885,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 136.666666667%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-42" src="<?php static_url('../static/media/style/icon/style_icons_system_best_dont6.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-42" src="<?= static_url('../static/media/style/icon/style_icons_system_best_dont6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-42">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要把图标放在不是整数像素值的坐标上。</p>
                         <p>不要通过给图标不一样的宽度和高度来扭曲图标。</p>
                       </figcaption>
@@ -1912,7 +1912,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-43" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-43" src="<?= static_url('../static/media/style/icon/style_icons_system_human_anatomy1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-43">
@@ -1924,7 +1924,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-44" src="<?php static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-44" src="<?= static_url('../static/media/style/icon/style_icons_system_human_anatomy2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-44">
@@ -1940,7 +1940,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-45" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-45" src="<?= static_url('../static/media/style/icon/style_icons_system_human_form1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-45">
@@ -1952,7 +1952,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-46" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-46" src="<?= static_url('../static/media/style/icon/style_icons_system_human_form2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-46">
@@ -1967,7 +1967,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-47" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-47" src="<?= static_url('../static/media/style/icon/style_icons_system_human_form3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-47">
@@ -1979,7 +1979,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-48" src="<?php static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-48" src="<?= static_url('../static/media/style/icon/style_icons_system_human_form4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-48">
@@ -1995,7 +1995,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-49" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-49" src="<?= static_url('../static/media/style/icon/style_icons_system_human_fullbody1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-49">
@@ -2007,7 +2007,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_human_fullbody2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2019,7 +2019,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-50" src="<?php static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-50" src="<?= static_url('../static/media/style/icon/style_icons_system_human_fullbody3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-50">
@@ -2036,7 +2036,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-51" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-51" src="<?= static_url('../static/media/style/icon/style_icons_system_human_upperbody1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-51">
@@ -2048,7 +2048,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_human_upperbody2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2060,7 +2060,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 63.1578947368%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-52" src="<?php static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-52" src="<?= static_url('../static/media/style/icon/style_icons_system_human_upperbody3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-52">
@@ -2077,7 +2077,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-53" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-53" src="<?= static_url('../static/media/style/icon/style_icons_system_human_contained1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-53">
@@ -2089,7 +2089,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_contained2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_human_contained2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2102,7 +2102,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-54" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-54" src="<?= static_url('../static/media/style/icon/style_icons_system_human_detailedparts1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-54">
@@ -2114,7 +2114,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_human_detailedparts2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_human_detailedparts2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2128,11 +2128,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-55" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-55" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_do1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-55">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用一致的笔画粗细，以及在手臂/腿部末端使用直角。</p>
                       </figcaption>
                     </figure>
@@ -2141,11 +2141,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-56" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-56" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_dont1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-56">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用不一致的笔画粗细和圆角的手臂/腿部末端。</p>
                       </figcaption>
                     </figure>
@@ -2157,11 +2157,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-57" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-57" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_do2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-57">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>为了清晰可见，请对齐元素以简化轮廓。</p>
                       </figcaption>
                     </figure>
@@ -2170,11 +2170,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-58" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-58" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_dont2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-58">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要裁剪手臂/腿的部分</p>
                       </figcaption>
                     </figure>
@@ -2186,11 +2186,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-59" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-59" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_do3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-59">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>在需要包含时，把元素完全嵌入容器内。</p>
                       </figcaption>
                     </figure>
@@ -2199,11 +2199,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-60" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-60" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_dont3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-60">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要让元素破坏容器边界。</p>
                       </figcaption>
                     </figure>
@@ -2215,11 +2215,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-61" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-61" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_do4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-61">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>当人物可以帮助增强图标的含义时，请在图标中添加人物。</p>
                       </figcaption>
                     </figure>
@@ -2228,11 +2228,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-62" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-62" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_dont4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-62">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>当人物会增加图标的复杂性时，不要添加人物。</p>
                       </figcaption>
                     </figure>
@@ -2244,11 +2244,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-63" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_do5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-63" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_do5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-63">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>使用最简单的形状来表示人物特征。</p>
                       </figcaption>
                     </figure>
@@ -2257,11 +2257,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="system-icons-figure-caption-64" src="<?php static_url('../static/media/style/icon/style_icons_system_human_best_dont5.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="system-icons-figure-caption-64" src="<?= static_url('../static/media/style/icon/style_icons_system_human_best_dont5.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="system-icons-figure-caption-64">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要把人物特征应用到一个没有生命的物体中。</p>
                       </figcaption>
                     </figure>
@@ -2279,7 +2279,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.6666666667%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color1.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_color1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2288,7 +2288,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 56.6666666667%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style_icons_system_color2.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style_icons_system_color2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                     </figure>
@@ -2321,7 +2321,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 47.3684210526%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-0" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-0" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_01_intro.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-0">
@@ -2351,7 +2351,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-1" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-1" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_02_icon1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-1">
@@ -2364,7 +2364,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-2" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-2" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_03_icon2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-2">
@@ -2396,7 +2396,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-3" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-3" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_04_standard1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-3">
@@ -2409,7 +2409,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-4" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-4" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_05_standard2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-4">
@@ -2425,11 +2425,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-5" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-5" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_06_standard3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-5">
-                        <p class="s-tag-caption do"><?php echo $translate['do']; ?></p>
+                        <p class="s-tag-caption do"><?= $translate['do']; ?></p>
                         <p>图标的颜色需要和 Material Grey 100 的背景色有足够的对比度。</p>
                       </figcaption>
                     </figure>
@@ -2438,11 +2438,11 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-6" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-6" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_07_standard4.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-6">
-                        <p class="s-tag-caption dont"><?php echo $translate['dont']; ?></p>
+                        <p class="s-tag-caption dont"><?= $translate['dont']; ?></p>
                         <p>不要使用和灰色背景没有足够对比度的颜色。</p>
                       </figcaption>
                     </figure>
@@ -2467,7 +2467,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-7" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-7" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_08_single1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-7">
@@ -2480,7 +2480,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-8" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-8" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_09_single2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-8">
@@ -2511,7 +2511,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-9" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-9" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_10_group1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-9">
@@ -2526,7 +2526,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-10" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-10" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_11_group2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-10">
@@ -2542,7 +2542,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-11" src="<?php static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="app-shortcut-icons-figure-caption-11" src="<?= static_url('../static/media/style/icon/style_icons_launcher_shortcuts_12_group3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="app-shortcut-icons-figure-caption-11">
@@ -2578,8 +2578,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-02.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-02.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-02.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-02.mp4'); ?>" type="video/mp4">
                           </video>
                         </div>
                       </div>
@@ -2599,7 +2599,7 @@
                     </ul>
                     <div class="modulettes">
                       <a class="modulette container android" href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive.html" target="_blank">
-                        <img alt="" class="icon callout-icon" src="<?php static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
+                        <img alt="" class="icon callout-icon" src="<?= static_url('../static/spec/images/callouts/android.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">适配启动图标</div>
                         </div>
@@ -2610,7 +2610,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" src="<?php static_url('../static/media/style/icon/style-icons-android-03.png'); ?>" loading="lazy"/>
+                          <img alt="" src="<?= static_url('../static/media/style/icon/style-icons-android-03.png'); ?>" loading="lazy"/>
                          </div>
                       </div>
                     </figure>
@@ -2635,8 +2635,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-04.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-04.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-04.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-04.mp4'); ?>" type="video/mp4">
                           </video>
                         </div>
                       </div>
@@ -2676,8 +2676,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="icons-for-android-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-05.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-05.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-05.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-05.mp4'); ?>" type="video/mp4">
                           </video>
                         </div>
                       </div>
@@ -2691,8 +2691,8 @@
                       <div class="media" style="max-width: 720px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 100.0%">
                           <video aria-describedby="icons-for-android-figure-caption-1" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-06.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/style/icon/style-icons-android-06.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-06.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/style/icon/style-icons-android-06.mp4'); ?>" type="video/mp4">
                           </video>
                         </div>
                       </div>
@@ -2716,7 +2716,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="icons-for-android-figure-caption-2" src="<?php static_url('../static/media/style/icon/style-icons-android-07.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-for-android-figure-caption-2" src="<?= static_url('../static/media/style/icon/style-icons-android-07.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-for-android-figure-caption-2">
@@ -2753,7 +2753,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="icons-for-android-figure-caption-3" src="<?php static_url('../static/media/style/icon/style-icons-android-08.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-for-android-figure-caption-3" src="<?= static_url('../static/media/style/icon/style-icons-android-08.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-for-android-figure-caption-3">
@@ -2780,7 +2780,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="icons-for-android-figure-caption-4" src="<?php static_url('../static/media/style/icon/style-icons-android-09.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-for-android-figure-caption-4" src="<?= static_url('../static/media/style/icon/style-icons-android-09.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-for-android-figure-caption-4">
@@ -2794,7 +2794,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="icons-for-android-figure-caption-5" src="<?php static_url('../static/media/style/icon/style-icons-android-10.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-for-android-figure-caption-5" src="<?= static_url('../static/media/style/icon/style-icons-android-10.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-for-android-figure-caption-5">
@@ -2813,7 +2813,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame" style="padding-top: 100.0%">
-                          <img alt="" aria-describedby="icons-for-android-figure-caption-6" src="<?php static_url('../static/media/style/icon/style-icons-android-11.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="icons-for-android-figure-caption-6" src="<?= static_url('../static/media/style/icon/style-icons-android-11.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="icons-for-android-figure-caption-6">
@@ -2850,8 +2850,8 @@
                     <h2>资源</h2>
                     <p>此贴片为 Android 启动图标网格中的层和形状提供了指导。</p>
                     <div class="modulettes">
-                      <a class="modulette download trackdl" download="" href="<?php static_url('../static/media/style/icon/stickersheet-android-icons-20170807.ai'); ?>" title="Icons for Android sticker sheet for Adobe Illustrator">
-                        <img alt="" class="icon download-icon" src="<?php static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
+                      <a class="modulette download trackdl" download="" href="<?= static_url('../static/media/style/icon/stickersheet-android-icons-20170807.ai'); ?>" title="Icons for Android sticker sheet for Adobe Illustrator">
+                        <img alt="" class="icon download-icon" src="<?= static_url('../static/spec/images/callouts/download.svg'); ?>" loading="lazy"/>
                         <div class="info">
                           <div class="title">适用于 Adobe Illustrator 的 Android 图标贴片</div>
                           <span class="subtitle">0.36 MB (.ai)</span>

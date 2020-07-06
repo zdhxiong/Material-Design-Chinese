@@ -127,7 +127,6 @@ function get_url($url)
         return STATIC_PATH . '/' . explode('static/', $url, 2)[1];
     }
 
-
     $backtrace = debug_backtrace();
     $last_backtrace = array_pop($backtrace);
     $path = dirname($last_backtrace['args'][0]);
@@ -153,7 +152,7 @@ function get_url($url)
  */
 function url($url)
 {
-    echo get_url($url);
+    return get_url($url);
 }
 
 /**
@@ -166,7 +165,7 @@ function static_url($assets)
         $assets = STATIC_PATH . '/' . explode('static/', $assets, 2)[1];
     }
 
-    echo $assets;
+    return $assets;
 }
 
 /**

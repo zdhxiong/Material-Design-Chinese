@@ -3,7 +3,7 @@
 <div id="grid-cont">
   <section class="grid_outer chapter">
 
-    <h1 class="chapter-title"><?php echo $vars['title'] ?></h1>
+    <h1 class="chapter-title"><?= $vars['title'] ?></h1>
     <div class="gas-h1-bottom"></div>
 
     <div class="chapter-content">
@@ -32,7 +32,7 @@
                 <figure class="s-tag-media">
                   <div class="media" style="max-width: 3000px">
                     <div class="frame " style="padding-top: 100.0%">
-                      <img alt="" src="<?php static_url('../static/media/components/chips/components_chips.png'); ?>" loading="lazy"/>
+                      <img alt="" src="<?= static_url('../static/media/components/chips/components_chips.png'); ?>" loading="lazy"/>
                     </div>
                   </div>
                 </figure>
@@ -83,7 +83,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 55.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-0" src="<?= static_url('../static/media/components/chips/components_acux_chips_chiptxt.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-0">
@@ -100,7 +100,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 55.5555555556%">
-                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="usage-figure-caption-1" src="<?= static_url('../static/media/components/chips/components_acux_chips_chipstxticon.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="usage-figure-caption-1">
@@ -136,8 +136,8 @@
                       <div class="media" style="max-width: 1520px">
                         <div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 20.0%">
                           <video aria-describedby="behavior-figure-caption-0" controls="" loop="" preload="auto">
-                            <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.webm'); ?>" type="video/webm">
-                            <source src="<?php static_url('../static/media/components/chips/components_acux_chips_deleting.mp4'); ?>" type="video/mp4">
+                            <source src="<?= static_url('../static/media/components/chips/components_acux_chips_deleting.webm'); ?>" type="video/webm">
+                            <source src="<?= static_url('../static/media/components/chips/components_acux_chips_deleting.mp4'); ?>" type="video/mp4">
                             </source></source>
                           </video>
                         </div>
@@ -174,7 +174,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_chips_contact1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-0" src="<?= static_url('../static/media/components/chips/components_chips_contact1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-0">
@@ -186,7 +186,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 177.777777778%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_chips_contact2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-1" src="<?= static_url('../static/media/components/chips/components_chips_contact2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-1">
@@ -203,7 +203,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 1520px">
                         <div class="frame " style="padding-top: 145.526315789%">
-                          <img alt="" aria-describedby="contact-chips-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact3.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="contact-chips-figure-caption-2" src="<?= static_url('../static/media/components/chips/components_chips_contact3.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="contact-chips-figure-caption-2">
@@ -236,7 +236,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 37.7777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?php static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-0" src="<?= static_url('../static/media/components/chips/components_acux_chips_deletable_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-0">
@@ -255,7 +255,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 37.7777777778%">
-                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?php static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-1" src="<?= static_url('../static/media/components/chips/components_acux_chips_nondeletecontact_rl.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-1">
@@ -293,7 +293,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 13.3333333333%">
-                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-2" src="<?= static_url('../static/media/components/chips/components_chips_contact_keyline1.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-2">
@@ -308,7 +308,7 @@
                     <figure class="s-tag-media">
                       <div class="media" style="max-width: 720px">
                         <div class="frame " style="padding-top: 60.0%">
-                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?php static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>" loading="lazy"/>
+                          <img alt="" aria-describedby="specs-figure-caption-3" src="<?= static_url('../static/media/components/chips/components_chips_contact_keyline2.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
                       <figcaption id="specs-figure-caption-3">
