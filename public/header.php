@@ -49,7 +49,7 @@
   </button>
 </nav>
 
-<form id="search-form" action="https://material.io/guidelines/search.html" method="GET">
+<form id="search-form" action="https://cn.bing.com/search" method="GET">
   <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
     <button class="search-button"><i class="material-icons">search</i></button>
     <button class="search-close-button"><i class="material-icons">close</i></button>
