@@ -21,6 +21,7 @@
   <?php if (strpos(STATIC_PATH, 'http') === 0 || strpos(STATIC_PATH, '//') === 0): ?>
     <link rel="preconnect" href="<?= implode('/', array_slice(explode('/', STATIC_PATH), 0, 3)) ?>">
   <?php endif; ?>
+  <link rel="preconnect" href="//cdn.jsdelivr.net">
   <link rel="icon" sizes="192x192" href="<?= url('static/media/public/guidelines-icon-192x192.png') ?>">
   <link rel="shortcut icon" href="<?= url('static/media/public/guidelines-icon-72x72.png') ?>">
   <link rel="apple-touch-icon" href="<?= url('static/media/public/guidelines-icon-72x72.png') ?>">
