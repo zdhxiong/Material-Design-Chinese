@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>选择控件允许用户对选项进行选择。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

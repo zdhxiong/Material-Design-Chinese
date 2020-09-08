@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material Design 中的配色灵感来自大胆的色调与柔和的环境、深度的阴影、明亮的高光并存。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="figure col-1">
               <div class="figure">

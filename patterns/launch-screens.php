@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>启动页是用户对应用的第一个体验。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

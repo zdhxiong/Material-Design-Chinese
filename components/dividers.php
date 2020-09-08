@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>分隔线是一个细长、轻量的元素，用于对列表和页面布局中的内容进行分组。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

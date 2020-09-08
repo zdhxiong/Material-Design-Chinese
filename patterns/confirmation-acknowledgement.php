@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>当用户在应用中执行操作时，通过文本确认或确知该操作。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
       <nav class="chapter-toc">

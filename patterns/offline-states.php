@@ -7,6 +7,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>离线状态可以让没有连接到互联网的用户使用应用。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

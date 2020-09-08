@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>图片，包括插图和照片，可分三个阶段加载。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

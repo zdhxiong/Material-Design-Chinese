@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>滚动技术影响内容相对于应用栏滚动的方式。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

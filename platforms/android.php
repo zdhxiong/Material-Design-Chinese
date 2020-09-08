@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material Design 的多种交互方式是 Android 平台特有的，我们专门提供了这些交互的设计指南。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <p>以下设计指南专门针对 Android 上的交互效果：</p>
           <ul class="lst-kix_8k696vbjtkz9-0 start">
             <li><a href="../patterns/notifications.html">通知</a></li>

@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>滑块控件允许用户通过移动滑块从一系列的值中进行选择。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module"><p>滑块是用于调整反映强度级别（如音量、亮度或色彩饱和度）的设置的理想组件。</p>

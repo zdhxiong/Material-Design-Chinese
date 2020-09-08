@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>通过单击底部导航栏，你能轻松地在应用的不同视图之间切换。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

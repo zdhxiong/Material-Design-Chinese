@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Snackbars 在屏幕的底部提供有关操作的简洁的反馈。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

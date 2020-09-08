@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>纸片是一种小块的用来呈现复杂实体的块，比如联系人。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module"><p>纸片可以包含一张照片、文本、一个图标、或者一个联系人。</p>

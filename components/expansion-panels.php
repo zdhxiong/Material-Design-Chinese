@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>扩展面板的功能包括创建流程、进行简单的编辑。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module"><p>扩展面板是一个轻量级的容器，可以单独存在，也可以连接到一个更大的平面上，比如卡片。</p>

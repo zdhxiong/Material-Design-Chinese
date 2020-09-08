@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>搜索可以使用户快速查找应用内容。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

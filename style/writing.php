@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>无论用户拥有怎样的文化和语言，无论在何地，文本都应该能被用户理解。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-module col-3 h3-spacing">
               <div class="module">

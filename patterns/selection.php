@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>“选择” 使用户可以通过手势或视觉提示进行选择</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

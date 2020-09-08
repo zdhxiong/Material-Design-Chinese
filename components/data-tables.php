@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>数据表格显示原始的数据集。它们通常出现在桌面端的企业产品中。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

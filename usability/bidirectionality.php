@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>从右向左（RTL）阅读的语言，例如阿拉伯语和希伯来语，其 UI 应该被镜像，以确保内容易于理解。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <p></p>
         </div>
       </div>

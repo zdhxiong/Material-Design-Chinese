@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>在 Material Design 的世界中，动效用于描述空间关系、功能以及提供优雅流畅的交互效果。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="figure col-1">
               <div class="figure">

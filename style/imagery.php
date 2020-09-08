@@ -10,6 +10,7 @@
 
       <div class="article-content chapter-intro">
         <div>
+          <div class="gas-intro-h1-bottom"></div>
           <figure class="s-tag-media">
             <div class="media" style="max-width: 2320px">
               <div class="frame " style="padding-top: 56.8965517241%">

@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>应用的设置功能可以让用户指定它们的偏好，以确定应用或服务应如何运作。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

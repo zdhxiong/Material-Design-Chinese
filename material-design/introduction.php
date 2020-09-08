@@ -18,6 +18,7 @@
             </div>
           </figure>
           <h1>Material Design 是我们将经典的设计原则和科技、创新相结合而创造的设计语言。这份文档会随着我们对 Material Design 的探索而不断更新。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

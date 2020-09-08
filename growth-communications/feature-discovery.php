@@ -10,7 +10,8 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>通过向用户介绍与用户所处情境相关的新特性和功能，为用户提供有价值的信息，并鼓励回访。</p>
+          <h1>通过向用户介绍与用户所处情境相关的新特性和功能，为用户提供有价值的信息，并鼓励回访。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

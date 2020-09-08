@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>对话框用于提示用户做一些决定，或者提供完成某个任务时需要的一些其他额外信息。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

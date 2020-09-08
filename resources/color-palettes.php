@@ -10,6 +10,7 @@
 
       <div class="article-content chapter-intro">
         <div>
+          <div class="gas-intro-h1-bottom"></div>
           <p>这个 zip 文件包含 Adobe Photoshop 和 Adobe Illustrator 的颜色色板，你可以直接下载安装。zip 文件中的 Read-Me.pdf 是安装指南，它会教你如何把 .aco 文件安装到 Photoshop，以及如何把 .ase 文件安装到 Illustrator。</p>
           <p>关于 Material Design 中的更多关于颜色的信息，详见<a href="../style/color.html">颜色</a>。</p>
           <div class="modulettes">

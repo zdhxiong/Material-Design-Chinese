@@ -12,6 +12,7 @@
         <div>
           <p><strong>仅支持 Android</strong></p>
           <h1>指纹识别可用于解锁设备，登录应用以及用于 Google Play 和某些第三方应用的购买的验证。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

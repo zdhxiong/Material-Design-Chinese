@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>文本框允许用户输入、编辑和选择文本。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

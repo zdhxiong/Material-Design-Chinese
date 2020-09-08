@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>小部件显示一个供快速浏览的视图，主要用于显示应用最重要的数据和功能。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

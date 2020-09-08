@@ -10,6 +10,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>底部卡片是从屏幕底部边缘向上滑出的一个面板，它用于向用户展示额外的内容。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

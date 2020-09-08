@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>导览，通常表示“热烈欢迎”，是用户使用应用时的开箱体验。使用下面其中一种模式来为用户注入导览。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

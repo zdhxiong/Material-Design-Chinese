@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>导航转换是在应用的不同状态间移动，例如从高级视图进入详细视图。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

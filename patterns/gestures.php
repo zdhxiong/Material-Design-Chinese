@@ -12,6 +12,7 @@
         <div>
           <p><strong>仅支持移动端</strong></p>
           <h1>手势包括<strong>触摸方法</strong>（手指在屏幕上做什么）和<strong>触摸动作</strong>（特定手势引发的结果）。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

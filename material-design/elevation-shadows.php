@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material Design 中的物体与物理世界中的物体有很多相似的特性。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

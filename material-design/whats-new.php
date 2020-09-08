@@ -9,7 +9,9 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><h1>September 2017</h1>
+        <div>
+          <h1>September 2017</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <p><strong>New sections</strong></p>
           <ul class="lst-kix_7b172x40bap-0 start">
             <li><a href="../patterns/offline-states.html">Offline states</a> describes how to customize apps for users

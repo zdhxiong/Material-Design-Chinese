@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>使用格式化的数据，来表示不同类型的数值和语言。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-module col-3 h3-spacing">
               <div class="module">

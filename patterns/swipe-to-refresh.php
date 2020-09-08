@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>滑动刷新功能可以通过用户的操作或手势来手动刷新屏幕内容。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

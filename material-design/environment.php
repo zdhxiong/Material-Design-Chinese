@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material design 是一个包含光线、材料和投射阴影的三维环境。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

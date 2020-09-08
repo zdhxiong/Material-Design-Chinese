@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>网格列表是一个标准列表的替代方案。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

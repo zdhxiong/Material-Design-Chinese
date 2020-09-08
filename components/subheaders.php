@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>副标题是用于描述列表或网格列表中的一部分的列表瓦片。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

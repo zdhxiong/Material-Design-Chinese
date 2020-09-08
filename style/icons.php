@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>材料图标使用几何形状来直观地表达核心思想、特性或主题。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

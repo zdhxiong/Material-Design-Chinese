@@ -12,6 +12,7 @@
         <div>
           <h2>仅支持 Android</h2>
           <h1>分屏模式支持在屏幕上同时显示两个活动。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

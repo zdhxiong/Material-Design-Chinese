@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>成长和沟通指南包含了最佳实践和组件，以帮助用户快速直观地了解应用的功能，指南包括<a href="onboarding.html">导览</a>，<a href="feature-discovery.html">特性探索</a>，和<a href="gesture-education.html">附加手势</a>。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module col-1">
               <div class="module">

@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>有些单位在不同的情境下有不同的含义。本章讨论与设备无关的像素、可缩放像素以及像素密度等概念的用法。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

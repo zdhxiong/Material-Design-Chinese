@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>无障碍设计使任何人（无论什么能力）都能成功地浏览、理解和使用您的应用。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

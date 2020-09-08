@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Roboto 和 Noto 是 Android 和 Chrome 上的标准字体。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

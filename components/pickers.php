@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>选择器提供了一个简单的方法来从一个预定义的集合中选取单个值。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

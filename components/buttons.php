@@ -10,6 +10,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>按钮用于传递用户触摸时会触发的操作。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

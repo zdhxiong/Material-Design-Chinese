@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>列表将多行项目垂直显示成一个连续的元素。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

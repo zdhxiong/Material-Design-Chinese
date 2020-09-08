@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>无法显示项目的内容时会显示空状态。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

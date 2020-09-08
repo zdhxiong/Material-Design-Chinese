@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>列表控件为列表项提供信息和操作。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module"><p>列表控件提供列表项的信息、指示状态或显示操作。列表控件以图标的形式显示在文本左侧或右侧。</p>

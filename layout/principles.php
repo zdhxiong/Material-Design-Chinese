@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material Design 指南通过源自印刷领域的设计元素 – 例如排版、网格、空白、缩放、颜色，和图像 – 来建立层次结构和传达所要表达的含义，并专注于带给用户沉浸式的体验。Material Design 采用来自印刷设计领域的工具，如基准网格和结构模版，通过重复视觉元素，结构网格以及跨平台和屏幕尺寸的间距，促进不同环境下设计的一致性。这些布局可通过缩放来适应任何屏幕大小，这简化了创建可扩展应用的过程。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

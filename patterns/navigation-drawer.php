@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>抽屉式导航从左侧滑入，包含了应用的导航目标。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>帮助内容为用户的问题和疑虑提供解答。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

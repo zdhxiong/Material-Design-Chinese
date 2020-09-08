@@ -9,6 +9,7 @@
     <div class="chapter-content">
       <div class="article-content chapter-intro">
         <div>
+          <div class="gas-intro-h1-bottom"></div>
           <p>阴影提供了关于材料深度和运动方向的重要视觉线索。材料的海拔高度决定了阴影的外观。有关 Material Design 中视图的海拔高度和阴影的说明，请参阅设计指南中的 <a href="../material-design/elevation-shadows.html#elevation-shadows-shadows">阴影和海拔高度</a>。</p>
           <p>Android 和 Polymer 中关于阴影的开发文档：</p>
           <p></p>

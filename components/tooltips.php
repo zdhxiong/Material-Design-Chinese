@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <p>工具提示是一个文本标签，会在用户鼠标悬停、聚焦、或触摸一个元素时显示。</p>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

@@ -12,6 +12,7 @@
         <div>
           <p><strong>仅限 Android</strong></p>
           <h1>当应用不处于使用状态时，通知可以提供简短、即时和相关的信息。</h1>
+          <div class="gas-intro-h1-bottom"></div>
           <div class="col-list">
             <section class="module-module-figure col-3 h3-spacing">
               <div class="module">

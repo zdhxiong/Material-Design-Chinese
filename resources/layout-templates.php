@@ -8,7 +8,9 @@
 
     <div class="chapter-content">
 
-      <div class="article-content chapter-intro"></div>
+      <div class="article-content chapter-intro">
+        <div class="gas-intro-h1-bottom"></div>
+      </div>
 
       <nav class="chapter-toc">
         <h1>目录</h1>

@@ -10,7 +10,8 @@
 
       <div class="article-content chapter-intro">
         <div>
-          <p>附加手势帮助第一次使用应用的用户了解如何和特定元素交互，例如卡片。</p>
+          <h1>附加手势帮助第一次使用应用的用户了解如何和特定元素交互，例如卡片。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 

@@ -9,7 +9,10 @@
     <div class="chapter-content">
 
       <div class="article-content chapter-intro">
-        <div><h1>Material Design 中的响应式布局可以适配任何尺寸的屏幕。这个 UI 指南包括：用于确保布局一致性的弹性网格，在不同的屏幕上内容的断点细节，以及应用从小屏幕到大屏幕如何缩放的说明。</h1></div>
+        <div>
+          <h1>Material Design 中的响应式布局可以适配任何尺寸的屏幕。这个 UI 指南包括：用于确保布局一致性的弹性网格，在不同的屏幕上内容的断点细节，以及应用从小屏幕到大屏幕如何缩放的说明。</h1>
+          <div class="gas-intro-h1-bottom"></div>
+        </div>
       </div>
 
       <nav class="chapter-toc">

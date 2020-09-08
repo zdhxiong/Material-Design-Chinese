@@ -11,6 +11,7 @@
       <div class="article-content chapter-intro">
         <div>
           <h1>Material Design 支持跨平台的设计和可用性的最佳实践，以构建出色的用户体验。</h1>
+          <div class="gas-intro-h1-bottom"></div>
         </div>
       </div>
 
