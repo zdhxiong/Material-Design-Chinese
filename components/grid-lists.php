@@ -616,6 +616,7 @@
       </div>
     </div>
   </section>
+  <div class="gas-last-div-inner-bottom"></div>
 </div>
 
 <?php include SRC_PATH.'/public/footer.php'; ?>

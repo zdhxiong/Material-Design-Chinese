@@ -190,3 +190,28 @@ footer .footer-grid .footer-grid-R .footer-text span {
     text-align: center;
   }
 }
+
+.gas-last-div-inner-bottom {
+  margin: auto;
+  margin-bottom: -60px;
+  width: 1160px;
+}
+
+@media screen and (max-width: 1240px) {
+  .gas-last-div-inner-bottom {
+    width: 760px
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gas-last-div-inner-bottom {
+    margin-bottom: -10px;
+    width: 360px
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .gas-last-div-inner-bottom {
+    width: 100%
+  }
+}
