@@ -207,13 +207,6 @@
                   </div>
                 </section>
               </div>
-              <div class="col-list">
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module"></div>
-                  <div class="module"></div>
-                </section>
-              </div>
             </div>
           </div>
         </div>

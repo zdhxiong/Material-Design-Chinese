@@ -205,11 +205,6 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-module-module col-3">
-                  <div class="module"></div>
-                  <div class="module"></div>
-                  <div class="module"></div>
-                </section>
                 <section class="module-figure-figure col-3 h1-spacing">
                   <div class="module">
                     <h1>连续的 snackbar</h1>
