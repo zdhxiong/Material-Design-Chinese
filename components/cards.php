@@ -1223,14 +1223,14 @@
                     </figure>
                   </div>
                 </section>
-                <section class="module-figure-module col-3">
+                <section class="module-figure-module col-2">
                   <div class="module">
                     <p>需要更明确的视觉分离的内容区域应使用分隔线。</p>
                   </div>
                   <div class="figure">
                     <figure class="s-tag-media">
-                      <div class="media" style="max-width: 1000px">
-                        <div class="frame " style="padding-top: 163.9%">
+                      <div class="media" style="max-width: 1520px">
+                        <div class="frame " style="padding-top: 82.8947368421%">
                           <img alt="" aria-describedby="content-blocks-figure-caption-5" src="<?= static_url('../static/media/components/cards/components_cards_action6.png'); ?>" loading="lazy"/>
                         </div>
                       </div>
@@ -1239,7 +1239,6 @@
                       </figcaption>
                     </figure>
                   </div>
-                  <div class="module"></div>
                 </section>
                 <section class="module-figure col-2">
                   <div class="module">
