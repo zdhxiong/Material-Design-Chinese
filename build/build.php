@@ -14,7 +14,7 @@ require './vendor/autoload.php';
 define('SRC_PATH', __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'src'); // 源文件存放目录
 define('DIST_PATH', __DIR__ . DIRECTORY_SEPARATOR .'..' . DIRECTORY_SEPARATOR . 'dist'); // 生成的 HTML 文件存放目录
 
-if(realpath(DIST_PATH) === false) {
+if(realpath(DIST_PATH) === false || !is_dir(DIST_PATH)) {
     mkdir(DIST_PATH, 0644, true);
 }
 
