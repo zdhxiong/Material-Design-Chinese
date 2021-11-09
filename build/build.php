@@ -11,8 +11,12 @@ use Komalbarun\DirPy;
 
 require './vendor/autoload.php';
 
-define('SRC_PATH', __DIR__ . '/../src');   // 源文件存放目录
-define('DIST_PATH', __DIR__ . '/../dist'); // 生成的 HTML 文件存放目录
+define('SRC_PATH', __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'src'); // 源文件存放目录
+define('DIST_PATH', __DIR__ . DIRECTORY_SEPARATOR .'..' . DIRECTORY_SEPARATOR . 'dist'); // 生成的 HTML 文件存放目录
+
+if(realpath(DIST_PATH) === false) {
+    mkdir(DIST_PATH, 0644, true);
+}
 
 // 需要全局替换的变量，模板中用 {} 包裹
 $global_params = [
