@@ -32,7 +32,6 @@ php build.php
 * src/components/sliders.md
 * src/environment/elevation.md
 * src/environment/surfaces.md
-* src/foundation-overview/index.md
 * src/guidelines-overview/index.md
 * src/iconography/animated-icons.md
 * src/iconography/product-icons.md
@@ -74,6 +73,7 @@ php build.php
 * src/usability/index.md (@PaperFlu)
 * src/navigation/navigation-transitions.md (@zhiwei-xu)
 * src/navigation/understanding-navigation.md (@zhiwei-xu)
+* src/foundation-overview/index.md (@ClaireLind1)
 
 ## 已翻译完成的文件
 
